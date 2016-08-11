@@ -19,7 +19,7 @@ class LatencyProcessor:
         self.readLatency('../../../data/fvec.txt')
         self.query()
         self.write('../../../output/fvec.txt')
-        # self.debug()
+        self.debug()
 
     def readLatency(self, fileSrc):
         file = open(fileSrc, 'r')
