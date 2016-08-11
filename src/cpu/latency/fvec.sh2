@@ -1,0 +1,29 @@
+#!/bin/bash
+# Make Test GX CPU  Demo1
+
+# Detect CPU specific variables
+. vars.sh
+
+repeat0=10
+
+echo "" > GX/fvec.txt
+# instructions that have two operands, 128 bit
+for instruct in  movaps movapd movups movupd movddup movshdup movsldup                      \
+                 unpckhps unpcklpd cvtpd2ps cvtps2pd cvtdq2ps cvttps2dq cvtdq2pd cvtpd2dq   \
+                 addss subsd addps subpd addsubps haddps hsubpd mulss mulsd mulps mulpd     \
+                 cmpeqss cmpeqps cmpltpd comiss ucomisd maxss minsd minps maxpd andps orpd
+#movss movsd movlhps movhlps cvtsd2ss cvtss2sd
+do
+
+for regsize in  128
+do
+
+echo -e "\n\nLatency: $instruct r$regsize,r$regsize"  >> GX/fvec.txt
+$ass -f elf64 -o b64.o -Dinstruct=$instruct -Dnumop=2 -Dregsize=$regsize -Dcounters=$PMCs -Dtmode=L -Drepeat0=$repeat0 -Plt.inc TemplateB64.nasm
+if [ $? -ne 0 ] ; then exit ; fi
+g++ -m64 a64.o b64.o -ox -lpthread
+if [ $? -ne 0 ] ; then exit ; fi
+./x >> GX/fvec.txt
+
+done
+done
