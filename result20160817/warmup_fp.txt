@@ -1,0 +1,114 @@
+Test warm up effect of floating point unit
+
+integer multiplication
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5025       1046 
+      5050       1046 
+      5011       1046 
+      5011       1046 
+      5012       1046 
+      5018       1046 
+      5011       1046 
+      5012       1046 
+      5018       1046 
+      5011       1046 
+      5018       1046 
+      5012       1046 
+      5011       1046 
+      5018       1046 
+      5012       1046 
+      5018       1046 
+      5011       1046 
+      5012       1046 
+      5018       1046 
+      5011       1046 
+
+
+x87 floating point multiplication
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4348       1042 
+      4388       1042 
+      4355       1042 
+      4355       1042 
+      4348       1042 
+      4355       1042 
+      4355       1042 
+      4348       1042 
+      4355       1042 
+      4355       1042 
+      4348       1042 
+      4355       1042 
+      4355       1042 
+      4348       1042 
+      4355       1042 
+      4355       1042 
+      4836       1042 
+      4348       1042 
+      4355       1042 
+      4355       1042 
+
+
+xmm floating point scalar multiplication
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4355       1046 
+      4355       1046 
+      4394       1046 
+      4355       1046 
+      4381       1046 
+      4381       1046 
+      4374       1046 
+      4374       1046 
+      4374       1046 
+      4381       1046 
+      4381       1046 
+      4381       1046 
+      4375       1046 
+      4375       1046 
+      4375       1046 
+      4381       1046 
+      4381       1046 
+      4381       1046 
+      4374       1046 
+      4374       1046 
+
+
+xmm 128-bit floating point vector multiplication
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4440       1046 
+      4355       1046 
+      4394       1046 
+      4355       1046 
+      4355       1046 
+      4355       1046 
+      4349       1046 
+      4349       1046 
+      4349       1046 
+      4355       1046 
+      4355       1046 
+      4355       1046 
+      4348       1046 
+      4348       1046 
+      4348       1046 
+      4355       1046 
+      4355       1046 
+      4355       1046 
+      4349       1046 
+      4349       1046 
+
+

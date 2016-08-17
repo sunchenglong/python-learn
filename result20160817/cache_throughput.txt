@@ -1,0 +1,1892 @@
+
+Measure cache throughput by different memory sizes
+Test modes:
+R:    read only
+W:    write only
+RW:   read, then write to same address
+R_W:  read and write to different address
+RR_W: two reads and one write to different address
+NTR:  non-temporal read
+NTW:  non-temporal write
+
+
+===========================================
+
+test mode = R
+
+===========================================
+
+
+
+
+Size = 1 kB, stride = 64 Bytes, align = 64, total accesses = 16
+
+Processor 0
+     Clock clock/access 
+       105   6.562500 
+        59   3.687500 
+        59   3.687500 
+        72   4.500000 
+        20   1.250000 
+        72   4.500000 
+        20   1.250000 
+        39   2.437500 
+        20   1.250000 
+        39   2.437500 
+
+
+Size = 2 kB, stride = 64 Bytes, align = 64, total accesses = 32
+
+Processor 0
+     Clock clock/access 
+       130   4.062500 
+        66   2.062500 
+        98   3.062500 
+        98   3.062500 
+        59   1.843750 
+        40   1.250000 
+       111   3.468750 
+        78   2.437500 
+        59   1.843750 
+        59   1.843750 
+
+
+Size = 4 kB, stride = 64 Bytes, align = 64, total accesses = 64
+
+Processor 0
+     Clock clock/access 
+       195   3.046875 
+        98   1.531250 
+        98   1.531250 
+        98   1.531250 
+        98   1.531250 
+        98   1.531250 
+        92   1.437500 
+       144   2.250000 
+       144   2.250000 
+        92   1.437500 
+
+
+Size = 8 kB, stride = 64 Bytes, align = 64, total accesses = 128
+
+Processor 0
+     Clock clock/access 
+       365   2.851562 
+       195   1.523438 
+       208   1.625000 
+       189   1.476562 
+       189   1.476562 
+       189   1.476562 
+       189   1.476562 
+       189   1.476562 
+       189   1.476562 
+       189   1.476562 
+
+
+Size = 16 kB, stride = 64 Bytes, align = 64, total accesses = 256
+
+Processor 0
+     Clock clock/access 
+       793   3.097656 
+       338   1.320312 
+       409   1.597656 
+       358   1.398438 
+       338   1.320312 
+       338   1.320312 
+       338   1.320312 
+       338   1.320312 
+       338   1.320312 
+       338   1.320312 
+
+
+Size = 32 kB, stride = 64 Bytes, align = 64, total accesses = 512
+
+Processor 0
+     Clock clock/access 
+      3745   7.314453 
+       728   1.421875 
+       781   1.525391 
+       748   1.460938 
+       709   1.384766 
+       709   1.384766 
+       709   1.384766 
+       709   1.384766 
+       709   1.384766 
+       709   1.384766 
+
+
+Size = 64 kB, stride = 64 Bytes, align = 64, total accesses = 1024
+
+Processor 0
+     Clock clock/access 
+     15996  15.621094 
+      3497   3.415039 
+      2762   2.697266 
+      2795   2.729492 
+      2795   2.729492 
+      2788   2.722656 
+      2789   2.723633 
+      3029   2.958008 
+      3029   2.958008 
+      3029   2.958008 
+
+
+Size = 128 kB, stride = 64 Bytes, align = 64, total accesses = 2048
+
+Processor 0
+     Clock clock/access 
+     35764  17.462891 
+     35035  17.106934 
+     34964  17.072266 
+     35035  17.106934 
+     35062  17.120117 
+     35068  17.123047 
+     35068  17.123047 
+     35061  17.119629 
+     35062  17.120117 
+     35061  17.119629 
+
+
+Size = 256 kB, stride = 64 Bytes, align = 64, total accesses = 4096
+
+Processor 0
+     Clock clock/access 
+     66235  16.170654 
+     65774  16.058105 
+     64753  15.808838 
+     64753  15.808838 
+     64753  15.808838 
+     64753  15.808838 
+     64753  15.808838 
+     64760  15.810547 
+     64753  15.808838 
+     64759  15.810303 
+
+
+Size = 512 kB, stride = 64 Bytes, align = 64, total accesses = 8192
+
+Processor 0
+     Clock clock/access 
+    142617  17.409302 
+    140290  17.125244 
+    140355  17.133179 
+    140355  17.133179 
+    166024  20.266602 
+    141609  17.286255 
+    140296  17.125977 
+    140355  17.133179 
+    140778  17.184814 
+    140348  17.132324 
+
+
+Size = 1024 kB, stride = 64 Bytes, align = 64, total accesses = 16384
+
+Processor 0
+     Clock clock/access 
+    460915  28.132019 
+    299162  18.259399 
+    381439  23.281189 
+    297570  18.162231 
+    295100  18.011475 
+    296166  18.076538 
+    296185  18.077698 
+    295880  18.059082 
+    296341  18.087219 
+    293917  17.939270 
+
+
+Size = 2048 kB, stride = 64 Bytes, align = 64, total accesses = 32768
+
+Processor 0
+     Clock clock/access 
+   1331629  40.638092 
+    736989  22.491119 
+    815964  24.901245 
+    738029  22.522858 
+    735351  22.441132 
+    737100  22.494507 
+    736183  22.466522 
+    738445  22.535553 
+    734532  22.416138 
+    734363  22.410980 
+
+
+Size = 4096 kB, stride = 64 Bytes, align = 64, total accesses = 65536
+
+Processor 0
+     Clock clock/access 
+   2041143  31.145370 
+   1490190  22.738495 
+   1439841  21.970230 
+   1441199  21.990952 
+   1442252  22.007019 
+   1440432  21.979248 
+   1535053  23.423050 
+   1441563  21.996506 
+   1441999  22.003159 
+   1440172  21.975281 
+
+
+Size = 8192 kB, stride = 64 Bytes, align = 64, total accesses = 131072
+
+Processor 0
+     Clock clock/access 
+   3358251  25.621422 
+   2907144  22.179749 
+   2854059  21.774742 
+   2861625  21.832466 
+   2964494  22.617294 
+   2860110  21.820908 
+   2895327  22.089592 
+   2862580  21.839752 
+   2864433  21.853889 
+   2906735  22.176628 
+
+
+===========================================
+
+test mode = W
+
+===========================================
+
+
+
+
+Size = 1 kB, stride = 64 Bytes, align = 64, total accesses = 16
+
+Processor 0
+     Clock clock/access 
+        91   5.687500 
+        78   4.875000 
+        59   3.687500 
+        20   1.250000 
+        20   1.250000 
+        20   1.250000 
+        20   1.250000 
+        20   1.250000 
+        20   1.250000 
+        20   1.250000 
+
+
+Size = 2 kB, stride = 64 Bytes, align = 64, total accesses = 32
+
+Processor 0
+     Clock clock/access 
+       143   4.468750 
+        72   2.250000 
+        72   2.250000 
+        65   2.031250 
+        66   2.062500 
+        65   2.031250 
+        72   2.250000 
+        72   2.250000 
+        72   2.250000 
+        85   2.656250 
+
+
+Size = 4 kB, stride = 64 Bytes, align = 64, total accesses = 64
+
+Processor 0
+     Clock clock/access 
+       188   2.937500 
+       117   1.828125 
+       117   1.828125 
+       116   1.812500 
+       116   1.812500 
+       117   1.828125 
+       117   1.828125 
+       116   1.812500 
+       116   1.812500 
+       117   1.828125 
+
+
+Size = 8 kB, stride = 64 Bytes, align = 64, total accesses = 128
+
+Processor 0
+     Clock clock/access 
+       410   3.203125 
+       247   1.929688 
+       248   1.937500 
+       254   1.984375 
+       254   1.984375 
+       254   1.984375 
+       247   1.929688 
+       248   1.937500 
+       247   1.929688 
+       254   1.984375 
+
+
+Size = 16 kB, stride = 64 Bytes, align = 64, total accesses = 256
+
+Processor 0
+     Clock clock/access 
+       820   3.203125 
+       495   1.933594 
+       514   2.007812 
+       508   1.984375 
+       494   1.929688 
+       494   1.929688 
+       495   1.933594 
+       495   1.933594 
+       494   1.929688 
+       494   1.929688 
+
+
+Size = 32 kB, stride = 64 Bytes, align = 64, total accesses = 512
+
+Processor 0
+     Clock clock/access 
+      2652   5.179688 
+      1021   1.994141 
+      1047   2.044922 
+      1021   1.994141 
+       982   1.917969 
+       982   1.917969 
+       982   1.917969 
+       975   1.904297 
+       976   1.906250 
+       975   1.904297 
+
+
+Size = 64 kB, stride = 64 Bytes, align = 64, total accesses = 1024
+
+Processor 0
+     Clock clock/access 
+     11030  10.771484 
+      3048   2.976562 
+      3100   3.027344 
+      2607   2.545898 
+      2568   2.507812 
+      2568   2.507812 
+      2561   2.500977 
+      2626   2.564453 
+      2633   2.571289 
+      2626   2.564453 
+
+
+Size = 128 kB, stride = 64 Bytes, align = 64, total accesses = 2048
+
+Processor 0
+     Clock clock/access 
+     24200  11.816406 
+     24063  11.749512 
+     24141  11.787598 
+     24155  11.794434 
+     24116  11.775391 
+     24115  11.774902 
+     24115  11.774902 
+     24116  11.775391 
+     24115  11.774902 
+     24116  11.775391 
+
+
+Size = 256 kB, stride = 64 Bytes, align = 64, total accesses = 4096
+
+Processor 0
+     Clock clock/access 
+     44596  10.887695 
+     44512  10.867188 
+     44629  10.895752 
+     44616  10.892578 
+     44590  10.886230 
+     44590  10.886230 
+     44590  10.886230 
+     44590  10.886230 
+     44597  10.887939 
+     44590  10.886230 
+
+
+Size = 512 kB, stride = 64 Bytes, align = 64, total accesses = 8192
+
+Processor 0
+     Clock clock/access 
+     96968  11.836914 
+     96513  11.781372 
+     96623  11.794800 
+     96642  11.797119 
+     96642  11.797119 
+     96643  11.797241 
+     96643  11.797241 
+     96642  11.797119 
+     96643  11.797241 
+     96642  11.797119 
+
+
+Size = 1024 kB, stride = 64 Bytes, align = 64, total accesses = 16384
+
+Processor 0
+     Clock clock/access 
+    443547  27.071960 
+    365267  22.294128 
+    343343  20.955994 
+    343817  20.984924 
+    338572  20.664795 
+    340073  20.756409 
+    338565  20.664368 
+    342563  20.908386 
+    339839  20.742126 
+    447895  27.337341 
+
+
+Size = 2048 kB, stride = 64 Bytes, align = 64, total accesses = 32768
+
+Processor 0
+     Clock clock/access 
+   1930266  58.907043 
+   1830153  55.851837 
+   1995396  60.894653 
+   1824556  55.681030 
+   2011139  61.375092 
+   1915037  58.442291 
+   1860306  56.772034 
+   1826630  55.744324 
+   1828288  55.794922 
+   2018380  61.596069 
+
+
+Size = 4096 kB, stride = 64 Bytes, align = 64, total accesses = 65536
+
+Processor 0
+     Clock clock/access 
+   4179000  63.766479 
+   4053394  61.849884 
+   3994628  60.953186 
+   3879818  59.201324 
+   3807155  58.092575 
+   3908698  59.641998 
+   3944545  60.188980 
+   3952248  60.306519 
+   3937759  60.085434 
+   3978728  60.710571 
+
+
+Size = 8192 kB, stride = 64 Bytes, align = 64, total accesses = 131072
+
+Processor 0
+     Clock clock/access 
+   8834079  67.398674 
+   8591095  65.544853 
+   8537139  65.133202 
+   8597056  65.590332 
+   8778523  66.974815 
+   8593812  65.565582 
+   8576380  65.432587 
+   8513388  64.951996 
+   8821358  67.301620 
+   8545622  65.197922 
+
+
+===========================================
+
+test mode = RW
+
+===========================================
+
+
+
+
+Size = 1 kB, stride = 64 Bytes, align = 64, total accesses = 16
+
+Processor 0
+     Clock clock/access 
+       196  12.250000 
+        40   2.500000 
+        46   2.875000 
+        27   1.687500 
+        46   2.875000 
+        20   1.250000 
+        40   2.500000 
+        46   2.875000 
+        27   1.687500 
+        27   1.687500 
+
+
+Size = 2 kB, stride = 64 Bytes, align = 64, total accesses = 32
+
+Processor 0
+     Clock clock/access 
+       183   5.718750 
+        85   2.656250 
+        91   2.843750 
+        98   3.062500 
+        85   2.656250 
+        85   2.656250 
+        91   2.843750 
+        85   2.656250 
+        98   3.062500 
+        98   3.062500 
+
+
+Size = 4 kB, stride = 64 Bytes, align = 64, total accesses = 64
+
+Processor 0
+     Clock clock/access 
+       261   4.078125 
+       137   2.140625 
+       170   2.656250 
+       137   2.140625 
+       137   2.140625 
+       130   2.031250 
+       137   2.140625 
+       137   2.140625 
+       131   2.046875 
+       137   2.140625 
+
+
+Size = 8 kB, stride = 64 Bytes, align = 64, total accesses = 128
+
+Processor 0
+     Clock clock/access 
+       482   3.765625 
+       293   2.289062 
+       293   2.289062 
+       293   2.289062 
+       293   2.289062 
+       293   2.289062 
+       300   2.343750 
+       293   2.289062 
+       293   2.289062 
+       293   2.289062 
+
+
+Size = 16 kB, stride = 64 Bytes, align = 64, total accesses = 256
+
+Processor 0
+     Clock clock/access 
+      1047   4.089844 
+       520   2.031250 
+       514   2.007812 
+       521   2.035156 
+       520   2.031250 
+       520   2.031250 
+       521   2.035156 
+       514   2.007812 
+       520   2.031250 
+       521   2.035156 
+
+
+Size = 32 kB, stride = 64 Bytes, align = 64, total accesses = 512
+
+Processor 0
+     Clock clock/access 
+      4089   7.986328 
+      1125   2.197266 
+      1125   2.197266 
+      1131   2.208984 
+      1125   2.197266 
+      1125   2.197266 
+      1125   2.197266 
+      1125   2.197266 
+      1125   2.197266 
+      1132   2.210938 
+
+
+Size = 64 kB, stride = 64 Bytes, align = 64, total accesses = 1024
+
+Processor 0
+     Clock clock/access 
+     16634  16.244141 
+      4056   3.960938 
+      3959   3.866211 
+      3686   3.599609 
+      4245   4.145508 
+      3686   3.599609 
+      4245   4.145508 
+      3783   3.694336 
+      4109   4.012695 
+      4115   4.018555 
+
+
+Size = 128 kB, stride = 64 Bytes, align = 64, total accesses = 2048
+
+Processor 0
+     Clock clock/access 
+     36271  17.710449 
+     35789  17.475098 
+     35341  17.256348 
+     35282  17.227539 
+     35692  17.427734 
+     35692  17.427734 
+     35685  17.424316 
+     35692  17.427734 
+     35692  17.427734 
+     35692  17.427734 
+
+
+Size = 256 kB, stride = 64 Bytes, align = 64, total accesses = 4096
+
+Processor 0
+     Clock clock/access 
+     67886  16.573730 
+     66170  16.154785 
+     66339  16.196045 
+     66339  16.196045 
+     65878  16.083496 
+     65877  16.083252 
+     65878  16.083496 
+     65877  16.083252 
+     65878  16.083496 
+     65877  16.083252 
+
+
+Size = 512 kB, stride = 64 Bytes, align = 64, total accesses = 8192
+
+Processor 0
+     Clock clock/access 
+    147323  17.983765 
+    142857  17.438599 
+    142558  17.402100 
+    142552  17.401367 
+    142552  17.401367 
+    142559  17.402222 
+    142552  17.401367 
+    143209  17.481567 
+    142552  17.401367 
+    142552  17.401367 
+
+
+Size = 1024 kB, stride = 64 Bytes, align = 64, total accesses = 16384
+
+Processor 0
+     Clock clock/access 
+    510048  31.130859 
+    361549  22.067200 
+    352696  21.526855 
+    348588  21.276123 
+    658697  40.203674 
+    390019  23.804871 
+    357045  21.792297 
+    350779  21.409851 
+    346099  21.124207 
+    345358  21.078979 
+
+
+Size = 2048 kB, stride = 64 Bytes, align = 64, total accesses = 32768
+
+Processor 0
+     Clock clock/access 
+   1767532  53.940796 
+   1829282  55.825256 
+   1639027  50.019135 
+   1643674  50.160950 
+   1638370  49.999084 
+   1753212  53.503784 
+   1818908  55.508667 
+   1648485  50.307770 
+   1646210  50.238342 
+   1869264  57.045410 
+
+
+Size = 4096 kB, stride = 64 Bytes, align = 64, total accesses = 65536
+
+Processor 0
+     Clock clock/access 
+   3475609  53.033585 
+   3418747  52.165939 
+   3283527  50.102646 
+   3435303  52.418564 
+   3345031  51.041122 
+   3430323  52.342575 
+   3342918  51.008881 
+   3523209  53.759903 
+   3353688  51.173218 
+   3439183  52.477768 
+
+
+Size = 8192 kB, stride = 64 Bytes, align = 64, total accesses = 131072
+
+Processor 0
+     Clock clock/access 
+   7355452  56.117645 
+   7236118  55.207199 
+   7304382  55.728012 
+   7301879  55.708916 
+   7276672  55.516602 
+   7318629  55.836708 
+   7282620  55.561981 
+   7320794  55.853226 
+   7344304  56.032593 
+   7475136  57.030762 
+
+
+===========================================
+
+test mode = R_W
+
+===========================================
+
+
+
+
+Size = 1 kB, stride = 64 Bytes, align = 64, total accesses = 16
+
+Processor 0
+     Clock clock/access 
+       215  13.437500 
+        46   2.875000 
+        46   2.875000 
+        46   2.875000 
+        46   2.875000 
+        46   2.875000 
+        46   2.875000 
+        46   2.875000 
+        46   2.875000 
+        46   2.875000 
+
+
+Size = 2 kB, stride = 64 Bytes, align = 64, total accesses = 32
+
+Processor 0
+     Clock clock/access 
+       143   4.468750 
+        78   2.437500 
+        78   2.437500 
+        78   2.437500 
+        85   2.656250 
+        84   2.625000 
+        78   2.437500 
+        78   2.437500 
+        78   2.437500 
+        85   2.656250 
+
+
+Size = 4 kB, stride = 64 Bytes, align = 64, total accesses = 64
+
+Processor 0
+     Clock clock/access 
+       338   5.281250 
+       150   2.343750 
+       150   2.343750 
+       150   2.343750 
+       150   2.343750 
+       150   2.343750 
+       150   2.343750 
+       150   2.343750 
+       150   2.343750 
+       150   2.343750 
+
+
+Size = 8 kB, stride = 64 Bytes, align = 64, total accesses = 128
+
+Processor 0
+     Clock clock/access 
+       494   3.859375 
+       299   2.335938 
+       293   2.289062 
+       293   2.289062 
+       293   2.289062 
+       293   2.289062 
+       300   2.343750 
+       300   2.343750 
+       293   2.289062 
+       293   2.289062 
+
+
+Size = 16 kB, stride = 64 Bytes, align = 64, total accesses = 256
+
+Processor 0
+     Clock clock/access 
+       968   3.781250 
+       558   2.179688 
+       520   2.031250 
+       520   2.031250 
+       519   2.027344 
+       519   2.027344 
+       520   2.031250 
+       519   2.027344 
+       519   2.027344 
+       520   2.031250 
+
+
+Size = 32 kB, stride = 64 Bytes, align = 64, total accesses = 512
+
+Processor 0
+     Clock clock/access 
+      3803   7.427734 
+      1060   2.070312 
+      1040   2.031250 
+      1041   2.033203 
+      1040   2.031250 
+      1041   2.033203 
+      1040   2.031250 
+      1041   2.033203 
+      1040   2.031250 
+      1041   2.033203 
+
+
+Size = 64 kB, stride = 64 Bytes, align = 64, total accesses = 1024
+
+Processor 0
+     Clock clock/access 
+     20833  20.344727 
+      5071   4.952148 
+      4629   4.520508 
+      4154   4.056641 
+      4154   4.056641 
+      4154   4.056641 
+      4154   4.056641 
+      4427   4.323242 
+      5220   5.097656 
+      4401   4.297852 
+
+
+Size = 128 kB, stride = 64 Bytes, align = 64, total accesses = 2048
+
+Processor 0
+     Clock clock/access 
+     38727  18.909668 
+     40001  19.531738 
+     39793  19.430176 
+     39793  19.430176 
+     39793  19.430176 
+     39793  19.430176 
+     39793  19.430176 
+     39793  19.430176 
+     39793  19.430176 
+     39793  19.430176 
+
+
+Size = 256 kB, stride = 64 Bytes, align = 64, total accesses = 4096
+
+Processor 0
+     Clock clock/access 
+     85677  20.917236 
+     86600  21.142578 
+     86359  21.083740 
+     86360  21.083984 
+     86359  21.083740 
+     86366  21.085449 
+     86360  21.083984 
+     86366  21.085449 
+     86366  21.085449 
+     86359  21.083740 
+
+
+Size = 512 kB, stride = 64 Bytes, align = 64, total accesses = 8192
+
+Processor 0
+     Clock clock/access 
+    157814  19.264404 
+    159433  19.462036 
+    160577  19.601685 
+    159595  19.481812 
+    161682  19.736572 
+    161682  19.736572 
+    161688  19.737305 
+    161545  19.719849 
+    161682  19.736572 
+    161681  19.736450 
+
+
+Size = 1024 kB, stride = 64 Bytes, align = 64, total accesses = 16384
+
+Processor 0
+     Clock clock/access 
+    532962  32.529419 
+    568504  34.698730 
+    637273  38.896057 
+    419056  25.577148 
+    410937  25.081604 
+    404502  24.688843 
+    410787  25.072449 
+    406972  24.839600 
+    406452  24.807861 
+    405275  24.736023 
+
+
+Size = 2048 kB, stride = 64 Bytes, align = 64, total accesses = 32768
+
+Processor 0
+     Clock clock/access 
+   1923487  58.700165 
+   1649025  50.324249 
+   1652359  50.425995 
+   1656298  50.546204 
+   1827346  55.766174 
+   1666711  50.863983 
+   1631650  49.794006 
+   1829185  55.822296 
+   1810673  55.257355 
+   1666796  50.866577 
+
+
+Size = 4096 kB, stride = 64 Bytes, align = 64, total accesses = 65536
+
+Processor 0
+     Clock clock/access 
+   3509109  53.544754 
+   3572439  54.511093 
+   3490286  53.257538 
+   3490610  53.262482 
+   3567141  54.430252 
+   3534967  53.939316 
+   3469076  52.933899 
+   3503675  53.461838 
+   3480808  53.112915 
+   3548090  54.139557 
+
+
+Size = 8192 kB, stride = 64 Bytes, align = 64, total accesses = 131072
+
+Processor 0
+     Clock clock/access 
+   7472374  57.009689 
+   7558447  57.666374 
+   7515748  57.340607 
+   7712673  58.843025 
+   7564648  57.713684 
+   7530328  57.451843 
+   7585311  57.871330 
+   7690338  58.672623 
+   7766271  59.251945 
+   7620678  58.141159 
+
+
+===========================================
+
+test mode = RR_W
+
+===========================================
+
+
+
+
+Size = 1 kB, stride = 64 Bytes, align = 64, total accesses = 16
+
+Processor 0
+     Clock clock/access 
+       130   8.125000 
+        79   4.937500 
+        59   3.687500 
+        59   3.687500 
+        91   5.687500 
+        66   4.125000 
+        59   3.687500 
+        59   3.687500 
+        65   4.062500 
+        59   3.687500 
+
+
+Size = 2 kB, stride = 64 Bytes, align = 64, total accesses = 32
+
+Processor 0
+     Clock clock/access 
+       163   5.093750 
+       104   3.250000 
+       105   3.281250 
+       156   4.875000 
+       105   3.281250 
+       104   3.250000 
+       104   3.250000 
+       105   3.281250 
+       104   3.250000 
+       105   3.281250 
+
+
+Size = 4 kB, stride = 64 Bytes, align = 64, total accesses = 64
+
+Processor 0
+     Clock clock/access 
+       293   4.578125 
+       176   2.750000 
+       176   2.750000 
+       176   2.750000 
+       169   2.640625 
+       169   2.640625 
+       169   2.640625 
+       169   2.640625 
+       176   2.750000 
+       176   2.750000 
+
+
+Size = 8 kB, stride = 64 Bytes, align = 64, total accesses = 128
+
+Processor 0
+     Clock clock/access 
+       618   4.828125 
+       358   2.796875 
+       397   3.101562 
+       364   2.843750 
+       358   2.796875 
+       358   2.796875 
+       358   2.796875 
+       358   2.796875 
+       365   2.851562 
+       365   2.851562 
+
+
+Size = 16 kB, stride = 64 Bytes, align = 64, total accesses = 256
+
+Processor 0
+     Clock clock/access 
+      1391   5.433594 
+       696   2.718750 
+       735   2.871094 
+       696   2.718750 
+       702   2.742188 
+       696   2.718750 
+       696   2.718750 
+       703   2.746094 
+       696   2.718750 
+       696   2.718750 
+
+
+Size = 32 kB, stride = 64 Bytes, align = 64, total accesses = 512
+
+Processor 0
+     Clock clock/access 
+      4349   8.494141 
+      1326   2.589844 
+      1274   2.488281 
+      1274   2.488281 
+      1274   2.488281 
+      1274   2.488281 
+      1274   2.488281 
+      1274   2.488281 
+      1274   2.488281 
+      1274   2.488281 
+
+
+Size = 64 kB, stride = 64 Bytes, align = 64, total accesses = 1024
+
+Processor 0
+     Clock clock/access 
+     19214  18.763672 
+      5656   5.523438 
+      4856   4.742188 
+      4706   4.595703 
+      4745   4.633789 
+      4732   4.621094 
+      4680   4.570312 
+      4941   4.825195 
+      4993   4.875977 
+      4999   4.881836 
+
+
+Size = 128 kB, stride = 64 Bytes, align = 64, total accesses = 2048
+
+Processor 0
+     Clock clock/access 
+     39208  19.144531 
+     39442  19.258789 
+     39553  19.312988 
+     37213  18.170410 
+     37213  18.170410 
+     37220  18.173828 
+     37213  18.170410 
+     37213  18.170410 
+     37219  18.173340 
+     37213  18.170410 
+
+
+Size = 256 kB, stride = 64 Bytes, align = 64, total accesses = 4096
+
+Processor 0
+     Clock clock/access 
+     78520  19.169922 
+     74471  18.181396 
+    130898  31.957520 
+     77929  19.025635 
+     73405  17.921143 
+     68641  16.758057 
+     68640  16.757812 
+     68641  16.758057 
+     68641  16.758057 
+     68640  16.757812 
+
+
+Size = 512 kB, stride = 64 Bytes, align = 64, total accesses = 8192
+
+Processor 0
+     Clock clock/access 
+    159413  19.459595 
+    158672  19.369141 
+    148734  18.156006 
+    148701  18.151978 
+    148662  18.147217 
+    148734  18.156006 
+    148662  18.147217 
+    148669  18.148071 
+    148662  18.147217 
+    148662  18.147217 
+
+
+Size = 1024 kB, stride = 64 Bytes, align = 64, total accesses = 16384
+
+Processor 0
+     Clock clock/access 
+    517855  31.607361 
+    431203  26.318542 
+    425419  25.965515 
+    422396  25.781006 
+    426062  26.004761 
+    425211  25.952820 
+    425185  25.951233 
+    424041  25.881409 
+    426003  26.001160 
+    421070  25.700073 
+
+
+Size = 2048 kB, stride = 64 Bytes, align = 64, total accesses = 32768
+
+Processor 0
+     Clock clock/access 
+   1814950  55.387878 
+   1748136  53.348877 
+   1738197  53.045563 
+   1920048  58.595215 
+   1865207  56.921600 
+   1754343  53.538300 
+   1807572  55.162720 
+   1786948  54.533325 
+   1739290  53.078918 
+   1741480  53.145752 
+
+
+Size = 4096 kB, stride = 64 Bytes, align = 64, total accesses = 65536
+
+Processor 0
+     Clock clock/access 
+   3646169  55.636124 
+   3498905  53.389053 
+   3799790  57.980194 
+   3538315  53.990402 
+   3667847  55.966904 
+   3663719  55.903915 
+   3638414  55.517792 
+   3801727  58.009750 
+   3650017  55.694839 
+   3748693  57.200516 
+
+
+Size = 8192 kB, stride = 64 Bytes, align = 64, total accesses = 131072
+
+Processor 0
+     Clock clock/access 
+   7822711  59.682549 
+   7827365  59.718056 
+   7818167  59.647881 
+   7940036  60.577667 
+   8092396  61.740082 
+   7892411  60.214317 
+   7875842  60.087906 
+   7866989  60.020363 
+   7725594  58.941605 
+   7836634  59.788773 
+
+
+===========================================
+
+test mode = NTR
+
+===========================================
+
+
+
+
+Size = 1 kB, stride = 64 Bytes, align = 64, total accesses = 16
+
+Processor 0
+     Clock clock/access 
+       150   9.375000 
+        45   2.812500 
+        98   6.125000 
+        78   4.875000 
+        46   2.875000 
+        45   2.812500 
+        46   2.875000 
+        39   2.437500 
+        39   2.437500 
+        39   2.437500 
+
+
+Size = 2 kB, stride = 64 Bytes, align = 64, total accesses = 32
+
+Processor 0
+     Clock clock/access 
+       124   3.875000 
+        65   2.031250 
+        65   2.031250 
+       118   3.687500 
+        65   2.031250 
+        65   2.031250 
+        59   1.843750 
+        66   2.062500 
+        66   2.062500 
+        59   1.843750 
+
+
+Size = 4 kB, stride = 64 Bytes, align = 64, total accesses = 64
+
+Processor 0
+     Clock clock/access 
+       221   3.453125 
+        92   1.437500 
+        98   1.531250 
+        98   1.531250 
+        91   1.421875 
+        91   1.421875 
+        98   1.531250 
+        92   1.437500 
+        92   1.437500 
+        98   1.531250 
+
+
+Size = 8 kB, stride = 64 Bytes, align = 64, total accesses = 128
+
+Processor 0
+     Clock clock/access 
+       383   2.992188 
+       176   1.375000 
+       182   1.421875 
+       182   1.421875 
+       182   1.421875 
+       182   1.421875 
+       175   1.367188 
+       182   1.421875 
+       182   1.421875 
+       182   1.421875 
+
+
+Size = 16 kB, stride = 64 Bytes, align = 64, total accesses = 256
+
+Processor 0
+     Clock clock/access 
+       923   3.605469 
+       364   1.421875 
+       365   1.425781 
+       364   1.421875 
+       365   1.425781 
+       364   1.421875 
+       365   1.425781 
+       364   1.421875 
+       365   1.425781 
+       364   1.421875 
+
+
+Size = 32 kB, stride = 64 Bytes, align = 64, total accesses = 512
+
+Processor 0
+     Clock clock/access 
+      3641   7.111328 
+       832   1.625000 
+       716   1.398438 
+       716   1.398438 
+       709   1.384766 
+       715   1.396484 
+       715   1.396484 
+       709   1.384766 
+       716   1.398438 
+       716   1.398438 
+
+
+Size = 64 kB, stride = 64 Bytes, align = 64, total accesses = 1024
+
+Processor 0
+     Clock clock/access 
+     17960  17.539062 
+      4330   4.228516 
+      2308   2.253906 
+      2562   2.501953 
+      2588   2.527344 
+      2822   2.755859 
+      2932   2.863281 
+      3166   3.091797 
+      3751   3.663086 
+      3296   3.218750 
+
+
+Size = 128 kB, stride = 64 Bytes, align = 64, total accesses = 2048
+
+Processor 0
+     Clock clock/access 
+     33715  16.462402 
+     32799  16.015137 
+     31979  15.614746 
+     33423  16.319824 
+     33422  16.319336 
+     33423  16.319824 
+     33423  16.319824 
+     33325  16.271973 
+     33423  16.319824 
+     33422  16.319336 
+
+
+Size = 256 kB, stride = 64 Bytes, align = 64, total accesses = 4096
+
+Processor 0
+     Clock clock/access 
+     72430  17.683105 
+     65423  15.972412 
+     66834  16.316895 
+     66879  16.327881 
+     66873  16.326416 
+     66879  16.327881 
+     66872  16.326172 
+     66879  16.327881 
+     66879  16.327881 
+     66873  16.326416 
+
+
+Size = 512 kB, stride = 64 Bytes, align = 64, total accesses = 8192
+
+Processor 0
+     Clock clock/access 
+    135057  16.486450 
+    128336  15.666016 
+    127544  15.569336 
+    133770  16.329346 
+    133777  16.330200 
+    133777  16.330200 
+    133777  16.330200 
+    133777  16.330200 
+    133770  16.329346 
+    134173  16.378540 
+
+
+Size = 1024 kB, stride = 64 Bytes, align = 64, total accesses = 16384
+
+Processor 0
+     Clock clock/access 
+    487818  29.774048 
+    301379  18.394714 
+    295412  18.030518 
+    295971  18.064636 
+    295730  18.049927 
+    294242  17.959106 
+    293924  17.939697 
+    295685  18.047180 
+    294190  17.955933 
+    294346  17.965454 
+
+
+Size = 2048 kB, stride = 64 Bytes, align = 64, total accesses = 32768
+
+Processor 0
+     Clock clock/access 
+   1310211  39.984467 
+    736346  22.471497 
+    736931  22.489349 
+    735793  22.454620 
+    735598  22.448669 
+    736144  22.465332 
+    736261  22.468903 
+    809016  24.689209 
+    741221  22.620270 
+    735559  22.447479 
+
+
+Size = 4096 kB, stride = 64 Bytes, align = 64, total accesses = 65536
+
+Processor 0
+     Clock clock/access 
+   2112201  32.229630 
+   1430968  21.834839 
+   1436773  21.923416 
+   1524152  23.256714 
+   1472984  22.475952 
+   1433126  21.867767 
+   1431105  21.836929 
+   1428804  21.801819 
+   1431651  21.845261 
+   1527422  23.306610 
+
+
+Size = 8192 kB, stride = 64 Bytes, align = 64, total accesses = 131072
+
+Processor 0
+     Clock clock/access 
+   3549793  27.082771 
+   2918766  22.268417 
+   2817587  21.496483 
+   2872031  21.911858 
+   2835228  21.631073 
+   2837139  21.645653 
+   2930564  22.358429 
+   2834942  21.628891 
+   2878824  21.963684 
+   2836444  21.640350 
+
+
+===========================================
+
+test mode = NTW
+
+===========================================
+
+
+
+
+Size = 1 kB, stride = 64 Bytes, align = 64, total accesses = 16
+
+Processor 0
+     Clock clock/access 
+       819  51.187500 
+       598  37.375000 
+       637  39.812500 
+       637  39.812500 
+       611  38.187500 
+       611  38.187500 
+       611  38.187500 
+       611  38.187500 
+       611  38.187500 
+       611  38.187500 
+
+
+Size = 2 kB, stride = 64 Bytes, align = 64, total accesses = 32
+
+Processor 0
+     Clock clock/access 
+      1788  55.875000 
+      1574  49.187500 
+      1573  49.156250 
+      1574  49.187500 
+      1573  49.156250 
+      1574  49.187500 
+      1573  49.156250 
+      1574  49.187500 
+      1573  49.156250 
+      1574  49.187500 
+
+
+Size = 4 kB, stride = 64 Bytes, align = 64, total accesses = 64
+
+Processor 0
+     Clock clock/access 
+      3705  57.890625 
+      3446  53.843750 
+      3445  53.828125 
+      3446  53.843750 
+      3445  53.828125 
+      3446  53.843750 
+      3445  53.828125 
+      3446  53.843750 
+      3445  53.828125 
+      3446  53.843750 
+
+
+Size = 8 kB, stride = 64 Bytes, align = 64, total accesses = 128
+
+Processor 0
+     Clock clock/access 
+      7404  57.843750 
+      7189  56.164062 
+      7229  56.476562 
+      7189  56.164062 
+      7190  56.171875 
+      7189  56.164062 
+      7190  56.171875 
+      7189  56.164062 
+      7190  56.171875 
+      7189  56.164062 
+
+
+Size = 16 kB, stride = 64 Bytes, align = 64, total accesses = 256
+
+Processor 0
+     Clock clock/access 
+     14892  58.171875 
+     14677  57.332031 
+     14678  57.335938 
+     14677  57.332031 
+     14678  57.335938 
+     14677  57.332031 
+     14678  57.335938 
+     14677  57.332031 
+     14678  57.335938 
+     14677  57.332031 
+
+
+Size = 32 kB, stride = 64 Bytes, align = 64, total accesses = 512
+
+Processor 0
+     Clock clock/access 
+     30063  58.716797 
+     29654  57.917969 
+     29653  57.916016 
+     29654  57.917969 
+     29653  57.916016 
+     29654  57.917969 
+     29653  57.916016 
+     29654  57.917969 
+     29653  57.916016 
+     29654  57.917969 
+
+
+Size = 64 kB, stride = 64 Bytes, align = 64, total accesses = 1024
+
+Processor 0
+     Clock clock/access 
+     60047  58.639648 
+     59605  58.208008 
+     59606  58.208984 
+     59644  58.246094 
+     59606  58.208984 
+     59605  58.208008 
+     59606  58.208984 
+     59605  58.208008 
+     59606  58.208984 
+     59605  58.208008 
+
+
+Size = 128 kB, stride = 64 Bytes, align = 64, total accesses = 2048
+
+Processor 0
+     Clock clock/access 
+    113106  55.227539 
+    112859  55.106934 
+    112872  55.113281 
+    112970  55.161133 
+    112865  55.109863 
+    112872  55.113281 
+    112872  55.113281 
+    112872  55.113281 
+    113418  55.379883 
+    137559  67.167480 
+
+
+Size = 256 kB, stride = 64 Bytes, align = 64, total accesses = 4096
+
+Processor 0
+     Clock clock/access 
+    239558  58.485840 
+    239318  58.427246 
+    239317  58.427002 
+    239318  58.427246 
+    239318  58.427246 
+    295191  72.068115 
+    233656  57.044922 
+    226012  55.178711 
+    226012  55.178711 
+    226012  55.178711 
+
+
+Size = 512 kB, stride = 64 Bytes, align = 64, total accesses = 8192
+
+Processor 0
+     Clock clock/access 
+    479174  58.492920 
+    479356  58.515137 
+    478933  58.463501 
+    478934  58.463623 
+    478933  58.463501 
+    479701  58.557251 
+    478933  58.463501 
+    478934  58.463623 
+    479252  58.502441 
+    478933  58.463501 
+
+
+Size = 1024 kB, stride = 64 Bytes, align = 64, total accesses = 16384
+
+Processor 0
+     Clock clock/access 
+    958841  58.523010 
+    905489  55.266663 
+    904969  55.234924 
+    993239  60.622498 
+    904969  55.234924 
+    905385  55.260315 
+    904969  55.234924 
+    905541  55.269836 
+    904969  55.234924 
+    905489  55.266663 
+
+
+Size = 2048 kB, stride = 64 Bytes, align = 64, total accesses = 32768
+
+Processor 0
+     Clock clock/access 
+   1890402  57.690491 
+   1810594  55.254944 
+   1810887  55.263885 
+   1810549  55.253571 
+   1874821  57.214996 
+   1810770  55.260315 
+   1849497  56.442169 
+   1810607  55.255341 
+   1869348  57.047974 
+   1811348  55.277954 
+
+
+Size = 4096 kB, stride = 64 Bytes, align = 64, total accesses = 65536
+
+Processor 0
+     Clock clock/access 
+   3820018  58.288849 
+   3692676  56.345764 
+   3640878  55.555389 
+   3647703  55.659531 
+   3622639  55.277084 
+   3657687  55.811874 
+   3622067  55.268356 
+   3643049  55.588516 
+   3621586  55.261017 
+   3633728  55.446289 
+
+
+Size = 8192 kB, stride = 64 Bytes, align = 64, total accesses = 131072
+
+Processor 0
+     Clock clock/access 
+   7382538  56.324295 
+   7268423  55.453667 
+   7279753  55.540108 
+   7255937  55.358406 
+   7312968  55.793518 
+   7280630  55.546799 
+   7255755  55.357018 
+   7252732  55.333954 
+   7264153  55.421089 
+   7252193  55.329842 
+
+
+===========================================
+
+3 threads
+===========================================
+
+
+
+
+===========================================
+
+test mode = R
+
+===========================================
+
+
+
+
+Size = 4 kB, stride = 64 Bytes, align = 64, total accesses = 64
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 8 kB, stride = 64 Bytes, align = 64, total accesses = 128
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 16 kB, stride = 64 Bytes, align = 64, total accesses = 256
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 32 kB, stride = 64 Bytes, align = 64, total accesses = 512
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 64 kB, stride = 64 Bytes, align = 64, total accesses = 1024
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 128 kB, stride = 64 Bytes, align = 64, total accesses = 2048
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 256 kB, stride = 64 Bytes, align = 64, total accesses = 4096
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 512 kB, stride = 64 Bytes, align = 64, total accesses = 8192
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 1024 kB, stride = 64 Bytes, align = 64, total accesses = 16384
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 2048 kB, stride = 64 Bytes, align = 64, total accesses = 32768
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 4096 kB, stride = 64 Bytes, align = 64, total accesses = 65536
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 8192 kB, stride = 64 Bytes, align = 64, total accesses = 131072
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+===========================================
+
+test mode = W
+
+===========================================
+
+
+
+
+Size = 4 kB, stride = 64 Bytes, align = 64, total accesses = 64
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 8 kB, stride = 64 Bytes, align = 64, total accesses = 128
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 16 kB, stride = 64 Bytes, align = 64, total accesses = 256
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 32 kB, stride = 64 Bytes, align = 64, total accesses = 512
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 64 kB, stride = 64 Bytes, align = 64, total accesses = 1024
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 128 kB, stride = 64 Bytes, align = 64, total accesses = 2048
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 256 kB, stride = 64 Bytes, align = 64, total accesses = 4096
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 512 kB, stride = 64 Bytes, align = 64, total accesses = 8192
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 1024 kB, stride = 64 Bytes, align = 64, total accesses = 16384
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 2048 kB, stride = 64 Bytes, align = 64, total accesses = 32768
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 4096 kB, stride = 64 Bytes, align = 64, total accesses = 65536
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 8192 kB, stride = 64 Bytes, align = 64, total accesses = 131072
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+===========================================
+
+test mode = RW
+
+===========================================
+
+
+
+
+Size = 4 kB, stride = 64 Bytes, align = 64, total accesses = 64
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 8 kB, stride = 64 Bytes, align = 64, total accesses = 128
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 16 kB, stride = 64 Bytes, align = 64, total accesses = 256
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 32 kB, stride = 64 Bytes, align = 64, total accesses = 512
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 64 kB, stride = 64 Bytes, align = 64, total accesses = 1024
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 128 kB, stride = 64 Bytes, align = 64, total accesses = 2048
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 256 kB, stride = 64 Bytes, align = 64, total accesses = 4096
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 512 kB, stride = 64 Bytes, align = 64, total accesses = 8192
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 1024 kB, stride = 64 Bytes, align = 64, total accesses = 16384
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 2048 kB, stride = 64 Bytes, align = 64, total accesses = 32768
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 4096 kB, stride = 64 Bytes, align = 64, total accesses = 65536
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Size = 8192 kB, stride = 64 Bytes, align = 64, total accesses = 131072
+
+Processor 2 not available. Processors available:
+0  1  

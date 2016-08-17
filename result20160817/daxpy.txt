@@ -1,0 +1,26 @@
+Different implementations of DAXPY
+
+
+
+100 * 2000 double precision elements
+
+
+
+Case 1: SSE2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    506824     600818 
+    436040     600814 
+    436475     600814 
+    435955     600814 
+    435955     600814 
+    435955     600814 
+    435955     600814 
+    435955     600814 
+    435955     600814 
+    477867     600816 
+
+

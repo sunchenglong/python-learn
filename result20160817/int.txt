@@ -1,0 +1,8214 @@
+Integer instructions latency and throughput
+
+Instructions with no explicit operands
+
+
+
+Latency/throughput: clc 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30914      10217 
+     30914      10217 
+     30927      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+
+
+Latency/throughput: stc 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30914      10217 
+     30914      10217 
+     30927      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+
+
+Latency/throughput: cmc 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+     30914      10217 
+
+
+Latency/throughput: cld 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     32533      10217 
+     32527      10217 
+     32520      10217 
+     32526      10217 
+     32520      10217 
+     32527      10217 
+     32520      10217 
+     32526      10217 
+     32520      10217 
+     32527      10217 
+
+
+Latency/throughput: std 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     32546      10217 
+     32527      10217 
+     32520      10217 
+     32526      10217 
+     32520      10217 
+     32527      10217 
+     32520      10217 
+     32526      10217 
+     32520      10217 
+     32527      10217 
+
+
+Latency/throughput: nop 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6507      10217 
+      6481      10217 
+      6527      10217 
+      6514      10217 
+      6500      10217 
+      6481      10217 
+      6481      10217 
+      6500      10217 
+      6501      10217 
+      6481      10217 
+
+
+Latency/throughput: pause 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60047      10217 
+     60086      10217 
+     60028      10217 
+     60067      10217 
+     60067      10217 
+     60067      10217 
+     60067      10217 
+     60067      10217 
+     60067      10217 
+     60067      10217 
+
+
+Latency/throughput: lfence 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    161961      10217 
+    161967      10217 
+    161967      10217 
+    161967      10217 
+    161967      10217 
+    161961      10217 
+    161961      10217 
+    161967      10217 
+    161967      10217 
+    161967      10217 
+
+
+Latency/throughput: mfence 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    161961      10217 
+    161967      10217 
+    161967      10217 
+    161967      10217 
+    161967      10217 
+    161961      10217 
+    161961      10217 
+    161967      10217 
+    161967      10217 
+    161967      10217 
+
+
+Latency/throughput: sfence 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    161961      10217 
+    161967      10217 
+    161967      10217 
+    161967      10217 
+    161967      10217 
+    161961      10217 
+    161961      10217 
+    161967      10217 
+    161967      10217 
+    162441      10217 
+
+
+
+
+Latency: cbw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10920      10217 
+     10907      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+
+
+Throughput: xor eax,eax / cbw 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10283      20217 
+     10108      20217 
+     10101      20217 
+     10107      20217 
+     10101      20217 
+     10108      20217 
+     10101      20217 
+     10101      20217 
+     10107      20217 
+     10101      20217 
+
+
+Latency: cwde
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10023      10217 
+     10023      10217 
+     10043      10217 
+     10017      10217 
+     10023      10217 
+     10016      10217 
+     10016      10217 
+     10017      10217 
+     10017      10217 
+     10023      10217 
+
+
+Throughput: xor eax,eax / cwde 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10276      20217 
+     10140      20217 
+     10127      20217 
+     10127      20217 
+     10133      20217 
+     10127      20217 
+     10127      20217 
+     10127      20217 
+     10127      20217 
+     10127      20217 
+
+
+Latency: cdqe
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10101      10217 
+     10023      10217 
+     10055      10217 
+     10016      10217 
+     10017      10217 
+     10017      10217 
+     10016      10217 
+     10016      10217 
+     10017      10217 
+     10017      10217 
+
+
+Throughput: xor eax,eax / cdqe 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10328      20217 
+     10107      20217 
+     10101      20217 
+     10108      20217 
+     10101      20217 
+     10107      20217 
+     10101      20217 
+     10108      20217 
+     10101      20217 
+     10101      20217 
+
+
+Latency: cwd
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5252      10217 
+      5129      10217 
+      5077      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5083      10217 
+
+
+Throughput: xor eax,eax / cwd 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10420      20217 
+     10075      20217 
+     10075      20217 
+     10082      20217 
+     10075      20217 
+     10075      20217 
+     10075      20217 
+     10081      20217 
+     10075      20217 
+     10075      20217 
+
+
+Latency: cdq
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5096      10217 
+      5076      10217 
+      5128      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+
+
+Throughput: xor eax,eax / cdq 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11043      20217 
+     10920      20217 
+     10920      20217 
+     10920      20217 
+     10920      20217 
+     10913      20217 
+     10913      20217 
+     10920      20217 
+     10920      20217 
+     10920      20217 
+
+
+Latency: cqo
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5623      10217 
+      5552      10217 
+      5493      10217 
+      5500      10217 
+      5499      10217 
+      5500      10217 
+      5493      10217 
+      5493      10217 
+      5493      10217 
+      5499      10217 
+
+
+Throughput: xor eax,eax / cqo 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11109      20217 
+     10934      20217 
+     10914      20217 
+     10914      20217 
+     10907      20217 
+     10907      20217 
+     10914      20217 
+     10914      20217 
+     10914      20217 
+     10914      20217 
+
+
+Instructions with one operand
+
+
+
+Latency: inc r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10972      10217 
+     10861      10217 
+     10855      10217 
+     10855      10217 
+     10861      10217 
+     10855      10217 
+     10855      10217 
+     10861      10217 
+     10855      10217 
+     10855      10217 
+
+
+Latency: inc r8high
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10940      10217 
+     10856      10217 
+     10849      10217 
+     10849      10217 
+     10856      10217 
+     10849      10217 
+     10849      10217 
+     10856      10217 
+     10849      10217 
+     10849      10217 
+
+
+Latency: inc r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10186      10217 
+     10023      10217 
+     10023      10217 
+     10016      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+
+
+Latency: inc r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10088      10217 
+     10056      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+     10023      10217 
+     10017      10217 
+     10016      10217 
+     10023      10217 
+
+
+Latency: inc r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10121      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+
+
+Throughput: inc r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6142      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6012      10217 
+      6013      10217 
+      6012      10217 
+
+
+Throughput: inc r8high
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6142      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6012      10217 
+      6013      10217 
+      6012      10217 
+
+
+Throughput: inc r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6175      10217 
+      6058      10217 
+      6019      10217 
+      6012      10217 
+      6013      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6012      10217 
+      6019      10217 
+
+
+Throughput: inc r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6149      10217 
+      6045      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+
+
+Throughput: inc r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6175      10217 
+      6058      10217 
+      6019      10217 
+      6019      10217 
+      6012      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6013      10217 
+      6019      10217 
+
+
+Throughput with memory operand: inc [m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20904      10217 
+     20020      10217 
+     20020      10217 
+     20027      10217 
+     20020      10217 
+     20026      10217 
+     20020      10217 
+     20020      10217 
+     20026      10217 
+     20020      10217 
+
+
+Latency with memory operand: inc [m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50180      10217 
+     50063      10217 
+     50017      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50024      10217 
+     50018      10217 
+     50017      10217 
+     50024      10217 
+
+
+Latency: dec r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10920      10217 
+     10901      10217 
+     10861      10217 
+     10894      10217 
+     10894      10217 
+     10894      10217 
+     10894      10217 
+     10894      10217 
+     10894      10217 
+     10894      10217 
+
+
+Latency: dec r8high
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10952      10217 
+     10901      10217 
+     10861      10217 
+     10855      10217 
+     10855      10217 
+     10861      10217 
+     10855      10217 
+     10855      10217 
+     10861      10217 
+     10855      10217 
+
+
+Latency: dec r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10153      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+     10016      10217 
+     10023      10217 
+     10023      10217 
+     10016      10217 
+     10023      10217 
+
+
+Latency: dec r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10153      10217 
+     10023      10217 
+     10023      10217 
+     10017      10217 
+     10016      10217 
+     10023      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+
+
+Latency: dec r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10036      10217 
+     10049      10217 
+     10023      10217 
+     10016      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+
+
+Throughput: dec r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6136      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6012      10217 
+      6013      10217 
+      6012      10217 
+
+
+Throughput: dec r8high
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6839      10217 
+      6520      10217 
+      6546      10217 
+      6514      10217 
+      6533      10217 
+      6533      10217 
+      6533      10217 
+      6533      10217 
+      6533      10217 
+      6533      10217 
+
+
+Throughput: dec r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6643      10217 
+      6559      10217 
+      6513      10217 
+      6539      10217 
+      6539      10217 
+      6539      10217 
+      6539      10217 
+      6539      10217 
+      6539      10217 
+      6539      10217 
+
+
+Throughput: dec r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6916      10217 
+      6552      10217 
+      6526      10217 
+      6519      10217 
+      6526      10217 
+      6520      10217 
+      6526      10217 
+      6519      10217 
+      6526      10217 
+      6520      10217 
+
+
+Throughput: dec r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6676      10217 
+      6559      10217 
+      6514      10217 
+      6514      10217 
+      6513      10217 
+      6514      10217 
+      6514      10217 
+      6513      10217 
+      6514      10217 
+      6514      10217 
+
+
+Throughput with memory operand: dec [m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20274      10217 
+     20026      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20027      10217 
+     20020      10217 
+     20020      10217 
+     20027      10217 
+
+
+Latency with memory operand: dec [m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50180      10217 
+     50063      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50018      10217 
+     50024      10217 
+
+
+Latency: neg r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21762      10217 
+     21691      10217 
+     21691      10217 
+     21690      10217 
+     21691      10217 
+     21691      10217 
+     21690      10217 
+     21691      10217 
+     21691      10217 
+     21690      10217 
+
+
+Latency: neg r8high
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21743      10217 
+     21685      10217 
+     21704      10217 
+     21685      10217 
+     21685      10217 
+     21684      10217 
+     21685      10217 
+     21685      10217 
+     21684      10217 
+     21685      10217 
+
+
+Latency: neg r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20443      10217 
+     20039      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+
+
+Latency: neg r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+     10023      10217 
+     10017      10217 
+     10016      10217 
+     10023      10217 
+
+
+Latency: neg r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10153      10217 
+     10049      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+     10016      10217 
+     10023      10217 
+
+
+Throughput: neg r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11031      10217 
+     10921      10217 
+     10920      10217 
+     10921      10217 
+     10914      10217 
+     10914      10217 
+     10914      10217 
+     10920      10217 
+     10921      10217 
+     10920      10217 
+
+
+Throughput: neg r8high
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10101      10217 
+     10140      10217 
+     10081      10217 
+     10120      10217 
+     10120      10217 
+     10120      10217 
+     10114      10217 
+     10114      10217 
+     10121      10217 
+     10121      10217 
+
+
+Throughput: neg r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10198      10217 
+     10120      10217 
+     10081      10217 
+     10081      10217 
+     10081      10217 
+     10081      10217 
+     10081      10217 
+     10081      10217 
+     10081      10217 
+     10081      10217 
+
+
+Throughput: neg r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6539      10217 
+      6526      10217 
+      6520      10217 
+      6526      10217 
+      6519      10217 
+      6526      10217 
+      6520      10217 
+      6526      10217 
+      6519      10217 
+      6526      10217 
+
+
+Throughput: neg r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6689      10217 
+      6552      10217 
+      6526      10217 
+      6519      10217 
+      6520      10217 
+      6526      10217 
+      6519      10217 
+      6520      10217 
+      6526      10217 
+      6519      10217 
+
+
+Throughput with memory operand: neg [m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22062      10217 
+     21684      10217 
+     21691      10217 
+     21685      10217 
+     21691      10217 
+     21684      10217 
+     21691      10217 
+     21685      10217 
+     21691      10217 
+     21684      10217 
+
+
+Latency with memory operand: neg [m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54334      10217 
+     54185      10217 
+     54185      10217 
+     54184      10217 
+     54185      10217 
+     54185      10217 
+     54184      10217 
+     54185      10217 
+     54185      10217 
+     54184      10217 
+
+
+Latency: not r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10978      10217 
+     10894      10217 
+     10861      10217 
+     10855      10217 
+     10855      10217 
+     10861      10217 
+     24921      10218 
+     10855      10217 
+     10855      10217 
+     10861      10217 
+
+
+Latency: not r8high
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10927      10217 
+     10895      10217 
+     10855      10217 
+     10849      10217 
+     10849      10217 
+     10855      10217 
+     10849      10217 
+     10849      10217 
+     10855      10217 
+     10849      10217 
+
+
+Latency: not r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10134      10217 
+     10049      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+     10016      10217 
+     10023      10217 
+     10023      10217 
+     10016      10217 
+     10023      10217 
+
+
+Latency: not r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10094      10217 
+     10017      10217 
+     10016      10217 
+     10023      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Latency: not r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10972      10217 
+     10888      10217 
+     10861      10217 
+     10855      10217 
+     10862      10217 
+     10855      10217 
+     10861      10217 
+     10855      10217 
+     10862      10217 
+     10855      10217 
+
+
+Throughput: not r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6650      10217 
+      6526      10217 
+      6520      10217 
+      6526      10217 
+      6519      10217 
+      6526      10217 
+      6520      10217 
+      6526      10217 
+      6519      10217 
+      6526      10217 
+
+
+Throughput: not r8high
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6630      10217 
+      6526      10217 
+      6519      10217 
+      6526      10217 
+      6520      10217 
+      6526      10217 
+      6519      10217 
+      6526      10217 
+      6520      10217 
+      6526      10217 
+
+
+Throughput: not r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6689      10217 
+      6565      10217 
+      6519      10217 
+      6520      10217 
+      6520      10217 
+      6519      10217 
+      6520      10217 
+      6520      10217 
+      6519      10217 
+      6520      10217 
+
+
+Throughput: not r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6155      10217 
+      6051      10217 
+      6012      10217 
+      6013      10217 
+      6012      10217 
+      6013      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+
+
+Throughput: not r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6669      10217 
+      6565      10217 
+      6520      10217 
+      6520      10217 
+      6519      10217 
+      6520      10217 
+      6520      10217 
+      6519      10217 
+      6520      10217 
+      6520      10217 
+
+
+Throughput with memory operand: not [m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20423      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20027      10217 
+     20020      10217 
+     20026      10217 
+     20020      10217 
+     20020      10217 
+     20026      10217 
+
+
+Latency with memory operand: not [m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50180      10217 
+     50063      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50018      10217 
+     50024      10217 
+
+
+
+
+Latency: bswap r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10237      10217 
+     10179      10217 
+     10127      10217 
+     10127      10217 
+     10127      10217 
+     10127      10217 
+     10127      10217 
+     10121      10217 
+     10120      10217 
+     10127      10217 
+
+
+Latency: bswap r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11082      10217 
+     11031      10217 
+     10972      10217 
+     10972      10217 
+     10972      10217 
+     10972      10217 
+     10972      10217 
+     10972      10217 
+     10972      10217 
+     10972      10217 
+
+
+Throughput: bswap r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11077      10217 
+     10966      10217 
+     10966      10217 
+     10966      10217 
+     10966      10217 
+     10966      10217 
+     10966      10217 
+     10966      10217 
+     10966      10217 
+     10966      10217 
+
+
+Throughput: bswap r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11076      10217 
+     10966      10217 
+     10966      10217 
+     10966      10217 
+     10966      10217 
+     10966      10217 
+     10966      10217 
+     10966      10217 
+     10966      10217 
+     10966      10217 
+
+
+Instructions with one operand and an immediate operand
+
+
+
+Latency: mov r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10094      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+     10016      10217 
+     10016      10217 
+     10017      10217 
+     10017      10217 
+     10016      10217 
+     10016      10217 
+
+
+Latency: mov r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13962      10217 
+     13696      10217 
+     13676      10217 
+     13670      10217 
+     13677      10217 
+     13676      10217 
+     13670      10217 
+     13677      10217 
+     13676      10217 
+     13670      10217 
+
+
+Latency: mov r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11096      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+
+
+Latency: mov r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11206      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+
+
+Throughput: mov r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6630      10217 
+      6571      10217 
+      6513      10217 
+      6513      10217 
+      6513      10217 
+      6513      10217 
+      6513      10217 
+      6513      10217 
+      6513      10217 
+      6513      10217 
+
+
+Throughput: mov r8high, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6545      10217 
+      6571      10217 
+      6513      10217 
+      6513      10217 
+      6513      10217 
+      6513      10217 
+      6513      10217 
+      6513      10217 
+      6513      10217 
+      6513      10217 
+
+
+Throughput: mov r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13833      10217 
+     13677      10217 
+     13676      10217 
+     13670      10217 
+     13677      10217 
+     13676      10217 
+     13670      10217 
+     13677      10217 
+     13676      10217 
+     13670      10217 
+
+
+Throughput: mov r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6416      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+
+
+Throughput: mov r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6305      10217 
+      6084      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+      6019      10217 
+
+
+Throughput with memory operand: mov [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19650      10217 
+     18734      10217 
+     18714      10217 
+     18714      10217 
+     18714      10217 
+     18714      10217 
+     32078      10218 
+     19149      10217 
+     18714      10217 
+     18714      10217 
+
+
+Latency with memory operand: mov [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19065      10217 
+     18714      10217 
+     18714      10217 
+     18740      10217 
+     18714      10217 
+     18714      10217 
+     18714      10217 
+     19228      10217 
+     18714      10217 
+     18714      10217 
+
+
+Latency: add r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10127      10217 
+     10023      10217 
+     10023      10217 
+     10017      10217 
+     10016      10217 
+     10023      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+
+
+Latency: add r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10218      10217 
+     10043      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+
+
+Latency: add r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10153      10217 
+     10023      10217 
+     10056      10217 
+     10017      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+     10016      10217 
+     10023      10217 
+
+
+Latency: add r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11154      10217 
+     10874      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+
+
+Throughput: add r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6657      10217 
+      6546      10217 
+      6507      10217 
+      6507      10217 
+      6507      10217 
+      6507      10217 
+      6507      10217 
+      6507      10217 
+      6507      10217 
+      6507      10217 
+
+
+Throughput: add r8high, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6656      10217 
+      6565      10217 
+      6520      10217 
+      6519      10217 
+      6520      10217 
+      6519      10217 
+      6520      10217 
+      6519      10217 
+      6520      10217 
+      6519      10217 
+
+
+Throughput: add r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6435      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+
+
+Throughput: add r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6683      10217 
+      6533      10217 
+      6514      10217 
+      6513      10217 
+      6514      10217 
+      6513      10217 
+      6514      10217 
+      6513      10217 
+      6514      10217 
+      6513      10217 
+
+
+Throughput: add r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6689      10217 
+      6507      10217 
+      6500      10217 
+      6507      10217 
+      6501      10217 
+      6507      10217 
+      6500      10217 
+      6507      10217 
+      6501      10217 
+      6507      10217 
+
+
+Throughput with memory operand: add [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20495      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+
+
+Latency with memory operand: add [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50206      10217 
+     50024      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50017      10217 
+     50018      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+
+
+Latency: adc r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10985      10217 
+     10862      10217 
+     10855      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10855      10217 
+     10862      10217 
+
+
+Latency: adc r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11141      10217 
+     11349      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+
+
+Latency: adc r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10992      10217 
+     10894      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+
+
+Latency: adc r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11051      10217 
+     10855      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+     10855      10217 
+
+
+Throughput: adc r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11382      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+
+
+Throughput: adc r8high, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11024      10217 
+     10894      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+
+
+Throughput: adc r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10998      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+
+
+Throughput: adc r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10153      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Throughput: adc r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10166      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Throughput with memory operand: adc [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22165      10217 
+     21697      10217 
+     21691      10217 
+     21690      10217 
+     21691      10217 
+     21690      10217 
+     21691      10217 
+     21690      10217 
+     21691      10217 
+     21690      10217 
+
+
+Latency with memory operand: adc [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54334      10217 
+     54185      10217 
+     54185      10217 
+     54184      10217 
+     54185      10217 
+     54184      10217 
+     54185      10217 
+     54691      10217 
+     54185      10217 
+     54185      10217 
+
+
+Latency: sub r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10147      10217 
+     10023      10217 
+     10023      10217 
+     10017      10217 
+     10016      10217 
+     10023      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+
+
+Latency: sub r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11199      10217 
+     10875      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+
+
+Latency: sub r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10979      10217 
+     10894      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+
+
+Latency: sub r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10992      10217 
+     10868      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+
+
+Throughput: sub r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6162      10217 
+      6045      10217 
+      6006      10217 
+      6012      10217 
+      6013      10217 
+      6006      10217 
+      6012      10217 
+      6013      10217 
+      6006      10217 
+      6012      10217 
+
+
+Throughput: sub r8high, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6675      10217 
+      6565      10217 
+      6519      10217 
+      6520      10217 
+      6519      10217 
+      6520      10217 
+      6519      10217 
+      6520      10217 
+      6519      10217 
+      6520      10217 
+
+
+Throughput: sub r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6318      10217 
+      6032      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+
+
+Throughput: sub r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6175      10217 
+      6058      10217 
+      6019      10217 
+      6013      10217 
+      6019      10217 
+      6012      10217 
+      6012      10217 
+      6013      10217 
+      6013      10217 
+      6019      10217 
+
+
+Throughput: sub r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6363      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+
+
+Throughput with memory operand: sub [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20527      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+
+
+Latency with memory operand: sub [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54346      10217 
+     54223      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+
+
+Latency: sbb r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10153      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Latency: sbb r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10289      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Latency: sbb r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10133      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Latency: sbb r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10972      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+
+
+Throughput: sbb r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10861      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+
+
+Throughput: sbb r8high, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10043      10217 
+     10049      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Throughput: sbb r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10355      10217 
+     10049      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Throughput: sbb r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10127      10217 
+     10049      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Throughput: sbb r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10166      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Throughput with memory operand: sbb [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20455      10217 
+     20014      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+
+
+Latency with memory operand: sbb [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54334      10217 
+     54190      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54191      10217 
+     54190      10217 
+
+
+Latency: and r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10947      10217 
+     10856      10217 
+     10849      10217 
+     10849      10217 
+     10856      10217 
+     10849      10217 
+     10849      10217 
+     10856      10217 
+     10849      10217 
+     10849      10217 
+
+
+Latency: and r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10283      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+
+
+Latency: and r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10146      10217 
+     10055      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+     10016      10217 
+     10023      10217 
+
+
+Latency: and r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10283      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+
+
+Throughput: and r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6136      10217 
+      6045      10217 
+      6006      10217 
+      6012      10217 
+      6013      10217 
+      6006      10217 
+      6012      10217 
+      6013      10217 
+      6006      10217 
+      6012      10217 
+
+
+Throughput: and r8high, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6272      10217 
+      6058      10217 
+      6012      10217 
+      6013      10217 
+      6013      10217 
+      6019      10217 
+      6012      10217 
+      6019      10217 
+      6013      10217 
+      6019      10217 
+
+
+Throughput: and r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6403      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+
+
+Throughput: and r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6071      10217 
+      6058      10217 
+      6019      10217 
+      6012      10217 
+      6012      10217 
+      6013      10217 
+      6013      10217 
+      6019      10217 
+      6012      10217 
+      6019      10217 
+
+
+Throughput: and r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6247      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+
+
+Throughput with memory operand: and [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20637      10217 
+     20013      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+
+
+Latency with memory operand: and [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50173      10217 
+     50050      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50017      10217 
+     50018      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+
+
+Latency: or r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10166      10217 
+     10023      10217 
+     10023      10217 
+     10017      10217 
+     10016      10217 
+     10023      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+
+
+Latency: or r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10342      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+
+
+Latency: or r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10237      10217 
+     10056      10217 
+     10023      10217 
+     10016      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+
+
+Latency: or r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10986      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+
+
+Throughput: or r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6663      10217 
+      6507      10217 
+      6546      10217 
+      6507      10217 
+      6507      10217 
+      6507      10217 
+      6507      10217 
+      6507      10217 
+      6507      10217 
+      6507      10217 
+
+
+Throughput: or r8high, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6675      10217 
+      6565      10217 
+      6520      10217 
+      6519      10217 
+      6520      10217 
+      6519      10217 
+      6520      10217 
+      6519      10217 
+      6520      10217 
+      6519      10217 
+
+
+Throughput: or r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6696      10217 
+      6533      10217 
+      6500      10217 
+      6507      10217 
+      6501      10217 
+      6507      10217 
+      6500      10217 
+      6507      10217 
+      6501      10217 
+      6507      10217 
+
+
+Throughput: or r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6169      10217 
+      6058      10217 
+      6012      10217 
+      6019      10217 
+      6013      10217 
+      6019      10217 
+      6012      10217 
+      6019      10217 
+      6013      10217 
+      6019      10217 
+
+
+Throughput: or r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6208      10217 
+      6032      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+
+
+Throughput with memory operand: or [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22049      10217 
+     21678      10217 
+     21685      10217 
+     21684      10217 
+     21685      10217 
+     21684      10217 
+     21685      10217 
+     21684      10217 
+     21685      10217 
+     21684      10217 
+
+
+Latency with memory operand: or [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54346      10217 
+     54223      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+
+
+Latency: xor r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10036      10217 
+     10062      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+     10023      10217 
+     10017      10217 
+     10016      10217 
+     10023      10217 
+     10023      10217 
+
+
+Latency: xor r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11160      10217 
+     10888      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+
+
+Latency: xor r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10121      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10016      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+     10023      10217 
+     10017      10217 
+
+
+Latency: xor r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10185      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+
+
+Throughput: xor r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6214      10217 
+      6045      10217 
+      6006      10217 
+      6012      10217 
+      6013      10217 
+      6006      10217 
+      6012      10217 
+      6013      10217 
+      6006      10217 
+      6012      10217 
+
+
+Throughput: xor r8high, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6201      10217 
+      6019      10217 
+      6012      10217 
+      6019      10217 
+      6013      10217 
+      6019      10217 
+      6012      10217 
+      6012      10217 
+      6013      10217 
+      6013      10217 
+
+
+Throughput: xor r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6273      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+      6006      10217 
+
+
+Throughput: xor r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6175      10217 
+      6058      10217 
+      6019      10217 
+      6013      10217 
+      6019      10217 
+      6012      10217 
+      6012      10217 
+      6013      10217 
+      6013      10217 
+      6019      10217 
+
+
+Throughput: xor r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6708      10217 
+      6507      10217 
+      6500      10217 
+      6507      10217 
+      6501      10217 
+      6507      10217 
+      6500      10217 
+      6507      10217 
+      6501      10217 
+      6507      10217 
+
+
+Throughput with memory operand: xor [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20982      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+
+
+Latency with memory operand: xor [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54347      10217 
+     54190      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54191      10217 
+     54190      10217 
+
+
+Latency: cmp r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5642      10217 
+      5557      10217 
+      5499      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+      5499      10217 
+      5499      10217 
+      5499      10217 
+      5506      10217 
+
+
+Latency: cmp r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5434      10217 
+      5128      10217 
+      5128      10217 
+      5128      10217 
+      5128      10217 
+      5122      10217 
+      5129      10217 
+      5129      10217 
+      5129      10217 
+      5129      10217 
+
+
+Latency: cmp r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5245      10217 
+      5135      10217 
+      5076      10217 
+      5116      10217 
+      5116      10217 
+      5116      10217 
+      5122      10217 
+      5115      10217 
+      5115      10217 
+      5122      10217 
+
+
+Latency: cmp r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5395      10217 
+      5128      10217 
+      5128      10217 
+      5128      10217 
+      5128      10217 
+      5122      10217 
+      5129      10217 
+      5129      10217 
+      5129      10217 
+      5129      10217 
+
+
+Throughput: cmp r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5167      10217 
+      5115      10217 
+      5083      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5076      10217 
+
+
+Throughput: cmp r8high, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5252      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5077      10217 
+
+
+Throughput: cmp r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5421      10217 
+      5128      10217 
+      5128      10217 
+      5128      10217 
+      5128      10217 
+      5122      10217 
+      5129      10217 
+      5129      10217 
+      5129      10217 
+      5129      10217 
+
+
+Throughput: cmp r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5239      10217 
+      5135      10217 
+      5076      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5083      10217 
+
+
+Throughput: cmp r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5512      10217 
+      5129      10217 
+      5129      10217 
+      5129      10217 
+      5129      10217 
+      5122      10217 
+      5122      10217 
+      5128      10217 
+      5128      10217 
+      5128      10217 
+
+
+Throughput with memory operand: cmp [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10510      10217 
+     10062      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+
+
+Latency with memory operand: cmp [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10764      10217 
+     10062      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     24135      10218 
+     12012      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+
+
+Latency: test r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5213      10217 
+      5128      10217 
+      5076      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+
+
+Latency: test r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12746      10217 
+     12623      10217 
+     12623      10217 
+     12623      10217 
+     12623      10217 
+     12623      10217 
+     12623      10217 
+     12623      10217 
+     12623      10217 
+     12623      10217 
+
+
+Latency: test r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5778      10217 
+      5544      10217 
+      5506      10217 
+      5505      10217 
+      5499      10217 
+      5506      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+      5506      10217 
+
+
+Latency: test r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6318      10217 
+      5571      10217 
+      5505      10217 
+      5499      10217 
+      5499      10217 
+      5499      10217 
+      5506      10217 
+      5505      10217 
+      5506      10217 
+      5499      10217 
+
+
+Throughput: test r8, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5232      10217 
+      5116      10217 
+      5077      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5083      10217 
+
+
+Throughput: test r8high, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5135      10217 
+      5135      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+
+
+Throughput: test r16, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13488      10217 
+     13149      10217 
+     13130      10217 
+     13123      10217 
+     13123      10217 
+     13123      10217 
+     13123      10217 
+     13123      10217 
+     13130      10217 
+     13124      10217 
+
+
+Throughput: test r32, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5584      10217 
+      5115      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5083      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+
+
+Throughput: test r64, i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5850      10217 
+      5570      10217 
+      5505      10217 
+      5545      10217 
+      5545      10217 
+      5544      10217 
+      5545      10217 
+      5545      10217 
+      5544      10217 
+      5545      10217 
+
+
+Throughput with memory operand: test [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11584      10217 
+     10894      10217 
+     10855      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10856      10217 
+     10856      10217 
+     10862      10217 
+
+
+Latency with memory operand: test [m32], i
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11401      10217 
+     10907      10217 
+     10862      10217 
+     10862      10217 
+     10868      10217 
+     10861      10217 
+     10861      10217 
+     10868      10217 
+     10862      10217 
+     10862      10217 
+
+
+Throughput with INDIR address mode: mov [m32], r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    168396     102005 
+    168850     102005 
+    168350     102005 
+    168402     102005 
+    168376     102005 
+    168383     102005 
+    168383     102005 
+    168383     102005 
+    168383     102005 
+    168383     102005 
+
+
+Throughput with RIP address mode: mov [m32], r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    183007     102005 
+    182435     102005 
+    182390     102005 
+    182384     102005 
+    182423     102005 
+    182390     102005 
+    182383     102005 
+    182383     102005 
+    182390     102005 
+    182878     102005 
+
+
+Throughput with ABS32 address mode: mov [m32], r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    233844     102006 
+    168344     102005 
+    168383     102005 
+    168344     102005 
+    168337     102005 
+    168343     102005 
+    168343     102005 
+    168792     102005 
+    168357     102005 
+    168344     102005 
+
+
+Throughput with ABS64 address mode: mov [m32], r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    168948     102005 
+    168356     102005 
+    168805     102005 
+    168357     102005 
+    168357     102005 
+    168357     102005 
+    168350     102005 
+    168350     102005 
+    168350     102005 
+    168356     102005 
+
+
+Throughput with INDIR address mode: mov r32, [m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    144073     102005 
+    143761     102005 
+    143741     102005 
+    143735     102005 
+    143735     102005 
+    143741     102005 
+    143735     102005 
+    143735     102005 
+    143741     102005 
+    143735     102005 
+
+
+Throughput with RIP address mode: mov r32, [m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    144015     102005 
+    143781     102005 
+    143735     102005 
+    143735     102005 
+    143735     102005 
+    143735     102005 
+    143735     102005 
+    143735     102005 
+    143735     102005 
+    143735     102005 
+
+
+Throughput with ABS32 address mode: mov r32, [m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    132977     102005 
+    132724     102005 
+    132678     102005 
+    132678     102005 
+    132684     102005 
+    132684     102005 
+    132684     102005 
+    132684     102005 
+    132684     102005 
+    132678     102005 
+
+
+Throughput with ABS64 address mode: mov r32, [m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    133556     102005 
+    155805     102006 
+    132685     102005 
+    132691     102005 
+    132684     102005 
+    132684     102005 
+    132685     102005 
+    132685     102005 
+    132684     102005 
+    132684     102005 
+
+
+Throughput: sete r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100100     102006 
+    100022     102006 
+    100015     102006 
+    100022     102006 
+    100016     102006 
+    100022     102006 
+    100015     102006 
+    100015     102006 
+    100016     102006 
+    100016     102006 
+
+
+Throughput: sete r8h
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    108479     102006 
+    108349     102006 
+    108349     102006 
+    108349     102006 
+    108349     102006 
+    108349     102006 
+    108349     102006 
+    108349     102006 
+    108349     102006 
+    108349     102006 
+
+
+Latency: sete r8 / neg r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    325228     202006 
+    325039     202006 
+    325020     202006 
+    325026     202006 
+    337668     202007 
+    325026     202006 
+    325020     202006 
+    325026     202006 
+    325507     202006 
+    325020     202006 
+
+
+Throughput: sete, [m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    172679     102006 
+    172640     102006 
+    172614     102006 
+    172607     102006 
+    172614     102006 
+    172614     102006 
+    172614     102006 
+    173063     102006 
+    172627     102006 
+    172614     102006 
+
+
+Instructions with two operands
+
+
+
+Latency: mov r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10101      10217 
+     10023      10217 
+     10016      10217 
+     10016      10217 
+     10017      10217 
+     10017      10217 
+     10016      10217 
+     10016      10217 
+     10017      10217 
+     10017      10217 
+
+
+Latency: mov r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10959      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+
+
+Latency: mov r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10862      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+
+
+Latency: mov r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10985      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+
+
+Throughput: mov r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5232      10217 
+      5122      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5083      10217 
+      5083      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+
+
+Throughput: mov r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5232      10217 
+      5122      10217 
+      5083      10217 
+      5076      10217 
+      5077      10217 
+      5083      10217 
+      5083      10217 
+      5083      10217 
+      5076      10217 
+      5077      10217 
+
+
+Throughput: mov r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5239      10217 
+      5122      10217 
+      5077      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5077      10217 
+      5077      10217 
+
+
+Throughput: mov r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5239      10217 
+      5083      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+
+
+Throughput with memory source operand: mov r8,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11173      10217 
+     10887      10217 
+     10868      10217 
+     10868      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+
+
+Throughput with memory source operand: mov r16,[m16]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11310      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+
+
+Throughput with memory source operand: mov r32,[m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     14697      10217 
+     14398      10217 
+     14391      10217 
+     14392      10217 
+     14398      10217 
+     14391      10217 
+     14392      10217 
+     14398      10217 
+     14391      10217 
+     14392      10217 
+
+
+Throughput with memory source operand: mov r64,[m64]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13527      10217 
+     13312      10217 
+     13286      10217 
+     13286      10217 
+     13286      10217 
+     13286      10217 
+     13286      10217 
+     13286      10217 
+     13286      10217 
+     13286      10217 
+
+
+Throughput with memory destination operand: mov [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     17504      10217 
+     16861      10217 
+     16868      10217 
+     16861      10217 
+     16854      10217 
+     16855      10217 
+     16861      10217 
+     16854      10217 
+     16861      10217 
+     16861      10217 
+
+
+Throughput with memory destination operand: mov [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18617      10217 
+     18291      10217 
+     18259      10217 
+     18266      10217 
+     18259      10217 
+     18259      10217 
+     18265      10217 
+     18259      10217 
+     18259      10217 
+     18266      10217 
+
+
+Throughput with memory destination operand: mov [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18571      10217 
+     18311      10217 
+     18265      10217 
+     18297      10217 
+     18298      10217 
+     18297      10217 
+     18298      10217 
+     18291      10217 
+     18297      10217 
+     18298      10217 
+
+
+Throughput with memory destination operand: mov [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18479      10217 
+     18271      10217 
+     18265      10217 
+     18265      10217 
+     18272      10217 
+     18265      10217 
+     18265      10217 
+     18271      10217 
+     18265      10217 
+     18265      10217 
+
+
+Latency with memory destination operand: mov [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     16907      10217 
+     16907      10217 
+     16855      10217 
+     16854      10217 
+     16861      10217 
+     16855      10217 
+     16861      10217 
+     16854      10217 
+     16855      10217 
+     16861      10217 
+
+
+Latency with memory destination operand: mov [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18441      10217 
+     18317      10217 
+     18265      10217 
+     18265      10217 
+     18265      10217 
+     18265      10217 
+     18265      10217 
+     52273      10218 
+     18369      10217 
+     18265      10217 
+
+
+Latency with memory destination operand: mov [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18577      10217 
+     18259      10217 
+     18305      10217 
+     18259      10217 
+     18259      10217 
+     18259      10217 
+     16842      10217 
+     16836      10217 
+     16835      10217 
+     16842      10217 
+
+
+Latency with memory destination operand: mov [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     16952      10217 
+     16861      10217 
+     16854      10217 
+     16861      10217 
+     16855      10217 
+     16861      10217 
+     16854      10217 
+     16854      10217 
+     16855      10217 
+     16855      10217 
+
+
+Latency: xchg r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     28190      10217 
+     28191      10217 
+     28190      10217 
+     28190      10217 
+     28190      10217 
+     28191      10217 
+     28191      10217 
+     28191      10217 
+     28197      10217 
+     28190      10217 
+
+
+Latency: xchg r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29498      10217 
+     29530      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+
+
+Latency: xchg r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29498      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+
+
+Latency: xchg r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29517      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+     29413      10217 
+
+
+Throughput: xchg r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26384      10217 
+     26566      10217 
+     26462      10217 
+     26462      10217 
+     26462      10217 
+     26462      10217 
+     27164      10217 
+     26456      10217 
+     26462      10217 
+     26455      10217 
+
+
+Throughput: xchg r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19480      10217 
+     19461      10217 
+     19403      10217 
+     19403      10217 
+     19403      10217 
+     19403      10217 
+     19403      10217 
+     19403      10217 
+     19409      10217 
+     19402      10217 
+
+
+Throughput: xchg r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     16341      10217 
+     16016      10217 
+     15067      10217 
+     15060      10217 
+     15061      10217 
+     15067      10217 
+     15067      10217 
+     15067      10217 
+     15060      10217 
+     15067      10217 
+
+
+Throughput: xchg r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     15197      10217 
+     15080      10217 
+     15080      10217 
+     15080      10217 
+     15080      10217 
+     15080      10217 
+     15080      10217 
+     15073      10217 
+     15074      10217 
+     15073      10217 
+
+
+Throughput with memory source operand: xchg r8,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    170157      10217 
+    170040      10217 
+    170040      10217 
+    170040      10217 
+    170034      10217 
+    170033      10217 
+    170040      10217 
+    170040      10217 
+    170040      10217 
+    170040      10217 
+
+
+Throughput with memory source operand: xchg r16,[m16]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    170177      10217 
+    183203      10218 
+    170060      10217 
+    170040      10217 
+    170040      10217 
+    170040      10217 
+    170034      10217 
+    170033      10217 
+    170040      10217 
+    170040      10217 
+
+
+Throughput with memory source operand: xchg r32,[m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    184340      10217 
+    184249      10217 
+    184204      10217 
+    184211      10217 
+    184204      10217 
+    184204      10217 
+    250439      10219 
+    184224      10217 
+    184210      10217 
+    184204      10217 
+
+
+Throughput with memory source operand: xchg r64,[m64]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    170177      10217 
+    170079      10217 
+    170040      10217 
+    170040      10217 
+    170040      10217 
+    170040      10217 
+    170040      10217 
+    170488      10217 
+    170034      10217 
+    170040      10217 
+
+
+Throughput with memory destination operand: xchg [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    184386      10217 
+    184256      10217 
+    184210      10217 
+    184216      10217 
+    184210      10217 
+    184210      10217 
+    184217      10217 
+    184210      10217 
+    184704      10217 
+    184210      10217 
+
+
+Throughput with memory destination operand: xchg [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    184632      10217 
+    184216      10217 
+    184210      10217 
+    184210      10217 
+    184217      10217 
+    184210      10217 
+    184210      10217 
+    184216      10217 
+    184210      10217 
+    184210      10217 
+
+
+Throughput with memory destination operand: xchg [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    184451      10217 
+    184230      10217 
+    184204      10217 
+    184211      10217 
+    184204      10217 
+    218979      10218 
+    173030      10217 
+    170021      10217 
+    170476      10217 
+    170021      10217 
+
+
+Throughput with memory destination operand: xchg [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    170085      10217 
+    170534      10217 
+    170040      10217 
+    170040      10217 
+    170040      10217 
+    170040      10217 
+    170033      10217 
+    170034      10217 
+    170040      10217 
+    170040      10217 
+
+
+Latency with memory destination operand: xchg [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    195573      10218 
+    184191      10217 
+    184184      10217 
+    184184      10217 
+    184191      10217 
+    184185      10217 
+    184185      10217 
+    184191      10217 
+    184184      10217 
+    184184      10217 
+
+
+Latency with memory destination operand: xchg [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    184353      10217 
+    184211      10217 
+    184184      10217 
+    184191      10217 
+    184185      10217 
+    184191      10217 
+    184184      10217 
+    184191      10217 
+    184185      10217 
+    184191      10217 
+
+
+Latency with memory destination operand: xchg [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    184340      10217 
+    184197      10217 
+    184190      10217 
+    184190      10217 
+    184197      10217 
+    184191      10217 
+    184191      10217 
+    184197      10217 
+    184190      10217 
+    184190      10217 
+
+
+Latency with memory destination operand: xchg [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    184359      10217 
+    184216      10217 
+    184197      10217 
+    225687      10218 
+    171691      10217 
+    170008      10217 
+    170014      10217 
+    170007      10217 
+    170007      10217 
+    170007      10217 
+
+
+Latency: add r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10965      10217 
+     10855      10217 
+     10855      10217 
+     10861      10217 
+     10855      10217 
+     10855      10217 
+     10861      10217 
+     10855      10217 
+     10855      10217 
+     10861      10217 
+
+
+Latency: add r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10133      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+
+
+Latency: add r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10146      10217 
+     10023      10217 
+     10023      10217 
+     10017      10217 
+     10016      10217 
+     10023      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+
+
+Latency: add r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10036      10217 
+     10049      10217 
+     10023      10217 
+     10016      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+
+
+Throughput: add r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5246      10217 
+      5122      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5083      10217 
+      5083      10217 
+      5083      10217 
+      5076      10217 
+
+
+Throughput: add r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5350      10217 
+      5109      10217 
+      5083      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+      5076      10217 
+      5077      10217 
+      5077      10217 
+      5076      10217 
+
+
+Throughput: add r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5109      10217 
+      5083      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+      5076      10217 
+      5077      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+
+
+Throughput: add r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5656      10217 
+      5558      10217 
+      5499      10217 
+      5493      10217 
+      5493      10217 
+      5499      10217 
+      5493      10217 
+      5493      10217 
+      5499      10217 
+      5493      10217 
+
+
+Throughput with memory source operand: add r8,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13215      10217 
+     10901      10217 
+     10862      10217 
+     10862      10217 
+     10855      10217 
+     10855      10217 
+     10855      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+
+
+Throughput with memory source operand: add r16,[m16]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11193      10217 
+     10894      10217 
+     10855      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10856      10217 
+     10856      10217 
+     10856      10217 
+     10862      10217 
+
+
+Throughput with memory source operand: add r32,[m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13215      10217 
+     10901      10217 
+     10856      10217 
+     10862      10217 
+     10855      10217 
+     10862      10217 
+     10856      10217 
+     10862      10217 
+     10855      10217 
+     10862      10217 
+
+
+Throughput with memory source operand: add r64,[m64]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10595      10217 
+     10030      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+
+
+Throughput with memory destination operand: add [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20137      10217 
+     20020      10217 
+     20020      10217 
+     20013      10217 
+     20014      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20013      10217 
+     20020      10217 
+
+
+Throughput with memory destination operand: add [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19735      10217 
+     19494      10217 
+     19488      10217 
+     19481      10217 
+     19487      10217 
+     19481      10217 
+     19488      10217 
+     19481      10217 
+     19487      10217 
+     19481      10217 
+
+
+Throughput with memory destination operand: add [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19774      10217 
+     19579      10217 
+     19552      10217 
+     19553      10217 
+     19559      10217 
+     19552      10217 
+     19553      10217 
+     19559      10217 
+     19552      10217 
+     19553      10217 
+
+
+Throughput with memory destination operand: add [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18272      10217 
+     18057      10217 
+     18005      10217 
+     18012      10217 
+     18005      10217 
+     18011      10217 
+     18005      10217 
+     18012      10217 
+     18005      10217 
+     18011      10217 
+
+
+Latency with memory destination operand: add [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54333      10217 
+     54191      10217 
+     54236      10217 
+     54190      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+
+
+Latency with memory destination operand: add [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50161      10217 
+     50050      10217 
+     50017      10217 
+     50024      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50017      10217 
+     50018      10217 
+     50018      10217 
+
+
+Latency with memory destination operand: add [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50050      10217 
+     50024      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50018      10217 
+     50024      10217 
+
+
+Latency with memory destination operand: add [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50128      10217 
+     50037      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50017      10217 
+     50018      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+
+
+Latency: sub r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10959      10217 
+     10855      10217 
+     10855      10217 
+     10862      10217 
+     10855      10217 
+     10855      10217 
+     10862      10217 
+     10855      10217 
+     10855      10217 
+     10862      10217 
+
+
+Latency: sub r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10966      10217 
+     10882      10217 
+     10855      10217 
+     10849      10217 
+     10856      10217 
+     10849      10217 
+     10855      10217 
+     10849      10217 
+     10856      10217 
+     10849      10217 
+
+
+Latency: sub r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10972      10217 
+     10862      10217 
+     10855      10217 
+     10855      10217 
+     10862      10217 
+     10855      10217 
+     10855      10217 
+     10862      10217 
+     10855      10217 
+     10855      10217 
+
+
+Latency: sub r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10946      10217 
+     10888      10217 
+     10861      10217 
+     10855      10217 
+     10862      10217 
+     10855      10217 
+     10861      10217 
+     10855      10217 
+     10862      10217 
+     10855      10217 
+
+
+Throughput: sub r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6175      10217 
+      5505      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+      5505      10217 
+      5506      10217 
+
+
+Throughput: sub r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5668      10217 
+      5493      10217 
+      5493      10217 
+      5493      10217 
+      5493      10217 
+      5493      10217 
+      5493      10217 
+      5493      10217 
+      5493      10217 
+      5493      10217 
+
+
+Throughput: sub r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5239      10217 
+      5083      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+      5076      10217 
+      5077      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+
+
+Throughput: sub r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5356      10217 
+      5076      10217 
+      5076      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5083      10217 
+
+
+Throughput with memory source operand: sub r8,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10303      10217 
+     10042      10217 
+     10029      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+
+
+Throughput with memory source operand: sub r16,[m16]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10315      10217 
+     10062      10217 
+     10029      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+
+
+Throughput with memory source operand: sub r32,[m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13221      10217 
+     10907      10217 
+     10861      10217 
+     10868      10217 
+     10862      10217 
+     10868      10217 
+     10861      10217 
+     10868      10217 
+     25175      10218 
+     12558      10217 
+
+
+Throughput with memory source operand: sub r64,[m64]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11408      10217 
+     10875      10217 
+     10856      10217 
+     10855      10217 
+     10855      10217 
+     10856      10217 
+     10856      10217 
+     10855      10217 
+     10855      10217 
+     10856      10217 
+
+
+Throughput with memory destination operand: sub [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22419      10217 
+     21691      10217 
+     21684      10217 
+     21691      10217 
+     21685      10217 
+     21691      10217 
+     21684      10217 
+     21691      10217 
+     21685      10217 
+     21691      10217 
+
+
+Throughput with memory destination operand: sub [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18317      10217 
+     18057      10217 
+     18064      10217 
+     18057      10217 
+     18057      10217 
+     18057      10217 
+     18063      10217 
+     18057      10217 
+     18057      10217 
+     18057      10217 
+
+
+Throughput with memory destination operand: sub [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18239      10217 
+     18077      10217 
+     18057      10217 
+     18057      10217 
+     18050      10217 
+     18057      10217 
+     18051      10217 
+     18057      10217 
+     18050      10217 
+     18057      10217 
+
+
+Throughput with memory destination operand: sub [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     16893      10217 
+     16620      10217 
+     16620      10217 
+     16620      10217 
+     16620      10217 
+     16620      10217 
+     16620      10217 
+     16620      10217 
+     16620      10217 
+     16620      10217 
+
+
+Latency with memory destination operand: sub [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50232      10217 
+     50063      10217 
+     50017      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50024      10217 
+     50018      10217 
+     50017      10217 
+     50024      10217 
+
+
+Latency with memory destination operand: sub [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50167      10217 
+     50050      10217 
+     50017      10217 
+     50024      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50017      10217 
+     50018      10217 
+     50018      10217 
+
+
+Latency with memory destination operand: sub [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50180      10217 
+     50024      10217 
+     50017      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50024      10217 
+     50018      10217 
+     50017      10217 
+     50024      10217 
+
+
+Latency with memory destination operand: sub [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50206      10217 
+     50037      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50017      10217 
+     50018      10217 
+     50018      10217 
+     50024      10217 
+     50472      10217 
+
+
+Latency: adc r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10036      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Latency: adc r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10998      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+
+
+Latency: adc r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10972      10217 
+     10907      10217 
+     10861      10217 
+     10888      10217 
+     10888      10217 
+     10887      10217 
+     10887      10217 
+     10888      10217 
+     10888      10217 
+     10887      10217 
+
+
+Latency: adc r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10979      10217 
+     10888      10217 
+     10855      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+
+
+Throughput: adc r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10965      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+
+
+Throughput: adc r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10972      10217 
+     10875      10217 
+     10855      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+     10849      10217 
+     10855      10217 
+     10856      10217 
+     10855      10217 
+
+
+Throughput: adc r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10979      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+
+
+Throughput: adc r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10217 
+     10036      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Throughput with memory source operand: adc r8,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12214      10217 
+     10062      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10029      10217 
+
+
+Throughput with memory source operand: adc r16,[m16]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10251      10217 
+     10023      10217 
+     10030      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10030      10217 
+
+
+Throughput with memory source operand: adc r32,[m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10212      10217 
+     10062      10217 
+     10023      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+
+
+Throughput with memory source operand: adc r64,[m64]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11277      10217 
+     10900      10217 
+     10868      10217 
+     10862      10217 
+     10861      10217 
+     10868      10217 
+     10862      10217 
+     10861      10217 
+     10868      10217 
+     10862      10217 
+
+
+Throughput with memory destination operand: adc [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21867      10217 
+     21691      10217 
+     21685      10217 
+     21685      10217 
+     21684      10217 
+     21684      10217 
+     21685      10217 
+     21685      10217 
+     21684      10217 
+     21684      10217 
+
+
+Throughput with memory destination operand: adc [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19657      10217 
+     19481      10217 
+     19481      10217 
+     19481      10217 
+     19481      10217 
+     19481      10217 
+     19481      10217 
+     19481      10217 
+     20047      10217 
+     19481      10217 
+
+
+Throughput with memory destination operand: adc [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19786      10217 
+     19579      10217 
+     19559      10217 
+     19552      10217 
+     19553      10217 
+     19559      10217 
+     19552      10217 
+     19553      10217 
+     19559      10217 
+     19552      10217 
+
+
+Throughput with memory destination operand: adc [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18239      10217 
+     17999      10217 
+     18006      10217 
+     17999      10217 
+     18005      10217 
+     17999      10217 
+     18006      10217 
+     17999      10217 
+     18005      10217 
+     17999      10217 
+
+
+Latency with memory destination operand: adc [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54398      10217 
+     54236      10217 
+     86703      10218 
+     54191      10217 
+     54191      10217 
+     52312      10217 
+     50011      10217 
+     50004      10217 
+     50011      10217 
+     50005      10217 
+
+
+Latency with memory destination operand: adc [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50050      10217 
+     50043      10217 
+     50018      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50024      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+
+
+Latency with memory destination operand: adc [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54347      10217 
+     94640      10218 
+     54197      10217 
+     54190      10217 
+     50004      10217 
+     50005      10217 
+     50011      10217 
+     50004      10217 
+     50011      10217 
+     50005      10217 
+
+
+Latency with memory destination operand: adc [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50128      10217 
+     50050      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50017      10217 
+     50018      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+
+
+Latency: sbb r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10920      10217 
+     10862      10217 
+     10855      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10855      10217 
+     10862      10217 
+
+
+Latency: sbb r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10979      10217 
+     10869      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+     10849      10217 
+
+
+Latency: sbb r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10874      10217 
+     10862      10217 
+     10888      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10855      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+
+
+Latency: sbb r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10966      10217 
+     10894      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+
+
+Throughput: sbb r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10965      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+
+
+Throughput: sbb r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11239      10217 
+     10855      10217 
+     10849      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+     10855      10217 
+     10856      10217 
+     10849      10217 
+     10855      10217 
+
+
+Throughput: sbb r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10933      10217 
+     10894      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+
+
+Throughput: sbb r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10146      10217 
+     10049      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Throughput with memory source operand: sbb r8,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10289      10217 
+     10043      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+
+
+Throughput with memory source operand: sbb r16,[m16]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10361      10217 
+     10023      10217 
+     10030      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10030      10217 
+
+
+Throughput with memory source operand: sbb r32,[m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10186      10217 
+     10042      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Throughput with memory source operand: sbb r64,[m64]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11869      10217 
+     10881      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10861      10217 
+     10862      10217 
+
+
+Throughput with memory destination operand: sbb [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21886      10217 
+     21691      10217 
+     21685      10217 
+     21685      10217 
+     21684      10217 
+     21684      10217 
+     21685      10217 
+     21685      10217 
+     21684      10217 
+     21684      10217 
+
+
+Throughput with memory destination operand: sbb [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19663      10217 
+     19494      10217 
+     19487      10217 
+     19487      10217 
+     19487      10217 
+     19487      10217 
+     19487      10217 
+     19487      10217 
+     19487      10217 
+     19487      10217 
+
+
+Throughput with memory destination operand: sbb [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19773      10217 
+     19578      10217 
+     19559      10217 
+     19553      10217 
+     19552      10217 
+     19559      10217 
+     19553      10217 
+     19552      10217 
+     19559      10217 
+     19553      10217 
+
+
+Throughput with memory destination operand: sbb [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18278      10217 
+     18050      10217 
+     18005      10217 
+     18005      10217 
+     18005      10217 
+     18005      10217 
+     18005      10217 
+     18005      10217 
+     18005      10217 
+     18005      10217 
+
+
+Latency with memory destination operand: sbb [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54333      10217 
+     54191      10217 
+     54230      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54191      10217 
+     54190      10217 
+     85111      10218 
+     54197      10217 
+
+
+Latency with memory destination operand: sbb [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54334      10217 
+     54210      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+     54190      10217 
+     54191      10217 
+     86300      10218 
+
+
+Latency with memory destination operand: sbb [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50037      10217 
+     50056      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50024      10217 
+     50018      10217 
+
+
+Latency with memory destination operand: sbb [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50050      10217 
+     50050      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+     50017      10217 
+     50018      10217 
+     50018      10217 
+     50024      10217 
+     50017      10217 
+
+
+Latency: cmp r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5617      10217 
+      5551      10217 
+      5493      10217 
+      5499      10217 
+      5500      10217 
+      5499      10217 
+      5493      10217 
+      5493      10217 
+      5493      10217 
+      5500      10217 
+
+
+Latency: cmp r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5675      10217 
+      5499      10217 
+      5500      10217 
+      5493      10217 
+      5499      10217 
+      5500      10217 
+      5493      10217 
+      5499      10217 
+      5500      10217 
+      5493      10217 
+
+
+Latency: cmp r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5636      10217 
+      5551      10217 
+      5493      10217 
+      5532      10217 
+      5532      10217 
+      5532      10217 
+      5532      10217 
+      5532      10217 
+      5532      10217 
+      5532      10217 
+
+
+Latency: cmp r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5570      10217 
+      5506      10217 
+      5505      10217 
+      5499      10217 
+      5506      10217 
+      5505      10217 
+      5499      10217 
+      5506      10217 
+      5505      10217 
+      5499      10217 
+
+
+Throughput: cmp r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5662      10217 
+      5551      10217 
+      5499      10217 
+      5506      10217 
+      5505      10217 
+      5499      10217 
+      5506      10217 
+      5505      10217 
+      5499      10217 
+      5506      10217 
+
+
+Throughput: cmp r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5635      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+
+
+Throughput: cmp r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5661      10217 
+      5545      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+      5506      10217 
+
+
+Throughput: cmp r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5252      10217 
+      5135      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+
+
+Throughput with memory source operand: cmp r8,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10263      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+
+
+Throughput with memory source operand: cmp r16,[m16]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10302      10217 
+     10023      10217 
+     10023      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Throughput with memory source operand: cmp r32,[m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13273      10217 
+     10907      10217 
+     10861      10217 
+     10868      10217 
+     10862      10217 
+     10868      10217 
+     10861      10217 
+     10868      10217 
+     10862      10217 
+     10868      10217 
+
+
+Throughput with memory source operand: cmp r64,[m64]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11174      10217 
+     10901      10217 
+     10856      10217 
+     10862      10217 
+     10855      10217 
+     10862      10217 
+     10856      10217 
+     10862      10217 
+     10855      10217 
+     10862      10217 
+
+
+Throughput with memory destination operand: cmp [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11337      10217 
+     10894      10217 
+     10855      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10856      10217 
+     10856      10217 
+     10862      10217 
+
+
+Throughput with memory destination operand: cmp [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10348      10217 
+     10049      10217 
+     10023      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+
+
+Throughput with memory destination operand: cmp [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10218      10217 
+     10029      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10030      10217 
+     10023      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+
+
+Throughput with memory destination operand: cmp [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10329      10217 
+     10049      10217 
+     10023      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+
+
+Latency with memory destination operand: cmp [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10218      10217 
+     10062      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+
+
+Latency with memory destination operand: cmp [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10244      10217 
+     10030      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+
+
+Latency with memory destination operand: cmp [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10211      10217 
+     10081      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10029      10217 
+
+
+Latency with memory destination operand: cmp [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10237      10217 
+     10062      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+
+
+Latency: and r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10653      10217 
+     10062      10217 
+     10017      10217 
+     10016      10217 
+     10023      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+     10023      10217 
+
+
+Latency: and r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10973      10217 
+     10882      10217 
+     10855      10217 
+     10849      10217 
+     10856      10217 
+     10849      10217 
+     10855      10217 
+     10849      10217 
+     10856      10217 
+     10849      10217 
+
+
+Latency: and r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10966      10217 
+     10855      10217 
+     10849      10217 
+     10849      10217 
+     10855      10217 
+     10849      10217 
+     10849      10217 
+     10855      10217 
+     10849      10217 
+     10849      10217 
+
+
+Latency: and r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10146      10217 
+     10023      10217 
+     10049      10217 
+     10016      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+     10023      10217 
+     10017      10217 
+     21723      10218 
+
+
+Throughput: and r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5239      10217 
+      5083      10217 
+      5122      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5083      10217 
+      5083      10217 
+      5083      10217 
+      5076      10217 
+
+
+Throughput: and r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5669      10217 
+      5538      10217 
+      5500      10217 
+      5499      10217 
+      5500      10217 
+      5499      10217 
+      5500      10217 
+      5499      10217 
+      5500      10217 
+      5499      10217 
+
+
+Throughput: and r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5453      10217 
+      5115      10217 
+      5083      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+      5076      10217 
+      5077      10217 
+      5077      10217 
+      5083      10217 
+
+
+Throughput: and r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5675      10217 
+      5558      10217 
+      5500      10217 
+      5493      10217 
+      5493      10217 
+      5500      10217 
+      5493      10217 
+      5493      10217 
+      5500      10217 
+      5493      10217 
+
+
+Throughput with memory source operand: and r8,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11174      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10856      10217 
+     10856      10217 
+     10856      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+
+
+Throughput with memory source operand: and r16,[m16]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10381      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+
+
+Throughput with memory source operand: and r32,[m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10270      10217 
+     10042      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+
+
+Throughput with memory source operand: and r64,[m64]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10224      10217 
+     10030      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+
+
+Throughput with memory destination operand: and [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20098      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20014      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20013      10217 
+
+
+Throughput with memory destination operand: and [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18304      10217 
+     18070      10217 
+     18064      10217 
+     18057      10217 
+     18057      10217 
+     18057      10217 
+     18063      10217 
+     18057      10217 
+     18057      10217 
+     18057      10217 
+
+
+Throughput with memory destination operand: and [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19766      10217 
+     19565      10217 
+     19559      10217 
+     19558      10217 
+     19565      10217 
+     19559      10217 
+     19558      10217 
+     19565      10217 
+     19559      10217 
+     19558      10217 
+
+
+Throughput with memory destination operand: and [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18434      10217 
+     18057      10217 
+     18005      10217 
+     18011      10217 
+     18005      10217 
+     18012      10217 
+     18005      10217 
+     18011      10217 
+     18005      10217 
+     18012      10217 
+
+
+Latency with memory destination operand: and [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54373      10217 
+     54236      10217 
+     54191      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54191      10217 
+
+
+Latency with memory destination operand: and [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54333      10217 
+     54191      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+     54190      10217 
+     54191      10217 
+
+
+Latency with memory destination operand: and [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54341      10217 
+     54184      10217 
+     54184      10217 
+     54185      10217 
+     54184      10217 
+     54184      10217 
+     54185      10217 
+     54184      10217 
+     54184      10217 
+     54185      10217 
+
+
+Latency with memory destination operand: and [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50616      10217 
+     50031      10217 
+     49998      10217 
+     50005      10217 
+     49999      10217 
+     50005      10217 
+     49998      10217 
+     49998      10217 
+     49999      10217 
+     49999      10217 
+
+
+Latency: or r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10959      10217 
+     10862      10217 
+     10855      10217 
+     10855      10217 
+     10862      10217 
+     10855      10217 
+     10855      10217 
+     10862      10217 
+     10855      10217 
+     10855      10217 
+
+
+Latency: or r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10979      10217 
+     10882      10217 
+     10855      10217 
+     10849      10217 
+     10856      10217 
+     10849      10217 
+     10855      10217 
+     10849      10217 
+     10856      10217 
+     10849      10217 
+
+
+Latency: or r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10959      10217 
+     10855      10217 
+     10849      10217 
+     10849      10217 
+     10855      10217 
+     10849      10217 
+     10849      10217 
+     10855      10217 
+     10849      10217 
+     10849      10217 
+
+
+Latency: or r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10146      10217 
+     10049      10217 
+     10023      10217 
+     10017      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+     10016      10217 
+     10023      10217 
+
+
+Throughput: or r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5226      10217 
+      5102      10217 
+      5083      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5083      10217 
+      5083      10217 
+      5077      10217 
+
+
+Throughput: or r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5675      10217 
+      5499      10217 
+      5500      10217 
+      5499      10217 
+      5500      10217 
+      5499      10217 
+      5500      10217 
+      5499      10217 
+      5500      10217 
+      5499      10217 
+
+
+Throughput: or r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5642      10217 
+      5558      10217 
+      5500      10217 
+      5538      10217 
+      5539      10217 
+      5538      10217 
+      5539      10217 
+      5538      10217 
+      5539      10217 
+      5538      10217 
+
+
+Throughput: or r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5565      10217 
+      5500      10217 
+      5558      10217 
+      5493      10217 
+      5493      10217 
+      5500      10217 
+      5493      10217 
+      5493      10217 
+      5500      10217 
+      5493      10217 
+
+
+Throughput with memory source operand: or r8,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11148      10217 
+     10887      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10861      10217 
+     10861      10217 
+
+
+Throughput with memory source operand: or r16,[m16]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10263      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+     10030      10217 
+
+
+Throughput with memory source operand: or r32,[m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10146      10217 
+     10062      10217 
+     10030      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+
+
+Throughput with memory source operand: or r64,[m64]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10341      10217 
+     10062      10217 
+     10030      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+
+
+Throughput with memory destination operand: or [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20202      10217 
+     20027      10217 
+     20020      10217 
+     20026      10217 
+     20020      10217 
+     20020      10217 
+     20026      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+
+
+Throughput with memory destination operand: or [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19773      10217 
+     19584      10217 
+     19565      10217 
+     19565      10217 
+     19565      10217 
+     19565      10217 
+     19565      10217 
+     19565      10217 
+     19565      10217 
+     19565      10217 
+
+
+Throughput with memory destination operand: or [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19747      10217 
+     19584      10217 
+     19565      10217 
+     19559      10217 
+     19558      10217 
+     19565      10217 
+     19559      10217 
+     19558      10217 
+     19565      10217 
+     19559      10217 
+
+
+Throughput with memory destination operand: or [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18525      10217 
+     18025      10217 
+     18032      10217 
+     17999      10217 
+     18005      10217 
+     17999      10217 
+     18006      10217 
+     17999      10217 
+     18005      10217 
+     17999      10217 
+
+
+Latency with memory destination operand: or [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54360      10217 
+     54184      10217 
+     54184      10217 
+     54185      10217 
+     54184      10217 
+     54184      10217 
+     54185      10217 
+     54184      10217 
+     54184      10217 
+     54185      10217 
+
+
+Latency with memory destination operand: or [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54340      10217 
+     54223      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+
+
+Latency with memory destination operand: or [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54340      10217 
+     54230      10217 
+     54184      10217 
+     54210      10217 
+     54217      10217 
+     54211      10217 
+     54211      10217 
+     54217      10217 
+     54210      10217 
+     54210      10217 
+
+
+Latency with memory destination operand: or [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54399      10217 
+     54210      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+
+
+Latency: xor r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11310      10217 
+     10900      10217 
+     10862      10217 
+     10894      10217 
+     10894      10217 
+     10894      10217 
+     10894      10217 
+     10894      10217 
+     10894      10217 
+     10894      10217 
+
+
+Latency: xor r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10940      10217 
+     10856      10217 
+     10849      10217 
+     10855      10217 
+     10849      10217 
+     10856      10217 
+     10849      10217 
+     10855      10217 
+     10849      10217 
+     10856      10217 
+
+
+Latency: xor r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10972      10217 
+     10861      10217 
+     10855      10217 
+     10855      10217 
+     10861      10217 
+     10855      10217 
+     10855      10217 
+     10861      10217 
+     10855      10217 
+     10855      10217 
+
+
+Latency: xor r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10153      10217 
+     10023      10217 
+     10016      10217 
+     10017      10217 
+     10023      10217 
+     10016      10217 
+     10023      10217 
+     10023      10217 
+     10016      10217 
+     10023      10217 
+
+
+Throughput: xor r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5661      10217 
+      5544      10217 
+      5506      10217 
+      5505      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+
+
+Throughput: xor r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5687      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+      5506      10217 
+      5505      10217 
+
+
+Throughput: xor r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5513      10217 
+      5558      10217 
+      5500      10217 
+      5499      10217 
+      5500      10217 
+      5499      10217 
+      5500      10217 
+      5499      10217 
+      5500      10217 
+      5499      10217 
+
+
+Throughput: xor r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5687      10217 
+      5564      10217 
+      5505      10217 
+      5499      10217 
+      5499      10217 
+      5505      10217 
+      5499      10217 
+      5499      10217 
+      5505      10217 
+      5499      10217 
+
+
+Throughput with memory source operand: xor r8,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10231      10217 
+     10062      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+
+
+Throughput with memory source operand: xor r16,[m16]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10250      10217 
+     10043      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+
+
+Throughput with memory source operand: xor r32,[m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10224      10217 
+     10062      10217 
+     10030      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+
+
+Throughput with memory source operand: xor r64,[m64]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10432      10217 
+     10062      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+
+
+Throughput with memory destination operand: xor [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20208      10217 
+     20020      10217 
+     20013      10217 
+     20014      10217 
+     20020      10217 
+     20033      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20013      10217 
+
+
+Throughput with memory destination operand: xor [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19669      10217 
+     19487      10217 
+     19481      10217 
+     19488      10217 
+     19481      10217 
+     19487      10217 
+     19481      10217 
+     19488      10217 
+     19975      10217 
+     19481      10217 
+
+
+Throughput with memory destination operand: xor [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18161      10217 
+     18057      10217 
+     18051      10217 
+     18057      10217 
+     18050      10217 
+     18057      10217 
+     18051      10217 
+     18057      10217 
+     18057      10217 
+     18050      10217 
+
+
+Throughput with memory destination operand: xor [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     17667      10217 
+     16621      10217 
+     16621      10217 
+     16621      10217 
+     16621      10217 
+     16621      10217 
+     16621      10217 
+     16621      10217 
+     16621      10217 
+     16621      10217 
+
+
+Latency with memory destination operand: xor [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50050      10217 
+     50063      10217 
+     50017      10217 
+     50024      10217 
+     50018      10217 
+     50017      10217 
+     50024      10217 
+     61581      10218 
+     50018      10217 
+     50024      10217 
+
+
+Latency with memory destination operand: xor [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54341      10217 
+     54217      10217 
+     54184      10217 
+     54185      10217 
+     54184      10217 
+     67321      10218 
+     54184      10217 
+     54185      10217 
+     54184      10217 
+     54185      10217 
+
+
+Latency with memory destination operand: xor [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54334      10217 
+     54185      10217 
+     54185      10217 
+     54184      10217 
+     54185      10217 
+     54185      10217 
+     54184      10217 
+     54185      10217 
+     54185      10217 
+     54184      10217 
+
+
+Latency with memory destination operand: xor [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54346      10217 
+     54190      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54190      10217 
+     54191      10217 
+     54191      10217 
+     54190      10217 
+
+
+Latency: test r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5226      10217 
+      5129      10217 
+      5077      10217 
+      5076      10217 
+      5076      10217 
+     20982      10218 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5083      10217 
+
+
+Latency: test r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5220      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5077      10217 
+
+
+Latency: test r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5154      10217 
+      5076      10217 
+      5077      10217 
+      5077      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5077      10217 
+
+
+Latency: test r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5863      10217 
+      5135      10217 
+      5076      10217 
+      5115      10217 
+      5115      10217 
+      5115      10217 
+      5115      10217 
+      5115      10217 
+      5115      10217 
+      5115      10217 
+
+
+Throughput: test r8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5656      10217 
+      5500      10217 
+      5545      10217 
+      5500      10217 
+      5499      10217 
+      5285      10217 
+      5057      10217 
+      5057      10217 
+      5057      10217 
+      5064      10217 
+
+
+Throughput: test r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5317      10217 
+      5115      10217 
+      5076      10217 
+      5083      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+      5076      10217 
+      5077      10217 
+      5077      10217 
+
+
+Throughput: test r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5206      10217 
+      5135      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+      5083      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+      5076      10217 
+
+
+Throughput: test r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5245      10217 
+      5077      10217 
+      5083      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5076      10217 
+      5077      10217 
+
+
+Throughput with memory source operand: test r8,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11837      10217 
+     10901      10217 
+     10862      10217 
+     10862      10217 
+     10856      10217 
+     10856      10217 
+     10856      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+
+
+Throughput with memory source operand: test r16,[m16]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11102      10217 
+     10881      10217 
+     10868      10217 
+     10868      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+
+
+Throughput with memory source operand: test r32,[m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13865      10217 
+     10868      10217 
+     10861      10217 
+     10868      10217 
+     10862      10217 
+     10868      10217 
+     10861      10217 
+     10868      10217 
+     10862      10217 
+     10868      10217 
+
+
+Throughput with memory source operand: test r64,[m64]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11037      10217 
+     10862      10217 
+     10856      10217 
+     10862      10217 
+     10855      10217 
+     10862      10217 
+     10856      10217 
+     10862      10217 
+     10855      10217 
+     10862      10217 
+
+
+Throughput with memory destination operand: test [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11051      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+     10856      10217 
+     10856      10217 
+     10862      10217 
+     10862      10217 
+     10862      10217 
+
+
+Throughput with memory destination operand: test [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11076      10217 
+     10888      10217 
+     10868      10217 
+     10861      10217 
+     10861      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10868      10217 
+     10862      10217 
+
+
+Throughput with memory destination operand: test [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10134      10217 
+     10062      10217 
+     10029      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10030      10217 
+     10023      10217 
+     10029      10217 
+     10029      10217 
+
+
+Throughput with memory destination operand: test [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10439      10217 
+     10069      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10023      10217 
+
+
+Latency with memory destination operand: test [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10276      10217 
+     10062      10217 
+     10030      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+     10030      10217 
+
+
+Latency with memory destination operand: test [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10218      10217 
+     10062      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+
+
+Latency with memory destination operand: test [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10231      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10030      10217 
+     10023      10217 
+
+
+Latency with memory destination operand: test [m64],r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10205      10217 
+     10062      10217 
+     10030      10217 
+     10023      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+
+
+
+
+Latency: cmove r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10211      10217 
+     10036      10217 
+     10036      10217 
+     10036      10217 
+     10029      10217 
+     10036      10217 
+     10036      10217 
+     10036      10217 
+     10030      10217 
+     10036      10217 
+
+
+Latency: cmove r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10692      10217 
+     10075      10217 
+     10036      10217 
+     10036      10217 
+     10036      10217 
+     10036      10217 
+     10043      10217 
+     10036      10217 
+     10036      10217 
+     10043      10217 
+
+
+Latency: cmove r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11011      10217 
+     10868      10217 
+     10862      10217 
+     10868      10217 
+     10869      10217 
+     10868      10217 
+     10869      10217 
+     10862      10217 
+     10862      10217 
+     10869      10217 
+
+
+Throughput: cmove r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5518      10217 
+      5154      10217 
+      5135      10217 
+      5135      10217 
+      5135      10217 
+      5135      10217 
+      5135      10217 
+      5135      10217 
+      5135      10217 
+      5135      10217 
+
+
+Throughput: cmove r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5278      10217 
+      5128      10217 
+      5128      10217 
+      5128      10217 
+      5128      10217 
+      5128      10217 
+      5128      10217 
+      5128      10217 
+      5128      10217 
+      5128      10217 
+
+
+Throughput: cmove r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5778      10217 
+      5129      10217 
+      5129      10217 
+      5129      10217 
+      5129      10217 
+      5122      10217 
+      5122      10217 
+      5128      10217 
+      5128      10217 
+      5128      10217 
+
+
+Throughput with memory source operand: cmove 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10367      10217 
+     10062      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10029      10217 
+     10023      10217 
+     10023      10217 
+
+
+Latency: imul r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20670      10217 
+     20131      10217 
+     20124      10217 
+     20124      10217 
+     20131      10217 
+     20124      10217 
+     20130      10217 
+     20124      10217 
+     20124      10217 
+     20130      10217 
+
+
+Latency: imul r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20143      10217 
+     20176      10217 
+     20131      10217 
+     20124      10217 
+     20130      10217 
+     20124      10217 
+     20124      10217 
+     20130      10217 
+     20124      10217 
+     20124      10217 
+
+
+Latency: imul r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50102      10217 
+     50017      10217 
+     50017      10217 
+     50018      10217 
+     50018      10217 
+     50018      10217 
+     50018      10217 
+     50018      10217 
+     50018      10217 
+     50024      10217 
+
+
+Throughput: imul r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11759      10217 
+     11466      10217 
+     11459      10217 
+     11459      10217 
+     11460      10217 
+     11460      10217 
+     11459      10217 
+     11459      10217 
+     11460      10217 
+     11460      10217 
+
+
+Throughput: imul r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11563      10217 
+     11459      10217 
+     11466      10217 
+     11460      10217 
+     11466      10217 
+     11459      10217 
+     11459      10217 
+     11460      10217 
+     11460      10217 
+     11459      10217 
+
+
+Throughput: imul r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21781      10217 
+     21697      10217 
+     21690      10217 
+     21691      10217 
+     21697      10217 
+     21690      10217 
+     21691      10217 
+     21697      10217 
+     21690      10217 
+     21691      10217 
+
+
+Throughput with memory source operand: imul 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12779      10217 
+     12324      10217 
+     12324      10217 
+     12324      10217 
+     12324      10217 
+     12324      10217 
+     12324      10217 
+     12324      10217 
+     12324      10217 
+     12786      10217 
+
+
+Latency: bsf r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20358      10217 
+     20020      10217 
+     20027      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20026      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+
+
+Latency: bsf r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21769      10217 
+     21710      10217 
+     21685      10217 
+     21685      10217 
+     21684      10217 
+     21685      10217 
+     21685      10217 
+     21684      10217 
+     21685      10217 
+     21685      10217 
+
+
+Latency: bsf r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21886      10217 
+     21691      10217 
+     21684      10217 
+     21685      10217 
+     21691      10217 
+     21684      10217 
+     21685      10217 
+     21691      10217 
+     21684      10217 
+     21685      10217 
+
+
+Throughput: bsf r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     45448      10218 
+     21697      10217 
+     21691      10217 
+     21697      10217 
+     21690      10217 
+     21697      10217 
+     21691      10217 
+     21697      10217 
+     21690      10217 
+     21697      10217 
+
+
+Throughput: bsf r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20111      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20027      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20026      10217 
+
+
+Throughput: bsf r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20202      10217 
+     20046      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20026      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+
+
+Throughput with memory source operand: bsf 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20312      10217 
+     20027      10217 
+     20027      10217 
+     20475      10217 
+     20026      10217 
+     20020      10217 
+     20020      10217 
+     20027      10217 
+     20027      10217 
+     36439      10218 
+
+
+Latency: bsr r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20228      10217 
+     20046      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20026      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+
+
+Latency: bsr r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20072      10217 
+     20046      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20027      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20026      10217 
+
+
+Latency: bsr r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21776      10217 
+     21691      10217 
+     21684      10217 
+     21685      10217 
+     21691      10217 
+     21684      10217 
+     21685      10217 
+     21691      10217 
+     21684      10217 
+     21685      10217 
+
+
+Throughput: bsr r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20208      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20027      10217 
+     20020      10217 
+     20020      10217 
+
+
+Throughput: bsr r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20104      10217 
+     20039      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20027      10217 
+     20020      10217 
+     20020      10217 
+
+
+Throughput: bsr r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21938      10217 
+     21710      10217 
+     21685      10217 
+     21685      10217 
+     21684      10217 
+     21685      10217 
+     21685      10217 
+     21684      10217 
+     21685      10217 
+     21685      10217 
+
+
+Throughput with memory source operand: bsr 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20209      10217 
+     20053      10217 
+     20027      10217 
+     20027      10217 
+     20020      10217 
+     20020      10217 
+     20020      10217 
+     20026      10217 
+     20026      10217 
+     20026      10217 
+
+
+Latency: popcnt r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21919      10217 
+     21698      10217 
+     21691      10217 
+     21684      10217 
+     21684      10217 
+     21691      10217 
+     21685      10217 
+     21685      10217 
+     21691      10217 
+     21684      10217 
+
+
+Latency: popcnt r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21866      10217 
+     21710      10217 
+     21691      10217 
+     21697      10217 
+     21690      10217 
+     21697      10217 
+     21691      10217 
+     21697      10217 
+     21690      10217 
+     21697      10217 
+
+
+Latency: popcnt r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21944      10217 
+     21698      10217 
+     21691      10217 
+     21684      10217 
+     21684      10217 
+     21691      10217 
+     21685      10217 
+     21685      10217 
+     21691      10217 
+     21684      10217 
+
+
+Throughput: popcnt r16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11252      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+     10861      10217 
+     10862      10217 
+
+
+Throughput: popcnt r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10374      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Throughput: popcnt r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10407      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10029      10217 
+
+
+Throughput with memory source operand: popcnt 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11095      10217 
+     10042      10217 
+     10029      10217 
+     10023      10217 
+     10030      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+     10023      10217 
+
+
+Throughput: prefetchnta [m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13429      10217 
+     13325      10217 
+     13286      10217 
+     13292      10217 
+     13286      10217 
+     13293      10217 
+     13286      10217 
+     13286      10217 
+     13292      10217 
+     13286      10217 
+
+
+Throughput: prefetcht0 [m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13507      10217 
+     13325      10217 
+     13292      10217 
+     13286      10217 
+     13293      10217 
+     13286      10217 
+     13292      10217 
+     13286      10217 
+     13293      10217 
+     13286      10217 
+
+
+Throughput: prefetcht1 [m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13390      10217 
+     13325      10217 
+     13286      10217 
+     13306      10217 
+     13306      10217 
+     13312      10217 
+     13305      10217 
+     13312      10217 
+     13306      10217 
+     13312      10217 
+
+
+Throughput: prefetcht2 [m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13429      10217 
+     13325      10217 
+     13292      10217 
+     13286      10217 
+     13293      10217 
+     13286      10217 
+     13292      10217 
+     13286      10217 
+     13293      10217 
+     13286      10217 
+
+

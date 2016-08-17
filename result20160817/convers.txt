@@ -1,0 +1,4720 @@
+Conversion instructions latency and throughput
+
+
+
+Throughput: mov r8h,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19662      20205 
+     19649      20205 
+     19617      20205 
+     19611      20205 
+     19617      20205 
+     19617      20205 
+     19610      20205 
+     19617      20205 
+     19617      20205 
+     19611      20205 
+
+
+Throughput: mov r8, r8h
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19682      20205 
+     19630      20205 
+     19610      20205 
+     19617      20205 
+     19611      20205 
+     19611      20205 
+     19617      20205 
+     19610      20205 
+     19610      20205 
+     19617      20205 
+
+
+Latency: mov r8h, r8 / mov r8, r8h
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20053      20205 
+     20033      20205 
+     20013      20205 
+     20013      20205 
+     20013      20205 
+     20013      20205 
+     20013      20205 
+     20013      20205 
+     20013      20205 
+     20013      20205 
+
+
+Throughput: mov r8h,r8h
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18155      20205 
+     18102      20205 
+     18102      20205 
+     18103      20205 
+     18103      20205 
+     18103      20205 
+     18103      20205 
+     18103      20205 
+     18103      20205 
+     18109      20205 
+
+
+Latency: mov r8h,r8h
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20157      20205 
+     20014      20205 
+     20014      20205 
+     20014      20205 
+     20014      20205 
+     20014      20205 
+     20014      20205 
+     20014      20205 
+     20014      20205 
+     20014      20205 
+
+
+Throughput: mov r8h, r8h
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19676      20205 
+     19611      20205 
+     19611      20205 
+     19604      20205 
+     19611      20205 
+     19611      20205 
+     19605      20205 
+     19611      20205 
+     19611      20205 
+     19604      20205 
+
+
+Latency: mov r8h, r8h
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21710      20205 
+     21710      20205 
+     21684      20205 
+     21684      20205 
+     21684      20205 
+     21684      20205 
+     21684      20205 
+     21684      20205 
+     21684      20205 
+     21684      20205 
+
+
+Latency: mov r8h, r8h / mov r8h, r8h
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20085      20205 
+     20033      20205 
+     20013      20205 
+     20013      20205 
+     20013      20205 
+     20013      20205 
+     20013      20205 
+     20013      20205 
+     20013      20205 
+     20013      20205 
+
+
+Throughput: mov m8,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33566      20205 
+     33553      20205 
+     33521      20205 
+     33527      20205 
+     33520      20205 
+     33520      20205 
+     33527      20205 
+     33521      20205 
+     33547      20205 
+     33521      20205 
+
+
+Throughput: mov r8, m8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     24232      20205 
+     23926      20205 
+     23959      20205 
+     23959      20205 
+     23959      20205 
+     23959      20205 
+     23959      20205 
+     23959      20205 
+     23966      20205 
+     23959      20205 
+
+
+Latency: mov m8, r8 / mov r8, m8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54204      20205 
+     54211      20205 
+     54178      20205 
+     54178      20205 
+     54184      20205 
+     54178      20205 
+     54178      20205 
+     54185      20205 
+     54178      20205 
+     54178      20205 
+
+
+Throughput: mov m8,r8h
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33560      20205 
+     33540      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33527      20205 
+     33520      20205 
+
+
+Throughput: mov r8h, m8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26305      20205 
+     25961      20205 
+     25961      20205 
+     25961      20205 
+     25961      20205 
+     25955      20205 
+     25955      20205 
+     25961      20205 
+     25961      20205 
+     25961      20205 
+
+
+Latency: mov m8, r8h / mov r8h, m8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    303850      20205 
+    303323      20205 
+    303342      20205 
+    303343      20205 
+    303342      20205 
+    303343      20205 
+    303342      20205 
+    303343      20205 
+    303342      20205 
+    303343      20205 
+
+
+Throughput: mov r8h,m8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26020      20205 
+     25941      20205 
+     25954      20205 
+     25961      20205 
+     25961      20205 
+     25961      20205 
+     25961      20205 
+     25955      20205 
+     25955      20205 
+     25961      20205 
+
+
+Throughput: mov m8, r8h
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     36407      20205 
+     36349      20205 
+     36309      20205 
+     36316      20205 
+     36310      20205 
+     36316      20205 
+     36309      20205 
+     36316      20205 
+     36310      20205 
+     36316      20205 
+
+
+Latency: mov r8h, m8 / mov m8, r8h
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    303518      20205 
+    303316      20205 
+    303323      20205 
+    303323      20205 
+    303323      20205 
+    303323      20205 
+    303323      20205 
+    303323      20205 
+    303804      20205 
+    303323      20205 
+
+
+Throughput: mov m16,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33716      20205 
+     33540      20205 
+     33521      20205 
+     33527      20205 
+     33520      20205 
+     33520      20205 
+     33521      20205 
+     33521      20205 
+     33520      20205 
+     33520      20205 
+
+
+Throughput: mov r16, m16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26241      20205 
+     25942      20205 
+     25955      20205 
+     25955      20205 
+     25955      20205 
+     25955      20205 
+     25955      20205 
+     25955      20205 
+     25955      20205 
+     25955      20205 
+
+
+Latency: mov m16, r16 / mov r16, m16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     51045      20205 
+     50043      20205 
+     50011      20205 
+     50011      20205 
+     50018      20205 
+     50018      20205 
+     50018      20205 
+     50018      20205 
+     50011      20205 
+     50011      20205 
+
+
+Throughput: mov m32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     36388      20205 
+     36349      20205 
+     36309      20205 
+     36316      20205 
+     36310      20205 
+     36316      20205 
+     36309      20205 
+     36316      20205 
+     36310      20205 
+     36316      20205 
+
+
+Throughput: mov r32, m32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26819      20205 
+     26630      20205 
+     26617      20205 
+     26611      20205 
+     26618      20205 
+     26618      20205 
+     26611      20205 
+     26611      20205 
+     26617      20205 
+     26617      20205 
+
+
+Latency: mov m32, r32 / mov r32, m32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40034      20205 
+     40033      20205 
+     40014      20205 
+     40014      20205 
+     40020      20205 
+     40014      20205 
+     40014      20205 
+     40014      20205 
+     40014      20205 
+     40021      20205 
+
+
+Throughput: mov m64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33800      20205 
+     33520      20205 
+     33521      20205 
+     33521      20205 
+     33527      20205 
+     33520      20205 
+     33527      20205 
+     33521      20205 
+     33527      20205 
+     33520      20205 
+
+
+Throughput: mov r64, m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29069      20205 
+     62966      20206 
+     28874      20205 
+     28828      20205 
+     28835      20205 
+     28834      20205 
+     28510      20205 
+     26599      20205 
+     26599      20205 
+     26592      20205 
+
+
+Latency: mov m64, r64 / mov r64, m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40085      20205 
+     40014      20205 
+     40014      20205 
+     40014      20205 
+     40014      20205 
+     40014      20205 
+     40014      20205 
+     40020      20205 
+     40014      20205 
+     40021      20205 
+
+
+Throughput: movq m64,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     34106      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+
+
+Throughput: movq xmm, m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29251      20205 
+     28834      20205 
+     28828      20205 
+     28835      20205 
+     28828      20205 
+     28834      20205 
+     28828      20205 
+     28835      20205 
+     28828      20205 
+     28834      20205 
+
+
+Latency: movq m64, xmm / movq xmm, m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     43596      20205 
+     43375      20205 
+     43342      20205 
+     43349      20205 
+     43349      20205 
+     43349      20205 
+     43349      20205 
+     43343      20205 
+     43343      20205 
+     43349      20205 
+
+
+Throughput: movdqa m128,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33878      20205 
+     33534      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+
+
+Throughput: movdqa xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29374      20205 
+     28847      20205 
+     28841      20205 
+     28834      20205 
+     28840      20205 
+     28834      20205 
+     28841      20205 
+     28834      20205 
+     28840      20205 
+     29322      20205 
+
+
+Latency: movdqa m128, xmm / movdqa xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40697      20205 
+     40020      20205 
+     40014      20205 
+     40014      20205 
+     40020      20205 
+     40014      20205 
+     40014      20205 
+     40014      20205 
+     40014      20205 
+     40021      20205 
+
+
+Throughput: movdqu m128,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33871      20205 
+     33547      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+
+
+Throughput: movdqu xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     27229      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26611      20205 
+     26611      20205 
+     26617      20205 
+     26617      20205 
+     26617      20205 
+
+
+Latency: movdqu m128, xmm / movdqu xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     43642      20205 
+     43349      20205 
+     43349      20205 
+     43349      20205 
+     43349      20205 
+     43342      20205 
+     43342      20205 
+     43349      20205 
+     43349      20205 
+     43349      20205 
+
+
+Throughput: movaps m128,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33676      20205 
+     33521      20205 
+     33514      20205 
+     33514      20205 
+     33514      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33514      20205 
+
+
+Throughput: movaps xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29068      20205 
+     28854      20205 
+     28828      20205 
+     28828      20205 
+     28828      20205 
+     28828      20205 
+     28828      20205 
+     28828      20205 
+     28828      20205 
+     28828      20205 
+
+
+Latency: movaps m128, xmm / movaps xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40125      20205 
+     40046      20205 
+     40014      20205 
+     40021      20205 
+     40014      20205 
+     40020      20205 
+     40014      20205 
+     40021      20205 
+     40014      20205 
+     40014      20205 
+
+
+Throughput: movd mmx,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20410      20205 
+     20156      20205 
+     20124      20205 
+     20118      20205 
+     20117      20205 
+     20124      20205 
+     20124      20205 
+     20117      20205 
+     20118      20205 
+     20124      20205 
+
+
+Throughput: movd r32, mmx
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22003      20205 
+     21717      20205 
+     21684      20205 
+     21690      20205 
+     21684      20205 
+     21691      20205 
+     21684      20205 
+     21690      20205 
+     21684      20205 
+     21691      20205 
+
+
+Latency: movd mmx, r32 / movd r32, mmx
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     75895      20205 
+     75862      20205 
+     75843      20205 
+     75842      20205 
+     75843      20205 
+     75843      20205 
+     75842      20205 
+     75843      20205 
+     75843      20205 
+     75842      20205 
+
+
+Throughput: movq mmx,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22367      20205 
+     21834      20205 
+     21795      20205 
+     21795      20205 
+     21795      20205 
+     21795      20205 
+     21795      20205 
+     21795      20205 
+     21795      20205 
+     21795      20205 
+
+
+Throughput: movq r64, mmx
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20351      20205 
+     20013      20205 
+     20014      20205 
+     20014      20205 
+     20014      20205 
+     20020      20205 
+     20013      20205 
+     20013      20205 
+     20020      20205 
+     20014      20205 
+
+
+Latency: movq mmx, r64 / movq r64, mmx
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     75900      20205 
+     75848      20205 
+     75848      20205 
+     75849      20205 
+     75848      20205 
+     75849      20205 
+     75848      20205 
+     75849      20205 
+     75849      20205 
+     75848      20205 
+
+
+Throughput: movd xmm,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20514      20205 
+     20156      20205 
+     20124      20205 
+     20118      20205 
+     20124      20205 
+     30524      20206 
+     20124      20205 
+     20117      20205 
+     20118      20205 
+     20124      20205 
+
+
+Throughput: movd r32, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20371      20205 
+     20026      20205 
+     20014      20205 
+     20014      20205 
+     20014      20205 
+     20020      20205 
+     20013      20205 
+     32909      20206 
+     20020      20205 
+     20013      20205 
+
+
+Latency: movd xmm, r32 / movd r32, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     70063      20205 
+     70012      20205 
+     70018      20205 
+     70011      20205 
+     70011      20205 
+     70011      20205 
+     70011      20205 
+     70011      20205 
+     70011      20205 
+     70012      20205 
+
+
+Throughput: movq xmm,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20709      20205 
+     20124      20205 
+     20117      20205 
+     20118      20205 
+     20124      20205 
+     20124      20205 
+     20124      20205 
+     20117      20205 
+     20118      20205 
+     20124      20205 
+
+
+Throughput: movq r64, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22269      20205 
+     21703      20205 
+     21684      20205 
+     21684      20205 
+     21684      20205 
+     21684      20205 
+     21684      20205 
+     21684      20205 
+     21684      20205 
+     21684      20205 
+
+
+Latency: movq xmm, r64 / movq r64, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     70122      20205 
+     70012      20205 
+     70011      20205 
+     70011      20205 
+     70011      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+     70018      20205 
+     70011      20205 
+
+
+Throughput: movd xmm,m32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     27072      20205 
+     26637      20205 
+     26617      20205 
+     26617      20205 
+     26617      20205 
+     26617      20205 
+     26617      20205 
+     26611      20205 
+     26618      20205 
+     26618      20205 
+
+
+Throughput: movd m32, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33950      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+
+
+Latency: movd xmm, m32 / movd m32, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     44272      20205 
+     43355      20205 
+     43355      20205 
+     43349      20205 
+     43349      20205 
+     43355      20205 
+     43355      20205 
+     43355      20205 
+     43355      20205 
+     43348      20205 
+
+
+Throughput: movq xmm,m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     27222      20205 
+     26624      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26611      20205 
+     26611      20205 
+     26617      20205 
+
+
+Throughput: movq m64, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     34073      20205 
+     33533      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+
+
+Latency: movq xmm, m64 / movq m64, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     44194      20205 
+     43349      20205 
+     43349      20205 
+     43349      20205 
+     43349      20205 
+     43342      20205 
+     43342      20205 
+     43349      20205 
+     43349      20205 
+     43349      20205 
+
+
+Throughput: movdq2q mmx,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20494      20205 
+     20026      20205 
+     20014      20205 
+     20014      20205 
+     20014      20205 
+     20020      20205 
+     20013      20205 
+     20013      20205 
+     20020      20205 
+     20014      20205 
+
+
+Throughput: movq2dq xmm, mmx
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22061      20205 
+     21697      20205 
+     21678      20205 
+     21678      20205 
+     21678      20205 
+     21678      20205 
+     21678      20205 
+     21678      20205 
+     21678      20205 
+     21678      20205 
+
+
+Latency: movdq2q mmx, xmm / movq2dq xmm, mmx
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22276      20205 
+     21684      20205 
+     21678      20205 
+     21678      20205 
+     21685      20205 
+     21678      20205 
+     21678      20205 
+     21684      20205 
+     21678      20205 
+     21678      20205 
+
+
+Throughput: pmovmskb r32,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20364      20205 
+     20013      20205 
+     20014      20205 
+     20014      20205 
+     20014      20205 
+     20020      20205 
+     20013      20205 
+     20013      20205 
+     20020      20205 
+     20014      20205 
+
+
+Throughput: movd xmm, r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22367      20205 
+     21815      20205 
+     21795      20205 
+     21795      20205 
+     21795      20205 
+     56141      20207 
+     21795      20205 
+     21795      20205 
+     21795      20205 
+     21795      20205 
+
+
+Latency: pmovmskb r32, xmm / movd xmm, r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     76050      20205 
+     75862      20205 
+     75848      20205 
+     75849      20205 
+     75848      20205 
+     75849      20205 
+     75848      20205 
+     86652      20206 
+     75848      20205 
+     75849      20205 
+
+
+Throughput: pextrb r32,xmm,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20943      20205 
+     20020      20205 
+     20013      20205 
+     20013      20205 
+     20014      20205 
+     20014      20205 
+     20020      20205 
+     20013      20205 
+     20020      20205 
+     20014      20205 
+
+
+Throughput: movd xmm, r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20689      20205 
+     20124      20205 
+     20117      20205 
+     20118      20205 
+     20124      20205 
+     20117      20205 
+     20124      20205 
+     20124      20205 
+     20117      20205 
+     20124      20205 
+
+
+Latency: pextrb r32, xmm,1 / movd xmm, r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     70161      20205 
+     70011      20205 
+     70011      20205 
+     70005      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+
+
+Throughput: pextrb m8,xmm,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     35249      20205 
+     34626      20205 
+     34606      20205 
+     34606      20205 
+     34606      20205 
+     34606      20205 
+     34606      20205 
+     34613      20205 
+     34606      20205 
+     34606      20205 
+
+
+Throughput: pextrw r32,mmx,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20404      20205 
+     20013      20205 
+     20014      20205 
+     20014      20205 
+     20014      20205 
+     20020      20205 
+     20013      20205 
+     20013      20205 
+     20020      20205 
+     20014      20205 
+
+
+Throughput: movd mmx, r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22042      20205 
+     21840      20205 
+     21801      20205 
+     21801      20205 
+     21795      20205 
+     21801      20205 
+     21801      20205 
+     21801      20205 
+     21801      20205 
+     21801      20205 
+
+
+Latency: pextrw r32, mmx,1 / movd mmx, r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     76311      20205 
+     75862      20205 
+     75843      20205 
+     75842      20205 
+     75843      20205 
+     75842      20205 
+     75843      20205 
+     75842      20205 
+     75843      20205 
+     75842      20205 
+
+
+Throughput: pextrw r32,xmm,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22478      20205 
+     21678      20205 
+     21678      20205 
+     21684      20205 
+     21678      20205 
+     21678      20205 
+     21684      20205 
+     21678      20205 
+     21678      20205 
+     21684      20205 
+
+
+Throughput: movd xmm, r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20702      20205 
+     20137      20205 
+     20124      20205 
+     20124      20205 
+     20118      20205 
+     20124      20205 
+     20117      20205 
+     20118      20205 
+     20124      20205 
+     20117      20205 
+
+
+Latency: pextrw r32, xmm,1 / movd xmm, r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     70070      20205 
+     70012      20205 
+     70012      20205 
+     70011      20205 
+     70011      20205 
+     70011      20205 
+     70011      20205 
+     70011      20205 
+     70011      20205 
+     70005      20205 
+
+
+Throughput: pextrw m16,xmm,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     35289      20205 
+     34606      20205 
+     34606      20205 
+     34613      20205 
+     34606      20205 
+     34606      20205 
+     34606      20205 
+     34612      20205 
+     35054      20205 
+     34606      20205 
+
+
+Throughput: pextrd r32,xmm,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20832      20205 
+     20020      20205 
+     20014      20205 
+     20020      20205 
+     20013      20205 
+     20013      20205 
+     20014      20205 
+     20014      20205 
+     20020      20205 
+     20462      20205 
+
+
+Throughput: movd xmm, r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20443      20205 
+     20156      20205 
+     20124      20205 
+     20118      20205 
+     20124      20205 
+     20117      20205 
+     20118      20205 
+     20124      20205 
+     20117      20205 
+     20124      20205 
+
+
+Latency: pextrd r32, xmm,1 / movd xmm, r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     76025      20205 
+     75855      20205 
+     75843      20205 
+     75842      20205 
+     75843      20205 
+     75842      20205 
+     75836      20205 
+     75843      20205 
+     76323      20205 
+     75843      20205 
+
+
+Throughput: pextrd m32,xmm,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     35301      20205 
+     34606      20205 
+     34606      20205 
+     34613      20205 
+     34606      20205 
+     34606      20205 
+     34606      20205 
+     34612      20205 
+     34606      20205 
+     34606      20205 
+
+
+Throughput: pextrq r64,xmm,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21184      20205 
+     20040      20205 
+     20020      20205 
+     20013      20205 
+     20013      20205 
+     20014      20205 
+     20014      20205 
+     20013      20205 
+     20013      20205 
+     20014      20205 
+
+
+Throughput: movq xmm, r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20833      20205 
+     20124      20205 
+     20124      20205 
+     20117      20205 
+     20118      20205 
+     20124      20205 
+     20566      20205 
+     20117      20205 
+     20124      20205 
+     20124      20205 
+
+
+Latency: pextrq r64, xmm,1 / movq xmm, r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     70350      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+
+
+Throughput: pextrq m64,xmm,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     35477      20205 
+     34626      20205 
+     34606      20205 
+     34606      20205 
+     34606      20205 
+     34613      20205 
+     34606      20205 
+     34606      20205 
+     34606      20205 
+     35061      20205 
+
+
+Throughput: pinsrb xmm,r32,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21040      20205 
+     20157      20205 
+     20124      20205 
+     20117      20205 
+     20124      20205 
+     20118      20205 
+     20124      20205 
+     20124      20205 
+     20118      20205 
+     20124      20205 
+
+
+Throughput: movd r32, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22126      20205 
+     21690      20205 
+     21684      20205 
+     21684      20205 
+     21691      20205 
+     21684      20205 
+     21684      20205 
+     21690      20205 
+     21684      20205 
+     21684      20205 
+
+
+Latency: pinsrb xmm, r32,1 / movd r32, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     86814      20205 
+     86703      20205 
+     86684      20205 
+     86684      20205 
+     98443      20206 
+     86684      20205 
+     86684      20205 
+     86684      20205 
+     86684      20205 
+     86684      20205 
+
+
+Throughput: pinsrb xmm,m8,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22712      20205 
+     21704      20205 
+     21685      20205 
+     21685      20205 
+     21684      20205 
+     21685      20205 
+     21685      20205 
+     21684      20205 
+     21685      20205 
+     21685      20205 
+
+
+Throughput: pinsrw mmx,r32,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22457      20205 
+     21821      20205 
+     21801      20205 
+     21801      20205 
+     21801      20205 
+     21801      20205 
+     21801      20205 
+     21801      20205 
+     21801      20205 
+     21801      20205 
+
+
+Throughput: movd r32, mmx
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21925      20205 
+     21711      20205 
+     21678      20205 
+     21684      20205 
+     21678      20205 
+     21685      20205 
+     21678      20205 
+     21684      20205 
+     21678      20205 
+     21685      20205 
+
+
+Latency: pinsrw mmx, r32,1 / movd r32, mmx
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     86704      20205 
+     86697      20205 
+     86678      20205 
+     86678      20205 
+     86678      20205 
+     86672      20205 
+     86672      20205 
+     86678      20205 
+     86678      20205 
+     86678      20205 
+
+
+Throughput: pinsrw xmm,r32,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22373      20205 
+     21801      20205 
+     21794      20205 
+     21801      20205 
+     21801      20205 
+     21801      20205 
+     21801      20205 
+     21801      20205 
+     21795      20205 
+     21801      20205 
+
+
+Throughput: movd r32, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20527      20205 
+     20013      20205 
+     20014      20205 
+     20014      20205 
+     20014      20205 
+     20020      20205 
+     20013      20205 
+     20013      20205 
+     20020      20205 
+     20014      20205 
+
+
+Latency: pinsrw xmm, r32,1 / movd r32, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     86860      20205 
+     86691      20205 
+     86678      20205 
+     86678      20205 
+     86678      20205 
+     86678      20205 
+     86678      20205 
+     86678      20205 
+     86678      20205 
+     86678      20205 
+
+
+Throughput: pinsrw xmm,m16,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20800      20205 
+     20020      20205 
+     20020      20205 
+     20020      20205 
+     20020      20205 
+     20020      20205 
+     20020      20205 
+     20027      20205 
+     20020      20205 
+     20020      20205 
+
+
+Throughput: pinsrd xmm,r32,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22639      20205 
+     21801      20205 
+     21801      20205 
+     21801      20205 
+     21801      20205 
+     20709      20205 
+     20105      20205 
+     20111      20205 
+     20104      20205 
+     20111      20205 
+
+
+Throughput: movd r32, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22205      20205 
+     21678      20205 
+     21684      20205 
+     21678      20205 
+     21678      20205 
+     21685      20205 
+     21678      20205 
+     21678      20205 
+     21684      20205 
+     21678      20205 
+
+
+Latency: pinsrd xmm, r32,1 / movd r32, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     86782      20205 
+     86684      20205 
+     86684      20205 
+     86684      20205 
+     86684      20205 
+     86684      20205 
+     86684      20205 
+     86684      20205 
+     86684      20205 
+     86684      20205 
+
+
+Throughput: pinsrd xmm,m32,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21002      20205 
+     20039      20205 
+     20020      20205 
+     20020      20205 
+     20020      20205 
+     20020      20205 
+     20020      20205 
+     20020      20205 
+     38701      20206 
+     23270      20205 
+
+
+Throughput: pinsrq xmm,r64,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21528      20205 
+     20156      20205 
+     20124      20205 
+     20118      20205 
+     20117      20205 
+     20124      20205 
+     20124      20205 
+     20117      20205 
+     20118      20205 
+     20124      20205 
+
+
+Throughput: movq r64, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22321      20205 
+     21690      20205 
+     21684      20205 
+     21691      20205 
+     21684      20205 
+     21690      20205 
+     21684      20205 
+     21691      20205 
+     21684      20205 
+     21690      20205 
+
+
+Latency: pinsrq xmm, r64,1 / movq r64, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     86840      20205 
+     86684      20205 
+     86684      20205 
+     86684      20205 
+     86684      20205 
+     86677      20205 
+     86677      20205 
+     86684      20205 
+     86684      20205 
+     86684      20205 
+
+
+Throughput: pinsrq xmm,m64,1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21047      20205 
+     20059      20205 
+     20020      20205 
+     20020      20205 
+     20020      20205 
+     20020      20205 
+     20026      20205 
+     20020      20205 
+     20020      20205 
+     20020      20205 
+
+
+Throughput: movss xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21762      20205 
+     21229      20205 
+     21216      20205 
+     21216      20205 
+     21209      20205 
+     21210      20205 
+     21216      20205 
+     21216      20205 
+     21216      20205 
+     21216      20205 
+
+
+Latency: movss xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23888      20205 
+     23335      20205 
+     23315      20205 
+     23316      20205 
+     23316      20205 
+     23322      20205 
+     23315      20205 
+     23322      20205 
+     23316      20205 
+     23322      20205 
+
+
+Throughput: movss xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23537      20205 
+     22978      20205 
+     22985      20205 
+     22978      20205 
+     22978      20205 
+     22984      20205 
+     22978      20205 
+     22978      20205 
+     22985      20205 
+     22978      20205 
+
+
+Latency: movss xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23719      20205 
+     23322      20205 
+     23315      20205 
+     23322      20205 
+     23316      20205 
+     35737      20206 
+     23315      20205 
+     23322      20205 
+     23316      20205 
+     23322      20205 
+
+
+Latency: movss xmm, xmm / movss xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23881      20205 
+     23335      20205 
+     23315      20205 
+     23316      20205 
+     23316      20205 
+     23322      20205 
+     23315      20205 
+     23322      20205 
+     23316      20205 
+     23322      20205 
+
+
+Throughput: movss m32,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33807      20205 
+     33553      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+
+
+Throughput: movss xmm, m32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29257      20205 
+     28834      20205 
+     28828      20205 
+     28835      20205 
+     28828      20205 
+     28834      20205 
+     28828      20205 
+     28835      20205 
+     28828      20205 
+     28834      20205 
+
+
+Latency: movss m32, xmm / movss xmm, m32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     43680      20205 
+     43368      20205 
+     43355      20205 
+     43355      20205 
+     43355      20205 
+     43355      20205 
+     43349      20205 
+     43349      20205 
+     43355      20205 
+     43355      20205 
+
+
+Throughput: movsd xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21690      20205 
+     21242      20205 
+     21216      20205 
+     21216      20205 
+     21216      20205 
+     21216      20205 
+     21216      20205 
+     21216      20205 
+     21216      20205 
+     21209      20205 
+
+
+Latency: movsd xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23660      20205 
+     23322      20205 
+     23315      20205 
+     23322      20205 
+     23316      20205 
+     23322      20205 
+     23315      20205 
+     23315      20205 
+     23316      20205 
+     23316      20205 
+
+
+Throughput: movsd xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23400      20205 
+     22991      20205 
+     22984      20205 
+     22984      20205 
+     22990      20205 
+     22984      20205 
+     22984      20205 
+     22991      20205 
+     22984      20205 
+     22984      20205 
+
+
+Latency: movsd xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23764      20205 
+     23322      20205 
+     23316      20205 
+     23322      20205 
+     23315      20205 
+     23315      20205 
+     23316      20205 
+     23316      20205 
+     23322      20205 
+     23315      20205 
+
+
+Latency: movsd xmm, xmm / movsd xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23764      20205 
+     23335      20205 
+     23316      20205 
+     23322      20205 
+     23315      20205 
+     23322      20205 
+     23316      20205 
+     23322      20205 
+     23315      20205 
+     23322      20205 
+
+
+Throughput: movsd m64,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33781      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+
+
+Throughput: movsd xmm, m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29309      20205 
+     28841      20205 
+     28834      20205 
+     28828      20205 
+     28835      20205 
+     28828      20205 
+     28834      20205 
+     28828      20205 
+     28835      20205 
+     28828      20205 
+
+
+Latency: movsd m64, xmm / movsd xmm, m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     43589      20205 
+     43368      20205 
+     43355      20205 
+     43355      20205 
+     43355      20205 
+     43355      20205 
+     56628      20206 
+     43355      20205 
+     43855      20205 
+     43355      20205 
+
+
+Throughput: movaps m128,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     36699      20205 
+     36335      20205 
+     36315      20205 
+     36316      20205 
+     36315      20205 
+     36316      20205 
+     36315      20205 
+     36316      20205 
+     36315      20205 
+     36316      20205 
+
+
+Throughput: movaps xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26800      20205 
+     26617      20205 
+     26617      20205 
+     26617      20205 
+     26611      20205 
+     26611      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+
+
+Latency: movaps m128, xmm / movaps xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40619      20205 
+     40047      20205 
+     40014      20205 
+     40020      20205 
+     40014      20205 
+     40021      20205 
+     40014      20205 
+     40014      20205 
+     40014      20205 
+     40014      20205 
+
+
+Throughput: movups m128,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33676      20205 
+     33547      20205 
+     33514      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33514      20205 
+     33514      20205 
+     33514      20205 
+
+
+Throughput: movaps xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29250      20205 
+     28860      20205 
+     28834      20205 
+     28834      20205 
+     28834      20205 
+     28834      20205 
+     28834      20205 
+     28834      20205 
+     28834      20205 
+     28834      20205 
+
+
+Latency: movups m128, xmm / movaps xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     43453      20205 
+     43375      20205 
+     43343      20205 
+     43343      20205 
+     43343      20205 
+     43343      20205 
+     43343      20205 
+     43343      20205 
+     43343      20205 
+     43343      20205 
+
+
+Throughput: movaps m128,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     36563      20205 
+     36322      20205 
+     36303      20205 
+     36303      20205 
+     36303      20205 
+     36303      20205 
+     36303      20205 
+     36303      20205 
+     36303      20205 
+     36303      20205 
+
+
+Throughput: movups xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26793      20205 
+     26637      20205 
+     26611      20205 
+     26617      20205 
+     26617      20205 
+     26617      20205 
+     26617      20205 
+     26611      20205 
+     26611      20205 
+     26618      20205 
+
+
+Latency: movaps m128, xmm / movups xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40092      20205 
+     40046      20205 
+     40014      20205 
+     40021      20205 
+     40014      20205 
+     40020      20205 
+     40014      20205 
+     40021      20205 
+     40014      20205 
+     40014      20205 
+
+
+Throughput: movapd m128,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33794      20205 
+     33546      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+
+
+Throughput: movapd xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29264      20205 
+     28834      20205 
+     28828      20205 
+     28835      20205 
+     28828      20205 
+     28834      20205 
+     28828      20205 
+     28835      20205 
+     28828      20205 
+     28834      20205 
+
+
+Latency: movapd m128, xmm / movapd xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     43758      20205 
+     43362      20205 
+     43349      20205 
+     43349      20205 
+     43349      20205 
+     43349      20205 
+     43342      20205 
+     43342      20205 
+     43349      20205 
+     43349      20205 
+
+
+Throughput: movdqa m128,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     36511      20205 
+     36316      20205 
+     36316      20205 
+     36315      20205 
+     36316      20205 
+     36315      20205 
+     36316      20205 
+     36315      20205 
+     36315      20205 
+     36316      20205 
+
+
+Throughput: movdqa xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29198      20205 
+     28854      20205 
+     28828      20205 
+     28828      20205 
+     28828      20205 
+     28828      20205 
+     28828      20205 
+     28828      20205 
+     28828      20205 
+     28828      20205 
+
+
+Latency: movdqa m128, xmm / movdqa xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     52019      20206 
+     40021      20205 
+     40014      20205 
+     40014      20205 
+     40021      20205 
+     40014      20205 
+     40020      20205 
+     40014      20205 
+     40014      20205 
+     40020      20205 
+
+
+Throughput: movdqu m128,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     34034      20205 
+     33546      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33975      20205 
+
+
+Throughput: movdqu xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     27098      20205 
+     26637      20205 
+     26611      20205 
+     26617      20205 
+     26617      20205 
+     26617      20205 
+     26617      20205 
+     26617      20205 
+     26611      20205 
+     26618      20205 
+
+
+Latency: movdqu m128, xmm / movdqu xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     44675      20205 
+     43355      20205 
+     43355      20205 
+     43355      20205 
+     43355      20205 
+     43348      20205 
+     43348      20205 
+     43355      20205 
+     78403      20207 
+     43355      20205 
+
+
+Throughput: lddqu xmm,m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26962      20205 
+     26624      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26611      20205 
+     26611      20205 
+     26617      20205 
+
+
+Throughput: movdqa m128, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     36589      20205 
+     36348      20205 
+     36315      20205 
+     36316      20205 
+     36315      20205 
+     36316      20205 
+     36316      20205 
+     36315      20205 
+     36316      20205 
+     36315      20205 
+
+
+Latency: lddqu xmm, m128 / movdqa m128, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     44252      20205 
+     43362      20205 
+     43349      20205 
+     43349      20205 
+     43349      20205 
+     43349      20205 
+     43342      20205 
+     43342      20205 
+     43349      20205 
+     43349      20205 
+
+
+Throughput: movq m64,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     36947      20205 
+     36323      20205 
+     36310      20205 
+     36309      20205 
+     36310      20205 
+     36309      20205 
+     36310      20205 
+     36309      20205 
+     36309      20205 
+     36310      20205 
+
+
+Throughput: movq xmm, m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29503      20205 
+     28841      20205 
+     28834      20205 
+     28840      20205 
+     28834      20205 
+     28841      20205 
+     28834      20205 
+     28840      20205 
+     28834      20205 
+     28841      20205 
+
+
+Latency: movq m64, xmm / movq xmm, m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40579      20205 
+     40020      20205 
+     40014      20205 
+     40014      20205 
+     40020      20205 
+     40014      20205 
+     40014      20205 
+     40014      20205 
+     40014      20205 
+     40021      20205 
+
+
+Throughput: movq m64,mmx
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33663      20205 
+     33546      20205 
+     33514      20205 
+     33514      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+     33514      20205 
+     33514      20205 
+
+
+Throughput: movq mmx, m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29692      20205 
+     28860      20205 
+     28834      20205 
+     28834      20205 
+     28834      20205 
+     28834      20205 
+     28834      20205 
+     28834      20205 
+     28834      20205 
+     28834      20205 
+
+
+Latency: movq m64, mmx / movq mmx, m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     43446      20205 
+     43375      20205 
+     43342      20205 
+     43342      20205 
+     43342      20205 
+     43342      20205 
+     43342      20205 
+     43342      20205 
+     43342      20205 
+     43342      20205 
+
+
+Throughput: movntps m128,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33910      20205 
+     33754      20205 
+     33754      20205 
+     33761      20205 
+     33755      20205 
+     33755      20205 
+     33761      20205 
+     33754      20205 
+     33754      20205 
+     33761      20205 
+
+
+Throughput: movaps xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26936      20205 
+     26617      20205 
+     26617      20205 
+     26617      20205 
+     26611      20205 
+     26611      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+
+
+Latency: movntps m128, xmm / movaps xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2515266      20205 
+   2515890      20205 
+   2532244      20206 
+   2516150      20205 
+   2527922      20206 
+   2512192      20205 
+   2513433      20205 
+   2553746      20207 
+   2515832      20205 
+   2510255      20205 
+
+
+Throughput: movntpd m128,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     31460      20205 
+     31167      20205 
+     31167      20205 
+     31167      20205 
+     31167      20205 
+     31167      20205 
+     31161      20205 
+     31168      20205 
+     31168      20205 
+     31616      20205 
+
+
+Throughput: movaps xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26839      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26611      20205 
+     26611      20205 
+     26611      20205 
+     26617      20205 
+     26617      20205 
+     26617      20205 
+
+
+Latency: movntpd m128, xmm / movaps xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2615685      20206 
+   2600709      20205 
+   2648192      20207 
+   2517795      20205 
+   2516794      20205 
+   2546577      20207 
+   2517431      20205 
+   2517256      20205 
+   2538056      20206 
+   2513213      20205 
+
+
+Throughput: movntq m64,mmx
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     37160      20205 
+     36848      20205 
+     36809      20205 
+     36816      20205 
+     36816      20205 
+     36809      20205 
+     36815      20205 
+     36815      20205 
+     36815      20205 
+     36809      20205 
+
+
+Throughput: movq mmx, m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29081      20205 
+     28840      20205 
+     28834      20205 
+     28841      20205 
+     28834      20205 
+     28840      20205 
+     28834      20205 
+     28841      20205 
+     28834      20205 
+     28840      20205 
+
+
+Latency: movntq m64, mmx / movq mmx, m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2618356      20206 
+   2602327      20205 
+   2624713      20206 
+   2600461      20205 
+   2601729      20205 
+   2593689      20207 
+   2512939      20205 
+   2504476      20205 
+   2533187      20206 
+   2514896      20205 
+
+
+Throughput: movntdq m128,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     34126      20205 
+     33788      20205 
+     33748      20205 
+     33755      20205 
+     33749      20205 
+     33755      20205 
+     33748      20205 
+     33755      20205 
+     33749      20205 
+     33755      20205 
+
+
+Throughput: movdqa xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29256      20205 
+     28841      20205 
+     28834      20205 
+     28840      20205 
+     28834      20205 
+     28841      20205 
+     28834      20205 
+     28840      20205 
+     28834      20205 
+     28841      20205 
+
+
+Latency: movntdq m128, xmm / movdqa xmm, m128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2512673      20205 
+   2547844      20206 
+   2507180      20205 
+   2516267      20205 
+   2531334      20206 
+   2517281      20205 
+   2550626      20207 
+   2514635      20205 
+   2519302      20205 
+   2529026      20206 
+
+
+Throughput: movntdqa xmm,m
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     27144      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+     26618      20205 
+
+
+Throughput: movdqa m, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33794      20205 
+     33547      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+
+
+Latency: movntdqa xmm, m / movdqa m, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     43686      20205 
+     43368      20205 
+     43348      20205 
+     43348      20205 
+     43348      20205 
+     43348      20205 
+     43348      20205 
+     43348      20205 
+     43348      20205 
+     43348      20205 
+
+
+Throughput: movnti m32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     31369      20205 
+     31213      20205 
+     31168      20205 
+     31168      20205 
+     31168      20205 
+     31168      20205 
+     31168      20205 
+     31168      20205 
+     31168      20205 
+     31168      20205 
+
+
+Throughput: mov r32, m32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29075      20205 
+     28835      20205 
+     28828      20205 
+     28828      20205 
+     28834      20205 
+     28828      20205 
+     28828      20205 
+     28835      20205 
+     28828      20205 
+     28828      20205 
+
+
+Latency: movnti m32, r32 / mov r32, m32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2617342      20206 
+   2601794      20205 
+   2623920      20206 
+   2600832      20205 
+   2592974      20205 
+   2586447      20206 
+   2512907      20205 
+   2511737      20205 
+   2534227      20206 
+   2516787      20205 
+
+
+Throughput: movlhps xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21502      20205 
+     21242      20205 
+     21216      20205 
+     21216      20205 
+     21216      20205 
+     21216      20205 
+     21216      20205 
+     21216      20205 
+     21216      20205 
+     21216      20205 
+
+
+Latency: movlhps xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     24193      20205 
+     23348      20205 
+     23315      20205 
+     23316      20205 
+     23322      20205 
+     23315      20205 
+     23316      20205 
+     23322      20205 
+     23315      20205 
+     23322      20205 
+
+
+Throughput: movlhps xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23172      20205 
+     23016      20205 
+     22984      20205 
+     22991      20205 
+     22984      20205 
+     22990      20205 
+     22984      20205 
+     22991      20205 
+     22984      20205 
+     22990      20205 
+
+
+Latency: movlhps xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23491      20205 
+     23322      20205 
+     23315      20205 
+     23316      20205 
+     23322      20205 
+     23315      20205 
+     23322      20205 
+     23316      20205 
+     23315      20205 
+     23322      20205 
+
+
+Latency: movlhps xmm, xmm / movlhps xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23628      20205 
+     23348      20205 
+     23315      20205 
+     23316      20205 
+     23322      20205 
+     23315      20205 
+     23316      20205 
+     23322      20205 
+     23315      20205 
+     23322      20205 
+
+
+Throughput: movhps m64,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30349      20205 
+     31363      20205 
+     31369      20205 
+     31362      20205 
+     31362      20205 
+     31362      20205 
+     31363      20205 
+     31363      20205 
+     31363      20205 
+     31362      20205 
+
+
+Throughput: movhps xmm, m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     28802      20205 
+     28652      20205 
+     28658      20205 
+     28659      20205 
+     28658      20205 
+     28658      20205 
+     28659      20205 
+     28658      20205 
+     28658      20205 
+     28659      20205 
+
+
+Latency: movhps m64, xmm / movhps xmm, m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    109760      20205 
+    109707      20205 
+    109740      20205 
+    109734      20205 
+    109734      20205 
+    109740      20205 
+    109733      20205 
+    109733      20205 
+    109740      20205 
+    121174      20206 
+
+
+Throughput: movlps m64,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33689      20205 
+     33534      20205 
+     33521      20205 
+     33521      20205 
+     33514      20205 
+     33514      20205 
+     33514      20205 
+     33520      20205 
+     33520      20205 
+     33520      20205 
+
+
+Throughput: movlps xmm, m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26611      20205 
+     26448      20205 
+     26448      20205 
+     26449      20205 
+     26455      20205 
+     26455      20205 
+     26455      20205 
+     26448      20205 
+     26449      20205 
+     26455      20205 
+
+
+Latency: movlps m64, xmm / movlps xmm, m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80021      20205 
+     80035      20205 
+     80009      20205 
+     80008      20205 
+     80015      20205 
+     80015      20205 
+     80008      20205 
+     80009      20205 
+     80015      20205 
+     80015      20205 
+
+
+Throughput: movlpd m,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33781      20205 
+     33534      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+     33521      20205 
+
+
+Throughput: movlpd xmm, m
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29088      20205 
+     28652      20205 
+     28652      20205 
+     28653      20205 
+     28652      20205 
+     28653      20205 
+     28652      20205 
+     28653      20205 
+     28653      20205 
+     28652      20205 
+
+
+Latency: movlpd m, xmm / movlpd xmm, m
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     87133      20205 
+     86678      20205 
+     86678      20205 
+     86678      20205 
+     86678      20205 
+     86672      20205 
+     86672      20205 
+     86678      20205 
+     86678      20205 
+     86678      20205 
+
+
+Throughput: movmskps r32,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20267      20205 
+     20046      20205 
+     20020      20205 
+     20020      20205 
+     20014      20205 
+     20013      20205 
+     20020      20205 
+     20020      20205 
+     20013      20205 
+     20014      20205 
+
+
+Throughput: movd xmm, r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21261      20205 
+     20137      20205 
+     20124      20205 
+     20124      20205 
+     20117      20205 
+     20124      20205 
+     20118      20205 
+     20124      20205 
+     20124      20205 
+     20118      20205 
+
+
+Latency: movmskps r32, xmm / movd xmm, r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     75875      20205 
+     75856      20205 
+     75842      20205 
+     75843      20205 
+     75842      20205 
+     75843      20205 
+     75842      20205 
+     75843      20205 
+     75842      20205 
+     75843      20205 
+
+
+Throughput: movmskpd r32,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     24155      20205 
+     23686      20205 
+     23654      20205 
+     23654      20205 
+     23660      20205 
+     23660      20205 
+     23660      20205 
+     23654      20205 
+     23654      20205 
+     23661      20205 
+
+
+Throughput: movd xmm, r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22776      20205 
+     21834      20205 
+     21795      20205 
+     21795      20205 
+     21795      20205 
+     21795      20205 
+     21795      20205 
+     21795      20205 
+     21795      20205 
+     21795      20205 
+
+
+Latency: movmskpd r32, xmm / movd xmm, r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     70018      20205 
+     70018      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+     70012      20205 
+
+
+Latency: movaps xmm, xmm / movaps xmm, xmm / POR xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     76778      30205 
+     76186      30205 
+     76154      30205 
+     76154      30205 
+     76654      30205 
+     76154      30205 
+     76154      30205 
+     76154      30205 
+     76154      30205 
+     76154      30205 
+
+
+Latency: movaps xmm, xmm / movaps xmm, xmm / MAXPS xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     64512      30205 
+     64226      30205 
+     64220      30205 
+     64220      30205 
+     64610      30205 
+     64220      30205 
+     64227      30205 
+     64227      30205 
+     64220      30205 
+     64220      30205 
+
+
+Latency: movdqa xmm, xmm / movdqa xmm, xmm / POR xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30875      30205 
+     30017      30205 
+     30010      30205 
+     30017      30205 
+     30017      30205 
+     30017      30205 
+     30011      30205 
+     30017      30205 
+     30017      30205 
+     30017      30205 
+
+
+Latency: movdqa xmm, xmm / movdqa xmm, xmm / MAXPS xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80282      30205 
+     80028      30205 
+     80015      30205 
+     80015      30205 
+     80015      30205 
+     80008      30205 
+     93139      30206 
+     80015      30205 
+     80015      30205 
+     80015      30205 
+
+
+Throughput: cvtpd2ps xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29620      20205 
+     29224      20205 
+     29224      20205 
+     29230      20205 
+     29224      20205 
+     29231      20205 
+     29224      20205 
+     29230      20205 
+     29224      20205 
+     29679      20205 
+
+
+Latency: cvtpd2ps xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    120380      20205 
+    120386      20205 
+    120367      20205 
+    120374      20205 
+    120373      20205 
+    120367      20205 
+    120374      20205 
+    156474      20207 
+    114062      20205 
+    111091      20205 
+
+
+Throughput: cvtps2pd xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21950      20205 
+     21742      20205 
+     21691      20205 
+     21691      20205 
+     21691      20205 
+     21697      20205 
+     21697      20205 
+     21697      20205 
+     21690      20205 
+     21690      20205 
+
+
+Latency: cvtps2pd xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    111118      20205 
+    111560      20205 
+    111111      20205 
+    111111      20205 
+    111111      20205 
+    111111      20205 
+    111111      20205 
+    111111      20205 
+    111111      20205 
+    111111      20205 
+
+
+Latency: cvtpd2ps xmm, xmm / cvtps2pd xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     94569      20205 
+     94595      20205 
+     94569      20205 
+     95005      20205 
+     94569      20205 
+     94569      20205 
+     94576      20205 
+     94569      20205 
+     94569      20205 
+     94576      20205 
+
+
+Throughput: cvtpd2ps xmm,[m128]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29068      20205 
+     28704      20205 
+     28711      20205 
+     28704      20205 
+     28704      20205 
+     28704      20205 
+     28710      20205 
+     28704      20205 
+     28704      20205 
+     28704      20205 
+
+
+Throughput: cvtps2pd xmm,[m64]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29270      20205 
+     28913      20205 
+     28912      20205 
+     28913      20205 
+     28912      20205 
+     28913      20205 
+     28912      20205 
+     28913      20205 
+     28912      20205 
+     28913      20205 
+
+
+Throughput: cvtsd2ss xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    150007      20205 
+    150007      20205 
+    150456      20205 
+    150007      20205 
+    150007      20205 
+    150001      20205 
+    162650      20206 
+    150001      20205 
+    150007      20205 
+    150007      20205 
+
+
+Latency: cvtsd2ss xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    300001      20205 
+    300008      20205 
+    300001      20205 
+    300001      20205 
+    300443      20205 
+    300001      20205 
+    300008      20205 
+    300001      20205 
+    300001      20205 
+    300008      20205 
+
+
+Throughput: cvtss2sd xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    162877      20205 
+    162500      20205 
+    162500      20205 
+    162501      20205 
+    162500      20205 
+    162501      20205 
+    162500      20205 
+    162501      20205 
+    162501      20205 
+    162500      20205 
+
+
+Latency: cvtss2sd xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    324994      20205 
+    325001      20205 
+    325000      20205 
+    325001      20205 
+    325000      20205 
+    325001      20205 
+    325475      20205 
+    325000      20205 
+    325001      20205 
+    325000      20205 
+
+
+Latency: cvtsd2ss xmm, xmm / cvtss2sd xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40703      20205 
+     40040      20205 
+     40020      20205 
+     40014      20205 
+     40014      20205 
+     40014      20205 
+     40014      20205 
+     40014      20205 
+     40014      20205 
+     40020      20205 
+
+
+Throughput: cvtsd2ss xmm,m64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    126711      20205 
+    126698      20205 
+    127127      20205 
+    126678      20205 
+    126678      20205 
+    126678      20205 
+    140237      20206 
+    126678      20205 
+    126678      20205 
+    126678      20205 
+
+
+Throughput: cvtss2sd xmm,m32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    126906      20205 
+    126698      20205 
+    138859      20206 
+    126678      20205 
+    126678      20205 
+    126678      20205 
+    126678      20205 
+    126672      20205 
+    126679      20205 
+    126679      20205 
+
+
+Latency: cvtsd2ss xmm, xmm / cvtss2sd xmm, xmm / POR xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90174      30205 
+     90031      30205 
+     90012      30205 
+     90012      30205 
+     90012      30205 
+     90012      30205 
+     90019      30205 
+     90012      30205 
+     90012      30205 
+     90012      30205 
+
+
+Latency: cvtsd2ss xmm, xmm / cvtss2sd xmm, xmm / MAXPD xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60463      30205 
+     60014      30205 
+     60015      30205 
+     60015      30205 
+     60015      30205 
+     60021      30205 
+     60014      30205 
+     60014      30205 
+     60021      30205 
+     60015      30205 
+
+
+Throughput: cvtdq2ps xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20339      20205 
+     20046      20205 
+     20020      20205 
+     20020      20205 
+     20013      20205 
+     20014      20205 
+     20020      20205 
+     20020      20205 
+     20014      20205 
+     20013      20205 
+
+
+Latency: cvtdq2ps xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    300001      20205 
+    300007      20205 
+    300001      20205 
+    300008      20205 
+    300001      20205 
+    300007      20205 
+    300001      20205 
+    300443      20205 
+    300007      20205 
+    300001      20205 
+
+
+Throughput: cvtps2dq xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21924      20205 
+     21691      20205 
+     21690      20205 
+     21684      20205 
+     21691      20205 
+     21690      20205 
+     21684      20205 
+     21691      20205 
+     21690      20205 
+     21684      20205 
+
+
+Latency: cvtps2dq xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    368362      20205 
+    368310      20205 
+    368330      20205 
+    368329      20205 
+    368330      20205 
+    368329      20205 
+    368798      20205 
+    368330      20205 
+    381524      20206 
+    368330      20205 
+
+
+Latency: cvtdq2ps xmm, xmm / cvtps2dq xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54295      20205 
+     54191      20205 
+     54178      20205 
+     54184      20205 
+     54178      20205 
+     54178      20205 
+     54185      20205 
+     54178      20205 
+     54178      20205 
+     54184      20205 
+
+
+Throughput: cvtdq2ps xmm,[m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25922      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+
+
+Throughput: cvtps2dq xmm,[m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25584      20205 
+     25070      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+
+
+Latency: cvtdq2ps xmm, xmm / cvtps2dq xmm, xmm / POR xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90740      30205 
+     90031      30205 
+     90012      30205 
+     90012      30205 
+     90012      30205 
+     90012      30205 
+    101946      30206 
+     90012      30205 
+     90012      30205 
+     90018      30205 
+
+
+Latency: cvtdq2ps xmm, xmm / cvtps2dq xmm, xmm / MAXPS xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    357553      30205 
+    357500      30205 
+    357501      30205 
+    357969      30205 
+    357500      30205 
+    357501      30205 
+    357494      30205 
+    357500      30205 
+    357501      30205 
+    357500      30205 
+
+
+Throughput: cvtdq2pd xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20566      20205 
+     20065      20205 
+     20020      20205 
+     20027      20205 
+     20020      20205 
+     20020      20205 
+     20026      20205 
+     20020      20205 
+     20027      20205 
+     20020      20205 
+
+
+Latency: cvtdq2pd xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    120426      20205 
+    120380      20205 
+    120368      20205 
+    120367      20205 
+    120368      20205 
+    120367      20205 
+    120368      20205 
+    120367      20205 
+    120368      20205 
+    120367      20205 
+
+
+Throughput: cvtpd2dq xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29659      20205 
+     29231      20205 
+     29224      20205 
+     29230      20205 
+     29224      20205 
+     29231      20205 
+     29224      20205 
+     29224      20205 
+     29230      20205 
+     29224      20205 
+
+
+Latency: cvtpd2dq xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    120380      20205 
+    120373      20205 
+    120374      20205 
+    120367      20205 
+    120373      20205 
+    120374      20205 
+    120367      20205 
+    120373      20205 
+    120374      20205 
+    120367      20205 
+
+
+Latency: cvtdq2pd xmm, xmm / cvtpd2dq xmm, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     94621      20205 
+     94601      20205 
+    108225      20206 
+     94594      20205 
+     95050      20205 
+     94594      20205 
+     94594      20205 
+     94595      20205 
+     94594      20205 
+     94594      20205 
+
+
+Throughput: cvtdq2pd xmm,[m64]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29848      20205 
+     29341      20205 
+     29341      20205 
+     29341      20205 
+     29341      20205 
+     29341      20205 
+     29341      20205 
+     29341      20205 
+     29341      20205 
+     29341      20205 
+
+
+Throughput: cvtpd2dq xmm,[m128]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29139      20205 
+     28730      20205 
+     28704      20205 
+     28704      20205 
+     28704      20205 
+     28704      20205 
+     28704      20205 
+     28711      20205 
+     28704      20205 
+     28704      20205 
+
+
+Latency: cvtdq2pd xmm, xmm / cvtpd2dq xmm, xmm / POR xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    140634      30205 
+    140315      30205 
+    140303      30205 
+    153790      30206 
+    140309      30205 
+    140309      30205 
+    140309      30205 
+    140303      30205 
+    140309      30205 
+    140309      30205 
+
+
+Latency: cvtdq2pd xmm, xmm / cvtpd2dq xmm, xmm / MAXPD xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    136936      30205 
+    136526      30205 
+    136513      30205 
+    136513      30205 
+    136507      30205 
+    136513      30205 
+    136513      30205 
+    136513      30205 
+    136506      30205 
+    136507      30205 
+
+
+Throughput: cvtpi2ps xmm,mmx
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     28379      20205 
+     28223      20205 
+     28184      20205 
+     28191      20205 
+     28191      20205 
+     28191      20205 
+     28191      20205 
+     28184      20205 
+     28184      20205 
+     28184      20205 
+
+
+Throughput: cvtps2pi mmx, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21963      20205 
+     21691      20205 
+     21690      20205 
+     21691      20205 
+     21684      20205 
+     21684      20205 
+     21684      20205 
+     21690      20205 
+     21691      20205 
+     21690      20205 
+
+
+Latency: cvtpi2ps xmm, mmx / cvtps2pi mmx, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     97507      20205 
+     97514      20205 
+     97507      20205 
+     97513      20205 
+     97507      20205 
+     97514      20205 
+     97507      20205 
+     97513      20205 
+     97507      20205 
+     97514      20205 
+
+
+Throughput: cvtpi2ps xmm,[m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     27371      20205 
+     27112      20205 
+     27112      20205 
+     27111      20205 
+     27111      20205 
+     27112      20205 
+     27112      20205 
+     27111      20205 
+     27111      20205 
+     27112      20205 
+
+
+Throughput: cvtps2pi mmx,[m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25252      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+
+
+Latency: cvtpi2ps xmm, mmx / cvtps2pi mmx, xmm / POR mmx,mmx
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    130104      30205 
+    130462      30205 
+    130013      30205 
+    130006      30205 
+    130013      30205 
+    130007      30205 
+    130006      30205 
+    130013      30205 
+    130007      30205 
+    130013      30205 
+
+
+Latency: cvtps2pi mmx, xmm / cvtpi2ps xmm, mmx / POR xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    120016      30205 
+    120016      30205 
+    120464      30205 
+    120016      30205 
+    120016      30205 
+    120016      30205 
+    120016      30205 
+    120016      30205 
+    120016      30205 
+    120016      30205 
+
+
+Latency: cvtps2pi mmx, xmm / cvtpi2ps xmm, mmx / MAXPS xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    110026      30205 
+    110461      30205 
+    110013      30205 
+    110012      30205 
+    110012      30205 
+    110013      30205 
+    122772      30206 
+    110012      30205 
+    110013      30205 
+    110013      30205 
+
+
+Throughput: cvtpi2pd xmm,mmx
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20417      20205 
+     20066      20205 
+     20020      20205 
+     20026      20205 
+     20020      20205 
+     20027      20205 
+     20020      20205 
+     20020      20205 
+     20026      20205 
+     20020      20205 
+
+
+Throughput: cvtpd2pi mmx, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33059      20205 
+     31668      20205 
+     31668      20205 
+     31661      20205 
+     31668      20205 
+     31668      20205 
+     31662      20205 
+     31668      20205 
+     31668      20205 
+     31661      20205 
+
+
+Latency: cvtpi2pd xmm, mmx / cvtpd2pi mmx, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     94608      20205 
+     94595      20205 
+     94589      20205 
+     94588      20205 
+     94595      20205 
+     94589      20205 
+     94588      20205 
+     94595      20205 
+     94589      20205 
+     94588      20205 
+
+
+Throughput: cvtpi2pd xmm,[m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     27436      20205 
+     27502      20205 
+     27086      20205 
+     27086      20205 
+     27086      20205 
+     27086      20205 
+     27079      20205 
+     27079      20205 
+     27085      20205 
+     27085      20205 
+
+
+Throughput: cvtpd2pi mmx,[m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29263      20205 
+     28730      20205 
+     28704      20205 
+     28704      20205 
+     28704      20205 
+     28704      20205 
+     28704      20205 
+     28711      20205 
+     28704      20205 
+     28704      20205 
+
+
+Latency: cvtpi2pd xmm, mmx / cvtpd2pi mmx, xmm / POR mmx,mmx
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    140309      30205 
+    140316      30205 
+    140309      30205 
+    140302      30205 
+    140303      30205 
+    140309      30205 
+    140309      30205 
+    140309      30205 
+    140302      30205 
+    140764      30205 
+
+
+Latency: cvtpd2pi mmx, xmm / cvtpi2pd xmm, mmx / POR xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    140114      30205 
+    140556      30205 
+    140114      30205 
+    140114      30205 
+    140114      30205 
+    140108      30205 
+    140114      30205 
+    140114      30205 
+    140114      30205 
+    140107      30205 
+
+
+Latency: cvtpd2pi mmx, xmm / cvtpi2pd xmm, mmx / MAXPD xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    110617      30205 
+    110318      30205 
+    110305      30205 
+    122772      30206 
+    110311      30205 
+    110305      30205 
+    110312      30205 
+    110312      30205 
+    110305      30205 
+    110305      30205 
+
+
+Throughput: cvtsi2ss xmm,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    120374      20205 
+    120380      20205 
+    120373      20205 
+    120373      20205 
+    120373      20205 
+    120374      20205 
+    120374      20205 
+    120374      20205 
+    120380      20205 
+    120373      20205 
+
+
+Throughput: cvtss2si r32, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20462      20205 
+     20020      20205 
+     20013      20205 
+     20014      20205 
+     20020      20205 
+     20013      20205 
+     20020      20205 
+     20020      20205 
+     20013      20205 
+     20020      20205 
+
+
+Latency: cvtsi2ss xmm, r32 / cvtss2si r32, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     97552      20205 
+     98007      20205 
+     97519      20205 
+     97520      20205 
+     97513      20205 
+     97513      20205 
+     97520      20205 
+     97519      20205 
+     97520      20205 
+     97519      20205 
+
+
+Throughput: cvtsi2ss xmm,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40476      20205 
+     40040      20205 
+     40021      20205 
+     40021      20205 
+     40021      20205 
+     40021      20205 
+     40020      20205 
+     40020      20205 
+     40020      20205 
+     40020      20205 
+
+
+Throughput: cvtss2si r64, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20826      20205 
+     20020      20205 
+     20020      20205 
+     20013      20205 
+     20014      20205 
+     20020      20205 
+     20020      20205 
+     20014      20205 
+     20013      20205 
+     20020      20205 
+
+
+Latency: cvtsi2ss xmm, r64 / cvtss2si r64, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    260020      20205 
+    260013      20205 
+    260014      20205 
+    260013      20205 
+    260014      20205 
+    260013      20205 
+    260014      20205 
+    271798      20206 
+    260501      20205 
+    260013      20205 
+
+
+Throughput: cvtsi2ss xmm,[m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    126698      20205 
+    126678      20205 
+    126678      20205 
+    126678      20205 
+    126678      20205 
+    126672      20205 
+    126679      20205 
+    126679      20205 
+    154661      20207 
+    126678      20205 
+
+
+Throughput: cvtss2si r32,[m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25525      20205 
+     25044      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+
+
+Latency: cvtsi2ss xmm, r32 / cvtss2si r32, xmm / OR r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100015      30205 
+    100016      30205 
+    100009      30205 
+    113900      30206 
+    100016      30205 
+    100016      30205 
+    100016      30205 
+    100016      30205 
+    100009      30205 
+    100009      30205 
+
+
+Latency: cvtss2si r32, xmm / cvtsi2ss xmm, r32 / POR xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    140023      30205 
+    140036      30205 
+    140010      30205 
+    152444      30206 
+    140010      30205 
+    140016      30205 
+    140010      30205 
+    140017      30205 
+    140010      30205 
+    140016      30205 
+
+
+Latency: cvtss2si r32, xmm / cvtsi2ss xmm, r32 / MAXPS xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    110058      30205 
+    110032      30205 
+    110012      30205 
+    110019      30205 
+    110013      30205 
+    110019      30205 
+    123688      30206 
+    110019      30205 
+    110013      30205 
+    110019      30205 
+
+
+Throughput: cvtsi2sd xmm,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    130397      20205 
+    130416      20205 
+    130404      20205 
+    130403      20205 
+    130891      20205 
+    130397      20205 
+    130397      20205 
+    130397      20205 
+    130397      20205 
+    130397      20205 
+
+
+Throughput: cvtsd2si r32, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20397      20205 
+     20020      20205 
+     20013      20205 
+     20014      20205 
+     20020      20205 
+     20013      20205 
+     20020      20205 
+     20020      20205 
+     20013      20205 
+     20020      20205 
+
+
+Latency: cvtsi2sd xmm, r32 / cvtsd2si r32, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     97520      20205 
+     97514      20205 
+     97513      20205 
+     97514      20205 
+     97513      20205 
+     97507      20205 
+     97507      20205 
+     97513      20205 
+     97514      20205 
+     97513      20205 
+
+
+Throughput: cvtsi2sd xmm,[m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    126847      20205 
+    126678      20205 
+    126678      20205 
+    126678      20205 
+    126678      20205 
+    126672      20205 
+    126679      20205 
+    126679      20205 
+    127127      20205 
+    126672      20205 
+
+
+Throughput: cvtsd2si r32,[m64]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25519      20205 
+     25045      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+
+
+Latency: cvtsi2sd xmm, r32 / cvtsd2si r32, xmm / OR r32,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100016      30205 
+    100016      30205 
+    100009      30205 
+    100458      30205 
+    100009      30205 
+    100016      30205 
+    112931      30206 
+    100015      30205 
+    100015      30205 
+    100009      30205 
+
+
+Latency: cvtsd2si r32, xmm / cvtsi2sd xmm, r32 / POR xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    140023      30205 
+    140471      30205 
+    140010      30205 
+    152347      30206 
+    140016      30205 
+    140010      30205 
+    140017      30205 
+    140010      30205 
+    140016      30205 
+    140010      30205 
+
+
+Latency: cvtsd2si r32, xmm / cvtsi2sd xmm, r32 / MAXPD xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    110084      30205 
+    110032      30205 
+    110012      30205 
+    110019      30205 
+    110013      30205 
+    110019      30205 
+    110019      30205 
+    110013      30205 
+    110019      30205 
+    110012      30205 
+
+
+Throughput: cvtsi2sd xmm,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40463      20205 
+     40020      20205 
+     40020      20205 
+     40020      20205 
+     40014      20205 
+     40021      20205 
+     40021      20205 
+     40021      20205 
+     40021      20205 
+     40021      20205 
+
+
+Throughput: cvtsd2si r64, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22204      20205 
+     21690      20205 
+     21691      20205 
+     21690      20205 
+     21684      20205 
+     21684      20205 
+     21684      20205 
+     21691      20205 
+     21690      20205 
+     21691      20205 
+
+
+Latency: cvtsi2sd xmm, r64 / cvtsd2si r64, xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    260013      20205 
+    260020      20205 
+    260019      20205 
+    260020      20205 
+    260507      20205 
+    260019      20205 
+    260020      20205 
+    260019      20205 
+    260020      20205 
+    260019      20205 
+
+
+Throughput: cvtsi2sd xmm,[m64]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40397      20205 
+     40021      20205 
+     40021      20205 
+     40020      20205 
+     40020      20205 
+     40020      20205 
+     40021      20205 
+     40021      20205 
+     40021      20205 
+     40027      20205 
+
+
+Throughput: cvtsd2si r64,[m64]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25564      20205 
+     25064      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+     25025      20205 
+
+
+Latency: cvtsi2sd xmm, r64 / cvtsd2si r64, xmm / OR r64,r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    250010      30205 
+    250009      30205 
+    250016      30205 
+    250016      30205 
+    250009      30205 
+    250465      30205 
+    250010      30205 
+    250009      30205 
+    250016      30205 
+    250016      30205 
+
+
+Latency: cvtsd2si r64, xmm / cvtsi2sd xmm, r64 / POR xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    249197      30205 
+    249204      30205 
+    249178      30205 
+    249184      30205 
+    249184      30205 
+    249184      30205 
+    249659      30205 
+    249184      30205 
+    249184      30205 
+    249184      30205 
+
+
+Latency: cvtsd2si r64, xmm / cvtsi2sd xmm, r64 / MAXPD xmm,xmm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    220032      30205 
+    220045      30205 
+    220019      30205 
+    231491      30206 
+    220018      30205 
+    220018      30205 
+    220018      30205 
+    220012      30205 
+    220012      30205 
+    220019      30205 
+
+

@@ -1,0 +1,1718 @@
+
+
+Measure cache access
+
+
+Measure cache access by pointer chasing
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400016     102013 
+    400023     102013 
+    400049     102013 
+    400023     102013 
+    400471     102013 
+    400023     102013 
+    412015     102014 
+    400023     102013 
+    400023     102013 
+    400023     102013 
+
+
+
+Measure store forwarding penalties
+Crossing boundaries
+
+
+
+register read/write size 16 bits, crossing 0 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    516562     202009 
+    500032     202008 
+    500013     202008 
+    500012     202008 
+    500467     202008 
+    500013     202008 
+    500019     202008 
+    500019     202008 
+    500013     202008 
+    500012     202008 
+
+
+register read/write size 16 bits, crossing 4 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    591884     202006 
+    499993     202004 
+    500474     202004 
+    499993     202004 
+    500000     202004 
+    499994     202004 
+    499994     202004 
+    500000     202004 
+    499993     202004 
+    500461     202004 
+
+
+register read/write size 16 bits, crossing 8 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    535197     202006 
+    500039     202004 
+    500019     202004 
+    500012     202004 
+    500012     202004 
+    500019     202004 
+    500013     202004 
+    500461     202004 
+    500019     202004 
+    500013     202004 
+
+
+register read/write size 16 bits, crossing 16 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    571129     202005 
+    541697     202004 
+    541684     202004 
+    542171     202004 
+    541691     202004 
+    541684     202004 
+    541684     202004 
+    541684     202004 
+    541684     202004 
+    586098     202005 
+
+
+register read/write size 16 bits, crossing 32 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    526942     202005 
+    500013     202004 
+    500019     202004 
+    500012     202004 
+    500012     202004 
+    500019     202004 
+    500461     202004 
+    500012     202004 
+    500019     202004 
+    518882     202005 
+
+
+register read/write size 16 bits, crossing 64 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6693284     202006 
+   6411776     202005 
+   6147375     202005 
+   6145334     202005 
+   6158718     202005 
+   6145185     202005 
+   6133804     202004 
+   6145614     202005 
+   6154863     202005 
+   6142214     202005 
+
+
+register read/write size 16 bits, crossing 128 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6715878     202003 
+   6389858     202002 
+   6144132     202002 
+   6145549     202002 
+   6157262     202002 
+   6146498     202002 
+   6134291     202001 
+   6148903     202002 
+   6153219     202002 
+   6142266     202002 
+
+
+register read/write size 32 bits, crossing 0 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    461500     202009 
+    433368     202008 
+    433348     202008 
+    433348     202008 
+    433348     202008 
+    433348     202008 
+    452088     202009 
+    433355     202008 
+    433355     202008 
+    433355     202008 
+
+
+register read/write size 32 bits, crossing 4 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    433752     202005 
+    400011     202004 
+    399998     202004 
+    399997     202004 
+    399997     202004 
+    399997     202004 
+    400446     202004 
+    399997     202004 
+    399997     202004 
+    399997     202004 
+
+
+register read/write size 32 bits, crossing 8 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    416864     202005 
+    400030     202004 
+    400010     202004 
+    400016     202004 
+    400016     202004 
+    400016     202004 
+    416670     202005 
+    400010     202004 
+    400465     202004 
+    400017     202004 
+
+
+register read/write size 32 bits, crossing 16 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    507586     202006 
+    401336     202004 
+    399997     202004 
+    399997     202004 
+    399997     202004 
+    400446     202004 
+    399997     202004 
+    399997     202004 
+    399998     202004 
+    399998     202004 
+
+
+register read/write size 32 bits, crossing 32 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    427089     202005 
+    400016     202004 
+    400016     202004 
+    417970     202005 
+    400017     202004 
+    400017     202004 
+    400010     202004 
+    400465     202004 
+    400017     202004 
+    400017     202004 
+
+
+register read/write size 32 bits, crossing 64 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6758414     202006 
+   6395741     202006 
+   6205732     202005 
+   6205414     202005 
+   6220780     202005 
+   6205700     202005 
+   6203925     202005 
+   6217140     202005 
+   6192940     202004 
+   6203522     202005 
+
+
+register read/write size 32 bits, crossing 128 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6485746     202003 
+   6204816     202002 
+   6204640     202002 
+   6217413     202002 
+   6204692     202002 
+   6216769     202002 
+   6192498     202001 
+   6212784     202002 
+   6200837     202002 
+   6200786     202002 
+
+
+register read/write size 64 bits, crossing 0 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    417125     202009 
+    400043     202008 
+    400023     202008 
+    400016     202008 
+    422948     202009 
+    400016     202008 
+    418152     202009 
+    400016     202008 
+    400016     202008 
+    400016     202008 
+
+
+register read/write size 64 bits, crossing 4 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    429137     202005 
+    400042     202004 
+    400016     202004 
+    400016     202004 
+    400465     202004 
+    400016     202004 
+    400016     202004 
+    400016     202004 
+    400016     202004 
+    400016     202004 
+
+
+register read/write size 64 bits, crossing 8 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    451692     202005 
+    433349     202004 
+    433342     202004 
+    433349     202004 
+    433837     202004 
+    433342     202004 
+    433349     202004 
+    433349     202004 
+    433343     202004 
+    433349     202004 
+
+
+register read/write size 64 bits, crossing 16 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    432693     202005 
+    400010     202004 
+    399997     202004 
+    399997     202004 
+    399998     202004 
+    399998     202004 
+    399998     202004 
+    400446     202004 
+    399997     202004 
+    399997     202004 
+
+
+register read/write size 64 bits, crossing 32 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    426783     202005 
+    400017     202004 
+    400017     202004 
+    417580     202005 
+    400017     202004 
+    400465     202004 
+    400016     202004 
+    400016     202004 
+    400016     202004 
+    400017     202004 
+
+
+register read/write size 64 bits, crossing 64 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6788321     202007 
+   6353198     202005 
+   6205498     202005 
+   6204166     202005 
+   6227124     202005 
+   6205024     202005 
+   6203744     202005 
+   6218122     202005 
+   6192889     202004 
+   6203373     202005 
+
+
+register read/write size 64 bits, crossing 128 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6508606     202003 
+   6206187     202002 
+   6204237     202002 
+   6217971     202002 
+   6204672     202002 
+   6192985     202001 
+   6202937     202002 
+   6211361     202002 
+   6200837     202002 
+   6200798     202002 
+
+
+register read/write size 128 bits, crossing 0 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    435591     202009 
+    400030     202008 
+    400010     202008 
+    400465     202008 
+    400004     202008 
+    400004     202008 
+    400010     202008 
+    400003     202008 
+    400003     202008 
+    400003     202008 
+
+
+register read/write size 128 bits, crossing 4 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6238336     202006 
+   6204653     202005 
+   6222476     202006 
+   6205251     202005 
+   6275431     202006 
+   6224244     202006 
+   6252870     202007 
+   6192992     202004 
+   6205297     202005 
+   6223490     202006 
+
+
+register read/write size 128 bits, crossing 8 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    427037     202005 
+    400017     202004 
+    400017     202004 
+    418340     202005 
+    400017     202004 
+    400465     202004 
+    400017     202004 
+    400017     202004 
+    400017     202004 
+    400016     202004 
+
+
+register read/write size 128 bits, crossing 16 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    463652     202005 
+    433362     202004 
+    433343     202004 
+    433836     202004 
+    433343     202004 
+    433349     202004 
+    433342     202004 
+    433349     202004 
+    451614     202005 
+    433349     202004 
+
+
+register read/write size 128 bits, crossing 32 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    450781     202005 
+    433381     202004 
+    433836     202004 
+    433355     202004 
+    433355     202004 
+    433355     202004 
+    433355     202004 
+    433355     202004 
+    433355     202004 
+    433355     202004 
+
+
+register read/write size 128 bits, crossing 64 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6352834     202007 
+   6205966     202005 
+   6204114     202005 
+   6219818     202006 
+   6204062     202005 
+   6204107     202005 
+   6215463     202006 
+   6200793     202005 
+   6192973     202004 
+   6208462     202005 
+
+
+register read/write size 128 bits, crossing 128 bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6222060     202002 
+   6213428     202002 
+   6203353     202002 
+   6226090     202003 
+   6226103     202003 
+   6204835     202002 
+   6221325     202003 
+   6204399     202002 
+   6203080     202002 
+   6192979     202001 
+
+
+
+Measure store forwarding penalties with read offset
+
+
+
+register read/write size 16 bits, read offset by 0 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    570128     202009 
+    541684     202008 
+    541684     202008 
+    542178     202008 
+    576173     202009 
+    500006     202008 
+    500000     202008 
+    499999     202008 
+    500006     202008 
+    500455     202008 
+
+
+register read/write size 16 bits, read offset by 1 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3384797     202010 
+   3246003     202008 
+   3259484     202009 
+   3323177     202011 
+   3260764     202009 
+   3246464     202008 
+   3275213     202009 
+   3246457     202008 
+   3266354     202009 
+   3246458     202008 
+
+
+register read/write size 32 bits, read offset by 0 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    427492     202009 
+    400043     202008 
+    400023     202008 
+    400016     202008 
+    400016     202008 
+    400016     202008 
+    400465     202008 
+    400017     202008 
+    400023     202008 
+    400016     202008 
+
+
+register read/write size 32 bits, read offset by 2 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3818184     202010 
+   3789617     202009 
+   3775928     202008 
+   3749616     202009 
+   3485456     202008 
+   3498202     202009 
+   3485456     202008 
+   3496916     202009 
+   3485456     202008 
+   3510741     202009 
+
+
+register read/write size 64 bits, read offset by 0 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    461864     202009 
+    433842     202008 
+    433355     202008 
+    433348     202008 
+    433355     202008 
+    433355     202008 
+    457086     202009 
+    400004     202008 
+    400004     202008 
+    400459     202008 
+
+
+register read/write size 64 bits, read offset by 4 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3536982     202010 
+   3485475     202008 
+   3498131     202009 
+   3485437     202008 
+   3495694     202009 
+   3485469     202008 
+   3548701     202010 
+   3485469     202008 
+   3494433     202009 
+   3485469     202008 
+
+
+register read/write size 128 bits, read offset by 0 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    427934     202009 
+    400029     202008 
+    400016     202008 
+    400017     202008 
+    400465     202008 
+    400016     202008 
+    400016     202008 
+    400016     202008 
+    400016     202008 
+    400017     202008 
+
+
+register read/write size 128 bits, read offset by 8 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3823521     202010 
+   3775902     202008 
+   3789279     202009 
+   3775928     202008 
+   3558217     202010 
+   3485456     202008 
+   3498885     202009 
+   3485456     202008 
+   3496123     202009 
+   3485456     202008 
+
+
+
+Measure store forwarding penalties with read half the size of write
+
+
+
+write size 16, read size 8, read offset by 0 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    569907     202009 
+    541710     202008 
+    542178     202008 
+    541684     202008 
+    541684     202008 
+    541691     202008 
+    541684     202008 
+    541684     202008 
+    582062     202009 
+    500006     202008 
+
+
+write size 16, read size 8, read offset by 0 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    572897     202009 
+    541691     202008 
+    541684     202008 
+    542185     202008 
+    541684     202008 
+    541691     202008 
+    541684     202008 
+    541684     202008 
+    541691     202008 
+    542171     202008 
+
+
+write size 16, read size 8, read offset by 1 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1853839     202009 
+   1824342     202008 
+   1845233     202009 
+   1683994     202008 
+   1684423     202008 
+   1683988     202008 
+   1696364     202009 
+   1683988     202008 
+   1684430     202008 
+   1683994     202008 
+
+
+write size 32, read size 16, read offset by 0 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    528203     202009 
+    500013     202008 
+    500019     202008 
+    500019     202008 
+    500019     202008 
+    500012     202008 
+    500461     202008 
+    500013     202008 
+    500019     202008 
+    500019     202008 
+
+
+write size 32, read size 16, read offset by 1 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1853417     202009 
+   1842763     202009 
+   1824335     202008 
+   1824817     202008 
+   1824810     202008 
+   1790074     202009 
+   1684429     202008 
+   1683987     202008 
+   1684423     202008 
+   1696442     202009 
+
+
+write size 32, read size 16, read offset by 2 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3310970     202010 
+   3246457     202008 
+   3257923     202009 
+   3246477     202008 
+   3283111     202009 
+   3246471     202008 
+   3266907     202009 
+   3246022     202008 
+   3262779     202009 
+   3246477     202008 
+
+
+write size 64, read size 32, read offset by 0 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    483515     202010 
+    433387     202008 
+    433355     202008 
+    433355     202008 
+    433355     202008 
+    433355     202008 
+    433348     202008 
+    433355     202008 
+    433842     202008 
+    433355     202008 
+
+
+write size 64, read size 32, read offset by 2 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1976637     202010 
+   1932034     202008 
+   1932040     202008 
+   1972074     202009 
+   1787064     202008 
+   1782989     202008 
+   1783405     202008 
+   1795384     202009 
+   1783425     202008 
+   1782989     202008 
+
+
+write size 64, read size 32, read offset by 4 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1982591     202010 
+   1932060     202008 
+   1931579     202008 
+   1932041     202008 
+   1945171     202009 
+   1932041     202008 
+   1931586     202008 
+   1962148     202009 
+   1782989     202008 
+   1783405     202008 
+
+
+write size 128, read size 64, read offset by 0 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    417313     202009 
+    400043     202008 
+    400017     202008 
+    433862     202010 
+    400016     202008 
+    400016     202008 
+    400465     202008 
+    400017     202008 
+    400017     202008 
+    400023     202008 
+
+
+write size 128, read size 64, read offset by 4 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1962747     202009 
+   1903180     202010 
+   1782989     202008 
+   1783398     202008 
+   1782989     202008 
+   1794539     202009 
+   1783411     202008 
+   1782989     202008 
+   1783425     202008 
+   1794449     202009 
+
+
+write size 128, read size 64, read offset by 8 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1810555     202009 
+   1783320     202008 
+   1783002     202008 
+   1800279     202009 
+   1783002     202008 
+   1783424     202008 
+   1783002     202008 
+   1813949     202010 
+   1783002     202008 
+   1783418     202008 
+
+
+
+Measure store forwarding penalties with read 1/4 size of write
+
+
+
+write size 32, read size 8, read offset by 0 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    528346     202009 
+    500038     202008 
+    500013     202008 
+    500019     202008 
+    500012     202008 
+    500019     202008 
+    500019     202008 
+    500461     202008 
+    500019     202008 
+    519915     202009 
+
+
+write size 32, read size 8, read offset by 0 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    526786     202009 
+    500019     202008 
+    500012     202008 
+    500013     202008 
+    500019     202008 
+    500480     202008 
+    520039     202009 
+    500013     202008 
+    500019     202008 
+    500012     202008 
+
+
+write size 32, read size 8, read offset by 1 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1714752     202009 
+   1684436     202008 
+   1684001     202008 
+   1701115     202009 
+   1684000     202008 
+   1684436     202008 
+   1684001     202008 
+   1774682     202214 
+   1684001     202008 
+   1684436     202008 
+
+
+write size 32, read size 8, read offset by 1 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1710273     202009 
+   1684442     202008 
+   1702473     202009 
+   1684436     202008 
+   1684001     202008 
+   1684443     202008 
+   1684001     202008 
+   1694803     202009 
+   1684000     202008 
+   1684436     202008 
+
+
+write size 32, read size 8, read offset by 2 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1853293     202009 
+   1842120     202009 
+   1824342     202008 
+   1824810     202008 
+   1824810     202008 
+   1744854     202009 
+   1684423     202008 
+   1683994     202008 
+   1684429     202008 
+   1695850     202009 
+
+
+write size 64, read size 16, read offset by 0 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    516503     202009 
+    500019     202008 
+    500019     202008 
+    515950     202009 
+    500012     202008 
+    500013     202008 
+    500019     202008 
+    500467     202008 
+    500019     202008 
+    500019     202008 
+
+
+write size 64, read size 16, read offset by 1 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1872858     202010 
+   1824342     202008 
+   1824816     202008 
+   1824336     202008 
+   1837622     202009 
+   1824810     202008 
+   1824336     202008 
+   1824816     202008 
+   1770633     202009 
+   1748526     202009 
+
+
+write size 64, read size 16, read offset by 2 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1701999     202009 
+   1726875     202009 
+   1683936     202008 
+   1684443     202008 
+   1684001     202008 
+   1698171     202009 
+   1684007     202008 
+   1684436     202008 
+   1684001     202008 
+   1694973     202009 
+
+
+write size 64, read size 16, read offset by 3 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1854164     202009 
+   1843276     202009 
+   1824271     202008 
+   1824810     202008 
+   1824342     202008 
+   1808631     202009 
+   1683994     202008 
+   1684423     202008 
+   1683987     202008 
+   1696435     202009 
+
+
+write size 64, read size 16, read offset by 4 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1872929     202010 
+   1824745     202008 
+   1824336     202008 
+   1824810     202008 
+   1837940     202009 
+   1824797     202008 
+   1824342     202008 
+   1824810     202008 
+   1811017     202009 
+   1684429     202008 
+
+
+write size 128, read size 32, read offset by 0 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    245291     202009 
+    216697     202008 
+    259903     202010 
+    200005     202008 
+    199998     202008 
+    199998     202008 
+    200460     202008 
+    199999     202008 
+    199999     202008 
+    199998     202008 
+
+
+write size 128, read size 32, read offset by 2 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    234871     202009 
+    216684     202008 
+    216678     202008 
+    216690     202008 
+    216678     202008 
+    216678     202008 
+    216677     202008 
+    216677     202008 
+    216678     202008 
+    216678     202008 
+
+
+write size 128, read size 32, read offset by 4 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    249119     202009 
+    216684     202008 
+    216678     202008 
+    216684     202008 
+    216677     202008 
+    216684     202008 
+    216684     202008 
+    216678     202008 
+    217159     202008 
+    216678     202008 
+
+
+write size 128, read size 32, read offset by 6 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3442049     202011 
+   3342475     202008 
+   3308149     202010 
+   3085465     202008 
+   3098452     202009 
+   3084997     202008 
+   3085452     202008 
+   3096860     202009 
+   3085466     202008 
+   3110777     202010 
+
+
+write size 128, read size 32, read offset by 8 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    245420     202009 
+    216690     202008 
+    216678     202008 
+    216684     202008 
+    216677     202008 
+    216684     202008 
+    216678     202008 
+    217171     202008 
+    216678     202008 
+    265817     202010 
+
+
+
+Measure store forwarding penalties with read split in two halves
+
+
+
+write size 16, two reads of size 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2139859     302010 
+   2100345     302008 
+   2100429     302008 
+   2099994     302008 
+   2112981     302009 
+   2099981     302008 
+   2100416     302008 
+   2127281     302009 
+   2100000     302008 
+   2100449     302008 
+
+
+write size 32, two reads of size 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2529416     302009 
+   2500017     302008 
+   2517885     302009 
+   2500452     302008 
+   2500465     302008 
+   2531990     302009 
+   2500472     302008 
+   2513316     302009 
+   2500011     302008 
+   2500465     302008 
+
+
+write size 64, two reads of size 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2188998     302010 
+   1961999     302008 
+   1962441     302008 
+   1962006     302008 
+   1975324     302009 
+   1962441     302008 
+   1962005     302008 
+   1973770     302009 
+   1962005     302008 
+   1962447     302008 
+
+
+write size 128, two reads of size 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1978152     302009 
+   2001591     302010 
+   1962019     302008 
+   1962428     302008 
+   1975344     302009 
+   1962019     302008 
+   1962454     302008 
+   1962019     302008 
+   1973225     302009 
+   1962019     302008 
+
+
+
+Measure store forwarding penalties with read split in four quarters
+
+
+
+write size 32, four reads of size 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2221329     502009 
+   2200458     502008 
+   2219848     502009 
+   2200003     502008 
+   2200439     502008 
+   2211534     502009 
+   2200003     502008 
+   2200458     502008 
+   2200452     502008 
+   2228974     502009 
+
+
+write size 64, four reads of size 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2231840     502009 
+   2200477     502008 
+   2220179     502009 
+   2200036     502008 
+   2200478     502008 
+   2211781     502009 
+   2200035     502008 
+   2200490     502008 
+   2230390     502009 
+   2200036     502008 
+
+
+write size 128, four reads of size 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    593599     502009 
+    562802     502008 
+    562276     502008 
+    583485     502009 
+    562276     502008 
+    562276     502008 
+    562283     502008 
+    563114     502008 
+    562276     502008 
+    562283     502008 
+
+
+
+Measure store forwarding penalties with read split in eight eights
+
+
+
+write size 64, eight reads of size 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2759867     902010 
+   2708849     902008 
+   2708907     902008 
+   2721940     902009 
+   2708368     902008 
+   2670785     902009 
+   2500472     902008 
+   2500492     902008 
+   2576334     902010 
+   2500472     902008 
+
+
+write size 128, eight reads of size 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2647067    1002010 
+   2600026    1002008 
+   2612565    1002009 
+   2600462    1002008 
+   2600468    1002008 
+   2638636    1002010 
+   2600481    1002008 
+   2600468    1002008 
+   2613260    1002009 
+   2600019    1002008 
+
+
+
+Measure store forwarding penalties with two half writes followed by one full read
+
+
+Two writes of size 32, one read of size 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2442616     302009 
+   2453886     302009 
+   2430226     302008 
+   2428010     302008 
+   2439443     302009 
+   2430746     302008 
+   2442017     302008 
+   2457591     302009 
+   2436609     302008 
+   2444052     302008 
+
+
+Two writes of size 64, one read of size 128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2603380     302011 
+   2406456     302008 
+   2406001     302008 
+   2416407     302009 
+   2406450     302008 
+   2406008     302008 
+   2419736     302009 
+   2414458     302008 
+   2414003     302008 
+   2430012     302010 
+
+
+
+Measure store forwarding penalties with different addressing modes
+
+
+
+Addressing mode indirect, size 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    519305     202009 
+    500019     202008 
+    500467     202008 
+    500012     202008 
+    500019     202008 
+    500013     202008 
+    500019     202008 
+    500019     202008 
+    500013     202008 
+    500468     202008 
+
+
+Addressing mode indirect, size 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    528677     202009 
+    500019     202008 
+    500019     202008 
+    500012     202008 
+    500013     202008 
+    500468     202008 
+    519721     202009 
+    500019     202008 
+    500012     202008 
+    500013     202008 
+
+
+Addressing mode indirect, size 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    428662     202009 
+    400043     202008 
+    400023     202008 
+    417995     202009 
+    400016     202008 
+    400465     202008 
+    400017     202008 
+    400023     202008 
+    400016     202008 
+    400016     202008 
+
+
+Addressing mode indirect, size 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    416143     202009 
+    400017     202008 
+    400017     202008 
+    400016     202008 
+    400465     202008 
+    415591     202009 
+    400017     202008 
+    400016     202008 
+    400016     202008 
+    400016     202008 
+
+
+Addressing mode indirect, size 128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    431223     202009 
+    400043     202008 
+    400023     202008 
+    400016     202008 
+    400016     202008 
+    400478     202008 
+    400023     202008 
+    400016     202008 
+    400016     202008 
+    419009     202009 
+
+
+Addressing mode abs32, size 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500442     202005 
+    500020     202005 
+    500468     202005 
+    500013     202005 
+    500013     202005 
+
+
+Addressing mode abs32, size 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    542171     202005 
+    541677     202005 
+    541677     202005 
+    542171     202005 
+    541684     202005 
+
+
+Addressing mode abs32, size 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    433686     202005 
+    433362     202005 
+    433342     202005 
+    433348     202005 
+    445581     202006 
+
+
+Addressing mode abs32, size 65
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    476742     202007 
+    407738     202005 
+    399997     202005 
+    400445     202005 
+    399997     202005 
+
+
+Addressing mode abs32, size 128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    434291     202005 
+    433349     202005 
+    433349     202005 
+    433348     202005 
+    446049     202006 
+
+
+Addressing mode abs64, size 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    542893     202008 
+    554645     202009 
+    541684     202008 
+    541691     202008 
+    541684     202008 
+    541684     202008 
+    542178     202008 
+    541691     202008 
+    541684     202008 
+    541684     202008 
+
+
+Addressing mode abs64, size 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    558604     202009 
+    541690     202008 
+    541684     202008 
+    541691     202008 
+    541684     202008 
+    541690     202008 
+    542172     202008 
+    541684     202008 
+    541684     202008 
+    541684     202008 
+
+
+Addressing mode abs64, size 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    434987     202008 
+    433355     202008 
+    433842     202008 
+    444964     202009 
+    433355     202008 
+    433355     202008 
+    433355     202008 
+    433348     202008 
+    433355     202008 
+    433355     202008 
+
+
+Addressing mode abs64, size 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    413991     202009 
+    400049     202008 
+    400023     202008 
+    400023     202008 
+    400472     202008 
+    400023     202008 
+    400023     202008 
+    400023     202008 
+    400016     202008 
+    400023     202008 
+
+
+Addressing mode rip, size 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1800987     202009 
+   1790146     202008 
+   1789671     202008 
+   1790146     202008 
+   1801780     202009 
+   1790146     202008 
+   1789671     202008 
+   1790145     202008 
+   1757288     202009 
+   1652456     202008 
+
+
+Addressing mode rip, size 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1790035     202008 
+   1789678     202008 
+   1708661     202009 
+   1651988     202008 
+   1652424     202008 
+   1651995     202008 
+   1663922     202009 
+   1651994     202008 
+   1652430     202008 
+   1651988     202008 
+
+
+Addressing mode rip, size 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1943000     202009 
+   1932047     202008 
+   1931586     202008 
+   1932034     202008 
+   1837732     202009 
+   1782989     202008 
+   1783418     202008 
+   1794598     202009 
+   1783418     202008 
+   1782989     202008 
+
+
+Addressing mode rip, size 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1794715     202009 
+   1783444     202008 
+   1783002     202008 
+   1783418     202008 
+   1808814     202009 
+   1783002     202008 
+   1783444     202008 
+   1807306     202009 
+   1783431     202008 
+   1782996     202008 
+
+
+Addressing mode rip, size 128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1959691     202010 
+   1783184     202008 
+   1782924     202008 
+   1783334     202008 
+   1795593     202009 
+   1783340     202008 
+   1782924     202008 
+   1783346     202008 
+   1793753     202009 
+   1783347     202008 
+
+

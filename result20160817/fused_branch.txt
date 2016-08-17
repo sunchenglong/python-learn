@@ -1,0 +1,1448 @@
+Test instruction fusion
+
+
+
+CMP+JZ reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     16932      30315 
+     15483      30315 
+     15483      30315 
+     15483      30315 
+     15483      30315 
+     15483      30315 
+     15483      30315 
+     15483      30315 
+     15483      30315 
+     15483      30315 
+
+
+CMP+JZ reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60308      20315 
+     58819      20315 
+     58754      20315 
+     58559      20315 
+     58800      20315 
+     58565      20315 
+     58611      20315 
+     59196      20315 
+     58813      20315 
+     58585      20315 
+
+
+CMP+JZ reg,imm, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     17192      30315 
+     16361      30315 
+     16309      30315 
+     16308      30315 
+     16302      30315 
+     16309      30315 
+     16308      30315 
+     16308      30315 
+     16309      30315 
+     16302      30315 
+
+
+CMP+JZ reg,imm, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     53970      20315 
+     52468      20315 
+     52221      20315 
+     52319      20315 
+     52201      20315 
+     52117      20315 
+     52228      20315 
+     65975      20316 
+     52442      20315 
+     52202      20315 
+
+
+CMP+JZ reg,[rip], taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13006      30315 
+     11466      30315 
+     11427      30315 
+     11427      30315 
+     11433      30315 
+     11434      30315 
+     11433      30315 
+     11434      30315 
+     11427      30315 
+     11427      30315 
+
+
+CMP+JZ reg,[rip], taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     39624      20315 
+     37674      20315 
+     37615      20315 
+     37648      20315 
+     37655      20315 
+     37648      20315 
+     37654      20315 
+     37648      20315 
+     37655      20315 
+     37648      20315 
+
+
+CMP+JZ reg,[rsi], taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     15561      30315 
+     13838      30315 
+     13780      30315 
+     13787      30315 
+     13780      30315 
+     13786      30315 
+     13786      30315 
+     13787      30315 
+     13787      30315 
+     13786      30315 
+
+
+CMP+JZ reg,[rsi], taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     61107      20315 
+     58754      20315 
+     58910      20315 
+     58708      20315 
+     58774      20315 
+     58676      20315 
+     58552      20315 
+     58637      20315 
+     58611      20315 
+     58540      20315 
+
+
+CMP+JZ reg,[rsi+off], taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13111      30315 
+     11447      30315 
+     11427      30315 
+     11427      30315 
+     11427      30315 
+     11427      30315 
+     11427      30315 
+     11433      30315 
+     11434      30315 
+     11433      30315 
+
+
+CMP+JZ reg,[rsi+off], taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     36615      20315 
+     34723      20315 
+     34723      20315 
+     34723      20315 
+     34723      20315 
+     34723      20315 
+     34717      20315 
+     34723      20315 
+     34723      20315 
+     34723      20315 
+
+
+CMP+JZ [rsi],imm, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20631      30315 
+     19260      30315 
+     19260      30315 
+     19266      30315 
+     19266      30315 
+     19266      30315 
+     19267      30315 
+     19267      30315 
+     19267      30315 
+     19260      30315 
+
+
+CMP+JZ [rsi],imm, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54444      20315 
+     52397      20315 
+     52254      20315 
+     52214      20315 
+     52527      20315 
+     52273      20315 
+     52338      20315 
+     52169      20315 
+     52136      20315 
+     51915      20315 
+
+
+CMP+JZ [rsi+off],imm, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20755      30315 
+     19285      30315 
+     19292      30315 
+     19266      30315 
+     19266      30315 
+     19266      30315 
+     19266      30315 
+     19266      30315 
+     19266      30315 
+     19266      30315 
+
+
+CMP+JZ [rsi+off],imm, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     37148      20315 
+     35354      20315 
+     35321      20315 
+     35321      20315 
+     35321      20315 
+     35321      20315 
+     35321      20315 
+     35321      20315 
+     35321      20315 
+     35314      20315 
+
+
+TEST+JZ reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18356      30315 
+     16777      30315 
+     16776      30315 
+     16777      30315 
+     16777      30315 
+     16776      30315 
+     16777      30315 
+     16777      30315 
+     16776      30315 
+     16777      30315 
+
+
+TEST+JZ reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55789      20315 
+     54314      20315 
+     54008      20315 
+     54281      20315 
+     54405      20315 
+     54184      20315 
+     53943      20315 
+     54080      20315 
+     54262      20315 
+     53995      20315 
+
+
+TEST+JZ reg,imm, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20507      30315 
+     18986      30315 
+     18967      30315 
+     18967      30315 
+     18974      30315 
+     18974      30315 
+     18974      30315 
+     18967      30315 
+     18967      30315 
+     18967      30315 
+
+
+TEST+JZ reg,imm, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     37043      20315 
+     35373      20315 
+     35321      20315 
+     35321      20315 
+     35321      20315 
+     35328      20315 
+     35321      20315 
+     35321      20315 
+     35321      20315 
+     35321      20315 
+
+
+TEST+JZ reg,[rip], taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20637      30315 
+     19162      30315 
+     19156      30315 
+     19162      30315 
+     19162      30315 
+     19156      30315 
+     19162      30315 
+     19162      30315 
+     19156      30315 
+     19162      30315 
+
+
+TEST+JZ reg,[rip], taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     39721      20315 
+     37615      20315 
+     37616      20315 
+     37615      20315 
+     37622      20315 
+     37622      20315 
+     37615      20315 
+     37616      20315 
+     37615      20315 
+     37616      20315 
+
+
+TEST+JZ reg,[rsi], taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18961      30315 
+     17680      30315 
+     17687      30315 
+     17686      30315 
+     17680      30315 
+     17680      30315 
+     17686      30315 
+     17687      30315 
+     17680      30315 
+     17680      30315 
+
+
+TEST+JZ reg,[rsi], taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     56472      20315 
+     54151      20315 
+     54106      20315 
+     53957      20315 
+     54015      20315 
+     53957      20315 
+     54015      20315 
+     53937      20315 
+     54054      20315 
+     53827      20315 
+
+
+TEST+JZ reg,[rsi+off], taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20599      30315 
+     19169      30315 
+     19182      30315 
+     19149      30315 
+     19156      30315 
+     19156      30315 
+     19149      30315 
+     19156      30315 
+     19156      30315 
+     19149      30315 
+
+
+TEST+JZ reg,[rsi+off], taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     39533      20315 
+     37674      20315 
+     37615      20315 
+     37616      20315 
+     37615      20315 
+     37616      20315 
+     37622      20315 
+     37622      20315 
+     37616      20315 
+     37615      20315 
+
+
+TEST+JZ [rsi],imm, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18675      30315 
+     17699      30315 
+     17713      30315 
+     17680      30315 
+     17680      30315 
+     17680      30315 
+     17686      30315 
+     17687      30315 
+     17680      30315 
+     17680      30315 
+
+
+TEST+JZ [rsi],imm, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     36420      20315 
+     34723      20315 
+     34723      20315 
+     34716      20315 
+     34723      20315 
+     34723      20315 
+     34723      20315 
+     34723      20315 
+     34723      20315 
+     34723      20315 
+
+
+TEST+JZ [rsi+off],imm, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19273      30315 
+     17680      30315 
+     17687      30315 
+     17686      30315 
+     17680      30315 
+     17680      30315 
+     17686      30315 
+     17687      30315 
+     17680      30315 
+     17680      30315 
+
+
+TEST+JZ [rsi+off],imm, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     42861      20315 
+     40365      20315 
+     40326      20315 
+     40326      20315 
+     40326      20315 
+     40326      20315 
+     40326      20315 
+     40326      20315 
+     40326      20315 
+     40326      20315 
+
+
+CMP+JA reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18089      30315 
+     16777      30315 
+     16776      30315 
+     16777      30315 
+     16777      30315 
+     16776      30315 
+     16777      30315 
+     16777      30315 
+     16776      30315 
+     16777      30315 
+
+
+CMP+JA reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55861      20315 
+     54197      20315 
+     54034      20315 
+     54034      20315 
+     54171      20315 
+     54106      20315 
+     54009      20315 
+     53983      20315 
+     54145      20315 
+     54093      20315 
+
+
+CMP+JA reg,imm, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18779      30315 
+     17687      30315 
+     17661      30315 
+     17661      30315 
+     17661      30315 
+     17661      30315 
+     17668      30315 
+     17661      30315 
+     17661      30315 
+     17661      30315 
+
+
+CMP+JA reg,imm, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50076      20315 
+     48308      20315 
+     48295      20315 
+     47853      20315 
+     48379      20315 
+     48321      20315 
+     48197      20315 
+     48262      20315 
+     48172      20315 
+     48334      20315 
+
+
+CMP+JA reg,[rip], taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12980      30315 
+     11427      30315 
+     11427      30315 
+     11427      30315 
+     11427      30315 
+     11433      30315 
+     11434      30315 
+     11433      30315 
+     11434      30315 
+     11427      30315 
+
+
+CMP+JA reg,[rip], taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     39533      20315 
+     37622      20315 
+     37615      20315 
+     37616      20315 
+     37615      20315 
+     37616      20315 
+     37622      20315 
+     37622      20315 
+     37616      20315 
+     37615      20315 
+
+
+CMP+JA reg,[rsi], taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     15463      30315 
+     13799      30315 
+     13786      30315 
+     13780      30315 
+     13787      30315 
+     13780      30315 
+     13786      30315 
+     13786      30315 
+     13787      30315 
+     13787      30315 
+
+
+CMP+JA reg,[rsi], taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60659      20315 
+     58891      20315 
+     58910      20315 
+     58598      20315 
+     58578      20315 
+     58793      20315 
+     99749      20316 
+     58722      20315 
+     58507      20315 
+     54522      20315 
+
+
+CMP+JA reg,[rsi+off], taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     14060      30315 
+     12389      30315 
+     12389      30315 
+     12389      30315 
+     12389      30315 
+     12389      30315 
+     12389      30315 
+     12389      30315 
+     12389      30315 
+     12389      30315 
+
+
+CMP+JA reg,[rsi+off], taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     39449      20315 
+     37674      20315 
+     37615      20315 
+     37616      20315 
+     37615      20315 
+     37616      20315 
+     37622      20315 
+     37622      20315 
+     37616      20315 
+     37615      20315 
+
+
+CMP+JA [rsi],imm, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19032      30315 
+     17797      30315 
+     17777      30315 
+     17784      30315 
+     17784      30315 
+     17778      30315 
+     17784      30315 
+     17784      30315 
+     17784      30315 
+     17777      30315 
+
+
+CMP+JA [rsi],imm, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50349      20315 
+     48334      20315 
+     48250      20315 
+     48204      20315 
+     48301      20315 
+     48444      20315 
+     48113      20315 
+     48184      20315 
+     48347      20315 
+     48041      20315 
+
+
+CMP+JA [rsi+off],imm, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19727      30315 
+     17810      30315 
+     17784      30315 
+     17777      30315 
+     17784      30315 
+     17784      30315 
+     17778      30315 
+     17784      30315 
+     17784      30315 
+     17777      30315 
+
+
+CMP+JA [rsi+off],imm, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     37713      20315 
+     35373      20315 
+     35321      20315 
+     35321      20315 
+     35321      20315 
+     35321      20315 
+     35321      20315 
+     35314      20315 
+     35321      20315 
+     35315      20315 
+
+
+CMP+JA reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18284      30315 
+     16809      30315 
+     16777      30315 
+     16777      30315 
+     16776      30315 
+     16777      30315 
+     16777      30315 
+     16776      30315 
+     16777      30315 
+     16777      30315 
+
+
+CMP+JA reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60236      20315 
+     58682      20315 
+     58566      20315 
+     58683      20315 
+     58481      20315 
+     99165      20316 
+     58539      20315 
+     58383      20315 
+     54165      20315 
+     53970      20315 
+
+
+CMP+JG reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18337      30315 
+     16835      30315 
+     16776      30315 
+     16776      30315 
+     16777      30315 
+     16776      30315 
+     16776      30315 
+     16777      30315 
+     16776      30315 
+     16776      30315 
+
+
+CMP+JG reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60314      20315 
+     58663      20315 
+     58761      20315 
+     58689      20315 
+     58565      20315 
+     58572      20315 
+     58780      20315 
+     58696      20315 
+     58507      20315 
+     58462      20315 
+
+
+TEST+JS reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18396      30315 
+     16829      30315 
+     16770      30315 
+     16771      30315 
+     16770      30315 
+     16770      30315 
+     16771      30315 
+     16770      30315 
+     16770      30315 
+     16771      30315 
+
+
+TEST+JS reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60340      20315 
+     58773      20315 
+     58656      20315 
+     58688      20315 
+     58663      20315 
+     58747      20315 
+     58617      20315 
+     58825      20315 
+     58552      20315 
+     58676      20315 
+
+
+ADD+JZ reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18057      30315 
+     16601      30315 
+     16536      30315 
+     16536      30315 
+     16536      30315 
+     16543      30315 
+     16543      30315 
+     16536      30315 
+     16536      30315 
+     16536      30315 
+
+
+ADD+JZ reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     56121      20315 
+     54535      20315 
+     54171      20315 
+     54184      20315 
+     54093      20315 
+     53931      20315 
+     54125      20315 
+     54164      20315 
+     54132      20315 
+     54106      20315 
+
+
+AND+JZ reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18058      30315 
+     16575      30315 
+     16530      30315 
+     16530      30315 
+     16537      30315 
+     16537      30315 
+     16530      30315 
+     16530      30315 
+     16530      30315 
+     16530      30315 
+
+
+AND+JZ reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60243      20315 
+     58728      20315 
+     58500      20315 
+     58793      20315 
+     58735      20315 
+     58591      20315 
+     58598      20315 
+     92619      20316 
+     58780      20315 
+     56694      20315 
+
+
+DEC+JZ reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     17959      30315 
+     16575      30315 
+     16542      30315 
+     16542      30315 
+     16536      30315 
+     16536      30315 
+     16536      30315 
+     16536      30315 
+     16543      30315 
+     16543      30315 
+
+
+DEC+JZ reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55712      20315 
+     54184      20315 
+     54171      20315 
+     54177      20315 
+     54126      20315 
+     53989      20315 
+     54216      20315 
+     54184      20315 
+     54054      20315 
+     54314      20315 
+
+
+DEC+JO reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     16464      30315 
+     15301      30315 
+     15262      30315 
+     15262      30315 
+     15262      30315 
+     15262      30315 
+     15268      30315 
+     15269      30315 
+     15268      30315 
+     15269      30315 
+
+
+DEC+JO reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60314      20315 
+     58891      20315 
+     58676      20315 
+     58637      20315 
+     58449      20315 
+     58539      20315 
+     58754      20315 
+     58514      20315 
+     58572      20315 
+     58604      20315 
+
+
+CMP+JS/JNS reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18135      30315 
+     16803      30315 
+     16770      30315 
+     16770      30315 
+     16771      30315 
+     16770      30315 
+     16770      30315 
+     16771      30315 
+     16770      30315 
+     16770      30315 
+
+
+CMP+JS/JNS reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55939      20315 
+     54204      20315 
+     54249      20315 
+     54210      20315 
+     54314      20315 
+     54054      20315 
+     54268      20315 
+     54197      20315 
+     54093      20315 
+     53995      20315 
+
+
+SUB+JG/JNG reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     17309      30315 
+     15340      30315 
+     15262      30315 
+     15262      30315 
+     15262      30315 
+     15262      30315 
+     15262      30315 
+     15268      30315 
+     15269      30315 
+     15268      30315 
+
+
+SUB+JG/JNG reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55796      20315 
+     54314      20315 
+     54061      20315 
+     54164      20315 
+     54041      20315 
+     54080      20315 
+     54288      20315 
+     54093      20315 
+     54125      20315 
+     54171      20315 
+
+
+SUB+JO/JNO reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     17946      30315 
+     16620      30315 
+     16536      30315 
+     16536      30315 
+     16543      30315 
+     16543      30315 
+     16536      30315 
+     16536      30315 
+     16536      30315 
+     16536      30315 
+
+
+SUB+JO/JNO reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60229      20315 
+     58877      20315 
+     58832      20315 
+     58721      20315 
+     58662      20315 
+     58481      20315 
+     58584      20315 
+     58832      20315 
+     58779      20315 
+     58552      20315 
+
+
+ADC+JC/JNC reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60424      20315 
+     58644      20315 
+     70584      20316 
+     58546      20315 
+     58527      20315 
+     58936      20315 
+     58682      20315 
+     58527      20315 
+     58559      20315 
+     58721      20315 
+
+
+ADC+JC/JNC reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20079      30315 
+     18506      30315 
+     18435      30315 
+     18428      30315 
+     18434      30315 
+     18428      30315 
+     18435      30315 
+     18428      30315 
+     18434      30315 
+     18428      30315 
+
+
+OR+JZ/JNZ reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     17914      30315 
+     16601      30315 
+     16536      30315 
+     16536      30315 
+     16536      30315 
+     16536      30315 
+     16543      30315 
+     16543      30315 
+     16536      30315 
+     16536      30315 
+
+
+OR+JZ/JNZ reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60482      20315 
+     58857      20315 
+     58792      20315 
+     58624      20315 
+     58604      20315 
+     58649      20315 
+     58721      20315 
+     58611      20315 
+     58533      20315 
+     58409      20315 
+
+
+NOT+JZ/JNZ reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60236      20315 
+     58884      20315 
+     58604      20315 
+     58572      20315 
+     58722      20315 
+     58624      20315 
+     58657      20315 
+     58630      20315 
+     58605      20315 
+     58676      20315 
+
+
+NOT+JZ/JNZ reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20040      30315 
+     18785      30315 
+     18720      30315 
+     18720      30315 
+     18720      30315 
+     18720      30315 
+     18720      30315 
+     18720      30315 
+     18720      30315 
+     18713      30315 
+
+
+SHR+JC/JNC reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60398      20315 
+     58396      20315 
+     58415      20315 
+     58520      20315 
+     58578      20315 
+     58760      20315 
+     58611      20315 
+     58474      20315 
+     58669      20315 
+     58364      20315 
+
+
+SHR+JC/JNC reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19714      30315 
+     18232      30315 
+     18181      30315 
+     18187      30315 
+     18187      30315 
+     18180      30315 
+     18187      30315 
+     18187      30315 
+     18181      30315 
+     18187      30315 
+
+
+JECXZ reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23861      30315 
+     22386      30315 
+     22386      30315 
+     22386      30315 
+     22392      30315 
+     22386      30315 
+     22386      30315 
+     22386      30315 
+     22386      30315 
+     22386      30315 
+
+
+JECXZ reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54971      30315 
+     53216      30315 
+     53209      30315 
+     53216      30315 
+     53210      30315 
+     53216      30315 
+     53209      30315 
+     53216      30315 
+     53216      30315 
+     53216      30315 
+
+
+Boundary_before_jz reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     16380      40515 
+     15366      40515 
+     15327      40515 
+     15327      40515 
+     15327      40515 
+     15334      40515 
+     15327      40515 
+     15327      40515 
+     15327      40515 
+     15327      40515 
+
+
+Boundary_before_jz reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     39625      20515 
+     38370      20515 
+     38370      20515 
+     38370      20515 
+     38370      20515 
+     38370      20515 
+     38370      20515 
+     38370      20515 
+     38370      20515 
+     38370      20515 
+
+
+Boundary_in_jz reg,reg, taken: no
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     17069      40515 
+     15327      40515 
+     15334      40515 
+     15327      40515 
+     15327      40515 
+     15334      40515 
+     15327      40515 
+     15327      40515 
+     15327      40515 
+     15327      40515 
+
+
+Boundary_in_jz reg,reg, taken: yes
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     39839      20515 
+     38370      20515 
+     38370      20515 
+     38370      20515 
+     38370      20515 
+     38370      20515 
+     38370      20515 
+     38370      20515 
+     38370      20515 
+     38370      20515 
+
+

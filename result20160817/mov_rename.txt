@@ -1,0 +1,1194 @@
+Test if move instructions can be eliminated by renaming
+
+
+
+Test with different registers:
+
+
+register r8, ADD interspearced by 0 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100016     102006 
+    100016     102006 
+    100048     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100009     102006 
+    100016     102006 
+    100016     102006 
+    100016     102006 
+
+register r8, ADD interspearced by 1 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200115     202006 
+    200038     202006 
+    200018     202006 
+    200011     202006 
+    200018     202006 
+    200012     202006 
+    200018     202006 
+    212101     202007 
+    200018     202006 
+    200012     202006 
+
+register r8, ADD interspearced by 2 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    300079     302006 
+    300014     302006 
+    300014     302006 
+    300014     302006 
+    300021     302006 
+    300014     302006 
+    300475     302006 
+    300014     302006 
+    300014     302006 
+    300021     302006 
+
+register r8, ADD interspearced by 3 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    433570     402006 
+    433362     402006 
+    433361     402006 
+    433362     402006 
+    450619     402007 
+    400459     402006 
+    400010     402006 
+    400010     402006 
+    400010     402006 
+    400010     402006 
+
+register r8, ADD interspearced by 4 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    542283     502006 
+    541698     502006 
+    541678     502006 
+    541678     502006 
+    541678     502006 
+    541678     502006 
+    555614     502007 
+    541678     502006 
+    541678     502006 
+    541678     502006 
+
+register r16, ADD interspearced by 0 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100133     102006 
+    100035     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+
+register r16, ADD interspearced by 1 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200753     202006 
+    200038     202006 
+    200018     202006 
+    200011     202006 
+    200012     202006 
+    200018     202006 
+    200018     202006 
+    214884     202007 
+    200018     202006 
+    200018     202006 
+
+register r16, ADD interspearced by 2 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    301535     302006 
+    300014     302006 
+    300014     302006 
+    300014     302006 
+    300014     302006 
+    300014     302006 
+    300014     302006 
+    300014     302006 
+    300021     302006 
+    300014     302006 
+
+register r16, ADD interspearced by 3 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    434057     402006 
+    433381     402006 
+    454876     402007 
+    400452     402006 
+    400004     402006 
+    400004     402006 
+    399997     402006 
+    399997     402006 
+    400003     402006 
+    400003     402006 
+
+register r16, ADD interspearced by 4 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    501059     502006 
+    510205     502007 
+    500019     502006 
+    500467     502006 
+    500019     502006 
+    500019     502006 
+    500019     502006 
+    500019     502006 
+    500019     502006 
+    500019     502006 
+
+register r32, ADD interspearced by 0 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100107     102006 
+    100042     102006 
+    100016     102006 
+    100016     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+
+register r32, ADD interspearced by 1 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    163163     202006 
+    179634     202007 
+    163059     202006 
+    163059     202006 
+    163059     202006 
+    163059     202006 
+    163059     202006 
+    163059     202006 
+    163059     202006 
+    163059     202006 
+
+register r32, ADD interspearced by 2 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    323934     302006 
+    323927     302006 
+    323915     302006 
+    323914     302006 
+    323908     302006 
+    323915     302006 
+    336011     302007 
+    323914     302006 
+    323915     302006 
+    323908     302006 
+
+register r32, ADD interspearced by 3 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    303043     402006 
+    302042     402006 
+    302036     402006 
+    302029     402006 
+    302035     402006 
+    302029     402006 
+    302484     402006 
+    302029     402006 
+    302036     402006 
+    302029     402006 
+
+register r32, ADD interspearced by 4 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    488845     502006 
+    488085     502006 
+    488065     502006 
+    522223     502007 
+    453388     502006 
+    450502     502006 
+    450502     502006 
+    450509     502006 
+    450502     502006 
+    450502     502006 
+
+register r64, ADD interspearced by 0 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    108485     102006 
+    108374     102006 
+    108355     102006 
+    108349     102006 
+    108349     102006 
+    108355     102006 
+    108348     102006 
+    108348     102006 
+    108355     102006 
+    108349     102006 
+
+register r64, ADD interspearced by 1 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    163390     202006 
+    163059     202006 
+    163052     202006 
+    163053     202006 
+    163052     202006 
+    163053     202006 
+    163052     202006 
+    163527     202006 
+    163053     202006 
+    163052     202006 
+
+register r64, ADD interspearced by 2 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    299397     302006 
+    299013     302006 
+    298993     302006 
+    298993     302006 
+    298993     302006 
+    298994     302006 
+    298994     302006 
+    298994     302006 
+    299422     302006 
+    298994     302006 
+
+register r64, ADD interspearced by 3 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    340685     402007 
+    327191     402006 
+    327191     402006 
+    327191     402006 
+    327191     402006 
+    327184     402006 
+    327184     402006 
+    327191     402006 
+    327191     402006 
+    327685     402006 
+
+register r64, ADD interspearced by 4 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    451022     502006 
+    450515     502006 
+    450515     502006 
+    450508     502006 
+    450509     502006 
+    450957     502006 
+    450515     502006 
+    464380     502007 
+    450509     502006 
+    450515     502006 
+
+register mmx, ADD interspearced by 0 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100126     102006 
+    100016     102006 
+    100016     102006 
+    100016     102006 
+    100016     102006 
+    100016     102006 
+    100016     102006 
+    100016     102006 
+    100016     102006 
+    100016     102006 
+
+register mmx, ADD interspearced by 1 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200278     202006 
+    200044     202006 
+    200011     202006 
+    200012     202006 
+    200018     202006 
+    200018     202006 
+    200012     202006 
+    200011     202006 
+    200466     202006 
+    200018     202006 
+
+register mmx, ADD interspearced by 2 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    300463     302006 
+    300040     302006 
+    300014     302006 
+    300014     302006 
+    300014     302006 
+    300463     302006 
+    300014     302006 
+    300014     302006 
+    300014     302006 
+    300014     302006 
+
+register mmx, ADD interspearced by 3 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400576     402006 
+    400016     402006 
+    400016     402006 
+    400016     402006 
+    400016     402006 
+    400010     402006 
+    411697     402007 
+    400465     402006 
+    400017     402006 
+    400010     402006 
+
+register mmx, ADD interspearced by 4 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    542412     502006 
+    541684     502006 
+    542172     502006 
+    576134     502008 
+    507208     502006 
+    499999     502006 
+    499999     502006 
+    500000     502006 
+    500000     502006 
+    500455     502006 
+
+register xmm, ADD interspearced by 0 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    108550     102006 
+    108375     102006 
+    108349     102006 
+    108342     102006 
+    108349     102006 
+    108349     102006 
+    108343     102006 
+    108349     102006 
+    108349     102006 
+    108342     102006 
+
+register xmm, ADD interspearced by 1 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200629     202006 
+    200018     202006 
+    200460     202006 
+    211192     202007 
+    200012     202006 
+    200018     202006 
+    200018     202006 
+    200012     202006 
+    200018     202006 
+    200011     202006 
+
+register xmm, ADD interspearced by 2 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    325617     302006 
+    325020     302006 
+    325019     302006 
+    325020     302006 
+    325019     302006 
+    325507     302006 
+    325020     302006 
+    325019     302006 
+    325020     302006 
+    325019     302006 
+
+register xmm, ADD interspearced by 3 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    401628     402006 
+    400042     402006 
+    400016     402006 
+    400010     402006 
+    400465     402006 
+    400010     402006 
+    400016     402006 
+    400016     402006 
+    400016     402006 
+    400016     402006 
+
+register xmm, ADD interspearced by 4 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    542705     502006 
+    541697     502006 
+    542179     502006 
+    541678     502006 
+    541678     502006 
+    541678     502006 
+    584617     502008 
+    506877     502006 
+    500462     502006 
+    499994     502006 
+
+
+Test with same registers:
+
+
+register r8, ADD interspearced by 0 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    108420     102006 
+    108387     102006 
+    108355     102006 
+    108381     102006 
+    108381     102006 
+    108381     102006 
+    108381     102006 
+    108381     102006 
+    108381     102006 
+    108381     102006 
+
+register r8, ADD interspearced by 1 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    216755     202006 
+    216690     202006 
+    216684     202006 
+    216684     202006 
+    249906     202007 
+    203872     202006 
+    200005     202006 
+    199999     202006 
+    200005     202006 
+    200005     202006 
+
+register r8, ADD interspearced by 2 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    300170     302006 
+    300033     302006 
+    300014     302006 
+    300014     302006 
+    300021     302006 
+    300463     302006 
+    300014     302006 
+    300014     302006 
+    300014     302006 
+    300014     302006 
+
+register r8, ADD interspearced by 3 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    433765     402006 
+    433349     402006 
+    433349     402006 
+    433343     402006 
+    433349     402006 
+    433349     402006 
+    447623     402007 
+    433343     402006 
+    433349     402006 
+    433342     402006 
+
+register r8, ADD interspearced by 4 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500389     502006 
+    500038     502006 
+    500012     502006 
+    500013     502006 
+    512057     502007 
+    500012     502006 
+    500461     502006 
+    500012     502006 
+    500013     502006 
+    500019     502006 
+
+register r16, ADD interspearced by 0 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100113     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+
+register r16, ADD interspearced by 1 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200128     202006 
+    200037     202006 
+    200018     202006 
+    200012     202006 
+    200011     202006 
+    200018     202006 
+    200018     202006 
+    200011     202006 
+    200012     202006 
+    200018     202006 
+
+register r16, ADD interspearced by 2 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    325534     302006 
+    325040     302006 
+    325013     302006 
+    325495     302006 
+    325014     302006 
+    325013     302006 
+    325014     302006 
+    325013     302006 
+    325014     302006 
+    338261     302007 
+
+register r16, ADD interspearced by 3 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400575     402006 
+    400042     402006 
+    400016     402006 
+    400465     402006 
+    400017     402006 
+    400017     402006 
+    400010     402006 
+    400010     402006 
+    400016     402006 
+    400016     402006 
+
+register r16, ADD interspearced by 4 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    542315     502006 
+    554145     502007 
+    500442     502006 
+    500000     502006 
+    500000     502006 
+    500000     502006 
+    500000     502006 
+    500000     502006 
+    500000     502006 
+    500442     502006 
+
+register r32, ADD interspearced by 0 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100029     102006 
+    100048     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100009     102006 
+    100016     102006 
+    100016     102006 
+
+register r32, ADD interspearced by 1 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    163203     202006 
+    163560     202006 
+    163053     202006 
+    163053     202006 
+    163053     202006 
+    163053     202006 
+    163053     202006 
+    163053     202006 
+    163053     202006 
+    163053     202006 
+
+register r32, ADD interspearced by 2 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    299117     302006 
+    299006     302006 
+    298993     302006 
+    298994     302006 
+    298994     302006 
+    298993     302006 
+    298993     302006 
+    298994     302006 
+    298994     302006 
+    299436     302006 
+
+register r32, ADD interspearced by 3 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    327450     402006 
+    327203     402006 
+    327203     402006 
+    327204     402006 
+    327203     402006 
+    327204     402006 
+    327691     402006 
+    327203     402006 
+    341003     402007 
+    327217     402006 
+
+register r32, ADD interspearced by 4 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    488228     502006 
+    488072     502006 
+    488059     502006 
+    501715     502007 
+    488059     502006 
+    488533     502006 
+    488059     502006 
+    488065     502006 
+    488059     502006 
+    488059     502006 
+
+register r64, ADD interspearced by 0 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100132     102006 
+    100035     102006 
+    100016     102006 
+    100016     102006 
+    100016     102006 
+    100016     102006 
+    100016     102006 
+    100016     102006 
+    100016     102006 
+    100016     102006 
+
+register r64, ADD interspearced by 1 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    163365     202006 
+    163059     202006 
+    163052     202006 
+    163053     202006 
+    163052     202006 
+    163053     202006 
+    163052     202006 
+    163053     202006 
+    163052     202006 
+    163053     202006 
+
+register r64, ADD interspearced by 2 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    324259     302006 
+    323934     302006 
+    323914     302006 
+    323915     302006 
+    323914     302006 
+    323915     302006 
+    323914     302006 
+    323915     302006 
+    337954     302007 
+    323908     302006 
+
+register r64, ADD interspearced by 3 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    302601     402006 
+    302042     402006 
+    302023     402006 
+    302029     402006 
+    302022     402006 
+    302022     402006 
+    302022     402006 
+    302023     402006 
+    302484     402006 
+    302022     402006 
+
+register r64, ADD interspearced by 4 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    509367     502007 
+    450516     502006 
+    450490     502006 
+    450496     502006 
+    450496     502006 
+    450496     502006 
+    450938     502006 
+    450496     502006 
+    450489     502006 
+    450490     502006 
+
+register mmx, ADD interspearced by 0 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100100     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+
+register mmx, ADD interspearced by 1 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200129     202006 
+    200031     202006 
+    200011     202006 
+    200012     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200011     202006 
+    200012     202006 
+    200018     202006 
+
+register mmx, ADD interspearced by 2 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    300807     302006 
+    300040     302006 
+    300463     302006 
+    300014     302006 
+    300014     302006 
+    300020     302006 
+    300014     302006 
+    300014     302006 
+    300014     302006 
+    313813     302007 
+
+register mmx, ADD interspearced by 3 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    433882     402006 
+    433362     402006 
+    433349     402006 
+    433342     402006 
+    445101     402007 
+    433343     402006 
+    433830     402006 
+    433349     402006 
+    433349     402006 
+    433343     402006 
+
+register mmx, ADD interspearced by 4 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500877     502006 
+    500038     502006 
+    513474     502007 
+    500468     502006 
+    500013     502006 
+    500019     502006 
+    500012     502006 
+    500019     502006 
+    500013     502006 
+    500019     502006 
+
+register xmm, ADD interspearced by 0 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100126     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+    100015     102006 
+
+register xmm, ADD interspearced by 1 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    212563     202007 
+    200018     202006 
+    200011     202006 
+    200012     202006 
+    200018     202006 
+    200011     202006 
+    200018     202006 
+    200018     202006 
+    200011     202006 
+    200466     202006 
+
+register xmm, ADD interspearced by 2 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    325618     302006 
+    325014     302006 
+    325013     302006 
+    325014     302006 
+    325013     302006 
+    325014     302006 
+    325501     302006 
+    325013     302006 
+    325014     302006 
+    338377     302007 
+
+register xmm, ADD interspearced by 3 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400901     402006 
+    400042     402006 
+    400016     402006 
+    400010     402006 
+    400465     402006 
+    400010     402006 
+    400016     402006 
+    400016     402006 
+    400016     402006 
+    400016     402006 
+
+register xmm, ADD interspearced by 4 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    543017     502006 
+    541691     502006 
+    541684     502006 
+    542171     502006 
+    541684     502006 
+    541684     502006 
+    541684     502006 
+    541684     502006 
+    541684     502006 
+    542172     502006 
+
+
+Check all execution ports
+
+register r32, ADD interspearced by 1 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    150579     202006 
+    150533     202006 
+    150514     202006 
+    150514     202006 
+    150514     202006 
+    150962     202006 
+    150514     202006 
+    150514     202006 
+    150514     202006 
+    150521     202006 
+
+register xmm, ADD interspearced by 1 MOVes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200441     202006 
+    200031     202006 
+    200011     202006 
+    200012     202006 
+    200018     202006 
+    200011     202006 
+    200018     202006 
+    200018     202006 
+    200011     202006 
+    200018     202006 
+
+
+Move registers known to be zero
+
+register r8, known to be zero
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    108453     102005 
+    108395     102005 
+    108342     102005 
+    108349     102005 
+    108343     102005 
+    108349     102005 
+    108342     102005 
+    108349     102005 
+    108343     102005 
+    108349     102005 
+
+register r16, known to be zero
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100139     102005 
+    100041     102005 
+    100009     102005 
+    100015     102005 
+    100015     102005 
+    100009     102005 
+    100016     102005 
+    100016     102005 
+    100009     102005 
+    100015     102005 
+
+register r32, known to be zero
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    108342     102005 
+    108349     102005 
+    108388     102005 
+    122207     102006 
+    108343     102005 
+    108342     102005 
+    108342     102005 
+    108343     102005 
+    108343     102005 
+    108342     102005 
+
+register r64, known to be zero
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    108459     102005 
+    108349     102005 
+    108343     102005 
+    108342     102005 
+    108349     102005 
+    108343     102005 
+    108342     102005 
+    108349     102005 
+    108343     102005 
+    108342     102005 
+
+register mmx, known to be zero
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100457     102004 
+    100490     102004 
+    100016     102004 
+    100016     102004 
+    100016     102004 
+    100016     102004 
+    100016     102004 
+    100016     102004 
+    100016     102004 
+    100016     102004 
+
+register xmm, known to be zero
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    108531     102003 
+    108375     102003 
+    108349     102003 
+    108342     102003 
+    119926     102004 
+    108349     102003 
+    108349     102003 
+    108342     102003 
+    108349     102003 
+    108349     102003 
+
+
+Move with zero extension
+
+imul + movzx
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    300931     202006 
+    300014     202006 
+    300014     202006 
+    300014     202006 
+    311402     202007 
+    300014     202006 
+    300021     202006 
+    300014     202006 
+    300014     202006 
+    300014     202006 
+
+

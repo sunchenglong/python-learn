@@ -1,0 +1,643 @@
+Test loop buffer size
+
+
+Number of NOPs = 2, noptype = 2, nopsize = 12, total size = 29
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23016       4006 
+     23030       4006 
+     23029       4006 
+     22997       4006 
+     22997       4006 
+     22997       4006 
+     22997       4006 
+     22997       4006 
+     23010       4006 
+     23004       4006 
+
+
+Number of NOPs = 5, noptype = 2, nopsize = 12, total size = 65
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     27007       7006 
+     27495       7006 
+     26995       7006 
+     26994       7006 
+     27001       7006 
+     27001       7006 
+     27001       7006 
+     27001       7006 
+     27001       7006 
+     27001       7006 
+
+
+Number of NOPs = 10, noptype = 2, nopsize = 12, total size = 125
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30017      12006 
+     30004      12006 
+     30017      12006 
+     30017      12006 
+     30017      12006 
+     30017      12006 
+     29984      12006 
+     30004      12006 
+     29985      12006 
+     30004      12006 
+
+
+Number of NOPs = 20, noptype = 2, nopsize = 12, total size = 245
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18174      22006 
+     18057      22006 
+     18018      22006 
+     18024      22006 
+     18018      22006 
+     18018      22006 
+     18024      22006 
+     18018      22006 
+     18018      22006 
+     18018      22006 
+
+
+Number of NOPs = 25, noptype = 2, nopsize = 12, total size = 305
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     45663      27006 
+     45494      27006 
+     45494      27006 
+     45494      27006 
+     45494      27006 
+     45494      27006 
+     45500      27006 
+     45494      27006 
+     45501      27006 
+     45500      27006 
+
+
+Number of NOPs = 30, noptype = 2, nopsize = 12, total size = 365
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     46157      32006 
+     46143      32006 
+     46000      32006 
+     45994      32006 
+     46001      32006 
+     46001      32006 
+     46001      32006 
+     46001      32006 
+     46001      32006 
+     46001      32006 
+
+
+Number of NOPs = 31, noptype = 2, nopsize = 12, total size = 377
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     28451      33006 
+     28243      33006 
+     28185      33006 
+     28185      33006 
+     28184      33006 
+     28184      33006 
+     28185      33006 
+     28185      33006 
+     28184      33006 
+     28184      33006 
+
+
+Number of NOPs = 32, noptype = 2, nopsize = 12, total size = 389
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     27215      34006 
+     27073      34006 
+     27021      34006 
+     27021      34006 
+     27021      34006 
+     27021      34006 
+     27021      34006 
+     27021      34006 
+     27021      34006 
+     27021      34006 
+
+
+Number of NOPs = 33, noptype = 2, nopsize = 12, total size = 401
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     52221      35006 
+     52559      35006 
+     52000      35006 
+     52006      35006 
+     52000      35006 
+     52007      35006 
+     52000      35006 
+     52006      35006 
+     52000      35006 
+     52007      35006 
+
+
+Number of NOPs = 40, noptype = 2, nopsize = 12, total size = 485
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33475      42006 
+     33072      42006 
+     33020      42006 
+     33053      42006 
+     33059      42006 
+     33052      42006 
+     33052      42006 
+     33059      42006 
+     33053      42006 
+     33501      42006 
+
+
+Number of NOPs = 50, noptype = 2, nopsize = 12, total size = 605
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     61360      52006 
+     61366      52006 
+     60996      52006 
+     61003      52006 
+     61003      52006 
+     60996      52006 
+     60996      52006 
+     60996      52006 
+     61002      52006 
+     61002      52006 
+
+
+Number of NOPs = 100, noptype = 2, nopsize = 12, total size = 1205
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     83707     102006 
+     78006     102006 
+     78006     102006 
+     78007     102006 
+     78007     102006 
+     78007     102006 
+     78007     102006 
+     78007     102006 
+     78007     102006 
+     78013     102006 
+
+
+Number of NOPs = 1000, noptype = 2, nopsize = 12, total size = 12005
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    765511    1002006 
+    753057    1002006 
+    753025    1002006 
+    753019    1002006 
+    767566    1002007 
+    753467    1002006 
+    753025    1002006 
+    753025    1002006 
+    753025    1002006 
+    753467    1002006 
+
+
+Number of NOPs = 1500, noptype = 2, nopsize = 12, total size = 18005
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1146665    1502006 
+   1128504    1502006 
+   1128023    1502006 
+   1128030    1502006 
+   1128465    1502006 
+   1204327    1502008 
+   1128029    1502006 
+   1128471    1502006 
+   1128023    1502006 
+   1128023    1502006 
+
+
+Number of NOPs = 4000, noptype = 2, nopsize = 12, total size = 48005
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3196258    4002007 
+   3003630    4002006 
+   3035636    4002007 
+   3003500    4002006 
+   3003481    4002006 
+   3025061    4002007 
+   3003663    4002006 
+   3065536    4002007 
+   3003507    4002006 
+   3029481    4002007 
+
+
+Number of NOPs = 10000, noptype = 2, nopsize = 12, total size = 120005
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  68692637   10002019 
+  68510715   10002016 
+  68492294   10002016 
+  68545366   10002017 
+  68495089   10002016 
+  68691734   10002030 
+  68557210   10002016 
+  68517222   10002017 
+  68508661   10002016 
+  68508966   10002017 
+
+
+Number of NOPs = 20000, noptype = 2, nopsize = 12, total size = 240005
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+ 137110331   20002029 
+ 136755392   20002026 
+ 136823616   20002028 
+ 136796550   20002026 
+ 136761443   20002027 
+ 136763855   20002026 
+ 136820763   20002028 
+ 136804122   20002027 
+ 136785129   20002027 
+ 137274404   20002049 
+
+
+Number of NOPs = 2, noptype = 3, nopsize = 12, total size = 29
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23010       4006 
+     23004       4006 
+     23004       4006 
+     23004       4006 
+     23017       4006 
+     23004       4006 
+     23004       4006 
+     23004       4006 
+     23004       4006 
+     23004       4006 
+
+
+Number of NOPs = 5, noptype = 3, nopsize = 12, total size = 65
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7033       7006 
+      7020       7006 
+      7053       7006 
+      7020       7006 
+      7020       7006 
+      7020       7006 
+      7020       7006 
+      7020       7006 
+      7014       7006 
+      7013       7006 
+
+
+Number of NOPs = 10, noptype = 3, nopsize = 12, total size = 125
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29016      12006 
+     29042      12006 
+     29010      12006 
+     29042      12006 
+     29003      12006 
+     28983      12006 
+     29009      12006 
+     29003      12006 
+     28983      12006 
+     28983      12006 
+
+
+Number of NOPs = 20, noptype = 3, nopsize = 12, total size = 245
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18180      22006 
+     18070      22006 
+     18018      22006 
+     18051      22006 
+     18051      22006 
+     18051      22006 
+     18051      22006 
+     18057      22006 
+     18050      22006 
+     18050      22006 
+
+
+Number of NOPs = 25, noptype = 3, nopsize = 12, total size = 305
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22198      27006 
+     22055      27006 
+     22016      27006 
+     22022      27006 
+     22015      27006 
+     22016      27006 
+     22022      27006 
+     22022      27006 
+     22022      27006 
+     22015      27006 
+
+
+Number of NOPs = 30, noptype = 3, nopsize = 12, total size = 365
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26215      32006 
+     26019      32006 
+     26019      32006 
+     26019      32006 
+     26013      32006 
+     26020      32006 
+     26020      32006 
+     26020      32006 
+     26020      32006 
+     26020      32006 
+
+
+Number of NOPs = 31, noptype = 3, nopsize = 12, total size = 377
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     49140      33006 
+     48829      33006 
+     48764      33006 
+     48763      33006 
+     48744      33006 
+     48725      33006 
+     48783      33006 
+     48763      33006 
+     48783      33006 
+     48751      33006 
+
+
+Number of NOPs = 32, noptype = 3, nopsize = 12, total size = 389
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     27216      34006 
+     27066      34006 
+     27020      34006 
+     27020      34006 
+     27020      34006 
+     27020      34006 
+     27014      34006 
+     27021      34006 
+     27021      34006 
+     27021      34006 
+
+
+Number of NOPs = 33, noptype = 3, nopsize = 12, total size = 401
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     28210      35006 
+     28022      35006 
+     28015      35006 
+     28021      35006 
+     28021      35006 
+     28015      35006 
+     28022      35006 
+     28022      35006 
+     28015      35006 
+     28015      35006 
+
+
+Number of NOPs = 40, noptype = 3, nopsize = 12, total size = 485
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     33469      42006 
+     33065      42006 
+     33014      42006 
+     33020      42006 
+     33020      42006 
+     33020      42006 
+     33020      42006 
+     33020      42006 
+     33020      42006 
+     33469      42006 
+
+
+Number of NOPs = 50, noptype = 3, nopsize = 12, total size = 605
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     44916      52006 
+     44486      52006 
+     44435      52006 
+     44434      52006 
+     44428      52006 
+     44435      52006 
+     44434      52006 
+     44434      52006 
+     44435      52006 
+     44434      52006 
+
+
+Number of NOPs = 100, noptype = 3, nopsize = 12, total size = 1205
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     93074     102006 
+     92262     102006 
+     92210     102006 
+     92203     102006 
+     92203     102006 
+     92209     102006 
+     92203     102006 
+     92210     102006 
+     92203     102006 
+     92203     102006 
+
+
+Number of NOPs = 1000, noptype = 3, nopsize = 12, total size = 12005
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    828003    1002006 
+    816316    1002006 
+    815769    1002006 
+    815808    1002006 
+    815809    1002006 
+    816296    1002006 
+    807222    1002007 
+    753005    1002006 
+    753006    1002006 
+    753006    1002006 
+
+
+Number of NOPs = 1500, noptype = 3, nopsize = 12, total size = 18005
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1146360    1502006 
+   1142329    1502007 
+   1128471    1502006 
+   1128023    1502006 
+   1128023    1502006 
+   1166925    1502007 
+   1128023    1502006 
+   1128016    1502006 
+   1128478    1502006 
+   1128023    1502006 
+
+
+Number of NOPs = 4000, noptype = 3, nopsize = 12, total size = 48005
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3050794    4002006 
+   3040531    4002007 
+   3003520    4002006 
+   3022688    4002007 
+   3003475    4002006 
+   3065621    4002007 
+   3003059    4002006 
+   3036670    4002007 
+   3003500    4002006 
+   3003474    4002006 
+
+
+Number of NOPs = 10000, noptype = 3, nopsize = 12, total size = 120005
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  68639825   10002018 
+  68420892   10002017 
+  68386793   10002017 
+  68534596   10002019 
+  68375268   10002016 
+  68392688   10002016 
+  68680267   10002023 
+  68400755   10002016 
+  68385850   10002016 
+  68376483   10002016 
+
+
+Number of NOPs = 20000, noptype = 3, nopsize = 12, total size = 240005
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+ 137399757   20002031 
+ 136736509   20002026 
+ 136994553   20005578 
+ 136818137   20002026 
+ 136773982   20002026 
+ 136858592   20002027 
+ 136963392   20002038 
+ 136797005   20002026 
+ 136817045   20002027 
+ 136901746   20002026 
+
+
+
+Test with multiple threads
+
+
+Number of NOPs = 100, noptype = 2, nopsize = 12, total size = 1205
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Number of NOPs = 1000, noptype = 2, nopsize = 12, total size = 12005
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Number of NOPs = 10000, noptype = 2, nopsize = 12, total size = 120005
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Number of NOPs = 100000, noptype = 2, nopsize = 12, total size = 1200005
+
+Processor 2 not available. Processors available:
+0  1  
+
+

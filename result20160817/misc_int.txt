@@ -1,0 +1,3878 @@
+Test miscellaneous instructions
+
+Latency: xlat
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    600470     102013 
+    611858     102014 
+    600061     102013 
+    600021     102013 
+    600015     102013 
+    600022     102013 
+    600464     102013 
+    600022     102013 
+    600021     102013 
+    600015     102013 
+
+Throughput: xlat / xor eax,eax
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    216742     202013 
+    216716     202013 
+    216697     202013 
+    216697     202013 
+    216697     202013 
+    216697     202013 
+    216697     202013 
+    216697     202013 
+    216697     202013 
+    216697     202013 
+
+
+rdtsc Throughput
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3699        100 
+      3705        100 
+      3699        100 
+      3705        100 
+      3698        100 
+      3699        100 
+      3705        100 
+      3698        100 
+      3699        100 
+      3705        100 
+
+
+rdpmc Throughput
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4102        101 
+      4101        101 
+      4101        101 
+      4101        101 
+      4102        101 
+      4102        101 
+      4102        101 
+      4102        101 
+      4102        101 
+      4102        101 
+
+
+inc + sbb Latency of flag
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       390        200 
+       195        200 
+       195        200 
+       195        200 
+       195        200 
+       195        200 
+       195        200 
+       195        200 
+       195        200 
+       195        200 
+
+
+inc + sub Latency of register
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+        -6          0 
+         1          0 
+         0          0 
+         1          0 
+         0          0 
+        -6          0 
+        -6          0 
+         0          0 
+         1          0 
+         0          0 
+
+
+mov eax, n
+cpuid
+(= 2 instructions)
+
+
+cpuid, eax = 0 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8489        200 
+      8092        200 
+      8093        200 
+      8573        200 
+      8086        200 
+      8086        200 
+      8086        200 
+      8093        200 
+      8092        200 
+      8093        200 
+
+
+cpuid, eax = 1 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     14352        200 
+     14307        200 
+     14300        200 
+     14306        200 
+     14300        200 
+     14307        200 
+     14300        200 
+     14300        200 
+     14300        200 
+     14300        200 
+
+
+cpuid, eax = 2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10550        200 
+     10205        200 
+     10205        200 
+     10198        200 
+     10199        200 
+     10205        200 
+     10205        200 
+     10199        200 
+     10198        200 
+     10205        200 
+
+
+cpuid, eax = 5 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     15263        200 
+     15165        200 
+     15165        200 
+     15165        200 
+     15165        200 
+     15165        200 
+     15165        200 
+     15165        200 
+     15165        200 
+     15165        200 
+
+
+cpuid, eax = 80000000h 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12266        200 
+     11596        200 
+     11596        200 
+     11596        200 
+     11596        200 
+     11596        200 
+     11596        200 
+     11596        200 
+     11596        200 
+     11596        200 
+
+
+Throughput: movsx r16,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    179387     202005 
+    179023     202005 
+    179023     202005 
+    179023     202005 
+    179023     202005 
+    179023     202005 
+    179023     202005 
+    179023     202005 
+    179023     202005 
+    179016     202005 
+
+
+Latency: movsx r16,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200363     202005 
+    200011     202005 
+    200012     202005 
+    200012     202005 
+    200012     202005 
+    200018     202005 
+    200011     202005 
+    200011     202005 
+    200018     202005 
+    200012     202005 
+
+
+Throughput: movsx r16,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    240247     202005 
+    239746     202005 
+    239778     202005 
+    239778     202005 
+    239779     202005 
+    239779     202005 
+    239779     202005 
+    239785     202005 
+    239778     202005 
+    239778     202005 
+
+
+Latency: movsx r16,[m8] / mov [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500168     202005 
+    500032     202005 
+    500019     202005 
+    500012     202005 
+    500461     202005 
+    500013     202005 
+    500019     202005 
+    500019     202005 
+    500019     202005 
+    500012     202005 
+
+
+Throughput: movsx r32,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100841     202005 
+    100561     202005 
+    100522     202005 
+    100523     202005 
+    100523     202005 
+    100522     202005 
+    100522     202005 
+    100523     202005 
+    100523     202005 
+    100529     202005 
+
+
+Latency: movsx r32,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    217010     202005 
+    216678     202005 
+    216672     202005 
+    216678     202005 
+    216678     202005 
+    216678     202005 
+    216678     202005 
+    216678     202005 
+    217165     202005 
+    216671     202005 
+
+
+Throughput: movsx r32,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    260000     202005 
+    259727     202005 
+    259760     202005 
+    259760     202005 
+    259760     202005 
+    259760     202005 
+    271622     202006 
+    260214     202005 
+    259759     202005 
+    259759     202005 
+
+
+Latency: movsx r32,[m8] / mov [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    541840     202005 
+    541716     202005 
+    541691     202005 
+    541684     202005 
+    541684     202005 
+    542178     202005 
+    541684     202005 
+    550309     202006 
+    500000     202005 
+    499999     202005 
+
+
+Throughput: movsx r32,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    109167     202005 
+    108907     202005 
+    108901     202005 
+    108901     202005 
+    108907     202005 
+    108901     202005 
+    108901     202005 
+    108907     202005 
+    108901     202005 
+    108901     202005 
+
+
+Latency: movsx r32,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200265     202005 
+    200037     202005 
+    200011     202005 
+    200011     202005 
+    200012     202005 
+    200012     202005 
+    200011     202005 
+    200011     202005 
+    200012     202005 
+    200012     202005 
+
+
+Throughput: movsx r32,[m16]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    240013     202005 
+    239778     202005 
+    239779     202005 
+    239779     202005 
+    239778     202005 
+    239778     202005 
+    251973     202006 
+    240214     202005 
+    239779     202005 
+    239779     202005 
+
+
+Latency: movsx r32,[m16] / mov [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    541872     202005 
+    541716     202005 
+    541691     202005 
+    542171     202005 
+    541684     202005 
+    541690     202005 
+    541684     202005 
+    541684     202005 
+    554118     202006 
+    542172     202005 
+
+
+Throughput: movsx r64,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    101458     202005 
+    101068     202005 
+    101023     202005 
+    101030     202005 
+    101023     202005 
+    101029     202005 
+    101023     202005 
+    101023     202005 
+    101029     202005 
+    101023     202005 
+
+
+Latency: movsx r64,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200239     202005 
+    200011     202005 
+    200012     202005 
+    200012     202005 
+    200012     202005 
+    200018     202005 
+    200466     202005 
+    200011     202005 
+    200011     202005 
+    200018     202005 
+
+
+Throughput: movsx r64,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    260130     202005 
+    259727     202005 
+    259766     202005 
+    259766     202005 
+    259766     202005 
+    259766     202005 
+    259760     202005 
+    289907     202006 
+    243315     202005 
+    239772     202005 
+
+
+Latency: movsx r64,[m8] / mov [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500636     202005 
+    500045     202005 
+    500019     202005 
+    500012     202005 
+    528314     202006 
+    500461     202005 
+    500019     202005 
+    500019     202005 
+    500019     202005 
+    500012     202005 
+
+
+Throughput: movsx r64,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    109876     202005 
+    109447     202005 
+    109447     202005 
+    109447     202005 
+    109447     202005 
+    109447     202005 
+    109447     202005 
+    109447     202005 
+    109447     202005 
+    109447     202005 
+
+
+Latency: movsx r64,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    217308     202005 
+    216684     202005 
+    216684     202005 
+    216684     202005 
+    216684     202005 
+    216684     202005 
+    216684     202005 
+    216684     202005 
+    216684     202005 
+    216684     202005 
+
+
+Throughput: movsx r64,[m16]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    252538     202006 
+    239746     202005 
+    239779     202005 
+    239785     202005 
+    239778     202005 
+    239778     202005 
+    239785     202005 
+    240214     202005 
+    239779     202005 
+    239779     202005 
+
+
+Latency: movsx r64,[m16] / mov [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    542439     202005 
+    541697     202005 
+    541678     202005 
+    541678     202005 
+    553300     202006 
+    542166     202005 
+    541684     202005 
+    541678     202005 
+    541685     202005 
+    541678     202005 
+
+
+Throughput: movzx r16,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    194506     202005 
+    183125     202005 
+    193941     202005 
+    193935     202005 
+    193941     202005 
+    193934     202005 
+    193941     202005 
+    193935     202005 
+    193941     202005 
+    193934     202005 
+
+
+Latency: movzx r16,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200551     202005 
+    200025     202005 
+    200012     202005 
+    200018     202005 
+    200011     202005 
+    200011     202005 
+    200018     202005 
+    213246     202006 
+    200011     202005 
+    200467     202005 
+
+
+Throughput: movzx r16,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    240305     202005 
+    239785     202005 
+    239778     202005 
+    239778     202005 
+    239778     202005 
+    239779     202005 
+    236035     202005 
+    239785     202005 
+    239778     202005 
+    239778     202005 
+
+
+Latency: movzx r16,[m8] / mov [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500637     202005 
+    500032     202005 
+    500019     202005 
+    512519     202006 
+    500019     202005 
+    500019     202005 
+    500013     202005 
+    500500     202005 
+    500019     202005 
+    500019     202005 
+
+
+Throughput: movzx r32,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    181317     202005 
+    181018     202005 
+    180999     202005 
+    181005     202005 
+    181005     202005 
+    181005     202005 
+    181005     202005 
+    180999     202005 
+    180999     202005 
+    181006     202005 
+
+
+Latency: movzx r32,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200278     202005 
+    200038     202005 
+    200012     202005 
+    200018     202005 
+    200011     202005 
+    200011     202005 
+    200012     202005 
+    200012     202005 
+    200011     202005 
+    200011     202005 
+
+
+Throughput: movzx r32,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    288542     202005 
+    288185     202005 
+    288178     202005 
+    288184     202005 
+    288178     202005 
+    288666     202005 
+    288184     202005 
+    288178     202005 
+    288185     202005 
+    288178     202005 
+
+
+Latency: movzx r32,[m8] / mov [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400250     202005 
+    400043     202005 
+    400017     202005 
+    400465     202005 
+    400017     202005 
+    400017     202005 
+    400017     202005 
+    400016     202005 
+    400016     202005 
+    400016     202005 
+
+
+Throughput: movzx r32,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    109181     202005 
+    108902     202005 
+    108895     202005 
+    108895     202005 
+    108902     202005 
+    108895     202005 
+    108895     202005 
+    108902     202005 
+    108895     202005 
+    108895     202005 
+
+
+Latency: movzx r32,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    217003     202005 
+    216710     202005 
+    216684     202005 
+    216684     202005 
+    216684     202005 
+    216684     202005 
+    216677     202005 
+    216684     202005 
+    216684     202005 
+    216684     202005 
+
+
+Throughput: movzx r32,[m16]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    288614     202005 
+    302101     202006 
+    288184     202005 
+    288178     202005 
+    288185     202005 
+    288178     202005 
+    288184     202005 
+    288178     202005 
+    288185     202005 
+    288665     202005 
+
+
+Latency: movzx r32,[m16] / mov [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    433525     202005 
+    433362     202005 
+    446479     202006 
+    433349     202005 
+    433837     202005 
+    433343     202005 
+    433343     202005 
+    433343     202005 
+    433343     202005 
+    433343     202005 
+
+
+Throughput: movzx r64,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    194519     202005 
+    193947     202005 
+    193940     202005 
+    193947     202005 
+    193941     202005 
+    193947     202005 
+    193940     202005 
+    193947     202005 
+    193941     202005 
+    193947     202005 
+
+
+Latency: movzx r64,r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200492     202005 
+    200011     202005 
+    200012     202005 
+    200012     202005 
+    200012     202005 
+    200018     202005 
+    200011     202005 
+    200011     202005 
+    200018     202005 
+    200460     202005 
+
+
+Throughput: movzx r64,[m8]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    267091     202005 
+    266025     202005 
+    266019     202005 
+    266013     202005 
+    266019     202005 
+    266019     202005 
+    266013     202005 
+    266019     202005 
+    266012     202005 
+    266013     202005 
+
+
+Latency: movzx r64,[m8] / mov [m8],r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    447343     202006 
+    433381     202005 
+    433349     202005 
+    433349     202005 
+    433856     202005 
+    433355     202005 
+    433355     202005 
+    433355     202005 
+    433355     202005 
+    433355     202005 
+
+
+Throughput: movzx r64,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    110124     202005 
+    109441     202005 
+    109441     202005 
+    109441     202005 
+    109441     202005 
+    109441     202005 
+    109441     202005 
+    109441     202005 
+    109441     202005 
+    109441     202005 
+
+
+Latency: movzx r64,r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200428     202005 
+    200024     202005 
+    200466     202005 
+    200011     202005 
+    200011     202005 
+    200012     202005 
+    200012     202005 
+    200012     202005 
+    200018     202005 
+    200011     202005 
+
+
+Throughput: movzx r64,[m16]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    266448     202005 
+    266019     202005 
+    266013     202005 
+    266019     202005 
+    266019     202005 
+    266013     202005 
+    266019     202005 
+    266461     202005 
+    266019     202005 
+    266012     202005 
+
+
+Latency: movzx r64,[m16] / mov [m16],r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    412776     202006 
+    400043     202005 
+    400017     202005 
+    400017     202005 
+    400017     202005 
+    400017     202005 
+    400465     202005 
+    400016     202005 
+    400016     202005 
+    400016     202005 
+
+
+Throughput: movsxd r64,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    201351     202005 
+    201058     202005 
+    201019     202005 
+    201019     202005 
+    201019     202005 
+    201019     202005 
+    201025     202005 
+    201019     202005 
+    201026     202005 
+    201019     202005 
+
+
+Latency: movsxd r64,r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    201318     202005 
+    201058     202005 
+    201019     202005 
+    201019     202005 
+    201019     202005 
+    201019     202005 
+    201467     202005 
+    201025     202005 
+    201019     202005 
+    201026     202005 
+
+
+Throughput: movsxd r64,[m32]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    218205     202005 
+    217822     202005 
+    217776     202005 
+    217783     202005 
+    217782     202005 
+    217783     202005 
+    217776     202005 
+    218264     202005 
+    251075     202006 
+    250224     202005 
+
+
+Latency: movsxd r64,[m32] / mov [m32],r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500377     202005 
+    500032     202005 
+    500019     202005 
+    500012     202005 
+    500461     202005 
+    500013     202005 
+    500019     202005 
+    500019     202005 
+    500019     202005 
+    512635     202006 
+
+
+lea r16,[r64+0*rsi+(0 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       747        100 
+       747        100 
+       748        100 
+       747        100 
+       748        100 
+       747        100 
+       748        100 
+       747        100 
+       748        100 
+       747        100 
+
+
+lea r16,[r64+0*rsi+(1 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       689        100 
+       683        100 
+       689        100 
+       682        100 
+       683        100 
+       689        100 
+       682        100 
+       689        100 
+       689        100 
+       682        100 
+
+
+lea r16,[r64+0*rsi+(4 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       741        100 
+       689        100 
+       689        100 
+       682        100 
+       683        100 
+       689        100 
+       689        100 
+       683        100 
+       682        100 
+       689        100 
+
+
+lea r16,[r64+1*rsi+(0 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       741        100 
+       748        100 
+       747        100 
+       748        100 
+       747        100 
+       741        100 
+       741        100 
+       747        100 
+       748        100 
+       747        100 
+
+
+lea r16,[r64+1*rsi+(1 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       689        100 
+       689        100 
+       683        100 
+       689        100 
+       689        100 
+       683        100 
+       689        100 
+       682        100 
+       683        100 
+       689        100 
+
+
+lea r16,[r64+1*rsi+(4 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       735        100 
+       741        100 
+       742        100 
+       741        100 
+       742        100 
+       735        100 
+       735        100 
+       742        100 
+       741        100 
+       742        100 
+
+
+lea r16,[r64+4*rsi+(0 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       689        100 
+       689        100 
+       682        100 
+       689        100 
+       689        100 
+       682        100 
+       689        100 
+       683        100 
+       689        100 
+       689        100 
+
+
+lea r16,[r64+4*rsi+(1 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       748        100 
+       748        100 
+       747        100 
+       748        100 
+       747        100 
+       741        100 
+       741        100 
+       747        100 
+       748        100 
+       747        100 
+
+
+lea r16,[r64+4*rsi+(4 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       689        100 
+       689        100 
+       683        100 
+       689        100 
+       689        100 
+       683        100 
+       689        100 
+       682        100 
+       683        100 
+       689        100 
+
+
+lea r32,[r64+0*rsi+(0 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       241        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+
+
+lea r32,[r64+0*rsi+(1 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       273        100 
+       104        100 
+        97        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+        98        100 
+       104        100 
+
+
+lea r32,[r64+0*rsi+(4 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       292        100 
+        98        100 
+        91        100 
+        97        100 
+        91        100 
+        98        100 
+        91        100 
+        91        100 
+        91        100 
+        91        100 
+
+
+lea r32,[r64+1*rsi+(0 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       240        100 
+       104        100 
+        97        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+        98        100 
+       104        100 
+
+
+lea r32,[r64+1*rsi+(1 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       254        100 
+        91        100 
+        98        100 
+        91        100 
+        91        100 
+        91        100 
+        97        100 
+        91        100 
+        91        100 
+        91        100 
+
+
+lea r32,[r64+1*rsi+(4 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       481        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+
+
+lea r32,[r64+4*rsi+(0 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       176        100 
+        98        100 
+        91        100 
+        97        100 
+        91        100 
+        98        100 
+        91        100 
+        91        100 
+        91        100 
+        91        100 
+
+
+lea r32,[r64+4*rsi+(1 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       391        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        91        100 
+        91        100 
+        98        100 
+        98        100 
+        98        100 
+
+
+lea r32,[r64+4*rsi+(4 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       604        100 
+        97        100 
+        91        100 
+        91        100 
+        98        100 
+        91        100 
+        91        100 
+        97        100 
+        97        100 
+        91        100 
+
+
+lea r64,[r64+0*rsi+(0 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       253        100 
+       104        100 
+        97        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+        98        100 
+       104        100 
+
+
+lea r64,[r64+0*rsi+(1 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       313        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        92        100 
+        92        100 
+        98        100 
+        98        100 
+        98        100 
+
+
+lea r64,[r64+0*rsi+(4 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       572        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+
+
+lea r64,[r64+1*rsi+(0 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       364        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        91        100 
+        91        100 
+        98        100 
+        98        100 
+        98        100 
+
+
+lea r64,[r64+1*rsi+(1 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       286        100 
+        97        100 
+        91        100 
+        91        100 
+        97        100 
+        91        100 
+        91        100 
+        91        100 
+        91        100 
+        98        100 
+
+
+lea r64,[r64+1*rsi+(4 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       774        100 
+        98        100 
+       104        100 
+        98        100 
+        98        100 
+       105        100 
+        98        100 
+        98        100 
+       104        100 
+        98        100 
+
+
+lea r64,[r64+4*rsi+(0 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       202        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+        97        100 
+        97        100 
+       104        100 
+       104        100 
+       104        100 
+
+
+lea r64,[r64+4*rsi+(1 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1027        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+
+
+lea r64,[r64+4*rsi+(4 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1261        100 
+        97        100 
+        97        100 
+        91        100 
+        98        100 
+        98        100 
+        91        100 
+        97        100 
+        97        100 
+        91        100 
+
+
+lea r32,[r64+4*rsi+(1 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       306        100 
+        91        100 
+        91        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        92        100 
+        92        100 
+        98        100 
+
+
+lea r64,[r64+4*rsi+(1 bytes)] Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       312        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+
+
+lea r32,[4*esi+(0 bytes)] Latency, 64 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1346        100 
+       163        100 
+       163        100 
+       163        100 
+       163        100 
+       163        100 
+       163        100 
+       163        100 
+       163        100 
+       163        100 
+
+
+lea r32,[4*esi+(1 bytes)] Latency, 64 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       559        100 
+       156        100 
+       149        100 
+       150        100 
+       156        100 
+       149        100 
+       156        100 
+       156        100 
+       149        100 
+       156        100 
+
+
+lea r32,[4*esi+(4 bytes)] Latency, 64 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       598        100 
+       169        100 
+       169        100 
+       169        100 
+       169        100 
+       169        100 
+       169        100 
+       169        100 
+       169        100 
+       169        100 
+
+
+lea r16,[r16+0*si+(0 bytes)] Latency, 32 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       318        100 
+       129        100 
+       129        100 
+       130        100 
+       130        100 
+
+
+lea r16,[r16+0*si+(1 bytes)] Latency, 32 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       507        100 
+       137        100 
+       131        100 
+       137        100 
+       130        100 
+
+
+lea r16,[r16+0*si+(2 bytes)] Latency, 32 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       533        100 
+       144        100 
+       143        100 
+       144        100 
+       143        100 
+
+
+lea r16,[r16+1*si+(0 bytes)] Latency, 32 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       260        100 
+       123        100 
+       124        100 
+       124        100 
+       117        100 
+
+
+lea r16,[r16+1*si+(1 bytes)] Latency, 32 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       474        100 
+       149        100 
+       149        100 
+       149        100 
+       149        100 
+
+
+lea r16,[r16+1*si+(2 bytes)] Latency, 32 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       526        100 
+       142        100 
+       143        100 
+       142        100 
+       143        100 
+
+
+lea r32,[r16+0*si+(0 bytes)] Latency, 32 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       345        100 
+       117        100 
+       117        100 
+       124        100 
+       124        100 
+
+
+lea r32,[r16+0*si+(1 bytes)] Latency, 32 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       325        100 
+       142        100 
+       143        100 
+       142        100 
+       143        100 
+
+
+lea r32,[r16+0*si+(2 bytes)] Latency, 32 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       247        100 
+       143        100 
+       143        100 
+       137        100 
+       137        100 
+
+
+lea r32,[r16+1*si+(0 bytes)] Latency, 32 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       261        100 
+       117        100 
+       117        100 
+       124        100 
+       124        100 
+
+
+lea r32,[r16+1*si+(1 bytes)] Latency, 32 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       267        100 
+       144        100 
+       143        100 
+       143        100 
+       144        100 
+
+
+lea r32,[r16+1*si+(2 bytes)] Latency, 32 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       487        100 
+       136        100 
+       130        100 
+       136        100 
+       129        100 
+
+
+lea r32,[r64+0*rsi+(0 bytes)] Throughput
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       637        100 
+        91        100 
+        91        100 
+        91        100 
+        97        100 
+        91        100 
+        91        100 
+        91        100 
+        91        100 
+        91        100 
+
+
+lea r32,[r64+0*rsi+(4 bytes)] Throughput
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       345        100 
+       104        100 
+        98        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+        97        100 
+       104        100 
+
+
+lea r32,[r64+4*rsi+(0 bytes)] Throughput
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       253        100 
+        98        100 
+        91        100 
+        97        100 
+        91        100 
+        98        100 
+        91        100 
+        91        100 
+        91        100 
+        91        100 
+
+
+lea r32,[r64+4*rsi+(4 bytes)] Throughput
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       618        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+
+
+lea r64,[r64+0*rsi+(0 bytes)] Throughput
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       247        100 
+        98        100 
+        91        100 
+        97        100 
+        91        100 
+        98        100 
+        91        100 
+        91        100 
+        91        100 
+        91        100 
+
+
+lea r64,[r64+0*rsi+(4 bytes)] Throughput
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       591        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+       104        100 
+
+
+lea r64,[r64+4*rsi+(0 bytes)] Throughput
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       254        100 
+        98        100 
+        98        100 
+        92        100 
+        92        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        91        100 
+
+
+lea r64,[r64+4*rsi+(4 bytes)] Throughput
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1209        100 
+        91        100 
+        91        100 
+        97        100 
+        97        100 
+        91        100 
+        98        100 
+        98        100 
+        91        100 
+        97        100 
+
+
+lea r16,[r16+0*si+(0 bytes)] Throughput
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       325        100 
+       144        100 
+       143        100 
+       143        100 
+       144        100 
+
+
+lea r16,[r16+0*si+(2 bytes)] Throughput
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1079        100 
+       156        100 
+       149        100 
+       155        100 
+       149        100 
+
+
+lea r16,[r16+1*si+(0 bytes)] Throughput
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       299        100 
+       124        100 
+       130        100 
+       130        100 
+       131        100 
+
+
+lea r16,[r16+1*si+(2 bytes)] Throughput
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       572        100 
+       150        100 
+       143        100 
+       149        100 
+       143        100 
+
+
+lea r32,[rip-relative] Throughput
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       534        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        98        100 
+        92        100 
+        98        100 
+        98        100 
+        98        100 
+
+
+lea r64,[rip-relative] Throughput
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       689        100 
+        98        100 
+        91        100 
+        91        100 
+        97        100 
+        97        100 
+        91        100 
+        98        100 
+        98        100 
+        91        100 
+
+
+lea r16,[r64+0*rsi+(0 bytes)] + mov, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       910        200 
+       865        200 
+       858        200 
+       858        200 
+       865        200 
+       858        200 
+       858        200 
+       865        200 
+       858        200 
+       858        200 
+
+
+lea r16,[r64+0*rsi+(1 bytes)] + mov, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       865        200 
+       864        200 
+       858        200 
+       858        200 
+       864        200 
+       858        200 
+       858        200 
+       864        200 
+       858        200 
+       858        200 
+
+
+lea r16,[r64+4*rsi+(0 bytes)] + mov, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       793        200 
+       793        200 
+       793        200 
+       793        200 
+       793        200 
+       787        200 
+       786        200 
+       793        200 
+       793        200 
+       793        200 
+
+
+lea r16,[r64+4*rsi+(1 bytes)] + mov, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1359        200 
+       793        200 
+       793        200 
+       793        200 
+       793        200 
+       793        200 
+       793        200 
+       793        200 
+       793        200 
+       793        200 
+
+
+lea r32,[r64+0*rsi+(0 bytes)] + mov, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       429        200 
+       429        200 
+       429        200 
+       429        200 
+       429        200 
+       422        200 
+       422        200 
+       429        200 
+       429        200 
+       429        200 
+
+
+lea r32,[r64+0*rsi+(1 bytes)] + mov, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       417        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       417        200 
+       417        200 
+       423        200 
+       423        200 
+       423        200 
+
+
+lea r32,[r64+4*rsi+(0 bytes)] + mov, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       396        200 
+       397        200 
+       390        200 
+       390        200 
+       397        200 
+       390        200 
+       396        200 
+       390        200 
+       390        200 
+       396        200 
+
+
+lea r32,[r64+4*rsi+(1 bytes)] + mov, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       435        200 
+       422        200 
+       422        200 
+       422        200 
+       422        200 
+       422        200 
+       422        200 
+       422        200 
+       422        200 
+       422        200 
+
+
+lea r64,[r64+0*rsi+(0 bytes)] + mov, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       482        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+
+
+lea r64,[r64+0*rsi+(1 bytes)] + mov, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       487        200 
+       396        200 
+       390        200 
+       397        200 
+       390        200 
+       396        200 
+       390        200 
+       397        200 
+       390        200 
+       390        200 
+
+
+lea r64,[r64+4*rsi+(0 bytes)] + mov, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       572        200 
+       396        200 
+       390        200 
+       397        200 
+       390        200 
+       396        200 
+       390        200 
+       397        200 
+       390        200 
+       390        200 
+
+
+lea r64,[r64+4*rsi+(1 bytes)] + mov, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       546        200 
+       429        200 
+       429        200 
+       429        200 
+       429        200 
+       422        200 
+       422        200 
+       429        200 
+       429        200 
+       429        200 
+
+
+lea r32,[r64+0*rsi+(0 bytes)] + add, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       429        200 
+       429        200 
+       429        200 
+       429        200 
+       429        200 
+       422        200 
+       422        200 
+       429        200 
+       429        200 
+       429        200 
+
+
+lea r32,[r64+0*rsi+(4 bytes)] + add, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       559        200 
+       396        200 
+       390        200 
+       390        200 
+       396        200 
+       390        200 
+       390        200 
+       390        200 
+       390        200 
+       397        200 
+
+
+lea r32,[r64+4*rsi+(0 bytes)] + add, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       475        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       416        200 
+       416        200 
+       423        200 
+       423        200 
+       423        200 
+
+
+lea r32,[r64+4*rsi+(4 bytes)] + add, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       650        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       416        200 
+       416        200 
+       423        200 
+       423        200 
+       423        200 
+
+
+lea r64,[r64+0*rsi+(0 bytes)] + add, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       521        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+
+
+lea r64,[r64+0*rsi+(4 bytes)] + add, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       819        200 
+       390        200 
+       396        200 
+       390        200 
+       397        200 
+       390        200 
+       396        200 
+       390        200 
+       397        200 
+       390        200 
+
+
+lea r64,[r64+4*rsi+(0 bytes)] + add, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       572        200 
+       429        200 
+       429        200 
+       429        200 
+       429        200 
+       429        200 
+       429        200 
+       429        200 
+       429        200 
+       429        200 
+
+
+lea r64,[r64+4*rsi+(4 bytes)] + add, Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1015        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+       423        200 
+
+
+lea r16,[r16+0*si+(0 bytes)], Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1046        100 
+       142        100 
+       143        100 
+       142        100 
+       143        100 
+
+
+lea r16,[r16+0*si+(2 bytes)], Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       455        100 
+       137        100 
+       136        100 
+       137        100 
+       136        100 
+
+
+lea r16,[r16+1*si+(0 bytes)], Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       286        100 
+       144        100 
+       143        100 
+       144        100 
+       143        100 
+
+
+lea r16,[r16+1*si+(2 bytes)], Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       605        100 
+       144        100 
+       143        100 
+       144        100 
+       137        100 
+
+
+lea r32,[r16+0*si+(0 bytes)], Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       253        100 
+       116        100 
+       116        100 
+       123        100 
+       123        100 
+
+
+lea r32,[r16+0*si+(2 bytes)], Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       449        100 
+       130        100 
+       137        100 
+       131        100 
+       137        100 
+
+
+lea r32,[r16+1*si+(0 bytes)], Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       332        100 
+       137        100 
+       137        100 
+       131        100 
+       137        100 
+
+
+lea r32,[r16+1*si+(2 bytes)], Latency
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       449        100 
+       150        100 
+       150        100 
+       144        100 
+       144        100 
+
+
+call_without_return, 64 bit, repeat = 1 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+         7          3 
+         0          3 
+         1          3 
+         7          3 
+         0          3 
+         1          3 
+         7          3 
+         0          3 
+         1          3 
+         7          3 
+
+
+call_without_return, 64 bit, repeat = 4 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+        45          6 
+        26          6 
+        19          6 
+        20          6 
+        19          6 
+        20          6 
+        19          6 
+        26          6 
+        20          6 
+        19          6 
+
+
+call_without_return, 64 bit, repeat = 16 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       189         18 
+        59         18 
+        52         18 
+        53         18 
+        52         18 
+        59         18 
+        53         18 
+        52         18 
+        53         18 
+        52         18 
+
+
+call_without_return, 64 bit, repeat = 100 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1541        102 
+       331        102 
+       305        102 
+       305        102 
+       305        102 
+       305        102 
+       305        102 
+       306        102 
+       306        102 
+       306        102 
+
+
+call_without_return, 32 bit, repeat = 1 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+        13          3 
+         7          3 
+        13          3 
+        13          3 
+        13          3 
+
+
+call_without_return, 32 bit, repeat = 4 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       123          6 
+        19          6 
+        26          6 
+        19          6 
+        19          6 
+
+
+call_without_return, 32 bit, repeat = 16 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       221         18 
+        65         18 
+        59         18 
+        59         18 
+        59         18 
+
+
+call_without_return, 32 bit, repeat = 100 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1306        102 
+       383        102 
+       357        102 
+       357        102 
+       357        102 
+
+
+call + return, 32 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    958613     202010 
+    958243     202010 
+    957691     202010 
+    957697     202010 
+    973798     202011 
+
+
+call + return + 0 NOPs, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    958347     202013 
+    957724     202013 
+    958185     202013 
+    957678     202013 
+    981357     202014 
+    883994     202013 
+    884449     202013 
+    883987     202013 
+    883994     202013 
+    883994     202013 
+
+
+call + return + 2 NOPs, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    858221     402013 
+    843979     402014 
+    791466     402013 
+    791011     402013 
+    791004     402013 
+    791017     402013 
+    791004     402013 
+    791505     402013 
+    791011     402013 
+    804427     402014 
+
+
+call + return + 8 NOPs, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    673309    1002013 
+    672035    1002013 
+    672457    1002013 
+    672048    1002013 
+    672009    1002013 
+    672009    1002013 
+    672009    1002013 
+    672464    1002013 
+    672048    1002013 
+    672003    1002013 
+
+
+call + return + longNOP(2), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    719914     302013 
+    719615     302013 
+    719024     302013 
+    719017     302013 
+    719023     302013 
+    719023     302013 
+    719530     302013 
+    719023     302013 
+    732115     302014 
+    719017     302013 
+
+
+call + return + longNOP(3), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    708604     302013 
+    707441     302013 
+    707440     302013 
+    703762     302014 
+    653458     302013 
+    653009     302013 
+    653009     302013 
+    653010     302013 
+    653010     302013 
+    653009     302013 
+
+
+call + return + longNOP(5), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    722840     302013 
+    721572     302013 
+    722007     302013 
+    721520     302013 
+    745590     302014 
+    666004     302013 
+    666004     302013 
+    666452     302013 
+    666042     302013 
+    666003     302013 
+
+
+call + return + longNOP(8), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    679484     302013 
+    678542     302013 
+    678022     302013 
+    678022     302013 
+    678022     302013 
+    678022     302013 
+    678022     302013 
+    692413     302014 
+    678022     302013 
+    678022     302013 
+
+
+push + call + return imm, 32 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    844356     302010 
+    843251     302010 
+    842867     302010 
+    842861     302010 
+    843355     302010 
+
+
+push + call + return imm + longNOP(0), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    779760     302013 
+    790803     302014 
+    779025     302013 
+    779025     302013 
+    779025     302013 
+    779025     302013 
+    796952     302014 
+    800248     302015 
+    779025     302013 
+    788411     302014 
+
+
+push + call + return imm + longNOP(2), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    676098     402013 
+    675019     402013 
+    675461     402013 
+    675012     402013 
+    675006     402013 
+    675006     402013 
+    675006     402013 
+    675461     402013 
+    675051     402013 
+    688506     402014 
+
+
+push + call + return imm + longNOP(5), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    694233     402013 
+    692036     402013 
+    692003     402013 
+    692003     402013 
+    704730     402014 
+    692464     402013 
+    692003     402013 
+    692003     402013 
+    692003     402013 
+    692003     402013 
+
+
+call register + return, 32 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2509221     202006 
+   2499257     202005 
+   2480302     202005 
+   2554897     202008 
+   2306993     202005 
+
+
+call register + return + longNOP(0), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2308507     202006 
+   2302443     202007 
+   2308462     202006 
+   2290515     202006 
+   2320545     202007 
+   2290509     202006 
+   2308462     202006 
+   2316041     202007 
+   2308455     202006 
+   2290509     202006 
+
+
+call register + return + longNOP(2), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1936838     302006 
+   1938814     302007 
+   1889004     302006 
+   1889453     302006 
+   1879430     302007 
+   1850219     302006 
+   1854496     302006 
+   1854977     302006 
+   1946185     302008 
+   1992497     302006 
+
+
+call register + return + longNOP(5), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    941558     302007 
+    925321     302006 
+    925190     302006 
+    925197     302006 
+    925717     302006 
+    925190     302006 
+    925197     302006 
+    939198     302007 
+    925191     302006 
+    925210     302006 
+
+
+call memory + return, 32 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2677851     202004 
+   2588436     202003 
+   2597875     202004 
+   2588437     202003 
+   2588495     202003 
+
+
+call memory + return + longNOP(0), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2757067     202004 
+   2589457     202003 
+   2569015     202003 
+   2582964     202004 
+   2569444     202003 
+   2579675     202004 
+   2569444     202003 
+   2569444     202003 
+   2595503     202004 
+   2568989     202003 
+
+
+call memory + return + longNOP(2), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2389322     302003 
+   2476058     302004 
+   2479166     302003 
+   2502396     302004 
+   2158254     302003 
+   2163935     302003 
+   2163500     302003 
+   2478015     302005 
+   2703474     302003 
+   2647854     302004 
+
+
+call memory + return + longNOP(5), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    910774     302003 
+    922591     302004 
+    909155     302003 
+    908674     302003 
+    908687     302003 
+    908674     302003 
+    909136     302003 
+    908681     302003 
+    921655     302004 
+    908681     302003 
+
+
+jmp (1 per 16 bytes), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    305220     102006 
+    303017     102006 
+    341425     102008 
+    303017     102006 
+    303024     102006 
+    303017     102006 
+    319871     102007 
+    303017     102006 
+    303017     102006 
+    303023     102006 
+
+
+jmp (2 per 16 bytes), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    359990     102006 
+    358111     102006 
+    379724     102007 
+    302985     102006 
+    302985     102006 
+    302991     102006 
+    302985     102006 
+    302985     102006 
+    303447     102006 
+    302985     102006 
+
+
+jmp (3 per 16 bytes), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    508800     102007 
+    496724     102006 
+    496685     102006 
+    497140     102006 
+    496691     102006 
+    496684     102006 
+    496691     102006 
+    496691     102006 
+    496684     102006 
+    496684     102006 
+
+
+jmp (4 per 16 bytes), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    637605     102007 
+    623507     102006 
+    623474     102006 
+    623474     102006 
+    623962     102006 
+    623474     102006 
+    623474     102006 
+    623474     102006 
+    623474     102006 
+    623955     102006 
+
+
+jmp (5 per 16 bytes), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    803816     102006 
+    804050     102006 
+    804460     102006 
+    804018     102006 
+    817037     102007 
+    804018     102006 
+    804460     102006 
+    804018     102006 
+    804018     102006 
+    804018     102006 
+
+
+jmp (6 per 16 bytes), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    872001     102006 
+    872189     102006 
+    883591     102007 
+    872105     102006 
+    872105     102006 
+    872105     102006 
+    872586     102006 
+    872111     102006 
+    872105     102006 
+    872105     102006 
+
+
+jmp (8 per 16 bytes), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    872105     102006 
+    872144     102006 
+    872599     102006 
+    872105     102006 
+    872105     102006 
+    889252     102007 
+    805447     102006 
+    805005     102006 
+    805006     102006 
+    805006     102006 
+
+
+jmp register + lea, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    306403     202006 
+    303050     202006 
+    303024     202006 
+    303024     202006 
+    303017     202006 
+    303023     202006 
+    303472     202006 
+    303017     202006 
+    303023     202006 
+    303023     202006 
+
+
+jmp memory + lea + mov, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    307086     302006 
+    331298     302008 
+    303023     302006 
+    312981     302007 
+    303023     302006 
+    303017     302006 
+    303017     302006 
+    303478     302006 
+    303017     302006 
+    303017     302006 
+
+
+conditional jump, taken=yes, 2 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    329576     103006 
+    328309     103006 
+    328757     103006 
+    328276     103006 
+    328276     103006 
+    341757     103007 
+    328276     103006 
+    328276     103006 
+    328269     103006 
+    328276     103006 
+
+
+conditional jump, taken=no, 2 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    114406     203006 
+    112697     203006 
+    112690     203006 
+    112697     203006 
+    112697     203006 
+    112690     203006 
+    112697     203006 
+    112697     203006 
+    112690     203006 
+    112697     203006 
+
+
+conditional jump, taken=alternate, 1 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    179933     304007 
+    331071     104006 
+    165854     304006 
+    328360     104006 
+    164379     304006 
+    328289     104006 
+    164275     304006 
+    328295     104006 
+    164275     304006 
+    328289     104006 
+
+
+conditional jump, taken=alternate, 2 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    125326     204006 
+    306332     104006 
+    125697     204006 
+    303180     104006 
+    124079     204006 
+    303056     104006 
+    124741     204006 
+    303030     104006 
+    124020     204006 
+    303036     104006 
+
+
+conditional jump, taken=alternate, 3 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    110410     204006 
+    544460     104006 
+    112282     204006 
+    542302     104006 
+    111872     204006 
+    555575     104007 
+    111696     204006 
+    541412     104006 
+    112145     204006 
+    541489     104006 
+
+
+conditional jump, taken=alternate, 4 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    110526     204006 
+    626743     104006 
+    112321     204006 
+    637533     104007 
+    112048     204006 
+    625235     104006 
+    111853     204006 
+    624475     104006 
+    111891     204006 
+    625223     104006 
+
+
+conditional jump, taken=alternate, 5 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    102213     204006 
+    654856     104006 
+    103825     204006 
+    652509     104006 
+    103070     204006 
+    652281     104006 
+    103161     204006 
+    652912     104006 
+    103006     204006 
+    652360     104006 
+
+
+conditional jump, taken=alternate, 6 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    110832     170006 
+    742496     104006 
+    112463     170006 
+    740078     104006 
+    111826     170006 
+    740916     104006 
+    111619     170006 
+    741533     104006 
+    111749     170006 
+    740727     104006 
+
+
+conditional jump, taken=alternate, 8 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    110585     104006 
+    778498     104006 
+    113106     104006 
+    777751     104006 
+    112652     104006 
+    778128     104006 
+    112638     104006 
+    777907     104006 
+    126152     104007 
+    777757     104006 
+
+
+jecxz, taken=alternate, 2 per 16 bytes, 32 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    330148     102012 
+    328328     102012 
+    243360     202012 
+    240591     202012 
+    331052     102012 
+    328407     102012 
+    240760     202012 
+    240566     202012 
+    328328     102012 
+    328329     102012 
+
+
+jecxz, taken=alternate, 2 per 16 bytes, 64 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    329687     102018 
+    328303     102018 
+    255373     202019 
+    240683     202018 
+    331507     102018 
+    328348     102018 
+    240708     202018 
+    240585     202018 
+    328342     102018 
+    328342     102018 
+
+
+jrcxz, taken=alternate, 2 per 16 bytes, 64 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    304571     102018 
+    303069     102018 
+    224666     202018 
+    222176     202018 
+    304830     102018 
+    303095     102018 
+    222138     202018 
+    222814     202018 
+    303173     102018 
+    303062     102018 
+
+
+loop, taken=alternate, 2 per 16 bytes, 64 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    241319     302016 
+    240507     302016 
+    332163     202016 
+    328504     202016 
+    242275     302016 
+    240709     302016 
+    328920     202016 
+    328289     202016 
+    240657     302016 
+    240546     302016 
+
+
+loop, taken=10, 2 per 16 bytes, 64 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3117868    1202003 
+   3070015    1202002 
+   3072933    1202003 
+   2813011    1202002 
+   2813499    1202002 
+   2825128    1202003 
+   2813499    1202002 
+   2820226    1202003 
+   2793011    1202002 
+   2793538    1202002 
+
+
+loope, alternate, 2 per 16 bytes, 64 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    783276     303016 
+    783244     303016 
+   2726711     203017 
+   2713178     203016 
+    783243     303016 
+    783250     303016 
+   2668361     203017 
+   2504483     203016 
+    722976     303016 
+    723002     303016 
+
+
+loopne, alternate, 2 per 16 bytes, 64 bit mode
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    723112     302016 
+    723034     302016 
+   2531412     202017 
+   2504470     202016 
+    722989     302016 
+    723002     302016 
+   2516950     202017 
+   2504476     202016 
+    722995     302016 
+    795724     302018 
+
+
+cmp + conditional jump, alternate, 2 per 16 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    330330     202018 
+    182117     302018 
+    330707     202018 
+    211913     302019 
+    304161     202018 
+    166276     302018 
+    303056     202018 
+    165594     302018 
+    303556     202018 
+    165503     302018 
+
+
+test + conditional jump, alternate, 2 per 16 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    102225     302018 
+    306306     202018 
+    102596     302018 
+    303134     202018 
+    101211     302018 
+    303056     202018 
+    101043     302018 
+    315933     202019 
+    101199     302018 
+    303765     202018 
+
+
+add + conditional jump, alternate, 2 per 16 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    188520     302018 
+    331929     202018 
+    188630     302018 
+    328342     202018 
+    186915     302018 
+    328289     202018 
+    186895     302018 
+    328868     202018 
+    186895     302018 
+    328290     202018 
+
+
+and + conditional jump, alternate, 2 per 16 bytes
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    304596     202018 
+    175370     302018 
+    305195     202018 
+    172673     302018 
+    303076     202018 
+    172523     302018 
+    303088     202018 
+    172516     302018 
+    303635     202018 
+    172523     302018 
+
+
+Latency: xadd [m8], r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54379      10206 
+     54230      10206 
+     54185      10206 
+     54191      10206 
+     54191      10206 
+     54191      10206 
+     54191      10206 
+     54184      10206 
+     54184      10206 
+     54191      10206 
+
+
+Latency: xadd [m16], r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54353      10206 
+     54236      10206 
+     54190      10206 
+     54197      10206 
+     54197      10206 
+     54197      10206 
+     54197      10206 
+     54191      10206 
+     54191      10206 
+     54197      10206 
+
+
+Latency: xadd [m32], r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54328      10206 
+     54705      10206 
+     54191      10206 
+     54184      10206 
+     54184      10206 
+     54191      10206 
+     54191      10206 
+     54191      10206 
+     54191      10206 
+     54185      10206 
+
+
+Latency: xadd [m64], r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50355      10206 
+     50044      10206 
+     50024      10206 
+     50024      10206 
+     50024      10206 
+     50024      10206 
+     50024      10206 
+     50024      10206 
+     50024      10206 
+     50024      10206 
+
+
+Latency: lock xadd [m8], r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    260150      10206 
+    260000      10206 
+    260007      10206 
+    260007      10206 
+    260007      10206 
+    260007      10206 
+    260007      10206 
+    260007      10206 
+    260007      10206 
+    260007      10206 
+
+
+Latency: lock xadd [m16], r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    260182      10206 
+    260013      10206 
+    260006      10206 
+    260000      10206 
+    260013      10206 
+    260013      10206 
+    272435      10207 
+    260481      10206 
+    260013      10206 
+    260013      10206 
+
+
+Latency: lock xadd [m32], r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    260195      10206 
+    260001      10206 
+    260007      10206 
+    260007      10206 
+    260007      10206 
+    313794      10207 
+    260495      10206 
+    260007      10206 
+    260007      10206 
+    260007      10206 
+
+
+Latency: lock xadd [m64], r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    240169      10206 
+    239999      10206 
+    240012      10206 
+    240012      10206 
+    240012      10206 
+    240006      10206 
+    240013      10206 
+    240442      10206 
+    240013      10206 
+    240006      10206 
+
+
+Latency: cmpxchg [m8], r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90207      10206 
+     90019      10206 
+     90012      10206 
+     90005      10206 
+     90012      10206 
+     90006      10206 
+     90012      10206 
+     90005      10206 
+     90005      10206 
+     90006      10206 
+
+
+Latency: cmpxchg [m16], r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90161      10206 
+     90038      10206 
+     90012      10206 
+     90018      10206 
+     90012      10206 
+     90012      10206 
+     90012      10206 
+     90012      10206 
+     90019      10206 
+     90012      10206 
+
+
+Latency: cmpxchg [m32], r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    119321      10206 
+    119191      10206 
+    119178      10206 
+    119178      10206 
+    119178      10206 
+    119178      10206 
+    119178      10206 
+    119178      10206 
+    119178      10206 
+    119178      10206 
+
+
+Latency: cmpxchg [m64], r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     97676      10206 
+     97545      10206 
+     97520      10206 
+     97513      10206 
+     97513      10206 
+     97520      10206 
+     97519      10206 
+     97520      10206 
+     97519      10206 
+     97513      10206 
+
+
+Latency: lock cmpxchg [m8], r8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    280144      10206 
+    279994      10206 
+    280013      10206 
+    280007      10206 
+    280007      10206 
+    280013      10206 
+    280436      10206 
+    280007      10206 
+    280007      10206 
+    280007      10206 
+
+
+Latency: lock cmpxchg [m16], r16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    303473      10206 
+    303323      10206 
+    303336      10206 
+    303342      10206 
+    303343      10206 
+    316927      10207 
+    303336      10206 
+    303342      10206 
+    303343      10206 
+    303342      10206 
+
+
+Latency: lock cmpxchg [m32], r32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    325169      10206 
+    325000      10206 
+    325013      10206 
+    325013      10206 
+    336850      10207 
+    325013      10206 
+    325013      10206 
+    325474      10206 
+    325013      10206 
+    325013      10206 
+
+
+Latency: lock cmpxchg [m64], r64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    303485      10206 
+    303329      10206 
+    303342      10206 
+    303349      10206 
+    303348      10206 
+    303349      10206 
+    316803      10207 
+    303349      10206 
+    303348      10206 
+    303342      10206 
+
+
+Latency: add [m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50161      10206 
+     50018      10206 
+     50044      10206 
+     50018      10206 
+     50018      10206 
+     50018      10206 
+     50018      10206 
+     50018      10206 
+     50018      10206 
+     50018      10206 
+
+
+Latency: lock add [m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    260163      10206 
+    260013      10206 
+    260013      10206 
+    293559      10207 
+    248716      10206 
+    239993      10206 
+    240000      10206 
+    239993      10206 
+    239999      10206 
+    239993      10206 
+
+
+Latency: cmpxchg8b [m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    130130      10206 
+    130072      10206 
+    130026      10206 
+    130032      10206 
+    130026      10206 
+    130026      10206 
+    130033      10206 
+    130026      10206 
+    130026      10206 
+    130032      10206 
+
+
+Latency: lock cmpxchg8b [m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    347783      10206 
+    347640      10206 
+    347640      10206 
+    347640      10206 
+    347640      10206 
+    347640      10206 
+    347634      10206 
+    347634      10206 
+    348108      10206 
+    347640      10206 
+
+
+Latency: cmpxchg16b [m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    660986      10206 
+    660823      10206 
+    673634      10207 
+    661291      10206 
+    660804      10206 
+    660810      10206 
+    660803      10206 
+    660804      10206 
+    660810      10206 
+    661284      10206 
+
+
+Latency: lock cmpxchg16b [m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    752836      10207 
+    739960      10206 
+    740396      10206 
+    739967      10206 
+    739967      10206 
+    739960      10206 
+    739960      10206 
+    740396      10206 
+    739967      10206 
+    751998      10207 
+
+
+Throughput prefetcht0 [m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     14521      10217 
+     14436      10217 
+     14404      10217 
+     14398      10217 
+     14397      10217 
+     14404      10217 
+     14398      10217 
+     14397      10217 
+     14404      10217 
+     14398      10217 
+
+
+Throughput prefetcht1 [m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     14496      10217 
+     14398      10217 
+     14392      10217 
+     14391      10217 
+     14398      10217 
+     14392      10217 
+     14391      10217 
+     14398      10217 
+     14392      10217 
+     14391      10217 
+
+
+Throughput prefetcht2 [m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13520      10217 
+     13325      10217 
+     13292      10217 
+     13286      10217 
+     13293      10217 
+     13286      10217 
+     13292      10217 
+     13286      10217 
+     13293      10217 
+     13286      10217 
+
+
+Throughput prefetchnta [m]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13286      10217 
+     13293      10217 
+     13325      10217 
+     13286      10217 
+     13293      10217 
+     13286      10217 
+     13292      10217 
+     13286      10217 
+     13293      10217 
+     13286      10217 
+
+

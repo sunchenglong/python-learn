@@ -1,0 +1,58 @@
+Different implementations of Taylor expansion
+
+
+
+Case 1: SSE2, 4 terms per iteration, 16 terms
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     46898      61006 
+     46768      61006 
+     47177      61006 
+     46619      61006 
+     46612      61006 
+     46618      61006 
+     46612      61006 
+     46619      61006 
+     46612      61006 
+     46618      61006 
+
+
+Case 1: SSE2, 4 terms per iteration, 160 terms
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    384670     457006 
+    382532     457006 
+    382466     457006 
+    382447     457006 
+    382447     457006 
+    382447     457006 
+    382941     457006 
+    382447     457006 
+    382447     457006 
+    395662     457007 
+
+
+Case 1: SSE2, 4 terms per iteration, 320 terms
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    732901     897006 
+    729157     897006 
+    729625     897006 
+    729118     897006 
+    729111     897006 
+    729112     897006 
+    764445     897008 
+    677742     897006 
+    673010     897006 
+    673010     897006 
+
+

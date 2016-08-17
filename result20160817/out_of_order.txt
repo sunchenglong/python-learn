@@ -1,0 +1,291 @@
+Test out-of-order execution capacity
+
+
+Case 1: integer add, chainlength = 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    550036    1100006 
+    567911    1100007 
+    550082    1100006 
+    550023    1100006 
+    561093    1100006 
+    603389    1100007 
+    550024    1100006 
+    550023    1100006 
+    550023    1100006 
+    550023    1100006 
+
+
+Case 1: integer add, chainlength = 100
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    983086    1010007 
+    969644    1010006 
+    970047    1010006 
+    969611    1010006 
+    969618    1010006 
+    969618    1010006 
+    960427    1010006 
+    982891    1010007 
+    969618    1010006 
+    969618    1010006 
+
+
+Case 1: integer add, chainlength = 1000
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    990015    1001006 
+    986583    1001006 
+    987994    1001006 
+    997861    1001007 
+    987539    1001006 
+    987987    1001006 
+    987538    1001006 
+    987532    1001006 
+    987539    1001006 
+    987994    1001006 
+
+
+Case 1: integer add, chainlength = 1000000
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1000012    1020006 
+   1000461    1020006 
+   1000038    1020006 
+   1000019    1020006 
+   1067742    1020008 
+   1000467    1020006 
+   1000012    1020006 
+   1000012    1020006 
+   1000460    1020006 
+   1000012    1020006 
+
+
+Case 2: integer mul, chainlength = 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1192224    1100006 
+   1173660    1100006 
+   1173692    1100006 
+   1134244    1100007 
+   1083362    1100006 
+   1083362    1100006 
+   1083362    1100006 
+   1083908    1100006 
+   1083362    1100006 
+   1095731    1100007 
+
+
+Case 2: integer mul, chainlength = 100
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2007831    1010006 
+   1955603    1010008 
+   1835028    1010006 
+   1835477    1010006 
+   1847931    1010007 
+   1843419    1010006 
+   1835028    1010006 
+   1835470    1010006 
+   1854541    1010007 
+   1848385    1010006 
+
+
+Case 2: integer mul, chainlength = 1000
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1986114    1001006 
+   1995584    1001007 
+   1983988    1001006 
+   1983540    1001006 
+   2013642    1001007 
+   1983540    1001006 
+   1983988    1001006 
+   1983540    1001006 
+   1995201    1001007 
+   1984105    1001006 
+
+
+Case 2: integer mul, chainlength = 1000000
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2226003    1020007 
+   2174607    1020007 
+   2010456    1020006 
+   2010060    1020006 
+   2010450    1020006 
+   2022625    1020007 
+   2010457    1020006 
+   2010450    1020006 
+   2021077    1020007 
+   2010456    1020006 
+
+
+Case 3: floating point add, chainlength = 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1117682    1100008 
+   1000370    1100006 
+   1000500    1100006 
+   1000000    1100006 
+   1000006    1100006 
+   1000467    1100006 
+   1000006    1100006 
+   1013572    1100007 
+   1000461    1100006 
+   1000006    1100006 
+
+
+Case 3: floating point add, chainlength = 100
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1835769    1010006 
+   1866040    1010008 
+   1835035    1010006 
+   1835483    1010006 
+   1835034    1010006 
+   1848398    1010007 
+   1835483    1010006 
+   1835034    1010006 
+   1846234    1010007 
+   1835035    1010006 
+
+
+Case 3: floating point add, chainlength = 1000
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2150389    1001006 
+   2149382    1001006 
+   2165599    1001007 
+   2149310    1001006 
+   2149310    1001006 
+   2112832    1001008 
+   1983969    1001006 
+   1983514    1001006 
+   1997333    1001007 
+   1983963    1001006 
+
+
+Case 3: floating point add, chainlength = 1000000
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2178118    1020007 
+   2166698    1020006 
+   2167165    1020006 
+   2141510    1020008 
+   2000447    1020006 
+   2000447    1020006 
+   1999998    1020006 
+   2010372    1020007 
+   1999998    1020006 
+   2000447    1020006 
+
+
+Case 4: floating point mul, chainlength = 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1679223    1100006 
+   1696273    1100008 
+   1550055    1100006 
+   1550471    1100006 
+   1550016    1100006 
+   1550478    1100006 
+   1562295    1100007 
+   1550009    1100006 
+   1550484    1100006 
+   1550010    1100006 
+
+
+Case 4: floating point mul, chainlength = 100
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2835475    1010006 
+   2835482    1010006 
+   2848397    1010007 
+   2835027    1010006 
+   2845557    1010007 
+   2835476    1010006 
+   2859168    1010008 
+   2835482    1010006 
+   2835476    1010006 
+   2845759    1010007 
+
+
+Case 4: floating point mul, chainlength = 1000
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2984495    1001006 
+   2997910    1001007 
+   2983975    1001006 
+   2996071    1001007 
+   2983981    1001006 
+   3011294    1001008 
+   2983974    1001006 
+   2983981    1001006 
+   3003325    1001007 
+   2983975    1001006 
+
+
+Case 4: floating point mul, chainlength = 1000000
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3153689    1020008 
+   3000029    1020006 
+   3012730    1020007 
+   3000452    1020006 
+   3000452    1020006 
+   3011781    1020007 
+   3000452    1020006 
+   3026485    1020008 
+   3000452    1020006 
+   3018489    1020007 
+
+

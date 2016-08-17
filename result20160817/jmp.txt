@@ -1,0 +1,291 @@
+Test jump instructions
+
+
+jmp (1 per 16 bytes), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    304551     102006 
+    303017     102006 
+    303017     102006 
+    303017     102006 
+    303024     102006 
+    303017     102006 
+    303017     102006 
+    303024     102006 
+    303466     102006 
+    303017     102006 
+
+
+jmp (2 per 16 bytes), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    329706     102006 
+    328335     102006 
+    356097     102007 
+    303005     102006 
+    303447     102006 
+    302998     102006 
+    302998     102006 
+    362947     102007 
+    302998     102006 
+    302998     102006 
+
+
+jmp (3 per 16 bytes), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    498550     102006 
+    497718     102006 
+    497685     102006 
+    510932     102007 
+    497685     102006 
+    497685     102006 
+    497692     102006 
+    497692     102006 
+    497685     102006 
+    497685     102006 
+
+
+jmp (4 per 16 bytes), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    625099     102006 
+    624053     102006 
+    636396     102007 
+    622934     102006 
+    622935     102006 
+    622928     102006 
+    622642     102006 
+    621849     102006 
+    621849     102006 
+    621849     102006 
+
+
+jmp (5 per 16 bytes), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    803823     102006 
+    830310     102007 
+    804018     102006 
+    804460     102006 
+    804018     102006 
+    804024     102006 
+    804017     102006 
+    804472     102006 
+    804018     102006 
+    804018     102006 
+
+
+jmp (6 per 16 bytes), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    804928     102006 
+    805019     102006 
+    805461     102006 
+    805019     102006 
+    805019     102006 
+    805025     102006 
+    805460     102006 
+    817758     102007 
+    805018     102006 
+    805025     102006 
+
+
+jmp (8 per 16 bytes), 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    872164     102006 
+    886204     102007 
+    872580     102006 
+    872105     102006 
+    872099     102006 
+    872106     102006 
+    872580     102006 
+    872099     102006 
+    872099     102006 
+    896104     102007 
+
+
+conditional jump, taken=yes, 2 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    305064     103006 
+    303069     103006 
+    303466     103006 
+    303050     103006 
+    303017     103006 
+    303017     103006 
+    320268     103007 
+    303017     103006 
+    303017     103006 
+    303023     103006 
+
+
+conditional jump, taken=no, 2 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    114205     203006 
+    112716     203006 
+    112691     203006 
+    112690     203006 
+    112697     203006 
+    112691     203006 
+    112690     203006 
+    112697     203006 
+    112691     203006 
+    112690     203006 
+
+
+conditional jump, taken=alternate, 1 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    166829     304006 
+    330506     104006 
+    165594     304006 
+    328322     104006 
+    164262     304006 
+    328283     104006 
+    164242     304006 
+    328283     104006 
+    164242     304006 
+    338631     104007 
+
+
+conditional jump, taken=alternate, 2 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    125287     204006 
+    306215     104006 
+    125905     204006 
+    303115     104006 
+    124020     204006 
+    303056     104006 
+    124027     204006 
+    303037     104006 
+    124020     204006 
+    303036     104006 
+
+
+conditional jump, taken=alternate, 3 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    102817     204006 
+    501949     104006 
+    103759     204006 
+    500844     104006 
+    103148     204006 
+    500948     104006 
+    103889     204006 
+    499902     104006 
+    103376     204006 
+    500377     104006 
+
+
+conditional jump, taken=alternate, 4 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    102083     204006 
+    589030     104007 
+    103721     204006 
+    576667     104006 
+    103454     204006 
+    577168     104006 
+    103272     204006 
+    577226     104006 
+    103474     204006 
+    577421     104006 
+
+
+conditional jump, taken=alternate, 5 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    102330     204006 
+    654257     104006 
+    104065     204006 
+    652899     104006 
+    103057     204006 
+    652593     104006 
+    103096     204006 
+    652678     104006 
+    103051     204006 
+    652912     104006 
+
+
+conditional jump, taken=alternate, 6 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    102343     170006 
+    685724     104006 
+    103707     170006 
+    684326     104006 
+    103343     170006 
+    684138     104006 
+    103077     170006 
+    695526     104007 
+    103148     170006 
+    683858     104006 
+
+
+conditional jump, taken=alternate, 8 per 16 bytes, 64 bit
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    101861     104006 
+    718789     104006 
+    104332     104006 
+    717919     104006 
+    103948     104006 
+    731022     104007 
+    103993     104006 
+    717801     104006 
+    103954     104006 
+    717542     104006 
+
+

@@ -1,0 +1,1032 @@
+
+
+Measure unaligned read/write throughput
+
+
+
+tmode = R, alignment = 32, register size = 32, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    145243     102009 
+    132691     102008 
+    132717     102008 
+    132685     102008 
+    132691     102008 
+    132684     102008 
+    132684     102008 
+    132691     102008 
+    132685     102008 
+    132685     102008 
+
+
+tmode = R, alignment = 32, register size = 32, offset = -1 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    132925     102008 
+    132684     102008 
+    132685     102008 
+    132685     102008 
+    132685     102008 
+    132691     102008 
+    132684     102008 
+    132684     102008 
+    132691     102008 
+    132685     102008 
+
+
+tmode = R, alignment = 32, register size = 32, offset = -2 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    132951     102008 
+    132691     102008 
+    132717     102008 
+    132685     102008 
+    132691     102008 
+    132684     102008 
+    132684     102008 
+    132691     102008 
+    132685     102008 
+    132685     102008 
+
+
+tmode = R, alignment = 32, register size = 128, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    143988     102008 
+    143741     102008 
+    143747     102008 
+    143741     102008 
+    143741     102008 
+    143747     102008 
+    143741     102008 
+    143741     102008 
+    143747     102008 
+    143741     102008 
+
+
+tmode = R, alignment = 32, register size = 128, offset = -4 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    133081     102008 
+    132685     102008 
+    132685     102008 
+    132685     102008 
+    132684     102008 
+    132684     102008 
+    132684     102008 
+    132684     102008 
+    132684     102008 
+    132684     102008 
+
+
+tmode = R, alignment = 32, register size = 128, offset = -8 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    132958     102008 
+    132685     102008 
+    132685     102008 
+    132685     102008 
+    132685     102008 
+    132685     102008 
+    132685     102008 
+    132684     102008 
+    132684     102008 
+    132684     102008 
+
+
+tmode = R, alignment = 64, register size = 32, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    132795     102008 
+    132704     102008 
+    132685     102008 
+    132685     102008 
+    132685     102008 
+    132691     102008 
+    132684     102008 
+    133133     102008 
+    132691     102008 
+    132684     102008 
+
+
+tmode = R, alignment = 64, register size = 32, offset = -1 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1500304     102008 
+   1500466     102008 
+   1500031     102008 
+   1512856     102009 
+   1500467     102008 
+   1500018     102008 
+   1500466     102008 
+   1500018     102008 
+   1512095     102009 
+   1500018     102008 
+
+
+tmode = R, alignment = 64, register size = 32, offset = -2 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1625292     102008 
+   1638572     102009 
+   1625052     102008 
+   1625020     102008 
+   1625507     102008 
+   1625026     102008 
+   1560266     102009 
+   1500005     102008 
+   1500454     102008 
+   1500005     102008 
+
+
+tmode = R, alignment = 64, register size = 128, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    132945     102008 
+    132710     102008 
+    132684     102008 
+    132684     102008 
+    132684     102008 
+    132684     102008 
+    132678     102008 
+    132685     102008 
+    132685     102008 
+    132685     102008 
+
+
+tmode = R, alignment = 64, register size = 128, offset = -4 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1625293     102008 
+   1625526     102008 
+   1623557     102010 
+   1500454     102008 
+   1500005     102008 
+   1500453     102008 
+   1500005     102008 
+   1512654     102009 
+   1500005     102008 
+   1500005     102008 
+
+
+tmode = R, alignment = 64, register size = 128, offset = -8 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1637967     102009 
+   1625514     102008 
+   1625019     102008 
+   1625507     102008 
+   1625019     102008 
+   1646593     102009 
+   1625026     102008 
+   1625507     102008 
+   1625026     102008 
+   1585740     102010 
+
+
+tmode = R, alignment = 4096, register size = 32, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    144111     102008 
+    143786     102008 
+    143748     102008 
+    143747     102008 
+    143748     102008 
+    143747     102008 
+    143748     102008 
+    143747     102008 
+    143748     102008 
+    143747     102008 
+
+
+tmode = R, alignment = 4096, register size = 32, offset = -1 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4654461     102009 
+   4670575     102009 
+   4285905     102008 
+   4297644     102009 
+   4285450     102008 
+   4303513     102009 
+   4317937     102009 
+   4285476     102008 
+   4298079     102009 
+   4285450     102008 
+
+
+tmode = R, alignment = 4096, register size = 32, offset = -2 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4656574     102009 
+   4655313     102009 
+   4642599     102008 
+   4345770     102009 
+   4297065     102009 
+   4285456     102008 
+   4296279     102009 
+   4317209     102009 
+   4285457     102008 
+   4296396     102009 
+
+
+tmode = R, alignment = 4096, register size = 128, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    133263     102008 
+    132723     102008 
+    132684     102008 
+    132684     102008 
+    132684     102008 
+    132684     102008 
+    132684     102008 
+    132684     102008 
+    132684     102008 
+    132684     102008 
+
+
+tmode = R, alignment = 4096, register size = 128, offset = -4 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4285899     102008 
+   4298060     102009 
+   4285476     102008 
+   4296591     102009 
+   4336637     102010 
+   4285918     102008 
+   4297774     102009 
+   4285463     102008 
+   4297228     102009 
+   4309415     102010 
+
+
+tmode = R, alignment = 4096, register size = 128, offset = -8 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4635787     102010 
+   4285905     102008 
+   4297098     102009 
+   4285450     102008 
+   4296695     102009 
+   4311274     102010 
+   4285450     102008 
+   4298138     102009 
+   4295324     102009 
+   4285905     102008 
+
+
+tmode = W, alignment = 32, register size = 32, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    210275     102009 
+    182390     102008 
+    182429     102008 
+    182416     102008 
+    182383     102008 
+    182384     102008 
+    182384     102008 
+    182383     102008 
+    182384     102008 
+    182384     102008 
+
+
+tmode = W, alignment = 32, register size = 32, offset = -1 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    197047     102009 
+    168357     102008 
+    168396     102008 
+    168350     102008 
+    168356     102008 
+    168350     102008 
+    168363     102008 
+    168356     102008 
+    168350     102008 
+    168357     102008 
+
+
+tmode = W, alignment = 32, register size = 32, offset = -2 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    195442     102009 
+    168356     102008 
+    168395     102008 
+    168350     102008 
+    168357     102008 
+    168350     102008 
+    168356     102008 
+    168350     102008 
+    168357     102008 
+    187064     102009 
+
+
+tmode = W, alignment = 32, register size = 128, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    195669     102009 
+    168357     102008 
+    168357     102008 
+    168357     102008 
+    168357     102008 
+    168357     102008 
+    168383     102008 
+    168357     102008 
+    168357     102008 
+    168356     102008 
+
+
+tmode = W, alignment = 32, register size = 128, offset = -4 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    212570     102009 
+    182384     102008 
+    182384     102008 
+    182384     102008 
+    182384     102008 
+    230419     102010 
+    168350     102008 
+    168798     102008 
+    168343     102008 
+    168343     102008 
+
+
+tmode = W, alignment = 32, register size = 128, offset = -8 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    215195     102009 
+    182429     102008 
+    182383     102008 
+    182383     102008 
+    182383     102008 
+    182383     102008 
+    182409     102008 
+    182403     102008 
+    182383     102008 
+    182383     102008 
+
+
+tmode = W, alignment = 64, register size = 32, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    209326     102009 
+    182390     102008 
+    182416     102008 
+    182384     102008 
+    182409     102008 
+    182383     102008 
+    182384     102008 
+    182383     102008 
+    182383     102008 
+    182384     102008 
+
+
+tmode = W, alignment = 64, register size = 32, offset = -1 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   5861518     102010 
+   5615656     102009 
+   5381604     102009 
+   5380395     102009 
+   5369182     102008 
+   5393973     102009 
+   5381110     102009 
+   5379992     102009 
+   5368753     102008 
+   5392543     102009 
+
+
+tmode = W, alignment = 64, register size = 32, offset = -2 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   5396625     102009 
+   5414591     102010 
+   5459285     102009 
+   5403261     102009 
+   5369195     102008 
+   5387044     102009 
+   5381532     102009 
+   5392835     102009 
+   5380895     102009 
+   5369202     102008 
+
+
+tmode = W, alignment = 64, register size = 128, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    197645     102009 
+    168357     102008 
+    168357     102008 
+    168357     102008 
+    168357     102008 
+    168357     102008 
+    168396     102008 
+    168357     102008 
+    168357     102008 
+    168357     102008 
+
+
+tmode = W, alignment = 64, register size = 128, offset = -4 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   5413947     102010 
+   5381727     102009 
+   5401363     102010 
+   5368766     102008 
+   5402839     102010 
+   5388162     102009 
+   5395578     102010 
+   5379829     102009 
+   5369214     102008 
+   5377313     102009 
+
+
+tmode = W, alignment = 64, register size = 128, offset = -8 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   5863903     102010 
+   5698920     102010 
+   5381578     102009 
+   5368766     102008 
+   5448807     102010 
+   5400271     102010 
+   5381675     102009 
+   5368760     102008 
+   5379719     102009 
+   5393797     102010 
+
+
+tmode = W, alignment = 4096, register size = 32, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    211328     102009 
+    182423     102008 
+    230425     102009 
+    171905     102008 
+    168337     102008 
+    168337     102008 
+    168344     102008 
+    168799     102008 
+    168344     102008 
+    168344     102008 
+
+
+tmode = W, alignment = 4096, register size = 32, offset = -1 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   5586776     102011 
+   5381987     102009 
+   5380453     102009 
+   5368766     102008 
+   5394525     102009 
+   5380174     102009 
+   5380531     102009 
+   5390073     102009 
+   5434247     102009 
+   5397600     102010 
+
+
+tmode = W, alignment = 4096, register size = 32, offset = -2 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   5425836     102011 
+   5382039     102009 
+   5396645     102009 
+   5380700     102009 
+   5368766     102008 
+   5386485     102009 
+   5393564     102009 
+   5380017     102009 
+   5368766     102008 
+   5377268     102009 
+
+
+tmode = W, alignment = 4096, register size = 128, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    211529     102009 
+    182435     102008 
+    182384     102008 
+    182384     102008 
+    182390     102008 
+    182383     102008 
+    182383     102008 
+    182390     102008 
+    182384     102008 
+    182384     102008 
+
+
+tmode = W, alignment = 4096, register size = 128, offset = -4 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   5426843     102011 
+   5380135     102009 
+   5398881     102010 
+   5380863     102009 
+   5369189     102008 
+   5378172     102009 
+   5401487     102010 
+   5383605     102009 
+   5429781     102009 
+   5379166     102009 
+
+
+tmode = W, alignment = 4096, register size = 128, offset = -8 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   5874193     102011 
+   5684861     102010 
+   5380986     102009 
+   5368753     102008 
+   5381045     102009 
+   5394994     102010 
+   5380635     102009 
+   5369182     102008 
+   5378757     102009 
+   5389722     102010 
+
+
+tmode = WR, alignment = 32, register size = 32, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    227974     202009 
+    200011     202008 
+    200024     202008 
+    200011     202008 
+    200018     202008 
+    200012     202008 
+    200018     202008 
+    200011     202008 
+    200011     202008 
+    200467     202008 
+
+
+tmode = WR, alignment = 32, register size = 32, offset = -1 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4214964     202010 
+   4168482     202008 
+   4244617     202010 
+   4168476     202008 
+   4202634     202009 
+   4180215     202009 
+   4168476     202008 
+   4179721     202009 
+   4168476     202008 
+   4192942     202009 
+
+
+tmode = WR, alignment = 32, register size = 32, offset = -2 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4200521     202010 
+   4168476     202008 
+   4179630     202009 
+   4195939     202009 
+   4168496     202008 
+   4179929     202009 
+   4168502     202008 
+   4189406     202009 
+   4193397     202009 
+   4168476     202008 
+
+
+tmode = WR, alignment = 32, register size = 128, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    228436     202009 
+    200037     202008 
+    200011     202008 
+    200460     202008 
+    200025     202008 
+    200012     202008 
+    200011     202008 
+    200011     202008 
+    200012     202008 
+    200012     202008 
+
+
+tmode = WR, alignment = 32, register size = 128, offset = -4 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4213118     202010 
+   4168476     202008 
+   4180644     202009 
+   4199013     202010 
+   4168931     202008 
+   4180917     202009 
+   4168470     202008 
+   4179312     202009 
+   4193436     202010 
+   4251721     202010 
+
+
+tmode = WR, alignment = 32, register size = 128, offset = -8 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4564606     202010 
+   4529655     202009 
+   4516278     202008 
+   4381370     202010 
+   4168463     202008 
+   4181281     202009 
+   4187033     202009 
+   4168463     202008 
+   4196010     202010 
+   4168463     202008 
+
+
+tmode = WR, alignment = 64, register size = 32, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    216196     202009 
+    200012     202008 
+    200018     202008 
+    200018     202008 
+    200011     202008 
+    200011     202008 
+    200012     202008 
+    200012     202008 
+    200011     202008 
+    200011     202008 
+
+
+tmode = WR, alignment = 64, register size = 32, offset = -1 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6979297     202010 
+   6596817     202009 
+   6412666     202009 
+   6412699     202009 
+   6425237     202009 
+   6413504     202009 
+   6411080     202009 
+   6419829     202009 
+   6408759     202009 
+   6408714     202009 
+
+
+tmode = WR, alignment = 64, register size = 32, offset = -2 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6851195     202010 
+   6478595     202010 
+   6413108     202009 
+   6429241     202009 
+   6413231     202009 
+   6400959     202008 
+   6411275     202009 
+   6425900     202009 
+   6411164     202009 
+   6409234     202009 
+
+
+tmode = WR, alignment = 64, register size = 128, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    244491     202009 
+    216710     202008 
+    216684     202008 
+    217171     202008 
+    216684     202008 
+    216690     202008 
+    216684     202008 
+    216684     202008 
+    216684     202008 
+    216684     202008 
+
+
+tmode = WR, alignment = 64, register size = 128, offset = -4 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6565917     202011 
+   6414258     202009 
+   6412562     202009 
+   6427025     202010 
+   6419062     202009 
+   6412113     202009 
+   6423671     202010 
+   6409156     202009 
+   6408772     202009 
+   6419913     202010 
+
+
+tmode = WR, alignment = 64, register size = 128, offset = -8 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6528145     202011 
+   6414005     202009 
+   6411197     202009 
+   6425874     202010 
+   6418627     202009 
+   6412023     202009 
+   6423560     202010 
+   6409286     202009 
+   6408773     202009 
+   6420031     202010 
+
+
+tmode = WR, alignment = 4096, register size = 32, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1814261     202009 
+   1783060     202008 
+   1803392     202009 
+   1783021     202008 
+   1783450     202008 
+   1783015     202008 
+   1794390     202009 
+   1783028     202008 
+   1783438     202008 
+   1783015     202008 
+
+
+tmode = WR, alignment = 4096, register size = 32, offset = -1 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6459557     202011 
+   6314048     202009 
+   6311376     202009 
+   6325156     202009 
+   6318708     202009 
+   6312507     202009 
+   6322453     202009 
+   6309017     202009 
+   6308582     202009 
+   6319495     202009 
+
+
+tmode = WR, alignment = 4096, register size = 32, offset = -2 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6339229     202010 
+   6321126     202009 
+   6311974     202009 
+   6331201     202009 
+   6311617     202009 
+   6313340     202009 
+   6322323     202009 
+   6309186     202009 
+   6308647     202009 
+   6317929     202009 
+
+
+tmode = WR, alignment = 4096, register size = 128, offset = -0 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1811764     202009 
+   1783464     202008 
+   1803360     202009 
+   1783431     202008 
+   1783015     202008 
+   1783463     202008 
+   1793571     202009 
+   1783438     202008 
+   1783035     202008 
+   1783451     202008 
+
+
+tmode = WR, alignment = 4096, register size = 128, offset = -4 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6495625     202012 
+   6312540     202009 
+   6311448     202009 
+   6326469     202010 
+   6312117     202009 
+   6312345     202009 
+   6323304     202010 
+   6308939     202009 
+   6308621     202009 
+   6300431     202008 
+
+
+tmode = WR, alignment = 4096, register size = 128, offset = -8 
+
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6384924     202012 
+   6314796     202009 
+   6312072     202009 
+   6327795     202010 
+   6312267     202009 
+   6312130     202009 
+   6324844     202010 
+   6311812     202009 
+   6300892     202008 
+   6310986     202009 
+
+

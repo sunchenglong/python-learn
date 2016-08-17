@@ -1,0 +1,3702 @@
+Branch prediction
+
+
+Case 1: Consecutive single loops
+
+
+1 consecutive loops with count 2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+        84          8 
+        33          8 
+        32          8 
+        33          8 
+        32          8 
+        33          8 
+        26          8 
+        32          8 
+        33          8 
+        26          8 
+
+
+1 consecutive loops with count 4
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+        91         14 
+        72         14 
+        91         14 
+        78         14 
+        72         14 
+       104         14 
+        71         14 
+        84         14 
+        65         14 
+        65         14 
+
+
+1 consecutive loops with count 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       176         26 
+       163         26 
+       156         26 
+       162         26 
+       156         26 
+       163         26 
+       156         26 
+       156         26 
+       162         26 
+       156         26 
+
+
+1 consecutive loops with count 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       228         32 
+       260         32 
+       221         32 
+       221         32 
+       227         32 
+       221         32 
+       221         32 
+       228         32 
+       221         32 
+       221         32 
+
+
+1 consecutive loops with count 12
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       338         38 
+       267         38 
+       267         38 
+       261         38 
+       286         38 
+       261         38 
+       299         38 
+       267         38 
+       280         38 
+       267         38 
+
+
+1 consecutive loops with count 15
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       404         47 
+       338         47 
+       339         47 
+       332         47 
+       338         47 
+       339         47 
+       332         47 
+       338         47 
+       339         47 
+       332         47 
+
+
+1 consecutive loops with count 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       351         50 
+       338         50 
+       331         50 
+       351         50 
+       351         50 
+       332         50 
+       351         50 
+       344         50 
+       331         50 
+       364         50 
+
+
+1 consecutive loops with count 17
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       377         53 
+       357         53 
+       357         53 
+       357         53 
+       357         53 
+       357         53 
+       357         53 
+       357         53 
+       357         53 
+       357         53 
+
+
+1 consecutive loops with count 20
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       468         62 
+       481         62 
+       461         62 
+       481         62 
+       462         62 
+       468         62 
+       455         62 
+       474         62 
+       462         62 
+       461         62 
+
+
+1 consecutive loops with count 31
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       735         95 
+       722         95 
+       716         95 
+       715         95 
+       722         95 
+       716         95 
+       748         95 
+       722         95 
+       735         95 
+       715         95 
+
+
+1 consecutive loops with count 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       761         98 
+       742         98 
+       741         98 
+       774         98 
+       742         98 
+       761         98 
+       741         98 
+       742         98 
+       774         98 
+       741         98 
+
+
+1 consecutive loops with count 33
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       773        101 
+       708        101 
+       708        101 
+       722        101 
+       709        101 
+       741        101 
+       708        101 
+       728        101 
+       709        101 
+       709        101 
+
+
+1 consecutive loops with count 36
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       780        110 
+       780        110 
+       786        110 
+       773        110 
+       806        110 
+       806        110 
+       806        110 
+       774        110 
+       774        110 
+       780        110 
+
+
+1 consecutive loops with count 37
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       871        113 
+       800        113 
+       800        113 
+       793        113 
+       799        113 
+       799        113 
+       793        113 
+       800        113 
+       800        113 
+       793        113 
+
+
+1 consecutive loops with count 38
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       897        116 
+       890        116 
+       910        116 
+       891        116 
+       890        116 
+       910        116 
+       891        116 
+       903        116 
+       891        116 
+       890        116 
+
+
+1 consecutive loops with count 39
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1001        119 
+       930        119 
+       904        119 
+       911        119 
+       917        119 
+       937        119 
+       910        119 
+       904        119 
+       904        119 
+       923        119 
+
+
+1 consecutive loops with count 40
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       942        122 
+       943        122 
+       955        122 
+       969        122 
+       968        122 
+       943        122 
+       936        122 
+       936        122 
+       942        122 
+       936        122 
+
+
+1 consecutive loops with count 63
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1378        191 
+      1372        191 
+      1372        191 
+      1398        191 
+      1372        191 
+      1385        191 
+      1365        191 
+      1398        191 
+      1365        191 
+      1365        191 
+
+
+1 consecutive loops with count 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1509        194 
+      1541        194 
+      1502        194 
+      1502        194 
+      1508        194 
+      1522        194 
+      1534        194 
+      1535        194 
+      1521        194 
+      1509        194 
+
+
+1 consecutive loops with count 128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3101        386 
+      3030        386 
+      3062        386 
+      3062        386 
+      3062        386 
+      3029        386 
+      3030        386 
+      3029        386 
+      3030        386 
+      3029        386 
+
+
+1 consecutive loops with count 256
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6098        770 
+      6084        770 
+      6078        770 
+      6098        770 
+      6078        770 
+      6117        770 
+      6078        770 
+      6110        770 
+      6085        770 
+      6078        770 
+
+
+1 consecutive loops with count 512
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11310       1538 
+     11252       1538 
+     11245       1538 
+     11258       1538 
+     11265       1538 
+     11278       1538 
+     11245       1538 
+     11251       1538 
+     11245       1538 
+     11265       1538 
+
+
+1 consecutive loops with count 1024
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22529       3074 
+     22529       3074 
+     22510       3074 
+     22542       3074 
+     22529       3074 
+     22510       3074 
+     22529       3074 
+     22509       3074 
+     22516       3074 
+     22510       3074 
+
+
+10 consecutive loops with count 2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       365         80 
+       312         80 
+       287         80 
+       247         80 
+       267         80 
+       241         80 
+       131         80 
+       150         80 
+       247         80 
+       131         80 
+
+
+10 consecutive loops with count 4
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       910        140 
+       735        140 
+       793        140 
+       637        140 
+       760        140 
+       644        140 
+       780        140 
+       721        140 
+       637        140 
+       618        140 
+
+
+10 consecutive loops with count 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1534        260 
+      1515        260 
+      1489        260 
+      1521        260 
+      1501        260 
+      1423        260 
+      1449        260 
+      1436        260 
+      1333        260 
+      1391        260 
+
+
+10 consecutive loops with count 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1924        320 
+      1930        320 
+      1885        320 
+      1957        320 
+      1866        320 
+      1801        320 
+      1788        320 
+      1827        320 
+      1742        320 
+      1703        320 
+
+
+10 consecutive loops with count 12
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2457        380 
+      2626        380 
+      2607        380 
+      2535        380 
+      2372        380 
+      2451        380 
+      2385        380 
+      2425        380 
+      2320        380 
+      2516        380 
+
+
+10 consecutive loops with count 15
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3114        470 
+      3095        470 
+      3062        470 
+      3010        470 
+      2906        470 
+      2906        470 
+      3003        470 
+      2984        470 
+      2893        470 
+      2932        470 
+
+
+10 consecutive loops with count 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3042        500 
+      3074        500 
+      3120        500 
+      2834        500 
+      3016        500 
+      2873        500 
+      2860        500 
+      2808        500 
+      2827        500 
+      2808        500 
+
+
+10 consecutive loops with count 17
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3536        530 
+      3705        530 
+      3471        530 
+      3523        530 
+      3451        530 
+      3309        530 
+      3334        530 
+      3315        530 
+      3231        530 
+      3276        530 
+
+
+10 consecutive loops with count 20
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4101        620 
+      4004        620 
+      4004        620 
+      4069        620 
+      3900        620 
+      3978        620 
+      3900        620 
+      3829        620 
+      3809        620 
+      3939        620 
+
+
+10 consecutive loops with count 31
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6267        950 
+      6526        950 
+      6592        950 
+      6416        950 
+      6377        950 
+      6279        950 
+      6208        950 
+      6085        950 
+      6052        950 
+      6052        950 
+
+
+10 consecutive loops with count 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5993        980 
+      6006        980 
+      6051        980 
+      6045        980 
+      5876        980 
+      5928        980 
+      5999        980 
+      5804        980 
+      5772        980 
+      5772        980 
+
+
+10 consecutive loops with count 33
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6702       1010 
+      6891       1010 
+      6877       1010 
+      6585       1010 
+      6501       1010 
+      6513       1010 
+      6462       1010 
+      6513       1010 
+      6436       1010 
+      6390       1010 
+
+
+10 consecutive loops with count 36
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7280       1100 
+      7533       1100 
+      7274       1100 
+      7137       1100 
+      7150       1100 
+      7020       1100 
+      7013       1100 
+      7020       1100 
+      7020       1100 
+      7020       1100 
+
+
+10 consecutive loops with count 37
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7521       1130 
+      7767       1130 
+      7638       1130 
+      7390       1130 
+      7371       1130 
+      7274       1130 
+      7247       1130 
+      7241       1130 
+      6663       1130 
+      6650       1130 
+
+
+10 consecutive loops with count 38
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7059       1160 
+      7059       1160 
+      7040       1160 
+      6936       1160 
+      6871       1160 
+      6858       1160 
+      6825       1160 
+      6825       1160 
+      6825       1160 
+      6825       1160 
+
+
+10 consecutive loops with count 39
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7222       1190 
+      7397       1190 
+      7384       1190 
+      7235       1190 
+      7254       1190 
+      7105       1190 
+      7059       1190 
+      7026       1190 
+      7026       1190 
+      7033       1190 
+
+
+10 consecutive loops with count 40
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8106       1220 
+      8366       1220 
+      8099       1220 
+      7859       1220 
+      7833       1220 
+      7827       1220 
+      7813       1220 
+      7807       1220 
+      7807       1220 
+      7814       1220 
+
+
+10 consecutive loops with count 63
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11661       1910 
+     12116       1910 
+     11882       1910 
+     11551       1910 
+     11505       1910 
+     11518       1910 
+     11453       1910 
+     11479       1910 
+     11492       1910 
+     11440       1910 
+
+
+10 consecutive loops with count 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12844       1940 
+     12981       1940 
+     12818       1940 
+     12668       1940 
+     12636       1940 
+     12688       1940 
+     12623       1940 
+     12649       1940 
+     12597       1940 
+     12597       1940 
+
+
+10 consecutive loops with count 128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25590       3860 
+     25831       3860 
+     25486       3860 
+     25558       3860 
+     25539       3860 
+     25759       3860 
+     25513       3860 
+     25369       3860 
+     25376       3860 
+     25370       3860 
+
+
+10 consecutive loops with count 256
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     47177       7700 
+     47366       7700 
+     47073       7700 
+     46988       7700 
+     46975       7700 
+     46956       7700 
+     46956       7700 
+     46956       7700 
+     46956       7700 
+     46956       7700 
+
+
+10 consecutive loops with count 512
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    102161      15380 
+    102922      15380 
+    102232      15380 
+    101986      15380 
+    102018      15380 
+    101966      15380 
+    102447      15380 
+    101914      15380 
+    101894      15380 
+    101895      15380 
+
+
+10 consecutive loops with count 1024
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    204211      30740 
+    204991      30740 
+    204373      30740 
+    204041      30740 
+    204133      30740 
+    203976      30740 
+    203996      30740 
+    203990      30740 
+    216372      30741 
+    203976      30740 
+
+
+100 consecutive loops with count 2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4213        800 
+      3238        800 
+      3309        800 
+      2977        800 
+      3082        800 
+      2802        800 
+      2230        800 
+      2184        800 
+      2308        800 
+      2171        800 
+
+
+100 consecutive loops with count 4
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8580       1400 
+      7800       1400 
+      7950       1400 
+      7683       1400 
+      7215       1400 
+      7189       1400 
+      6883       1400 
+      6754       1400 
+      6389       1400 
+      6552       1400 
+
+
+100 consecutive loops with count 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     16211       2600 
+     16991       2600 
+     16536       2600 
+     15945       2600 
+     15418       2600 
+     15522       2600 
+     15178       2600 
+     14833       2600 
+     15067       2600 
+     14664       2600 
+
+
+100 consecutive loops with count 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19968       3200 
+     21021       3200 
+     20832       3200 
+     19884       3200 
+     19344       3200 
+     19669       3200 
+     19221       3200 
+     18993       3200 
+     18805       3200 
+     18934       3200 
+
+
+100 consecutive loops with count 12
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23914       3800 
+     25448       3800 
+     24493       3800 
+     23719       3800 
+     23186       3800 
+     22809       3800 
+     22744       3800 
+     22556       3800 
+     22516       3800 
+     22172       3800 
+
+
+100 consecutive loops with count 15
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29698       4700 
+     31967       4700 
+     30264       4700 
+     29627       4700 
+     29113       4700 
+     28801       4700 
+     28996       4700 
+     28828       4700 
+     28717       4700 
+     28555       4700 
+
+
+100 consecutive loops with count 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     31551       5000 
+     33637       5000 
+     32474       5000 
+     31746       5000 
+     30992       5000 
+     30868       5000 
+     30544       5000 
+     30309       5000 
+     30342       5000 
+     29816       5000 
+
+
+100 consecutive loops with count 17
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30946       5300 
+     33065       5300 
+     31557       5300 
+     30342       5300 
+     30147       5300 
+     29991       5300 
+     29965       5300 
+     30115       5300 
+     29822       5300 
+     29874       5300 
+
+
+100 consecutive loops with count 20
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     36212       6200 
+     38909       6200 
+     36907       6200 
+     36400       6200 
+     35932       6200 
+     35315       6200 
+     35386       6200 
+     35093       6200 
+     34918       6200 
+     34951       6200 
+
+
+100 consecutive loops with count 31
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60379       9500 
+     63369       9500 
+     73912       9501 
+     60223       9500 
+     59527       9500 
+     59040       9500 
+     58897       9500 
+     58845       9500 
+     58559       9500 
+     58540       9500 
+
+
+100 consecutive loops with count 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     57493       9800 
+     59670       9800 
+     58825       9800 
+     56992       9800 
+     56648       9800 
+     56310       9800 
+     55880       9800 
+     55867       9800 
+     55776       9800 
+     55679       9800 
+
+
+100 consecutive loops with count 33
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     59202      10100 
+     62179      10100 
+     60099      10100 
+     59007      10100 
+     58181      10100 
+     57752      10100 
+     57804      10100 
+     57954      10100 
+     57967      10100 
+     57590      10100 
+
+
+100 consecutive loops with count 36
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     69953      11000 
+     73411      11000 
+     70298      11000 
+     69362      11000 
+     68719      11000 
+     68621      11000 
+     68231      11000 
+     68510      11000 
+     68068      11000 
+     68510      11000 
+
+
+100 consecutive loops with count 37
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     66339      11300 
+     69491      11300 
+     67509      11300 
+     66157      11300 
+     65617      11300 
+     65292      11300 
+     64870      11300 
+     64876      11300 
+     65000      11300 
+     64805      11300 
+
+
+100 consecutive loops with count 38
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     68120      11600 
+     70876      11600 
+     68991      11600 
+     67574      11600 
+     67223      11600 
+     66729      11600 
+     66807      11600 
+     66378      11600 
+     66475      11600 
+     66430      11600 
+
+
+100 consecutive loops with count 39
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     69843      11900 
+     73112      11900 
+     70317      11900 
+     69641      11900 
+     68809      11900 
+     68763      11900 
+     68328      11900 
+     68321      11900 
+     67996      11900 
+     68133      11900 
+
+
+100 consecutive loops with count 40
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     71623      12200 
+     74796      12200 
+     72677      12200 
+     71240      12200 
+     70545      12200 
+     70993      12200 
+     70297      12200 
+     69972      12200 
+     69966      12200 
+     69849      12200 
+
+
+100 consecutive loops with count 63
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    112235      19100 
+    115804      19100 
+    112619      19100 
+    111404      19100 
+    110767      19100 
+    110637      19100 
+    110636      19100 
+    110513      19100 
+    110617      19100 
+    110513      19100 
+
+
+100 consecutive loops with count 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    114030      19400 
+    118352      19400 
+    114289      19400 
+    113321      19400 
+    112678      19400 
+    112548      19400 
+    112314      19400 
+    112281      19400 
+    112281      19400 
+    112281      19400 
+
+
+100 consecutive loops with count 128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    227207      38600 
+    232479      38600 
+    227123      38600 
+    226200      38600 
+    225654      38600 
+    225589      38600 
+    225440      38600 
+    225485      38600 
+    225420      38600 
+    225407      38600 
+
+
+100 consecutive loops with count 256
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    491296      77000 
+    496385      77000 
+    491829      77000 
+    490308      77000 
+    489976      77000 
+    490061      77000 
+    489489      77000 
+    502398      77001 
+    452212      77000 
+    451737      77000 
+
+
+100 consecutive loops with count 512
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    906113     153800 
+    910507     153800 
+    906952     153800 
+    905287     153800 
+    904735     153800 
+    904495     153800 
+    918288     153801 
+    904521     153800 
+    904338     153800 
+    904553     153800 
+
+
+100 consecutive loops with count 1024
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1975357     307401 
+   1967173     307400 
+   1962805     307400 
+   1974622     307401 
+   1961310     307400 
+   1961031     307400 
+   1960777     307400 
+   1902543     307401 
+   1810783     307400 
+   1809795     307400 
+
+
+Case 2: Nested loops
+
+
+outer loop = 1, inner loop = 2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+        39         20 
+        45         20 
+        33         20 
+        32         20 
+        13         20 
+        13         20 
+        13         20 
+        13         20 
+        13         20 
+        13         20 
+
+
+outer loop = 1, inner loop = 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+        78         23 
+        58         23 
+        52         23 
+        52         23 
+        52         23 
+        52         23 
+        32         23 
+        32         23 
+        32         23 
+        32         23 
+
+
+outer loop = 1, inner loop = 4
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       175         26 
+        98         26 
+        97         26 
+        85         26 
+        85         26 
+        65         26 
+        58         26 
+        65         26 
+        59         26 
+        65         26 
+
+
+outer loop = 1, inner loop = 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       182         38 
+       162         38 
+       162         38 
+       143         38 
+       143         38 
+       208         38 
+       189         38 
+       195         38 
+       175         38 
+       182         38 
+
+
+outer loop = 1, inner loop = 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       299         44 
+       208         44 
+       188         44 
+       208         44 
+       208         44 
+       189         44 
+       188         44 
+       188         44 
+       188         44 
+       189         44 
+
+
+outer loop = 1, inner loop = 12
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       293         50 
+       280         50 
+       280         50 
+       280         50 
+       293         50 
+       253         50 
+       273         50 
+       273         50 
+       254         50 
+       253         50 
+
+
+outer loop = 1, inner loop = 15
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       371         59 
+       345         59 
+       319         59 
+       338         59 
+       319         59 
+       339         59 
+       371         59 
+       319         59 
+       358         59 
+       338         59 
+
+
+outer loop = 1, inner loop = 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       364         62 
+       351         62 
+       357         62 
+       338         62 
+       319         62 
+       319         62 
+       319         62 
+       338         62 
+       325         62 
+       325         62 
+
+
+outer loop = 1, inner loop = 17
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       435         65 
+       364         65 
+       338         65 
+       377         65 
+       377         65 
+       357         65 
+       364         65 
+       344         65 
+       383         65 
+       370         65 
+
+
+outer loop = 1, inner loop = 25
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       670         89 
+       579         89 
+       560         89 
+       553         89 
+       605         89 
+       644         89 
+       592         89 
+       592         89 
+       553         89 
+       579         89 
+
+
+outer loop = 1, inner loop = 31
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       813        107 
+       722        107 
+       768        107 
+       741        107 
+       696        107 
+       703        107 
+       696        107 
+       774        107 
+       742        107 
+       702        107 
+
+
+outer loop = 1, inner loop = 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       780        110 
+       787        110 
+       747        110 
+       819        110 
+       767        110 
+       747        110 
+       767        110 
+       780        110 
+       748        110 
+       754        110 
+
+
+outer loop = 1, inner loop = 33
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       735        113 
+       728        113 
+       689        113 
+       695        113 
+       793        113 
+       689        113 
+       715        113 
+       689        113 
+       695        113 
+       741        113 
+
+
+outer loop = 1, inner loop = 34
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       754        116 
+       747        116 
+       767        116 
+       748        116 
+       761        116 
+       754        116 
+       754        116 
+       734        116 
+       715        116 
+       715        116 
+
+
+outer loop = 1, inner loop = 35
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       833        119 
+       820        119 
+       793        119 
+       794        119 
+       793        119 
+       846        119 
+       793        119 
+       820        119 
+       800        119 
+       794        119 
+
+
+outer loop = 1, inner loop = 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1541        206 
+      1534        206 
+      1534        206 
+      1534        206 
+      1495        206 
+      1495        206 
+      1495        206 
+      1527        206 
+      1515        206 
+      1488        206 
+
+
+outer loop = 1, inner loop = 128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3068        398 
+      3042        398 
+      3036        398 
+      3042        398 
+      3042        398 
+      3016        398 
+      3016        398 
+      3016        398 
+      3016        398 
+      3023        398 
+
+
+outer loop = 1, inner loop = 256
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5649        782 
+      5623        782 
+      5597        782 
+      5597        782 
+      5603        782 
+      5603        782 
+      5596        782 
+      5603        782 
+      5603        782 
+      5597        782 
+
+
+outer loop = 1, inner loop = 512
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11271       1550 
+     11251       1550 
+     11251       1550 
+     11232       1550 
+     11251       1550 
+     11251       1550 
+     11232       1550 
+     11661       1550 
+     11232       1550 
+     11232       1550 
+
+
+outer loop = 1, inner loop = 1024
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22536       3086 
+     22536       3086 
+     22490       3086 
+     22496       3086 
+     22496       3086 
+     22496       3086 
+     22497       3086 
+     22497       3086 
+     35230       3087 
+     22516       3086 
+
+
+outer loop = 10, inner loop = 2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       312        128 
+       143        128 
+       202        128 
+       163        128 
+       117        128 
+       123        128 
+       117        128 
+       117        128 
+       124        128 
+       117        128 
+
+
+outer loop = 10, inner loop = 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       546        158 
+       448        158 
+       611        158 
+       449        158 
+       396        158 
+       455        158 
+       377        158 
+       358        158 
+       357        158 
+       358        158 
+
+
+outer loop = 10, inner loop = 4
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       826        188 
+       891        188 
+       845        188 
+       858        188 
+       747        188 
+       604        188 
+       578        188 
+       565        188 
+       650        188 
+       546        188 
+
+
+outer loop = 10, inner loop = 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1625        308 
+      1612        308 
+      1449        308 
+      1501        308 
+      1527        308 
+      1644        308 
+      1579        308 
+      1450        308 
+      1430        308 
+      1430        308 
+
+
+outer loop = 10, inner loop = 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2307        368 
+      2171        368 
+      2035        368 
+      2015        368 
+      2197        368 
+      2041        368 
+      2008        368 
+      2015        368 
+      1872        368 
+      1866        368 
+
+
+outer loop = 10, inner loop = 12
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2710        428 
+      2905        428 
+      2945        428 
+      2736        428 
+      2828        428 
+      2775        428 
+      2672        428 
+      2795        428 
+      2671        428 
+      2613        428 
+
+
+outer loop = 10, inner loop = 15
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3452        518 
+      3283        518 
+      3543        518 
+      3218        518 
+      3446        518 
+      3296        518 
+      3231        518 
+      3212        518 
+      3211        518 
+      3212        518 
+
+
+outer loop = 10, inner loop = 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3335        548 
+      3211        548 
+      3465        548 
+      3361        548 
+      3224        548 
+      3263        548 
+      3374        548 
+      3237        548 
+      3211        548 
+      3224        548 
+
+
+outer loop = 10, inner loop = 17
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3582        578 
+      3503        578 
+      3640        578 
+      3588        578 
+      3464        578 
+      3451        578 
+      3413        578 
+      3406        578 
+      3406        578 
+      3406        578 
+
+
+outer loop = 10, inner loop = 25
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5804        818 
+      5668        818 
+      5908        818 
+      5681        818 
+      5623        818 
+      5596        818 
+      5603        818 
+      5603        818 
+      5597        818 
+      5603        818 
+
+
+outer loop = 10, inner loop = 31
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7267        998 
+      7039        998 
+      7157        998 
+      7195        998 
+      7287        998 
+      7228        998 
+      7105        998 
+      7078        998 
+      7027        998 
+      7033        998 
+
+
+outer loop = 10, inner loop = 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7053       1028 
+      6805       1028 
+      6805       1028 
+      6942       1028 
+      6981       1028 
+      6942       1028 
+      6741       1028 
+      6708       1028 
+      6708       1028 
+      6689       1028 
+
+
+outer loop = 10, inner loop = 33
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7644       1058 
+      7872       1058 
+      7644       1058 
+      7638       1058 
+      7729       1058 
+      7729       1058 
+      7638       1058 
+      7651       1058 
+      7703       1058 
+      7521       1058 
+
+
+outer loop = 10, inner loop = 34
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7950       1088 
+      7995       1088 
+      7871       1088 
+      7839       1088 
+      7826       1088 
+      7787       1088 
+      7748       1088 
+      7748       1088 
+      7748       1088 
+      7748       1088 
+
+
+outer loop = 10, inner loop = 35
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8008       1118 
+      8008       1118 
+      8379       1118 
+      8092       1118 
+      8008       1118 
+      8041       1118 
+      8040       1118 
+      7989       1118 
+      7962       1118 
+      8028       1118 
+
+
+outer loop = 10, inner loop = 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13968       1988 
+     13897       1988 
+     13845       1988 
+     14047       1988 
+     13884       1988 
+     13903       1988 
+     13858       1988 
+     13864       1988 
+     13858       1988 
+     13910       1988 
+
+
+outer loop = 10, inner loop = 128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     28022       3908 
+     28041       3908 
+     27911       3908 
+     27956       3908 
+     28119       3908 
+     27989       3908 
+     27911       3908 
+     27872       3908 
+     27996       3908 
+     27892       3908 
+
+
+outer loop = 10, inner loop = 256
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     56173       7748 
+     56030       7748 
+     56199       7748 
+     56310       7748 
+     56407       7748 
+     56063       7748 
+     56134       7748 
+     56030       7748 
+     55984       7748 
+     55991       7748 
+
+
+outer loop = 10, inner loop = 512
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    121842      15428 
+    121953      15428 
+    121894      15428 
+    121778      15428 
+    121979      15428 
+    121927      15428 
+    121927      15428 
+    121797      15428 
+    121790      15428 
+    121687      15428 
+
+
+outer loop = 10, inner loop = 1024
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    243790      30788 
+    243926      30788 
+    243887      30788 
+    243744      30788 
+    273839      30789 
+    225031      30788 
+    225395      30788 
+    224966      30788 
+    224933      30788 
+    224933      30788 
+
+
+outer loop = 100, inner loop = 2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       799       1208 
+       800       1208 
+       787       1208 
+       754       1208 
+       741       1208 
+       735       1208 
+       741       1208 
+       734       1208 
+       741       1208 
+       735       1208 
+
+
+outer loop = 100, inner loop = 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3978       1508 
+      3861       1508 
+      3185       1508 
+      3185       1508 
+      3185       1508 
+      3185       1508 
+      3185       1508 
+      3185       1508 
+      3185       1508 
+      3185       1508 
+
+
+outer loop = 100, inner loop = 4
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5791       1808 
+      5577       1808 
+      5844       1808 
+      5681       1808 
+      6175       1808 
+      5571       1808 
+      5571       1808 
+      5570       1808 
+      5571       1808 
+      5571       1808 
+
+
+outer loop = 100, inner loop = 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     14417       3008 
+     14599       3008 
+     13975       3008 
+     14560       3008 
+     14300       3008 
+     13982       3008 
+     13942       3008 
+     13936       3008 
+     13936       3008 
+     13942       3008 
+
+
+outer loop = 100, inner loop = 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18668       3608 
+     18362       3608 
+     18577       3608 
+     18479       3608 
+     18408       3608 
+     18337       3608 
+     18337       3608 
+     18343       3608 
+     18343       3608 
+     18343       3608 
+
+
+outer loop = 100, inner loop = 12
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23296       4208 
+     22899       4208 
+     22776       4208 
+     22757       4208 
+     22737       4208 
+     22737       4208 
+     22737       4208 
+     22737       4208 
+     22737       4208 
+     22737       4208 
+
+
+outer loop = 100, inner loop = 15
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     32981       5108 
+     31974       5108 
+     31980       5108 
+     31921       5108 
+     31785       5108 
+     31785       5108 
+     31785       5108 
+     31785       5108 
+     31785       5108 
+     31785       5108 
+
+
+outer loop = 100, inner loop = 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     34418       5408 
+     34196       5408 
+     34645       5408 
+     34190       5408 
+     34170       5408 
+     34170       5408 
+     34171       5408 
+     34170       5408 
+     34164       5408 
+     34171       5408 
+
+
+outer loop = 100, inner loop = 17
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     34021       5708 
+     34138       5708 
+     33755       5708 
+     33858       5708 
+     33813       5708 
+     33884       5708 
+     33754       5708 
+     33741       5708 
+     33735       5708 
+     33742       5708 
+
+
+outer loop = 100, inner loop = 25
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     52182       8108 
+     51662       8108 
+     51421       8108 
+     51421       8108 
+     51356       8108 
+     51337       8108 
+     51337       8108 
+     51337       8108 
+     51337       8108 
+     51337       8108 
+
+
+outer loop = 100, inner loop = 31
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65611       9908 
+     64558       9908 
+     64649       9908 
+     64584       9908 
+     64610       9908 
+     64597       9908 
+     64539       9908 
+     64539       9908 
+     64539       9908 
+     64539       9908 
+
+
+outer loop = 100, inner loop = 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     73626      10208 
+     72307      10208 
+     73035      10208 
+     72313      10208 
+     72892      10208 
+     72371      10208 
+     72320      10208 
+     72293      10208 
+     72294      10208 
+     72300      10208 
+
+
+outer loop = 100, inner loop = 33
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     75816      10508 
+     74790      10508 
+     74737      10508 
+     74718      10508 
+     74679      10508 
+     74679      10508 
+     74679      10508 
+     74679      10508 
+     74679      10508 
+     74679      10508 
+
+
+outer loop = 100, inner loop = 34
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     71481      10808 
+     71162      10808 
+     71201      10808 
+     71559      10808 
+     71240      10808 
+     71181      10808 
+     71136      10808 
+     71136      10808 
+     71142      10808 
+     71143      10808 
+
+
+outer loop = 100, inner loop = 35
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80321      11108 
+     79496      11108 
+     81270      11108 
+     79775      11108 
+     79522      11108 
+     79554      11108 
+     79450      11108 
+     79443      11108 
+     79444      11108 
+     79450      11108 
+
+
+outer loop = 100, inner loop = 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    148948      19808 
+    148714      19808 
+    148584      19808 
+    148584      19808 
+    148565      19808 
+    148564      19808 
+    148565      19808 
+    148565      19808 
+    148564      19808 
+    148565      19808 
+
+
+outer loop = 100, inner loop = 128
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    277999      39008 
+    277947      39008 
+    278252      39008 
+    278083      39008 
+    278746      39008 
+    277992      39008 
+    277940      39008 
+    278389      39008 
+    277940      39008 
+    277940      39008 
+
+
+outer loop = 100, inner loop = 256
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    559663      77408 
+    559676      77408 
+    571493      77409 
+    560326      77408 
+    559696      77408 
+    559559      77408 
+    559539      77408 
+    559539      77408 
+    559539      77408 
+    559981      77408 
+
+
+outer loop = 100, inner loop = 512
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1216676     154208 
+   1216832     154208 
+   1216670     154208 
+   1191866     154209 
+   1122764     154208 
+   1122725     154208 
+   1123161     154208 
+   1122725     154208 
+   1122725     154208 
+   1134750     154209 
+
+
+outer loop = 100, inner loop = 1024
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2449395     307809 
+   2436656     307808 
+   2437078     307808 
+   2382224     307809 
+   2249143     307808 
+   2249573     307808 
+   2261922     307809 
+   2249117     307808 
+   2249566     307808 
+   2261617     307809 
+
+
+Case 3: Loop with 1 alternating branch inside
+
+
+outer loop = 1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+        20         13 
+         1         13 
+         7         13 
+         7         13 
+         0         13 
+         7         13 
+         7         13 
+         1         13 
+         7         13 
+         7         13 
+
+
+outer loop = 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       260         67 
+       338         67 
+       318         67 
+       319         67 
+       384         67 
+       384         67 
+       325         67 
+       345         67 
+       312         67 
+       267         67 
+
+
+outer loop = 100
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2977        607 
+      3049        607 
+      2710        607 
+      2711        607 
+      2710        607 
+      2711        607 
+      2710        607 
+      2711        607 
+      2710        607 
+      2711        607 
+
+
+Case 4: Loop with 2 alternating branches inside
+
+
+outer loop = 1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+        91         15 
+         1         15 
+         1         15 
+         7         15 
+         7         15 
+         7         15 
+         7         15 
+         0         15 
+         0         15 
+         7         15 
+
+
+outer loop = 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       436         96 
+       364         96 
+       345         96 
+       352         96 
+       339         96 
+       338         96 
+       338         96 
+       339         96 
+       339         96 
+       338         96 
+
+
+outer loop = 100
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3451        906 
+      3367        906 
+      3400        906 
+      3380        906 
+      3380        906 
+      3367        906 
+      3367        906 
+      3367        906 
+      3367        906 
+      3367        906 
+
+
+Case 5: Loop with one branch having simple repetitive pattern of period count2 inside
+
+
+outer loop = 10, pattern period = 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       189        101 
+       201        101 
+       169        101 
+       130        101 
+        91        101 
+        91        101 
+        78        101 
+        72        101 
+        72        101 
+        72        101 
+
+
+outer loop = 10, pattern period = 4
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       169         99 
+       143         99 
+       150         99 
+       111         99 
+        98         99 
+        59         99 
+        59         99 
+        59         99 
+        59         99 
+        59         99 
+
+
+outer loop = 10, pattern period = 5
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       247        101 
+       136        101 
+        78        101 
+        78        101 
+        78        101 
+        78        101 
+        72        101 
+        78        101 
+       123        101 
+        71        101 
+
+
+outer loop = 10, pattern period = 6
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       188        101 
+       137        101 
+       130        101 
+        78        101 
+        91        101 
+       104        101 
+        52        101 
+        58        101 
+        52        101 
+        52        101 
+
+
+outer loop = 10, pattern period = 7
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       228        101 
+       189        101 
+       176        101 
+       163        101 
+       137        101 
+        79        101 
+        59        101 
+        52        101 
+        59        101 
+        53        101 
+
+
+outer loop = 10, pattern period = 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       227        100 
+       214        100 
+       149        100 
+       143        100 
+       195        100 
+        91        100 
+        91        100 
+        78        100 
+        72        100 
+        59        100 
+
+
+outer loop = 10, pattern period = 9
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       227        101 
+       156        101 
+       130        101 
+       104        101 
+        97        101 
+        91        101 
+       110        101 
+        91        101 
+        72        101 
+        78        101 
+
+
+outer loop = 10, pattern period = 12
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       189        100 
+       221        100 
+       136        100 
+       117        100 
+       208        100 
+       117        100 
+        52        100 
+       156        100 
+        59        100 
+        78        100 
+
+
+outer loop = 10, pattern period = 13
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       221        100 
+       175        100 
+       117        100 
+       156        100 
+       117        100 
+        59        100 
+       130        100 
+        58        100 
+       117        100 
+        59        100 
+
+
+outer loop = 10, pattern period = 20
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       202         96 
+       170         96 
+       169         96 
+       183         96 
+       130         96 
+        92         96 
+        91         96 
+        98         96 
+        92         96 
+        91         96 
+
+
+outer loop = 10, pattern period = 25
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       117         95 
+        91         95 
+        91         95 
+        91         95 
+        91         95 
+        85         95 
+        91         95 
+        91         95 
+        85         95 
+        91         95 
+
+
+outer loop = 10, pattern period = 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       130         95 
+       169         95 
+        97         95 
+       104         95 
+        98         95 
+        97         95 
+        98         95 
+        97         95 
+        98         95 
+       104         95 
+
+
+outer loop = 10, pattern period = 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       137         95 
+       104         95 
+        98         95 
+        97         95 
+        98         95 
+        97         95 
+        98         95 
+        84         95 
+       150         95 
+        97         95 
+
+
+outer loop = 10, pattern period = 71
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       123         95 
+        91         95 
+        91         95 
+        91         95 
+        91         95 
+       104         95 
+        71         95 
+        84         95 
+        91         95 
+        85         95 
+
+
+outer loop = 10, pattern period = 113
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       123         95 
+        91         95 
+        91         95 
+        91         95 
+        91         95 
+        85         95 
+        91         95 
+        91         95 
+        85         95 
+        91         95 
+
+
+outer loop = 100, pattern period = 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       708        971 
+       669        971 
+       618        971 
+       611        971 
+       585        971 
+       591        971 
+       592        971 
+       585        971 
+       591        971 
+       592        971 
+
+
+outer loop = 100, pattern period = 4
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       826        955 
+       618        955 
+       683        955 
+       612        955 
+       618        955 
+       618        955 
+       611        955 
+       618        955 
+       618        955 
+       612        955 
+
+
+outer loop = 100, pattern period = 5
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       800        965 
+       591        965 
+       767        965 
+       592        965 
+       591        965 
+       592        965 
+       591        965 
+       592        965 
+       591        965 
+       592        965 
+
+
+outer loop = 100, pattern period = 6
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       715        971 
+       559        971 
+       565        971 
+       539        971 
+       526        971 
+       526        971 
+       527        971 
+       527        971 
+       520        971 
+       526        971 
+
+
+outer loop = 100, pattern period = 7
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       969        975 
+       598        975 
+       644        975 
+       572        975 
+       572        975 
+       578        975 
+       572        975 
+       572        975 
+       579        975 
+       572        975 
+
+
+outer loop = 100, pattern period = 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       851        966 
+       657        966 
+       793        966 
+       656        966 
+       585        966 
+       592        966 
+       585        966 
+       585        966 
+       591        966 
+       585        966 
+
+
+outer loop = 100, pattern period = 9
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       963        971 
+       657        971 
+       703        971 
+       624        971 
+       560        971 
+       566        971 
+       559        971 
+       566        971 
+       560        971 
+       566        971 
+
+
+outer loop = 100, pattern period = 12
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       988        961 
+       871        961 
+       624        961 
+       566        961 
+       553        961 
+       553        961 
+       546        961 
+       552        961 
+       552        961 
+       552        961 
+
+
+outer loop = 100, pattern period = 13
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1040        965 
+       897        965 
+       865        965 
+       728        965 
+       734        965 
+       682        965 
+       669        965 
+       669        965 
+       669        965 
+       669        965 
+
+
+outer loop = 100, pattern period = 20
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1073        960 
+       969        960 
+       755        960 
+       663        960 
+       625        960 
+       605        960 
+       598        960 
+       605        960 
+       599        960 
+       605        960 
+
+
+outer loop = 100, pattern period = 25
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       995        961 
+       663        961 
+       689        961 
+       676        961 
+       657        961 
+       559        961 
+       552        961 
+       559        961 
+       553        961 
+       559        961 
+
+
+outer loop = 100, pattern period = 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1066        956 
+       930        956 
+       845        956 
+       825        956 
+       748        956 
+       754        956 
+       754        956 
+       747        956 
+       754        956 
+       754        956 
+
+
+outer loop = 100, pattern period = 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       962        943 
+       793        943 
+       858        943 
+       773        943 
+       748        943 
+       734        943 
+       728        943 
+       735        943 
+       728        943 
+       734        943 
+
+
+outer loop = 100, pattern period = 71
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       942        942 
+       670        942 
+       670        942 
+       650        942 
+       650        942 
+       650        942 
+       650        942 
+       650        942 
+       650        942 
+       650        942 
+
+
+outer loop = 100, pattern period = 113
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       748        950 
+       748        950 
+       696        950 
+       670        950 
+       624        950 
+       630        950 
+       630        950 
+       624        950 
+       631        950 
+       631        950 
+
+
+Case 6: Loop with one branch having complex repetitive pattern of period count2 inside
+
+
+outer loop = 10, pattern period = 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       254         97 
+       248         97 
+       189         97 
+       169         97 
+       137         97 
+       137         97 
+       137         97 
+       131         97 
+       130         97 
+       137         97 
+
+
+outer loop = 10, pattern period = 4
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       280         97 
+       287         97 
+       241         97 
+       195         97 
+       156         97 
+       150         97 
+       150         97 
+       150         97 
+       150         97 
+       157         97 
+
+
+outer loop = 10, pattern period = 5
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       241         97 
+       260         97 
+       189         97 
+       144         97 
+       130         97 
+       131         97 
+       137         97 
+       137         97 
+       131         97 
+       130         97 
+
+
+outer loop = 10, pattern period = 6
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       319         97 
+       247         97 
+       188         97 
+       182         97 
+       169         97 
+       163         97 
+       163         97 
+       163         97 
+       150         97 
+       149         97 
+
+
+outer loop = 10, pattern period = 7
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       253         97 
+       201         97 
+       260         97 
+       202         97 
+       143         97 
+       143         97 
+       149         97 
+       150         97 
+       143         97 
+       143         97 
+
+
+outer loop = 10, pattern period = 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       286         97 
+       312         97 
+       208         97 
+       176         97 
+       175         97 
+       182         97 
+       156         97 
+       156         97 
+       156         97 
+       156         97 
+
+
+outer loop = 10, pattern period = 9
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       247         97 
+       247         97 
+       221         97 
+       182         97 
+       163         97 
+       163         97 
+       163         97 
+       143         97 
+       143         97 
+       143         97 
+
+
+outer loop = 10, pattern period = 12
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       273         97 
+       196         97 
+       228         97 
+       202         97 
+       195         97 
+       176         97 
+       156         97 
+       157         97 
+       157         97 
+       156         97 
+
+
+outer loop = 10, pattern period = 13
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       280         97 
+       280         97 
+       202         97 
+       176         97 
+       176         97 
+       176         97 
+       157         97 
+       150         97 
+       156         97 
+       150         97 
+
+
+outer loop = 10, pattern period = 20
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       319         97 
+       247         97 
+       175         97 
+       162         97 
+       162         97 
+       169         97 
+       143         97 
+       143         97 
+       143         97 
+       149         97 
+
+
+outer loop = 10, pattern period = 25
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       266         97 
+       266         97 
+       208         97 
+       188         97 
+       176         97 
+       143         97 
+       143         97 
+       143         97 
+       143         97 
+       143         97 
+
+
+outer loop = 10, pattern period = 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       253         97 
+       293         97 
+       214         97 
+       214         97 
+       182         97 
+       163         97 
+       156         97 
+       162         97 
+       156         97 
+       163         97 
+
+
+outer loop = 10, pattern period = 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       292         97 
+       260         97 
+       182         97 
+       162         97 
+       163         97 
+       163         97 
+       162         97 
+       162         97 
+       163         97 
+       163         97 
+
+
+outer loop = 10, pattern period = 71
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       247         97 
+       267         97 
+       240         97 
+       202         97 
+       182         97 
+       182         97 
+       163         97 
+       162         97 
+       162         97 
+       163         97 
+
+
+outer loop = 10, pattern period = 113
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       273         97 
+       241         97 
+       221         97 
+       189         97 
+       170         97 
+       156         97 
+       150         97 
+       157         97 
+       150         97 
+       156         97 
+
+
+outer loop = 100, pattern period = 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2347        864 
+      2210        864 
+      1814        864 
+      1424        864 
+      1280        864 
+      1280        864 
+      1280        864 
+      1280        864 
+      1280        864 
+      1280        864 
+
+
+outer loop = 100, pattern period = 4
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2210        864 
+      2034        864 
+      1605        864 
+      1430        864 
+      1404        864 
+      1307        864 
+      1281        864 
+      1281        864 
+      1281        864 
+      1281        864 
+
+
+outer loop = 100, pattern period = 5
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2346        864 
+      2327        864 
+      1840        864 
+      1638        864 
+      1475        864 
+      1456        864 
+      1378        864 
+      1352        864 
+      1358        864 
+      1358        864 
+
+
+outer loop = 100, pattern period = 6
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2684        864 
+      2197        864 
+      1879        864 
+      1729        864 
+      1540        864 
+      1573        864 
+      1469        864 
+      1463        864 
+      1462        864 
+      1463        864 
+
+
+outer loop = 100, pattern period = 7
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2509        864 
+      2301        864 
+      1781        864 
+      1612        864 
+      1592        864 
+      1541        864 
+      1514        864 
+      1508        864 
+      1515        864 
+      1514        864 
+
+
+outer loop = 100, pattern period = 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2575        864 
+      2230        864 
+      1911        864 
+      1704        864 
+      1619        864 
+      1567        864 
+      1567        864 
+      1515        864 
+      1541        864 
+      1489        864 
+
+
+outer loop = 100, pattern period = 9
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2269        864 
+      1781        864 
+      1839        864 
+      1567        864 
+      1475        864 
+      1449        864 
+      1411        864 
+      1410        864 
+      1404        864 
+      1404        864 
+
+
+outer loop = 100, pattern period = 12
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2249        864 
+      1996        864 
+      1716        864 
+      1514        864 
+      1397        864 
+      1359        864 
+      1332        864 
+      1333        864 
+      1326        864 
+      1326        864 
+
+
+outer loop = 100, pattern period = 13
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2152        864 
+      2047        864 
+      1638        864 
+      1463        864 
+      1398        864 
+      1326        864 
+      1326        864 
+      1333        864 
+      1332        864 
+      1326        864 
+
+
+outer loop = 100, pattern period = 20
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2567        864 
+      2106        864 
+      1833        864 
+      1631        864 
+      1495        864 
+      1489        864 
+      1410        864 
+      1417        864 
+      1417        864 
+      1410        864 
+
+
+outer loop = 100, pattern period = 25
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2600        864 
+      2067        864 
+      1970        864 
+      1587        864 
+      1463        864 
+      1430        864 
+      1437        864 
+      1431        864 
+      1411        864 
+      1404        864 
+
+
+outer loop = 100, pattern period = 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2555        864 
+      2236        864 
+      1899        864 
+      1658        864 
+      1567        864 
+      1541        864 
+      1541        864 
+      1541        864 
+      1522        864 
+      1515        864 
+
+
+outer loop = 100, pattern period = 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2561        864 
+      2385        864 
+      1879        864 
+      1677        864 
+      1560        864 
+      1573        864 
+      1489        864 
+      1521        864 
+      1488        864 
+      1495        864 
+
+
+outer loop = 100, pattern period = 71
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2327        864 
+      2197        864 
+      1801        864 
+      1573        864 
+      1469        864 
+      1443        864 
+      1423        864 
+      1417        864 
+      1404        864 
+      1397        864 
+
+
+outer loop = 100, pattern period = 113
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2405        864 
+      2106        864 
+      1782        864 
+      1593        864 
+      1586        864 
+      1489        864 
+      1456        864 
+      1463        864 
+      1463        864 
+      1456        864 
+
+
+Case 7: Loop with one 0011 branch and one 00011 branch inside
+
+
+outer loop = 1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+        13         18 
+        13         18 
+        13         18 
+        13         18 
+        13         18 
+        13         18 
+        13         18 
+        13         18 
+        13         18 
+        13         18 
+
+
+outer loop = 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       371        133 
+       345        133 
+       182        133 
+       183        133 
+       137        133 
+        98        133 
+       104        133 
+        98        133 
+        98        133 
+       104        133 
+
+
+outer loop = 100
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1742       1294 
+      1099       1294 
+       774       1294 
+       774       1294 
+       780       1294 
+       773       1294 
+       773       1294 
+       773       1294 
+       773       1294 
+       773       1294 
+
+
+Case 8: Loop with alternating indirect branch inside
+
+
+outer loop = 1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+        46         18 
+         6         18 
+        13         18 
+        13         18 
+         7         18 
+         7         18 
+         7         18 
+         7         18 
+        13         18 
+        13         18 
+
+
+outer loop = 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       319        166 
+       279        166 
+       227        166 
+       227        166 
+       227        166 
+       228        166 
+       228        166 
+       228        166 
+       227        166 
+       227        166 
+
+
+outer loop = 100
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1918       1606 
+      1898       1606 
+      1846       1606 
+      1846       1606 
+      1846       1606 
+      1846       1606 
+      1846       1606 
+      1846       1606 
+      1839       1606 
+      1846       1606 
+
+
+Case 9: Loop with 3-way indirect branch inside
+
+
+outer loop = 1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+        46         21 
+        14         21 
+         7         21 
+         7         21 
+        13         21 
+         7         21 
+         7         21 
+        14         21 
+         7         21 
+         7         21 
+
+
+outer loop = 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       331        165 
+       319        165 
+       312        165 
+       169        165 
+       150        165 
+       156        165 
+       137        165 
+       273        165 
+       175        165 
+       149        165 
+
+
+outer loop = 100
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3283       1605 
+      3295       1605 
+      3237       1605 
+      3094       1605 
+      3088       1605 
+      3094       1605 
+      3094       1605 
+      3087       1605 
+      3094       1605 
+      3094       1605 
+
+

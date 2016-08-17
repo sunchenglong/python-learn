@@ -1,0 +1,4378 @@
+Test of different implementations of memcpy
+
+MEMCPYR:    Use REP MOVS instruction
+
+MEMCPYS2:   Use SSE2 instruction set, 16 bytes aligned load/stores
+
+MEMCPYS3:   Use SSSE3 instruction set, 16 bytes aligned load/stores
+
+MEMCPYU:    Use unaligned 16 bytes loads, aligned stores
+
+MEMCPYNT:   Use non-temporal stores, 16 bytes
+
+MEMCPYNT32: Use non-temporal stores, 32 bytes
+
+MEMCPYAVXA: Use AVX instruction set, 16 bytes aligned load/stores
+
+MEMCPYAVXU: Use AVX instruction set, 32 bytes unaligned loads, aligned stores
+
+MEMCPYXOP:  Use AMD XOP instruction set, 16 bytes aligned load/stores
+
+
+
+
+
+
+size: 6, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4498       1506 
+      4329       1506 
+      4329       1506 
+      4407       1506 
+      4329       1506 
+      4322       1506 
+      4322       1506 
+      4329       1506 
+      4323       1506 
+      4323       1506 
+
+
+size: 6, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3575       3706 
+      3367       3706 
+      3322       3706 
+      3315       3706 
+      3321       3706 
+      3315       3706 
+      3322       3706 
+      3315       3706 
+      3321       3706 
+      3321       3706 
+
+
+size: 6, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3627       3506 
+      3269       3506 
+      3217       3506 
+      3217       3506 
+      3217       3506 
+      3217       3506 
+      3224       3506 
+      3218       3506 
+      3218       3506 
+      3218       3506 
+
+
+size: 6, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4010       3706 
+      3711       3706 
+      3705       3706 
+      3705       3706 
+      3705       3706 
+      3705       3706 
+      3705       3706 
+      3712       3706 
+      3705       3706 
+      3705       3706 
+
+
+size: 6, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3581       3606 
+      3328       3606 
+      3270       3606 
+      3276       3606 
+      3269       3606 
+      3276       3606 
+      3270       3606 
+      3276       3606 
+      3269       3606 
+      3276       3606 
+
+
+size: 6, src offs: 0, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4596       1506 
+      4329       1506 
+      4323       1506 
+      4407       1506 
+      4329       1506 
+      4323       1506 
+      4323       1506 
+      4329       1506 
+      4329       1506 
+      4322       1506 
+
+
+size: 6, src offs: 0, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3581       3706 
+      3321       3706 
+      3315       3706 
+      3322       3706 
+      3315       3706 
+      3321       3706 
+      3321       3706 
+      3322       3706 
+      3322       3706 
+      3315       3706 
+
+
+size: 6, src offs: 0, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3926       3506 
+      3542       3506 
+      3497       3506 
+      3484       3506 
+      3491       3506 
+      3490       3506 
+      3491       3506 
+      3490       3506 
+      3491       3506 
+      3484       3506 
+
+
+size: 6, src offs: 0, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4316       3706 
+      3764       3706 
+      3718       3706 
+      3711       3706 
+      3705       3706 
+      3705       3706 
+      3705       3706 
+      3705       3706 
+      3705       3706 
+      3712       3706 
+
+
+size: 6, src offs: 0, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3334       3606 
+      3023       3606 
+      3016       3606 
+      3022       3606 
+      3023       3606 
+      3016       3606 
+      3022       3606 
+      3016       3606 
+      3016       3606 
+      3022       3606 
+
+
+size: 6, src offs: 4, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4504       1506 
+      4329       1506 
+      4349       1506 
+      4349       1506 
+      4323       1506 
+      4329       1506 
+      4329       1506 
+      4322       1506 
+      4322       1506 
+      4329       1506 
+
+
+size: 6, src offs: 4, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3569       3706 
+      3367       3706 
+      3322       3706 
+      3315       3706 
+      3321       3706 
+      3315       3706 
+      3322       3706 
+      3315       3706 
+      3321       3706 
+      3321       3706 
+
+
+size: 6, src offs: 4, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3978       3506 
+      3523       3506 
+      3478       3506 
+      3485       3506 
+      3484       3506 
+      3485       3506 
+      3484       3506 
+      3485       3506 
+      3478       3506 
+      3484       3506 
+
+
+size: 6, src offs: 4, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3744       3706 
+      3471       3706 
+      3419       3706 
+      3419       3706 
+      3419       3706 
+      3419       3706 
+      3419       3706 
+      3419       3706 
+      3419       3706 
+      3419       3706 
+
+
+size: 6, src offs: 4, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3666       3606 
+      3289       3606 
+      3276       3606 
+      3270       3606 
+      3276       3606 
+      3269       3606 
+      3276       3606 
+      3270       3606 
+      3276       3606 
+      3269       3606 
+
+
+size: 6, src offs: 4, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4641       1506 
+      4329       1506 
+      4323       1506 
+      4433       1506 
+      4368       1506 
+      4329       1506 
+      4323       1506 
+      4323       1506 
+      4329       1506 
+      4322       1506 
+
+
+size: 6, src offs: 4, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3946       3706 
+      3595       3706 
+      3640       3706 
+      3595       3706 
+      3589       3706 
+      3595       3706 
+      3588       3706 
+      3595       3706 
+      3589       3706 
+      3595       3706 
+
+
+size: 6, src offs: 4, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3672       3506 
+      3250       3506 
+      3230       3506 
+      3217       3506 
+      3224       3506 
+      3218       3506 
+      3218       3506 
+      3218       3506 
+      3218       3506 
+      3218       3506 
+
+
+size: 6, src offs: 4, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4056       3706 
+      3764       3706 
+      3705       3706 
+      3705       3706 
+      3705       3706 
+      3705       3706 
+      3705       3706 
+      3711       3706 
+      3705       3706 
+      3705       3706 
+
+
+size: 6, src offs: 4, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3426       3606 
+      3055       3606 
+      3023       3606 
+      3016       3606 
+      3022       3606 
+      3016       3606 
+      3016       3606 
+      3022       3606 
+      3016       3606 
+      3023       3606 
+
+
+
+
+
+size: 62, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      9340       2606 
+      9028       2606 
+      9107       2606 
+      9028       2606 
+      9022       2606 
+      9029       2606 
+      9022       2606 
+      9028       2606 
+      9022       2606 
+      9029       2606 
+
+
+size: 62, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2925       4806 
+      2658       4806 
+      2626       4806 
+      2620       4806 
+      2620       4806 
+      2626       4806 
+      2619       4806 
+      2619       4806 
+      2626       4806 
+      2620       4806 
+
+
+size: 62, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3192       4606 
+      2789       4606 
+      2743       4606 
+      2731       4606 
+      2724       4606 
+      2730       4606 
+      2724       4606 
+      2731       4606 
+      2724       4606 
+      2730       4606 
+
+
+size: 62, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2945       4806 
+      2724       4806 
+      2776       4806 
+      2724       4806 
+      2724       4806 
+      2717       4806 
+      2723       4806 
+      2723       4806 
+      2723       4806 
+      2724       4806 
+
+
+size: 62, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2893       4706 
+      2620       4706 
+      2510       4706 
+      2509       4706 
+      2516       4706 
+      2510       4706 
+      2509       4706 
+      2516       4706 
+      2510       4706 
+      2509       4706 
+
+
+size: 62, src offs: 0, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7514       3006 
+      7326       3006 
+      7384       3006 
+      7325       3006 
+      7325       3006 
+      7325       3006 
+      7326       3006 
+      7326       3006 
+      7326       3006 
+      7319       3006 
+
+
+size: 62, src offs: 0, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6865       4806 
+      6546       4806 
+      6513       4806 
+      6514       4806 
+      6513       4806 
+      6514       4806 
+      6513       4806 
+      6514       4806 
+      6513       4806 
+      6514       4806 
+
+
+size: 62, src offs: 0, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6448       4606 
+      6032       4606 
+      6013       4606 
+      6019       4606 
+      6012       4606 
+      6012       4606 
+      6019       4606 
+      6013       4606 
+      6013       4606 
+      6019       4606 
+
+
+size: 62, src offs: 0, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7612       4806 
+      7287       4806 
+      7286       4806 
+      7287       4806 
+      7286       4806 
+      7287       4806 
+      7280       4806 
+      7286       4806 
+      7287       4806 
+      7286       4806 
+
+
+size: 62, src offs: 0, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6344       4706 
+      6012       4706 
+      6038       4706 
+      6019       4706 
+      6013       4706 
+      6013       4706 
+      6013       4706 
+      6013       4706 
+      6013       4706 
+      6019       4706 
+
+
+size: 62, src offs: 4, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      9893       2606 
+      9029       2606 
+      9223       2606 
+      9022       2606 
+      9029       2606 
+      9022       2606 
+      9028       2606 
+      9022       2606 
+      9029       2606 
+      9022       2606 
+
+
+size: 62, src offs: 4, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3620       4806 
+      2678       4806 
+      2626       4806 
+      2620       4806 
+      2620       4806 
+      2626       4806 
+      2619       4806 
+      2619       4806 
+      2626       4806 
+      2620       4806 
+
+
+size: 62, src offs: 4, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3198       4606 
+      2795       4606 
+      2730       4606 
+      2736       4606 
+      2730       4606 
+      2737       4606 
+      2730       4606 
+      2736       4606 
+      2730       4606 
+      2737       4606 
+
+
+size: 62, src offs: 4, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2977       4806 
+      2723       4806 
+      2723       4806 
+      2717       4806 
+      2724       4806 
+      2724       4806 
+      2724       4806 
+      2717       4806 
+      2723       4806 
+      2723       4806 
+
+
+size: 62, src offs: 4, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2822       4706 
+      2575       4706 
+      2516       4706 
+      2509       4706 
+      2510       4706 
+      2516       4706 
+      2509       4706 
+      2510       4706 
+      2516       4706 
+      2509       4706 
+
+
+size: 62, src offs: 4, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7592       3006 
+      7326       3006 
+      7384       3006 
+      7325       3006 
+      7325       3006 
+      7325       3006 
+      7326       3006 
+      7326       3006 
+      7326       3006 
+      7319       3006 
+
+
+size: 62, src offs: 4, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6350       4806 
+      6019       4806 
+      6013       4806 
+      6019       4806 
+      6012       4806 
+      6019       4806 
+      6013       4806 
+      6019       4806 
+      6019       4806 
+      6012       4806 
+
+
+size: 62, src offs: 4, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6968       4606 
+      6513       4606 
+      6514       4606 
+      6513       4606 
+      6514       4606 
+      6513       4606 
+      6507       4606 
+      6514       4606 
+      6513       4606 
+      6514       4606 
+
+
+size: 62, src offs: 4, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6858       4806 
+      6526       4806 
+      6520       4806 
+      6519       4806 
+      6526       4806 
+      6520       4806 
+      6519       4806 
+      6526       4806 
+      6520       4806 
+      6519       4806 
+
+
+size: 62, src offs: 4, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6858       4706 
+      6539       4706 
+      6513       4706 
+      6520       4706 
+      6519       4706 
+      6513       4706 
+      6520       4706 
+      6519       4706 
+      6513       4706 
+      6520       4706 
+
+
+
+
+
+size: 68, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8593       2606 
+      8333       2606 
+      8405       2606 
+      8327       2606 
+      8333       2606 
+      8333       2606 
+      8326       2606 
+      8326       2606 
+      8326       2606 
+      8326       2606 
+
+
+size: 68, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8008       5806 
+      7170       5806 
+      7164       5806 
+      7163       5806 
+      7164       5806 
+      7163       5806 
+      7164       5806 
+      7170       5806 
+      7163       5806 
+      7164       5806 
+
+
+size: 68, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4388       6506 
+      3932       6506 
+      3881       6506 
+      3842       6506 
+      3822       6506 
+      3822       6506 
+      3822       6506 
+     19656       6507 
+      3841       6506 
+      3828       6506 
+
+
+size: 68, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8866       5806 
+      7313       5806 
+      7274       5806 
+      7274       5806 
+      7274       5806 
+      7281       5806 
+      7274       5806 
+      7274       5806 
+      7274       5806 
+      7274       5806 
+
+
+size: 68, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7390       5706 
+      6402       5706 
+      6389       5706 
+      6389       5706 
+      6389       5706 
+      6383       5706 
+      6390       5706 
+      6390       5706 
+      6390       5706 
+      6390       5706 
+
+
+size: 68, src offs: 0, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      9608       3006 
+      9341       3006 
+      9452       3006 
+      9341       3006 
+      9341       3006 
+      9334       3006 
+      9341       3006 
+      9341       3006 
+      9335       3006 
+      9341       3006 
+
+
+size: 68, src offs: 0, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7579       9306 
+      6747       9306 
+      6741       9306 
+      6741       9306 
+      6748       9306 
+      6741       9306 
+      6741       9306 
+      6747       9306 
+      6741       9306 
+      6741       9306 
+
+
+size: 68, src offs: 0, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8574       8706 
+      8177       8706 
+      8158       8706 
+      8157       8706 
+      8151       8706 
+      8158       8706 
+      8157       8706 
+      8151       8706 
+      8158       8706 
+      8157       8706 
+
+
+size: 68, src offs: 0, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6806       8706 
+      5727       8706 
+      5733       8706 
+      5726       8706 
+      5733       8706 
+      5733       8706 
+      5726       8706 
+      5733       8706 
+      5733       8706 
+      5733       8706 
+
+
+size: 68, src offs: 0, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     28080       9206 
+     27157       9206 
+     27040       9206 
+     27040       9206 
+     27118       9206 
+     26962       9206 
+     27040       9206 
+     27040       9206 
+     27131       9206 
+     27196       9206 
+
+
+size: 68, src offs: 4, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      9295       2606 
+      9022       2606 
+      9101       2606 
+      9016       2606 
+      9016       2606 
+      9022       2606 
+      9016       2606 
+      9016       2606 
+      9023       2606 
+      9016       2606 
+
+
+size: 68, src offs: 4, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8015       5806 
+      7228       5806 
+      7169       5806 
+      7176       5806 
+      7170       5806 
+      7176       5806 
+      7169       5806 
+      7176       5806 
+      7170       5806 
+      7176       5806 
+
+
+size: 68, src offs: 4, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4817       6506 
+      4225       6506 
+      4186       6506 
+      4141       6506 
+      4140       6506 
+      4141       6506 
+      4140       6506 
+      4141       6506 
+      4134       6506 
+      4140       6506 
+
+
+size: 68, src offs: 4, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8496       5806 
+      7326       5806 
+      7274       5806 
+      7274       5806 
+      7274       5806 
+      7274       5806 
+      7274       5806 
+      7267       5806 
+      7274       5806 
+      7274       5806 
+
+
+size: 68, src offs: 4, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7540       5706 
+      6422       5706 
+      6389       5706 
+      6383       5706 
+      6390       5706 
+      6390       5706 
+      6390       5706 
+      6390       5706 
+      6390       5706 
+      6390       5706 
+
+
+size: 68, src offs: 4, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      9809       3006 
+      8944       3006 
+      8710       3006 
+      8626       3006 
+      8600       3006 
+      8606       3006 
+      8606       3006 
+      8600       3006 
+      8607       3006 
+      8607       3006 
+
+
+size: 68, src offs: 4, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7124       9306 
+      6305       9306 
+      6233       9306 
+      6234       9306 
+      6227       9306 
+      6227       9306 
+      6227       9306 
+      6227       9306 
+      6227       9306 
+      6227       9306 
+
+
+size: 68, src offs: 4, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8690       8706 
+      8203       8706 
+      8151       8706 
+      8157       8706 
+      8158       8706 
+      8151       8706 
+      8157       8706 
+      8158       8706 
+      8151       8706 
+      8157       8706 
+
+
+size: 68, src offs: 4, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7072       8706 
+      5733       8706 
+      5733       8706 
+      5733       8706 
+      5733       8706 
+      5727       8706 
+      5733       8706 
+      5733       8706 
+      5727       8706 
+      5733       8706 
+
+
+size: 68, src offs: 4, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     28424       9206 
+     26995       9206 
+     27274       9206 
+     27144       9206 
+     26955       9206 
+     26943       9206 
+     26962       9206 
+     26949       9206 
+     27027       9206 
+     27118       9206 
+
+
+
+
+
+size: 100, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      9360       2606 
+      8827       2606 
+      8931       2606 
+      8853       2606 
+      8827       2606 
+      8827       2606 
+      8827       2606 
+      8827       2606 
+      8827       2606 
+      8827       2606 
+
+
+size: 100, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6383       6406 
+      5317       6406 
+      5291       6406 
+      5246       6406 
+      5219       6406 
+      5226       6406 
+      5220       6406 
+      5226       6406 
+      5219       6406 
+      5226       6406 
+
+
+size: 100, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5109       7306 
+      4472       7306 
+      4433       7306 
+      4420       7306 
+      4420       7306 
+      4420       7306 
+      4420       7306 
+      4420       7306 
+      4420       7306 
+      4420       7306 
+
+
+size: 100, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6377       6406 
+      5388       6406 
+      5350       6406 
+      5356       6406 
+      5330       6406 
+      5336       6406 
+      5330       6406 
+      5330       6406 
+      5330       6406 
+      5330       6406 
+
+
+size: 100, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     28295       6306 
+     27534       6306 
+     27241       6306 
+     27138       6306 
+     27274       6306 
+     27384       6306 
+     27482       6306 
+     27274       6306 
+     27463       6306 
+     27417       6306 
+
+
+size: 100, src offs: 0, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12213       3006 
+     11733       3006 
+     11843       3006 
+     11726       3006 
+     11726       3006 
+     11732       3006 
+     11726       3006 
+     11726       3006 
+     11733       3006 
+     11726       3006 
+
+
+size: 100, src offs: 0, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7118      10706 
+      5993      10706 
+      6019      10706 
+      5986      10706 
+      5993      10706 
+      5987      10706 
+      5993      10706 
+      5986      10706 
+      5993      10706 
+      5987      10706 
+
+
+size: 100, src offs: 0, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7033       9506 
+      6383       9506 
+      6337       9506 
+      6312       9506 
+      6311       9506 
+      6318       9506 
+      6312       9506 
+      6311       9506 
+      6318       9506 
+      6312       9506 
+
+
+size: 100, src offs: 0, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6201       9706 
+      5395       9706 
+      5323       9706 
+      5317       9706 
+      5324       9706 
+      5317       9706 
+      5323       9706 
+      5323       9706 
+      5324       9706 
+      5324       9706 
+
+
+size: 100, src offs: 0, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     31545      10606 
+     29914      10606 
+     30043      10606 
+     30018      10606 
+     30050      10606 
+     29627      10606 
+     30388      10606 
+     30323      10606 
+     29524      10606 
+     30550      10606 
+
+
+size: 100, src offs: 4, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      9379       2606 
+      8827       2606 
+      8879       2606 
+      8827       2606 
+      8827       2606 
+      8827       2606 
+      8833       2606 
+      8834       2606 
+      8827       2606 
+      8827       2606 
+
+
+size: 100, src offs: 4, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6247       6406 
+      5278       6406 
+      5246       6406 
+      5245       6406 
+      5226       6406 
+      5220       6406 
+      5226       6406 
+      5219       6406 
+      5226       6406 
+      5220       6406 
+
+
+size: 100, src offs: 4, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4966       7306 
+      4472       7306 
+      4420       7306 
+      4420       7306 
+      4420       7306 
+      4420       7306 
+      4414       7306 
+      4420       7306 
+      4420       7306 
+      4420       7306 
+
+
+size: 100, src offs: 4, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6293       6406 
+      5402       6406 
+      5350       6406 
+      5350       6406 
+      5324       6406 
+      5324       6406 
+      5324       6406 
+      5331       6406 
+      5324       6406 
+      5324       6406 
+
+
+size: 100, src offs: 4, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     28925       6306 
+     27384       6306 
+     27202       6306 
+     27280       6306 
+     27072       6306 
+     27098       6306 
+     27241       6306 
+     27072       6306 
+     27241       6306 
+     27306       6306 
+
+
+size: 100, src offs: 4, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12194       3006 
+     11739       3006 
+     11733       3006 
+     11726       3006 
+     11726       3006 
+     11732       3006 
+     11726       3006 
+     11726       3006 
+     11733       3006 
+     11726       3006 
+
+
+size: 100, src offs: 4, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6656      10706 
+      5596      10706 
+      5525      10706 
+      5532      10706 
+      5525      10706 
+      5525      10706 
+      5525      10706 
+      5531      10706 
+      5532      10706 
+      5525      10706 
+
+
+size: 100, src offs: 4, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6246       9506 
+      5870       9506 
+      5824       9506 
+      5824       9506 
+      5824       9506 
+      5830       9506 
+      5831       9506 
+      5824       9506 
+      5824       9506 
+      5824       9506 
+
+
+size: 100, src offs: 4, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6545       9706 
+      5323       9706 
+      5343       9706 
+      5317       9706 
+      5323       9706 
+      5317       9706 
+      5324       9706 
+      5317       9706 
+      5323       9706 
+      5317       9706 
+
+
+size: 100, src offs: 4, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     32501      10606 
+     29758      10606 
+     29790      10606 
+     30089      10606 
+     29881      10606 
+     30030      10606 
+     30739      10606 
+     30213      10606 
+     29952      10606 
+     30226      10606 
+
+
+
+
+
+size: 256, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12064       2606 
+     11427       2606 
+     11537       2606 
+     11453       2606 
+     11427       2606 
+     11427       2606 
+     11421       2606 
+     11427       2606 
+     11427       2606 
+     11421       2606 
+
+
+size: 256, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7449       8106 
+      6350       8106 
+      6305       8106 
+      6305       8106 
+      6305       8106 
+      6312       8106 
+      6305       8106 
+      6305       8106 
+      6305       8106 
+      6305       8106 
+
+
+size: 256, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7573      10106 
+      6779      10106 
+      6682      10106 
+      6637      10106 
+      6617      10106 
+      6617      10106 
+      6617      10106 
+      6623      10106 
+      6617      10106 
+      6617      10106 
+
+
+size: 256, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7579       8106 
+      6415       8106 
+      6435       8106 
+      6416       8106 
+      6415       8106 
+      6416       8106 
+      6409       8106 
+      6415       8106 
+      6416       8106 
+      6415       8106 
+
+
+size: 256, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13838       8006 
+     12090       8006 
+     12506       8006 
+     12343       8006 
+     12317       8006 
+     12343       8006 
+     12246       8006 
+     12233       8006 
+     12370       8006 
+     12240       8006 
+
+
+size: 256, src offs: 0, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18331       3006 
+     17681       3006 
+     29868       3007 
+     17706       3006 
+     17681       3006 
+     17680       3006 
+     17681       3006 
+     17680       3006 
+     17681       3006 
+     17680       3006 
+
+
+size: 256, src offs: 0, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10718      17406 
+      9230      17406 
+      9256      17406 
+      9256      17406 
+      9230      17406 
+      9230      17406 
+      9230      17406 
+      9230      17406 
+      9230      17406 
+      9230      17406 
+
+
+size: 256, src offs: 0, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12279      13106 
+     11057      13106 
+     10999      13106 
+     10972      13106 
+     10966      13106 
+     10966      13106 
+     10966      13106 
+     10966      13106 
+     10966      13106 
+     10973      13106 
+
+
+size: 256, src offs: 0, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10017      14406 
+      8560      14406 
+      8580      14406 
+      8515      14406 
+      8521      14406 
+      8515      14406 
+      8522      14406 
+      8515      14406 
+      8521      14406 
+      8515      14406 
+
+
+size: 256, src offs: 0, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     36153      17306 
+     34521      17306 
+     35048      17306 
+     35373      17306 
+     34535      17306 
+     35100      17306 
+     34768      17306 
+     34340      17306 
+     34976      17306 
+     34788      17306 
+
+
+size: 256, src offs: 4, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12844       2606 
+     12428       2606 
+     12383       2606 
+     12376       2606 
+     12382       2606 
+     12376       2606 
+     12383       2606 
+     12376       2606 
+     12382       2606 
+     12376       2606 
+
+
+size: 256, src offs: 4, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7833       8106 
+      6345       8106 
+      6299       8106 
+      6299       8106 
+      6299       8106 
+      6299       8106 
+      6299       8106 
+      6305       8106 
+      6299       8106 
+      6299       8106 
+
+
+size: 256, src offs: 4, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7189      10106 
+      6669      10106 
+      6656      10106 
+      6617      10106 
+      6617      10106 
+      6624      10106 
+      6617      10106 
+      6617      10106 
+      6617      10106 
+      6623      10106 
+
+
+size: 256, src offs: 4, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7352       8106 
+      6488       8106 
+      6429       8106 
+      6409       8106 
+      6403       8106 
+      6410       8106 
+      6409       8106 
+      6410       8106 
+      6409       8106 
+      6410       8106 
+
+
+size: 256, src offs: 4, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     14950       8006 
+     12617       8006 
+     12616       8006 
+     12617       8006 
+     12616       8006 
+     12636       8006 
+     12636       8006 
+     12636       8006 
+     12636       8006 
+     12636       8006 
+
+
+size: 256, src offs: 4, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18330       3006 
+     17680       3006 
+     17726       3006 
+     17681       3006 
+     17680       3006 
+     17681       3006 
+     17680       3006 
+     17681       3006 
+     17680       3006 
+     17681       3006 
+
+
+size: 256, src offs: 4, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11199      17406 
+      9321      17406 
+      9256      17406 
+      9230      17406 
+      9230      17406 
+      9230      17406 
+      9230      17406 
+      9230      17406 
+      9230      17406 
+      9230      17406 
+
+
+size: 256, src offs: 4, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12162      13106 
+     11044      13106 
+     11011      13106 
+     11004      13106 
+     10972      13106 
+     10972      13106 
+     10979      13106 
+     10972      13106 
+     10972      13106 
+     10972      13106 
+
+
+size: 256, src offs: 4, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10088      14406 
+      8593      14406 
+      8535      14406 
+      8522      14406 
+      8515      14406 
+      8521      14406 
+      8515      14406 
+      8522      14406 
+      8515      14406 
+      8521      14406 
+
+
+size: 256, src offs: 4, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     35698      17306 
+     34899      17306 
+     34223      17306 
+     34418      17306 
+     34808      17306 
+     34164      17306 
+     35127      17306 
+     34788      17306 
+     34171      17306 
+     34821      17306 
+
+
+
+
+
+size: 1024, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     61393       2607 
+     30797       2606 
+     30797       2606 
+     30843       2606 
+     30797       2606 
+     30797       2606 
+     30790       2606 
+     30797       2606 
+     30797       2606 
+     30797       2606 
+
+
+size: 1024, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50869      22507 
+     19104      22506 
+     19084      22506 
+     19085      22506 
+     19078      22506 
+     19084      22506 
+     19085      22506 
+     19084      22506 
+     19085      22506 
+     19084      22506 
+
+
+size: 1024, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     41490      29307 
+     22997      29306 
+     22938      29306 
+     22945      29306 
+     22919      29306 
+     22919      29306 
+     22919      29306 
+     22919      29306 
+     22919      29306 
+     22919      29306 
+
+
+size: 1024, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50525      22507 
+     19234      22506 
+     19201      22506 
+     19201      22506 
+     19201      22506 
+     19194      22506 
+     19201      22506 
+     19195      22506 
+     19201      22506 
+     19194      22506 
+
+
+size: 1024, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     52709      22407 
+     22588      22406 
+     21951      22406 
+     22764      22406 
+     22373      22406 
+     22296      22406 
+     21749      22406 
+     22257      22406 
+     22360      22406 
+     22393      22406 
+
+
+size: 1024, src offs: 0, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     83643       3007 
+     52781       3006 
+     52806       3006 
+     52781       3006 
+     52787       3006 
+     52780       3006 
+     52781       3006 
+     52780       3006 
+     52781       3006 
+     52780       3006 
+
+
+size: 1024, src offs: 0, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     63199      51007 
+     31635      51006 
+     31622      51006 
+     31623      51006 
+     31616      51006 
+     31622      51006 
+     31616      51006 
+     31616      51006 
+     31622      51006 
+     31616      51006 
+
+
+size: 1024, src offs: 0, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     56004      32307 
+     38564      32306 
+     38519      32306 
+     38519      32306 
+     38519      32306 
+     38519      32306 
+     38519      32306 
+     38519      32306 
+     38519      32306 
+     38519      32306 
+
+
+size: 1024, src offs: 0, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     58695      38407 
+     27106      38406 
+     27099      38406 
+     27099      38406 
+     27099      38406 
+     27099      38406 
+     27099      38406 
+     27105      38406 
+     27099      38406 
+     27099      38406 
+
+
+size: 1024, src offs: 0, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     97260      50907 
+     64448      50906 
+     64110      50906 
+     64272      50906 
+     63967      50906 
+     64045      50906 
+     64162      50906 
+     64032      50906 
+     64110      50906 
+     64760      50906 
+
+
+size: 1024, src offs: 4, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     62413       2607 
+     30791       2606 
+     30836       2606 
+     30791       2606 
+     30791       2606 
+     30791       2606 
+     30785       2606 
+     30791       2606 
+     30791       2606 
+     30791       2606 
+
+
+size: 1024, src offs: 4, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     36472      22507 
+     17706      22506 
+     17654      22506 
+     17641      22506 
+     17615      22506 
+     17622      22506 
+     17615      22506 
+     17621      22506 
+     17615      22506 
+     17622      22506 
+
+
+size: 1024, src offs: 4, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55841      29307 
+     24836      29306 
+     24889      29306 
+     24869      29306 
+     24836      29306 
+     24830      29306 
+     24830      29306 
+     24830      29306 
+     24830      29306 
+     24830      29306 
+
+
+size: 1024, src offs: 4, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     52026      22507 
+     19273      22506 
+     19220      22506 
+     19195      22506 
+     19201      22506 
+     19194      22506 
+     19201      22506 
+     19195      22506 
+     19201      22506 
+     19194      22506 
+
+
+size: 1024, src offs: 4, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     53580      22407 
+     21827      22406 
+     22380      22406 
+     22315      22406 
+     21717      22406 
+     22432      22406 
+     22380      22406 
+     21607      22406 
+     21697      22406 
+     22367      22406 
+
+
+size: 1024, src offs: 4, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     93282       3007 
+     48724       3006 
+     48724       3006 
+     48789       3006 
+     48724       3006 
+     48724       3006 
+     48724       3006 
+     48724       3006 
+     48724       3006 
+     48724       3006 
+
+
+size: 1024, src offs: 4, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     62517      51007 
+     31636      51006 
+     31623      51006 
+     31616      51006 
+     31616      51006 
+     31623      51006 
+     31616      51006 
+     31622      51006 
+     31623      51006 
+     31616      51006 
+
+
+size: 1024, src offs: 4, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     69784      32307 
+     38545      32306 
+     38539      32306 
+     38519      32306 
+     38519      32306 
+     38519      32306 
+     38519      32306 
+     38519      32306 
+     38519      32306 
+     38519      32306 
+
+
+size: 1024, src offs: 4, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54450      38407 
+     25018      38406 
+     25018      38406 
+     25018      38406 
+     25018      38406 
+     25018      38406 
+     25025      38406 
+     25019      38406 
+     25019      38406 
+     25019      38406 
+
+
+size: 1024, src offs: 4, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     89167      50907 
+     58077      50906 
+     57298      50906 
+     57362      50906 
+     57694      50906 
+     57330      50906 
+     57317      50906 
+     57655      50906 
+     57844      50906 
+     57369      50906 
+
+
+
+
+
+size: 5000, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    143462       2609 
+     88322       2606 
+     88413       2606 
+     88342       2606 
+     88322       2606 
+     88322       2606 
+     88322       2606 
+     88322       2606 
+     89128       2606 
+     88322       2606 
+
+
+size: 5000, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    121440      97709 
+     67652      97706 
+     67658      97706 
+     67619      97706 
+     67619      97706 
+     67619      97706 
+     67619      97706 
+     67613      97706 
+     67632      97706 
+     67620      97706 
+
+
+size: 5000, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    159095     129709 
+    106477     129706 
+    106438     129706 
+    106418     129706 
+    106399     129706 
+    106399     129706 
+    106399     129706 
+    106406     129706 
+    106399     129706 
+    106399     129706 
+
+
+size: 5000, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    128187      97709 
+     73457      97706 
+     73385      97706 
+     73360      97706 
+     73353      97706 
+     73359      97706 
+     73360      97706 
+     73359      97706 
+     73360      97706 
+     73359      97706 
+
+
+size: 5000, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    162838      97609 
+    107725      97606 
+    107426      97606 
+    107179      97606 
+    107257      97606 
+    106893      97606 
+    107185      97606 
+    107178      97606 
+    107172      97606 
+    107133      97606 
+
+
+size: 5000, src offs: 0, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    261495       3009 
+    209547       3006 
+    209606       3006 
+    210301       3006 
+    209540       3006 
+    209547       3006 
+    209541       3006 
+    209547       3006 
+    209540       3006 
+    209547       3006 
+
+
+size: 5000, src offs: 0, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    183527     225009 
+    131820     225006 
+    131820     225006 
+    131820     225006 
+    131813     225006 
+    131820     225006 
+    131820     225006 
+    131820     225006 
+    131820     225006 
+    131820     225006 
+
+
+size: 5000, src offs: 0, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    223866     131509 
+    171177     131506 
+    171125     131506 
+    171125     131506 
+    171119     131506 
+    171126     131506 
+    171126     131506 
+    171581     131506 
+    171126     131506 
+    171119     131506 
+
+
+size: 5000, src offs: 0, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    164274     162609 
+    108829     162606 
+    108804     162606 
+    108790     162606 
+    108791     162606 
+    108790     162606 
+    108791     162606 
+    108790     162606 
+    108784     162606 
+    108791     162606 
+
+
+size: 5000, src offs: 0, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    221481     224909 
+    169559     224906 
+    169585     224906 
+    170651     224906 
+    169910     224906 
+    169319     224906 
+    170112     224906 
+    169351     224906 
+    169169     224906 
+    168974     224906 
+
+
+size: 5000, src offs: 4, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    134030       2609 
+     81530       2606 
+     81588       2606 
+     81530       2606 
+     81523       2606 
+     81523       2606 
+     81523       2606 
+     81530       2606 
+     81549       2606 
+     81523       2606 
+
+
+size: 5000, src offs: 4, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    142668      97709 
+     73333      97706 
+     73255      97706 
+     73262      97706 
+     73255      97706 
+     73255      97706 
+     73255      97706 
+     73255      97706 
+     73261      97706 
+     73262      97706 
+
+
+size: 5000, src offs: 4, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    154193     129709 
+     98221     129706 
+     98670     129706 
+     98222     129706 
+     98215     129706 
+     98221     129706 
+     98221     129706 
+     98222     129706 
+     98222     129706 
+     98215     129706 
+
+
+size: 5000, src offs: 4, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    133432      97709 
+     67756      97706 
+     67724      97706 
+     67717      97706 
+     67723      97706 
+     67717      97706 
+     67717      97706 
+     67723      97706 
+     67717      97706 
+     67717      97706 
+
+
+size: 5000, src offs: 4, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    180941      97609 
+    107880      97606 
+    108297      97606 
+    107672      97606 
+    107068      97606 
+    107016      97606 
+    108771      97606 
+    109187      97606 
+    107738      97606 
+    107809      97606 
+
+
+size: 5000, src offs: 4, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    244647       3009 
+    193537       3006 
+    193420       3006 
+    193427       3006 
+    193421       3006 
+    193421       3006 
+    193427       3006 
+    193420       3006 
+    193420       3006 
+    214571       3007 
+
+
+size: 5000, src offs: 4, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    180427     225009 
+    131820     225006 
+    131820     225006 
+    131820     225006 
+    131820     225006 
+    131814     225006 
+    131820     225006 
+    131820     225006 
+    172575     225008 
+    131820     225006 
+
+
+size: 5000, src offs: 4, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    238387     131509 
+    171177     131506 
+    171158     131506 
+    171126     131506 
+    171126     131506 
+    171119     131506 
+    171125     131506 
+    171125     131506 
+    171119     131506 
+    171126     131506 
+
+
+size: 5000, src offs: 4, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    153348     162609 
+    100438     162606 
+    100438     162606 
+    100418     162606 
+    100418     162606 
+    100418     162606 
+    100418     162606 
+    100418     162606 
+    100418     162606 
+    100418     162606 
+
+
+size: 5000, src offs: 4, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    243594     224909 
+    174558     224906 
+    174089     224906 
+    175162     224906 
+    174980     224906 
+    174083     224906 
+    173765     224906 
+    173699     224906 
+    175026     224906 
+    175240     224906 
+
+
+
+
+
+size: 15000, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    315049       2610 
+    226831       2606 
+    226792       2606 
+    226786       2606 
+    247208       2607 
+    226766       2606 
+    226766       2606 
+    226766       2606 
+    228248       2606 
+    226766       2606 
+
+
+size: 15000, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    286345     285210 
+    208260     285206 
+    208793     285206 
+    208260     285206 
+    208240     285206 
+    208241     285206 
+    208240     285206 
+    208240     285206 
+    208241     285206 
+    208234     285206 
+
+
+size: 15000, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    395395     379710 
+    309582     379706 
+    309544     379706 
+    309524     379706 
+    309524     379706 
+    309530     379706 
+    309524     379706 
+    309524     379706 
+    309530     379706 
+    310018     379706 
+
+
+size: 15000, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    274697     285210 
+    192335     285206 
+    192322     285206 
+    192322     285206 
+    192322     285206 
+    192322     285206 
+    192315     285206 
+    192322     285206 
+    192315     285206 
+    192322     285206 
+
+
+size: 15000, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    443885     285210 
+    351989     285206 
+    350006     285206 
+    349668     285206 
+    375245     285207 
+    349941     285206 
+    351235     285206 
+    349506     285206 
+    350246     285206 
+    350455     285206 
+
+
+size: 15000, src offs: 0, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    631605       3010 
+    548437       3006 
+    548424       3006 
+    549042       3006 
+    571526       3007 
+    548425       3006 
+    548425       3006 
+    548424       3006 
+    548418       3006 
+    549855       3006 
+
+
+size: 15000, src offs: 0, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    486336     662410 
+    413244     662406 
+    433576     662407 
+    413205     662406 
+    413205     662406 
+    413205     662406 
+    413699     662406 
+    413205     662406 
+    413205     662406 
+    413205     662406 
+
+
+size: 15000, src offs: 0, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    572787     381510 
+    504979     381506 
+    504946     381506 
+    504927     381506 
+    505486     381506 
+    504920     381506 
+    504926     381506 
+    504920     381506 
+    504933     381506 
+    504926     381506 
+
+
+size: 15000, src offs: 0, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    386003     475010 
+    332372     475007 
+    311370     475006 
+    311363     475006 
+    311370     475006 
+    311364     475006 
+    311864     475006 
+    311370     475006 
+    311364     475006 
+    311370     475006 
+
+
+size: 15000, src offs: 0, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    512076     662310 
+    423442     662306 
+    420771     662306 
+    421473     662306 
+    424001     662306 
+    421974     662306 
+    422799     662306 
+    421941     662306 
+    420348     662306 
+    421870     662306 
+
+
+size: 15000, src offs: 4, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    300125       2610 
+    249971       2607 
+    226765       2606 
+    226772       2606 
+    226772       2606 
+    226772       2606 
+    226772       2606 
+    226772       2606 
+    226792       2606 
+    226772       2606 
+
+
+size: 15000, src offs: 4, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    275093     285210 
+    192237     285206 
+    192218     285206 
+    192218     285206 
+    192218     285206 
+    192218     285206 
+    192218     285206 
+    212232     285207 
+    192218     285206 
+    192218     285206 
+
+
+size: 15000, src offs: 4, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    356265     379710 
+    285792     379706 
+    285792     379706 
+    286208     379706 
+    285720     379706 
+    285720     379706 
+    285721     379706 
+    285720     379706 
+    285720     379706 
+    285714     379706 
+
+
+size: 15000, src offs: 4, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    277491     285210 
+    192367     285206 
+    192361     285206 
+    192316     285206 
+    192777     285206 
+    192329     285206 
+    192316     285206 
+    192322     285206 
+    192315     285206 
+    192322     285206 
+
+
+size: 15000, src offs: 4, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    425048     285210 
+    349635     285206 
+    350272     285206 
+    350753     285206 
+    349089     285206 
+    349778     285206 
+    350636     285206 
+    404241     285207 
+    350681     285206 
+    350057     285206 
+
+
+size: 15000, src offs: 4, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    622466       3010 
+    548496       3006 
+    548437       3006 
+    548444       3006 
+    571688       3007 
+    548425       3006 
+    548425       3006 
+    549003       3006 
+    548425       3006 
+    548425       3006 
+
+
+size: 15000, src offs: 4, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    443164     662410 
+    381420     662406 
+    381420     662406 
+    381420     662406 
+    381420     662406 
+    400881     662407 
+    381420     662406 
+    381420     662406 
+    381420     662406 
+    381414     662406 
+
+
+size: 15000, src offs: 4, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    632528     381510 
+    568327     381507 
+    547021     381506 
+    547020     381506 
+    547008     381506 
+    547508     381506 
+    547007     381506 
+    547001     381506 
+    547014     381506 
+    547007     381506 
+
+
+size: 15000, src offs: 4, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    360302     475010 
+    287443     475006 
+    287417     475006 
+    287417     475006 
+    287417     475006 
+    287423     475006 
+    287879     475006 
+    287424     475006 
+    287417     475006 
+    287417     475006 
+
+
+size: 15000, src offs: 4, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    492466     662310 
+    422480     662306 
+    421285     662306 
+    421649     662306 
+    420316     662306 
+    422747     662306 
+    421135     662306 
+    420186     662306 
+    420979     662306 
+    423553     662306 
+
+
+
+
+
+size: 34000, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1632182       2617 
+   1383895       2606 
+   1382407       2606 
+   1382589       2606 
+   1382999       2606 
+   1400821       2607 
+   1382459       2606 
+   1382589       2606 
+   1383714       2606 
+   1382771       2606 
+
+
+size: 34000, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1746167     641818 
+   1490834     641806 
+   1487877     641806 
+   1482910     641806 
+   1484568     641806 
+   1502989     641807 
+   1483145     641806 
+   1491159     641806 
+   1482904     641806 
+   1501930     641807 
+
+
+size: 34000, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1541313     853717 
+   1360399     853706 
+   1356661     853706 
+   1359365     853706 
+   1386327     853707 
+   1360457     853706 
+   1358410     853706 
+   1360684     853706 
+   1361257     853706 
+   1363447     853706 
+
+
+size: 34000, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1671957     641818 
+   1469833     641806 
+   1468838     641806 
+   1466498     641806 
+   1491750     641807 
+   1471217     641806 
+   1472790     641806 
+   1467486     641806 
+   1470560     641806 
+   1482397     641807 
+
+
+size: 34000, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    886763     641816 
+    739739     641806 
+    737568     641806 
+    796335     641807 
+    736099     641806 
+    737835     641806 
+    737685     641806 
+    736080     641806 
+    788684     641807 
+    736047     641806 
+
+
+size: 34000, src offs: 0, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2105149       3016 
+   1950677       3006 
+   1951476       3006 
+   1939731       3007 
+   1800604       3006 
+   1797608       3006 
+   1800267       3006 
+   1819104       3007 
+   1799616       3006 
+   1798693       3006 
+
+
+size: 34000, src offs: 0, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1389173    1493816 
+   1250093    1493808 
+   1150136    1493806 
+   1151261    1493806 
+   1148388    1493806 
+   1150688    1493806 
+   1152353    1493806 
+   1168472    1493807 
+   1150507    1493806 
+   1151806    1493806 
+
+
+size: 34000, src offs: 0, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1873326     856716 
+   1735168     856706 
+   1766849     856708 
+   1604285     856706 
+   1606566     856706 
+   1601717     856706 
+   1621555     856707 
+   1603205     856706 
+   1605344     856706 
+   1609497     856706 
+
+
+size: 34000, src offs: 0, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1480869    1069017 
+   1332858    1069006 
+   1331031    1069006 
+   1329380    1069006 
+   1332636    1069006 
+   1440127    1069010 
+   1327274    1069006 
+   1330556    1069006 
+   1330427    1069006 
+   1334203    1069006 
+
+
+size: 34000, src offs: 0, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1139307    1493716 
+    991621    1493706 
+    987897    1493706 
+    989859    1493706 
+   1030160    1493707 
+    988806    1493706 
+    987468    1493706 
+    986934    1493706 
+    987598    1493706 
+    989170    1493706 
+
+
+size: 34000, src offs: 4, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1525557       2616 
+   1384799       2606 
+   1465165       2608 
+   1382817       2606 
+   1382979       2606 
+   1382751       2606 
+   1384357       2606 
+   1398416       2607 
+   1381965       2606 
+   1382102       2606 
+
+
+size: 34000, src offs: 4, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1614204     641816 
+   1482780     641806 
+   1479563     641806 
+   1525387     641807 
+   1483502     641806 
+   1481051     641806 
+   1489611     641806 
+   1507922     641807 
+   1490002     641806 
+   1484723     641806 
+
+
+size: 34000, src offs: 4, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1509228     853716 
+   1379892     853706 
+   1380678     853706 
+   1407413     853707 
+   1382738     853706 
+   1382966     853706 
+   1379976     853706 
+   1381244     853706 
+   1400172     853707 
+   1381204     853706 
+
+
+size: 34000, src offs: 4, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1602867     641816 
+   1465120     641806 
+   1464268     641806 
+   1494408     641807 
+   1468058     641806 
+   1471990     641806 
+   1467771     641806 
+   1486829     641807 
+   1473719     641806 
+   1470722     641806 
+
+
+size: 34000, src offs: 4, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    888537     641816 
+    739356     641806 
+    739531     641806 
+    738406     641806 
+    738874     641806 
+    738296     641806 
+    795997     641807 
+    739024     641806 
+    738322     641806 
+    737789     641806 
+
+
+size: 34000, src offs: 4, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2088087       3016 
+   1953081       3006 
+   1951125       3006 
+   1895641       3007 
+   1800202       3006 
+   1803770       3006 
+   1814722       3007 
+   1803997       3006 
+   1800559       3006 
+   1805714       3006 
+
+
+size: 34000, src offs: 4, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1438717    1493818 
+   1147601    1493806 
+   1146867    1493806 
+   1146620    1493806 
+   1147373    1493806 
+   1146763    1493806 
+   1166119    1493807 
+   1147718    1493806 
+   1146249    1493806 
+   1145189    1493806 
+
+
+size: 34000, src offs: 4, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1868984     856716 
+   1732640     856706 
+   1784607     856708 
+   1604993     856706 
+   1603271     856706 
+   1599409     856706 
+   1601971     856706 
+   1624493     856707 
+   1603986     856706 
+   1599981     856706 
+
+
+size: 34000, src offs: 4, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1581353    1069016 
+   1438255    1069006 
+   1415739    1069008 
+   1328873    1069006 
+   1330979    1069006 
+   1332630    1069006 
+   1400074    1069007 
+   1353352    1069007 
+   1331128    1069006 
+   1331369    1069006 
+
+
+size: 34000, src offs: 4, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1151573    1493716 
+    989625    1493706 
+    989176    1493706 
+   1032304    1493708 
+    918307    1493706 
+    916728    1493706 
+    914752    1493706 
+    916051    1493706 
+    916389    1493706 
+    918476    1493706 
+
+
+
+
+
+size: 550000, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  35800856       2754 
+  33768398       2611 
+  33798271       2611 
+  33749353       2611 
+  33737133       2611 
+  33831311       2611 
+  33755612       2611 
+  33754858       2611 
+  33953082       2611 
+  33785525       2611 
+
+
+size: 550000, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  48663661   10316959 
+  46402103   10316815 
+  46551674   10316814 
+  46560580   10316813 
+  46421063   10316813 
+  46344006   10316813 
+  46550992   10316814 
+  46460037   10316812 
+  46426745   10316813 
+  46544726   10316814 
+
+
+size: 550000, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  44581732   13753860 
+  42805308   13753714 
+  42781726   13753712 
+  42714639   13753712 
+  42769597   13753713 
+  42853915   13753713 
+  43061207   13753713 
+  42929490   13753713 
+  42874377   13753712 
+  42723733   13753712 
+
+
+size: 550000, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  43778423   10316959 
+  41737339   10316814 
+  41778985   10316813 
+  42104660   10316814 
+  41842762   10316812 
+  41756982   10316812 
+  41683688   10316812 
+  41948660   10316814 
+  41760440   10316812 
+  41766108   10316812 
+
+
+size: 550000, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  18866822   10316954 
+  17201346   10316809 
+  17215035   10316812 
+  17125752   10316809 
+  17109033   10316809 
+  17132759   10316810 
+  17101721   10316808 
+  17119440   10316809 
+  17106069   10316808 
+  17120831   10316809 
+
+
+size: 550000, src offs: 0, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  46141784       3157 
+  44432655       3012 
+  44340322       3013 
+  44539697       3013 
+  44396151       3012 
+  44546821       3015 
+  44358666       3012 
+  44385263       3013 
+  44337710       3012 
+  44352906       3012 
+
+
+size: 550000, src offs: 0, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  42308227   24068959 
+  40158099   24068814 
+  39936287   24068813 
+  39881173   24068812 
+  39904748   24068811 
+  40000513   24068812 
+  39890722   24068812 
+  39916351   24068812 
+  39806897   24068811 
+  39905944   24068812 
+
+
+size: 550000, src offs: 0, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  45415455   13756861 
+  42732950   13756714 
+  42623516   13756713 
+  42546992   13756712 
+  42482974   13756712 
+  42652793   13756713 
+  42666078   13756712 
+  42627962   13756712 
+  42865180   13756713 
+  42563756   13756712 
+
+
+size: 550000, src offs: 0, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  45366581   17194158 
+  43618074   17194014 
+  43696822   17194013 
+  43607850   17194012 
+  44094797   17194013 
+  43706981   17194013 
+  44016128   17194013 
+  43568018   17194012 
+  43855662   17194013 
+  43866537   17194013 
+
+
+size: 550000, src offs: 0, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  21955492   24068854 
+  19933329   24068710 
+  19907641   24068710 
+  19913296   24068710 
+  19910560   24068710 
+  19901297   24068708 
+  19912815   24068709 
+  19911619   24068709 
+  20007013   24068914 
+  19900842   24068709 
+
+
+size: 550000, src offs: 4, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  37413571       2755 
+  35678792       2611 
+  35732495       2611 
+  36235537       2613 
+  35870575       2612 
+  35910537       2611 
+  35830008       2611 
+  36028583       2612 
+  36128969       2611 
+  35697441       2612 
+
+
+size: 550000, src offs: 4, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  46193654   10316960 
+  44084664   10316815 
+  44245747   10316815 
+  44071671   10316812 
+  44177400   10316814 
+  44029057   10316812 
+  44040640   10316812 
+  44130269   10316813 
+  44047985   10316812 
+  44051352   10316812 
+
+
+size: 550000, src offs: 4, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  43727658   13753860 
+  41824329   13753714 
+  41880112   13753713 
+  41981381   13753713 
+  41756222   13753712 
+  41714453   13753712 
+  42067305   13753714 
+  41930473   13753713 
+  42091673   13753714 
+  41776625   13753712 
+
+
+size: 550000, src offs: 4, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  44366245   10316958 
+  42616757   10316814 
+  42376341   10316813 
+  42465151   10316812 
+  42410954   10316813 
+  42421230   10316812 
+  42669055   10316813 
+  42598498   10316813 
+  42483467   10316812 
+  42648366   10316813 
+
+
+size: 550000, src offs: 4, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  19497595   10316954 
+  17127338   10316809 
+  17413721   10316812 
+  17098452   10316808 
+  17124530   10316810 
+  17125349   10316809 
+  17118699   10316809 
+  17183907   10316809 
+  17123841   10316809 
+  17098446   10316808 
+
+
+size: 550000, src offs: 4, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  45536049       3156 
+  43775166       3012 
+  43889020       3013 
+  43866771       3013 
+  43864015       3012 
+  44283154       3014 
+  43786626       3012 
+  43819132       3012 
+  44196737       3015 
+  43864281       3012 
+
+
+size: 550000, src offs: 4, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  43822429   24068958 
+  42418084   24068815 
+  42380053   24068814 
+  42028981   24068812 
+  42051062   24068812 
+  42391928   24068813 
+  42018841   24068812 
+  42054402   24068812 
+  42322833   24068814 
+  42123270   24068812 
+
+
+size: 550000, src offs: 4, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  45503907   13756858 
+  43771326   13756716 
+  43643321   13756712 
+  43879193   13756713 
+  43758631   13756713 
+  43665480   13756712 
+  43738526   13756713 
+  43655820   13756712 
+  43662587   13756713 
+  43714087   13756712 
+
+
+size: 550000, src offs: 4, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  39916207   17194158 
+  38305904   17194014 
+  38193844   17194012 
+  38169436   17194012 
+  38154428   17194011 
+  38310870   17194012 
+  38180487   17194011 
+  38135650   17194012 
+  38102786   17194011 
+  38190692   17194012 
+
+
+size: 550000, src offs: 4, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  21617830   24068854 
+  19938087   24068710 
+  19923670   24068710 
+  19906737   24068710 
+  19915161   24068710 
+  19996476   24068914 
+  20041853   24068710 
+  19942760   24068709 
+  19921694   24068709 
+  19912451   24068709 
+
+
+
+
+
+size: 9000000, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+1190107634       5118 
+1178096790       2786 
+1177222092       2782 
+1176985511       2799 
+1178501734       2781 
+1177747864       2787 
+1179350810       2784 
+1179270430       2988 
+1176739337       2782 
+1177325793       2783 
+
+
+size: 9000000, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+1231941178  168755825 
+1216735520  168753491 
+1217501994  168753493 
+1217086644  168753690 
+1217788280  168753501 
+1216848237  168753489 
+1217552687  168753493 
+1217755793  168753492 
+1218676291  168753499 
+1217701251  168753494 
+
+
+size: 9000000, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+1232330405  225006229 
+1216952438  225003892 
+1216737379  225003892 
+1216859872  225003893 
+1216643734  225003900 
+1218073786  225003908 
+1216405710  225003890 
+1216587743  225003889 
+1216278863  225003897 
+1216671879  225004094 
+
+
+size: 9000000, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+1232724357  168755836 
+1217348587  168753487 
+1217299909  168753492 
+1217329386  168753490 
+1217187465  168753491 
+1216610668  168753486 
+1216871760  168753693 
+1216719381  168753488 
+1218044360  168753503 
+1217383518  168753491 
+
+
+size: 9000000, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+ 696382746  168755649 
+ 674786106  168753305 
+ 675688039  168753315 
+ 674785046  168753303 
+ 675640511  168753515 
+ 675297409  168753308 
+ 674900838  168753305 
+ 675269550  168753316 
+ 675467157  168753309 
+ 675727832  168753326 
+
+
+size: 9000000, src offs: 0, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+1226726397       5736 
+1231410947       3238 
+1230592207       3208 
+1223676747       3191 
+1227561751       3205 
+1225966216       3235 
+1210531036       3197 
+1226500509       3207 
+1229120874       3203 
+1229948629       3194 
+
+
+size: 9000000, src offs: 0, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+1313261203  393758776 
+1297359830  393756404 
+1296823353  393756401 
+1297412292  393759958 
+1297546361  393756423 
+1297365589  393756413 
+1297084926  393756404 
+1297010287  393756405 
+1296588651  393756611 
+1297853772  393756425 
+
+
+size: 9000000, src offs: 0, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+1223718113  225009244 
+1207311821  225006889 
+1207142177  225007100 
+1206320506  225006888 
+1208308713  225006925 
+1207409841  225006905 
+1207923627  225006903 
+1207214906  225006889 
+1208494170  225006929 
+1207075630  225006904 
+
+
+size: 9000000, src offs: 0, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+1247069824  281258937 
+1231763423  281256593 
+1232514881  281256594 
+1233626803  281256614 
+1232025918  281256606 
+1231639383  281256597 
+1231700450  281256596 
+1231878342  281256594 
+1233066380  281256614 
+1232090548  281256800 
+
+
+size: 9000000, src offs: 0, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+ 774992173  393758563 
+ 755080098  393756221 
+ 754743906  393756219 
+ 755495286  393756227 
+ 755339390  393756225 
+ 755178249  393756224 
+ 755485672  393756431 
+ 754985757  393756227 
+ 754790686  393756219 
+ 755091760  393756224 
+
+
+size: 9000000, src offs: 4, dst offs: 0, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+1201683808       5122 
+1186804853       2787 
+1186614436       2782 
+1187346966       2994 
+1188217524       2790 
+1187801960       2787 
+1189179531       2790 
+1188187800       2789 
+1186270475       2781 
+1186812861       2788 
+
+
+size: 9000000, src offs: 4, dst offs: 0, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+1229658301  168755845 
+1213552178  168753489 
+1213867441  168753505 
+1213183777  168753487 
+1213457681  168753499 
+1213064184  168753488 
+1213384777  168753487 
+1213174125  168753693 
+1213323475  168753496 
+1213191733  168753488 
+
+
+size: 9000000, src offs: 4, dst offs: 0, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+1210309932  225006229 
+1194748282  225003890 
+1194933402  225003885 
+1194724141  225003884 
+1194933857  225004095 
+1195250069  225003887 
+1194651867  225003887 
+1194519112  225003889 
+1194037020  225003890 
+1194566503  225003885 
+
+
+size: 9000000, src offs: 4, dst offs: 0, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+1237789449  168755828 
+1223096739  168753695 
+1223359703  168753492 
+1223003022  168753487 
+1223164170  168753495 
+1223731379  168753493 
+1223588152  168753494 
+1222978562  168753489 
+1223822704  168753499 
+1223301482  168753695 
+
+
+size: 9000000, src offs: 4, dst offs: 0, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+ 687360947  168755648 
+ 666497891  168753304 
+ 666718117  168753308 
+ 666389679  168753305 
+ 666538510  168753305 
+ 666578251  168753308 
+ 666520277  168753307 
+ 667113838  168753311 
+ 666259803  168753307 
+ 666550398  168753305 
+
+
+size: 9000000, src offs: 4, dst offs: 10, method: MEMCPYR 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+1196231536       5518 
+1194286723       3186 
+1189994507       3185 
+1187326621       3186 
+1202109246       3188 
+1201593971       3190 
+1200748250       3190 
+1200082065       3188 
+1202206434       3394 
+1188582512       3189 
+
+
+size: 9000000, src offs: 4, dst offs: 10, method: MEMCPYS2 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+1269373684  393758736 
+1254319365  393756400 
+1254857448  393756407 
+1255269561  393756418 
+1254866619  393756610 
+1254053548  393756396 
+1254650904  393756408 
+1254305241  393756403 
+1254195527  393756407 
+1253838944  393756397 
+
+
+size: 9000000, src offs: 4, dst offs: 10, method: MEMCPYU 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+1216493838  225009228 
+1200819510  225007093 
+1200126857  225006883 
+1200733067  225006889 
+1200758358  225006892 
+1200323222  225006886 
+1201338476  225006896 
+1200143334  225006888 
+1200279120  225006894 
+1200853069  225007092 
+
+
+size: 9000000, src offs: 4, dst offs: 10, method: MEMCPYS3 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+1262907743  281258938 
+1247897131  281256594 
+1247662500  281256593 
+1248112885  281256597 
+1248014749  281256607 
+1248037888  281256594 
+1248032858  281256803 
+1248167245  281256599 
+1247832385  281256599 
+1247937815  281256596 
+
+
+size: 9000000, src offs: 4, dst offs: 10, method: MEMCPYNT 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+ 781368315  393758563 
+ 761903935  393756225 
+ 762154237  393756225 
+ 761562873  393756219 
+ 762022164  393756427 
+ 761745458  393756222 
+ 761352579  393756223 
+ 761971171  393756226 
+ 761471373  393756220 
+ 761514754  393756221 
+
+
+Test with 3 threads:
+
+
+size: 100, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 100, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 100, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 100, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 100, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 100, src offs: 8, dst offs: 12, method: MEMCPYR 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 100, src offs: 8, dst offs: 12, method: MEMCPYS2 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 100, src offs: 8, dst offs: 12, method: MEMCPYU 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 100, src offs: 8, dst offs: 12, method: MEMCPYS3 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 100, src offs: 8, dst offs: 12, method: MEMCPYNT 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 1024, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 1024, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 1024, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 1024, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 1024, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 1024, src offs: 8, dst offs: 12, method: MEMCPYR 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 1024, src offs: 8, dst offs: 12, method: MEMCPYS2 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 1024, src offs: 8, dst offs: 12, method: MEMCPYU 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 1024, src offs: 8, dst offs: 12, method: MEMCPYS3 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 1024, src offs: 8, dst offs: 12, method: MEMCPYNT 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 5000, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 5000, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 5000, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 5000, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 5000, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 5000, src offs: 8, dst offs: 12, method: MEMCPYR 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 5000, src offs: 8, dst offs: 12, method: MEMCPYS2 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 5000, src offs: 8, dst offs: 12, method: MEMCPYU 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 5000, src offs: 8, dst offs: 12, method: MEMCPYS3 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 5000, src offs: 8, dst offs: 12, method: MEMCPYNT 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 15000, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 15000, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 15000, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 15000, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 15000, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 15000, src offs: 8, dst offs: 12, method: MEMCPYR 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 15000, src offs: 8, dst offs: 12, method: MEMCPYS2 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 15000, src offs: 8, dst offs: 12, method: MEMCPYU 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 15000, src offs: 8, dst offs: 12, method: MEMCPYS3 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 15000, src offs: 8, dst offs: 12, method: MEMCPYNT 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 34000, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 34000, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 34000, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 34000, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 34000, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 34000, src offs: 8, dst offs: 12, method: MEMCPYR 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 34000, src offs: 8, dst offs: 12, method: MEMCPYS2 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 34000, src offs: 8, dst offs: 12, method: MEMCPYU 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 34000, src offs: 8, dst offs: 12, method: MEMCPYS3 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 34000, src offs: 8, dst offs: 12, method: MEMCPYNT 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 550000, src offs: 0, dst offs: 0, method: MEMCPYR 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 550000, src offs: 0, dst offs: 0, method: MEMCPYS2 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 550000, src offs: 0, dst offs: 0, method: MEMCPYU 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 550000, src offs: 0, dst offs: 0, method: MEMCPYS3 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 550000, src offs: 0, dst offs: 0, method: MEMCPYNT 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 550000, src offs: 8, dst offs: 12, method: MEMCPYR 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 550000, src offs: 8, dst offs: 12, method: MEMCPYS2 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 550000, src offs: 8, dst offs: 12, method: MEMCPYU 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 550000, src offs: 8, dst offs: 12, method: MEMCPYS3 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+size: 550000, src offs: 8, dst offs: 12, method: MEMCPYNT 
+
+Processor 2 not available. Processors available:
+0  1  
+
+

@@ -1,0 +1,1177 @@
+Test of return stack buffer size
+
+The size of the return stack buffer is the last level that has few or no mispredictions
+
+
+
+
+Nesting level 2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3192       3706 
+      3120       3706 
+      3185       3706 
+      3133       3706 
+      3120       3706 
+      3120       3706 
+      3120       3706 
+      3120       3706 
+      3120       3706 
+      3120       3706 
+
+
+Nesting level 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4752       5706 
+      4739       5706 
+      4699       5706 
+      4700       5706 
+      4680       5706 
+      4680       5706 
+      4686       5706 
+      4680       5706 
+      4680       5706 
+      4687       5706 
+
+
+Nesting level 4
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5590       7706 
+      5551       7706 
+      5570       7706 
+      5564       7706 
+      5525       7706 
+      5518       7706 
+      5518       7706 
+      5518       7706 
+      5518       7706 
+      5518       7706 
+
+
+Nesting level 5
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6792       9706 
+      6767       9706 
+      6799       9706 
+      6780       9706 
+      6721       9706 
+      6721       9706 
+      6715       9706 
+      6721       9706 
+      6721       9706 
+      6721       9706 
+
+
+Nesting level 6
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8717      11706 
+      8580      11706 
+      8574      11706 
+      8574      11706 
+      8581      11706 
+      8574      11706 
+      8574      11706 
+      8580      11706 
+      8574      11706 
+      8574      11706 
+
+
+Nesting level 7
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      9217      13706 
+      9152      13706 
+      9119      13706 
+      9119      13706 
+      9119      13706 
+      9119      13706 
+      9119      13706 
+      9119      13706 
+      9119      13706 
+      9119      13706 
+
+
+Nesting level 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11428      15706 
+     11213      15706 
+     11174      15706 
+     11181      15706 
+     11174      15706 
+     11174      15706 
+     11180      15706 
+     11174      15706 
+     11174      15706 
+     11181      15706 
+
+
+Nesting level 9
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11876      17706 
+     11518      17706 
+     11518      17706 
+     11518      17706 
+     11518      17706 
+     11518      17706 
+     11525      17706 
+     11518      17706 
+     11518      17706 
+     11518      17706 
+
+
+Nesting level 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     14105      19706 
+     13832      19706 
+     13774      19706 
+     13813      19706 
+     13807      19706 
+     13813      19706 
+     13813      19706 
+     13806      19706 
+     13813      19706 
+     13813      19706 
+
+
+Nesting level 11
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     14196      21706 
+     13916      21706 
+     13917      21706 
+     13917      21706 
+     13923      21706 
+     13916      21706 
+     13923      21706 
+     13917      21706 
+     13923      21706 
+     13916      21706 
+
+
+Nesting level 12
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     16718      23706 
+     16386      23706 
+     16380      23706 
+     16380      23706 
+     16387      23706 
+     16380      23706 
+     16380      23706 
+     16386      23706 
+     16380      23706 
+     16380      23706 
+
+
+Nesting level 13
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     16621      25706 
+     16322      25706 
+     16315      25706 
+     16321      25706 
+     16321      25706 
+     16315      25706 
+     16322      25706 
+     16322      25706 
+     16315      25706 
+     16315      25706 
+
+
+Nesting level 14
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19494      27706 
+     18981      27706 
+     18974      27706 
+     18974      27706 
+     18980      27706 
+     18974      27706 
+     18974      27706 
+     18981      27706 
+     18974      27706 
+     18974      27706 
+
+
+Nesting level 15
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18928      29706 
+     18765      29706 
+     18714      29706 
+     18720      29706 
+     18720      29706 
+     18720      29706 
+     18720      29706 
+     18720      29706 
+     18720      29706 
+     18720      29706 
+
+
+Nesting level 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21906      31706 
+     21632      31706 
+     21574      31706 
+     21574      31706 
+     21581      31706 
+     21574      31706 
+     21574      31706 
+     21580      31706 
+     21574      31706 
+     21574      31706 
+
+
+Nesting level 17
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     24258      33706 
+     23926      33706 
+     23894      33706 
+     23888      33706 
+     23894      33706 
+     23887      33706 
+     23894      33706 
+     23888      33706 
+     23894      33706 
+     23887      33706 
+
+
+Nesting level 18
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23589      35706 
+     23283      35706 
+     23250      35706 
+     23250      35706 
+     23250      35706 
+     23250      35706 
+     23250      35706 
+     23250      35706 
+     23250      35706 
+     23250      35706 
+
+
+Nesting level 19
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26981      37706 
+     26494      37706 
+     26487      37706 
+     26494      37706 
+     26488      37706 
+     26494      37706 
+     26487      37706 
+     26494      37706 
+     26488      37706 
+     26494      37706 
+
+
+Nesting level 20
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25922      39706 
+     25682      39706 
+     25656      39706 
+     25649      39706 
+     25649      39706 
+     25649      39706 
+     25655      39706 
+     25649      39706 
+     25649      39706 
+     25649      39706 
+
+
+Nesting level 21
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     27248      41706 
+     26851      41706 
+     26851      41706 
+     26851      41706 
+     26851      41706 
+     26845      41706 
+     26852      41706 
+     26852      41706 
+     26852      41706 
+     26852      41706 
+
+
+Nesting level 22
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     31227      43706 
+     30381      43706 
+     30381      43706 
+     30382      43706 
+     30382      43706 
+     30381      43706 
+     30381      43706 
+     30382      43706 
+     30382      43706 
+     30381      43706 
+
+
+Nesting level 23
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29815      45706 
+     29282      45706 
+     29250      45706 
+     29250      45706 
+     29250      45706 
+     29250      45706 
+     29250      45706 
+     29250      45706 
+     29250      45706 
+     29250      45706 
+
+
+Nesting level 24
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     31102      47706 
+     30485      47706 
+     30446      47706 
+     30453      47706 
+     30453      47706 
+     30446      47706 
+     30446      47706 
+     30452      47706 
+     30452      47706 
+     30446      47706 
+
+
+Nesting level 25
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     35204      49706 
+     34326      49706 
+     34294      49706 
+     34288      49706 
+     34294      49706 
+     34287      49706 
+     34301      49706 
+     34287      49706 
+     34287      49706 
+     34288      49706 
+
+
+Nesting level 26
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     36329      51706 
+     35588      51706 
+     35581      51706 
+     35588      51706 
+     35582      51706 
+     35588      51706 
+     35581      51706 
+     35588      51706 
+     35582      51706 
+     35588      51706 
+
+
+Nesting level 27
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     37648      53706 
+     36894      53706 
+     36888      53706 
+     36894      53706 
+     36887      53706 
+     36894      53706 
+     36888      53706 
+     36894      53706 
+     36887      53706 
+     36894      53706 
+
+
+Nesting level 28
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     35815      55706 
+     35250      55706 
+     35256      55706 
+     35249      55706 
+     35249      55706 
+     35249      55706 
+     35249      55706 
+     35249      55706 
+     35249      55706 
+     35250      55706 
+
+
+Nesting level 29
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40742      57706 
+     39521      57706 
+     39481      57706 
+     39488      57706 
+     39482      57706 
+     39488      57706 
+     39481      57706 
+     39488      57706 
+     39482      57706 
+     39488      57706 
+
+
+Nesting level 30
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     41795      59706 
+     40827      59706 
+     40800      59706 
+     40788      59706 
+     40788      59706 
+     40787      59706 
+     40787      59706 
+     40788      59706 
+     40788      59706 
+     40787      59706 
+
+
+Nesting level 31
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     39988      61706 
+     38883      61706 
+     38851      61706 
+     38851      61706 
+     38851      61706 
+     38851      61706 
+     38851      61706 
+     38851      61706 
+     38851      61706 
+     38851      61706 
+
+
+Nesting level 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40684      63706 
+     40085      63706 
+     40046      63706 
+     40053      63706 
+     40053      63706 
+     40046      63706 
+     40046      63706 
+     40046      63706 
+     40047      63706 
+     40053      63706 
+
+
+Nesting level 33
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     44486      65706 
+     43284      65706 
+     43245      65706 
+     43355      65706 
+     43244      65706 
+     43244      65706 
+     43244      65706 
+     43244      65706 
+     43244      65706 
+     43264      65706 
+
+
+Nesting level 34
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     49147      67706 
+     48178      67706 
+     48106      67706 
+     48191      67706 
+     48152      67706 
+     48250      67706 
+     48191      67706 
+     48152      67706 
+     48210      67706 
+     48191      67706 
+
+
+Nesting level 35
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50726      69706 
+     49478      69706 
+     49491      69706 
+     49452      69706 
+     49569      69706 
+     49452      69706 
+     49452      69706 
+     49465      69706 
+     49452      69706 
+     49452      69706 
+
+
+Nesting level 36
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     51896      71706 
+     50772      71706 
+     50785      71706 
+     50765      71706 
+     50746      71706 
+     50863      71706 
+     50746      71706 
+     50740      71706 
+     50791      71706 
+     50746      71706 
+
+
+Nesting level 37
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     53320      73706 
+     52072      73706 
+     52085      73706 
+     52046      73706 
+     52085      73706 
+     52046      73706 
+     52046      73706 
+     52065      73706 
+     52040      73706 
+     52065      73706 
+
+
+Nesting level 38
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54756      75706 
+     53352      75706 
+     53352      75706 
+     53430      75706 
+     53391      75706 
+     53352      75706 
+     53410      75706 
+     53391      75706 
+     53352      75706 
+     53352      75706 
+
+
+Nesting level 39
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55958      77706 
+     54698      77706 
+     54645      77706 
+     54769      77706 
+     54652      77706 
+     54652      77706 
+     54652      77706 
+     54652      77706 
+     54652      77706 
+     54652      77706 
+
+
+Nesting level 40
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     57597      79706 
+     55991      79706 
+     55959      79706 
+     55946      79706 
+     56005      79706 
+     55985      79706 
+     55946      79706 
+     55946      79706 
+     55985      79706 
+     55946      79706 
+
+
+Nesting level 41
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     59182      81706 
+     57298      81706 
+     57245      81706 
+     57428      81706 
+     57271      81706 
+     57252      81706 
+     57291      81706 
+     57252      81706 
+     57252      81706 
+     57252      81706 
+
+
+Nesting level 42
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60021      83706 
+     58552      83706 
+     58552      83706 
+     58585      83706 
+     58552      83706 
+     58630      83706 
+     58591      83706 
+     58552      83706 
+     58552      83706 
+     58552      83706 
+
+
+Nesting level 43
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     61360      85706 
+     59852      85706 
+     59852      85706 
+     59950      85706 
+     59852      85706 
+     59845      85706 
+     59904      85706 
+     59846      85706 
+     59846      85706 
+     59871      85706 
+
+
+Nesting level 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     58325      87706 
+     56485      87706 
+     56459      87706 
+     56446      87706 
+     56570      87706 
+     56446      87706 
+     56439      87706 
+     56440      87706 
+     56446      87706 
+     56459      87706 
+
+
+Nesting level 45
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     64415      89706 
+     62472      89706 
+     62485      89706 
+     62466      89706 
+     62446      89706 
+     62504      89706 
+     62485      89706 
+     62446      89706 
+     62479      89706 
+     62446      89706 
+
+
+Nesting level 46
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65520      91706 
+     63772      91706 
+     63772      91706 
+     63785      91706 
+     63746      91706 
+     63818      91706 
+     63746      91706 
+     63746      91706 
+     63746      91706 
+     63746      91706 
+
+
+Nesting level 47
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     66696      93706 
+     65078      93706 
+     65091      93706 
+     65052      93706 
+     65195      93706 
+     65091      93706 
+     65052      93706 
+     65052      93706 
+     65052      93706 
+     65045      93706 
+
+
+Nesting level 48
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     67438      95706 
+     66372      95706 
+     66385      95706 
+     66346      95706 
+     66366      95706 
+     66346      95706 
+     66339      95706 
+     66366      95706 
+     66346      95706 
+     66346      95706 
+
+
+Nesting level 49
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     69492      97706 
+     67678      97706 
+     67691      97706 
+     67671      97706 
+     67652      97706 
+     67782      97706 
+     67698      97706 
+     67645      97706 
+     67698      97706 
+     67652      97706 
+
+
+Nesting level 50
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     70623      99706 
+     68991      99706 
+     68959      99706 
+     68946      99706 
+     69044      99706 
+     68946      99706 
+     68946      99706 
+     68946      99706 
+     68946      99706 
+     68946      99706 
+
+
+Nesting level 51
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     71969     101706 
+     70292     101706 
+    109805     101707 
+     70246     101706 
+     68810     101706 
+     64825     101706 
+     64896     101706 
+     64825     101706 
+     64825     101706 
+     64825     101706 
+
+
+Nesting level 52
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     69050     103706 
+     66034     103706 
+     66034     103706 
+     66086     103706 
+     66066     103706 
+     66027     103706 
+     66105     103706 
+     66066     103706 
+     66033     103706 
+     66046     103706 
+
+
+Nesting level 53
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     69108     105706 
+     67249     105706 
+     67242     105706 
+     67262     105706 
+     67243     105706 
+     67262     105706 
+     67242     105706 
+     67242     105706 
+     67243     105706 
+     67243     105706 
+
+
+Nesting level 54
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     70324     107706 
+     68445     107706 
+     68445     107706 
+     68536     107706 
+     68445     107706 
+     68445     107706 
+     68464     107706 
+     68484     107706 
+     68445     107706 
+     68458     107706 
+
+
+Nesting level 55
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     71435     109706 
+     69686     109706 
+     69641     109706 
+     69719     109706 
+     69641     109706 
+     69648     109706 
+     69700     109706 
+     69641     109706 
+     69647     109706 
+     69641     109706 
+
+
+Nesting level 56
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     78696     111706 
+     76778     111706 
+     76791     111706 
+     76752     111706 
+     76785     111706 
+     76752     111706 
+     76771     111706 
+     76752     111706 
+     76746     111706 
+     76752     111706 
+
+
+Nesting level 57
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80379     113706 
+     78098     113706 
+     78045     113706 
+     78111     113706 
+     78052     113706 
+     78052     113706 
+     78130     113706 
+     78091     113706 
+     78052     113706 
+     78052     113706 
+
+
+Nesting level 58
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     76420     115706 
+     73281     115706 
+     73255     115706 
+     73242     115706 
+     73300     115706 
+     73307     115706 
+     73281     115706 
+     73242     115706 
+     73249     115706 
+     73281     115706 
+
+
+Nesting level 59
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     75809     117706 
+     74444     117706 
+     74444     117706 
+     74483     117706 
+     74509     117706 
+     74464     117706 
+     74445     117706 
+     74445     117706 
+     74484     117706 
+     74445     117706 
+
+
+Nesting level 60
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     84214     119706 
+     81978     119706 
+     81978     119706 
+     96817     119707 
+     82056     119706 
+     81945     119706 
+     81952     119706 
+     81952     119706 
+     81952     119706 
+     81952     119706 
+
+
+Nesting level 61
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     85202     121706 
+     83278     121706 
+     83291     121706 
+     83252     121706 
+     83311     121706 
+     83252     121706 
+     83252     121706 
+     83265     121706 
+     83252     121706 
+     83271     121706 
+
+
+Nesting level 62
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80041     123706 
+     78046     123706 
+     78046     123706 
+     78098     123706 
+     78046     123706 
+     78046     123706 
+     78059     123706 
+     78046     123706 
+     78046     123706 
+     78065     123706 
+
+
+Nesting level 63
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     81068     125706 
+     79248     125706 
+     79241     125706 
+     79352     125706 
+     79287     125706 
+     79241     125706 
+     79300     125706 
+     79287     125706 
+     79241     125706 
+     79261     125706 
+
+
+Nesting level 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     89590     127706 
+     87152     127706 
+     87152     127706 
+     87269     127706 
+     87152     127706 
+     87197     127706 
+     87152     127706 
+     87191     127706 
+     87145     127706 
+     87165     127706 
+
+
+Nesting level 65
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     85137     129706 
+     81666     129706 
+     81621     129706 
+     81686     129706 
+     81660     129706 
+     81628     129706 
+     81641     129706 
+     81628     129706 
+     81621     129706 
+     81621     129706 
+
+
+Nesting level 66
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     84975     131706 
+     82888     131706 
+     82842     131706 
+     82920     131706 
+     82881     131706 
+     82842     131706 
+     82849     131706 
+     82882     131706 
+     82843     131706 
+     82862     131706 
+
+

@@ -1,0 +1,2897 @@
+Test loop buffer size and microop cache size
+and test which instructions fit into the microop cache
+
+Case 1a. Loop with short NOPs
+
+
+Number of instructions = 2, nopsize = 1, total size = 6
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3042       2007 
+      3023       2007 
+      3016       2007 
+      3016       2007 
+      3023       2007 
+      3016       2007 
+      3022       2007 
+      3023       2007 
+      3016       2007 
+      3022       2007 
+
+
+Number of instructions = 4, nopsize = 1, total size = 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3049       4007 
+      3022       4007 
+      3016       4007 
+      3023       4007 
+      3022       4007 
+      3022       4007 
+      3023       4007 
+      3016       4007 
+      3022       4007 
+      3023       4007 
+
+
+Number of instructions = 6, nopsize = 1, total size = 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     24934       6007 
+     24921       6007 
+     24941       6007 
+     24928       6007 
+     24928       6007 
+     24928       6007 
+     24928       6007 
+     24928       6007 
+     24928       6007 
+     24928       6007 
+
+
+Number of instructions = 10, nopsize = 1, total size = 14
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4440      10007 
+      4356      10007 
+      4355      10007 
+      4355      10007 
+      4356      10007 
+      4355      10007 
+      4355      10007 
+      4356      10007 
+      4355      10007 
+      4355      10007 
+
+
+Number of instructions = 20, nopsize = 1, total size = 24
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8041      20007 
+      8021      20007 
+      8027      20007 
+      8028      20007 
+      8027      20007 
+      8028      20007 
+      8027      20007 
+      8028      20007 
+      8021      20007 
+      8021      20007 
+
+
+Number of instructions = 25, nopsize = 1, total size = 29
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30011      25007 
+     30004      25007 
+     30004      25007 
+     30004      25007 
+     30004      25007 
+     30004      25007 
+     30030      25007 
+     30004      25007 
+     30004      25007 
+     30030      25007 
+
+
+Number of instructions = 31, nopsize = 1, total size = 35
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     35009      31007 
+     35678      31007 
+     35002      31007 
+     34996      31007 
+     34996      31007 
+     35003      31007 
+     35003      31007 
+     35003      31007 
+     35003      31007 
+     35432      31007 
+
+
+Number of instructions = 32, nopsize = 1, total size = 36
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12038      32007 
+     12025      32007 
+     12025      32007 
+     12025      32007 
+     12025      32007 
+     12025      32007 
+     12025      32007 
+     12025      32007 
+     12025      32007 
+     12025      32007 
+
+
+Number of instructions = 33, nopsize = 1, total size = 37
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13039      33007 
+     13026      33007 
+     13058      33007 
+     13045      33007 
+     13019      33007 
+     13026      33007 
+     13026      33007 
+     13026      33007 
+     13026      33007 
+     13020      33007 
+
+
+Number of instructions = 40, nopsize = 1, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     15047      40007 
+     15022      40007 
+     15080      40007 
+     15028      40007 
+     15028      40007 
+     15028      40007 
+     15028      40007 
+     15028      40007 
+     15028      40007 
+     15028      40007 
+
+
+Number of instructions = 50, nopsize = 1, total size = 54
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20618      50007 
+     20605      50007 
+     20599      50007 
+     20606      50007 
+     20605      50007 
+     20599      50007 
+     20606      50007 
+     20605      50007 
+     20599      50007 
+     20606      50007 
+
+
+Number of instructions = 100, nopsize = 1, total size = 104
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     38038     100007 
+     38025     100007 
+     38045     100007 
+     38038     100007 
+     38018     100007 
+     38025     100007 
+     38025     100007 
+     38467     100007 
+     38025     100007 
+     38025     100007 
+
+
+Number of instructions = 1000, nopsize = 1, total size = 1008
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    406711    1000007 
+    406282    1000007 
+    406276    1000007 
+    406276    1000007 
+    406283    1000007 
+    406276    1000007 
+    406763    1000007 
+    406283    1000007 
+    406276    1000007 
+    406276    1000007 
+
+
+Number of instructions = 2000, nopsize = 1, total size = 2008
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    813592    2000007 
+    813020    2000007 
+    867457    2000008 
+    812526    2000007 
+    861140    2000008 
+    760597    2000007 
+    750009    2000007 
+    750009    2000007 
+    750015    2000007 
+    750016    2000007 
+
+
+Number of instructions = 4000, nopsize = 1, total size = 4008
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1503541    4000007 
+   1500070    4000007 
+   1500493    4000007 
+   1512186    4000008 
+   1500473    4000007 
+   1500024    4000007 
+   1500025    4000007 
+   1500473    4000007 
+   1524289    4000008 
+   1500473    4000007 
+
+
+Number of instructions = 10000, nopsize = 1, total size = 10008
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3757201   10000007 
+   3762525   10000008 
+   3750513   10000007 
+   3777806   10000008 
+   3750922   10000007 
+   3763032   10000008 
+   3831562   10000009 
+   3750474   10000007 
+   3781258   10000008 
+   3750474   10000007 
+
+
+Number of instructions = 20000, nopsize = 1, total size = 20008
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   7526454   20000008 
+   7511940   20000008 
+   7529736   20000008 
+   7513031   20000008 
+   7519791   20000008 
+   7525687   20000008 
+   7511608   20000008 
+   7508956   20000008 
+   7520396   20000008 
+   7509379   20000008 
+
+
+
+Case 1b. Loop with long NOPs, 4 bytes
+
+
+Number of instructions = 10, nopsize = 4, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5513      10007 
+      5493      10007 
+      5493      10007 
+      5480      10007 
+      5434      10007 
+      5435      10007 
+      5441      10007 
+      5434      10007 
+      5435      10007 
+      5441      10007 
+
+
+Number of instructions = 32, nopsize = 4, total size = 136
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     17381      32007 
+     17361      32007 
+     17420      32007 
+     17362      32007 
+     17401      32007 
+     17400      32007 
+     17401      32007 
+     17401      32007 
+     17400      32007 
+     17401      32007 
+
+
+Number of instructions = 100, nopsize = 4, total size = 408
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50186     100007 
+     50024     100007 
+     50024     100007 
+     50024     100007 
+     50024     100007 
+     50024     100007 
+     50024     100007 
+     50024     100007 
+     50024     100007 
+     50017     100007 
+
+
+Number of instructions = 1000, nopsize = 4, total size = 4008
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    515300    1000008 
+    500058    1000007 
+    500019    1000007 
+    500474    1000007 
+    500019    1000007 
+    500025    1000007 
+    500025    1000007 
+    500019    1000007 
+    500026    1000007 
+    500026    1000007 
+
+
+
+Case 1c. Loop with long NOPs, 8 bytes
+
+
+Number of instructions = 4, nopsize = 8, total size = 36
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4043       4007 
+      4017       4007 
+      4069       4007 
+      4037       4007 
+      4017       4007 
+      4017       4007 
+      4017       4007 
+      4023       4007 
+      4017       4007 
+      4017       4007 
+
+
+Number of instructions = 8, nopsize = 8, total size = 68
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6032       8007 
+      6019       8007 
+      6149       8007 
+      6097       8007 
+      6019       8007 
+      6019       8007 
+      6019       8007 
+      6019       8007 
+      6019       8007 
+      6019       8007 
+
+
+Number of instructions = 12, nopsize = 8, total size = 100
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8047      12007 
+      8021      12007 
+      8014      12007 
+      8021      12007 
+      8021      12007 
+      8014      12007 
+      8021      12007 
+      8021      12007 
+      8021      12007 
+      8021      12007 
+
+
+Number of instructions = 32, nopsize = 8, total size = 264
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     19721      32007 
+     19559      32007 
+     19526      32007 
+     19519      32007 
+     19520      32007 
+     19526      32007 
+     19519      32007 
+     19520      32007 
+     19526      32007 
+     19519      32007 
+
+
+Number of instructions = 100, nopsize = 8, total size = 808
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     52462     100007 
+     52019     100007 
+     52468     100007 
+     52013     100007 
+     52019     100007 
+     52019     100007 
+     52019     100007 
+     52020     100007 
+     52020     100007 
+     52020     100007 
+
+
+Number of instructions = 1000, nopsize = 8, total size = 8008
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    552461    1000007 
+    543849    1000007 
+    544336    1000007 
+    543849    1000007 
+    543849    1000007 
+    557012    1000008 
+    543849    1000007 
+    543849    1000007 
+    543855    1000007 
+    544336    1000007 
+
+
+Number of instructions = 10000, nopsize = 8, total size = 80008
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  45803641   10000014 
+  45702059   10000014 
+  45708897   10000013 
+  45818702   10000015 
+  45701896   10000013 
+  45714565   10000014 
+  45771843   10000016 
+  45744939   10000014 
+  45762782   10000015 
+  45709664   10000013 
+
+
+
+Case 2. Loop with short instructions, 2 bytes each
+
+
+Number of instructions = 3, total size = 6
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3062       3007 
+      3022       3007 
+      3023       3007 
+      3016       3007 
+      3022       3007 
+      3023       3007 
+      3022       3007 
+      3016       3007 
+      3016       3007 
+      3022       3007 
+
+
+Number of instructions = 4, total size = 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3296       4007 
+      3270       4007 
+      3309       4007 
+      3270       4007 
+      3270       4007 
+      3270       4007 
+      3270       4007 
+      3270       4007 
+      3270       4007 
+      3270       4007 
+
+
+Number of instructions = 6, total size = 12
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3049       6007 
+      3022       6007 
+      3022       6007 
+      3023       6007 
+      3023       6007 
+      3022       6007 
+      3022       6007 
+      3023       6007 
+      3023       6007 
+      3016       6007 
+
+
+Number of instructions = 10, total size = 20
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4050      10007 
+      4024      10007 
+      4024      10007 
+      4024      10007 
+      4024      10007 
+      4017      10007 
+      4023      10007 
+      4023      10007 
+      4023      10007 
+      4023      10007 
+
+
+Number of instructions = 32, total size = 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12051      32007 
+     12025      32007 
+     12084      32007 
+     12025      32007 
+     12025      32007 
+     12025      32007 
+     12025      32007 
+     12025      32007 
+     12025      32007 
+     12025      32007 
+
+
+Number of instructions = 100, total size = 204
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     38194     100007 
+     38025     100007 
+     38083     100007 
+     38025     100007 
+     38025     100007 
+     38025     100007 
+     38025     100007 
+     38025     100007 
+     38025     100007 
+     38025     100007 
+
+
+Number of instructions = 1000, total size = 2004
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    376428    1000007 
+    386275    1000008 
+    375024    1000007 
+    375024    1000007 
+    375030    1000007 
+    375031    1000007 
+    375479    1000007 
+    375031    1000007 
+    375024    1000007 
+    375024    1000007 
+
+
+
+Case 3. loop with long instructions with big constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6559       6007 
+      6520       6007 
+      6585       6007 
+      6520       6007 
+      6520       6007 
+      6520       6007 
+      6520       6007 
+      6520       6007 
+      6520       6007 
+      6520       6007 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12058      10007 
+     12025      10007 
+     12071      10007 
+     12045      10007 
+     12019      10007 
+     12025      10007 
+     12025      10007 
+     12018      10007 
+     12025      10007 
+     12019      10007 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     43238      32007 
+     43023      32007 
+     43023      32007 
+     43017      32007 
+     43024      32007 
+     43024      32007 
+     43017      32007 
+     43023      32007 
+     43023      32007 
+     43023      32007 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    147966     100007 
+    147355     100007 
+    147855     100007 
+    147355     100007 
+    159621     100008 
+    147361     100007 
+    147355     100007 
+    147362     100007 
+    147355     100007 
+    147361     100007 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1496963    1000007 
+   1425905    1000008 
+   1374464    1000007 
+   1374009    1000007 
+   1374471    1000007 
+   1374009    1000007 
+   1387919    1000008 
+   1374464    1000007 
+   1374009    1000007 
+   1374464    1000007 
+
+
+Number of instructions = 10000, total size = 99988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  57127421   10000015 
+  57043070   10000016 
+  57005182   10000015 
+  56994717   10000015 
+  57008036   10000015 
+  57108857   10000017 
+  57056818   10000016 
+  56994275   10000015 
+  57003076   10000015 
+  57028640   10000015 
+
+
+
+Case 4. Loop with short instructions and one branch inside
+
+
+Number of instructions = 6, total size = 12
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7202       9503 
+      7111       9503 
+      7105       9503 
+      7040       9503 
+      7020       9503 
+      7020       9503 
+      7020       9503 
+      7020       9503 
+      7020       9503 
+      7020       9503 
+
+
+Number of instructions = 10, total size = 20
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7781      13503 
+      7722      13503 
+      7638      13503 
+      7611      13503 
+      7612      13503 
+      7612      13503 
+      7611      13503 
+      7612      13503 
+      7612      13503 
+      7611      13503 
+
+
+Number of instructions = 32, total size = 64
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     15633      39503 
+     25707      39504 
+     15580      39503 
+     15561      39503 
+     15522      39503 
+     15522      39503 
+     15522      39503 
+     15522      39503 
+     15522      39503 
+     15522      39503 
+
+
+Number of instructions = 100, total size = 204
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     44252     107503 
+     44031     107503 
+     43947     107503 
+     43907     107503 
+     43901     107503 
+     43908     107503 
+     43901     107503 
+     43907     107503 
+     43901     107503 
+     43908     107503 
+
+
+Number of instructions = 1000, total size = 2004
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    380380    1007503 
+    379087    1007503 
+    379061    1007503 
+    379041    1007503 
+    379021    1007503 
+    379496    1007503 
+    379022    1007503 
+    379022    1007503 
+    379022    1007503 
+    379022    1007503 
+
+
+
+Case 5. loop with long instructions (by prefixes) and a branch inside
+
+
+Number of instructions = 6, total size = 32
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      9698       9507 
+      9633       9507 
+      9562       9507 
+      9522       9507 
+      9522       9507 
+      9523       9507 
+      9523       9507 
+      9516       9507 
+      9522       9507 
+      9516       9507 
+
+
+Number of instructions = 10, total size = 72
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12662      13507 
+     12578      13507 
+     12571      13507 
+     12519      13507 
+     12519      13507 
+     12519      13507 
+     12519      13507 
+     12525      13507 
+     12526      13507 
+     12525      13507 
+
+
+Number of instructions = 32, total size = 296
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     28314      39507 
+     28210      39507 
+     28061      39507 
+     28022      39507 
+     28022      39507 
+     28022      39507 
+     28022      39507 
+     28022      39507 
+     28022      39507 
+     28022      39507 
+
+
+Number of instructions = 100, total size = 976
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     77974     107507 
+     76993     107507 
+     76967     107507 
+     76966     107507 
+     76941     107507 
+     76947     107507 
+     76947     107507 
+     76947     107507 
+     76947     107507 
+     76947     107507 
+
+
+Number of instructions = 1000, total size = 9976
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    643058    1007507 
+    633646    1007507 
+    633568    1007507 
+    634023    1007507 
+    633522    1007507 
+    633522    1007507 
+    633529    1007507 
+    633522    1007507 
+    633997    1007507 
+    646561    1007508 
+
+
+
+Case 6. Similar to 3 with smaller constants
+
+
+Number of instructions = 6, total size = 24
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4401       6007 
+      4361       6007 
+      4361       6007 
+      4355       6007 
+      4362       6007 
+      4362       6007 
+      4355       6007 
+      4361       6007 
+      4361       6007 
+      4355       6007 
+
+
+Number of instructions = 10, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5070      10007 
+      5024      10007 
+      5063      10007 
+      5025      10007 
+      5025      10007 
+      5018      10007 
+      5024      10007 
+      5018      10007 
+      5025      10007 
+      5018      10007 
+
+
+Number of instructions = 32, total size = 158
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     17413      32007 
+     17232      32007 
+     17232      32007 
+     17231      32007 
+     17232      32007 
+     17231      32007 
+     17232      32007 
+     17231      32007 
+     17231      32007 
+     17232      32007 
+
+
+Number of instructions = 100, total size = 498
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54711     100007 
+     54243     100007 
+     54191     100007 
+     54191     100007 
+     54191     100007 
+     54191     100007 
+     54191     100007 
+     54191     100007 
+     54191     100007 
+     54191     100007 
+
+
+Number of instructions = 1000, total size = 4998
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    546156    1000007 
+    541333    1000007 
+    554632    1000008 
+    541333    1000007 
+    541827    1000007 
+    541340    1000007 
+    541340    1000007 
+    541340    1000007 
+    541340    1000007 
+    541340    1000007 
+
+
+
+Case 7. Similar to 6, extended with dummy prefixes to 10 bytes
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12005       6007 
+      5025       6007 
+      5018       6007 
+      5076       6007 
+      5025       6007 
+      5018       6007 
+      5018       6007 
+      5018       6007 
+      5024       6007 
+      5025       6007 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8060      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22210      32007 
+     22067      32007 
+     22029      32007 
+     22022      32007 
+     22022      32007 
+     22022      32007 
+     22022      32007 
+     22022      32007 
+     22022      32007 
+     22022      32007 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     70695     100007 
+     69427     100007 
+     69355     100007 
+     69356     100007 
+     69356     100007 
+     69355     100007 
+     69356     100007 
+     69355     100007 
+     69356     100007 
+     69355     100007 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    637247    1000007 
+    627088    1000007 
+    627023    1000007 
+    627023    1000007 
+    652906    1000008 
+    627478    1000007 
+    627023    1000007 
+    627023    1000007 
+    627023    1000007 
+    627029    1000007 
+
+
+
+Case 8. Instructions with 64 bit constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7040       6007 
+      7059       6007 
+      7026       6007 
+      7027       6007 
+      7020       6007 
+      7020       6007 
+      7020       6007 
+      7026       6007 
+      7027       6007 
+      7020       6007 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     14040      10007 
+     14020      10007 
+     14079      10007 
+     14021      10007 
+     14021      10007 
+     14021      10007 
+     14027      10007 
+     14027      10007 
+     14020      10007 
+     14020      10007 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50206      32007 
+     50056      32007 
+     50024      32007 
+     50024      32007 
+     50017      32007 
+     50024      32007 
+     50024      32007 
+     50024      32007 
+     50024      32007 
+     50018      32007 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160465     100007 
+    160017     100007 
+    160023     100007 
+    160023     100007 
+    160024     100007 
+    160024     100007 
+    160023     100007 
+    160023     100007 
+    160024     100007 
+    160024     100007 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1766415    1000007 
+   1770737    1000008 
+   1758270    1000007 
+   1758758    1000007 
+   1758270    1000007 
+   1697144    1000008 
+   1623005    1000007 
+   1623454    1000007 
+   1623005    1000007 
+   1635212    1000008 
+
+
+
+Case 9. Instructions with 32 bit addr offset + 32 bit imm. constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     24992       6007 
+     24979       6007 
+     24999       6007 
+     24967       6007 
+     24986       6007 
+     24986       6007 
+     24999       6007 
+     24980       6007 
+     24967       6007 
+     24986       6007 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8249      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23296      32007 
+     23023      32007 
+     23023      32007 
+     23029      32007 
+     23030      32007 
+     23023      32007 
+     23023      32007 
+     23023      32007 
+     23023      32007 
+     23023      32007 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80834     100007 
+     80190     100007 
+     80191     100007 
+     80190     100007 
+     80197     100007 
+     80197     100007 
+     80190     100007 
+     80191     100007 
+     80190     100007 
+     80191     100007 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    820521    1000007 
+    811466    1000007 
+    811941    1000007 
+    811447    1000007 
+    811454    1000007 
+    761338    1000008 
+    749463    1000007 
+    749021    1000007 
+    749008    1000007 
+    749021    1000007 
+
+
+
+Case 10. Instructions with  8 bit addr offset + 32 bit imm. constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     24992       6007 
+     24980       6007 
+     24999       6007 
+     24960       6007 
+     24967       6007 
+     25031       6007 
+     24979       6007 
+     25044       6007 
+     24986       6007 
+     24999       6007 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8736      10007 
+      8690      10007 
+      8749      10007 
+      8691      10007 
+      8690      10007 
+      8691      10007 
+      8697      10007 
+      8690      10007 
+      8691      10007 
+      8690      10007 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23335      32007 
+     23023      32007 
+     23062      32007 
+     23023      32007 
+     23023      32007 
+     23023      32007 
+     23023      32007 
+     23023      32007 
+     23023      32007 
+     23023      32007 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80861     100007 
+     80249     100007 
+     80185     100007 
+     80230     100007 
+     80223     100007 
+     80230     100007 
+     80224     100007 
+     80230     100007 
+     80223     100007 
+     80230     100007 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    831851    1000008 
+    811434    1000007 
+    811448    1000007 
+    811928    1000007 
+    811448    1000007 
+    811441    1000007 
+    811447    1000007 
+    811929    1000007 
+    850642    1000008 
+    755197    1000007 
+
+
+
+Case 11. Instructions with 32 bit addr offset +  8 bit imm. constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     24993       6007 
+     24980       6007 
+     25032       6007 
+     24960       6007 
+     24979       6007 
+     24979       6007 
+     24999       6007 
+     25012       6007 
+     24979       6007 
+     24960       6007 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8060      10007 
+      8021      10007 
+      8125      10007 
+      8034      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25311      32007 
+     24980      32007 
+     24934      32007 
+     24941      32007 
+     24941      32007 
+     24935      32007 
+     24941      32007 
+     24941      32007 
+     24934      32007 
+     24941      32007 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     74815     100007 
+     74022     100007 
+     74022     100007 
+     74022     100007 
+     74022     100007 
+     74022     100007 
+     74022     100007 
+     74028     100007 
+     74028     100007 
+     74022     100007 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    757478    1000007 
+    751615    1000007 
+    770998    1000008 
+    749021    1000007 
+    749027    1000007 
+    749034    1000007 
+    749021    1000007 
+    749483    1000007 
+    749021    1000007 
+    749027    1000007 
+
+
+
+Case 12. Instructions with 8 bit addr offset + 8 bit imm. constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5070       6007 
+      5018       6007 
+      5070       6007 
+      5024       6007 
+      5025       6007 
+      5024       6007 
+      5025       6007 
+      5018       6007 
+      5018       6007 
+      5018       6007 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8060      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8015      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8014      10007 
+      8021      10007 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23199      32007 
+     23075      32007 
+     23023      32007 
+     23023      32007 
+     23029      32007 
+     23030      32007 
+     23023      32007 
+     23023      32007 
+     23023      32007 
+     23023      32007 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     81243     100007 
+     80230     100007 
+     80197     100007 
+     80197     100007 
+     80191     100007 
+     80190     100007 
+     80191     100007 
+     80190     100007 
+     80197     100007 
+     80197     100007 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    758368    1000007 
+    749021    1000007 
+    749489    1000007 
+    749028    1000007 
+    749021    1000007 
+    749027    1000007 
+    749028    1000007 
+    764667    1000008 
+    749021    1000007 
+    749040    1000007 
+
+
+
+Case 13. Instructions with 32 bit addr offset + 16 bit imm. constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     28022       6007 
+     27982       6007 
+     28002       6007 
+     28008       6007 
+     28022       6007 
+     27989       6007 
+     27982       6007 
+     28034       6007 
+     27982       6007 
+     28002       6007 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12064      10007 
+     12025      10007 
+     12018      10007 
+     12025      10007 
+     12019      10007 
+     12025      10007 
+     12025      10007 
+     12025      10007 
+     12025      10007 
+     12025      10007 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     44239      32007 
+     44064      32007 
+     44025      32007 
+     44018      32007 
+     44024      32007 
+     44024      32007 
+     44024      32007 
+     44024      32007 
+     44024      32007 
+     44024      32007 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    154466     100007 
+    152795     100007 
+    152874     100007 
+    152873     100007 
+    152776     100007 
+    152776     100007 
+    152776     100007 
+    152776     100007 
+    152776     100007 
+    152776     100007 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1548443    1000007 
+   1549600    1000008 
+   1421465    1000007 
+   1421010    1000007 
+   1421010    1000007 
+   1421465    1000007 
+   1432860    1000008 
+   1421466    1000007 
+   1421011    1000007 
+   1421466    1000007 
+
+
+
+Case 14. Instructions with  8 bit addr offset + 16 bit imm. constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     28015       6007 
+     28028       6007 
+     28002       6007 
+     28054       6007 
+     28028       6007 
+     40677       6008 
+     28008       6007 
+     27995       6007 
+     28002       6007 
+     28028       6007 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12038      10007 
+     12025      10007 
+     12019      10007 
+     12019      10007 
+     12025      10007 
+     12025      10007 
+     12018      10007 
+     12025      10007 
+     12025      10007 
+     12019      10007 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     44291      32007 
+     44025      32007 
+     44057      32007 
+     44024      32007 
+     44024      32007 
+     44024      32007 
+     44025      32007 
+     44025      32007 
+     44025      32007 
+     44025      32007 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    141797     100007 
+    141018     100007 
+    141128     100007 
+    141037     100007 
+    141024     100007 
+    141024     100007 
+    141017     100007 
+    141024     100007 
+    141024     100007 
+    141473     100007 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1548099    1000007 
+   1552414    1000008 
+   1539441    1000007 
+   1539935    1000007 
+   1539440    1000007 
+   1552408    1000008 
+   1539954    1000007 
+   1539447    1000007 
+   1539954    1000007 
+   1539440    1000007 
+
+
+
+Case 15. Instructions with rip relative addr  + 16 bit imm. constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30472       6007 
+     30368       6007 
+     30336       6007 
+     30355       6007 
+     30349       6007 
+     30348       6007 
+     30342       6007 
+     30336       6007 
+     30316       6007 
+     30349       6007 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13118      10007 
+     13020      10007 
+     13020      10007 
+     13020      10007 
+     13020      10007 
+     13020      10007 
+     13020      10007 
+     13020      10007 
+     13020      10007 
+     13020      10007 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     47970      32007 
+     47690      32007 
+     47736      32007 
+     47697      32007 
+     47691      32007 
+     47697      32007 
+     47697      32007 
+     47690      32007 
+     47697      32007 
+     47697      32007 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    153439     100007 
+    152809     100007 
+    152867     100007 
+    153303     100007 
+    152770     100007 
+    152770     100007 
+    152770     100007 
+    152770     100007 
+    152770     100007 
+    152770     100007 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1569211    1000008 
+   1539961    1000007 
+   1539440    1000007 
+   1539941    1000007 
+   1578161    1000008 
+   1430969    1000007 
+   1421011    1000007 
+   1421011    1000007 
+   1421466    1000007 
+   1453199    1000008 
+
+
+
+Case 16. Instructions with rip relative addr  + 32 bit imm. constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     27086       6007 
+     27060       6007 
+     27060       6007 
+     27060       6007 
+     27060       6007 
+     27060       6007 
+     27060       6007 
+     27060       6007 
+     27060       6007 
+     27060       6007 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8060      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23218      32007 
+     23075      32007 
+     23023      32007 
+     23029      32007 
+     23030      32007 
+     23023      32007 
+     23023      32007 
+     23023      32007 
+     23023      32007 
+     23023      32007 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     81159     100007 
+     80236     100007 
+     80190     100007 
+     80191     100007 
+     80197     100007 
+     80197     100007 
+     80191     100007 
+     80190     100007 
+     80191     100007 
+     80190     100007 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    819539    1000007 
+    811453    1000007 
+    811941    1000007 
+    811447    1000007 
+    811447    1000007 
+    811441    1000007 
+    811726    1000008 
+    749014    1000007 
+    749015    1000007 
+    749008    1000007 
+
+
+
+Case 17. Instructions with rip relative addr (big) + 32 bit imm. constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     24993       6007 
+     24979       6007 
+     24979       6007 
+     25012       6007 
+     24980       6007 
+     24980       6007 
+     24967       6007 
+     24966       6007 
+     24992       6007 
+     24979       6007 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8047      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25286      32007 
+     25000      32007 
+     24934      32007 
+     24941      32007 
+     24941      32007 
+     24935      32007 
+     24941      32007 
+     24941      32007 
+     24934      32007 
+     24941      32007 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     81056     100007 
+     80250     100007 
+     80191     100007 
+     80191     100007 
+     80185     100007 
+     80184     100007 
+     80185     100007 
+     80184     100007 
+     80191     100007 
+     80191     100007 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    821263    1000007 
+    811448    1000007 
+    811941    1000007 
+    811006    1000008 
+    749002    1000007 
+    749008    1000007 
+    749463    1000007 
+    749022    1000007 
+    749002    1000007 
+    749002    1000007 
+
+
+
+Case 18. Instructions with 64 bit abs address, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      6553       6007 
+      6520       6007 
+      6579       6007 
+      6520       6007 
+      6520       6007 
+      6520       6007 
+      6520       6007 
+      6520       6007 
+      6520       6007 
+      6520       6007 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12051      10007 
+     12025      10007 
+     12038      10007 
+     12038      10007 
+     12025      10007 
+     12019      10007 
+     12019      10007 
+     12025      10007 
+     12018      10007 
+     12018      10007 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     46918      32007 
+     46645      32007 
+     46599      32007 
+     46605      32007 
+     46599      32007 
+     46606      32007 
+     46599      32007 
+     46605      32007 
+     46599      32007 
+     46606      32007 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    148011     100007 
+    147849     100007 
+    147361     100007 
+    147361     100007 
+    147362     100007 
+    147362     100007 
+    147361     100007 
+    147361     100007 
+    147362     100007 
+    147362     100007 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1382914    1000007 
+   1374035    1000007 
+   1374477    1000007 
+   1387952    1000008 
+   1374471    1000007 
+   1374022    1000007 
+   1374022    1000007 
+   1374477    1000007 
+   1385196    1000008 
+   1374477    1000007 
+
+
+
+Case 19. One inst. w. 64 bit constant and three with 32 bits, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5454       6007 
+      5499       6007 
+      5441       6007 
+      5473       6007 
+      5474       6007 
+      5480       6007 
+      5473       6007 
+      5474       6007 
+      5480       6007 
+      5473       6007 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8066      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8027      10007 
+      8028      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+      8021      10007 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     29517      32007 
+     29335      32007 
+     29309      32007 
+     29289      32007 
+     29270      32007 
+     29270      32007 
+     29270      32007 
+     29276      32007 
+     29270      32007 
+     29270      32007 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     86853     100007 
+     86060     100007 
+     86027     100007 
+     86021     100007 
+     86028     100007 
+     86021     100007 
+     86021     100007 
+     86027     100007 
+     86021     100007 
+     86028     100007 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    960824    1000008 
+    874043    1000007 
+    874497    1000007 
+    874023    1000007 
+    874003    1000007 
+    874003    1000007 
+    874465    1000007 
+    874004    1000007 
+    894128    1000008 
+    874004    1000007 
+
+
+
+Case 20. Instructions with 32 bit absolute addr + 32 bit imm. constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25032       6001 
+     25032       6001 
+     24999       6001 
+     25019       6001 
+     25019       6001 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8061      10001 
+      8073      10001 
+      8022      10001 
+      8021      10001 
+      8022      10001 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25194      32001 
+     24934      32001 
+     24992      32001 
+     24934      32001 
+     24934      32001 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     74711     100001 
+     74016     100001 
+     74015     100001 
+     74015     100001 
+     74022     100001 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    820027    1000001 
+    811473    1000001 
+    812025    1000001 
+    823264    1000002 
+    811434    1000001 
+
+
+
+Case 21. Instructions with 32 bit absolute addr + 16 bit imm. constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30355       6001 
+     30407       6001 
+     30329       6001 
+     30335       6001 
+     30342       6001 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12057      10001 
+     12025      10001 
+     12083      10001 
+     12024      10001 
+     12024      10001 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     44278      32001 
+     44018      32001 
+     44018      32001 
+     44018      32001 
+     44018      32001 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    153575     100001 
+    152776     100001 
+    152834     100001 
+    152814     100001 
+    152769     100001 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1547208    1000001 
+   1491210    1000002 
+   1420002    1000001 
+   1420457    1000001 
+   1420002    1000001 
+
+
+
+Case 22. Instructions with 32 bit absolute addr + 8 bit imm. constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     24998       6001 
+     25005       6001 
+     25005       6001 
+     25031       6001 
+     24986       6001 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8710      10001 
+      8684      10001 
+      8684      10001 
+      8684      10001 
+      8684      10001 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25220      32001 
+     24934      32001 
+     24934      32001 
+     24934      32001 
+     24934      32001 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80886     100001 
+     80229     100001 
+    123623     100002 
+     80210     100001 
+     77584     100001 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    757667    1000001 
+    749061    1000001 
+    749093    1000001 
+    764914    1000002 
+    749607    1000001 
+
+
+
+Case 23. Instructions with 32 bit absolute addr + 0 bit imm. constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25031       6001 
+     25050       6001 
+     24986       6001 
+     25018       6001 
+     24979       6001 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      9146      10001 
+      8743      10001 
+      8684      10001 
+      8717      10001 
+      8723      10001 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     24187      32001 
+     23848      32001 
+     23907      32001 
+     23868      32001 
+     23849      32001 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     64799     100001 
+     64064     100001 
+     64012     100001 
+     64019     100001 
+     64018     100001 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    635894    1000001 
+    627022    1000001 
+    627080    1000001 
+    627490    1000001 
+    641757    1000002 
+
+
+
+Case 24. Instructions with base + index + 0 bit offset + 32 bit imm. constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     24765       6016 
+     24901       6016 
+     24902       6016 
+     24902       6016 
+     24901       6016 
+     24901       6016 
+     24908       6016 
+     24902       6016 
+     24902       6016 
+     24901       6016 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      8040      10016 
+      8073      10016 
+      8092      10016 
+      8060      10016 
+      8021      10016 
+      8021      10016 
+      8021      10016 
+      8021      10016 
+      8021      10016 
+      8021      10016 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23315      32016 
+     23081      32016 
+     23030      32016 
+     23062      32016 
+     23543      32016 
+     23062      32016 
+     23062      32016 
+     23062      32016 
+     23062      32016 
+     23068      32016 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     74964     100016 
+     74067     100016 
+     74029     100016 
+     74022     100016 
+     74028     100016 
+     74029     100016 
+     74028     100016 
+     74029     100016 
+     74022     100016 
+     74028     100016 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    757464    1000016 
+    760825    1000017 
+    749502    1000016 
+    749028    1000016 
+    749028    1000016 
+    749021    1000016 
+    749040    1000016 
+    749495    1000016 
+    749040    1000016 
+    749027    1000016 
+
+
+
+Case 25. Instructions with base + index + 8 bit offset + 16 bit imm. constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7820       6014 
+      7612       6014 
+      7612       6014 
+      7611       6014 
+      7611       6014 
+      7611       6014 
+      7612       6014 
+     20651       6015 
+      7612       6014 
+      7612       6014 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     34138      10014 
+     34197      10014 
+     34002      10014 
+     34002      10014 
+     34002      10014 
+     34001      10014 
+     34456      10014 
+     34001      10014 
+     34001      10014 
+     34001      10014 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     46313      32014 
+     46020      32014 
+     46053      32014 
+     46020      32014 
+     46027      32014 
+     46026      32014 
+     46020      32014 
+     46020      32014 
+     46020      32014 
+     46027      32014 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    145912     100014 
+    145054     100014 
+    145021     100014 
+    145021     100014 
+    145021     100014 
+    145021     100014 
+    145028     100014 
+    145022     100014 
+    145022     100014 
+    145496     100014 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1599313    1000014 
+   1528319    1000015 
+   1467460    1000014 
+   1467005    1000014 
+   1467453    1000014 
+   1480408    1000015 
+   1467460    1000014 
+   1467005    1000014 
+   1467005    1000014 
+   1467460    1000014 
+
+
+
+Case 26. Instructions with base + index + 32 bit offset + 16 bit imm. constants, 10 bytes each
+
+
+Number of instructions = 6, total size = 44
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     28015       6014 
+     27983       6014 
+     28021       6014 
+     27963       6014 
+     28002       6014 
+     27983       6014 
+     27963       6014 
+     28041       6014 
+     28015       6014 
+     27963       6014 
+
+
+Number of instructions = 10, total size = 84
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12181      10014 
+     12025      10014 
+     12025      10014 
+     12025      10014 
+     12025      10014 
+     12025      10014 
+     12025      10014 
+     12018      10014 
+     12025      10014 
+     12025      10014 
+
+
+Number of instructions = 32, total size = 308
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     44298      32014 
+     44024      32014 
+     44024      32014 
+     44024      32014 
+     44031      32014 
+     44025      32014 
+     44025      32014 
+     44025      32014 
+     44024      32014 
+     44024      32014 
+
+
+Number of instructions = 100, total size = 988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    153738     100014 
+    152815     100014 
+    152834     100014 
+    152776     100014 
+    152776     100014 
+    152776     100014 
+    152776     100014 
+    152776     100014 
+    152776     100014 
+    152776     100014 
+
+
+Number of instructions = 1000, total size = 9988
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1431749    1000014 
+   1435324    1000015 
+   1421024    1000014 
+   1421024    1000014 
+   1421479    1000014 
+   1421017    1000014 
+   1452262    1000015 
+   1421023    1000014 
+   1421478    1000014 
+   1421023    1000014 
+
+
+Three threads. Loop with long NOPs
+
+
+Number of instructions = 4, nopsize = 8, total size = 36
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Number of instructions = 8, nopsize = 8, total size = 68
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Number of instructions = 16, nopsize = 8, total size = 136
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Number of instructions = 32, nopsize = 8, total size = 264
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Number of instructions = 36, nopsize = 8, total size = 296
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Number of instructions = 40, nopsize = 8, total size = 328
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Number of instructions = 48, nopsize = 8, total size = 392
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Number of instructions = 56, nopsize = 8, total size = 456
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Number of instructions = 64, nopsize = 8, total size = 520
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Number of instructions = 100, nopsize = 8, total size = 808
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Number of instructions = 1000, nopsize = 8, total size = 8008
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Number of instructions = 10000, nopsize = 8, total size = 80008
+
+Processor 2 not available. Processors available:
+0  1  
+
+

@@ -1,0 +1,203 @@
+Test length-changing prefixes
+
+
+Case 1: mov register,constant
+
+
+A. Instructions with length-changing prefix, aligned by 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1254247    1002001 
+   1251068    1002001 
+   1264439    1002002 
+   1251491    1002001 
+   1251023    1002001 
+
+B. Instructions with length-changing prefix, crossing 16-bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1254039    1003001 
+   1251049    1003001 
+   1264894    1003002 
+   1251478    1003001 
+   1251030    1003001 
+
+C. Similar instructions with non-length-changing prefix
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    653348    1002001 
+    649806    1002001 
+    649806    1002001 
+    661921    1002002 
+    649805    1002001 
+
+
+Case 2: add register,constant
+
+
+A. Instructions with length-changing prefix, aligned by 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1069711    1002001 
+   1067599    1002001 
+   1067105    1002001 
+   1095861    1002002 
+    985458    1002001 
+
+B. Instructions with length-changing prefix, crossing 16-bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1070797    1003001 
+   1092501    1003002 
+    986011    1003001 
+    986005    1003001 
+    986005    1003001 
+
+C. Similar instructions with non-length-changing prefix
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    547164    1002001 
+    542777    1002001 
+    542783    1002001 
+    542776    1002001 
+    542783    1002001 
+
+
+Case 3: test register,constant
+
+
+A. Instructions with length-changing prefix, aligned by 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    987721    1002001 
+    985030    1002001 
+    985030    1002001 
+    985478    1002001 
+    985023    1002001 
+
+B. Instructions with length-changing prefix, crossing 16-bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1070205    1003001 
+   1068197    1003001 
+   1068678    1003001 
+   1068190    1003001 
+   1068190    1003001 
+
+C. Similar instructions with non-length-changing prefix
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    529224    1002001 
+    538064    1002002 
+    524999    1002001 
+    524999    1002001 
+    524999    1002001 
+
+
+Case 4: neg or not register (bogus length-changing prefix)
+
+
+A. Instructions with length-changing prefix, aligned by 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    848901    1002001 
+    842823    1002001 
+    846860    1002001 
+    842817    1002001 
+    842823    1002001 
+
+B. Instructions with length-changing prefix, crossing 16-bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    932860    1003001 
+    930559    1003001 
+    943222    1003002 
+    930475    1003001 
+    930475    1003001 
+
+C. Similar instructions with non-length-changing prefix
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    504940    1002001 
+    500565    1002001 
+    500624    1002001 
+    501014    1002001 
+    500527    1002001 
+
+
+Case 5: lea with address size prefix
+
+
+A. Instructions with length-changing prefix, aligned by 16
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1003698    1002001 
+   1001013    1002001 
+   1001468    1002001 
+   1001013    1002001 
+   1001013    1002001 
+
+B. Instructions with length-changing prefix, crossing 16-bytes boundary
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1088042    1003001 
+   1084922    1003001 
+   1084440    1003001 
+   1084440    1003001 
+   1120483    1003002 
+
+C. Similar instructions with non-length-changing prefix
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1003938    1002001 
+   1001032    1002001 
+   1022249    1002002 
+   1001013    1002001 
+   1029945    1002002 
+
+

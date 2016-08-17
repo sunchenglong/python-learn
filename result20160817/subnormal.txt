@@ -1,0 +1,2248 @@
+Floating point subnormal operands etc.
+
+
+
+Case 0: normal + normal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55711      20213 
+     55575      20213 
+     55575      20213 
+     55581      20213 
+     55582      20213 
+     55575      20213 
+     55575      20213 
+     55582      20213 
+     55581      20213 
+     55575      20213 
+
+
+Case 1: normal + normal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    325020      20213 
+    325014      20213 
+    325020      20213 
+    325013      20213 
+    325020      20213 
+    325014      20213 
+    338598      20214 
+    325020      20213 
+    325507      20213 
+    325014      20213 
+
+
+Case 2: normal + subnormal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    300021      20213 
+    300021      20213 
+    300021      20213 
+    300020      20213 
+    300469      20213 
+    300021      20213 
+    300020      20213 
+    300020      20213 
+    300020      20213 
+    300021      20213 
+
+
+Case 3: normal + subnormal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400855      20213 
+    400855      20213 
+    400862      20213 
+    400862      20213 
+    401342      20213 
+    400861      20213 
+    400855      20213 
+    400855      20213 
+    400855      20213 
+    400855      20213 
+
+
+Case 4: subnormal + subnormal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    415727      20215 
+    360009      20213 
+    360022      20213 
+    360002      20213 
+    360009      20213 
+    360451      20213 
+    360009      20213 
+    360003      20213 
+    360009      20213 
+    360009      20213 
+
+
+Case 5: subnormal + subnormal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1170507      20213 
+   1170020      20213 
+   1170014      20213 
+   1170501      20213 
+   1183442      20214 
+   1170020      20213 
+   1170501      20213 
+   1170020      20213 
+   1170013      20213 
+   1170501      20213 
+
+
+Case 6: normal + normal = overflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    140023      20213 
+    140023      20213 
+    140017      20213 
+    140023      20213 
+    140023      20213 
+    140023      20213 
+    140023      20213 
+    140016      20213 
+    140023      20213 
+    140023      20213 
+
+
+Case 7: normal + NAN = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60820      20213 
+     60209      20213 
+     60216      20213 
+     60216      20213 
+     60209      20213 
+     60210      20213 
+     60209      20213 
+     60210      20213 
+     60216      20213 
+     60216      20213 
+
+
+Case 8: normal + INF = INF
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60405      20213 
+     60204      20213 
+     60210      20213 
+     60210      20213 
+     60204      20213 
+     60203      20213 
+     60204      20213 
+     60203      20213 
+     60210      20213 
+     60210      20213 
+
+
+Case 9: INF + INF = INF
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55633      20213 
+     55523      20213 
+     55581      20213 
+     55582      20213 
+     55575      20213 
+     55575      20213 
+     55575      20213 
+     55581      20213 
+     55582      20213 
+     55575      20213 
+
+
+Case 10: INF - INF = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55633      20213 
+     55523      20213 
+     55575      20213 
+     55575      20213 
+     55575      20213 
+     55581      20213 
+     55582      20213 
+     55575      20213 
+     55575      20213 
+     55582      20213 
+
+
+Case 11: normal * normal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54503      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     65696      20214 
+     54204      20213 
+
+
+Case 12: normal * normal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    480012      20213 
+    480012      20213 
+    480012      20213 
+    480454      20213 
+    480012      20213 
+    480018      20213 
+    480019      20213 
+    480018      20213 
+    480019      20213 
+    480012      20213 
+
+
+Case 13: normal * subnormal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    303349      20213 
+    303348      20213 
+    303355      20213 
+    303355      20213 
+    303348      20213 
+    303349      20213 
+    303348      20213 
+    303349      20213 
+    303355      20213 
+    303830      20213 
+
+
+Case 14: normal * subnormal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    610454      20213 
+    610012      20213 
+    610012      20213 
+    610012      20213 
+    610018      20213 
+    610461      20213 
+    610018      20213 
+    610019      20213 
+    630468      20214 
+    610012      20213 
+
+
+Case 15: subnormal * subnormal = underflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1516684      20213 
+   1517159      20213 
+   1516684      20213 
+   1550373      20215 
+   1400002      20213 
+   1400444      20213 
+   1400003      20213 
+   1400003      20213 
+   1412489      20214 
+   1400002      20213 
+
+
+Case 16: normal * normal = underflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1148349      20213 
+   1148348      20213 
+   1149532      20215 
+   1060001      20213 
+   1060001      20213 
+   1060442      20213 
+   1060000      20213 
+   1060000      20213 
+   1072558      20214 
+   1060001      20213 
+
+
+Case 17: normal * normal = overflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54568      20213 
+     54210      20213 
+     54185      20213 
+     54184      20213 
+     54185      20213 
+     54185      20213 
+     54184      20213 
+     54185      20213 
+     54184      20213 
+     54185      20213 
+
+
+Case 18: normal * NAN = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50219      20213 
+     50030      20213 
+     50017      20213 
+     50017      20213 
+     50024      20213 
+     50024      20213 
+     50018      20213 
+     50018      20213 
+     50018      20213 
+     50018      20213 
+
+
+Case 19: normal * INF = INF
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54360      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+
+
+Case 20: 0 * INF = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54489      20213 
+     54217      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+
+
+Case 21: normal / normal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160023      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160023      20213 
+    160024      20213 
+    160023      20213 
+    160024      20213 
+    160017      20213 
+
+
+Case 22: normal / normal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    509190      20213 
+    509191      20213 
+    509190      20213 
+    509190      20213 
+    509672      20213 
+    509190      20213 
+    509191      20213 
+    509184      20213 
+    509190      20213 
+    509191      20213 
+
+
+Case 23: normal / subnormal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    420017      20213 
+    420017      20213 
+    420017      20213 
+    420017      20213 
+    431983      20214 
+    420023      20213 
+    420024      20213 
+    420465      20213 
+    420023      20213 
+    420024      20213 
+
+
+Case 24: subnormal / normal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    747520      20213 
+    747526      20213 
+    747526      20213 
+    748007      20213 
+    747520      20213 
+    747519      20213 
+    744647      20215 
+    690007      20213 
+    690449      20213 
+    690007      20213 
+
+
+Case 25: normal / normal = underflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    877520      20213 
+    877526      20213 
+    878007      20213 
+    877526      20213 
+    877520      20213 
+    891423      20214 
+    878007      20213 
+    877519      20213 
+    961786      20215 
+    877526      20213 
+
+
+Case 26: normal / normal = overflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160017      20213 
+    160030      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160023      20213 
+    160024      20213 
+
+
+Case 27: normal / NAN = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    173355      20213 
+    173381      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    185276      20214 
+    173361      20213 
+    173361      20213 
+
+
+Case 28: normal / INF = 0
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160023      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160023      20213 
+    160024      20213 
+    160023      20213 
+    160024      20213 
+    160017      20213 
+    160017      20213 
+
+
+Case 29: normal / 0 = INF
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173843      20213 
+
+
+Case 30: 0 / 0 = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    207142      20215 
+    168903      20213 
+    159998      20213 
+    159998      20213 
+    159998      20213 
+    159998      20213 
+    160004      20213 
+    160005      20213 
+    160466      20213 
+    159998      20213 
+
+
+
+Same, with flush-to-zero mode on
+
+
+Case 0: normal + normal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60326      20213 
+     60210      20213 
+     60216      20213 
+     60216      20213 
+     60210      20213 
+     60209      20213 
+     60210      20213 
+     60209      20213 
+     73652      20214 
+     60209      20213 
+
+
+Case 1: normal + normal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    205855      20213 
+    205855      20213 
+    205861      20213 
+    205861      20213 
+    205855      20213 
+    205855      20213 
+    218062      20214 
+    205855      20213 
+    205855      20213 
+    205855      20213 
+
+
+Case 2: normal + subnormal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    300020      20213 
+    300020      20213 
+    300020      20213 
+    300021      20213 
+    300469      20213 
+    300020      20213 
+    300021      20213 
+    300021      20213 
+    300021      20213 
+    300020      20213 
+
+
+Case 3: normal + subnormal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    350019      20213 
+    350018      20213 
+    429143      20215 
+    350019      20213 
+    350019      20213 
+    350467      20213 
+    350018      20213 
+    350018      20213 
+    350018      20213 
+    350018      20213 
+
+
+Case 4: subnormal + subnormal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    390026      20213 
+    390026      20213 
+    425523      20215 
+    369616      20213 
+    360009      20213 
+    360009      20213 
+    360009      20213 
+    360470      20213 
+    360009      20213 
+    360009      20213 
+
+
+Case 5: subnormal + subnormal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    890019      20213 
+    890019      20213 
+    890467      20213 
+    890019      20213 
+    890019      20213 
+    890019      20213 
+    902187      20214 
+    890019      20213 
+    890019      20213 
+    890467      20213 
+
+
+Case 6: normal + normal = overflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    140342      20213 
+    140023      20213 
+    140016      20213 
+    140023      20213 
+    140023      20213 
+    140023      20213 
+    140023      20213 
+    140023      20213 
+    140023      20213 
+    140023      20213 
+
+
+Case 7: normal + NAN = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55725      20213 
+     55575      20213 
+     55581      20213 
+     55582      20213 
+     55575      20213 
+     55575      20213 
+     55582      20213 
+     55581      20213 
+     55575      20213 
+     55575      20213 
+
+
+Case 8: normal + INF = INF
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60704      20213 
+     60151      20213 
+     60210      20213 
+     60209      20213 
+     60216      20213 
+     60216      20213 
+     60209      20213 
+     60210      20213 
+     60209      20213 
+     60210      20213 
+
+
+Case 9: INF + INF = INF
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55894      20213 
+     55575      20213 
+     55582      20213 
+     55581      20213 
+     55575      20213 
+     55575      20213 
+     55581      20213 
+     55582      20213 
+     55575      20213 
+     55575      20213 
+
+
+Case 10: INF - INF = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55783      20213 
+     55575      20213 
+     55581      20213 
+     55582      20213 
+     55575      20213 
+     55575      20213 
+     55582      20213 
+     55581      20213 
+     55575      20213 
+     55575      20213 
+
+
+Case 11: normal * normal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54438      20213 
+     54217      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+
+
+Case 12: normal * normal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50232      20213 
+     50043      20213 
+     50017      20213 
+     50017      20213 
+     50017      20213 
+     50024      20213 
+     50024      20213 
+     50018      20213 
+     50018      20213 
+     50018      20213 
+
+
+Case 13: normal * subnormal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    303349      20213 
+    303349      20213 
+    303348      20213 
+    303349      20213 
+    303355      20213 
+    303355      20213 
+    303830      20213 
+    303355      20213 
+    303349      20213 
+    303348      20213 
+
+
+Case 14: normal * subnormal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    344864      20215 
+    290004      20213 
+    290011      20213 
+    289998      20213 
+    289998      20213 
+    290004      20213 
+    290004      20213 
+    290439      20213 
+    290004      20213 
+    290004      20213 
+
+
+Case 15: subnormal * subnormal = underflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    450014      20213 
+    450014      20213 
+    450014      20213 
+    450015      20213 
+    450015      20213 
+    450457      20213 
+    450015      20213 
+    450015      20213 
+    450008      20213 
+    450014      20213 
+
+
+Case 16: normal * normal = underflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54392      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54190      20213 
+     88095      20215 
+     54197      20213 
+     54197      20213 
+     52331      20213 
+
+
+Case 17: normal * normal = overflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50278      20213 
+     50018      20213 
+     50018      20213 
+     50024      20213 
+     50024      20213 
+     50024      20213 
+     50017      20213 
+     50017      20213 
+     50466      20213 
+     50018      20213 
+
+
+Case 18: normal * NAN = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54437      20213 
+     54217      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+    109122      20214 
+
+
+Case 19: normal * INF = INF
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54522      20213 
+     54203      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+
+
+Case 20: 0 * INF = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50271      20213 
+     50031      20213 
+     50018      20213 
+     50024      20213 
+     50024      20213 
+     50024      20213 
+     50017      20213 
+     50017      20213 
+     50017      20213 
+     50017      20213 
+
+
+Case 21: normal / normal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160023      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160023      20213 
+    160024      20213 
+    160023      20213 
+    160024      20213 
+
+
+Case 22: normal / normal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    173563      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173843      20213 
+    173355      20213 
+    173355      20213 
+
+
+Case 23: normal / subnormal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    420017      20213 
+    420017      20213 
+    420043      20213 
+    420017      20213 
+    420465      20213 
+    420024      20213 
+    433882      20214 
+    420017      20213 
+    420023      20213 
+    420024      20213 
+
+
+Case 24: subnormal / normal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    467149      20214 
+    455026      20213 
+    455039      20213 
+    455019      20213 
+    455507      20213 
+    455020      20213 
+    455026      20213 
+    455026      20213 
+    455020      20213 
+    455026      20213 
+
+
+Case 25: normal / normal = underflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160023      20213 
+    160043      20213 
+    160024      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    172328      20214 
+    160017      20213 
+
+
+Case 26: normal / normal = overflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    173355      20213 
+    173843      20213 
+    185165      20214 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+
+
+Case 27: normal / NAN = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160017      20213 
+    160043      20213 
+    160023      20213 
+    160024      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+
+
+Case 28: normal / INF = 0
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160017      20213 
+    160043      20213 
+    160024      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+
+
+Case 29: normal / 0 = INF
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173842      20213 
+
+
+Case 30: 0 / 0 = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160056      20213 
+    160043      20213 
+    160023      20213 
+    160024      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    172107      20214 
+    160017      20213 
+
+
+
+Same, with denormals-are-zero mode on
+
+
+Case 0: normal + normal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60313      20213 
+     60157      20213 
+     60210      20213 
+     60209      20213 
+     60210      20213 
+     60209      20213 
+     60216      20213 
+     60216      20213 
+     60209      20213 
+     60210      20213 
+
+
+Case 1: normal + normal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    300021      20213 
+    300021      20213 
+    300027      20213 
+    300020      20213 
+    300020      20213 
+    300020      20213 
+    300021      20213 
+    300021      20213 
+    300021      20213 
+    300469      20213 
+
+
+Case 2: normal + subnormal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55627      20213 
+     55575      20213 
+     55582      20213 
+     55581      20213 
+     55575      20213 
+     55575      20213 
+     55581      20213 
+     55582      20213 
+     55575      20213 
+     55575      20213 
+
+
+Case 3: normal + subnormal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60392      20213 
+     60204      20213 
+     60210      20213 
+     60210      20213 
+     60204      20213 
+     60203      20213 
+     60204      20213 
+     60203      20213 
+     60210      20213 
+     60210      20213 
+
+
+Case 4: subnormal + subnormal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55737      20213 
+     55523      20213 
+     55581      20213 
+     55582      20213 
+     55575      20213 
+     55575      20213 
+     55582      20213 
+     55581      20213 
+     55575      20213 
+     55575      20213 
+
+
+Case 5: subnormal + subnormal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60365      20213 
+     60151      20213 
+     60209      20213 
+     60210      20213 
+     60216      20213 
+     60216      20213 
+     60210      20213 
+     60209      20213 
+     60210      20213 
+     60209      20213 
+
+
+Case 6: normal + normal = overflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    151690      20213 
+    151691      20213 
+    151697      20213 
+    151697      20213 
+    151691      20213 
+    151690      20213 
+    151691      20213 
+    151690      20213 
+    151697      20213 
+    151697      20213 
+
+
+Case 7: normal + NAN = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55666      20213 
+     55575      20213 
+     55581      20213 
+     55582      20213 
+     55575      20213 
+     55575      20213 
+     55582      20213 
+     55581      20213 
+     55575      20213 
+     55575      20213 
+
+
+Case 8: normal + INF = INF
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60808      20213 
+     60204      20213 
+     60210      20213 
+     60210      20213 
+     60204      20213 
+     60203      20213 
+     60204      20213 
+     60203      20213 
+     60210      20213 
+     60210      20213 
+
+
+Case 9: INF + INF = INF
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60444      20213 
+     72014      20214 
+     60203      20213 
+     60204      20213 
+     60210      20213 
+     60210      20213 
+     60204      20213 
+     60203      20213 
+     60204      20213 
+     60203      20213 
+
+
+Case 10: INF - INF = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60333      20213 
+     60210      20213 
+     60216      20213 
+     60216      20213 
+     60210      20213 
+     60209      20213 
+     60210      20213 
+     99151      20215 
+     60209      20213 
+     57538      20213 
+
+
+Case 11: normal * normal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50297      20213 
+     50017      20213 
+     50017      20213 
+     50024      20213 
+     50024      20213 
+     50018      20213 
+     50018      20213 
+     50018      20213 
+     50018      20213 
+     50024      20213 
+
+
+Case 12: normal * normal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    520020      20213 
+    520020      20213 
+    520013      20213 
+    520494      20213 
+    520019      20213 
+    520013      20213 
+    520020      20213 
+    520013      20213 
+    520019      20213 
+    532019      20214 
+
+
+Case 13: normal * subnormal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50277      20213 
+     50031      20213 
+     50018      20213 
+     50024      20213 
+     50024      20213 
+     50024      20213 
+     50017      20213 
+     50017      20213 
+     50017      20213 
+     50017      20213 
+
+
+Case 14: normal * subnormal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54385      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+
+
+Case 15: subnormal * subnormal = underflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54437      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+
+
+Case 16: normal * normal = underflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1060455      20213 
+   1060014      20213 
+   1072052      20214 
+   1060456      20213 
+   1060014      20213 
+   1060014      20213 
+   1060456      20213 
+   1060014      20213 
+   1060013      20213 
+   1073020      20214 
+
+
+Case 17: normal * normal = overflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50212      20213 
+     50044      20213 
+     50018      20213 
+     50018      20213 
+     50024      20213 
+     50024      20213 
+     50024      20213 
+     50017      20213 
+     50017      20213 
+     50017      20213 
+
+
+Case 18: normal * NAN = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50297      20213 
+     50017      20213 
+     50017      20213 
+     50024      20213 
+     50024      20213 
+     50018      20213 
+     50018      20213 
+     50018      20213 
+     50018      20213 
+     50024      20213 
+
+
+Case 19: normal * INF = INF
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54444      20213 
+     54217      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+
+
+Case 20: 0 * INF = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50278      20213 
+     50044      20213 
+     50018      20213 
+     50018      20213 
+     50018      20213 
+     50024      20213 
+     50024      20213 
+     50473      20213 
+     50018      20213 
+     50018      20213 
+
+
+Case 21: normal / normal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    173355      20213 
+    173381      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    185419      20214 
+    173394      20213 
+
+
+Case 22: normal / normal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    470021      20213 
+    470022      20213 
+    470034      20213 
+    470022      20213 
+    470015      20213 
+    470470      20213 
+    470021      20213 
+    470015      20213 
+    470022      20213 
+    470015      20213 
+
+
+Case 23: normal / subnormal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    173355      20213 
+    173381      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+
+
+Case 24: subnormal / normal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160023      20213 
+    160024      20213 
+    160023      20213 
+    160024      20213 
+    160466      20213 
+
+
+Case 25: normal / normal = underflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    877520      20213 
+    877526      20213 
+    877526      20213 
+    878007      20213 
+    890065      20214 
+    877519      20213 
+    877526      20213 
+    878007      20213 
+    877526      20213 
+    877519      20213 
+
+
+Case 26: normal / normal = overflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160023      20213 
+    160024      20213 
+    160023      20213 
+    160024      20213 
+    160017      20213 
+
+
+Case 27: normal / NAN = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    173355      20213 
+    173381      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+
+
+Case 28: normal / INF = 0
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160478      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160023      20213 
+    160024      20213 
+    160023      20213 
+    160024      20213 
+    160017      20213 
+    160017      20213 
+
+
+Case 29: normal / 0 = INF
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    173355      20213 
+    173381      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+
+
+Case 30: 0 / 0 = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    173355      20213 
+    173381      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    216209      20215 
+    160452      20213 
+    160004      20213 
+
+
+
+Same, with flush-to-zero mode and denormals-are-zero mode on
+
+
+Case 0: normal + normal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55777      20213 
+     55523      20213 
+     55582      20213 
+     55581      20213 
+     55575      20213 
+     55575      20213 
+     55581      20213 
+     55582      20213 
+     55575      20213 
+     55575      20213 
+
+
+Case 1: normal + normal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    190021      20213 
+    190021      20213 
+    190014      20213 
+    190021      20213 
+    190021      20213 
+    190021      20213 
+    190021      20213 
+    190021      20213 
+    190021      20213 
+    190469      20213 
+
+
+Case 2: normal + subnormal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60528      20213 
+     60151      20213 
+     60209      20213 
+     60210      20213 
+     60216      20213 
+     60216      20213 
+     60210      20213 
+     60209      20213 
+     60210      20213 
+     60209      20213 
+
+
+Case 3: normal + subnormal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55627      20213 
+     55575      20213 
+     55984      20213 
+     55575      20213 
+     55582      20213 
+     55581      20213 
+     55575      20213 
+     55575      20213 
+     55581      20213 
+     55582      20213 
+
+
+Case 4: subnormal + subnormal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60327      20213 
+     60145      20213 
+     60203      20213 
+     60204      20213 
+     60210      20213 
+     60210      20213 
+     60204      20213 
+     60203      20213 
+     60204      20213 
+     60203      20213 
+
+
+Case 5: subnormal + subnormal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60327      20213 
+     60203      20213 
+     60210      20213 
+     60210      20213 
+     60203      20213 
+     60204      20213 
+     60203      20213 
+     60204      20213 
+     60210      20213 
+     60210      20213 
+
+
+Case 6: normal + normal = overflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    140023      20213 
+    140023      20213 
+    140016      20213 
+    140023      20213 
+    140023      20213 
+    140023      20213 
+    140023      20213 
+    140023      20213 
+    140023      20213 
+    140023      20213 
+
+
+Case 7: normal + NAN = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     56225      20213 
+     55523      20213 
+     55581      20213 
+     55582      20213 
+     55575      20213 
+     55575      20213 
+     55575      20213 
+     55581      20213 
+     55582      20213 
+     55575      20213 
+
+
+Case 8: normal + INF = INF
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60372      20213 
+     60210      20213 
+     60216      20213 
+     60216      20213 
+     60210      20213 
+     60209      20213 
+     60210      20213 
+     60209      20213 
+     60216      20213 
+     60216      20213 
+
+
+Case 9: INF + INF = INF
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55633      20213 
+     55575      20213 
+     55582      20213 
+     55581      20213 
+     55575      20213 
+     55575      20213 
+     55581      20213 
+     55582      20213 
+     55575      20213 
+     55575      20213 
+
+
+Case 10: INF - INF = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60327      20213 
+     60204      20213 
+     60210      20213 
+     60210      20213 
+     60204      20213 
+     60203      20213 
+     60204      20213 
+     60203      20213 
+     60210      20213 
+     72820      20214 
+
+
+Case 11: normal * normal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55035      20213 
+     54216      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+
+
+Case 12: normal * normal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50226      20213 
+     50017      20213 
+     50017      20213 
+     50024      20213 
+     50024      20213 
+     50018      20213 
+     50018      20213 
+     50018      20213 
+     50018      20213 
+     50024      20213 
+
+
+Case 13: normal * subnormal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50212      20213 
+     50018      20213 
+     50024      20213 
+     50024      20213 
+     50024      20213 
+     50017      20213 
+     50017      20213 
+     50017      20213 
+     50017      20213 
+     50024      20213 
+
+
+Case 14: normal * subnormal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54463      20213 
+     54203      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+
+
+Case 15: subnormal * subnormal = underflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50330      20213 
+     50018      20213 
+     50018      20213 
+     50024      20213 
+     50024      20213 
+     50024      20213 
+     50017      20213 
+     50017      20213 
+     50017      20213 
+     50017      20213 
+
+
+Case 16: normal * normal = underflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54431      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+
+
+Case 17: normal * normal = overflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50277      20213 
+     50018      20213 
+     50024      20213 
+     50024      20213 
+     50024      20213 
+     50017      20213 
+     50017      20213 
+     50017      20213 
+     50017      20213 
+     50024      20213 
+
+
+Case 18: normal * NAN = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54431      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+
+
+Case 19: normal * INF = INF
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54444      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+     54191      20213 
+     54190      20213 
+
+
+Case 20: 0 * INF = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50303      20213 
+     50017      20213 
+     50017      20213 
+     50024      20213 
+     50024      20213 
+     50018      20213 
+     50018      20213 
+     50018      20213 
+     50018      20213 
+     50024      20213 
+
+
+Case 21: normal / normal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160017      20213 
+    160030      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160023      20213 
+
+
+Case 22: normal / normal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160023      20213 
+    160024      20213 
+    160023      20213 
+    160024      20213 
+    160017      20213 
+    160017      20213 
+
+
+Case 23: normal / subnormal = normal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+
+
+Case 24: subnormal / normal = subnormal
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    173355      20213 
+    173368      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    229294      20214 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+
+
+Case 25: normal / normal = underflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160023      20213 
+    160024      20213 
+    160023      20213 
+    160024      20213 
+    160017      20213 
+
+
+Case 26: normal / normal = overflow
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+    173355      20213 
+
+
+Case 27: normal / NAN = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160017      20213 
+    160043      20213 
+    160024      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+
+
+Case 28: normal / INF = 0
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    173355      20213 
+    173368      20213 
+    173355      20213 
+    173843      20213 
+    173362      20213 
+    173362      20213 
+    173362      20213 
+    173362      20213 
+    173362      20213 
+    173362      20213 
+
+
+Case 29: normal / 0 = INF
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160017      20213 
+    160030      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+
+
+Case 30: 0 / 0 = NAN
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160017      20213 
+    160023      20213 
+    160024      20213 
+    160023      20213 
+    160024      20213 
+    160017      20213 
+    160017      20213 
+
+

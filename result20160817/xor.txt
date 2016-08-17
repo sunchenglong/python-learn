@@ -1,0 +1,3547 @@
+Integer instructions with two operands
+
+
+
+Latency: xor r8,r8 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10855      10206 
+     10855      10206 
+     10887      10206 
+     10855      10206 
+     10849      10206 
+     10849      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10855      10206 
+
+
+Latency: xor r8,r8 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10017      10206 
+     10017      10206 
+     10043      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+
+
+Latency: xor r8,r8 (different register) + add
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20579      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+     20013      20206 
+
+
+Latency: xor r8,r8 (same register) + add
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20046      20206 
+     20046      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+     20013      20206 
+     20014      20206 
+     20020      20206 
+
+
+Latency: xor r16,r16 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10127      10206 
+     10036      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: xor r16,r16 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10185      10206 
+     10036      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10010      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+
+
+Latency: xor r16,r16 (different register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90006      20206 
+     90019      20206 
+     90012      20206 
+     90005      20206 
+     90012      20206 
+     90012      20206 
+     90005      20206 
+     90012      20206 
+     90006      20206 
+     90012      20206 
+
+
+Latency: xor r16,r16 (same register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     97539      20206 
+     97526      20206 
+     97513      20206 
+     97513      20206 
+     97513      20206 
+     97513      20206 
+     97513      20206 
+     97513      20206 
+     97513      20206 
+     97513      20206 
+
+
+Latency: xor r32,r32 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10907      10206 
+     10855      10206 
+     10887      10206 
+     10855      10206 
+     10849      10206 
+     10849      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10855      10206 
+
+
+Latency: xor r32,r32 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5207      10206 
+      5122      10206 
+      5070      10206 
+      5076      10206 
+      5076      10206 
+      5076      10206 
+      5076      10206 
+      5070      10206 
+      5070      10206 
+      5077      10206 
+
+
+Latency: xor r32,r32 (different register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     32644      20206 
+     32539      20206 
+     32514      20206 
+     32513      20206 
+     32514      20206 
+     32513      20206 
+     32507      20206 
+     32514      20206 
+     32513      20206 
+     32514      20206 
+
+
+Latency: xor r32,r32 (same register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11810      20206 
+     11460      20206 
+     11447      20206 
+     11447      20206 
+     11447      20206 
+     11447      20206 
+     11447      20206 
+     11446      20206 
+     11446      20206 
+     11446      20206 
+
+
+Latency: xor r64,r64 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11025      10206 
+     10849      10206 
+     10849      10206 
+     10842      10206 
+     10849      10206 
+     10849      10206 
+     10843      10206 
+     10849      10206 
+     10849      10206 
+     10842      10206 
+
+
+Latency: xor r64,r64 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5213      10206 
+      5116      10206 
+      5070      10206 
+      5076      10206 
+      5076      10206 
+      5070      10206 
+      5077      10206 
+      5077      10206 
+      5070      10206 
+      5070      10206 
+
+
+Latency: xor r64,r64 (different register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     86678      20206 
+     86704      20206 
+     86678      20206 
+     86678      20206 
+     99672      20207 
+     86678      20206 
+     86684      20206 
+     86678      20206 
+     86685      20206 
+     87165      20206 
+
+
+Latency: xor r64,r64 (same register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20482      20206 
+     20059      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+     20026      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+
+
+Latency: sub r8,r8 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10017      10206 
+     10017      10206 
+     10049      10206 
+     10016      10206 
+     10042      10206 
+     10036      10206 
+     10036      10206 
+     10043      10206 
+     10043      10206 
+     10043      10206 
+
+
+Latency: sub r8,r8 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10895      10206 
+     10849      10206 
+     10881      10206 
+     10849      10206 
+     10875      10206 
+     10875      10206 
+     10875      10206 
+     10875      10206 
+     10875      10206 
+     10875      10206 
+
+
+Latency: sub r8,r8 (different register) + add
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21789      20206 
+     21691      20206 
+     21685      20206 
+     21684      20206 
+     21685      20206 
+     21684      20206 
+     21685      20206 
+     21684      20206 
+     21685      20206 
+     21684      20206 
+
+
+Latency: sub r8,r8 (same register) + add
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21795      20206 
+     21710      20206 
+     21678      20206 
+     21678      20206 
+     21678      20206 
+     21678      20206 
+     21678      20206 
+     21678      20206 
+     21678      20206 
+     21678      20206 
+
+
+Latency: sub r16,r16 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10114      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: sub r16,r16 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11012      10206 
+     10869      10206 
+     10849      10206 
+     10849      10206 
+     10842      10206 
+     10849      10206 
+     10849      10206 
+     10843      10206 
+     10849      10206 
+     10849      10206 
+
+
+Latency: sub r16,r16 (different register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90454      20206 
+     90019      20206 
+     90012      20206 
+     90005      20206 
+     90012      20206 
+     90012      20206 
+     90005      20206 
+     90012      20206 
+     90006      20206 
+     90012      20206 
+
+
+Latency: sub r16,r16 (same register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     97500      20206 
+     97520      20206 
+     97507      20206 
+     97507      20206 
+     97507      20206 
+     97507      20206 
+     97507      20206 
+     97507      20206 
+     97507      20206 
+     97507      20206 
+
+
+Latency: sub r32,r32 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10094      10206 
+     10016      10206 
+     10049      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+
+
+Latency: sub r32,r32 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5635      10206 
+      5551      10206 
+      5499      10206 
+      5499      10206 
+      5499      10206 
+      5499      10206 
+      5499      10206 
+      5499      10206 
+      5499      10206 
+      5499      10206 
+
+
+Latency: sub r32,r32 (different register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30011      20206 
+     30036      20206 
+     30010      20206 
+     30011      20206 
+     30010      20206 
+     30011      20206 
+     30017      20206 
+     30017      20206 
+     30017      20206 
+     30017      20206 
+
+
+Latency: sub r32,r32 (same register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12669      20206 
+     12403      20206 
+     12396      20206 
+     12396      20206 
+     12396      20206 
+     12396      20206 
+     12396      20206 
+     12396      20206 
+     12396      20206 
+     12396      20206 
+
+
+Latency: sub r64,r64 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10108      10206 
+     10036      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: sub r64,r64 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5688      10206 
+      5544      10206 
+      5499      10206 
+      5499      10206 
+      5499      10206 
+      5499      10206 
+      5499      10206 
+      5499      10206 
+      5499      10206 
+      5499      10206 
+
+
+Latency: sub r64,r64 (different register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80015      20206 
+     80015      20206 
+     80022      20206 
+     80015      20206 
+     80015      20206 
+     80015      20206 
+     80021      20206 
+     80015      20206 
+     80015      20206 
+     80015      20206 
+
+
+Latency: sub r64,r64 (same register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22484      20206 
+     21723      20206 
+     21685      20206 
+     21684      20206 
+     21691      20206 
+     21685      20206 
+     21684      20206 
+     21691      20206 
+     21685      20206 
+     21684      20206 
+
+
+Latency: sbb r8,r8 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40911      20206 
+     40917      20206 
+     40904      20206 
+     40905      20206 
+     40911      20206 
+     41359      20206 
+     40911      20206 
+     53820      20207 
+     40904      20206 
+     40905      20206 
+
+
+Latency: sbb r8,r8 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     44330      20206 
+     44330      20206 
+     44323      20206 
+     44324      20206 
+     44317      20206 
+     44323      20206 
+     44324      20206 
+     44317      20206 
+     44323      20206 
+     44324      20206 
+
+
+Latency: sbb r8,r8 (different register) + add
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50849      30206 
+     50817      30206 
+     50811      30206 
+     50811      30206 
+     50811      30206 
+     50811      30206 
+     50811      30206 
+     50811      30206 
+     50811      30206 
+     50811      30206 
+
+
+Latency: sbb r8,r8 (same register) + add
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50810      30206 
+     50817      30206 
+     50811      30206 
+     50811      30206 
+     50811      30206 
+     50811      30206 
+     50811      30206 
+     50811      30206 
+     50811      30206 
+     50811      30206 
+
+
+Latency: sbb r16,r16 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     44323      20206 
+     44330      20206 
+     44324      20206 
+     44323      20206 
+     44317      20206 
+     44324      20206 
+     44323      20206 
+     44317      20206 
+     44324      20206 
+     58415      20207 
+
+
+Latency: sbb r16,r16 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     98664      20207 
+     44318      20206 
+     44311      20206 
+     44317      20206 
+     44318      20206 
+     44311      20206 
+     44317      20206 
+     44318      20206 
+     44311      20206 
+     44317      20206 
+
+
+Latency: sbb r16,r16 (different register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    163300      30206 
+    163254      30206 
+    163254      30206 
+    163255      30206 
+    163254      30206 
+    163255      30206 
+    163254      30206 
+    163255      30206 
+    163736      30206 
+    163255      30206 
+
+
+Latency: sbb r16,r16 (same register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    150696      30206 
+    150702      30206 
+    151138      30206 
+    150703      30206 
+    150703      30206 
+    150696      30206 
+    150702      30206 
+    150702      30206 
+    150696      30206 
+    150703      30206 
+
+
+Latency: sbb r32,r32 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     44323      20206 
+     44324      20206 
+     44323      20206 
+     44317      20206 
+     44324      20206 
+     44323      20206 
+     44317      20206 
+     44324      20206 
+     44323      20206 
+     44317      20206 
+
+
+Latency: sbb r32,r32 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     44323      20206 
+     44330      20206 
+     44323      20206 
+     44324      20206 
+     44317      20206 
+     44824      20206 
+     44323      20206 
+     44324      20206 
+     44317      20206 
+     44323      20206 
+
+
+Latency: sbb r32,r32 (different register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60762      30206 
+     60716      30206 
+     60710      30206 
+     60710      30206 
+     60710      30206 
+     60710      30206 
+     60710      30206 
+     60710      30206 
+     60710      30206 
+     60710      30206 
+
+
+Latency: sbb r32,r32 (same register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65767      30206 
+     65774      30206 
+     65761      30206 
+     65768      30206 
+     66255      30206 
+     65761      30206 
+     65761      30206 
+     65761      30206 
+     65767      30206 
+     78105      30207 
+
+
+Latency: sbb r64,r64 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40969      20206 
+     40918      20206 
+     40911      20206 
+     40911      20206 
+     40911      20206 
+     40904      20206 
+     40911      20206 
+     40911      20206 
+     40911      20206 
+     40905      20206 
+
+
+Latency: sbb r64,r64 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     44369      20206 
+     44324      20206 
+     44318      20206 
+     44317      20206 
+     44311      20206 
+     44318      20206 
+     44317      20206 
+     44311      20206 
+     44318      20206 
+     44317      20206 
+
+
+Latency: sbb r64,r64 (different register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    110715      30206 
+    110708      30206 
+    110708      30206 
+    110708      30206 
+    110708      30206 
+    110708      30206 
+    110715      30206 
+    110708      30206 
+    110708      30206 
+    110708      30206 
+
+
+Latency: sbb r64,r64 (same register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    119938      30206 
+    119938      30206 
+    119938      30206 
+    119938      30206 
+    119938      30206 
+    119938      30206 
+    119938      30206 
+    119938      30206 
+    119938      30206 
+    119938      30206 
+
+
+Latency: cmp r8,r8 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21710      20206 
+     21704      20206 
+     21690      20206 
+     21691      20206 
+     21690      20206 
+     21691      20206 
+     21684      20206 
+     21684      20206 
+     21691      20206 
+     21690      20206 
+
+
+Latency: cmp r8,r8 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21853      20206 
+     21697      20206 
+     21685      20206 
+     21684      20206 
+     21685      20206 
+     21684      20206 
+     21678      20206 
+     64461      20207 
+     21684      20206 
+     21685      20206 
+
+
+Latency: cmp r8,r8 (different register) + add
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30264      30206 
+     30017      30206 
+     30017      30206 
+     30017      30206 
+     30017      30206 
+     30017      30206 
+     30017      30206 
+     30017      30206 
+     30017      30206 
+     30017      30206 
+
+
+Latency: cmp r8,r8 (same register) + add
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30154      30206 
+     30043      30206 
+     30017      30206 
+     30017      30206 
+     30017      30206 
+     30017      30206 
+     30017      30206 
+     30017      30206 
+     30017      30206 
+     30017      30206 
+
+
+Latency: cmp r16,r16 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21801      20206 
+     21684      20206 
+     21685      20206 
+     21684      20206 
+     21685      20206 
+     21684      20206 
+     21685      20206 
+     21684      20206 
+     21685      20206 
+     21684      20206 
+
+
+Latency: cmp r16,r16 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20313      20206 
+     20033      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+     20013      20206 
+     20014      20206 
+
+
+Latency: cmp r16,r16 (different register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    106399      30206 
+    100107      30206 
+    100100      30206 
+    100093      30206 
+    100100      30206 
+    100094      30206 
+    100093      30206 
+    100100      30206 
+    100094      30206 
+    100100      30206 
+
+
+Latency: cmp r16,r16 (same register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    108446      30206 
+    108453      30206 
+    108447      30206 
+    108453      30206 
+    108446      30206 
+    108453      30206 
+    108447      30206 
+    108453      30206 
+    108446      30206 
+    108453      30206 
+
+
+Latency: cmp r32,r32 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20066      20206 
+     20020      20206 
+     20020      20206 
+     20013      20206 
+     20014      20206 
+     20020      20206 
+     20020      20206 
+     20020      20206 
+     20013      20206 
+     20020      20206 
+
+
+Latency: cmp r32,r32 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21736      20206 
+     21684      20206 
+     21685      20206 
+     21684      20206 
+     21685      20206 
+     21678      20206 
+     21678      20206 
+     21685      20206 
+     21684      20206 
+     21685      20206 
+
+
+Latency: cmp r32,r32 (different register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     43563      30206 
+     43375      30206 
+     43355      30206 
+     43355      30206 
+     43355      30206 
+     43348      30206 
+     43348      30206 
+     43355      30206 
+     43355      30206 
+     43355      30206 
+
+
+Latency: cmp r32,r32 (same register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40105      30206 
+     40034      30206 
+     40021      30206 
+     40014      30206 
+     40020      30206 
+     40014      30206 
+     40014      30206 
+     40020      30206 
+     40014      30206 
+     40014      30206 
+
+
+Latency: cmp r64,r64 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21801      20206 
+     21717      20206 
+     21684      20206 
+     21684      20206 
+     21684      20206 
+     21684      20206 
+     21684      20206 
+     21684      20206 
+     21684      20206 
+     21684      20206 
+
+
+Latency: cmp r64,r64 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21807      20206 
+     21703      20206 
+     21691      20206 
+     21690      20206 
+     21691      20206 
+     21690      20206 
+     21691      20206 
+     21690      20206 
+     21691      20206 
+     21690      20206 
+
+
+Latency: cmp r64,r64 (different register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90064      30206 
+     90018      30206 
+     90018      30206 
+     90018      30206 
+     90012      30206 
+     90012      30206 
+     90019      30206 
+     90019      30206 
+     90019      30206 
+     90019      30206 
+
+
+Latency: cmp r64,r64 (same register) + imul
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     97532      30206 
+     97545      30206 
+     97520      30206 
+     97519      30206 
+     97519      30206 
+     98001      30206 
+     97519      30206 
+     97519      30206 
+     97520      30206 
+     97519      30206 
+
+
+
+xmm instructions with two operands
+
+
+
+Latency: pxor r65,r65 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10134      10206 
+     10043      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: pxor r65,r65 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10985      10206 
+     10881      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+
+
+Latency: pxor r65,r65 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60028      20206 
+     60027      20206 
+     60014      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60014      20206 
+     60014      20206 
+     60014      20206 
+     60015      20206 
+
+
+Latency: pxor r65,r65 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11212      20206 
+     10900      20206 
+     10855      20206 
+     10855      20206 
+     10861      20206 
+     10855      20206 
+     10855      20206 
+     10861      20206 
+     10855      20206 
+     10855      20206 
+
+
+Latency: pxor r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10120      10206 
+     10042      10206 
+     10016      10206 
+     10010      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+
+
+Latency: pxor r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10985      10206 
+     10849      10206 
+     10849      10206 
+     10842      10206 
+     10849      10206 
+     10849      10206 
+     10843      10206 
+     10849      10206 
+     10849      10206 
+     10842      10206 
+
+
+Latency: pxor r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60144      20206 
+     60014      20206 
+     60014      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60021      20206 
+
+
+Latency: pxor r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11623      20206 
+     10966      20206 
+     10960      20206 
+     10959      20206 
+     10966      20206 
+     10960      20206 
+     10959      20206 
+     10966      20206 
+     10960      20206 
+     10959      20206 
+
+
+Latency: pandn r65,r65 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10206 
+     10030      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: pandn r65,r65 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10179      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: pandn r65,r65 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60028      20206 
+     60027      20206 
+     60014      20206 
+     60476      20206 
+     60014      20206 
+     60014      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60014      20206 
+
+
+Latency: pandn r65,r65 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65019      20206 
+     65046      20206 
+     65013      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65013      20206 
+     65020      20206 
+
+
+Latency: pandn r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11063      10206 
+     10875      10206 
+     10849      10206 
+     10842      10206 
+     10849      10206 
+     10849      10206 
+     10843      10206 
+     10849      10206 
+     10849      10206 
+     10842      10206 
+
+
+Latency: pandn r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10120      10206 
+     10042      10206 
+     10010      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+
+
+Latency: pandn r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60196      20206 
+     60040      20206 
+     60014      20206 
+     60014      20206 
+     60463      20206 
+     60021      20206 
+     60014      20206 
+     60014      20206 
+     60014      20206 
+     60014      20206 
+
+
+Latency: pandn r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65091      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+
+
+Latency: psubb r65,r65 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10107      10206 
+     10030      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: psubb r65,r65 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10999      10206 
+     10875      10206 
+     10849      10206 
+     10843      10206 
+     10849      10206 
+     10849      10206 
+     10842      10206 
+     10849      10206 
+     10849      10206 
+     10843      10206 
+
+
+Latency: psubb r65,r65 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60073      20206 
+     60014      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60021      20206 
+     60014      20206 
+     60014      20206 
+     60014      20206 
+     60015      20206 
+
+
+Latency: psubb r65,r65 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10439      20206 
+     10055      20206 
+     10023      20206 
+     10023      20206 
+     10016      20206 
+     10017      20206 
+     10023      20206 
+     10023      20206 
+     10023      20206 
+     10016      20206 
+
+
+Latency: psubb r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11057      10206 
+     10862      10206 
+     10849      10206 
+     10843      10206 
+     10843      10206 
+     10849      10206 
+     10842      10206 
+     10842      10206 
+     10849      10206 
+     10843      10206 
+
+
+Latency: psubb r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10173      10206 
+     10043      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: psubb r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65436      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+
+
+Latency: psubb r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11596      20206 
+     10985      20206 
+     10965      20206 
+     10966      20206 
+     10965      20206 
+     10965      20206 
+     10966      20206 
+     10965      20206 
+     10965      20206 
+     10966      20206 
+
+
+Latency: psubw r65,r65 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10959      10206 
+     10881      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+
+
+Latency: psubw r65,r65 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10153      10206 
+     10042      10206 
+     10016      10206 
+     10010      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+
+
+Latency: psubw r65,r65 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65066      20206 
+     65013      20206 
+     65007      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65007      20206 
+     65013      20206 
+
+
+Latency: psubw r65,r65 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11303      20206 
+     10901      20206 
+     10855      20206 
+     10855      20206 
+     10862      20206 
+     10855      20206 
+     10855      20206 
+     11349      20206 
+     10855      20206 
+     10861      20206 
+
+
+Latency: psubw r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11011      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+
+
+Latency: psubw r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10147      10206 
+     10042      10206 
+     10016      10206 
+     10010      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+
+
+Latency: psubw r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65020      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+
+
+Latency: psubw r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10738      20206 
+     10120      20206 
+     10120      20206 
+     42913      20208 
+     10120      20206 
+     10120      20206 
+     10120      20206 
+     10121      20206 
+     10121      20206 
+     10121      20206 
+
+
+Latency: psubd r65,r65 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10946      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+
+
+Latency: psubd r65,r65 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10134      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: psubd r65,r65 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65072      20206 
+     65020      20206 
+     65013      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65013      20206 
+     65020      20206 
+
+
+Latency: psubd r65,r65 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10530      20206 
+     10056      20206 
+     10023      20206 
+     10023      20206 
+     10023      20206 
+     10016      20206 
+     10017      20206 
+     10023      20206 
+     10023      20206 
+     10017      20206 
+
+
+Latency: psubd r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11095      10206 
+     10881      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+
+
+Latency: psubd r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10133      10206 
+     10042      10206 
+     10016      10206 
+     10010      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+
+
+Latency: psubd r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     78221      20207 
+     65039      20206 
+     65014      20206 
+     65013      20206 
+     65501      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+
+
+Latency: psubd r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10660      20206 
+     10120      20206 
+     10120      20206 
+     10121      20206 
+     10121      20206 
+     10121      20206 
+     10121      20206 
+     10121      20206 
+     10121      20206 
+     10127      20206 
+
+
+Latency: psubq r65,r65 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10153      10206 
+     10043      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: psubq r65,r65 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10940      10206 
+     10868      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+
+
+Latency: psubq r65,r65 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60073      20206 
+     60041      20206 
+     60015      20206 
+     72969      20207 
+     60014      20206 
+     60014      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60014      20206 
+
+
+Latency: psubq r65,r65 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11252      20206 
+     10895      20206 
+     10849      20206 
+     10849      20206 
+     10856      20206 
+     10849      20206 
+     10849      20206 
+     10856      20206 
+     10849      20206 
+     10849      20206 
+
+
+Latency: psubq r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10133      10206 
+     10043      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: psubq r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11121      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+
+
+Latency: psubq r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65104      20206 
+     65026      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+
+
+Latency: psubq r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11538      20206 
+     10966      20206 
+     10960      20206 
+     10959      20206 
+     10966      20206 
+     10960      20206 
+     10959      20206 
+     10966      20206 
+     10960      20206 
+     10959      20206 
+
+
+Latency: psubusb r65,r65 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10101      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10010      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+
+
+Latency: psubusb r65,r65 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10966      10206 
+     10881      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+
+
+Latency: psubusb r65,r65 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60027      20206 
+     60027      20206 
+     60014      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60014      20206 
+     60014      20206 
+     60014      20206 
+     60015      20206 
+
+
+Latency: psubusb r65,r65 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11213      20206 
+     10900      20206 
+     10855      20206 
+     10855      20206 
+     10861      20206 
+     10855      20206 
+     10855      20206 
+     10861      20206 
+     10855      20206 
+     10855      20206 
+
+
+Latency: psubusb r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10172      10206 
+     10043      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: psubusb r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10979      10206 
+     10881      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+
+
+Latency: psubusb r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65033      20206 
+     65045      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+
+
+Latency: psubusb r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10745      20206 
+     10121      20206 
+     10127      20206 
+     10120      20206 
+     10120      20206 
+     10120      20206 
+     10120      20206 
+     10120      20206 
+     10120      20206 
+     10121      20206 
+
+
+Latency: psubusw r65,r65 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10101      10206 
+     10042      10206 
+     10016      10206 
+     10010      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+
+
+Latency: psubusw r65,r65 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10933      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+
+
+Latency: psubusw r65,r65 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60099      20206 
+     60041      20206 
+     60015      20206 
+     60014      20206 
+     60014      20206 
+     60014      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60021      20206 
+
+
+Latency: psubusw r65,r65 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11238      20206 
+     10881      20206 
+     10855      20206 
+     10855      20206 
+     10861      20206 
+     10855      20206 
+     10855      20206 
+     10861      20206 
+     10855      20206 
+     10855      20206 
+
+
+Latency: psubusw r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10206 
+     10030      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: psubusw r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10992      10206 
+     10875      10206 
+     10849      10206 
+     10842      10206 
+     10849      10206 
+     10849      10206 
+     10843      10206 
+     10849      10206 
+     10849      10206 
+     10842      10206 
+
+
+Latency: psubusw r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60196      20206 
+     60027      20206 
+     60014      20206 
+     60014      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+
+
+Latency: psubusw r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11493      20206 
+     10966      20206 
+     10960      20206 
+     10959      20206 
+     10966      20206 
+     10960      20206 
+     10959      20206 
+     10966      20206 
+     10960      20206 
+     10959      20206 
+
+
+Latency: psubsb r65,r65 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10121      10206 
+     10043      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: psubsb r65,r65 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10946      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+
+
+Latency: psubsb r65,r65 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60028      20206 
+     60040      20206 
+     60014      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60021      20206 
+     60014      20206 
+     60014      20206 
+     60014      20206 
+
+
+Latency: psubsb r65,r65 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11128      20206 
+     10861      20206 
+     10855      20206 
+     10855      20206 
+     10861      20206 
+     10855      20206 
+     10855      20206 
+     10861      20206 
+     10855      20206 
+     10855      20206 
+
+
+Latency: psubsb r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10147      10206 
+     10043      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: psubsb r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10374      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10010      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+
+
+Latency: psubsb r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60144      20206 
+     60014      20206 
+     60014      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60021      20206 
+
+
+Latency: psubsb r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11316      20206 
+     10120      20206 
+     10120      20206 
+     10121      20206 
+     10121      20206 
+     10121      20206 
+     10121      20206 
+     10121      20206 
+     10121      20206 
+     10127      20206 
+
+
+Latency: psubsw r65,r65 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10959      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+
+
+Latency: psubsw r65,r65 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10134      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: psubsw r65,r65 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65052      20206 
+     65033      20206 
+     65013      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65013      20206 
+     65020      20206 
+
+
+Latency: psubsw r65,r65 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10439      20206 
+     10043      20206 
+     10017      20206 
+     10016      20206 
+     10023      20206 
+     10023      20206 
+     10016      20206 
+     10017      20206 
+     10023      20206 
+     10023      20206 
+
+
+Latency: psubsw r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11038      10206 
+     10849      10206 
+     10849      10206 
+     10843      10206 
+     10849      10206 
+     10849      10206 
+     10842      10206 
+     10849      10206 
+     10849      10206 
+     10843      10206 
+
+
+Latency: psubsw r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10127      10206 
+     10042      10206 
+     10016      10206 
+     10010      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+
+
+Latency: psubsw r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65045      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+
+
+Latency: psubsw r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10608      20206 
+     10160      20206 
+     10121      20206 
+     10121      20206 
+     10121      20206 
+     10121      20206 
+     10121      20206 
+     10127      20206 
+     10120      20206 
+     10120      20206 
+
+
+Latency: pcmpeqb r65,r65 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10966      10206 
+     10875      10206 
+     10849      10206 
+     10842      10206 
+     10849      10206 
+     10849      10206 
+     10843      10206 
+     10849      10206 
+     10849      10206 
+     10842      10206 
+
+
+Latency: pcmpeqb r65,r65 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10030      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10010      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+
+
+Latency: pcmpeqb r65,r65 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65065      20206 
+     65040      20206 
+     65007      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65007      20206 
+     65014      20206 
+
+
+Latency: pcmpeqb r65,r65 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10459      20206 
+     10023      20206 
+     10023      20206 
+     10016      20206 
+     10017      20206 
+     10023      20206 
+     10023      20206 
+     10017      20206 
+     10016      20206 
+     10023      20206 
+
+
+Latency: pcmpeqb r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11063      10206 
+     10862      10206 
+     10849      10206 
+     10842      10206 
+     10842      10206 
+     10849      10206 
+     10843      10206 
+     10843      10206 
+     10849      10206 
+     10842      10206 
+
+
+Latency: pcmpeqb r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10146      10206 
+     10042      10206 
+     10016      10206 
+     10010      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+
+
+Latency: pcmpeqb r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65104      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+
+
+Latency: pcmpeqb r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10810      20206 
+     10121      20206 
+     10127      20206 
+     10120      20206 
+     10120      20206 
+     10120      20206 
+     10120      20206 
+     10120      20206 
+     10120      20206 
+     10121      20206 
+
+
+Latency: pcmpeqw r65,r65 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10939      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+
+
+Latency: pcmpeqw r65,r65 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10108      10206 
+     10043      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: pcmpeqw r65,r65 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65052      20206 
+     65019      20206 
+     65013      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65013      20206 
+     65019      20206 
+
+
+Latency: pcmpeqw r65,r65 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10406      20206 
+     10055      20206 
+     10023      20206 
+     10023      20206 
+     10016      20206 
+     10017      20206 
+     10023      20206 
+     10023      20206 
+     10023      20206 
+     10016      20206 
+
+
+Latency: pcmpeqw r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10010      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+
+
+Latency: pcmpeqw r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10959      10206 
+     10868      10206 
+     10855      10206 
+     10849      10206 
+     10849      10206 
+     10855      10206 
+     10848      10206 
+     10848      10206 
+     10855      10206 
+     10849      10206 
+
+
+Latency: pcmpeqw r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60190      20206 
+     60014      20206 
+     60014      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60021      20206 
+
+
+Latency: pcmpeqw r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11440      20206 
+     10972      20206 
+     10965      20206 
+     10966      20206 
+     10972      20206 
+     10965      20206 
+     10966      20206 
+     10972      20206 
+     10965      20206 
+     10966      20206 
+
+
+Latency: pcmpeqd r65,r65 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10133      10206 
+     10042      10206 
+     10016      10206 
+     10010      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+
+
+Latency: pcmpeqd r65,r65 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11024      10206 
+     10875      10206 
+     10849      10206 
+     10843      10206 
+     10843      10206 
+     10849      10206 
+     10842      10206 
+     10842      10206 
+     10843      10206 
+     10849      10206 
+
+
+Latency: pcmpeqd r65,r65 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65019      20206 
+     65046      20206 
+     65019      20206 
+     65020      20206 
+     65013      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+
+
+Latency: pcmpeqd r65,r65 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11245      20206 
+     10861      20206 
+     10855      20206 
+     10855      20206 
+     10861      20206 
+     10855      20206 
+     10855      20206 
+     10861      20206 
+     10855      20206 
+     10855      20206 
+
+
+Latency: pcmpeqd r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10998      10206 
+     10881      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+
+
+Latency: pcmpeqd r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10030      10206 
+     10043      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: pcmpeqd r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65183      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+
+
+Latency: pcmpeqd r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10627      20206 
+     10160      20206 
+     10121      20206 
+     10121      20206 
+     10121      20206 
+     10121      20206 
+     10121      20206 
+     10127      20206 
+     10120      20206 
+     10120      20206 
+
+
+Latency: pcmpeqq r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11129      10206 
+     10882      10206 
+     10843      10206 
+     10843      10206 
+     10843      10206 
+     11330      10206 
+     10842      10206 
+     10842      10206 
+     10842      10206 
+     10842      10206 
+
+
+Latency: pcmpeqq r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10394      10206 
+     10056      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: pcmpeqq r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65286      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65013      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+
+
+Latency: pcmpeqq r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60073      20206 
+     60014      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60021      20206 
+     60014      20206 
+     60014      20206 
+     60014      20206 
+     60015      20206 
+
+
+Latency: pcmpgtb r65,r65 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11012      10206 
+     10849      10206 
+     10849      10206 
+     10842      10206 
+     10849      10206 
+     10849      10206 
+     10843      10206 
+     10849      10206 
+     10849      10206 
+     10842      10206 
+
+
+Latency: pcmpgtb r65,r65 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10133      10206 
+     10042      10206 
+     10016      10206 
+     10010      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+
+
+Latency: pcmpgtb r65,r65 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65040      20206 
+     65040      20206 
+     65007      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65007      20206 
+     65014      20206 
+
+
+Latency: pcmpgtb r65,r65 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65020      20206 
+     65032      20206 
+     65013      20206 
+     65020      20206 
+     65019      20206 
+     65501      20206 
+     65013      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+
+
+Latency: pcmpgtb r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10991      10206 
+     10881      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+
+
+Latency: pcmpgtb r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10166      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: pcmpgtb r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65202      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+
+
+Latency: pcmpgtb r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65033      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+
+
+Latency: pcmpgtw r65,r65 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10973      10206 
+     10849      10206 
+     10849      10206 
+     10842      10206 
+     10849      10206 
+     10849      10206 
+     10843      10206 
+     10849      10206 
+     10849      10206 
+     10842      10206 
+
+
+Latency: pcmpgtw r65,r65 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10095      10206 
+     10042      10206 
+     10016      10206 
+     10010      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+
+
+Latency: pcmpgtw r65,r65 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65019      20206 
+     65032      20206 
+     65013      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65013      20206 
+     65019      20206 
+
+
+Latency: pcmpgtw r65,r65 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65007      20206 
+     65039      20206 
+     65007      20206 
+     65495      20206 
+     78677      20207 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65007      20206 
+
+
+Latency: pcmpgtw r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11063      10206 
+     10875      10206 
+     10849      10206 
+     10842      10206 
+     10849      10206 
+     10849      10206 
+     10843      10206 
+     10849      10206 
+     10849      10206 
+     10842      10206 
+
+
+Latency: pcmpgtw r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10985      10206 
+     10881      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+
+
+Latency: pcmpgtw r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65033      20206 
+     65027      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+     65013      20206 
+     65014      20206 
+
+
+Latency: pcmpgtw r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60060      20206 
+     60015      20206 
+     60021      20206 
+     60014      20206 
+     60014      20206 
+     60014      20206 
+     60014      20206 
+     60014      20206 
+     60014      20206 
+     60015      20206 
+
+
+Latency: pcmpgtd r65,r65 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10946      10206 
+     10868      10206 
+     10855      10206 
+     10849      10206 
+     10855      10206 
+     10855      10206 
+     10848      10206 
+     10855      10206 
+     10855      10206 
+     10849      10206 
+
+
+Latency: pcmpgtd r65,r65 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10153      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10017      10206 
+     10010      10206 
+     10010      10206 
+     10016      10206 
+     10016      10206 
+     10016      10206 
+
+
+Latency: pcmpgtd r65,r65 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65052      20206 
+     65033      20206 
+     65013      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65020      20206 
+     65019      20206 
+     65013      20206 
+     65020      20206 
+
+
+Latency: pcmpgtd r65,r65 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60060      20206 
+     60015      20206 
+     60014      20206 
+     60014      20206 
+     60014      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60021      20206 
+     60014      20206 
+
+
+Latency: pcmpgtd r128,r128 (different register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10998      10206 
+     10862      10206 
+     10849      10206 
+     10843      10206 
+     10843      10206 
+     10849      10206 
+     10842      10206 
+     10842      10206 
+     10849      10206 
+     10843      10206 
+
+
+Latency: pcmpgtd r128,r128 (same register)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10985      10206 
+     10862      10206 
+     10849      10206 
+     10843      10206 
+     10843      10206 
+     10849      10206 
+     10842      10206 
+     10842      10206 
+     10849      10206 
+     10843      10206 
+
+
+Latency: pcmpgtd r128,r128 (different register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65189      20206 
+     65020      20206 
+     60282      20206 
+     59996      20206 
+     59996      20206 
+     59996      20206 
+     59996      20206 
+     60002      20206 
+     59995      20206 
+     59995      20206 
+
+
+Latency: pcmpgtd r128,r128 (same register) + pmullw
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60086      20206 
+     60014      20206 
+     60014      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60015      20206 
+     60021      20206 
+
+
+Latency: pcmpgtq r128,r128 (different register)
+
+
+Latency: pcmpgtq r128,r128 (same register)
+
+
+Latency: pcmpgtq r128,r128 (different register) + pmullw
+
+
+Latency: pcmpgtq r128,r128 (same register) + pmullw

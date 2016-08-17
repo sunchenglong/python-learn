@@ -1,0 +1,111 @@
+Stack synchronization micro-ops
+
+
+Case 1: Push_and_pop_only
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+        91         87 
+        78         87 
+        78         87 
+        78         87 
+        84         87 
+        85         87 
+        84         87 
+        85         87 
+        78         87 
+        78         87 
+
+
+Case 2: added_mov_r,[rsp]
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       175         97 
+       143         97 
+        91         97 
+        91         97 
+        91         97 
+        91         97 
+        91         97 
+        91         97 
+        91         97 
+        91         97 
+
+
+Case 3: further_added_mov_r,rsp
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       299        107 
+        91        107 
+        85        107 
+       143        107 
+        85        107 
+        85        107 
+        85        107 
+        85        107 
+        85        107 
+        85        107 
+
+
+Case 4: call_and_ret
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       143        124 
+       182        124 
+       111        124 
+       111        124 
+       111        124 
+       111        124 
+       117        124 
+       117        124 
+       110        124 
+       110        124 
+
+
+Case 5: call_and_ret_imm
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       150        104 
+       124        104 
+       182        104 
+       124        104 
+       117        104 
+       162        104 
+       169        104 
+       169        104 
+       163        104 
+       163        104 
+
+
+Case 6: call_and_ret_and_add_rsp,const
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       156        124 
+       149        124 
+       117        124 
+       111        124 
+       111        124 
+       111        124 
+       111        124 
+       111        124 
+       111        124 
+       110        124 
+
+

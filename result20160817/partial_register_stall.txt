@@ -1,0 +1,472 @@
+
+Test if partial register access causes stall, synchronization uops, or false dependencies
+
+
+1: al, ax (reading modified and unmodified parts)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    216846     202006 
+    216710     202006 
+    216684     202006 
+    216684     202006 
+    216684     202006 
+    216684     202006 
+    216684     202006 
+    216684     202006 
+    216684     202006 
+    216684     202006 
+
+
+Comparison case whithout partial dependence:
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200103     202006 
+    200044     202006 
+    200466     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+
+
+1: ah, eax (reading modified and unmodified parts)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200161     202006 
+    200018     202006 
+    200025     202006 
+    200018     202006 
+    200018     202006 
+    232999     202007 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+
+
+Comparison case whithout partial dependence:
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    217250     202006 
+    216684     202006 
+    228105     202007 
+    216685     202006 
+    216684     202006 
+    216685     202006 
+    216684     202006 
+    216685     202006 
+    216684     202006 
+    216685     202006 
+
+
+2: bx, ebx (reading modified and unmodified parts)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200129     202006 
+    200018     202006 
+    200018     202006 
+    200012     202006 
+    200011     202006 
+    200018     202006 
+    200018     202006 
+    200460     202006 
+    200018     202006 
+    200018     202006 
+
+
+Comparison case whithout partial dependence:
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    216723     202006 
+    216690     202006 
+    216691     202006 
+    216690     202006 
+    216691     202006 
+    226967     202007 
+    216690     202006 
+    216691     202006 
+    216690     202006 
+    217172     202006 
+
+
+3: al, ah (possible false dependence)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200109     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200025     202006 
+    200018     202006 
+    200018     202006 
+    200460     202006 
+
+
+Comparison case whithout partial dependence:
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    196145     202006 
+    196073     202006 
+    196073     202006 
+    196066     202006 
+    196073     202006 
+    196073     202006 
+    196067     202006 
+    196073     202006 
+    196547     202006 
+    196067     202006 
+
+
+4: inc, jc (reading unmodified bit)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    163638     302006 
+    162553     302006 
+    162514     302006 
+    162513     302006 
+    162514     302006 
+    162514     302006 
+    162513     302006 
+    162514     302006 
+    162514     302006 
+    162513     302006 
+
+
+Comparison case whithout partial dependence:
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    163982     302006 
+    169552     302006 
+    169546     302006 
+    169553     302006 
+    169552     302006 
+    169553     302006 
+    169552     302006 
+    169553     302006 
+    181883     302007 
+    169552     302006 
+
+
+5: inc, jbe (reading modified and unmodified bits)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    161369     303006 
+    160264     303006 
+    160264     303006 
+    160264     303006 
+    160264     303006 
+    160264     303006 
+    160264     303006 
+    160264     303006 
+    160726     303006 
+    160264     303006 
+
+
+Comparison case whithout partial dependence:
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    170696     303006 
+    169565     303006 
+    169553     303006 
+    169552     303006 
+    169546     303006 
+    169553     303006 
+    169552     303006 
+    169546     303006 
+    169553     303006 
+    169552     303006 
+
+
+6: inc, cmovbe (reading modified and unmodified bits)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    216918     202006 
+    216698     202006 
+    216684     202006 
+    216685     202006 
+    216684     202006 
+    216685     202006 
+    216684     202006 
+    217172     202006 
+    216685     202006 
+    216684     202006 
+
+
+Comparison case whithout partial dependence:
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200349     202006 
+    200044     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+
+
+7: inc, pushf (reading modified and unmodified bits)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    700063     302006 
+    700473     302006 
+    700018     302006 
+    700018     302006 
+    700017     302006 
+    700017     302006 
+    700472     302006 
+    700017     302006 
+    712439     302007 
+    700018     302006 
+
+
+Comparison case whithout partial dependence:
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    700070     302006 
+    700044     302006 
+    700017     302006 
+    700017     302006 
+    700485     302006 
+    713602     302007 
+    700018     302006 
+    700018     302006 
+    700018     302006 
+    700466     302006 
+
+
+8: sahf, jg (reading modified and unmodified bits)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    209040     202006 
+    209020     202006 
+    209007     202006 
+    209007     202006 
+    209014     202006 
+    209008     202006 
+    209008     202006 
+    209014     202006 
+    209007     202006 
+    209007     202006 
+
+
+Comparison case whithout partial dependence:
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    209008     202006 
+    209020     202006 
+    209007     202006 
+    209007     202006 
+    209014     202006 
+    209008     202006 
+    209008     202006 
+    221039     202007 
+    209008     202006 
+    209008     202006 
+
+
+9: bt, cmovbe (reading modified and unmodified bits)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    226727     202006 
+    226434     202006 
+    226909     202006 
+    226422     202006 
+    226422     202006 
+    226421     202006 
+    239623     202007 
+    226422     202006 
+    226428     202006 
+    226421     202006 
+
+
+Comparison case whithout partial dependence:
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    209443     202006 
+    209014     202006 
+    209007     202006 
+    209008     202006 
+    209008     202006 
+    209008     202006 
+    209014     202006 
+    209007     202006 
+    209007     202006 
+    209462     202006 
+
+
+10: shr, setbe (reading modified bits)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    216957     202006 
+    217178     202006 
+    216691     202006 
+    216690     202006 
+    216691     202006 
+    216690     202006 
+    216691     202006 
+    216690     202006 
+    216691     202006 
+    216690     202006 
+
+
+Comparison case whithout partial dependence:
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    216964     202006 
+    216698     202006 
+    216684     202006 
+    216685     202006 
+    216684     202006 
+    216685     202006 
+    216684     202006 
+    216685     202006 
+    216684     202006 
+    216685     202006 
+
+
+11: ror, setc (reading modified flag after rotate)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    209281     202006 
+    209014     202006 
+    209007     202006 
+    209007     202006 
+    209008     202006 
+    209008     202006 
+    209007     202006 
+    209007     202006 
+    209008     202006 
+    209008     202006 
+
+
+Comparison case whithout partial dependence:
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200259     202006 
+    200044     202006 
+    200018     202006 
+    200018     202006 
+    200466     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+
+
+11: movss, orps (reading modified and unmodified parts)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    252674     202006 
+    252499     202006 
+    252473     202006 
+    252473     202006 
+    252473     202006 
+    252473     202006 
+    252967     202006 
+    252473     202006 
+    252473     202006 
+    252473     202006 
+
+
+Comparison case whithout partial dependence:
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    233279     202006 
+    233045     202006 
+    233018     202006 
+    233018     202006 
+    233018     202006 
+    233018     202006 
+    233018     202006 
+    233018     202006 
+    233474     202006 
+    233019     202006 
+
+

@@ -1,0 +1,762 @@
+Multiplication instructions latency and throughput
+
+
+
+Latency: mul , registersize 8 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21899      10223 
+     21801      10223 
+     21841      10223 
+     21801      10223 
+     21802      10223 
+     21801      10223 
+     21802      10223 
+     21801      10223 
+     21802      10223 
+     21801      10223 
+
+
+Throughput: mul , registersize 8 (subtract 1 uop)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12090      20223 
+     11453      20223 
+     11440      20223 
+     11440      20223 
+     11440      20223 
+     11446      20223 
+     11447      20223 
+     11446      20223 
+     11447      20223 
+     11440      20223 
+
+
+Throughput with memory operand: mul , registersize 8 (subtract 1 uop)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11174      20223 
+     11037      20223 
+     11031      20223 
+     11031      20223 
+     11031      20223 
+     11031      20223 
+     11030      20223 
+     11030      20223 
+     11030      20223 
+     11030      20223 
+
+
+Latency: mul , registersize 16 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     32566      10223 
+     32579      10223 
+     32578      10223 
+     32572      10223 
+     32579      10223 
+     32572      10223 
+     32578      10223 
+     32572      10223 
+     32579      10223 
+     32572      10223 
+
+
+Throughput: mul , registersize 16 (subtract 1 uop)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21508      20223 
+     21405      20223 
+     21366      20223 
+     21365      20223 
+     21365      20223 
+     21366      20223 
+     21366      20223 
+     21359      20223 
+     21365      20223 
+     21359      20223 
+
+
+Throughput with memory operand: mul , registersize 16 (subtract 1 uop)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54334      20223 
+     54204      20223 
+     54198      20223 
+     54197      20223 
+     54198      20223 
+     54197      20223 
+     54204      20223 
+     54204      20223 
+     54197      20223 
+     54198      20223 
+
+
+Latency: mul , registersize 32 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     32585      10223 
+     32598      10223 
+     32579      10223 
+     32572      10223 
+     32572      10223 
+     32579      10223 
+     32572      10223 
+     32572      10223 
+     32579      10223 
+     32572      10223 
+
+
+Throughput: mul , registersize 32 (subtract 1 uop)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21431      20223 
+     21404      20223 
+     21365      20223 
+     21366      20223 
+     21366      20223 
+     21365      20223 
+     21366      20223 
+     21359      20223 
+     21365      20223 
+     21365      20223 
+
+
+Throughput with memory operand: mul , registersize 32 (subtract 1 uop)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54334      20223 
+     54249      20223 
+     54204      20223 
+     54204      20223 
+     54197      20223 
+     54198      20223 
+     54197      20223 
+     54198      20223 
+     65871      20224 
+     54204      20223 
+
+
+Latency: mul , registersize 64 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80035      10223 
+     80022      10223 
+     80022      10223 
+     80022      10223 
+     80022      10223 
+     80022      10223 
+     80015      10223 
+     80021      10223 
+     80021      10223 
+     80021      10223 
+
+
+Throughput: mul , registersize 64 (subtract 1 uop)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25929      20223 
+     25858      20223 
+     25864      20223 
+     25864      20223 
+     25858      20223 
+     25864      20223 
+     25864      20223 
+     25858      20223 
+     25864      20223 
+     25864      20223 
+
+
+Throughput with memory operand: mul , registersize 64 (subtract 1 uop)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     65202      20223 
+     65078      20223 
+     65033      20223 
+     65033      20223 
+     65033      20223 
+     65033      20223 
+     65033      20223 
+     65033      20223 
+     65033      20223 
+     65033      20223 
+
+
+Latency: imul , registersize 8 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20228      10223 
+     20182      10223 
+     20124      10223 
+     20131      10223 
+     20124      10223 
+     20130      10223 
+     20124      10223 
+     20131      10223 
+     20124      10223 
+     20130      10223 
+
+
+Throughput: imul , registersize 8 (subtract 1 uop)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12493      20223 
+     12402      20223 
+     12396      20223 
+     12395      20223 
+     12396      20223 
+     12402      20223 
+     12402      20223 
+     12396      20223 
+     12395      20223 
+     12396      20223 
+
+
+Throughput with memory operand: imul , registersize 8 (subtract 1 uop)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11356      20223 
+     11037      20223 
+     11031      20223 
+     11031      20223 
+     11031      20223 
+     11031      20223 
+     11030      20223 
+     11030      20223 
+     11030      20223 
+     11030      20223 
+
+
+Latency: imul , registersize 16 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30134      10223 
+     30075      10223 
+     30075      10223 
+     30076      10223 
+     30076      10223 
+     30069      10223 
+     30075      10223 
+     30069      10223 
+     30076      10223 
+     30069      10223 
+
+
+Throughput: imul , registersize 16 (subtract 1 uop)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23218      20223 
+     23154      20223 
+     23140      20223 
+     23141      20223 
+     23140      20223 
+     23141      20223 
+     23140      20223 
+     23140      20223 
+     23141      20223 
+     23140      20223 
+
+
+Throughput with memory operand: imul , registersize 16 (subtract 1 uop)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50681      20223 
+     50037      20223 
+     50031      20223 
+     50031      20223 
+     50037      20223 
+     50037      20223 
+     50030      20223 
+     50037      20223 
+     50037      20223 
+     50031      20223 
+
+
+Latency: imul , registersize 32 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30063      10223 
+     30095      10223 
+     30069      10223 
+     30069      10223 
+     30075      10223 
+     30075      10223 
+     30075      10223 
+     30075      10223 
+     30075      10223 
+     30069      10223 
+
+
+Throughput: imul , registersize 32 (subtract 1 uop)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23193      20223 
+     23160      20223 
+     23141      20223 
+     23140      20223 
+     23141      20223 
+     23141      20223 
+     23140      20223 
+     23141      20223 
+     23140      20223 
+     23141      20223 
+
+
+Throughput with memory operand: imul , registersize 32 (subtract 1 uop)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50147      20223 
+     50037      20223 
+     50031      20223 
+     50031      20223 
+     50037      20223 
+     50037      20223 
+     50030      20223 
+     50037      20223 
+     50037      20223 
+     50031      20223 
+
+
+Latency: imul , registersize 64 
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     86704      10223 
+     86716      10223 
+     86691      10223 
+     86697      10223 
+     86690      10223 
+     86691      10223 
+     86690      10223 
+     86691      10223 
+     86690      10223 
+     86697      10223 
+
+
+Throughput: imul , registersize 64 (subtract 1 uop)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26020      20223 
+     25877      20223 
+     25864      20223 
+     25857      20223 
+     25858      20223 
+     25864      20223 
+     25857      20223 
+     25858      20223 
+     25864      20223 
+     25857      20223 
+
+
+Throughput with memory operand: imul , registersize 64 (subtract 1 uop)
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60132      20223 
+     60034      20223 
+     60028      20223 
+     60034      20223 
+     60027      20223 
+     60034      20223 
+     60028      20223 
+     72488      20224 
+     60027      20223 
+     60034      20223 
+
+
+
+
+Latency: imul , regsize 16, numop 2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22042      10223 
+     21802      10223 
+     21801      10223 
+     21802      10223 
+     21801      10223 
+     21802      10223 
+     21801      10223 
+     21801      10223 
+     21802      10223 
+     21801      10223 
+
+
+Throughput: imul , regsize 16, numop 2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11583      10223 
+     11466      10223 
+     11459      10223 
+     11459      10223 
+     11459      10223 
+     11459      10223 
+     11459      10223 
+     11459      10223 
+     11459      10223 
+     11459      10223 
+
+
+Throughput with memory operand: imul , regsize 16, numop 2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13787      10223 
+     13352      10223 
+     13351      10223 
+     13352      10223 
+     13345      10223 
+     13351      10223 
+     13352      10223 
+     13345      10223 
+     13351      10223 
+     13352      10223 
+
+
+Latency: imul , regsize 32, numop 2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21847      10223 
+     21860      10223 
+     21801      10223 
+     21841      10223 
+     21834      10223 
+     21840      10223 
+     21841      10223 
+     21834      10223 
+     21840      10223 
+     21841      10223 
+
+
+Throughput: imul , regsize 32, numop 2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12513      10223 
+     12416      10223 
+     12415      10223 
+     12416      10223 
+     12415      10223 
+     12416      10223 
+     12409      10223 
+     12415      10223 
+     12416      10223 
+     12415      10223 
+
+
+Throughput with memory operand: imul , regsize 32, numop 2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12623      10223 
+     12330      10223 
+     12330      10223 
+     12324      10223 
+     12331      10223 
+     12331      10223 
+     12324      10223 
+     12324      10223 
+     12330      10223 
+     12330      10223 
+
+
+Latency: imul , regsize 64, numop 2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54224      10223 
+     54191      10223 
+     54191      10223 
+     54191      10223 
+     54191      10223 
+     54191      10223 
+     54191      10223 
+     54191      10223 
+     54191      10223 
+     54191      10223 
+
+
+Throughput: imul , regsize 64, numop 2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20774      10223 
+     20026      10223 
+     20020      10223 
+     20027      10223 
+     20026      10223 
+     20020      10223 
+     20027      10223 
+     20020      10223 
+     20026      10223 
+     20027      10223 
+
+
+Throughput with memory operand: imul , regsize 64, numop 2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20527      10223 
+     20026      10223 
+     20027      10223 
+     20027      10223 
+     20027      10223 
+     20033      10223 
+     20026      10223 
+     20026      10223 
+     20033      10223 
+     20027      10223 
+
+
+Latency: imul , regsize 16, numop 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21872      10223 
+     21847      10223 
+     21807      10223 
+     21808      10223 
+     21807      10223 
+     21807      10223 
+     21808      10223 
+     21807      10223 
+     21808      10223 
+     22288      10223 
+
+
+Throughput: imul , regsize 16, numop 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11713      10223 
+     11466      10223 
+     11466      10223 
+     11466      10223 
+     11466      10223 
+     11466      10223 
+     11466      10223 
+     11466      10223 
+     11466      10223 
+     11466      10223 
+
+
+Throughput with memory operand: imul , regsize 16, numop 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12617      10223 
+     12324      10223 
+     12324      10223 
+     12324      10223 
+     12330      10223 
+     12324      10223 
+     12324      10223 
+     12324      10223 
+     12331      10223 
+     12324      10223 
+
+
+Latency: imul , regsize 32, numop 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21879      10223 
+     21866      10223 
+     21807      10223 
+     21808      10223 
+     21807      10223 
+     21808      10223 
+     21807      10223 
+     21808      10223 
+     21807      10223 
+     21808      10223 
+
+
+Throughput: imul , regsize 32, numop 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13670      10223 
+     13566      10223 
+     13553      10223 
+     13547      10223 
+     13547      10223 
+     13553      10223 
+     13546      10223 
+     13546      10223 
+     13547      10223 
+     13547      10223 
+
+
+Throughput with memory operand: imul , regsize 32, numop 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13657      10223 
+     13351      10223 
+     13351      10223 
+     13352      10223 
+     13351      10223 
+     13352      10223 
+     13351      10223 
+     13352      10223 
+     13352      10223 
+     13351      10223 
+
+
+Latency: imul , regsize 64, numop 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     54185      10223 
+     54191      10223 
+     54197      10223 
+     54185      10223 
+     54184      10223 
+     54185      10223 
+     54184      10223 
+     54185      10223 
+     54184      10223 
+     54185      10223 
+
+
+Throughput: imul , regsize 64, numop 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20260      10223 
+     20027      10223 
+     20020      10223 
+     20026      10223 
+     20027      10223 
+     20020      10223 
+     20026      10223 
+     20020      10223 
+     20027      10223 
+     20026      10223 
+
+
+Throughput with memory operand: imul , regsize 64, numop 3
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22055      10223 
+     21691      10223 
+     21698      10223 
+     21691      10223 
+     21697      10223 
+     21691      10223 
+     21698      10223 
+     21691      10223 
+     21697      10223 
+     21691      10223 
+
+

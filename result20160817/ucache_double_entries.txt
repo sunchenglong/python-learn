@@ -1,0 +1,1961 @@
+Testing if instructions use double entries in microop cache
+(Only for processors that have microop cache).
+
+Includes cases of possible microop fusion.
+
+Repeating aligned blocks of 4 instructions using 32 bytes combined.
+
+o32small means 32-bit offset that can be compressed into 16-bit signed number
+i32small means 32-bit immediate data that can be compressed into 16-bit signed number
+i64small means 64-bit immediate data that can be compressed into 32-bit signed number
+
+
+Case 1: mov reg64,i32, S-L-L-L, 100 blocks
+
+Processor 0
+     Clock 
+     23309 
+     20378 
+     20319 
+     20325 
+     20319 
+     20326 
+     20319 
+     20319 
+     20325 
+     20319 
+
+
+Case 1: mov reg64,i32, S-L-L-L, 200 blocks
+
+Processor 0
+     Clock 
+     27469 
+     20228 
+     20170 
+     20176 
+     20169 
+     20176 
+     20170 
+     20176 
+     20169 
+     20169 
+
+
+Case 2: mov reg64,i64, S-L-L-L, 5 blocks
+
+Processor 0
+     Clock 
+     52162 
+     52078 
+     52026 
+     52019 
+     52026 
+     52020 
+     52026 
+     52026 
+     52468 
+     52026 
+
+
+Case 2: mov reg64,i64, S-L-L-L, 100 blocks
+
+Processor 0
+     Clock 
+     52865 
+     50141 
+     50122 
+     50128 
+     50121 
+     50121 
+     50128 
+     50122 
+     50122 
+     50128 
+
+
+Case 2: mov reg64,i64, S-L-L-L, 200 blocks
+
+Processor 0
+     Clock 
+     55867 
+     50109 
+     50070 
+     50076 
+     50069 
+     50070 
+     50076 
+     50069 
+     50076 
+     50076 
+
+
+Case 3: mov reg64,i64, L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     52734 
+     50121 
+     50128 
+     50122 
+     50122 
+     50128 
+     50121 
+     50121 
+     50121 
+     50122 
+
+
+Case 3: mov reg64,i64, L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     54886 
+     50070 
+     50076 
+     50069 
+     71578 
+     50076 
+     50070 
+     50076 
+     50076 
+     50070 
+
+
+Case 4: mov reg64,i64,  L-S-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     36426 
+     30075 
+     30075 
+     30075 
+     30069 
+     30076 
+     30076 
+     30076 
+     30076 
+     30076 
+
+
+Case 5: mov reg64,i64small, L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     52845 
+     50160 
+     50121 
+     50121 
+     50122 
+     50122 
+     50122 
+     50128 
+     50121 
+     50121 
+
+
+Case 5: mov reg64,i64small, L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     59463 
+     54275 
+     54236 
+     54236 
+     54236 
+     54236 
+     54236 
+     54236 
+     54236 
+     54236 
+
+
+Case 6: cmp [abs32],r,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     35075 
+     30115 
+     30076 
+     30082 
+     30076 
+
+
+Case 7: cmp [abs32],i8,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     33456 
+     30148 
+     30128 
+     30128 
+     30128 
+
+
+Case 7: cmp [abs32],i8,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     36706 
+     30095 
+     30083 
+     30076 
+     30076 
+
+
+Case 8: cmp [abs32],i16,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     54757 
+     50109 
+     50070 
+     50077 
+     50070 
+
+
+Case 9: cmp [abs32],i32,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     36128 
+     30109 
+     30082 
+     30076 
+     30076 
+
+
+Case 10: cmp [abs32+p],i8,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     39345 
+     32605 
+     32585 
+     32585 
+     32585 
+
+
+Case 11: cmp [abs32+p],i32,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     38123 
+     32598 
+     32578 
+     32578 
+     32578 
+
+
+Case 12: mov [abs64],  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     33586 
+     30024 
+     30024 
+     30031 
+     30024 
+     30030 
+     30024 
+     30024 
+     30024 
+     30024 
+
+
+Case 12: mov [abs64],  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     30985 
+     24473 
+     24466 
+     24459 
+     24459 
+     24459 
+     24459 
+     24459 
+     24459 
+     24460 
+
+
+Case 13: cmp [basep], i8,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     32676 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+
+
+Case 13: cmp [basep], i8,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     37947 
+     32578 
+     32579 
+     32578 
+     32578 
+     32579 
+     32578 
+     32578 
+     32579 
+     32578 
+
+
+Case 14: cmp [basep], i16,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     57565 
+     54295 
+     54295 
+     54295 
+     54295 
+     54295 
+     54295 
+     54295 
+     54295 
+     54295 
+
+
+Case 14: cmp [basep], i16,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     55231 
+     50109 
+     50070 
+     50076 
+     50069 
+     50076 
+     50070 
+     50076 
+     50069 
+     78162 
+
+
+Case 15: cmp [basep], i32,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     33540 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+
+
+Case 15: cmp [basep], i32,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     36270 
+     30095 
+     30082 
+     30075 
+     30075 
+     30075 
+     30076 
+     30076 
+     30531 
+     30082 
+
+
+Case 16: cmp [basep+o8], i8,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     33605 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+
+
+Case 16: cmp [basep+o8], i8,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     35692 
+     30095 
+     30075 
+     30082 
+     30076 
+     30076 
+     30082 
+     30075 
+     30075 
+     30075 
+
+
+Case 17: cmp [basep+o8], i16,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     52845 
+     50161 
+     50122 
+     50122 
+     50122 
+     50122 
+     50122 
+     50128 
+     50121 
+     50121 
+
+
+Case 17: cmp [basep+o8], i16,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     89472 
+     54282 
+     54243 
+     54249 
+     54249 
+     54249 
+     54249 
+     54242 
+     54242 
+     54249 
+
+
+Case 18: cmp [basep+o8], i32,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     33007 
+     30147 
+     30127 
+     30127 
+     49868 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+
+
+Case 18: cmp [basep+o8], i32,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     36972 
+     30075 
+     30082 
+     30076 
+     30076 
+     30082 
+     30075 
+     30075 
+     30075 
+     30076 
+
+
+Case 19: cmp [basep+o32small], i8,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     33059 
+     30147 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+
+
+Case 19: cmp [basep+o32small], i8,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     36289 
+     30095 
+     30076 
+     30076 
+     30076 
+     30082 
+     30075 
+     30075 
+     30082 
+     30076 
+
+
+Case 20: cmp [basep+o32small], i16,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     56498 
+     54301 
+     54308 
+     54301 
+     54301 
+     54307 
+     54301 
+     54301 
+     54308 
+     54301 
+
+
+Case 20: cmp [basep+o32small], i16,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     60437 
+     54288 
+     54249 
+     54249 
+     54249 
+     54249 
+     54249 
+     54249 
+     54249 
+     54249 
+
+
+Case 21: cmp [basep+o32small], i32small,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     34216 
+     30166 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+
+
+Case 21: cmp [basep+o32small], i32small,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     36153 
+     30114 
+     30075 
+     30082 
+     30076 
+     30076 
+     30082 
+     30075 
+     30075 
+     30075 
+
+
+Case 22: cmp [basep+o32small], i32,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     35633 
+     32682 
+     32637 
+     32637 
+     32643 
+     32636 
+     32636 
+     32643 
+     32637 
+     32637 
+
+
+Case 22: cmp [basep+o32small], i32,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     39449 
+     32598 
+     32578 
+     32579 
+     32578 
+     32578 
+     32579 
+     32578 
+     32578 
+     32579 
+
+
+Case 23: cmp [basep+o32], i8,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     33013 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+
+
+Case 23: cmp [basep+o32], i8,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     36510 
+     30075 
+     30076 
+     30076 
+     30076 
+     30082 
+     30075 
+     30075 
+     30082 
+     30076 
+
+
+Case 24: cmp [basep+o32], i16,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     60028 
+     54281 
+     54242 
+     54242 
+     54242 
+     54242 
+     54242 
+     54242 
+     54242 
+     54242 
+
+
+Case 25: cmp [basep+o32], i32,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     36524 
+     30095 
+     30082 
+     30075 
+     30075 
+     30075 
+     30076 
+     30076 
+     30076 
+     30082 
+
+
+Case 26: cmp [basep+s*index], reg,  L-L-L-S,  200 blocks
+
+Processor 0
+     Clock 
+     38077 
+     32624 
+     32584 
+     32584 
+     32585 
+     32584 
+     32584 
+     32585 
+     32584 
+     32584 
+
+
+Case 27: cmp [basep+s*index], i8,  L-L-L-S,  200 blocks
+
+Processor 0
+     Clock 
+     35282 
+     30115 
+     30076 
+     30082 
+     30075 
+     30075 
+     30530 
+     30076 
+     30076 
+     30076 
+
+
+Case 28: cmp [basep+s*index], i16,  L-L-L-S,   100 blocks
+
+Processor 0
+     Clock 
+     52728 
+     50154 
+     50128 
+     50121 
+     50121 
+     50121 
+     50121 
+     50121 
+     50121 
+     50122 
+
+
+Case 28: cmp [basep+s*index], i16,  L-L-L-S,   200 blocks
+
+Processor 0
+     Clock 
+     56348 
+     50089 
+     50069 
+     50070 
+     50070 
+     50076 
+     50069 
+     50076 
+     50070 
+     50076 
+
+
+Case 29: cmp [basep+s*index], i32,  L-L-L-S,  100 blocks
+
+Processor 0
+     Clock 
+     32909 
+     30160 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+
+
+Case 29: cmp [basep+s*index], i32,  L-L-L-S,  200 blocks
+
+Processor 0
+     Clock 
+     36153 
+     30095 
+     30075 
+     30082 
+     30076 
+     30076 
+     30082 
+     30075 
+     30075 
+     30075 
+
+
+Case 30: cmp [basep+s*index+o8], reg,  L-L-L-S,  100 blocks
+
+Processor 0
+     Clock 
+     18961 
+     16348 
+     16328 
+     16329 
+     16329 
+     16328 
+     16329 
+     16329 
+     16328 
+     16329 
+
+
+Case 30: cmp [basep+s*index+o8], reg,  L-L-L-S,  200 blocks
+
+Processor 0
+     Clock 
+     35848 
+     30095 
+     30076 
+     30076 
+     30076 
+     30537 
+     30075 
+     30075 
+     30075 
+     30076 
+
+
+Case 31: cmp [basep+s*index+o8], i8,  L-L-L-S,  100 blocks
+
+Processor 0
+     Clock 
+     17738 
+     15113 
+     15080 
+     15073 
+     15080 
+     15074 
+     15080 
+     15080 
+     15074 
+     15080 
+
+
+Case 31: cmp [basep+s*index+o8], i8,  L-L-L-S,  200 blocks
+
+Processor 0
+     Clock 
+     38481 
+     32618 
+     32578 
+     32579 
+     32585 
+     32578 
+     32579 
+     32585 
+     32578 
+     32579 
+
+
+Case 32: cmp [basep+s*index+o8], i16,  L-L-L-S,  100 blocks
+
+Processor 0
+     Clock 
+     52572 
+     50122 
+     50122 
+     50122 
+     50128 
+     50121 
+     50121 
+     50121 
+     50121 
+     50121 
+
+
+Case 32: cmp [basep+s*index+o8], i16,  L-L-L-S,  200 blocks
+
+Processor 0
+     Clock 
+     56439 
+     50070 
+     50076 
+     50069 
+     50076 
+     50070 
+     50076 
+     50069 
+     50076 
+     50070 
+
+
+Case 33: cmp [basep+s*index+o8], i32,  L-L-L-S,  100 blocks
+
+Processor 0
+     Clock 
+     32981 
+     30147 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+
+
+Case 33: cmp [basep+s*index+o8], i32,  L-L-L-S,  200 blocks
+
+Processor 0
+     Clock 
+     35880 
+     30075 
+     30082 
+     30076 
+     30076 
+     30082 
+     30075 
+     30075 
+     30075 
+     30076 
+
+
+Case 34: cmp [basep+s*index+o32small], reg,  L-L-L-S,  100 blocks
+
+Processor 0
+     Clock 
+     33728 
+     30147 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+
+
+Case 34: cmp [basep+s*index+o32small], reg,  L-L-L-S,  200 blocks
+
+Processor 0
+     Clock 
+     38994 
+     32604 
+     32591 
+     32584 
+     32585 
+     32591 
+     32584 
+     32585 
+     32591 
+     32584 
+
+
+Case 35: cmp [basep+s*index+o32small], i8,  L-L-L-S,  100 blocks
+
+Processor 0
+     Clock 
+     35692 
+     32631 
+     32637 
+     32630 
+     32630 
+     32637 
+     32631 
+     32631 
+     32637 
+     32630 
+
+
+Case 35: cmp [basep+s*index+o32small], i8,  L-L-L-S,  200 blocks
+
+Processor 0
+     Clock 
+     36634 
+     30095 
+     30082 
+     30075 
+     30075 
+     30075 
+     30076 
+     30076 
+     30076 
+     30082 
+
+
+Case 36: cmp [basep+s*index+o32small], i16,  L-L-L-S,  100 blocks
+
+Processor 0
+     Clock 
+     52943 
+     50122 
+     50128 
+     50121 
+     50121 
+     50121 
+     50122 
+     50122 
+     50122 
+     50128 
+
+
+Case 36: cmp [basep+s*index+o32small], i16,  L-L-L-S,  200 blocks
+
+Processor 0
+     Clock 
+     55705 
+     50089 
+     50076 
+     50076 
+     50070 
+     50076 
+     50531 
+     50070 
+     50076 
+     50069 
+
+
+Case 37: cmp [basep+s*index+o32small], i32,  L-S-S-S,  100 blocks
+
+Processor 0
+     Clock 
+     23231 
+     20384 
+     20319 
+     20325 
+     20319 
+     20326 
+     20319 
+     20325 
+     20319 
+     20326 
+
+
+Case 37: cmp [basep+s*index+o32small], i32,  L-S-S-S,  200 blocks
+
+Processor 0
+     Clock 
+     26020 
+     20215 
+     20169 
+     20169 
+     20170 
+     20170 
+     20176 
+     20169 
+     20176 
+     20170 
+
+
+Case 38: cmp [rip], reg,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     33014 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+
+
+Case 38: cmp [rip], reg,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     35510 
+     30108 
+     30076 
+     30076 
+     30076 
+     30082 
+     30075 
+     30075 
+     30082 
+     30076 
+
+
+Case 39: cmp [rip small], i8,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     32981 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+
+
+Case 39: cmp [rip small], i8,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     36712 
+     30076 
+     30082 
+     30075 
+     30075 
+     30082 
+     30076 
+     30076 
+     30082 
+     30075 
+
+
+Case 40: cmp [rip small], i16,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     55530 
+     50076 
+     50069 
+     50076 
+     50070 
+     50076 
+     50076 
+     50070 
+     50076 
+     50069 
+
+
+Case 41: cmp [rip small], i32small,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     38428 
+     32618 
+     32578 
+     32585 
+     32579 
+     32578 
+     32585 
+     32579 
+     32578 
+     32585 
+
+
+Case 42: cmp [rip small], i32,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     35978 
+     30115 
+     30082 
+     30075 
+     30075 
+     30082 
+     30076 
+     30076 
+     30082 
+     30075 
+
+
+Case 43: cmp [rip], i8,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     38916 
+     32584 
+     32585 
+     32584 
+     32584 
+     32585 
+     32584 
+     32584 
+     32585 
+     32584 
+
+
+Case 44: cmp [rip], i16,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     60391 
+     54288 
+     54249 
+     54249 
+     54249 
+     54249 
+     54249 
+     54249 
+     54249 
+     54249 
+
+
+Case 45: cmp [rip], i32small,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     38402 
+     32624 
+     32584 
+     32591 
+     32585 
+     32584 
+     32591 
+     32585 
+     32584 
+     32591 
+
+
+Case 46: cmp [rip], i32,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     35906 
+     30114 
+     30075 
+     30082 
+     30076 
+     30076 
+     30082 
+     30075 
+     30075 
+     30075 
+
+
+Case 47: mov [basep], i32small,  L-S-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     23329 
+     72521 
+     20319 
+     20319 
+     20319 
+     20325 
+     20319 
+     20319 
+     20319 
+     20319 
+
+
+Case 47: mov [basep], i32small,  L-S-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     26936 
+     20222 
+     20176 
+     20169 
+     20169 
+     20169 
+     20169 
+     20169 
+     20169 
+     20170 
+
+
+Case 48: mov [basep], i32,  L-S-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     23517 
+     20371 
+     20326 
+     20319 
+     20319 
+     20319 
+     20325 
+     20319 
+     20319 
+     20319 
+
+
+Case 48: mov [basep], i32,  L-S-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     27307 
+     20222 
+     20170 
+     20176 
+     20169 
+     20169 
+     20169 
+     20169 
+     20169 
+     20169 
+
+
+Case 49: mov [basep+s*index], i32small,  L-S-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     23205 
+     20358 
+     20319 
+     20319 
+     20319 
+     20326 
+     20319 
+     20319 
+     20319 
+     20325 
+
+
+Case 49: mov [basep+s*index], i32small,  L-S-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     26403 
+     20209 
+     20170 
+     20170 
+     20170 
+     20170 
+     20176 
+     20169 
+     20169 
+     20169 
+
+
+Case 50: mov [basep+s*index], i32,  L-S-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     23290 
+     20319 
+     20319 
+     20326 
+     20319 
+     20319 
+     20319 
+     20325 
+     20319 
+     20319 
+
+
+Case 50: mov [basep+s*index], i32,  L-S-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     27254 
+     21853 
+     21853 
+     21853 
+     21853 
+     21853 
+     21853 
+     21853 
+     21853 
+     21853 
+
+
+Case 51: cmp [rip], 0,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     32949 
+     30147 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+     30127 
+
+
+Case 51: cmp [rip], 0,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     36543 
+     30075 
+     30082 
+     30076 
+     30076 
+     30082 
+     30075 
+     30075 
+     30075 
+     30076 
+
+
+Case 52: cmp [rip], i8,  L-S-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     99080 
+     20377 
+     20319 
+     20326 
+     20319 
+     20319 
+     20326 
+     20319 
+     20325 
+     20319 
+
+
+Case 52: cmp [rip], i8,  L-S-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     26696 
+     20209 
+     20170 
+     20176 
+     20169 
+     20169 
+     20176 
+     20170 
+     20170 
+     20176 
+
+
+Case 53: cmp [rip], i16,  L-S-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     35146 
+     32636 
+     32637 
+     32636 
+     32637 
+     32636 
+     32637 
+     32636 
+     32637 
+     32636 
+
+
+Case 53: cmp [rip], i16,  L-S-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     36276 
+     30089 
+     30076 
+     30076 
+     30069 
+     30075 
+     30075 
+     30069 
+     30076 
+     30531 
+
+
+Case 54: cmp [rip], i32,  L-S-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     23328 
+     20319 
+     20319 
+     20319 
+     20326 
+     20319 
+     20319 
+     20326 
+     20319 
+     20325 
+
+
+Case 54: cmp [rip], i32,  L-S-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     26936 
+     20208 
+     20169 
+     20170 
+     20170 
+     20170 
+     20176 
+     20169 
+     20169 
+     20176 
+
+
+Case 55: cmp FS:[o32small], i8,  L-S-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     23485 
+     20365 
+     20319 
+     20319 
+     20326 
+     20319 
+     20325 
+     20325 
+     20319 
+     20319 
+
+
+Case 55: cmp FS:[o32small], i8,  L-S-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     27846 
+     22347 
+     21859 
+     21853 
+     21853 
+     21860 
+     21853 
+     21853 
+     21859 
+     21853 
+
+
+Case 56: cmp FS:[o32small], i8,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     33533 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+     30128 
+
+
+Case 56: cmp FS:[o32small], i8,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     36329 
+     30076 
+     30082 
+     30075 
+     30075 
+     30075 
+     30076 
+     30076 
+     30076 
+     30082 
+
+
+Case 57: cmp FS:[o32small], i16,  L-L-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     42874 
+     40144 
+     40118 
+     40125 
+     40125 
+     40125 
+     40125 
+     40125 
+     40573 
+     40118 
+
+
+Case 57: cmp FS:[o32small], i16,  L-L-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     45968 
+     40092 
+     40072 
+     40072 
+     40072 
+     40072 
+     40073 
+     40073 
+     40528 
+     40073 
+
+
+Case 58: cmp FS:[o32small], i32small,  L-L-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     25279 
+     22516 
+     22516 
+     22509 
+     22568 
+     22562 
+     22516 
+     22509 
+     22483 
+     22509 
+
+
+Case 58: cmp FS:[o32small], i32small,  L-L-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     27879 
+     21301 
+     21288 
+     21288 
+     21262 
+     21255 
+     21268 
+     21255 
+     21261 
+     21268 
+
+
+Case 59: cmp FS:[o32small], i32,  L-L-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     27267 
+     24434 
+     24394 
+     24388 
+     24388 
+     24382 
+     24388 
+     24394 
+     24421 
+     24394 
+
+
+Case 59: cmp FS:[o32small], i32,  L-L-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     29894 
+     23029 
+     23010 
+     23030 
+     23030 
+     23062 
+     23062 
+     23062 
+     23030 
+     23029 
+
+
+Case 60: roundps xmm,[rip], i8,  L-S-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     23940 
+     21093 
+     21028 
+     21034 
+     21027 
+     21027 
+     21027 
+     21028 
+     21028 
+     21028 
+
+
+Case 60: roundps xmm,[rip], i8,  L-S-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     27125 
+     21027 
+     21034 
+     21028 
+     21028 
+     21034 
+     21027 
+     21027 
+     21027 
+     21028 
+
+
+Case 61: roundps xmm,[rip], i8,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     64253 
+     61912 
+     61945 
+     61906 
+     61912 
+     61886 
+     61887 
+     61945 
+     61912 
+     61906 
+
+
+Case 61: roundps xmm,[rip], i8,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     67054 
+     60977 
+     60977 
+     60957 
+     60957 
+     60976 
+     60937 
+     60957 
+     60957 
+     60957 
+
+
+Case 64: mov r,[abs64],  L-S-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     25174 
+     22015 
+     22016 
+     22016 
+     22015 
+     22015 
+     22016 
+     22016 
+     41606 
+     22022 
+
+
+Case 64: mov r,[abs64],  L-S-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     26169 
+     20228 
+     20176 
+     20170 
+     20176 
+     20169 
+     20176 
+     20170 
+     20176 
+     20169 
+
+
+Case 65: cmp [basep+s*index+o32], reg,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     32974 
+     30160 
+     30127 
+     30127 
+     30127 
+     30127 
+     30121 
+     30128 
+     30128 
+     30128 
+
+
+Case 65: cmp [basep+s*index+o32], reg,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     35977 
+     30075 
+     30075 
+     30075 
+     30076 
+     30076 
+     30076 
+     30076 
+     30076 
+     30076 
+
+
+Case 66: cmp [basep+s*index+o32], i8,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     35249 
+     32637 
+     32636 
+     32636 
+     32637 
+     32637 
+     32636 
+     32636 
+     32637 
+     32637 
+
+
+Case 66: cmp [basep+s*index+o32], i8,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     36511 
+     30108 
+     30075 
+     30076 
+     30076 
+     30076 
+     30076 
+     30076 
+     30076 
+     30082 
+
+
+Case 67: mov [basep+o32], r,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     56264 
+     53508 
+     53502 
+     53508 
+     53501 
+     53502 
+     53521 
+     53508 
+     53502 
+     53508 
+
+
+Case 67: mov [basep+o32], r,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     57960 
+     51545 
+     51519 
+     51512 
+     51513 
+     51519 
+     51512 
+     51519 
+     51519 
+     51512 
+
+
+Case 68: mov [basep+s*index+o32], r,  L-L-L-S, 100 blocks
+
+Processor 0
+     Clock 
+     54503 
+     52423 
+     52410 
+     52403 
+     52409 
+     52403 
+     52410 
+     52403 
+     52409 
+     52403 
+
+
+Case 68: mov [basep+s*index+o32], r,  L-L-L-S, 200 blocks
+
+Processor 0
+     Clock 
+     57109 
+     51545 
+     51519 
+     51525 
+     51519 
+     51513 
+     51519 
+     51512 
+     51513 
+     51519 
+
+
+Case 69: cmp r,r / jc o32small;  L-L-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     24180 
+     20378 
+     20319 
+     20325 
+     20319 
+     20319 
+     20325 
+     20319 
+     37408 
+     20319 
+
+
+Case 69: cmp r,r / jc o32small;  L-L-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     28815 
+     21911 
+     21853 
+     21853 
+     21853 
+     21853 
+     21853 
+     21853 
+     21853 
+     21853 
+
+
+Case 70: cmp [basep+o32], r / jc o32small;  L-L-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     23790 
+     20377 
+     20325 
+     20319 
+     20326 
+     20319 
+     20319 
+     20325 
+     20319 
+     20326 
+
+
+Case 70: cmp [basep+o32], r / jc o32small;  L-L-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     27008 
+     20169 
+     20170 
+     20170 
+     20176 
+     20169 
+     20176 
+     20170 
+     20176 
+     20169 
+
+
+case 71: cmp [r+s*r], r / jc o32small;  L-L-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     23881 
+     20365 
+     20319 
+     20319 
+     20326 
+     20319 
+     20325 
+     20319 
+     20319 
+     20325 
+
+
+case 71: cmp [r+s*r], r / jc o32small;  L-L-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     27450 
+     20228 
+     20170 
+     20170 
+     20176 
+     20169 
+     20169 
+     20176 
+     20170 
+     20170 
+
+
+case 72: cmp [r+s*r+o32small], r / jc o32small;  L-L-S-S, 100 blocks
+
+Processor 0
+     Clock 
+     25558 
+     22068 
+     22016 
+     22054 
+     22055 
+     22061 
+     22054 
+     22055 
+     22061 
+     22054 
+
+
+case 72: cmp [r+s*r+o32small], r / jc o32small;  L-L-S-S, 200 blocks
+
+Processor 0
+     Clock 
+     29699 
+     21853 
+     21853 
+     21853 
+     21853 
+     21853 
+     21853 
+     21853 
+     21853 
+     21853 
+
+

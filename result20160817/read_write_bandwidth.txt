@@ -1,0 +1,505 @@
+
+Test the maximum number of memory reads and writes per clock cycle
+Test modes:
+R:    read only
+W:    write only
+RW:   one read and one write
+RRW:  two reads and one write
+RWW:  one read and two writes
+
+
+===========================================
+
+test mode = R
+
+===========================================
+
+
+
+
+Register size = 8 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    108453     102006 
+    108355     102006 
+    108349     102006 
+    108356     102006 
+    108349     102006 
+    108355     102006 
+    108349     102006 
+    108356     102006 
+    108349     102006 
+    108355     102006 
+
+
+Register size = 16 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100269     102006 
+    100022     102006 
+    100022     102006 
+    100022     102006 
+    100022     102006 
+    114095     102007 
+    100022     102006 
+    100022     102006 
+    100022     102006 
+    100022     102006 
+
+
+Register size = 32 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    143950     102006 
+    143735     102006 
+    143735     102006 
+    143735     102006 
+    143742     102006 
+    143742     102006 
+    143735     102006 
+    143735     102006 
+    143735     102006 
+    143735     102006 
+
+
+Register size = 64 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    133029     102006 
+    132697     102006 
+    132678     102006 
+    132685     102006 
+    132685     102006 
+    132678     102006 
+    132678     102006 
+    132684     102006 
+    132684     102006 
+    132678     102006 
+
+
+Register size = 128 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    144534     102006 
+    143774     102006 
+    143741     102006 
+    143747     102006 
+    143741     102006 
+    143741     102006 
+    143741     102006 
+    143741     102006 
+    143741     102006 
+    143748     102006 
+
+
+===========================================
+
+test mode = W
+
+===========================================
+
+
+
+
+Register size = 8 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    168415     102006 
+    168356     102006 
+    168357     102006 
+    168356     102006 
+    168357     102006 
+    168350     102006 
+    168350     102006 
+    168350     102006 
+    168350     102006 
+    186212     102007 
+
+
+Register size = 16 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    182501     102006 
+    182384     102006 
+    182378     102006 
+    182377     102006 
+    182384     102006 
+    182378     102006 
+    182377     102006 
+    182384     102006 
+    182891     102006 
+    182378     102006 
+
+
+Register size = 32 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    182436     102006 
+    182377     102006 
+    182410     102006 
+    182378     102006 
+    182378     102006 
+    182377     102006 
+    182378     102006 
+    182377     102006 
+    182378     102006 
+    196963     102007 
+
+
+Register size = 64 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    182455     102006 
+    182409     102006 
+    182384     102006 
+    182390     102006 
+    182383     102006 
+    182878     102006 
+    182383     102006 
+    182384     102006 
+    182390     102006 
+    182383     102006 
+
+
+Register size = 128 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    168402     102006 
+    168356     102006 
+    168350     102006 
+    168357     102006 
+    168350     102006 
+    168363     102006 
+    168357     102006 
+    168350     102006 
+    168356     102006 
+    168350     102006 
+
+
+===========================================
+
+test mode = RW
+
+===========================================
+
+
+
+
+Register size = 8 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200278     202006 
+    200018     202006 
+    200512     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+
+
+Register size = 16 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    201084     202006 
+    200031     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200018     202006 
+    200460     202006 
+    200024     202006 
+    200031     202006 
+    252135     202007 
+
+
+Register size = 32 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    217010     202006 
+    216685     202006 
+    216678     202006 
+    216671     202006 
+    216678     202006 
+    250075     202007 
+    204588     202006 
+    199992     202006 
+    199992     202006 
+    199992     202006 
+
+
+Register size = 64 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    173205     202006 
+    172640     202006 
+    172614     202006 
+    185523     202007 
+    172614     202006 
+    172614     202006 
+    172614     202006 
+    172614     202006 
+    172614     202006 
+    172614     202006 
+
+
+Register size = 128 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    187688     202006 
+    187031     202006 
+    186998     202006 
+    186999     202006 
+    186998     202006 
+    186999     202006 
+    186999     202006 
+    186998     202006 
+    200889     202007 
+    186999     202006 
+
+
+===========================================
+
+test mode = RRW
+
+===========================================
+
+
+
+
+Register size = 8 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    300469     302006 
+    300014     302006 
+    300008     302006 
+    300014     302006 
+    300014     302006 
+    300014     302006 
+    300014     302006 
+    312019     302007 
+    300014     302006 
+    300014     302006 
+
+
+Register size = 16 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    325760     302006 
+    325019     302006 
+    325020     302006 
+    325020     302006 
+    325013     302006 
+    325013     302006 
+    325013     302006 
+    325494     302006 
+    325013     302006 
+    325019     302006 
+
+
+Register size = 32 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    250387     302006 
+    249860     302006 
+    249854     302006 
+    250302     302006 
+    249853     302006 
+    249853     302006 
+    249853     302006 
+    249853     302006 
+    249853     302006 
+    249853     302006 
+
+
+Register size = 64 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    250770     302006 
+    249867     302006 
+    249853     302006 
+    249853     302006 
+    249853     302006 
+    249853     302006 
+    265005     302007 
+    249854     302006 
+    249854     302006 
+    249854     302006 
+
+
+Register size = 128 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    271798     302006 
+    270686     302006 
+    270674     302006 
+    270667     302006 
+    270673     302006 
+    270667     302006 
+    284291     302007 
+    270674     302006 
+    270667     302006 
+    270673     302006 
+
+
+===========================================
+
+test mode = RWW
+
+===========================================
+
+
+
+
+Register size = 8 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1066318     302006 
+   1066501     302006 
+   1066039     302006 
+   1104460     302007 
+    987331     302006 
+    984016     302006 
+    984009     302006 
+    984009     302006 
+    984445     302006 
+    984009     302006 
+
+
+Register size = 16 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    354692     302006 
+    354127     302006 
+    354133     302006 
+    354127     302006 
+    354127     302006 
+    354127     302006 
+    354126     302006 
+    354581     302006 
+    354127     302006 
+    354127     302006 
+
+
+Register size = 32 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    379873     302006 
+    379567     302006 
+    379548     302006 
+    379548     302006 
+    379548     302006 
+    380029     302006 
+    379548     302006 
+    379548     302006 
+    379555     302006 
+    379548     302006 
+
+
+Register size = 64 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    351267     302006 
+    350344     302006 
+    350344     302006 
+    383461     302007 
+    350363     302006 
+    350343     302006 
+    350792     302006 
+    350344     302006 
+    350363     302006 
+    350343     302006 
+
+
+Register size = 128 bits
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    351468     302006 
+    350376     302006 
+    350350     302006 
+    350350     302006 
+    350343     302006 
+    350350     302006 
+    350363     302006 
+    350350     302006 
+    350799     302006 
+    350350     302006 
+
+

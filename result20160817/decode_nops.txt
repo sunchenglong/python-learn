@@ -1,0 +1,2002 @@
+NOP instructions throughput
+
+1000 * 100 NOPs
+
+
+
+pseudo-NOPs
+
+
+
+Nopsize: 1 
+
+Processor 0
+     Clock 
+     65058 
+     65013 
+     65013 
+     65033 
+     65013 
+     65006 
+     64994 
+     65032 
+     64981 
+     64987 
+
+
+Nopsize: 2 
+
+Processor 0
+     Clock 
+    116883 
+    100016 
+    100055 
+    100016 
+    100016 
+    100016 
+    100009 
+    100009 
+    100015 
+    100015 
+
+
+Nopsize: 3 
+
+Processor 0
+     Clock 
+    108440 
+    108381 
+    108349 
+    108355 
+    108355 
+    108355 
+    108355 
+    108355 
+    108348 
+    108355 
+
+
+Nopsize: 4 
+
+Processor 0
+     Clock 
+    100237 
+    100016 
+    100016 
+    100022 
+    100022 
+    118098 
+    100022 
+    100015 
+    100022 
+    100022 
+
+
+Nopsize: 5 
+
+Processor 0
+     Clock 
+    100412 
+    100055 
+    100016 
+    100022 
+    100022 
+    100015 
+    100015 
+    100022 
+    100016 
+    100016 
+
+
+Nopsize: 6 
+
+Processor 0
+     Clock 
+    109331 
+    108388 
+    108349 
+    108349 
+    108349 
+    108349 
+    181045 
+    108349 
+    108349 
+    108349 
+
+
+Nopsize: 7 
+
+Processor 0
+     Clock 
+    108804 
+    187265 
+    108355 
+    108355 
+    108355 
+    108355 
+    108355 
+    108355 
+    108355 
+    108355 
+
+
+Nopsize: 8 
+
+Processor 0
+     Clock 
+    100737 
+    100022 
+    114614 
+    100015 
+    100015 
+    100022 
+    100016 
+    100016 
+    100022 
+    100022 
+
+
+Nopsize: 9 
+
+Processor 0
+     Clock 
+    109071 
+    108349 
+    108343 
+    108349 
+    108342 
+    108349 
+    108343 
+    108349 
+    108342 
+    108349 
+
+
+Nopsize: 10 
+
+Processor 0
+     Clock 
+    100802 
+    100022 
+    100016 
+    100022 
+    100015 
+    100016 
+    100022 
+    100015 
+    100022 
+    100022 
+
+
+Nopsize: 11 
+
+Processor 0
+     Clock 
+    100737 
+    100016 
+    100016 
+    100022 
+    100022 
+    100015 
+    100015 
+    100022 
+    100016 
+    100016 
+
+
+Nopsize: 12 
+
+Processor 0
+     Clock 
+    109408 
+    108394 
+    108355 
+    108362 
+    108362 
+    108355 
+    108355 
+    130572 
+    108362 
+    108355 
+
+
+Nopsize: 13 
+
+Processor 0
+     Clock 
+    101036 
+    100042 
+    100016 
+    100016 
+    100016 
+    100016 
+    100015 
+    100015 
+    100015 
+    100015 
+
+
+Nopsize: 14 
+
+Processor 0
+     Clock 
+    110012 
+    108394 
+    108355 
+    108355 
+    108355 
+    108355 
+    108355 
+    108355 
+    108355 
+    108355 
+
+
+Nopsize: 15 
+
+Processor 0
+     Clock 
+    101218 
+    100048 
+    100015 
+    100015 
+    100015 
+    100015 
+    100022 
+    100016 
+    100016 
+    100016 
+
+
+long NOPs
+
+
+
+Nopsize: 1 
+
+Processor 0
+     Clock 
+     65098 
+     65026 
+     65014 
+     64974 
+     64975 
+     65026 
+     64994 
+     64975 
+     65026 
+     64994 
+
+
+Nopsize: 2 
+
+Processor 0
+     Clock 
+     60008 
+     60268 
+     60001 
+     60001 
+     60001 
+     60001 
+     60001 
+     60002 
+     60002 
+     60002 
+
+
+Nopsize: 3 
+
+Processor 0
+     Clock 
+     65429 
+     65962 
+     65000 
+     65006 
+     65007 
+     65000 
+     65006 
+     65007 
+     65000 
+     65006 
+
+
+Nopsize: 4 
+
+Processor 0
+     Clock 
+     51220 
+     51025 
+     51018 
+     51025 
+     51025 
+     51019 
+     51025 
+     51025 
+     51018 
+     51018 
+
+
+Nopsize: 5 
+
+Processor 0
+     Clock 
+     42581 
+     42334 
+     42276 
+     42276 
+     42276 
+     42276 
+    115394 
+     42276 
+     42276 
+     42276 
+
+
+Nopsize: 6 
+
+Processor 0
+     Clock 
+     66573 
+     66599 
+     66080 
+     66079 
+     66079 
+     66080 
+     66079 
+     66079 
+     66086 
+     66080 
+
+
+Nopsize: 7 
+
+Processor 0
+     Clock 
+     73152 
+    121459 
+     72580 
+     72579 
+     72580 
+     72579 
+     72580 
+     72579 
+     72580 
+     73067 
+
+
+Nopsize: 8 
+
+Processor 0
+     Clock 
+     58058 
+     57428 
+     57434 
+     57435 
+     57428 
+     57441 
+     57435 
+     57434 
+     57435 
+     57435 
+
+
+Nopsize: 9 
+
+Processor 0
+     Clock 
+     64857 
+     63992 
+     63941 
+     63979 
+     63980 
+     63980 
+     63979 
+     63979 
+     63980 
+     63980 
+
+
+Nopsize: 10 
+
+Processor 0
+     Clock 
+     85917 
+     85001 
+     85001 
+     85001 
+     85001 
+     85001 
+     85001 
+     85007 
+     85000 
+     85000 
+
+
+Nopsize: 11 
+
+Processor 0
+     Clock 
+     92982 
+     92333 
+     92001 
+     92001 
+     91995 
+     92001 
+     92001 
+     92001 
+     92001 
+     92001 
+
+
+Nopsize: 12 
+
+Processor 0
+     Clock 
+     85501 
+     84558 
+     84526 
+     84520 
+     84526 
+     84519 
+     84526 
+     84520 
+     84526 
+     84519 
+
+
+Nopsize: 13 
+
+Processor 0
+     Clock 
+     84988 
+     84026 
+     84025 
+     84019 
+     84025 
+     84019 
+     84019 
+     84019 
+     84019 
+     84019 
+
+
+Nopsize: 14 
+
+Processor 0
+     Clock 
+    120341 
+    119171 
+    119171 
+    119171 
+    119171 
+    119171 
+    119171 
+    119171 
+    119171 
+    119171 
+
+
+Nopsize: 15 
+
+Processor 0
+     Clock 
+    118196 
+    117007 
+    117462 
+    117000 
+    117000 
+    117000 
+    117000 
+    117000 
+    117000 
+    117000 
+
+
+66 NOPs
+
+
+
+Nopsize: 1 
+
+Processor 0
+     Clock 
+     65007 
+     65007 
+     65001 
+     64974 
+     64975 
+     64974 
+     65027 
+     64994 
+     65013 
+     64981 
+
+
+Nopsize: 2 
+
+Processor 0
+     Clock 
+     60131 
+     60002 
+     60002 
+     60002 
+     60008 
+     60001 
+     60001 
+     60001 
+     60001 
+     60001 
+
+
+Nopsize: 3 
+
+Processor 0
+     Clock 
+     65163 
+     66027 
+     65000 
+     65007 
+     65006 
+     65000 
+     65007 
+     65006 
+     65000 
+     65007 
+
+
+Nopsize: 4 
+
+Processor 0
+     Clock 
+     51220 
+     51051 
+     51025 
+     51025 
+     51019 
+     51025 
+     51025 
+     51018 
+     51018 
+     51025 
+
+
+Nopsize: 5 
+
+Processor 0
+     Clock 
+     91306 
+     91013 
+     91000 
+     91007 
+     91001 
+     91013 
+     90981 
+     91007 
+     91026 
+     91014 
+
+
+Nopsize: 6 
+
+Processor 0
+     Clock 
+     55653 
+     55316 
+     55270 
+     55270 
+     55276 
+     55270 
+     55270 
+     55277 
+     55270 
+     55270 
+
+
+Nopsize: 7 
+
+Processor 0
+     Clock 
+     55634 
+     55322 
+     55276 
+     55276 
+     55276 
+     55276 
+     55276 
+     55282 
+     55276 
+    127179 
+
+
+Nopsize: 8 
+
+Processor 0
+     Clock 
+     53657 
+     53066 
+     53020 
+     53020 
+     53020 
+     53021 
+     53021 
+     53020 
+     53020 
+     53021 
+
+
+Nopsize: 9 
+
+Processor 0
+     Clock 
+     78715 
+     78052 
+     78020 
+     78000 
+     77987 
+     77987 
+     77980 
+     77980 
+     77987 
+     77981 
+
+
+Nopsize: 10 
+
+Processor 0
+     Clock 
+     91885 
+     91000 
+     91001 
+     90994 
+     90994 
+     91001 
+     91000 
+     91001 
+     91000 
+     90994 
+
+
+Nopsize: 11 
+
+Processor 0
+     Clock 
+     78891 
+     78072 
+     78020 
+     78014 
+     78020 
+     78020 
+     78013 
+     78020 
+     78020 
+     78014 
+
+
+Nopsize: 12 
+
+Processor 0
+     Clock 
+     78975 
+     78052 
+     78019 
+     78468 
+     78019 
+     78019 
+     78020 
+     78020 
+     78020 
+     78019 
+
+
+Nopsize: 13 
+
+Processor 0
+     Clock 
+    113080 
+    111585 
+    111573 
+    111592 
+    111599 
+    111624 
+    111592 
+    111585 
+    111586 
+    111566 
+
+
+Nopsize: 14 
+
+Processor 0
+     Clock 
+    119750 
+    119236 
+    118086 
+    118085 
+    118085 
+    118086 
+    118086 
+    118592 
+    118086 
+    118092 
+
+
+Nopsize: 15 
+
+Processor 0
+     Clock 
+     98287 
+     97090 
+     97045 
+     97038 
+     97038 
+     97038 
+     97038 
+     97038 
+     97038 
+     97038 
+
+
+various, with max 3 prefixes up to 14
+
+
+
+Nopsize: 1 
+
+Processor 0
+     Clock 
+     60015 
+     60028 
+     60015 
+     59982 
+     60008 
+     60027 
+     59995 
+     60028 
+     60002 
+     59982 
+
+
+Nopsize: 2 
+
+Processor 0
+     Clock 
+     65019 
+     65169 
+     65000 
+     65006 
+     65007 
+     65006 
+     85027 
+     65006 
+     65000 
+     65000 
+
+
+Nopsize: 3 
+
+Processor 0
+     Clock 
+    121817 
+     65001 
+     64994 
+     65000 
+     65001 
+     64994 
+     65000 
+     65001 
+     64994 
+     65000 
+
+
+Nopsize: 4 
+
+Processor 0
+     Clock 
+     51181 
+     51019 
+     51019 
+     51025 
+     51025 
+     51018 
+     51025 
+     51025 
+     51019 
+     51025 
+
+
+Nopsize: 5 
+
+Processor 0
+     Clock 
+     42504 
+     42335 
+     42276 
+     42315 
+     42315 
+     42315 
+     42315 
+     42315 
+     42315 
+     42315 
+
+
+Nopsize: 6 
+
+Processor 0
+     Clock 
+     66489 
+    120393 
+     87776 
+     66085 
+     66086 
+     66085 
+     66085 
+     66086 
+     66085 
+     66085 
+
+
+Nopsize: 7 
+
+Processor 0
+     Clock 
+     67451 
+     67431 
+     66995 
+     67008 
+     67002 
+     67002 
+     67002 
+     66995 
+     67002 
+     67002 
+
+
+Nopsize: 8 
+
+Processor 0
+     Clock 
+     53677 
+     53014 
+     53020 
+     53014 
+     53021 
+     53014 
+     53020 
+     53020 
+     53021 
+     53021 
+
+
+Nopsize: 9 
+
+Processor 0
+     Clock 
+     59586 
+     59020 
+     59020 
+     59020 
+     59020 
+     59020 
+     59020 
+     59020 
+     59020 
+     59020 
+
+
+Nopsize: 10 
+
+Processor 0
+     Clock 
+     85722 
+     85007 
+     85000 
+     85000 
+     85000 
+     85000 
+     85000 
+     85000 
+     85001 
+     85001 
+
+
+Nopsize: 11 
+
+Processor 0
+     Clock 
+     92683 
+     92404 
+     92001 
+     91995 
+     92001 
+     92001 
+     92001 
+     91994 
+     92001 
+     92008 
+
+
+Nopsize: 12 
+
+Processor 0
+     Clock 
+    176930 
+    176039 
+    176020 
+    176020 
+    176020 
+    176020 
+    176026 
+    176027 
+    176026 
+    176027 
+
+
+Nopsize: 13 
+
+Processor 0
+     Clock 
+    109792 
+    108362 
+    108355 
+    108361 
+    108849 
+    108362 
+    108362 
+    108361 
+    108361 
+    108362 
+
+
+Nopsize: 14 
+
+Processor 0
+     Clock 
+    109870 
+    108355 
+    164944 
+    108362 
+    101699 
+    100009 
+    100009 
+    100009 
+    100009 
+    100009 
+
+
+Nopsize: 15 
+
+Processor 0
+     Clock 
+    101127 
+    100022 
+    100022 
+    100022 
+    100477 
+    100022 
+    100022 
+    100022 
+    100022 
+    100022 
+
+
+seg-prefix NOPs
+
+
+
+Nopsize: 1 
+
+Processor 0
+     Clock 
+     60106 
+     60015 
+     60001 
+     60014 
+     60443 
+     60014 
+     60001 
+     60014 
+     60001 
+     59982 
+
+
+Nopsize: 2 
+
+Processor 0
+     Clock 
+     65066 
+     65540 
+     64994 
+     65000 
+     65001 
+     65000 
+     65001 
+     64994 
+     64994 
+     65001 
+
+
+Nopsize: 3 
+
+Processor 0
+     Clock 
+     60138 
+     60255 
+     60002 
+     60002 
+     60002 
+     60002 
+     60008 
+     60008 
+     60008 
+     60008 
+
+
+Nopsize: 4 
+
+Processor 0
+     Clock 
+     51201 
+     51058 
+     51025 
+     51025 
+     51018 
+     51018 
+     51025 
+     51019 
+     51019 
+     51025 
+
+
+Nopsize: 5 
+
+Processor 0
+     Clock 
+     91228 
+     91013 
+     91014 
+     90974 
+     90981 
+     91027 
+     90994 
+     90994 
+     90974 
+     91001 
+
+
+Nopsize: 6 
+
+Processor 0
+     Clock 
+     51396 
+     51038 
+     51025 
+     51025 
+     51018 
+     51019 
+     51025 
+     51025 
+     51025 
+     51018 
+
+
+Nopsize: 7 
+
+Processor 0
+     Clock 
+     51487 
+     51077 
+     51025 
+     51019 
+     51025 
+     51018 
+     51025 
+     51025 
+     51018 
+     51025 
+
+
+Nopsize: 8 
+
+Processor 0
+     Clock 
+     53560 
+     53021 
+     53021 
+     53014 
+     53020 
+     53014 
+     53021 
+     53014 
+     53020 
+     53020 
+
+
+Nopsize: 9 
+
+Processor 0
+     Clock 
+     78670 
+     78026 
+     78006 
+     78007 
+     78032 
+     78000 
+     78000 
+     78000 
+     78000 
+     78013 
+
+
+Nopsize: 10 
+
+Processor 0
+     Clock 
+     84845 
+     84045 
+     84006 
+     84006 
+     83999 
+     84006 
+     84000 
+     84006 
+     83999 
+     84006 
+
+
+Nopsize: 11 
+
+Processor 0
+     Clock 
+     78955 
+     78078 
+     78026 
+     78026 
+     78019 
+     78026 
+     78026 
+     78020 
+     78026 
+     78026 
+
+
+Nopsize: 12 
+
+Processor 0
+     Clock 
+     85963 
+     84520 
+     84520 
+     84513 
+     84514 
+     84520 
+     84513 
+     84514 
+     84520 
+     84513 
+
+
+Nopsize: 13 
+
+Processor 0
+     Clock 
+    113087 
+    111618 
+    111566 
+    111592 
+    164912 
+    110162 
+    103018 
+    102973 
+    102986 
+    103018 
+
+
+Nopsize: 14 
+
+Processor 0
+     Clock 
+    110818 
+    109558 
+    109005 
+    109005 
+    108999 
+    109005 
+    109005 
+    108999 
+    109005 
+    108998 
+
+
+Nopsize: 15 
+
+Processor 0
+     Clock 
+    106464 
+    105119 
+    105125 
+    105118 
+    105125 
+    105119 
+    105125 
+    105118 
+    105125 
+    105119 
+
+
+Long sequence:
+
+
+long NOPs
+
+
+
+Nopsize: 1 
+
+Processor 0
+     Clock 
+    411944 
+    425263 
+    406387 
+    406386 
+    406386 
+    406387 
+    406874 
+    406387 
+    406387 
+    406386 
+
+
+Nopsize: 2 
+
+Processor 0
+     Clock 
+    392177 
+    375674 
+    375122 
+    375122 
+    408844 
+    375128 
+    375122 
+    375122 
+    375122 
+    375122 
+
+
+Nopsize: 3 
+
+Processor 0
+     Clock 
+    431522 
+    406393 
+    406381 
+    406374 
+    406380 
+    406374 
+    406862 
+    406380 
+    406374 
+    406381 
+
+
+Nopsize: 4 
+
+Processor 0
+     Clock 
+    576732 
+    541834 
+    541801 
+    570193 
+    542315 
+    541801 
+    541801 
+    541801 
+    541801 
+    541801 
+
+
+Nopsize: 5 
+
+Processor 0
+     Clock 
+    453037 
+    406400 
+    406394 
+    406380 
+    406381 
+    406381 
+    406380 
+    406868 
+    406380 
+    406381 
+
+
+Nopsize: 6 
+
+Processor 0
+     Clock 
+    439264 
+    375771 
+    375323 
+    425373 
+    375895 
+    375316 
+    375316 
+    375329 
+    375323 
+    375316 
+
+
+Nopsize: 7 
+
+Processor 0
+     Clock 
+   4043104 
+   4019736 
+   3999034 
+   4001296 
+   4038060 
+   3997552 
+   4020640 
+   3997253 
+   4018508 
+   4032353 
+
+
+Nopsize: 8 
+
+Processor 0
+     Clock 
+   4594090 
+   4575571 
+   4593440 
+   4549714 
+   4571652 
+   4567355 
+   4531995 
+   4589533 
+   4579205 
+   4550091 
+
+
+Nopsize: 9 
+
+Processor 0
+     Clock 
+   5213085 
+   5182892 
+   5154149 
+   5126985 
+   5146141 
+   5173974 
+   5200572 
+   5137093 
+   5151126 
+   5158491 
+
+
+Nopsize: 10 
+
+Processor 0
+     Clock 
+   5807712 
+   5711622 
+   5692044 
+   5714807 
+   5711043 
+   5712409 
+   5707170 
+   5727229 
+   5690783 
+   5688820 
+
+
+Nopsize: 11 
+
+Processor 0
+     Clock 
+   6393082 
+   6292085 
+   6283271 
+   6312027 
+   6266287 
+   6288192 
+   6309850 
+   6266462 
+   6269972 
+   6275276 
+
+
+Nopsize: 12 
+
+Processor 0
+     Clock 
+   6956066 
+   6826976 
+   6867341 
+   6839521 
+   6844214 
+   6856843 
+   6833008 
+   6839430 
+   6861744 
+   6841406 
+
+
+Nopsize: 13 
+
+Processor 0
+     Clock 
+   7535248 
+   7442318 
+   7435311 
+   7415648 
+   7500096 
+   7413432 
+   7410117 
+   7441570 
+   7419730 
+   7409012 
+
+
+Nopsize: 14 
+
+Processor 0
+     Clock 
+   8097967 
+   8011042 
+   7969306 
+   7980082 
+   8084603 
+   8024484 
+   7987271 
+   7985302 
+   7984938 
+   8003203 
+
+
+Nopsize: 15 
+
+Processor 0
+     Clock 
+   8672202 
+   8565095 
+   8587449 
+   8581151 
+   8575840 
+   8539700 
+   8554280 
+   8592129 
+   8547877 
+   8567709 
+
+
+66 NOPs
+
+
+
+Nopsize: 1 
+
+Processor 0
+     Clock 
+    413205 
+    406399 
+    406387 
+    406874 
+    406387 
+    406387 
+    406386 
+    406386 
+    406387 
+    436566 
+
+
+Nopsize: 2 
+
+Processor 0
+     Clock 
+    422896 
+    406400 
+    444535 
+    375570 
+    375108 
+    375108 
+    375108 
+    375115 
+    375109 
+    375109 
+
+
+Nopsize: 3 
+
+Processor 0
+     Clock 
+    400693 
+    375154 
+    375121 
+    375577 
+    375121 
+    375121 
+    375121 
+    375121 
+    375121 
+    375121 
+
+
+Nopsize: 4 
+
+Processor 0
+     Clock 
+    534593 
+    500136 
+    500123 
+    500123 
+    500123 
+    500565 
+    500123 
+    500123 
+    500123 
+    500123 
+
+
+Nopsize: 5 
+
+Processor 0
+     Clock 
+    721929 
+    677281 
+    677736 
+    677216 
+    677210 
+    677209 
+    677210 
+    677697 
+    749645 
+    625105 
+
+
+Nopsize: 6 
+
+Processor 0
+     Clock 
+    555184 
+    500162 
+    500571 
+    500123 
+    500123 
+    500123 
+    500123 
+    500123 
+    500123 
+    500571 
+
+
+Nopsize: 7 
+
+Processor 0
+     Clock 
+   4099186 
+   3992846 
+   4016994 
+   4020114 
+   4001316 
+   4043891 
+   4003292 
+   4019399 
+   4002486 
+   4003734 
+
+
+Nopsize: 8 
+
+Processor 0
+     Clock 
+   4632921 
+   4576826 
+   4536097 
+   4597268 
+   4579243 
+   4553809 
+   4572939 
+   4595552 
+   4544053 
+   4564034 
+
+
+Nopsize: 9 
+
+Processor 0
+     Clock 
+   5176581 
+   5170139 
+   5146896 
+   5147766 
+   5128806 
+   5167423 
+   5144191 
+   5132765 
+   5129092 
+   5162924 
+
+
+Nopsize: 10 
+
+Processor 0
+     Clock 
+   5760306 
+   5695892 
+   5718798 
+   5737732 
+   5730745 
+   5696294 
+   5738012 
+   5692427 
+   5715944 
+   5713624 
+
+
+Nopsize: 11 
+
+Processor 0
+     Clock 
+   6340256 
+   6298364 
+   6327321 
+   6298370 
+   6294847 
+   6326281 
+   6291317 
+   6290401 
+   6310902 
+   6279195 
+
+
+Nopsize: 12 
+
+Processor 0
+     Clock 
+   6963424 
+   6888421 
+   6860945 
+   6834594 
+   6903104 
+   6853866 
+   6853047 
+   6857376 
+   6845131 
+   6847822 
+
+
+Nopsize: 13 
+
+Processor 0
+     Clock 
+   7588899 
+   7424989 
+   7442493 
+   7411852 
+   7442409 
+   7439757 
+   7488117 
+   7417365 
+   7444366 
+   7458614 
+
+
+Nopsize: 14 
+
+Processor 0
+     Clock 
+   8072448 
+   8012414 
+   7987109 
+   7966264 
+   8019421 
+   7979147 
+   8000662 
+   7962806 
+   7980668 
+   7998166 
+
+
+Nopsize: 15 
+
+Processor 0
+     Clock 
+   8708830 
+   8541942 
+   8583913 
+   8603114 
+   8546863 
+   8567455 
+   8557608 
+   8589698 
+   8618955 
+   8560819 
+
+
+3 threads in parallel:
+
+
+long NOPs
+
+
+
+Nopsize: 1 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 2 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 3 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 4 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 5 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 6 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 7 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 8 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 9 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 10 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 11 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 12 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 13 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 14 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 15 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+66 NOPs
+
+
+
+Nopsize: 1 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 2 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 3 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 4 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 5 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 6 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 7 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 8 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 9 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 10 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 11 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 12 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 13 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 14 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 15 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+various, with max 3 prefixes up to 14
+
+
+
+Nopsize: 1 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 2 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 3 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 4 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 5 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 6 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 7 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 8 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 9 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 10 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 11 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 12 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 13 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 14 
+
+Processor 2 not available. Processors available:
+0  1  
+
+
+Nopsize: 15 
+
+Processor 2 not available. Processors available:
+0  1  
+
+

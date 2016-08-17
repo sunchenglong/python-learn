@@ -1,0 +1,1233 @@
+
+Cache bank conflicts:
+The test method is reading from two addresses separated by stride1,
+and then from two addresses separated by stride1 + stride2.
+If the second test is faster then there is a cache bank conflict and stride1 is a multiple of the bank size.
+Can we calculate the number of banks from the min. stride1 and max. stride2 ???.
+
+
+stride1 = 64, stride2 = 32
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3035       1605 
+      2983       1605 
+      2893       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+      2853       1605 
+      2854       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3277       1605 
+      3250       1605 
+      3270       1605 
+      3127       1605 
+      3088       1605 
+      3088       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+
+
+stride1 = 128, stride2 = 32
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3276       1605 
+      3270       1605 
+      3212       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+      3088       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3276       1605 
+      3270       1605 
+      3186       1605 
+      3146       1605 
+      3088       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+
+
+stride1 = 128, stride2 = 64
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2983       1605 
+      3036       1605 
+      3016       1605 
+      2912       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+      2847       1605 
+      2854       1605 
+      2854       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3003       1605 
+      2944       1605 
+      2892       1605 
+      2847       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+
+
+stride1 = 256, stride2 = 32
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3276       1605 
+      3270       1605 
+      3257       1605 
+      3108       1605 
+      3081       1605 
+      3088       1605 
+      3088       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3276       1605 
+      3244       1605 
+      3199       1605 
+      3107       1605 
+      3088       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+
+
+stride1 = 256, stride2 = 64
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3276       1605 
+      3270       1605 
+      3147       1605 
+      3127       1605 
+      3081       1605 
+      3088       1605 
+      3088       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3016       1605 
+      2990       1605 
+      2886       1605 
+      2853       1605 
+      2853       1605 
+      2854       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+
+
+stride1 = 256, stride2 = 128
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3003       1605 
+      3003       1605 
+      2905       1605 
+      2853       1605 
+      2853       1605 
+      2854       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3036       1605 
+      2971       1605 
+      2873       1605 
+      2854       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+
+
+stride1 = 512, stride2 = 32
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3003       1605 
+      2964       1605 
+      2867       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+      2847       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3035       1605 
+      3029       1605 
+      2906       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+      2847       1605 
+
+
+stride1 = 512, stride2 = 64
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3277       1605 
+      3270       1605 
+      3211       1605 
+      3127       1605 
+      3088       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3276       1605 
+      3290       1605 
+      3289       1605 
+      3108       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+      3088       1605 
+      3082       1605 
+      3088       1605 
+
+
+stride1 = 512, stride2 = 128
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3010       1605 
+      3016       1605 
+      3022       1605 
+      2892       1605 
+      2853       1605 
+      2854       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3277       1605 
+      3270       1605 
+      3185       1605 
+      3147       1605 
+      3081       1605 
+      3088       1605 
+      3088       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+
+
+stride1 = 512, stride2 = 256
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3276       1605 
+      3270       1605 
+      3212       1605 
+      3107       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+      3088       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3283       1605 
+      3276       1605 
+      3263       1605 
+      3133       1605 
+      3094       1605 
+      3088       1605 
+      3094       1605 
+      3094       1605 
+      3087       1605 
+      3094       1605 
+
+
+stride1 = 1024, stride2 = 32
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3003       1605 
+      3003       1605 
+      2905       1605 
+      2853       1605 
+      2853       1605 
+      2854       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3036       1605 
+      3010       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+      2853       1605 
+      2854       1605 
+      2854       1605 
+
+
+stride1 = 1024, stride2 = 64
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3277       1605 
+      3270       1605 
+      3192       1605 
+      3107       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+      3088       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3035       1605 
+      3009       1605 
+      2892       1605 
+      2854       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+
+
+stride1 = 1024, stride2 = 128
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3277       1605 
+      3250       1605 
+      3257       1605 
+      3101       1605 
+      3088       1605 
+      3088       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3277       1605 
+      3289       1605 
+      3257       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+      3088       1605 
+      3082       1605 
+
+
+stride1 = 1024, stride2 = 256
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3023       1605 
+      3023       1605 
+      2912       1605 
+      2854       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3003       1605 
+      3062       1605 
+      2925       1605 
+      2847       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+
+
+stride1 = 1024, stride2 = 512
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3022       1605 
+      3049       1605 
+      2867       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+      2853       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3035       1605 
+      3042       1605 
+      2893       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+      2847       1605 
+      2854       1605 
+
+
+stride1 = 2048, stride2 = 32
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3277       1605 
+      3270       1605 
+      3192       1605 
+      3127       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+      3088       1605 
+      3082       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3328       1605 
+      3289       1605 
+      3212       1605 
+      3127       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+      3088       1605 
+      3082       1605 
+
+
+stride1 = 2048, stride2 = 64
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3003       1605 
+      3042       1605 
+      2905       1605 
+      2853       1605 
+      2853       1605 
+      2847       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3277       1605 
+      3270       1605 
+      3250       1605 
+      3127       1605 
+      3088       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+
+
+stride1 = 2048, stride2 = 128
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3022       1605 
+      3029       1605 
+      2892       1605 
+      2854       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3277       1605 
+      3250       1605 
+      3147       1605 
+      3101       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+      3088       1605 
+      3082       1605 
+
+
+stride1 = 2048, stride2 = 256
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3277       1605 
+      3289       1605 
+      3231       1605 
+      3127       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+      3088       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2984       1605 
+      3036       1605 
+      2984       1605 
+      2873       1605 
+      2853       1605 
+      2854       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+
+
+stride1 = 2048, stride2 = 512
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3003       1605 
+      3042       1605 
+      2873       1605 
+      2847       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3277       1605 
+      3270       1605 
+      3276       1605 
+      3127       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+      3088       1605 
+
+
+stride1 = 2048, stride2 = 1024
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3329       1605 
+      3270       1605 
+      3166       1605 
+      3127       1605 
+      3088       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3277       1605 
+      3289       1605 
+      3270       1605 
+      3153       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+      3088       1605 
+
+
+stride1 = 4096, stride2 = 32
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3016       1605 
+      3029       1605 
+      2886       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+      2853       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3016       1605 
+      2971       1605 
+      2886       1605 
+      2853       1605 
+      2847       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+
+
+stride1 = 4096, stride2 = 64
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3003       1605 
+      3003       1605 
+      2944       1605 
+      2854       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3277       1605 
+      3250       1605 
+      3270       1605 
+      3108       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+      3088       1605 
+      3082       1605 
+      3088       1605 
+
+
+stride1 = 4096, stride2 = 128
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3277       1605 
+      3250       1605 
+      3173       1605 
+      3107       1605 
+      3088       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3277       1605 
+      3289       1605 
+      3270       1605 
+      3153       1605 
+      3082       1605 
+      3088       1605 
+      3088       1605 
+      3081       1605 
+      3088       1605 
+      3088       1605 
+
+
+stride1 = 4096, stride2 = 256
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3282       1605 
+      3295       1605 
+      3218       1605 
+      3152       1605 
+      3088       1605 
+      3094       1605 
+      3094       1605 
+      3087       1605 
+      3094       1605 
+      3094       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3035       1605 
+      3048       1605 
+      2912       1605 
+      2853       1605 
+      2854       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+      2853       1605 
+
+
+stride1 = 4096, stride2 = 512
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3035       1605 
+      2944       1605 
+      2905       1605 
+      2853       1605 
+      2853       1605 
+      2847       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3035       1605 
+      2951       1605 
+      2893       1605 
+      2847       1605 
+      2853       1605 
+      2853       1605 
+      2847       1605 
+      2854       1605 
+      2854       1605 
+
+
+stride1 = 4096, stride2 = 1024
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3029       1605 
+      3035       1605 
+      2951       1605 
+      2886       1605 
+      2853       1605 
+      2853       1605 
+      2847       1605 
+      2854       1605 
+      2854       1605 
+      2847       1605 
+
+Difference = stride1 + stride2
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      3283       1605 
+      3276       1605 
+      3198       1605 
+      3114       1605 
+      3087       1605 
+      3094       1605 
+      3094       1605 
+      3088       1605 
+      3094       1605 
+      3094       1605 
+
+
+
+*****  False dependences, simultaneous read and write:  *****
+
+
+stride1 = 1024, stride2 = 0
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20488      20206 
+     20013      20206 
+     20013      20206 
+     20007      20206 
+     20014      20206 
+     20014      20206 
+     20007      20206 
+     20013      20206 
+     20013      20206 
+     20007      20206 
+
+
+stride1 = 1024, stride2 = 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20404      20206 
+     20033      20206 
+     20013      20206 
+     20013      20206 
+     20007      20206 
+     20014      20206 
+     20014      20206 
+     20007      20206 
+     20007      20206 
+     20013      20206 
+
+
+stride1 = 2048, stride2 = 0
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     51155      20207 
+     21710      20206 
+     21678      20206 
+     21684      20206 
+     21684      20206 
+     21677      20206 
+     21684      20206 
+     21684      20206 
+     21678      20206 
+     21684      20206 
+
+
+stride1 = 2048, stride2 = 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     42165      20207 
+     20013      20206 
+     20013      20206 
+     20013      20206 
+     20013      20206 
+     20007      20206 
+     20014      20206 
+     20014      20206 
+     20007      20206 
+     20013      20206 
+
+
+stride1 = 4096, stride2 = 0
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    205120      20207 
+    178028      20206 
+    178022      20206 
+    178029      20206 
+    178022      20206 
+    178028      20206 
+    178022      20206 
+    178029      20206 
+    178022      20206 
+    178022      20206 
+
+
+stride1 = 4096, stride2 = 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50655      20207 
+     21684      20206 
+     21684      20206 
+     21677      20206 
+     21684      20206 
+     21684      20206 
+     21678      20206 
+     21684      20206 
+     21684      20206 
+     21677      20206 
+
+
+stride1 = 8192, stride2 = 0
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    207617      20207 
+    178029      20206 
+    178022      20206 
+    178028      20206 
+    178022      20206 
+    178029      20206 
+    178022      20206 
+    178022      20206 
+    178028      20206 
+    178022      20206 
+
+
+stride1 = 8192, stride2 = 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50154      20207 
+     21684      20206 
+     21684      20206 
+     21677      20206 
+     21684      20206 
+     21684      20206 
+     21678      20206 
+     21684      20206 
+     21684      20206 
+     21677      20206 
+
+
+stride1 = 16384, stride2 = 0
+
+
+Difference = stride1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    224179      20207 
+    192862      20206 
+    192856      20206 
+    192855      20206 
+    192862      20206 
+    192856      20206 
+    192855      20206 
+    192862      20206 
+    192856      20206 
+    192920      20206 
+
+
+stride1 = 16384, stride2 = 8
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     47378      20207 
+     20026      20206 
+     20007      20206 
+     20014      20206 
+     20014      20206 
+     20007      20206 
+     20013      20206 
+     20013      20206 
+     20007      20206 
+     20014      20206 
+
+

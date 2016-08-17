@@ -1,0 +1,264 @@
+Branch prediction
+
+
+Case 1: Tiny loop. Expect loop counter to be used
+
+
+Loop count 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       156         57 
+       124         57 
+        97         57 
+       104         57 
+       234         67 
+        72         67 
+        65         67 
+        65         67 
+       195         57 
+       156         57 
+       117         57 
+        97         57 
+       111         67 
+        71         67 
+        65         67 
+        65         67 
+       195         57 
+        98         57 
+       104         57 
+        97         57 
+
+
+Loop count 100
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       832        507 
+       787        507 
+       780        507 
+       786        507 
+       631        607 
+       455        607 
+       461        607 
+       455        607 
+       878        507 
+       832        507 
+       819        507 
+       786        507 
+       520        607 
+       462        607 
+       455        607 
+       455        607 
+       897        507 
+       780        507 
+       780        507 
+       786        507 
+
+
+Loop count 1000
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      7657       5007 
+      7612       5007 
+      7605       5007 
+      7612       5007 
+      4498       6007 
+      4355       6007 
+      4361       6007 
+      4355       6007 
+      7722       5007 
+      7644       5007 
+      7605       5007 
+      7605       5007 
+      4427       6007 
+      4355       6007 
+      4361       6007 
+      4355       6007 
+      7703       5007 
+      7605       5007 
+      7605       5007 
+      7611       5007 
+
+
+Case 2: Normal loop. Expect uop cache to be used
+
+
+Number of branches 4
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+        33         16 
+        13         16 
+         7         16 
+        13         16 
+        84         12 
+        58         12 
+        52         12 
+        13         12 
+        46         16 
+        52         16 
+        52         16 
+        72         16 
+        72         12 
+        52         12 
+        65         12 
+        20         12 
+        52         16 
+        32         16 
+        52         16 
+        26         16 
+
+
+Number of branches 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       143         40 
+        20         40 
+        20         40 
+        26         40 
+       214         30 
+       110         30 
+        78         30 
+        65         30 
+       104         40 
+       104         40 
+        58         40 
+        39         40 
+        78         30 
+        46         30 
+        39         30 
+        39         30 
+       104         40 
+        19         40 
+        19         40 
+        39         40 
+
+
+Number of branches 100
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      2652        400 
+       195        400 
+       202        400 
+       201        400 
+      2308        300 
+      1183        300 
+       461        300 
+       462        300 
+      1365        400 
+       825        400 
+       221        400 
+       195        400 
+       481        300 
+       442        300 
+       422        300 
+       423        300 
+       286        400 
+       195        400 
+       202        400 
+       195        400 
+
+
+Case 3: Extremely big loop. Expect only fetch and decode to be used
+
+
+Number of branches 4
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+        72         16 
+       149         16 
+       150         16 
+       227         16 
+       149         12 
+        98         12 
+        97         12 
+        97         12 
+        97         16 
+       136         16 
+       136         16 
+       136         16 
+       124         12 
+       104         12 
+        97         12 
+       104         12 
+       136         16 
+       663         16 
+       136         16 
+       123         16 
+
+
+Number of branches 10
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       364         40 
+       150         40 
+       722         40 
+       176         40 
+       267         30 
+       208         30 
+       189         30 
+       182         30 
+       176         40 
+       221         40 
+       137         40 
+       149         40 
+       175         30 
+       221         30 
+       214         30 
+       189         30 
+       143         40 
+       163         40 
+       162         40 
+       156         40 
+
+
+Number of branches 100
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      4134        400 
+      1300        400 
+      1267        400 
+      1293        400 
+      2132        300 
+      1456        300 
+      1982        300 
+      1417        300 
+      1463        400 
+      1294        400 
+      1449        400 
+      1911        400 
+      1320        300 
+      1456        300 
+      1456        300 
+      1417        300 
+      1645        400 
+      1397        400 
+      1502        400 
+      1372        400 
+
+
