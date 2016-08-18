@@ -1,0 +1,57 @@
+Number of instructions = 32, total size = 296	Latency	0.71	0.0
+Number of instructions = 1000, nopsize = 8, total size = 8008	Latency	0.0	0.0
+Number of instructions = 32, nopsize = 4, total size = 136	Latency	0.54	0.0
+Number of instructions = 50, nopsize = 1, total size = 54	Latency	0.41	0.0
+Number of instructions = 10, total size = 72	Latency	0.93	0.0
+Number of instructions = 20, nopsize = 1, total size = 24	Latency	0.4	0.0
+Number of instructions = 1000, total size = 9976	Latency	0.63	0.0
+Number of instructions = 36, nopsize = 8, total size = 296	Latency	0.0	0.0
+Number of instructions = 32, nopsize = 8, total size = 264	Latency	0.0	0.0
+Number of instructions = 1000, total size = 2004	Latency	0.38	0.0
+Number of instructions = 40, nopsize = 8, total size = 328	Latency	0.0	0.0
+Number of instructions = 56, nopsize = 8, total size = 456	Latency	0.0	0.0
+Number of instructions = 10000, total size = 99988	Latency	5.7	0.0
+Number of instructions = 6, total size = 44	Latency	4.65	0.0
+Number of instructions = 4, nopsize = 1, total size = 8	Latency	0.75	0.0
+Number of instructions = 40, nopsize = 1, total size = 44	Latency	0.38	0.0
+Number of instructions = 100, total size = 976	Latency	0.72	0.0
+Number of instructions = 16, nopsize = 8, total size = 136	Latency	0.0	0.0
+Number of instructions = 33, nopsize = 1, total size = 37	Latency	0.39	0.0
+Number of instructions = 1000, nopsize = 4, total size = 4008	Latency	0.5	0.0
+Number of instructions = 6, nopsize = 1, total size = 10	Latency	4.15	0.0
+Number of instructions = 100, nopsize = 4, total size = 408	Latency	0.5	0.0
+Number of instructions = 12, nopsize = 8, total size = 100	Latency	0.67	0.0
+Number of instructions = 32, total size = 64	Latency	0.42	0.01
+Number of instructions = 100, total size = 498	Latency	0.54	0.0
+Number of instructions = 64, nopsize = 8, total size = 520	Latency	0.0	0.0
+Number of instructions = 100, nopsize = 1, total size = 104	Latency	0.38	0.0
+Number of instructions = 10000, nopsize = 8, total size = 80008	Latency	0.0	0.0
+Number of instructions = 1000, nopsize = 1, total size = 1008	Latency	0.41	0.0
+Number of instructions = 100, total size = 204	Latency	0.41	0.0
+Number of instructions = 4, total size = 8	Latency	0.82	0.0
+Number of instructions = 48, nopsize = 8, total size = 392	Latency	0.0	0.0
+Number of instructions = 10, nopsize = 4, total size = 44	Latency	0.55	0.0
+Number of instructions = 3, total size = 6	Latency	1.01	0.0
+Number of instructions = 6, total size = 24	Latency	0.73	0.0
+Number of instructions = 10000, nopsize = 1, total size = 10008	Latency	0.38	0.0
+Number of instructions = 100, nopsize = 8, total size = 808	Latency	0.0	0.0
+Number of instructions = 6, total size = 12	Latency	0.74	0.0
+Number of instructions = 4000, nopsize = 1, total size = 4008	Latency	0.38	0.0
+Number of instructions = 10, total size = 84	Latency	1.2	0.0
+Number of instructions = 2000, nopsize = 1, total size = 2008	Latency	0.4	0.0
+Number of instructions = 1000, total size = 4998	Latency	0.54	0.0
+Number of instructions = 10, nopsize = 1, total size = 14	Latency	0.44	0.0
+Number of instructions = 6, total size = 32	Latency	1.0	0.0
+Number of instructions = 20000, nopsize = 1, total size = 20008	Latency	0.38	0.0
+Number of instructions = 4, nopsize = 8, total size = 36	Latency	0.0	0.0
+Number of instructions = 100, total size = 988	Latency	1.53	0.0
+Number of instructions = 31, nopsize = 1, total size = 35	Latency	1.13	0.0
+Number of instructions = 25, nopsize = 1, total size = 29	Latency	1.2	0.0
+Number of instructions = 32, nopsize = 1, total size = 36	Latency	0.38	0.0
+Number of instructions = 1000, total size = 9988	Latency	1.43	0.0
+Number of instructions = 32, total size = 158	Latency	0.54	0.0
+Number of instructions = 32, total size = 308	Latency	1.38	0.0
+Number of instructions = 2, nopsize = 1, total size = 6	Latency	1.51	0.0
+Number of instructions = 10, total size = 44	Latency	0.5	0.0
+Number of instructions = 10, total size = 20	Latency	0.57	0.0
+Number of instructions = 8, nopsize = 8, total size = 68	Latency	0.0	0.0

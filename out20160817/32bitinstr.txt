@@ -1,0 +1,22 @@
+into	Latency	7.65	0.19
+bound	Latency	12.74	0.0
+pushad	Latency	15.62	0.0
+aam_throughput	Latency	8.42	0.0
+enter 4, 1	Latency	50.72	0.24
+aam_latency	Latency	29.6	0.0
+enter 4, 4	Latency	68.59	0.0
+enter 4, 0	Latency	20.0	0.0
+daa	Latency	23.37	0.0
+enter 4, 2	Latency	63.99	0.0
+enter 4, 3	Latency	69.15	0.0
+das	Latency	25.5	0.0
+aad	Latency	18.63	0.0
+sahf	Latency	1.16	0.0
+aaa	Latency	38.16	0.0
+lahf_sahf	Latency	1.17	0.0
+salc	Latency	5.88	0.0
+leave	Latency	4.82	0.0
+salc_inc_al	Latency	5.43	0.0
+popad	Latency	12.22	0.02
+aas	Latency	35.22	0.0
+lahf	Latency	0.98	0.0

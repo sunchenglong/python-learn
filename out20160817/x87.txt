@@ -1,0 +1,5 @@
+Throughput fstp [m80] + fld	Throughput	31.73	3135.58
+Throughput fst [m32]	Throughput	1.67	0.0
+Throughput fstp [m64] + fld	Throughput	1.07	0.0
+Throughput fstp [m32] + fld	Throughput	1.07	0.0
+Throughput fst [m64]	Throughput	1.16	0.09

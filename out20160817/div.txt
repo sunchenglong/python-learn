@@ -1,0 +1,24 @@
+div , registersize 32, 1 / 1	Throughput	4.97	0.0
+idiv , registersize 32	Throughput	7.22	0.01
+idiv , registersize 16	Throughput	7.61	0.0
+idiv , registersize 32, 1 / 1	Throughput	4.64	0.0
+idiv , registersize 64, 1 / 1	Throughput	61.34	4.37
+Throughput with memory operand: idiv , registersize 8, 1 / 1	Throughput	6.99	0.01
+idiv , registersize 8, 1 / 1	Throughput	6.99	0.01
+Throughput with memory operand: div , registersize 32, 1 / 1	Throughput	4.97	0.0
+div , registersize 8	Throughput	4.97	0.0
+Throughput with memory operand: div , registersize 8, 1 / 1	Throughput	4.97	0.0
+div , registersize 16	Throughput	5.96	0.0
+div , registersize 16, 1 / 1	Throughput	5.96	0.0
+idiv , registersize 8	Throughput	6.95	0.0
+Throughput with memory operand: idiv , registersize 32, 1 / 1	Throughput	5.06	0.01
+div , registersize 32	Throughput	6.99	0.01
+idiv , registersize 64	Throughput	66.91	0.51
+idiv , registersize 16, 1 / 1	Throughput	7.62	0.0
+div , registersize 64, 1 / 1	Throughput	50.36	3.88
+Throughput with memory operand: idiv , registersize 64, 1 / 1	Throughput	61.55	3.96
+div , registersize 8, 1 / 1	Throughput	4.97	0.0
+Throughput with memory operand: div , registersize 64, 1 / 1	Throughput	52.04	0.03
+Throughput with memory operand: div , registersize 16, 1 / 1	Throughput	5.96	0.0
+Throughput with memory operand: idiv , registersize 16, 1 / 1	Throughput	7.66	0.02
+div , registersize 64	Throughput	54.97	1.9

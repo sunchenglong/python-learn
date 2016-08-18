@@ -1,0 +1,2134 @@
+into	Latency	7.65	0.19
+bound	Latency	12.74	0.0
+pushad	Latency	15.62	0.0
+aam_throughput	Latency	8.42	0.0
+enter 4, 1	Latency	50.72	0.24
+aam_latency	Latency	29.6	0.0
+enter 4, 4	Latency	68.59	0.0
+enter 4, 0	Latency	20.0	0.0
+daa	Latency	23.37	0.0
+enter 4, 2	Latency	63.99	0.0
+enter 4, 3	Latency	69.15	0.0
+das	Latency	25.5	0.0
+aad	Latency	18.63	0.0
+sahf	Latency	1.16	0.0
+aaa	Latency	38.16	0.0
+lahf_sahf	Latency	1.17	0.0
+salc	Latency	5.88	0.0
+leave	Latency	4.82	0.0
+salc_inc_al	Latency	5.43	0.0
+popad	Latency	12.22	0.02
+aas	Latency	35.22	0.0
+lahf	Latency	0.98	0.0
+Case 1: Consecutive single loops	Latency	6.15	nan
+Case 5: Loop with one branch having simple repetitive pattern of period count2 inside	Latency	0.74	0.15
+Case 8: Loop with alternating indirect branch inside	Latency	1.18	0.23
+Case 6: Loop with one branch having complex repetitive pattern of period count2 inside	Latency	1.92	0.2
+Case 4: Loop with 2 alternating branches inside	Latency	3.68	2.86
+Case 2: Nested loops	Latency	7.33	3.3
+Case 3: Loop with 1 alternating branch inside	Latency	4.52	4.15
+Case 7: Loop with one 0011 branch and one 00011 branch inside	Latency	0.75	0.28
+Case 9: Loop with 3-way indirect branch inside	Latency	1.88	0.47
+Case 1: Consecutive single loops	Latency	4.45	nan
+Case 11: One loop with multiple branches inside	Latency	0.28	0.13
+Case 8: Loop with alternating indirect branch inside	Latency	1.37	0.23
+Case 6: Loop with one branch having complex repetitive pattern of period count2 inside	Latency	0.73	0.19
+Case 4: Loop with 2 alternating branches inside	Latency	3.67	1.71
+Case 2: Nested loops	Latency	7.35	3.33
+Case 3: Loop with 1 alternating branch inside	Latency	4.24	3.41
+Case 7: Loop with one 0011 branch and one 00011 branch inside	Latency	0.8	2.38
+Case 10: One loop with multiple loops inside	Latency	-2.01	2.09
+Case 9: Loop with 3-way indirect branch inside	Latency	1.77	0.37
+Case 5: Loop with one branch having simple repetitive pattern of period count2 inside	Latency	1.9	0.21
+stride1 = 4096, stride2 = 64	Latency	1.89	0.01
+stride1 = 512, stride2 = 32	Latency	1.81	0.0
+stride1 = 4096, stride2 = 512	Latency	1.81	0.0
+stride1 = 256, stride2 = 32	Latency	1.96	0.0
+stride1 = 2048, stride2 = 0	Latency	1.22	0.19
+stride1 = 1024, stride2 = 8	Latency	0.99	0.0
+stride1 = 2048, stride2 = 8	Latency	1.1	0.11
+stride1 = 1024, stride2 = 0	Latency	0.99	0.0
+stride1 = 4096, stride2 = 0	Latency	8.94	0.16
+stride1 = 16384, stride2 = 0	Latency	9.7	0.22
+stride1 = 128, stride2 = 64	Latency	1.81	0.0
+stride1 = 4096, stride2 = 8	Latency	1.22	0.19
+stride1 = 256, stride2 = 64	Latency	1.88	0.01
+stride1 = 2048, stride2 = 32	Latency	1.96	0.0
+stride1 = 1024, stride2 = 128	Latency	1.96	0.0
+stride1 = 2048, stride2 = 1024	Latency	1.96	0.0
+stride1 = 1024, stride2 = 64	Latency	1.88	0.01
+stride1 = 2048, stride2 = 64	Latency	1.89	0.01
+stride1 = 16384, stride2 = 8	Latency	1.13	0.17
+stride1 = 4096, stride2 = 32	Latency	1.81	0.0
+stride1 = 2048, stride2 = 512	Latency	1.89	0.01
+stride1 = 1024, stride2 = 512	Latency	1.81	0.0
+stride1 = 2048, stride2 = 256	Latency	1.88	0.01
+stride1 = 2048, stride2 = 128	Latency	1.88	0.01
+stride1 = 4096, stride2 = 128	Latency	1.96	0.0
+stride1 = 512, stride2 = 64	Latency	1.96	0.0
+stride1 = 256, stride2 = 128	Latency	1.81	0.0
+stride1 = 64, stride2 = 32	Latency	1.88	0.01
+stride1 = 1024, stride2 = 32	Latency	1.81	0.0
+stride1 = 8192, stride2 = 0	Latency	8.96	0.19
+stride1 = 1024, stride2 = 256	Latency	1.81	0.0
+stride1 = 4096, stride2 = 1024	Latency	1.88	0.01
+stride1 = 128, stride2 = 32	Latency	1.95	0.0
+stride1 = 512, stride2 = 256	Latency	1.96	0.0
+stride1 = 8192, stride2 = 8	Latency	1.21	0.18
+stride1 = 512, stride2 = 128	Latency	1.88	0.01
+stride1 = 4096, stride2 = 256	Latency	1.89	0.01
+cvtpi2ps xmm, mmx / cvtps2pi mmx, xmm / POR mmx,mmx	Latency	4.31	0.0
+cvtsi2sd xmm, r64 / cvtsd2si r64, xmm	Latency	12.87	0.0
+movd xmm,m32	Throughput	1.32	0.0
+movq xmm,r64	Throughput	1.0	0.0
+cvtsi2ss xmm,r32	Throughput	5.96	0.0
+movntpd m128, xmm / movaps xmm, m128	Latency	126.36	5.43
+mov r8, m8	Throughput	1.19	0.0
+movdqa m128, xmm	Throughput	1.8	0.0
+movq2dq xmm, mmx	Throughput	1.07	0.0
+cvtsd2si r64, xmm / cvtsi2sd xmm, r64 / MAXPD xmm,xmm	Latency	7.32	0.01
+pextrb m8,xmm,1	Throughput	1.72	0.0
+cvtsd2ss xmm,xmm	Latency	14.85	0.0
+movlps m64,xmm	Throughput	1.66	0.0
+movups m128,xmm	Throughput	1.66	0.0
+movd xmm, m32 / movd m32, xmm	Latency	2.15	0.0
+movntdqa xmm, m / movdqa m, xmm	Latency	2.15	0.0
+cvtpd2ps xmm,[m128]	Throughput	1.42	0.0
+mov r8h, m8	Throughput	1.29	0.0
+cvtss2si r64, xmm	Throughput	0.99	0.0
+cvtps2pi mmx, xmm	Throughput	1.07	0.0
+cvtdq2ps xmm,xmm	Latency	14.85	0.0
+movd mmx, r32 / movd r32, mmx	Latency	3.75	0.0
+mov m32,r32	Throughput	1.8	0.0
+mov m64,r64	Throughput	1.66	0.0
+pextrq r64, xmm,1 / movq xmm, r64	Latency	3.47	0.0
+mov r8h,r8	Throughput	0.97	0.0
+cvtsi2sd xmm,r64	Throughput	1.98	0.0
+mov r8h,r8h	Latency	0.99	0.0
+movhps m64,xmm	Throughput	1.55	0.0
+movntdqa xmm,m	Throughput	1.32	0.0
+movsd m64, xmm / movsd xmm, m64	Latency	2.22	0.04
+movntps m128,xmm	Throughput	1.67	0.0
+mov m16,r16	Throughput	1.66	0.0
+cvtps2pi mmx, xmm / cvtpi2ps xmm, mmx / POR xmm,xmm	Latency	3.97	0.0
+cvtpd2dq xmm,[m128]	Throughput	1.42	0.0
+cvtpi2pd xmm, mmx / cvtpd2pi mmx, xmm / POR mmx,mmx	Latency	4.65	0.0
+cvtpi2pd xmm,[m]	Throughput	1.34	0.0
+pextrw r32,xmm,1	Throughput	1.08	0.0
+cvtsi2ss xmm,[m32]	Throughput	6.41	0.17
+cvtsd2si r32, xmm	Throughput	0.99	0.0
+cvtss2sd xmm, xmm	Latency	16.09	0.0
+movq r64, xmm	Throughput	1.08	0.0
+mov m16, r16 / mov r16, m16	Latency	2.48	0.0
+cvtsd2si r64,[m64]	Throughput	1.24	0.0
+mov m8, r8h / mov r8h, m8	Latency	15.02	0.0
+movlpd xmm, m	Throughput	1.42	0.0
+cvtpi2ps xmm,[m]	Throughput	1.34	0.0
+movd xmm, r32	Throughput	1.08	0.0
+pinsrq xmm,r64,1	Throughput	1.0	0.0
+movdqa m128, xmm / movdqa xmm, m128	Latency	2.04	0.03
+movq mmx, r64 / movq r64, mmx	Latency	3.75	0.0
+movsd xmm,xmm	Latency	1.16	0.0
+cvtdq2ps xmm, xmm / cvtps2dq xmm, xmm	Latency	2.68	0.0
+cvtpi2pd xmm, mmx / cvtpd2pi mmx, xmm	Latency	4.68	0.0
+movapd m128, xmm / movapd xmm, m128	Latency	2.15	0.0
+movss xmm, xmm	Latency	1.22	0.03
+pextrw r32,mmx,1	Throughput	0.99	0.0
+cvtpd2dq xmm, xmm	Latency	5.96	0.0
+movlhps xmm,xmm	Latency	1.16	0.0
+movapd xmm, m128	Throughput	1.43	0.0
+cvtps2pi mmx,[m]	Throughput	1.24	0.0
+pinsrw xmm,r32,1	Throughput	1.08	0.0
+pinsrw xmm, r32,1 / movd r32, xmm	Latency	4.29	0.0
+cvtsd2si r64, xmm / cvtsi2sd xmm, r64 / POR xmm,xmm	Latency	8.25	0.0
+cvtsd2ss xmm, xmm / cvtss2sd xmm, xmm / MAXPD xmm,xmm	Latency	1.99	0.0
+mov m8, r8 / mov r8, m8	Latency	2.68	0.0
+movdqu xmm, m128	Throughput	1.32	0.0
+cvtpi2ps xmm, mmx / cvtps2pi mmx, xmm	Latency	4.83	0.0
+movq xmm, m64	Throughput	1.43	0.0
+pinsrb xmm,r32,1	Throughput	1.0	0.0
+cvtsi2sd xmm, r64 / cvtsd2si r64, xmm / OR r64,r64	Latency	8.28	0.0
+cvtsi2sd xmm,r32	Throughput	6.46	0.0
+movdqa xmm, xmm / movdqa xmm, xmm / POR xmm,xmm	Latency	1.0	0.0
+movd m32, xmm	Throughput	1.66	0.0
+movaps xmm, xmm / movaps xmm, xmm / POR xmm,xmm	Latency	2.53	0.0
+mov r8h, m8 / mov m8, r8h	Latency	15.02	0.0
+pmovmskb r32,xmm	Throughput	0.99	0.0
+cvtsi2ss xmm, r64 / cvtss2si r64, xmm	Latency	12.93	0.03
+cvtss2si r32,[m32]	Throughput	1.24	0.0
+mov r8h,m8	Throughput	1.28	0.0
+movaps xmm, m128	Throughput	1.32	0.0
+pinsrw xmm,m16,1	Throughput	0.99	0.0
+pinsrd xmm, r32,1 / movd r32, xmm	Latency	4.29	0.0
+movntpd m128,xmm	Throughput	1.55	0.0
+pextrw m16,xmm,1	Throughput	1.72	0.0
+movmskps r32, xmm / movd xmm, r32	Latency	3.75	0.0
+cvtsd2si r64, xmm	Throughput	1.08	0.0
+movq m64, xmm / movq xmm, m64	Latency	1.98	0.0
+movq mmx, m64	Throughput	1.43	0.0
+pextrd r32,xmm,1	Throughput	1.0	0.0
+movdqa m, xmm	Throughput	1.66	0.0
+cvtsi2sd xmm, r32 / cvtsd2si r32, xmm / OR r32,r32	Latency	3.36	0.02
+movq m64,mmx	Throughput	1.66	0.0
+pextrq m64,xmm,1	Throughput	1.72	0.0
+cvtpd2pi mmx, xmm	Throughput	1.57	0.0
+movlpd m, xmm / movlpd xmm, m	Latency	4.29	0.0
+movmskpd r32,xmm	Throughput	1.17	0.0
+mov r8h, r8h	Latency	1.07	0.0
+movdqa xmm, xmm / movdqa xmm, xmm / MAXPS xmm,xmm	Latency	2.69	0.02
+pextrd r32, xmm,1 / movd xmm, r32	Latency	3.76	0.0
+pextrb r32,xmm,1	Throughput	1.0	0.0
+movaps m128,xmm	Throughput	1.8	0.0
+movlhps xmm, xmm	Latency	1.15	0.0
+movdq2q mmx, xmm / movq2dq xmm, mmx	Latency	1.08	0.0
+mov m8,r8h	Throughput	1.66	0.0
+pinsrd xmm,m32,1	Throughput	1.1	0.08
+cvtsd2si r32, xmm / cvtsi2sd xmm, r32 / POR xmm,xmm	Latency	4.68	0.01
+movd mmx,r32	Throughput	1.0	0.0
+cvtsd2si r32,[m64]	Throughput	1.24	0.0
+movq m64,xmm	Throughput	1.8	0.0
+cvtdq2pd xmm, xmm / cvtpd2dq xmm, xmm / MAXPD xmm,xmm	Latency	4.52	0.0
+movaps m128, xmm / movups xmm, m128	Latency	1.98	0.0
+movd r32, xmm	Throughput	1.08	0.0
+pinsrb xmm,m8,1	Throughput	1.08	0.0
+movlps m64, xmm / movlps xmm, m64	Latency	3.96	0.0
+movq mmx,r64	Throughput	1.08	0.0
+movsd m64,xmm	Throughput	1.66	0.0
+cvtps2pi mmx, xmm / cvtpi2ps xmm, mmx / MAXPS xmm,xmm	Latency	3.69	0.02
+movss xmm, xmm / movss xmm, xmm	Latency	1.16	0.0
+pinsrw mmx, r32,1 / movd r32, mmx	Latency	4.29	0.0
+movhps xmm, m64	Throughput	1.42	0.0
+cvtpd2ps xmm,xmm	Latency	6.06	0.34
+movss m32,xmm	Throughput	1.66	0.0
+movdqu m128,xmm	Throughput	1.66	0.0
+movsd xmm, xmm / movsd xmm, xmm	Latency	1.16	0.0
+movq r64, mmx	Throughput	0.99	0.0
+cvtdq2pd xmm, xmm / cvtpd2dq xmm, xmm / POR xmm,xmm	Latency	4.69	0.02
+movlps xmm, m64	Throughput	1.31	0.0
+movhps m64, xmm / movhps xmm, m64	Latency	5.49	0.03
+cvtsi2ss xmm,r64	Throughput	1.98	0.0
+mov r64, m64	Throughput	1.56	0.27
+movaps xmm, xmm / movaps xmm, xmm / MAXPS xmm,xmm	Latency	2.13	0.0
+movdqa m128,xmm	Throughput	1.8	0.0
+movdqa xmm, m128	Throughput	1.43	0.0
+movq xmm, m64 / movq m64, xmm	Latency	2.15	0.0
+movss xmm,xmm	Latency	1.16	0.0
+lddqu xmm,m128	Throughput	1.32	0.0
+cvtpi2pd xmm,mmx	Throughput	0.99	0.0
+movd xmm,r32	Throughput	1.05	0.02
+mov r16, m16	Throughput	1.29	0.0
+movapd m128,xmm	Throughput	1.66	0.0
+cvtps2dq xmm,[m]	Throughput	1.24	0.0
+movss xmm, m32	Throughput	1.43	0.0
+cvtsd2si r32, xmm / cvtsi2sd xmm, r32 / MAXPD xmm,xmm	Latency	3.64	0.0
+mov r8h, r8 / mov r8, r8h	Latency	0.99	0.0
+mov m8,r8	Throughput	1.66	0.0
+cvtsd2ss xmm, xmm / cvtss2sd xmm, xmm / POR xmm,xmm	Latency	2.98	0.0
+cvtsi2sd xmm, r32 / cvtsd2si r32, xmm	Latency	4.83	0.0
+pextrd m32,xmm,1	Throughput	1.72	0.0
+cvtps2pd xmm,[m64]	Throughput	1.43	0.0
+pinsrd xmm,r32,1	Throughput	1.04	0.0
+lddqu xmm, m128 / movdqa m128, xmm	Latency	2.15	0.0
+mov m8, r8h	Throughput	1.8	0.0
+cvtsd2ss xmm, xmm / cvtss2sd xmm, xmm	Latency	1.98	0.0
+movd r32, mmx	Throughput	1.07	0.0
+pinsrq xmm,m64,1	Throughput	1.0	0.0
+cvtdq2pd xmm,xmm	Latency	5.96	0.0
+cvtss2sd xmm,m32	Throughput	6.33	0.03
+movntq m64, mmx / movq mmx, m64	Latency	127.23	5.09
+movaps m128, xmm / movaps xmm, m128	Latency	1.98	0.0
+movq m64, mmx / movq mmx, m64	Latency	2.15	0.0
+movmskps r32,xmm	Throughput	0.99	0.0
+mov r8h, r8h / mov r8h, r8h	Latency	0.99	0.0
+cvtps2pd xmm, xmm	Latency	5.5	0.0
+movlhps xmm, xmm / movlhps xmm, xmm	Latency	1.16	0.0
+cvtdq2ps xmm,[m]	Throughput	1.24	0.0
+cvtdq2pd xmm,[m64]	Throughput	1.45	0.0
+cvtsd2ss xmm,m64	Throughput	6.34	0.04
+movq xmm, r64	Throughput	1.0	0.0
+pinsrb xmm, r32,1 / movd r32, xmm	Latency	4.35	0.03
+cvtsi2sd xmm,[m64]	Throughput	1.98	0.0
+cvtss2si r32, xmm / cvtsi2ss xmm, r32 / MAXPS xmm,xmm	Latency	3.69	0.02
+pextrb r32, xmm,1 / movd xmm, r32	Latency	3.47	0.0
+pmovmskb r32, xmm / movd xmm, r32	Latency	3.81	0.03
+movdqu m128, xmm / movdqu xmm, m128	Latency	2.33	0.27
+movq m64, xmm	Throughput	1.66	0.0
+cvtps2dq xmm, xmm	Latency	18.3	0.04
+movnti m32,r32	Throughput	1.54	0.0
+cvtpd2pi mmx,[m]	Throughput	1.42	0.0
+movmskpd r32, xmm / movd xmm, r32	Latency	3.47	0.0
+pextrw r32, xmm,1 / movd xmm, r32	Latency	3.47	0.0
+movd mmx, r32	Throughput	1.08	0.0
+movnti m32, r32 / mov r32, m32	Latency	127.19	4.57
+movups xmm, m128	Throughput	1.32	0.0
+cvtdq2pd xmm, xmm / cvtpd2dq xmm, xmm	Latency	4.75	0.04
+cvtss2si r32, xmm	Throughput	0.99	0.0
+pinsrq xmm, r64,1 / movq r64, xmm	Latency	4.29	0.0
+pinsrw mmx,r32,1	Throughput	1.08	0.0
+cvtpd2ps xmm, xmm / cvtps2pd xmm, xmm	Latency	4.68	0.0
+cvtsi2ss xmm, r32 / cvtss2si r32, xmm / OR r32,r32	Latency	3.36	0.02
+movups m128, xmm / movaps xmm, m128	Latency	2.15	0.0
+movsd xmm, xmm	Latency	1.16	0.0
+cvtdq2ps xmm, xmm / cvtps2dq xmm, xmm / POR xmm,xmm	Latency	3.02	0.01
+cvtss2si r32, xmm / cvtsi2ss xmm, r32 / POR xmm,xmm	Latency	4.68	0.02
+movd xmm, r32 / movd r32, xmm	Latency	3.47	0.0
+cvtpi2ps xmm,mmx	Throughput	1.4	0.0
+movss m32, xmm / movss xmm, m32	Latency	2.15	0.0
+mov r8, r8h	Throughput	0.97	0.0
+movq xmm,m64	Throughput	1.32	0.0
+cvtsi2sd xmm,[m32]	Throughput	6.27	0.0
+movdq2q mmx,xmm	Throughput	0.99	0.0
+movntdq m128, xmm / movdqa xmm, m128	Latency	124.95	0.48
+movlpd m,xmm	Throughput	1.66	0.0
+movntq m64,mmx	Throughput	1.82	0.0
+mov m64, r64 / mov r64, m64	Latency	1.98	0.0
+pextrq r64,xmm,1	Throughput	1.0	0.0
+mov r32, m32	Throughput	1.43	0.0
+movntdq m128,xmm	Throughput	1.67	0.0
+movq xmm, r64 / movq r64, xmm	Latency	3.47	0.0
+cvtdq2ps xmm, xmm / cvtps2dq xmm, xmm / MAXPS xmm,xmm	Latency	11.84	0.0
+mov m32, r32 / mov r32, m32	Latency	1.98	0.0
+cvtpd2pi mmx, xmm / cvtpi2pd xmm, mmx / POR xmm,xmm	Latency	4.64	0.0
+cvtpd2pi mmx, xmm / cvtpi2pd xmm, mmx / MAXPD xmm,xmm	Latency	3.69	0.02
+cvtsi2ss xmm, r32 / cvtss2si r32, xmm	Latency	4.83	0.0
+movntps m128, xmm / movaps xmm, m128	Latency	124.78	0.39
+movsd xmm, m64	Throughput	1.43	0.0
+pextrw r32, mmx,1 / movd mmx, r32	Latency	3.76	0.0
+Case 1: SSE2	Latency	0.74	0.0
+div , registersize 32, 1 / 1	Throughput	4.97	0.0
+idiv , registersize 32	Throughput	7.22	0.01
+idiv , registersize 16	Throughput	7.61	0.0
+idiv , registersize 32, 1 / 1	Throughput	4.64	0.0
+idiv , registersize 64, 1 / 1	Throughput	61.34	4.37
+Throughput with memory operand: idiv , registersize 8, 1 / 1	Throughput	6.99	0.01
+idiv , registersize 8, 1 / 1	Throughput	6.99	0.01
+Throughput with memory operand: div , registersize 32, 1 / 1	Throughput	4.97	0.0
+div , registersize 8	Throughput	4.97	0.0
+Throughput with memory operand: div , registersize 8, 1 / 1	Throughput	4.97	0.0
+div , registersize 16	Throughput	5.96	0.0
+div , registersize 16, 1 / 1	Throughput	5.96	0.0
+idiv , registersize 8	Throughput	6.95	0.0
+Throughput with memory operand: idiv , registersize 32, 1 / 1	Throughput	5.06	0.01
+div , registersize 32	Throughput	6.99	0.01
+idiv , registersize 64	Throughput	66.91	0.51
+idiv , registersize 16, 1 / 1	Throughput	7.62	0.0
+div , registersize 64, 1 / 1	Throughput	50.36	3.88
+Throughput with memory operand: idiv , registersize 64, 1 / 1	Throughput	61.55	3.96
+div , registersize 8, 1 / 1	Throughput	4.97	0.0
+Throughput with memory operand: div , registersize 64, 1 / 1	Throughput	52.04	0.03
+Throughput with memory operand: div , registersize 16, 1 / 1	Throughput	5.96	0.0
+Throughput with memory operand: idiv , registersize 16, 1 / 1	Throughput	7.66	0.02
+div , registersize 64	Throughput	54.97	1.9
+cvtpd2ps xmm,xmm + maxps xmm,xmm	Latency	10.69	0.0
+dppd xmm,xmm + por xmm,xmm	Latency	7.15	0.03
+pshufd xmm,xmm	Latency	0.99	0.0
+cvtps2dq xmm,xmm + maxps xmm,xmm	Latency	9.65	0.0
+insertps xmm,xmm + por xmm,xmm	Latency	3.09	0.0
+sqrtps xmm,xmm + por xmm,xmm	Latency	12.87	0.0
+movsldup xmm,xmm + por xmm,xmm	Latency	3.36	0.0
+movss xmm,xmm + por xmm,xmm	Latency	3.1	0.0
+shufps xmm,xmm + addps xmm,xmm	Latency	2.98	0.0
+maxpd xmm,xmm	Latency	2.15	0.0
+cvtps2dq xmm,xmm + por xmm,xmm	Latency	3.75	0.0
+pshufd xmm,xmm + por xmm,xmm	Latency	1.08	0.0
+pshufd xmm,xmm + addps xmm,xmm	Latency	3.76	0.0
+cvtps2pd xmm,xmm + maxps xmm,xmm	Latency	9.86	0.0
+andps xmm,xmm + por xmm,xmm	Latency	3.34	0.0
+dppd + maxpd + por xmm,xmm	Latency	5.96	0.0
+movhlps xmm,xmm	Latency	1.16	0.0
+paddw xmm,xmm + por xmm,xmm	Latency	1.07	0.0
+dpps xmm,xmm + por xmm,xmm	Latency	11.46	0.03
+blendps xmm,xmm + por xmm,xmm	Latency	3.76	0.0
+mulps xmm,xmm	Latency	3.22	0.0
+orps xmm,xmm + por xmm,xmm	Latency	3.08	0.0
+maxps xmm,xmm + paddw xmm,xmm	Latency	3.76	0.0
+shufps xmm,xmm + por xmm,xmm	Latency	3.36	0.0
+cvtps2dq + por + maxps xmm,xmm	Latency	2.98	0.0
+roundps xmm,xmm + maxps xmm,xmm	Latency	3.22	0.0
+movddup xmm,xmm + maxpd xmm,xmm	Latency	2.75	0.0
+dpps + por + maxps xmm,xmm	Latency	7.95	0.0
+movsldup xmm,xmm + maxps xmm,xmm	Latency	2.75	0.0
+pblendw xmm,xmm + maxpd xmm,xmm	Latency	3.75	0.0
+movsd xmm,xmm	Latency	1.16	0.0
+pblendw xmm,xmm	Latency	0.99	0.0
+movdqa xmm,xmm	Latency	0.99	0.0
+dpps + maxps + por xmm,xmm	Latency	8.97	0.0
+pblendw xmm,xmm + por xmm,xmm	Latency	0.99	0.0
+cvtdq2ps xmm,xmm + maxps xmm,xmm	Latency	8.91	0.0
+shufps xmm,xmm + maxps xmm,xmm	Latency	2.98	0.0
+maxps xmm,xmm	Latency	1.98	0.0
+maxps xmm,xmm + por xmm,xmm	Latency	3.47	0.0
+movdqa xmm,xmm + maxps xmm,xmm	Latency	3.75	0.0
+addps xmm,xmm	Latency	1.98	0.0
+pshufd xmm,xmm + maxpd xmm,xmm	Latency	3.76	0.0
+haddps + por + maxps xmm,xmm	Latency	3.97	0.0
+movsd xmm,xmm + maxpd xmm,xmm	Latency	2.75	0.0
+sqrtps xmm,xmm + maxps xmm,xmm	Latency	13.55	0.19
+haddps xmm,xmm + por xmm,xmm	Latency	4.83	0.0
+addpd xmm,xmm + por xmm,xmm	Latency	3.47	0.0
+mulps xmm,xmm + maxps xmm,xmm	Latency	2.97	0.0
+addps xmm,xmm + por xmm,xmm	Latency	3.47	0.0
+por xmm,xmm	Latency	0.99	0.0
+haddps xmm,xmm	Latency	5.42	0.34
+cvtdq2ps + por + maxps xmm,xmm	Latency	7.33	0.02
+cvtps2pd xmm,xmm	Latency	5.5	0.0
+haddps xmm,xmm + maxps xmm,xmm	Latency	3.47	0.0
+addps xmm,xmm + maxps xmm,xmm	Latency	2.15	0.0
+insertps xmm,xmm	Latency	1.16	0.0
+sqrtps xmm,xmm	Latency	21.85	0.04
+addpd xmm,xmm	Latency	2.15	0.0
+roundps xmm,xmm + por xmm,xmm	Latency	4.46	0.0
+shufpd xmm,xmm + maxpd xmm,xmm	Latency	2.75	0.0
+dppd xmm,xmm + maxpd xmm,xmm	Latency	6.76	0.0
+cvtps2pd xmm,xmm + por xmm,xmm	Latency	5.36	0.0
+maxps xmm,xmm + orps xmm,xmm	Latency	2.98	0.0
+movddup xmm,xmm	Latency	1.26	0.0
+movaps xmm,xmm + por xmm,xmm	Latency	3.08	0.0
+cvtpd2ps xmm,xmm	Latency	5.5	0.0
+orps xmm,xmm + maxps xmm,xmm	Latency	2.98	0.0
+dpps xmm,xmm	Latency	15.68	0.2
+movdqa xmm,xmm + por xmm,xmm	Latency	1.08	0.0
+blendps xmm,xmm	Latency	1.08	0.0
+unpcklps xmm,xmm + por xmm,xmm	Latency	3.34	0.0
+roundps xmm,xmm	Latency	3.96	0.0
+movss xmm,xmm	Latency	1.16	0.0
+movss xmm,xmm + maxps xmm,xmm	Latency	2.98	0.0
+cvtdq2ps xmm,xmm + por xmm,xmm	Latency	3.75	0.0
+cvtdq2ps xmm,xmm	Latency	16.09	0.0
+shufpd xmm,xmm	Latency	1.25	0.0
+haddps + maxps + por xmm,xmm	Latency	3.64	0.0
+movsldup xmm,xmm	Latency	1.16	0.0
+addps xmm,xmm + maxpd xmm,xmm	Latency	16.09	0.0
+shufps xmm,xmm	Latency	1.16	0.0
+shufpd xmm,xmm + por xmm,xmm	Latency	3.09	0.0
+cvtps2dq + maxps + por xmm,xmm	Latency	7.62	0.0
+movddup xmm,xmm + por xmm,xmm	Latency	3.36	0.0
+andps xmm,xmm	Latency	1.16	0.0
+movaps xmm,xmm + maxps xmm,xmm	Latency	2.75	0.0
+paddw xmm,xmm + orps xmm,xmm	Latency	3.09	0.0
+movsd xmm,xmm + por xmm,xmm	Latency	3.16	0.03
+movhlps xmm,xmm + maxps xmm,xmm	Latency	2.75	0.0
+cvtdq2ps + maxps + por xmm,xmm	Latency	2.98	0.0
+pshufd xmm,xmm + paddd xmm,xmm	Latency	1.08	0.0
+blendps xmm,xmm + maxps xmm,xmm	Latency	1.98	0.0
+orps xmm,xmm	Latency	1.25	0.0
+maxpd xmm,xmm + por xmm,xmm	Latency	3.75	0.0
+movaps xmm,xmm	Latency	1.15	0.0
+addpd xmm,xmm + orpd xmm,xmm	Latency	2.75	0.0
+insertps xmm,xmm + maxps xmm,xmm	Latency	2.98	0.0
+cvtps2dq xmm,xmm	Latency	16.83	0.0
+addps xmm,xmm + addpd xmm,xmm	Latency	16.09	0.0
+maxpd xmm,xmm + orpd xmm,xmm	Latency	2.75	0.0
+addps xmm,xmm + addps xmm,xmm	Latency	1.98	0.0
+unpcklps xmm,xmm	Latency	1.16	0.0
+mulps xmm,xmm + por xmm,xmm	Latency	3.04	0.04
+shufps xmm,xmm + paddd xmm,xmm	Latency	3.1	0.0
+movhlps xmm,xmm + por xmm,xmm	Latency	3.34	0.0
+cvtpd2ps xmm,xmm + por xmm,xmm	Latency	4.46	0.0
+unpcklps xmm,xmm + maxps xmm,xmm	Latency	3.05	0.04
+dppd xmm,xmm	Latency	9.31	0.0
+dpps xmm,xmm + maxps xmm,xmm	Latency	11.14	0.04
+maxps xmm,xmm + maxps xmm,xmm	Latency	1.98	0.0
+dppd + por + maxpd xmm,xmm	Latency	5.89	0.6
+paddw xmm,xmm	Latency	0.99	0.0
+andps xmm,xmm + maxps xmm,xmm	Latency	2.75	0.0
+shufpd r128,r128,i	Throughput	0.54	0.0
+mulpd r128,r128	Throughput	2.12	0.0
+orpd r128,[m]	Throughput	1.3	0.0
+movshdup r128,r128	Throughput	0.57	0.0
+dpps r128,[m128],i	Throughput	9.55	0.0
+cvttps2dq r128,[m]	Throughput	1.23	0.0
+mulps r128,r128	Throughput	1.06	0.0
+comiss r128,[m]	Throughput	1.23	0.0
+andps r128,[m]	Throughput	1.41	0.0
+minps r128,[m]	Throughput	1.23	0.0
+unpcklpd r128,r128	Throughput	0.57	0.0
+minsd r128,r128	Throughput	0.98	0.0
+comiss r128,r128	Throughput	0.98	0.0
+divss r128,r128 (best case)	Latency	13.11	0.3
+maxss r128,[m]	Throughput	1.23	0.0
+Throughput with memory operand: sqrtpd r128,[m128] (worst case)	Throughput	119.92	0.03
+cmpeqss r128,r128	Throughput	0.98	0.0
+divsd r128,r128 (best case)	Latency	15.25	0.0
+cmpeqps r128,r128	Throughput	0.98	0.0
+Throughput with memory operand: sqrtsd r128,[m128] (best case)	Throughput	60.92	0.01
+divpd r128,r128 (best case)	Latency	24.64	0.01
+Throughput with memory operand: sqrtpd r128,[m128] (best case)	Throughput	119.94	0.03
+dppd r128,r128,i	Throughput	6.37	0.0
+rcpss r128,r128	Latency	5.29	0.0
+sqrtsd r128,r128 (worst case)	Latency	61.16	2.86
+cmpeqps r128,[m]	Throughput	1.23	0.0
+andps r128,r128	Throughput	0.54	0.0
+Throughput with memory operand: sqrtsd r128,[m128] (worst case)	Throughput	61.07	0.09
+mulss r128,r128	Throughput	0.98	0.0
+roundpd r128,[m128],i	Throughput	1.96	0.0
+roundpd r128,r128,i	Throughput	2.13	0.0
+mulsd r128,[m]	Throughput	1.96	0.0
+orpd r128,r128	Throughput	0.52	0.0
+Throughput with memory operand: sqrtss r128,[m128] (worst case)	Throughput	32.93	1.09
+movapd r128,[m]	Throughput	1.41	0.0
+movshdup r128,[m]	Throughput	1.31	0.0
+ucomisd r128,[m]	Throughput	1.23	0.0
+roundsd r128,[m128],i	Throughput	1.97	0.0
+sqrtpd r128,r128 (worst case)	Latency	119.53	4.96
+Throughput with memory operand: rcpss r128,[m128]	Throughput	4.9	0.0
+unpckhps r128,[m]	Throughput	1.3	0.0
+cmpltpd r128,r128	Throughput	0.98	0.0
+movapd r128,r128	Throughput	0.57	0.0
+cvtps2pd r128,[m]	Throughput	1.31	0.0
+blendps r128,[m128],i	Throughput	0.99	0.0
+rsqrtss r128,r128	Latency	5.3	0.0
+haddps r128,r128	Throughput	2.94	0.0
+roundps r128,r128,i	Throughput	1.96	0.0
+ucomisd r128,r128	Throughput	0.98	0.0
+Throughput with memory operand: rsqrtss r128,[m128]	Throughput	5.31	0.0
+cvtdq2ps r128,r128	Throughput	1.06	0.0
+shufps r128,r128,i	Throughput	0.54	0.0
+rsqrtps r128,r128	Latency	13.7	0.04
+addss r128,[m]	Throughput	1.33	0.0
+Throughput with memory operand: sqrtps r128,[m128] (best case)	Throughput	62.88	0.01
+movups r128,r128	Throughput	0.54	0.0
+maxpd r128,[m]	Throughput	1.23	0.0
+shufps r128,[m128],i	Throughput	1.41	0.0
+shufpd r128,[m128],i	Throughput	1.41	0.0
+hsubpd r128,[m]	Throughput	4.9	0.0
+movupd r128,[m]	Throughput	1.3	0.0
+movaps r128,r128	Throughput	0.54	0.0
+haddps r128,[m]	Throughput	4.9	0.0
+roundps r128,[m128],i	Throughput	2.13	0.0
+roundss r128,[m128],i	Throughput	1.96	0.0
+sqrtss r128,r128 (best case)	Latency	32.97	1.59
+subsd r128,r128	Throughput	0.98	0.0
+movupd r128,r128	Throughput	0.57	0.0
+movddup r128,[m]	Throughput	1.3	0.0
+dpps r128,r128,i	Throughput	8.81	0.0
+movddup r128,r128	Throughput	0.53	0.0
+hsubpd r128,r128	Throughput	2.94	0.0
+unpcklpd r128,[m]	Throughput	1.3	0.0
+blendpd r128,r128,i	Throughput	0.98	0.0
+mulps r128,[m]	Throughput	1.23	0.0
+cvtpd2ps r128,[m]	Throughput	1.41	0.0
+cvtdq2ps r128,[m]	Throughput	1.23	0.0
+addps r128,[m]	Throughput	1.23	0.0
+cvtpd2ps r128,r128	Throughput	1.43	0.0
+divpd r128,r128 (worst case)	Latency	19.56	116.23
+movaps r128,[m]	Throughput	1.41	0.0
+maxss r128,r128	Throughput	0.98	0.0
+cmpeqss r128,[m]	Throughput	1.23	0.0
+addss r128,r128	Throughput	0.98	0.0
+Throughput with memory operand: sqrtps r128,[m128] (worst case)	Throughput	63.07	0.31
+rcpps r128,r128	Latency	13.7	0.04
+blendpd r128,[m128],i	Throughput	0.99	0.0
+movups r128,[m]	Throughput	1.3	0.0
+minsd r128,[m]	Throughput	1.23	0.0
+Throughput with memory operand: sqrtss r128,[m128] (best case)	Throughput	32.42	0.01
+roundsd r128,r128,i	Throughput	1.96	0.0
+mulsd r128,r128	Throughput	1.96	0.0
+cmpltpd r128,[m]	Throughput	1.24	0.0
+subpd r128,r128	Throughput	0.98	0.0
+sqrtps r128,r128 (best case)	Latency	63.15	3.16
+movsldup r128,r128	Throughput	0.53	0.0
+sqrtsd r128,r128 (best case)	Latency	61.15	2.46
+sqrtpd r128,r128 (best case)	Latency	118.95	0.66
+minps r128,r128	Throughput	0.98	0.0
+sqrtps r128,r128 (worst case)	Latency	62.37	0.03
+Throughput with memory operand: rcpps r128,[m128]	Throughput	22.29	0.72
+cvtpd2dq r128,[m]	Throughput	1.53	0.0
+divps r128,r128 (worst case)	Latency	14.33	28.79
+Throughput with memory operand: rsqrtps r128,[m128]	Throughput	22.08	0.55
+blendps r128,r128,i	Throughput	0.99	0.0
+cvtps2pd r128,r128	Throughput	1.06	0.0
+mulss r128,[m]	Throughput	1.23	0.0
+cvtdq2pd r128,[m]	Throughput	1.33	0.0
+subpd r128,[m]	Throughput	1.23	0.0
+divps r128,r128 (best case)	Latency	23.38	0.01
+addsubps r128,r128	Throughput	0.98	0.0
+sqrtss r128,r128 (worst case)	Latency	32.34	0.34
+movsldup r128,[m]	Throughput	1.75	1.03
+subsd r128,[m]	Throughput	1.23	0.0
+cvttps2dq r128,r128	Throughput	1.06	0.0
+cvtdq2pd r128,r128	Throughput	0.99	0.0
+divsd r128,r128 (worst case)	Latency	10.69	28.59
+addps r128,r128	Throughput	0.98	0.0
+unpckhps r128,r128	Throughput	0.54	0.0
+addsubps r128,[m]	Throughput	1.24	0.0
+cvtpd2dq r128,r128	Throughput	1.43	0.0
+dppd r128,[m128],i	Throughput	5.88	0.0
+divss r128,r128 (worst case)	Latency	7.9	11.3
+maxpd r128,r128	Throughput	0.98	0.0
+mulpd r128,[m]	Throughput	1.96	0.0
+roundss r128,r128,i	Throughput	1.96	0.0
+Throughput with memory source operand: cmp r64,[m64]	Throughput	1.07	0.0
+Latency with memory destination operand: cmp [m64],r64	Latency	0.98	0.0
+Throughput with memory destination operand: xchg [m32],r32	Throughput	17.85	1.81
+Latency with memory destination operand: add [m64],r64	Latency	4.9	0.0
+inc r64	Throughput	0.59	0.0
+xchg r32,r32	Throughput	1.5	0.0
+Throughput with memory destination operand: xor [m16],r16	Throughput	1.91	0.0
+Latency with memory destination operand: test [m64],r64	Latency	0.98	0.0
+Throughput with memory destination operand: add [m32],r32	Throughput	1.92	0.0
+Latency with memory operand: sub [m32], i	Latency	5.31	0.0
+mov r8, i	Throughput	0.64	0.0
+dec r32	Throughput	0.64	0.0
+Throughput with memory destination operand: or [m16],r16	Throughput	1.92	0.0
+cdq	Latency	0.5	0.0
+xor r8,r8	Throughput	0.54	0.0
+Latency with memory operand: not [m32]	Latency	4.9	0.0
+adc r32, i	Throughput	0.98	0.0
+or r8,r8	Throughput	0.5	0.0
+Latency with memory destination operand: and [m64],r64	Latency	4.9	0.0
+neg r8high	Throughput	0.99	0.0
+mov r8,r8	Throughput	0.5	0.0
+Latency with memory destination operand: and [m8],r8	Latency	5.31	0.0
+Latency with memory destination operand: add [m16],r16	Latency	4.9	0.0
+pause	Latency	5.88	0.0
+xor eax,eax / cdqe	Throughput	0.5	0.0
+Throughput with memory operand: cmp [m32], i	Throughput	0.99	0.0
+cld	Latency	3.18	0.0
+adc r32,r32	Throughput	1.06	0.0
+Latency with memory operand: cmp [m32], i	Latency	1.15	0.17
+Throughput with RIP address mode: mov r32, [m32]	Throughput	1.41	0.0
+Throughput with memory source operand: sub r64,[m64]	Throughput	1.07	0.0
+cmp r8high, i	Throughput	0.5	0.0
+clc	Latency	3.03	0.0
+or r8, i	Throughput	0.64	0.0
+popcnt r32,r32	Throughput	0.98	0.0
+dec r8high	Throughput	0.64	0.0
+Throughput with memory source operand: xchg r16,[m16]	Throughput	16.77	0.15
+inc r8high	Throughput	0.59	0.0
+Throughput with memory destination operand: sub [m32],r32	Throughput	1.77	0.0
+Latency with memory destination operand: add [m8],r8	Latency	5.31	0.0
+Throughput with memory destination operand: and [m64],r64	Throughput	1.77	0.0
+Throughput with memory source operand: sub r32,[m32]	Throughput	1.24	0.17
+xor eax,eax / cwd	Throughput	0.5	0.0
+dec r8	Throughput	0.59	0.0
+mov r16,r16	Throughput	0.5	0.0
+add r8,r8	Throughput	0.5	0.0
+Throughput with memory source operand: add r16,[m16]	Throughput	1.07	0.0
+not r16	Throughput	0.64	0.0
+sub r8high, i	Throughput	0.64	0.0
+Throughput with memory source operand: or r64,[m64]	Throughput	0.98	0.0
+add r16, i	Throughput	0.59	0.0
+Latency with memory destination operand: xchg [m8],r8	Latency	18.14	0.11
+Throughput with memory source operand: imul	Throughput	1.22	0.0
+sfence	Latency	15.86	0.0
+Throughput with memory destination operand: test [m32],r32	Throughput	0.98	0.0
+neg r32	Throughput	0.64	0.0
+Throughput with memory source operand: adc r16,[m16]	Throughput	0.98	0.0
+xor eax,eax / cdq	Throughput	0.54	0.0
+adc r8high, i	Throughput	1.06	0.0
+nop	Latency	0.64	0.0
+Latency with memory destination operand: add [m32],r32	Latency	4.9	0.0
+xor r8high, i	Throughput	0.59	0.0
+Latency with memory destination operand: adc [m8],r8	Latency	5.44	1.06
+Latency with memory destination operand: sbb [m16],r16	Latency	5.62	0.89
+Throughput with memory source operand: sbb r64,[m64]	Throughput	1.07	0.0
+Latency with memory operand: adc [m32], i	Latency	5.31	0.0
+Throughput with memory source operand: add r8,[m8]	Throughput	1.09	0.0
+add r16,r16	Throughput	0.5	0.0
+adc r8,r8	Throughput	1.06	0.0
+adc r16,r16	Throughput	1.06	0.0
+cmp r32,r32	Throughput	0.54	0.0
+cmc	Latency	3.03	0.0
+Throughput with memory source operand: adc r32,[m32]	Throughput	0.98	0.0
+Throughput with memory operand: mov [m32], i	Throughput	1.98	0.15
+Throughput with ABS64 address mode: mov r32, [m32]	Throughput	1.32	0.0
+Throughput with memory operand: test [m32], i	Throughput	1.07	0.0
+Latency with memory destination operand: adc [m16],r16	Latency	4.9	0.0
+adc r16, i	Throughput	1.06	0.0
+Latency with memory operand: add [m32], i	Latency	4.9	0.0
+Throughput with memory source operand: or r8,[m8]	Throughput	1.07	0.0
+Throughput with memory destination operand: or [m32],r32	Throughput	1.92	0.0
+imul r16,r16	Throughput	1.12	0.0
+xor eax,eax / cwde	Throughput	0.5	0.0
+adc r8, i	Throughput	1.07	0.0
+not r8high	Throughput	0.64	0.0
+Throughput with memory destination operand: xor [m32],r32	Throughput	1.77	0.0
+neg r8	Throughput	1.07	0.0
+Throughput with memory source operand: xchg r64,[m64]	Throughput	16.65	0.0
+Throughput with memory source operand: add r32,[m32]	Throughput	1.09	0.0
+bswap r32	Throughput	1.07	0.0
+and r16,r16	Throughput	0.54	0.0
+Latency with memory destination operand: xchg [m32],r32	Latency	18.03	0.0
+sbb r32,r32	Throughput	1.06	0.0
+Throughput with memory source operand: xchg r32,[m32]	Throughput	18.68	3.77
+Latency with memory destination operand: or [m8],r8	Latency	5.31	0.0
+add r32,r32	Throughput	0.5	0.0
+Throughput with memory destination operand: xchg [m16],r16	Throughput	18.03	0.0
+Throughput with memory operand: add [m32], i	Throughput	1.96	0.0
+Throughput with memory operand: neg [m32]	Throughput	2.13	0.0
+cmp r64, i	Throughput	0.51	0.0
+dec r16	Throughput	0.64	0.0
+Latency with memory operand: test [m32], i	Latency	1.07	0.0
+Latency with memory destination operand: test [m32],r32	Latency	0.98	0.0
+popcnt r64,r64	Throughput	0.98	0.0
+Latency with memory destination operand: sbb [m32],r32	Latency	4.9	0.0
+Throughput with memory source operand: test r8,[m8]	Throughput	1.07	0.0
+test r8,r8	Throughput	0.52	0.0
+Throughput with memory source operand: adc r8,[m8]	Throughput	1.0	0.0
+Latency with memory destination operand: xchg [m64],r64	Latency	17.62	2.59
+mov r64,r64	Throughput	0.5	0.0
+cmp r8, i	Throughput	0.5	0.0
+or r8high, i	Throughput	0.64	0.0
+Latency with memory destination operand: or [m32],r32	Latency	5.31	0.0
+Throughput with memory source operand: sbb r8,[m8]	Throughput	0.98	0.0
+Latency with memory operand: mov [m32], i	Latency	1.84	0.0
+Throughput with memory destination operand: cmp [m16],r16	Throughput	0.98	0.0
+and r64, i	Throughput	0.59	0.0
+Throughput with memory source operand: cmp r16,[m16]	Throughput	0.98	0.0
+xor r16,r16	Throughput	0.54	0.0
+xor r8, i	Throughput	0.59	0.0
+Latency with memory destination operand: xor [m16],r16	Latency	5.43	0.15
+cwd	Latency	0.5	0.0
+Throughput with memory source operand: bsf	Throughput	2.13	0.23
+test r32,r32	Throughput	0.5	0.0
+and r32, i	Throughput	0.59	0.0
+Latency with memory operand: sbb [m32], i	Latency	5.31	0.0
+Throughput with memory operand: or [m32], i	Throughput	2.13	0.0
+xor eax,eax / cqo	Throughput	0.54	0.0
+Throughput with memory source operand: xor r8,[m8]	Throughput	0.98	0.0
+popcnt r16,r16	Throughput	1.07	0.0
+Throughput with memory source operand: popcnt	Throughput	0.99	0.0
+add r64,r64	Throughput	0.54	0.0
+xchg r64,r64	Throughput	1.48	0.0
+Throughput with memory source operand: sub r16,[m16]	Throughput	0.98	0.0
+cmp r64,r64	Throughput	0.5	0.0
+bsr r32,r32	Throughput	1.96	0.0
+prefetcht2 [m]	Throughput	1.3	0.0
+and r16, i	Throughput	0.59	0.0
+or r64, i	Throughput	0.59	0.0
+Latency with memory destination operand: xchg [m16],r16	Latency	18.03	0.0
+Latency with memory destination operand: test [m8],r8	Latency	0.98	0.0
+Throughput with memory operand: xor [m32], i	Throughput	1.97	0.0
+Latency with memory destination operand: cmp [m32],r32	Latency	0.98	0.0
+lfence	Latency	15.85	0.0
+Throughput with INDIR address mode: mov [m32], r32	Throughput	1.65	0.0
+Throughput with memory source operand: add r64,[m64]	Throughput	0.99	0.0
+Latency with memory destination operand: cmp [m16],r16	Latency	0.98	0.0
+cmove r16,r16	Throughput	0.51	0.0
+Throughput with memory source operand: xor r64,[m64]	Throughput	0.99	0.0
+test r8, i	Throughput	0.5	0.0
+Throughput with memory destination operand: mov [m64],r64	Throughput	1.79	0.0
+dec r64	Throughput	0.64	0.0
+Latency with memory destination operand: sbb [m64],r64	Latency	4.9	0.0
+Latency with memory destination operand: mov [m8],r8	Latency	1.65	0.0
+Throughput with memory source operand: and r8,[m8]	Throughput	1.07	0.0
+sub r8, i	Throughput	0.59	0.0
+sub r64, i	Throughput	0.59	0.0
+xor r16, i	Throughput	0.59	0.0
+bsr r16,r16	Throughput	1.96	0.0
+Throughput with RIP address mode: mov [m32], r32	Throughput	1.79	0.0
+sete r8 / neg r8	Latency	1.62	0.0
+imul r64,r64	Throughput	2.12	0.0
+sbb r8, i	Throughput	1.06	0.0
+Throughput with memory destination operand: cmp [m32],r32	Throughput	0.98	0.0
+mov r32,r32	Throughput	0.5	0.0
+xor r64, i	Throughput	0.64	0.0
+Throughput with memory source operand: and r16,[m16]	Throughput	0.98	0.0
+Throughput with memory destination operand: adc [m64],r64	Throughput	1.76	0.0
+xor r64,r64	Throughput	0.54	0.0
+test r64,r64	Throughput	0.5	0.0
+sub r32, i	Throughput	0.59	0.0
+not r64	Throughput	0.64	0.0
+Throughput with memory source operand: test r64,[m64]	Throughput	1.06	0.0
+prefetchnta [m]	Throughput	1.3	0.0
+Throughput with memory source operand: xor r16,[m16]	Throughput	0.98	0.0
+add r64, i	Throughput	0.64	0.0
+Latency with memory destination operand: or [m16],r16	Latency	5.31	0.0
+Throughput with memory operand: sbb [m32], i	Throughput	1.96	0.0
+Latency with memory destination operand: cmp [m8],r8	Latency	0.98	0.0
+Throughput with memory destination operand: mov [m16],r16	Throughput	1.79	0.0
+neg r64	Throughput	0.64	0.0
+Throughput with memory destination operand: and [m8],r8	Throughput	1.96	0.0
+Throughput with memory operand: sub [m32], i	Throughput	1.96	0.0
+Latency with memory operand: neg [m32]	Latency	5.3	0.0
+cmp r8,r8	Throughput	0.54	0.0
+Throughput with memory destination operand: adc [m32],r32	Throughput	1.92	0.0
+cqo	Latency	0.54	0.0
+Throughput with memory source operand: mov r32,[m32]	Throughput	1.41	0.0
+sbb r16, i	Throughput	0.98	0.0
+and r8high, i	Throughput	0.59	0.0
+and r8,r8	Throughput	0.5	0.0
+Throughput with memory source operand: and r32,[m32]	Throughput	0.98	0.0
+Throughput with memory destination operand: test [m64],r64	Throughput	0.99	0.0
+test r64, i	Throughput	0.55	0.0
+Latency with memory destination operand: sub [m16],r16	Latency	4.9	0.0
+Throughput with memory source operand: test r16,[m16]	Throughput	1.07	0.0
+xchg r16,r16	Throughput	1.9	0.0
+Throughput with memory source operand: or r32,[m32]	Throughput	0.98	0.0
+Throughput with memory operand: inc [m32]	Throughput	1.97	0.0
+Throughput with memory destination operand: xor [m64],r64	Throughput	1.64	0.0
+test r16,r16	Throughput	0.5	0.0
+Throughput with memory source operand: sub r8,[m8]	Throughput	0.98	0.0
+cmp r32, i	Throughput	0.5	0.0
+Throughput with memory destination operand: sbb [m32],r32	Throughput	1.92	0.0
+Latency with memory operand: or [m32], i	Latency	5.31	0.0
+add r8, i	Throughput	0.64	0.0
+add r32, i	Throughput	0.64	0.0
+Latency with memory destination operand: xor [m64],r64	Latency	5.31	0.0
+Throughput with memory destination operand: sbb [m16],r16	Throughput	1.91	0.0
+Throughput with memory destination operand: or [m64],r64	Throughput	1.77	0.0
+sub r64,r64	Throughput	0.5	0.0
+Throughput with memory operand: adc [m32], i	Throughput	2.13	0.0
+Throughput with memory destination operand: sub [m64],r64	Throughput	1.63	0.0
+Throughput with memory source operand: and r64,[m64]	Throughput	0.98	0.0
+sete r8	Throughput	0.98	0.0
+or r32, i	Throughput	0.59	0.0
+Latency with memory destination operand: mov [m16],r16	Latency	2.12	0.99
+Throughput with memory operand: not [m32]	Throughput	1.96	0.0
+sbb r32, i	Throughput	0.98	0.0
+Throughput with memory source operand: or r16,[m16]	Throughput	0.98	0.0
+Throughput with memory destination operand: xchg [m8],r8	Throughput	18.04	0.0
+Throughput with memory destination operand: add [m64],r64	Throughput	1.77	0.0
+sub r16,r16	Throughput	0.54	0.0
+Latency with memory destination operand: xor [m32],r32	Latency	5.3	0.0
+Throughput with memory destination operand: sbb [m64],r64	Throughput	1.77	0.0
+not r8	Throughput	0.64	0.0
+inc r32	Throughput	0.59	0.0
+std	Latency	3.18	0.0
+Latency with memory destination operand: adc [m64],r64	Latency	4.9	0.0
+bsr r64,r64	Throughput	2.13	0.0
+test r16, i	Throughput	1.29	0.0
+sub r16, i	Throughput	0.59	0.0
+mfence	Latency	15.85	0.0
+stc	Latency	3.03	0.0
+or r16, i	Throughput	0.64	0.0
+sbb r64,r64	Throughput	0.98	0.0
+Throughput with memory source operand: test r32,[m32]	Throughput	1.09	0.01
+cmove r32,r32	Throughput	0.5	0.0
+test r8high, i	Throughput	0.5	0.0
+Throughput with memory source operand: xchg r8,[m8]	Throughput	16.64	0.0
+adc r64,r64	Throughput	0.98	0.0
+Latency with memory operand: xor [m32], i	Latency	5.31	0.0
+Throughput with memory destination operand: and [m32],r32	Throughput	1.92	0.0
+Throughput with memory source operand: mov r16,[m16]	Throughput	1.07	0.0
+Throughput with memory destination operand: mov [m8],r8	Throughput	1.66	0.0
+Throughput with memory destination operand: add [m16],r16	Throughput	1.91	0.0
+Throughput with memory destination operand: sub [m16],r16	Throughput	1.77	0.0
+Throughput with memory source operand: sbb r32,[m32]	Throughput	0.98	0.0
+Throughput with memory destination operand: xchg [m64],r64	Throughput	16.65	0.0
+Throughput with memory destination operand: adc [m8],r8	Throughput	2.12	0.0
+xor r32,r32	Throughput	0.54	0.0
+mov r8high, i	Throughput	0.64	0.0
+Throughput with memory source operand: sbb r16,[m16]	Throughput	0.98	0.0
+sbb r8,r8	Throughput	1.06	0.0
+Throughput with memory operand: and [m32], i	Throughput	1.97	0.0
+Throughput with memory destination operand: add [m8],r8	Throughput	1.96	0.0
+imul r32,r32	Throughput	1.12	0.0
+sub r8,r8	Throughput	0.55	0.0
+mov r16, i	Throughput	1.34	0.0
+Throughput with ABS32 address mode: mov r32, [m32]	Throughput	1.3	0.0
+bsf r16,r16	Throughput	2.36	0.49
+sete r8h	Throughput	1.06	0.0
+Latency with memory destination operand: test [m16],r16	Latency	0.98	0.0
+Throughput with memory destination operand: xor [m8],r8	Throughput	1.96	0.0
+Latency with memory destination operand: mov [m32],r32	Latency	1.74	0.01
+cbw	Latency	1.06	0.0
+Throughput with memory source operand: cmp r32,[m32]	Throughput	1.09	0.0
+Throughput with ABS32 address mode: mov [m32], r32	Throughput	1.72	0.04
+mov r64, i	Throughput	0.59	0.0
+prefetcht0 [m]	Throughput	1.3	0.0
+Throughput with memory destination operand: test [m16],r16	Throughput	1.07	0.0
+Throughput with memory source operand: mov r8,[m8]	Throughput	1.07	0.0
+Throughput with memory destination operand: test [m8],r8	Throughput	1.06	0.0
+or r64,r64	Throughput	0.54	0.0
+cmp r16, i	Throughput	0.5	0.0
+cdqe	Latency	0.98	0.0
+and r32,r32	Throughput	0.5	0.0
+Throughput with memory destination operand: and [m16],r16	Throughput	1.77	0.0
+or r16,r16	Throughput	0.54	0.0
+Latency with memory destination operand: adc [m32],r32	Latency	5.46	1.64
+Latency with memory operand: and [m32], i	Latency	4.9	0.0
+Throughput with memory destination operand: cmp [m8],r8	Throughput	1.07	0.0
+and r8, i	Throughput	0.59	0.0
+Latency with memory destination operand: mov [m64],r64	Latency	1.65	0.0
+Throughput with INDIR address mode: mov r32, [m32]	Throughput	1.41	0.0
+mov r32, i	Throughput	0.59	0.0
+cmp r16,r16	Throughput	0.54	0.0
+inc r8	Throughput	0.59	0.0
+xor r32, i	Throughput	0.59	0.0
+Throughput with memory source operand: cmove	Throughput	0.98	0.0
+sbb r8high, i	Throughput	0.98	0.0
+Throughput with memory destination operand: sbb [m8],r8	Throughput	2.12	0.0
+bsf r32,r32	Throughput	1.96	0.0
+inc r16	Throughput	0.59	0.0
+adc r64, i	Throughput	0.98	0.0
+bswap r64	Throughput	1.07	0.0
+Latency with memory destination operand: sub [m64],r64	Latency	4.9	0.0
+not r32	Throughput	0.59	0.0
+xchg r8,r8	Throughput	2.6	0.0
+sete, [m8]	Throughput	1.69	0.0
+Throughput with memory operand: dec [m32]	Throughput	1.96	0.0
+cmove r64,r64	Throughput	0.51	0.0
+Throughput with ABS64 address mode: mov [m32], r32	Throughput	1.65	0.0
+Latency with memory destination operand: sub [m8],r8	Latency	4.9	0.0
+Latency with memory operand: inc [m32]	Latency	4.9	0.0
+Throughput with memory destination operand: sub [m8],r8	Throughput	2.13	0.0
+xor eax,eax / cbw	Throughput	0.5	0.0
+Throughput with memory source operand: mov r64,[m64]	Throughput	1.3	0.0
+or r32,r32	Throughput	0.54	0.0
+Latency with memory destination operand: and [m32],r32	Latency	5.3	0.0
+cwde	Latency	0.98	0.0
+sbb r16,r16	Throughput	1.07	0.0
+Throughput with memory source operand: adc r64,[m64]	Throughput	1.07	0.0
+Latency with memory destination operand: sbb [m8],r8	Latency	5.61	0.82
+bsf r64,r64	Throughput	1.96	0.0
+Latency with memory destination operand: xor [m8],r8	Latency	5.01	0.11
+Throughput with memory source operand: cmp r8,[m8]	Throughput	0.98	0.0
+neg r16	Throughput	0.99	0.0
+Latency with memory destination operand: or [m64],r64	Latency	5.31	0.0
+sbb r64, i	Throughput	0.98	0.0
+test r32, i	Throughput	0.5	0.0
+Latency with memory operand: dec [m32]	Latency	4.9	0.0
+Throughput with memory destination operand: cmp [m64],r64	Throughput	0.98	0.0
+Latency with memory destination operand: and [m16],r16	Latency	5.31	0.0
+Latency with memory destination operand: sub [m32],r32	Latency	4.9	0.0
+Throughput with memory destination operand: or [m8],r8	Throughput	1.96	0.0
+and r64,r64	Throughput	0.54	0.0
+add r8high, i	Throughput	0.64	0.0
+Throughput with memory destination operand: adc [m16],r16	Throughput	1.91	0.0
+Throughput with memory destination operand: mov [m32],r32	Throughput	1.79	0.0
+prefetcht1 [m]	Throughput	1.3	0.0
+sub r32,r32	Throughput	0.5	0.0
+Throughput with memory source operand: bsr	Throughput	1.96	0.0
+Throughput with memory source operand: xor r32,[m32]	Throughput	0.98	0.0
+Throughput with memory source operand: pmovzxwd r128,[m128]	Throughput	0.99	0.0
+punpcklqdq r128,r128	Throughput	0.98	0.0
+pshufw r64,r64,i	Throughput	0.98	0.0
+Throughput with memory source operand: palignr r64,[m64],i	Throughput	1.07	0.0
+psrad r128,i	Throughput	1.07	0.0
+Throughput with memory source operand: punpckldq r64,[m64]	Throughput	0.99	0.0
+punpckldq r64,r64	Throughput	0.98	0.0
+Throughput with memory source operand: packuswb r64,[m64]	Throughput	0.98	0.0
+paddd r64,r64	Throughput	1.06	0.0
+Throughput with memory source operand: pmovsxbw r128,[m128]	Throughput	0.99	0.0
+Throughput with memory source operand: pavgb r64,[m64]	Throughput	1.2	0.1
+Throughput with memory source operand: pmaddwd r128,[m128]	Throughput	1.96	0.0
+Throughput with memory source operand: packssdw r128,[m128]	Throughput	0.99	0.0
+pcmpgtd r64,r64	Throughput	0.98	0.0
+paddusb r128,r128	Throughput	0.98	0.0
+packssdw r64,r64	Throughput	1.16	0.0
+psllq r64,r64	Throughput	1.06	0.0
+Throughput with memory source operand: pmullw r128,[m128]	Throughput	1.23	0.0
+Throughput with memory source operand: pand r64,[m64]	Throughput	0.98	0.0
+pcmpgtw r64,r64	Throughput	1.06	0.0
+psllw r64,i	Throughput	1.06	0.0
+Throughput with memory source operand: psllw r64,[m64]	Throughput	0.98	0.0
+Throughput with memory source operand: pmulhuw r128,[m128]	Throughput	1.23	0.0
+Throughput with memory source operand: pcmpgtd r64,[m64]	Throughput	0.98	0.0
+pminub r64,r64	Throughput	1.06	0.0
+Throughput with memory source operand: pmovsxdq r128,[m128]	Throughput	1.07	0.0
+pmaxsw r128,r128	Throughput	0.98	0.0
+Throughput with memory source operand: pshuflw  r128,[m128]	Throughput	1.07	0.0
+pandn r64,r64	Throughput	0.98	0.0
+Throughput with memory source operand: phsubd r128,[m128]	Throughput	4.9	0.0
+pmaddwd r64,r64	Throughput	1.96	0.0
+pmaddubsw r64,r64	Throughput	7.83	0.0
+mpsadbw r128,r128	Throughput	0.99	0.0
+Throughput with memory source operand: punpckhwd r128,[m128]	Throughput	0.99	0.0
+Throughput with memory source operand: psraw r128,[m128]	Throughput	1.07	0.0
+pavgw r128,r128	Throughput	1.06	0.0
+pblendw r128,r128	Throughput	0.98	0.0
+pshufb r64,r64	Throughput	0.98	0.0
+Throughput with memory source operand: mpsadbw  r128,[m128]	Throughput	0.99	0.0
+Throughput with memory source operand: psllq r64,[m64]	Throughput	0.99	0.0
+Throughput with memory source operand: pshufhw  r128,[m128]	Throughput	1.21	0.1
+Throughput with memory source operand: pmuldq r128,[m128]	Throughput	1.23	0.0
+pcmpeqw r64,r64	Throughput	1.06	0.0
+Throughput with memory source operand: pandn r128,[m128]	Throughput	1.07	0.0
+pminub r128,r128	Throughput	1.41	1.06
+Throughput with memory source operand: pmaxuw r128,[m128]	Throughput	1.07	0.0
+Throughput with memory source operand: pmuludq r128,[m128]	Throughput	1.23	0.0
+Throughput with memory source operand: movdqa r128,[m128]	Throughput	1.41	0.0
+pabsb r64,r64	Throughput	0.98	0.0
+psignw r64,r64	Throughput	0.98	0.0
+movdqa r128,r128	Throughput	1.07	0.0
+phaddsw r128,r128	Throughput	3.18	0.0
+pmullw r128,r128	Throughput	0.98	0.0
+psadbw r64,r64	Throughput	1.07	0.0
+Throughput with memory source operand: psignw r64,[m64]	Throughput	0.99	0.0
+Throughput with memory source operand: paddw r128,[m128]	Throughput	1.07	0.0
+punpckhdq r64,r64	Throughput	0.98	0.0
+Throughput with memory source operand: pminsb r128,[m128]	Throughput	0.99	0.0
+Throughput with memory source operand: pminub r64,[m64]	Throughput	0.98	0.0
+pmuludq r128,r128	Throughput	1.06	0.0
+psllq r128,r128	Throughput	0.98	0.0
+Throughput with memory source operand: palignr  r128,[m128]	Throughput	0.99	0.0
+pmaxud r128,r128	Throughput	1.07	0.0
+pmuldq r128,r128	Throughput	0.98	0.0
+Throughput with memory source operand: paddusb r64,[m64]	Throughput	0.98	0.0
+Throughput with memory source operand: punpcklqdq r128,[m128]	Throughput	1.55	1.15
+psrad r64,i	Throughput	1.06	0.0
+pavgw r64,r64	Throughput	1.06	0.0
+Throughput with memory source operand: paddd r64,[m64]	Throughput	0.98	0.0
+Throughput with memory source operand: pcmpeqb r128,[m128]	Throughput	1.07	0.0
+Throughput with memory source operand: pmaddubsw r64,[m64]	Throughput	8.81	0.0
+pmuludq r64,r64	Throughput	0.99	0.0
+punpckhwd r64,r64	Throughput	0.98	0.0
+pcmpeqd r128,r128	Throughput	1.06	0.0
+Throughput with memory source operand: pshufb r128,[m128]	Throughput	1.07	0.0
+pmovzxwd r128,r128	Throughput	0.98	0.0
+pmaxsw r64,r64	Throughput	0.98	0.0
+psrlq r64,r64	Throughput	1.06	0.0
+Throughput with memory source operand: psllq r128,[m128]	Throughput	0.99	0.0
+Throughput with memory source operand: punpckhdq r64,[m64]	Throughput	0.98	0.0
+pabsb r128,r128	Throughput	0.98	0.0
+Throughput with memory source operand: psllw r128,[m128]	Throughput	0.99	0.0
+Throughput with memory source operand: paddq r64,[m64]	Throughput	0.98	0.0
+Throughput with memory source operand: pblendw  r128,[m128]	Throughput	0.99	0.0
+pmaddubsw r128,r128	Throughput	8.62	0.15
+Throughput with memory source operand: pcmpeqw r128,[m128]	Throughput	0.99	0.0
+Throughput with memory source operand: pmaddubsw r128,[m128]	Throughput	9.54	0.0
+Throughput with memory source operand: punpckhdq r128,[m128]	Throughput	0.99	0.0
+paddw r64,r64	Throughput	1.06	0.0
+Throughput with memory source operand: pcmpgtd r128,[m128]	Throughput	0.99	0.0
+Throughput with memory source operand: pabsb r128,[m128]	Throughput	0.99	0.0
+Throughput with memory source operand: psignw r128,[m128]	Throughput	0.99	0.0
+psrlq r128,i	Throughput	1.07	0.0
+psadbw r128,r128	Throughput	0.98	0.0
+Throughput with memory source operand: paddq r128,[m128]	Throughput	0.99	0.0
+packssdw r128,r128	Throughput	1.07	0.0
+Throughput with memory source operand: pcmpeqq r128,[m128]	Throughput	1.07	0.0
+punpckhwd r128,r128	Throughput	0.98	0.0
+psraw r64,r64	Throughput	0.98	0.0
+Throughput with memory source operand: pcmpeqb r64,[m64]	Throughput	0.98	0.0
+Throughput with memory source operand: pmaxsw r128,[m128]	Throughput	0.99	0.0
+pmullw r64,r64	Throughput	1.06	0.0
+paddw r128,r128	Throughput	0.98	0.0
+Throughput with memory source operand: pandn r64,[m64]	Throughput	0.98	0.0
+Throughput with memory source operand: punpckhqdq r128,[m128]	Throughput	0.99	0.0
+pand r64,r64	Throughput	0.98	0.0
+pshufb r128,r128	Throughput	0.99	0.0
+Throughput with memory source operand: paddd r128,[m128]	Throughput	0.99	0.0
+Throughput with memory source operand: pcmpgtw r64,[m64]	Throughput	0.99	0.0
+Throughput with memory source operand: pabsd r64,[m64]	Throughput	0.99	0.0
+paddq r64,r64	Throughput	0.98	0.0
+pmaxuw r128,r128	Throughput	0.98	0.0
+palignr r64,r64,i	Throughput	1.07	0.0
+punpckhdq r128,r128	Throughput	0.98	0.0
+Throughput with memory source operand: pmaddwd r64,[m64]	Throughput	1.97	0.0
+Throughput with memory source operand: movq r64,[m64]	Throughput	1.3	0.0
+Throughput with memory source operand: pavgw r64,[m64]	Throughput	1.07	0.0
+packuswb r128,r128	Throughput	0.98	0.0
+pavgb r64,r64	Throughput	1.06	0.0
+Throughput with memory source operand: pmullw r64,[m64]	Throughput	1.23	0.0
+psraw r64,i	Throughput	0.98	0.0
+Throughput with memory source operand: phaddw r64,[m64]	Throughput	4.9	0.0
+pshufhw r128,r128	Throughput	1.07	0.0
+Throughput with memory source operand: pmovzxbd r128,[m128]	Throughput	0.99	0.0
+pslldq r128,i	Throughput	1.07	0.0
+Throughput with memory source operand: movq r128,[m128]	Throughput	1.3	0.0
+movdqu r128,r128	Throughput	1.06	0.0
+pslld r64,r64	Throughput	1.06	0.0
+Throughput with memory source operand: psrlq r128,[m128]	Throughput	1.07	0.0
+Throughput with memory source operand: pmulhrsw r128,[m128]	Throughput	1.23	0.0
+Throughput with memory source operand: phminposuw r128,[m128]	Throughput	1.18	0.16
+pmovzxbd r128,r128	Throughput	0.98	0.0
+pmulld r128,r128	Throughput	0.98	0.0
+pcmpeqq r128,r128	Throughput	0.98	0.0
+Throughput with memory source operand: pcmpeqd r64,[m64]	Throughput	1.07	0.0
+Throughput with memory source operand: pslld r64,[m64]	Throughput	0.98	0.0
+psllw r128,r128	Throughput	0.98	0.0
+phsubd r64,r64	Throughput	3.18	0.0
+Throughput with memory source operand: paddusb r128,[m128]	Throughput	0.99	0.0
+Throughput with memory source operand: packssdw r64,[m64]	Throughput	0.98	0.0
+Throughput with memory source operand: packusdw r128,[m128]	Throughput	0.99	0.0
+Throughput with memory source operand: punpckhbw r128,[m128]	Throughput	0.98	0.0
+packuswb r64,r64	Throughput	1.02	0.0
+phaddw r128,r128	Throughput	3.18	0.0
+psllw r64,r64	Throughput	0.98	0.0
+punpckhbw r128,r128	Throughput	0.98	0.0
+phsubd r128,r128	Throughput	3.18	0.0
+psllw r128,i	Throughput	1.07	0.0
+punpckhbw r64,r64	Throughput	0.98	0.0
+Throughput with memory source operand: pshufb r64,[m64]	Throughput	1.07	0.0
+Throughput with memory source operand: pcmpeqw r64,[m64]	Throughput	0.98	0.0
+pshufd r128,r128	Throughput	0.98	0.0
+Throughput with memory source operand: pmulhrsw r64,[m64]	Throughput	1.23	0.0
+psraw r128,i	Throughput	0.98	0.0
+Throughput with memory source operand: punpckhbw r64,[m64]	Throughput	0.99	0.0
+psraw r128,r128	Throughput	1.06	0.0
+paddq r128,r128	Throughput	0.99	0.0
+Throughput with memory source operand: paddw r64,[m64]	Throughput	0.98	0.0
+Throughput with memory source operand: ptest r128,[m128]	Throughput	1.07	0.0
+phaddw r64,r64	Throughput	2.94	0.0
+Throughput with memory source operand: pcmpgtw r128,[m128]	Throughput	0.98	0.0
+Throughput with memory source operand: pabsd r128,[m128]	Throughput	0.99	0.0
+Throughput with memory source operand: pmovsxbq r128,[m128]	Throughput	0.98	0.0
+psignw r128,r128	Throughput	0.98	0.0
+Throughput with memory source operand: phaddsw r128,[m128]	Throughput	4.9	0.0
+Throughput with memory source operand: psraw r64,[m64]	Throughput	0.98	0.0
+Throughput with memory source operand: pmuludq r64,[m64]	Throughput	1.33	0.0
+Throughput with memory source operand: pabsb r64,[m64]	Throughput	0.98	0.0
+Throughput with memory source operand: pshufw r64,[m64],i	Throughput	1.07	0.0
+paddusb r64,r64	Throughput	0.98	0.0
+pshuflw r128,r128	Throughput	0.98	0.0
+Throughput with memory source operand: pand r128,[m128]	Throughput	1.06	0.0
+Throughput with memory source operand: psrlq r64,[m64]	Throughput	1.07	0.0
+phaddsw r64,r64	Throughput	2.94	0.0
+pabsd r64,r64	Throughput	0.98	0.0
+ptest r128,r128	Throughput	0.98	0.0
+Throughput with memory source operand: phaddw r128,[m128]	Throughput	4.9	0.0
+Throughput with memory source operand: pmaxsw r64,[m64]	Throughput	0.98	0.0
+pcmpgtd r128,r128	Throughput	1.07	0.0
+Throughput with memory source operand: packsswb r128,[m128]	Throughput	0.99	0.0
+pminsb r128,r128	Throughput	0.98	0.0
+pmovsxbq r128,r128	Throughput	0.98	0.0
+Throughput with memory source operand: packuswb r128,[m128]	Throughput	0.98	0.0
+Throughput with memory source operand: pshufd  r128,[m128]	Throughput	0.99	0.0
+paddd r128,r128	Throughput	0.98	0.0
+movq r64,r64	Throughput	1.06	0.0
+psrlq r64,i	Throughput	1.07	0.0
+punpckhqdq r128,r128	Throughput	0.98	0.0
+Throughput with memory source operand: pavgb r128,[m128]	Throughput	1.07	0.0
+Throughput with memory source operand: pmulhuw r64,[m64]	Throughput	1.23	0.0
+pcmpeqd r64,r64	Throughput	1.06	0.0
+Throughput with memory source operand: pcmpeqd r128,[m128]	Throughput	0.99	0.0
+Throughput with memory source operand: pmulld r128,[m128]	Throughput	1.23	0.0
+Throughput with memory source operand: phsubd r64,[m64]	Throughput	4.9	0.0
+pcmpgtw r128,r128	Throughput	1.06	0.0
+palignr r128,r128	Throughput	1.07	0.0
+packsswb r128,r128	Throughput	0.98	0.0
+pcmpeqb r64,r64	Throughput	1.06	0.0
+punpckldq r128,r128	Throughput	0.98	0.0
+phminposuw r128,r128	Throughput	1.07	0.0
+Throughput with memory source operand: psadbw r128,[m128]	Throughput	0.99	0.0
+Throughput with memory source operand: punpckhwd r64,[m64]	Throughput	0.98	0.0
+packsswb r64,r64	Throughput	0.98	0.0
+pavgb r128,r128	Throughput	1.06	0.0
+psrlq r128,r128	Throughput	1.06	0.0
+pmovsxdq r128,r128	Throughput	0.98	0.0
+pandn r128,r128	Throughput	0.98	0.0
+pslld r128,r128	Throughput	0.98	0.0
+packusdw r128,r128	Throughput	0.99	0.0
+pcmpeqb r128,r128	Throughput	1.06	0.0
+Throughput with memory source operand: phaddsw r64,[m64]	Throughput	4.9	0.0
+Throughput with memory source operand: pavgw r128,[m128]	Throughput	0.99	0.0
+Throughput with memory source operand: pslld r128,[m128]	Throughput	1.41	0.95
+Throughput with memory source operand: movdqu r128,[m128]	Throughput	1.31	0.0
+psrldq r128,i	Throughput	1.07	0.0
+Throughput with memory source operand: punpckldq r128,[m128]	Throughput	0.98	0.0
+pmulhuw r128,r128	Throughput	0.98	0.0
+pmulhrsw r64,r64	Throughput	0.99	0.0
+movq r128,r128	Throughput	0.98	0.0
+pcmpeqw r128,r128	Throughput	0.98	0.0
+pand r128,r128	Throughput	0.98	0.0
+pmaddwd r128,r128	Throughput	2.32	0.0
+pabsd r128,r128	Throughput	1.07	0.0
+Throughput with memory source operand: pmaxud r128,[m128]	Throughput	1.07	0.0
+pmulhuw r64,r64	Throughput	0.98	0.0
+Throughput with memory source operand: psadbw r64,[m64]	Throughput	0.98	0.0
+Throughput with memory source operand: packsswb r64,[m64]	Throughput	0.99	0.0
+pmulhrsw r128,r128	Throughput	1.07	0.0
+Throughput with memory source operand: pminub r128,[m128]	Throughput	0.98	0.0
+pmovsxbw r128,r128	Throughput	1.07	0.0
+jmp (5 per 16 bytes), 64 bit	Latency	7.91	0.01
+jmp (2 per 16 bytes), 64 bit	Latency	3.13	0.05
+jmp (3 per 16 bytes), 64 bit	Latency	4.89	0.0
+jmp (8 per 16 bytes), 64 bit	Latency	2.44	8.13
+jmp (6 per 16 bytes), 64 bit	Latency	7.91	0.0
+jmp (4 per 16 bytes), 64 bit	Latency	6.12	0.0
+jmp (1 per 16 bytes), 64 bit	Latency	2.97	0.0
+Case 5: lea with address size prefix	Latency	1.03	0.0
+Case 2: add register,constant	Latency	0.87	0.06
+Case 3: test register,constant	Latency	0.86	0.06
+Case 4: neg or not register (bogus length-changing prefix)	Latency	0.76	0.03
+Case 1: mov register,constant	Latency	1.05	0.08
+Number of NOPs = 25, noptype = 2, nopsize = 12, total size = 305	Latency	1.69	0.0
+Number of NOPs = 1500, noptype = 2, nopsize = 12, total size = 18005	Latency	0.76	0.0
+Number of NOPs = 31, noptype = 2, nopsize = 12, total size = 377	Latency	0.85	0.0
+Number of NOPs = 4000, noptype = 2, nopsize = 12, total size = 48005	Latency	0.76	0.0
+Number of NOPs = 33, noptype = 3, nopsize = 12, total size = 401	Latency	0.8	0.0
+Number of NOPs = 2, noptype = 2, nopsize = 12, total size = 29	Latency	5.74	0.0
+Number of NOPs = 40, noptype = 3, nopsize = 12, total size = 485	Latency	0.79	0.0
+Number of NOPs = 30, noptype = 3, nopsize = 12, total size = 365	Latency	0.81	0.0
+Number of NOPs = 100, noptype = 2, nopsize = 12, total size = 1205	Latency	0.0	0.0
+Number of NOPs = 30, noptype = 2, nopsize = 12, total size = 365	Latency	1.44	0.0
+Number of NOPs = 4000, noptype = 3, nopsize = 12, total size = 48005	Latency	0.76	0.0
+Number of NOPs = 1500, noptype = 3, nopsize = 12, total size = 18005	Latency	0.76	0.0
+Number of NOPs = 1000, noptype = 2, nopsize = 12, total size = 12005	Latency	0.0	0.0
+Number of NOPs = 100, noptype = 3, nopsize = 12, total size = 1205	Latency	0.9	0.0
+Number of NOPs = 32, noptype = 3, nopsize = 12, total size = 389	Latency	0.8	0.0
+Number of NOPs = 50, noptype = 3, nopsize = 12, total size = 605	Latency	0.86	0.0
+Number of NOPs = 10, noptype = 2, nopsize = 12, total size = 125	Latency	2.5	0.0
+Number of NOPs = 5, noptype = 3, nopsize = 12, total size = 65	Latency	1.0	0.0
+Number of NOPs = 5, noptype = 2, nopsize = 12, total size = 65	Latency	3.86	0.0
+Number of NOPs = 100000, noptype = 2, nopsize = 12, total size = 1200005	Latency	0.0	0.0
+Number of NOPs = 31, noptype = 3, nopsize = 12, total size = 377	Latency	1.48	0.0
+Number of NOPs = 20000, noptype = 2, nopsize = 12, total size = 240005	Latency	6.84	0.0
+Number of NOPs = 50, noptype = 2, nopsize = 12, total size = 605	Latency	1.17	0.0
+Number of NOPs = 40, noptype = 2, nopsize = 12, total size = 485	Latency	0.79	0.0
+Number of NOPs = 10000, noptype = 3, nopsize = 12, total size = 120005	Latency	6.84	0.0
+Number of NOPs = 2, noptype = 3, nopsize = 12, total size = 29	Latency	5.74	0.0
+Number of NOPs = 25, noptype = 3, nopsize = 12, total size = 305	Latency	0.82	0.0
+Number of NOPs = 32, noptype = 2, nopsize = 12, total size = 389	Latency	0.8	0.0
+Number of NOPs = 20, noptype = 3, nopsize = 12, total size = 245	Latency	0.82	0.0
+Number of NOPs = 10, noptype = 3, nopsize = 12, total size = 125	Latency	2.42	0.0
+Number of NOPs = 20, noptype = 2, nopsize = 12, total size = 245	Latency	0.82	0.0
+Number of NOPs = 10000, noptype = 2, nopsize = 12, total size = 120005	Latency	0.0	0.0
+Number of NOPs = 1000, noptype = 3, nopsize = 12, total size = 12005	Latency	0.8	0.0
+Number of NOPs = 20000, noptype = 3, nopsize = 12, total size = 240005	Latency	6.84	0.0
+Number of NOPs = 33, noptype = 2, nopsize = 12, total size = 401	Latency	1.49	0.0
+Number of instructions = 32, total size = 296	Latency	0.71	0.0
+Number of instructions = 1000, nopsize = 8, total size = 8008	Latency	0.0	0.0
+Number of instructions = 1000, total size = 9988	Latency	1.43	0.0
+Number of instructions = 32, nopsize = 4, total size = 136	Latency	0.54	0.0
+Number of instructions = 50, nopsize = 1, total size = 54	Latency	0.41	0.0
+Number of instructions = 10, total size = 72	Latency	0.93	0.0
+Number of instructions = 20, nopsize = 1, total size = 24	Latency	0.4	0.0
+Number of instructions = 1000, total size = 9976	Latency	0.63	0.0
+Number of instructions = 32, nopsize = 8, total size = 264	Latency	0.0	0.0
+Number of instructions = 1000, total size = 2004	Latency	0.38	0.0
+Number of instructions = 40, nopsize = 8, total size = 328	Latency	0.0	0.0
+Number of instructions = 56, nopsize = 8, total size = 456	Latency	0.0	0.0
+Number of instructions = 10000, total size = 99988	Latency	5.7	0.0
+Number of instructions = 6, total size = 44	Latency	4.65	0.0
+Number of instructions = 4, nopsize = 1, total size = 8	Latency	0.75	0.0
+Number of instructions = 40, nopsize = 1, total size = 44	Latency	0.38	0.0
+Number of instructions = 100, total size = 976	Latency	0.72	0.0
+Number of instructions = 16, nopsize = 8, total size = 136	Latency	0.0	0.0
+Number of instructions = 33, nopsize = 1, total size = 37	Latency	0.39	0.0
+Number of instructions = 6, nopsize = 1, total size = 10	Latency	4.15	0.0
+Number of instructions = 100, nopsize = 1, total size = 104	Latency	0.38	0.0
+Number of instructions = 12, nopsize = 8, total size = 100	Latency	0.67	0.0
+Number of instructions = 32, total size = 64	Latency	0.42	0.01
+Number of instructions = 100, total size = 498	Latency	0.54	0.0
+Number of instructions = 48, nopsize = 8, total size = 392	Latency	0.0	0.0
+Number of instructions = 100, nopsize = 4, total size = 408	Latency	0.5	0.0
+Number of instructions = 10000, nopsize = 8, total size = 80008	Latency	0.0	0.0
+Number of instructions = 1000, nopsize = 1, total size = 1008	Latency	0.41	0.0
+Number of instructions = 100, total size = 204	Latency	0.41	0.0
+Number of instructions = 4, total size = 8	Latency	0.82	0.0
+Number of instructions = 10, nopsize = 4, total size = 44	Latency	0.55	0.0
+Number of instructions = 3, total size = 6	Latency	1.01	0.0
+Number of instructions = 6, total size = 24	Latency	0.73	0.0
+Number of instructions = 10000, nopsize = 1, total size = 10008	Latency	0.38	0.0
+Number of instructions = 100, nopsize = 8, total size = 808	Latency	0.0	0.0
+Number of instructions = 6, total size = 12	Latency	0.74	0.0
+Number of instructions = 4000, nopsize = 1, total size = 4008	Latency	0.38	0.0
+Number of instructions = 10, total size = 84	Latency	1.2	0.0
+Number of instructions = 2000, nopsize = 1, total size = 2008	Latency	0.4	0.0
+Number of instructions = 1000, total size = 4998	Latency	0.54	0.0
+Number of instructions = 10, nopsize = 1, total size = 14	Latency	0.44	0.0
+Number of instructions = 6, total size = 32	Latency	1.0	0.0
+Number of instructions = 20000, nopsize = 1, total size = 20008	Latency	0.38	0.0
+Number of instructions = 4, nopsize = 8, total size = 36	Latency	0.0	0.0
+Number of instructions = 36, nopsize = 8, total size = 296	Latency	0.0	0.0
+Number of instructions = 100, total size = 988	Latency	1.53	0.0
+Number of instructions = 31, nopsize = 1, total size = 35	Latency	1.13	0.0
+Number of instructions = 25, nopsize = 1, total size = 29	Latency	1.2	0.0
+Number of instructions = 64, nopsize = 8, total size = 520	Latency	0.0	0.0
+Number of instructions = 32, total size = 308	Latency	1.38	0.0
+Number of instructions = 32, nopsize = 1, total size = 36	Latency	0.38	0.0
+Number of instructions = 32, total size = 158	Latency	0.54	0.0
+Number of instructions = 1000, nopsize = 4, total size = 4008	Latency	0.5	0.0
+Number of instructions = 2, nopsize = 1, total size = 6	Latency	1.51	0.0
+Number of instructions = 10, total size = 44	Latency	0.5	0.0
+Number of instructions = 10, total size = 20	Latency	0.57	0.0
+Number of instructions = 8, nopsize = 8, total size = 68	Latency	0.0	0.0
+lock cmpxchg [m8], r8	Latency	27.44	0.0
+movzx r64,[m16]	Throughput	1.32	0.0
+loop, taken=alternate, 2 per 16 bytes, 64 bit mode	Latency	1.05	0.17
+movzx r16,[m8] / mov [m8],r8	Latency	2.48	0.0
+xadd [m16], r16	Latency	5.31	0.0
+movzx r32,[m8]	Throughput	1.43	0.0
+movsx r64,r16	Latency	1.07	0.0
+movzx r16,[m8]	Throughput	1.19	0.0
+movzx r16,r8	Latency	1.0	0.0
+lock cmpxchg16b [m]	Latency	72.75	0.23
+jmp (2 per 16 bytes), 64 bit	Latency	3.16	0.08
+Throughput prefetcht0 [m]	Throughput	1.41	0.0
+xadd [m32], r32	Latency	5.32	0.0
+movsxd r64,[m32]	Throughput	1.11	0.0
+jmp (8 per 16 bytes), 64 bit	Latency	8.3	0.12
+movsx r16,[m8] / mov [m8],r8	Latency	2.48	0.0
+add [m]	Latency	4.9	0.0
+movsx r32,r16	Latency	0.99	0.0
+xadd [m64], r64	Latency	4.9	0.0
+movsx r32,[m16] / mov [m16],r16	Latency	2.69	0.0
+lock cmpxchg [m32], r32	Latency	31.97	0.12
+Throughput prefetcht1 [m]	Throughput	1.41	0.0
+movzx r32,r8	Latency	0.99	0.0
+lock xadd [m32], r32	Latency	26.01	2.49
+jmp (5 per 16 bytes), 64 bit	Latency	7.9	0.0
+movzx r32,[m8] / mov [m8],r8	Latency	1.98	0.0
+jmp memory + lea + mov, 64 bit	Latency	1.92	4.77
+jmp (3 per 16 bytes), 64 bit	Latency	4.88	0.0
+movsx r16,r8	Latency	0.99	0.0
+jmp (1 per 16 bytes), 64 bit	Latency	3.03	0.01
+cmpxchg [m32], r32	Latency	11.68	0.0
+movsx r16,[m8]	Throughput	1.19	0.0
+lock add [m]	Latency	24.72	2.54
+movsxd r64,[m32] / mov [m32],r32	Latency	3.61	7.75
+cmpxchg16b [m]	Latency	64.88	0.14
+movsx r32,[m8] / mov [m8],r8	Latency	2.64	0.01
+movzx r64,[m16] / mov [m16],r16	Latency	1.99	0.0
+movzx r64,r8	Latency	0.99	0.0
+lock xadd [m8], r8	Latency	25.48	0.0
+movsx r64,[m16] / mov [m16],r16	Latency	2.69	0.0
+loope, alternate, 2 per 16 bytes, 64 bit mode	Latency	5.78	26.8
+movzx r32,[m16] / mov [m16],r16	Latency	2.15	0.0
+cmpxchg [m16], r16	Latency	8.82	0.0
+movzx r64,r16	Latency	0.99	0.0
+cmpxchg8b [m]	Latency	12.74	0.0
+movsx r32,r8	Latency	1.07	0.0
+movsxd r64,r32	Latency	1.0	0.0
+Throughput prefetchnta [m]	Throughput	1.3	0.0
+Throughput prefetcht2 [m]	Throughput	1.3	0.0
+movsx r64,[m8]	Throughput	1.28	0.0
+lock xadd [m64], r64	Latency	23.52	0.0
+xadd [m8], r8	Latency	5.31	0.0
+lock cmpxchg8b [m]	Latency	34.07	0.0
+jmp (4 per 16 bytes), 64 bit	Latency	6.13	0.0
+movzx r32,r16	Latency	1.07	0.0
+movzx r64,[m8] / mov [m8],r8	Latency	2.15	0.0
+lock xadd [m16], r16	Latency	25.6	0.13
+jmp register + lea, 64 bit	Latency	1.5	0.0
+movsx r64,[m16]	Throughput	1.19	0.0
+movsx r64,r8	Latency	0.99	0.0
+loop, taken=10, 2 per 16 bytes, 64 bit mode	Latency	2.41	0.01
+lock cmpxchg [m16], r16	Latency	29.86	0.16
+xlat / xor eax,eax	Throughput	1.4	nan
+loopne, alternate, 2 per 16 bytes, 64 bit mode	Latency	1.88	9.69
+lock cmpxchg [m64], r64	Latency	29.86	0.16
+movzx r32,[m16]	Throughput	1.43	0.0
+movsx r32,[m8]	Throughput	1.29	0.0
+movsx r32,[m16]	Throughput	1.19	0.0
+xlat	Latency	5.89	0.0
+jmp (6 per 16 bytes), 64 bit	Latency	8.56	0.0
+cmpxchg [m8], r8	Latency	8.82	0.0
+movsx r64,[m8] / mov [m8],r8	Latency	2.49	0.0
+cmpxchg [m64], r64	Latency	9.56	0.0
+movzx r64,[m8]	Throughput	1.32	0.0
+maskmovdqu r,r (pattern 0xff) + movq/dqa (x)mm,[mem]	Latency	124.74	0.49
+maskmovq r,r (pattern 0x00)	Throughput	1.93	0.0
+Throughput emms (64 bit mode)	Throughput	0.98	0.0
+blendvps r128,r128,xmm0	Throughput	1.96	0.0
+Throughput unaligned write movups [m],xmm	Throughput	1.83	0.0
+maskmovq r,r (pattern 0x02)	Throughput	1.93	0.0
+maskmovdqu r,r (pattern 0x33) + movq/dqa (x)mm,[mem]	Latency	138.44	0.56
+pblendvb r128,r128,xmm0	Throughput	2.13	0.0
+Latency with memory operand extractps  / movss	Latency	3.96	0.0
+Latency with memory operand insertps  / movss	Latency	3.96	0.0
+maskmovq r,r (pattern 0xff) + movq/dqa (x)mm,[mem]	Latency	133.15	2.79
+Throughput unaligned write movupd [m],xmm	Throughput	1.8	0.0
+maskmovdqu r,r (pattern 0xff)	Throughput	1.93	0.0
+stmxcsr m	Throughput	12.75	0.0
+maskmovdqu r,r (pattern 0x02)	Throughput	1.78	0.0
+maskmovq r,r (pattern 0x55)	Throughput	1.93	0.0
+Throughput extractps xmm,	Throughput	1.17	0.45
+Throughput unaligned write movdqu [m],xmm	Throughput	1.66	0.0
+Latency ptest xmm,xmm / sbb / movd	Latency	2.87	0.0
+Latency unaligned write+read movdqu [m],xmm / movdqu xmm,[m]	Latency	2.04	0.03
+blendps r128,r128,i	Throughput	0.98	0.0
+maskmovq r,r (pattern 0x33) + movq/dqa (x)mm,[mem]	Latency	130.69	16.94
+blendpd r128,r128,i	Throughput	0.99	0.0
+maskmovdqu r,r (pattern 0x55) + movq/dqa (x)mm,[mem]	Latency	139.57	4.18
+Throughput insertps xmm,	Throughput	1.14	0.07
+Latency unaligned write+read movupd [m],xmm / movupd xmm,[m]	Latency	2.15	0.0
+maskmovdqu r,r (pattern 0x00)	Throughput	1.78	0.0
+maskmovdqu r,r (pattern 0x33)	Throughput	1.94	0.0
+maskmovdqu r,r (pattern 0x02) + movq/dqa (x)mm,[mem]	Latency	124.93	0.64
+Throughput unaligned read movups xmm,[m]	Throughput	1.3	0.0
+maskmovq r,r (pattern 0x55) + movq/dqa (x)mm,[mem]	Latency	133.52	0.43
+ldmxcsr + stmccsr	Latency	32.25	0.05
+Throughput emms (32 bit mode)	Throughput	1.06	0.0
+Latency unaligned write+read movups [m],xmm / movups xmm,[m]	Latency	1.98	0.0
+blendps r128,[m128],i	Throughput	1.07	0.0
+maskmovq r,r (pattern 0xff)	Throughput	1.93	0.0
+Throughput unaligned read movdqu xmm,[m]	Throughput	1.3	0.0
+maskmovdqu r,r (pattern 0x55)	Throughput	1.93	0.0
+blendvps r128,[m128],xmm0	Throughput	2.13	0.0
+Throughput ptest xmm,xmm	Throughput	0.99	0.0
+maskmovq r,r (pattern 0x00) + movq/dqa (x)mm,[mem]	Latency	1.67	0.0
+Latency insertps xmm,xmm,i	Latency	1.15	0.0
+blendpd r128,[m128],i	Throughput	0.99	0.0
+maskmovq r,r (pattern 0x33)	Throughput	1.93	0.0
+maskmovdqu r,r (pattern 0x00) + movq/dqa (x)mm,[mem]	Latency	1.67	0.0
+ldmxcsr m	Throughput	30.77	0.0
+maskmovq r,r (pattern 0x02) + movq/dqa (x)mm,[mem]	Latency	133.04	2.28
+pblendvb r128,[m128],xmm0	Throughput	2.13	0.0
+Throughput unaligned read movupd xmm,[m]	Throughput	1.41	0.0
+register mmx, ADD interspearced by 1 MOVes	Latency	0.99	0.0
+register xmm, ADD interspearced by 1 MOVes	Latency	0.99	0.0
+register r8, ADD interspearced by 0 MOVes	Latency	1.06	0.0
+register mmx, ADD interspearced by 3 MOVes	Latency	1.08	0.0
+register xmm, ADD interspearced by 3 MOVes	Latency	1.0	0.0
+register mmx, known to be zero	Latency	0.98	0.0
+register r64, known to be zero	Latency	1.06	0.0
+register r16, ADD interspearced by 1 MOVes	Latency	0.99	0.0
+register r64, ADD interspearced by 3 MOVes	Latency	0.75	0.0
+register r32, ADD interspearced by 2 MOVes	Latency	0.99	0.0
+register r32, known to be zero	Latency	1.08	0.0
+register xmm, ADD interspearced by 4 MOVes	Latency	1.08	0.0
+register r16, ADD interspearced by 4 MOVes	Latency	1.02	0.0
+register r64, ADD interspearced by 4 MOVes	Latency	0.91	0.0
+register r64, ADD interspearced by 1 MOVes	Latency	0.81	0.0
+register r8, ADD interspearced by 3 MOVes	Latency	1.08	0.0
+register xmm, ADD interspearced by 0 MOVes	Latency	0.98	0.0
+register r8, ADD interspearced by 1 MOVes	Latency	1.05	0.01
+register r32, ADD interspearced by 4 MOVes	Latency	0.98	0.0
+register xmm, known to be zero	Latency	1.35	0.04
+register r64, ADD interspearced by 2 MOVes	Latency	1.08	0.0
+register r16, ADD interspearced by 2 MOVes	Latency	1.08	0.0
+register r32, ADD interspearced by 3 MOVes	Latency	0.82	0.0
+register r16, known to be zero	Latency	0.98	0.0
+register r8, ADD interspearced by 2 MOVes	Latency	0.99	0.0
+register mmx, ADD interspearced by 4 MOVes	Latency	1.0	0.0
+register r32, ADD interspearced by 0 MOVes	Latency	0.98	0.0
+register mmx, ADD interspearced by 0 MOVes	Latency	0.98	0.0
+register r16, ADD interspearced by 3 MOVes	Latency	1.0	0.0
+register xmm, ADD interspearced by 2 MOVes	Latency	1.08	0.0
+register r8, ADD interspearced by 4 MOVes	Latency	1.0	0.0
+register r32, ADD interspearced by 1 MOVes	Latency	0.75	0.0
+register r16, ADD interspearced by 0 MOVes	Latency	0.98	0.0
+register mmx, ADD interspearced by 2 MOVes	Latency	1.0	0.0
+register r8, known to be zero	Latency	1.06	0.0
+register r64, ADD interspearced by 0 MOVes	Latency	0.98	0.0
+imul , regsize 32, numop 2	Throughput	1.22	0.0
+imul , regsize 32, numop 3	Throughput	1.33	0.0
+Throughput with memory operand: mul , registersize 32 (subtract 1 uop)	Throughput	2.74	0.03
+mul , registersize 32 (subtract 1 uop)	Throughput	1.06	0.0
+imul , registersize 8	Latency	1.97	0.0
+mul , registersize 64 (subtract 1 uop)	Throughput	1.28	0.0
+imul , registersize 8 (subtract 1 uop)	Throughput	0.61	0.0
+imul , registersize 32	Latency	2.94	0.0
+imul , registersize 16	Latency	2.94	0.0
+Throughput with memory operand: mul , registersize 8 (subtract 1 uop)	Throughput	0.55	0.0
+imul , registersize 16 (subtract 1 uop)	Throughput	1.14	0.0
+Throughput with memory operand: imul , regsize 32, numop 2	Throughput	1.21	0.0
+Throughput with memory operand: imul , regsize 32, numop 3	Throughput	1.31	0.0
+mul , registersize 16 (subtract 1 uop)	Throughput	1.06	0.0
+Throughput with memory operand: imul , registersize 16 (subtract 1 uop)	Throughput	2.48	0.0
+mul , registersize 32	Latency	3.19	0.0
+Throughput with memory operand: mul , registersize 64 (subtract 1 uop)	Throughput	3.22	0.0
+mul , registersize 16	Latency	3.19	0.0
+Throughput with memory operand: imul , registersize 32 (subtract 1 uop)	Throughput	2.47	0.0
+imul , regsize 16, numop 2	Throughput	1.12	0.0
+imul , regsize 16, numop 3	Throughput	1.12	0.0
+Throughput with memory operand: imul , registersize 8 (subtract 1 uop)	Throughput	0.55	0.0
+imul , regsize 64, numop 3	Throughput	1.96	0.0
+Throughput with memory operand: imul , regsize 16, numop 2	Throughput	1.31	0.0
+Throughput with memory operand: imul , regsize 16, numop 3	Throughput	1.21	0.0
+mul , registersize 8 (subtract 1 uop)	Throughput	0.57	0.0
+Throughput with memory operand: imul , registersize 64 (subtract 1 uop)	Throughput	3.03	0.03
+imul , regsize 64, numop 2	Throughput	1.97	0.0
+imul , registersize 64	Latency	8.48	0.0
+mul , registersize 8	Latency	2.13	0.0
+imul , registersize 64 (subtract 1 uop)	Throughput	1.28	0.0
+Throughput with memory operand: mul , registersize 16 (subtract 1 uop)	Throughput	2.68	0.0
+Throughput with memory operand: imul , regsize 64, numop 3	Throughput	2.13	0.0
+Throughput with memory operand: imul , regsize 64, numop 2	Throughput	1.96	0.0
+mul , registersize 64	Latency	7.83	0.0
+imul , registersize 32 (subtract 1 uop)	Throughput	1.14	0.0
+Case 1: integer add, chainlength = 1000	Latency	0.99	0.0
+Case 2: integer mul, chainlength = 1000000	Latency	2.01	0.01
+Case 3: floating point add, chainlength = 100	Latency	1.82	0.0
+Case 4: floating point mul, chainlength = 1000000	Latency	2.96	0.0
+Case 2: integer mul, chainlength = 1000	Latency	1.99	0.0
+Case 1: integer add, chainlength = 1000000	Latency	0.99	0.0
+Case 1: integer add, chainlength = 10	Latency	0.51	0.0
+Case 4: floating point mul, chainlength = 1000	Latency	2.99	0.0
+Case 3: floating point add, chainlength = 1000000	Latency	2.03	0.01
+Case 4: floating point mul, chainlength = 10	Latency	1.44	0.0
+Case 3: floating point add, chainlength = 1000	Latency	2.08	0.01
+Case 4: floating point mul, chainlength = 100	Latency	2.81	0.0
+Case 3: floating point add, chainlength = 10	Latency	0.92	0.0
+Case 1: integer add, chainlength = 100	Latency	0.96	0.0
+Case 2: integer mul, chainlength = 10	Latency	1.02	0.0
+Case 2: integer mul, chainlength = 100	Latency	1.85	0.0
+pop , operand: SP	Throughput	3.11	0.0
+pop , operand: M	Throughput	2.04	0.0
+push , operand: R	Throughput	1.72	0.0
+pop , operand: F	Throughput	1.17	0.0
+push , operand: M	Throughput	1.7	0.0
+push , operand: SP	Throughput	1.72	0.0
+push , operand: I	Throughput	1.69	0.03
+push , operand: F	Throughput	1.49	0.0
+pop , operand: R	Throughput	1.17	0.0
+rcr , 4 regsize 16	Throughput	40.88	3.62
+ror , cl regsize 8	Throughput	1.61	0.3
+shrd , 1 regsize 64	Throughput	33.38	1.58
+shl , 4 regsize 8	Throughput	1.42	0.76
+rcr , 1 regsize 8	Throughput	1.53	0.21
+shl , 4 regsize 64	Throughput	1.38	0.55
+Throughput with memory operand: shrd , 1 regsize 16	Throughput	5.3	0.0
+ror , 1 regsize 16	Throughput	1.61	0.3
+btr r16, cx	Throughput	2.13	0.0
+sar , 4 regsize 16	Throughput	1.3	0.44
+bts r32, 5	Latency	1.97	0.0
+shr , 4 regsize 16	Throughput	1.36	0.59
+shl , 1 regsize 64	Throughput	1.3	0.44
+shld , 1 regsize 32	Latency	2.05	0.0
+sar , cl regsize 16	Throughput	1.36	0.59
+shr , cl regsize 16	Throughput	1.3	0.44
+rol , cl regsize 64	Throughput	1.61	0.29
+shld , cl regsize 32	Latency	2.22	0.0
+rcl , 1 regsize 32	Throughput	1.66	0.25
+rcr , 1 regsize 16	Throughput	1.53	0.21
+rol , 1 regsize 16	Throughput	1.61	0.29
+btc r32, ecx	Throughput	2.14	0.0
+rcl , 1 regsize 8	Throughput	1.66	0.25
+rol , 4 regsize 8	Throughput	1.61	0.3
+rcr , cl regsize 16	Throughput	43.98	3.29
+bts r32, ecx	Throughput	1.97	0.0
+rcr , 4 regsize 8	Throughput	40.87	4.09
+ror , 4 regsize 32	Throughput	1.61	0.3
+btr r32, 5	Latency	1.97	0.0
+sar , 1 regsize 32	Throughput	1.3	0.44
+sar , cl regsize 64	Throughput	1.36	0.59
+rol , cl regsize 16	Throughput	1.61	0.29
+shr , 1 regsize 32	Throughput	1.36	0.59
+bts r64, rcx	Throughput	6.72	14.3
+sar , cl regsize 8	Throughput	1.33	0.61
+Throughput with memory operand: shrd , 6 regsize 64	Throughput	30.96	0.12
+rcr , 1 regsize 32	Throughput	1.59	0.34
+Throughput with memory operand: shld , cl regsize 64	Throughput	32.43	0.13
+sar , 4 regsize 64	Throughput	1.28	0.47
+rcl , cl regsize 64	Throughput	45.94	1.49
+Throughput with memory operand: shld , 1 regsize 64	Throughput	35.12	0.14
+ror , 4 regsize 8	Throughput	1.61	0.3
+rcr , 4 regsize 32	Throughput	39.61	1.45
+rcl , 1 regsize 64	Throughput	1.61	0.3
+btc r32, 5	Latency	1.97	0.0
+shr , cl regsize 64	Throughput	1.3	0.44
+shl , 1 regsize 32	Throughput	1.3	0.44
+shrd , 6 regsize 16	Latency	2.22	0.0
+btc r64, 5	Latency	2.14	0.0
+Throughput with memory operand: shrd , cl regsize 64	Throughput	33.53	0.14
+ror , cl regsize 64	Throughput	1.66	0.25
+Throughput with memory operand: shld , cl regsize 16	Throughput	5.3	0.0
+shr , 4 regsize 8	Throughput	1.36	0.59
+shld , 6 regsize 32	Latency	2.05	0.0
+shl , cl regsize 8	Throughput	1.36	0.59
+shld , cl regsize 16	Latency	2.22	0.0
+bt r32, 5	Latency	1.07	0.0
+rol , 1 regsize 8	Throughput	1.61	0.3
+rcl , 1 regsize 16	Throughput	1.66	0.25
+bts r16, 5	Latency	2.14	0.0
+shrd , 1 regsize 32	Latency	2.05	0.0
+shl , 4 regsize 16	Throughput	1.36	0.59
+bts r16, cx	Throughput	2.13	0.0
+btr r64, 5	Latency	1.97	0.0
+shr , cl regsize 8	Throughput	1.38	0.55
+Throughput with memory operand: shld , 6 regsize 64	Throughput	32.42	0.14
+Throughput with memory operand: shld , 6 regsize 32	Throughput	5.62	0.89
+shr , 4 regsize 32	Throughput	1.36	0.58
+ror , 1 regsize 32	Throughput	1.61	0.3
+rcl , 4 regsize 32	Throughput	42.54	0.13
+shrd , 6 regsize 32	Latency	2.05	0.0
+shl , cl regsize 64	Throughput	1.36	0.59
+btr r64, rcx	Throughput	6.57	12.08
+rcl , cl regsize 8	Throughput	44.43	4.16
+shl , 1 regsize 8	Throughput	1.36	0.59
+rol , cl regsize 32	Throughput	1.61	0.3
+shr , 1 regsize 8	Throughput	1.36	0.59
+rcl , cl regsize 16	Throughput	43.91	2.92
+bt r16, 5	Latency	1.16	0.0
+rol , 1 regsize 64	Throughput	1.61	0.3
+ror , 1 regsize 8	Throughput	1.61	0.3
+sar , 1 regsize 8	Throughput	1.3	0.44
+sar , 1 regsize 64	Throughput	1.3	0.44
+rcr , cl regsize 64	Throughput	45.22	1.98
+shl , 1 regsize 16	Throughput	1.28	0.47
+shld , 1 regsize 64	Throughput	33.5	3.09
+shl , cl regsize 16	Throughput	1.36	0.58
+shrd , cl regsize 64	Throughput	33.28	1.58
+shld , 6 regsize 64	Throughput	33.93	0.0
+Throughput with memory operand: shld , cl regsize 32	Throughput	5.31	0.0
+Throughput with memory operand: shrd , 6 regsize 16	Throughput	5.31	0.0
+ror , 1 regsize 64	Throughput	1.61	0.3
+Throughput with memory operand: shld , 1 regsize 32	Throughput	4.9	0.0
+shrd , 1 regsize 16	Latency	2.22	0.0
+rcr , cl regsize 8	Throughput	43.96	3.2
+shrd , 6 regsize 64	Throughput	33.35	1.52
+shld , 1 regsize 16	Latency	2.05	0.0
+sar , cl regsize 32	Throughput	1.36	0.59
+shr , cl regsize 32	Throughput	1.28	0.47
+shl , 4 regsize 32	Throughput	1.36	0.59
+ror , 4 regsize 64	Throughput	1.61	0.3
+btc r16, 5	Latency	1.97	0.0
+rol , 4 regsize 32	Throughput	1.61	0.3
+shld , cl regsize 64	Throughput	34.05	0.13
+rcl , 4 regsize 16	Throughput	40.84	2.91
+shrd , cl regsize 16	Latency	2.22	0.0
+Throughput with memory operand: shrd , cl regsize 32	Throughput	5.6	0.97
+ror , cl regsize 32	Throughput	1.66	0.25
+rcl , cl regsize 32	Throughput	42.89	2.28
+rcr , 4 regsize 64	Throughput	41.81	2.85
+bt r32, ecx	Throughput	1.07	0.0
+Throughput with memory operand: shrd , 1 regsize 64	Throughput	30.96	0.14
+bt r16, cx	Throughput	1.07	0.0
+btc r16, cx	Throughput	2.14	0.0
+btr r16, 5	Latency	2.13	0.0
+sar , 4 regsize 32	Throughput	1.3	0.44
+Throughput with memory operand: shld , 6 regsize 16	Throughput	5.31	0.0
+rcl , 4 regsize 8	Throughput	40.84	2.92
+shr , 1 regsize 64	Throughput	1.36	0.59
+rcl , 4 regsize 64	Throughput	39.34	0.39
+shl , cl regsize 32	Throughput	1.36	0.59
+shr , 4 regsize 64	Throughput	1.3	0.44
+bt r64, 5	Latency	1.07	0.0
+bt r64, rcx	Throughput	3.75	13.31
+shld , 6 regsize 16	Latency	2.22	0.0
+btr r32, ecx	Throughput	1.97	0.0
+btc r64, rcx	Throughput	6.48	12.5
+rol , 1 regsize 32	Throughput	1.61	0.3
+Throughput with memory operand: shld , 1 regsize 16	Throughput	5.3	0.0
+rcr , 1 regsize 64	Throughput	1.53	0.21
+rcr , cl regsize 32	Throughput	43.68	3.38
+ror , 4 regsize 16	Throughput	1.61	0.3
+rol , 4 regsize 64	Throughput	1.61	0.29
+rol , cl regsize 8	Throughput	1.61	0.3
+shr , 1 regsize 16	Throughput	1.36	0.59
+Throughput with memory operand: shrd , 1 regsize 32	Throughput	5.31	0.0
+rol , 4 regsize 16	Throughput	1.61	0.3
+sar , 1 regsize 16	Throughput	1.3	0.44
+bts r64, 5	Latency	1.97	0.0
+sar , 4 regsize 8	Throughput	1.28	0.47
+shrd , cl regsize 32	Latency	2.05	0.0
+Throughput with memory operand: shrd , cl regsize 16	Throughput	5.31	0.0
+Throughput with memory operand: shrd , 6 regsize 32	Throughput	5.31	0.0
+ror , cl regsize 16	Throughput	1.61	0.29
+Case 6: call_and_ret_and_add_rsp,const	Latency	0.97	0.02
+Case 4: call_and_ret	Latency	0.99	0.03
+Case 2: added_mov_r,[rsp]	Latency	1.08	0.08
+Case 5: call_and_ret_imm	Latency	1.46	0.04
+Case 3: further_added_mov_r,rsp	Latency	1.05	0.36
+Case 1: Push_and_pop_only	Latency	0.94	0.0
+register read/write size 16 bits, crossing 128 bytes boundary	Latency	30.83	0.78
+register read/write size 128 bits, read offset by 8 bytes	Latency	5.34	16.3
+register read/write size 32 bits, read offset by 2 bytes	Latency	17.87	0.5
+register read/write size 16 bits, read offset by 1 bytes	Latency	16.21	0.04
+register read/write size 16 bits, crossing 0 bytes boundary	Latency	2.48	0.0
+register read/write size 128 bits, crossing 64 bytes boundary	Latency	30.8	0.05
+register read/write size 128 bits, crossing 32 bytes boundary	Latency	2.15	0.0
+register read/write size 128 bits, read offset by 0 bytes	Latency	1.99	0.0
+register read/write size 128 bits, crossing 4 bytes boundary	Latency	30.81	0.01
+register read/write size 64 bits, crossing 128 bytes boundary	Latency	30.87	0.2
+register read/write size 32 bits, crossing 64 bytes boundary	Latency	31.09	0.7
+register read/write size 32 bits, crossing 8 bytes boundary	Latency	2.0	0.0
+register read/write size 64 bits, read offset by 4 bytes	Latency	17.33	0.01
+register read/write size 16 bits, crossing 8 bytes boundary	Latency	2.49	0.0
+register read/write size 32 bits, crossing 0 bytes boundary	Latency	2.17	0.0
+register read/write size 64 bits, crossing 16 bytes boundary	Latency	2.0	0.0
+register read/write size 16 bits, crossing 16 bytes boundary	Latency	2.72	0.01
+register read/write size 32 bits, crossing 16 bytes boundary	Latency	2.03	0.03
+register read/write size 32 bits, read offset by 0 bytes	Latency	1.99	0.0
+register read/write size 32 bits, crossing 32 bytes boundary	Latency	2.0	0.0
+register read/write size 16 bits, read offset by 0 bytes	Latency	2.61	0.02
+register read/write size 128 bits, crossing 0 bytes boundary	Latency	2.0	0.0
+register read/write size 64 bits, crossing 64 bytes boundary	Latency	31.09	0.75
+register read/write size 64 bits, crossing 32 bytes boundary	Latency	2.0	0.0
+register read/write size 32 bits, crossing 4 bytes boundary	Latency	2.0	0.0
+register read/write size 128 bits, crossing 16 bytes boundary	Latency	2.17	0.0
+register read/write size 16 bits, crossing 4 bytes boundary	Latency	2.52	0.02
+register read/write size 16 bits, crossing 32 bytes boundary	Latency	2.5	0.0
+register read/write size 128 bits, crossing 8 bytes boundary	Latency	2.0	0.0
+register read/write size 16 bits, crossing 64 bytes boundary	Latency	30.83	0.74
+register read/write size 64 bits, crossing 0 bytes boundary	Latency	2.01	0.0
+register read/write size 128 bits, crossing 128 bytes boundary	Latency	30.75	0.0
+register read/write size 64 bits, crossing 8 bytes boundary	Latency	2.15	0.0
+register read/write size 32 bits, crossing 128 bytes boundary	Latency	30.86	0.17
+register read/write size 64 bits, read offset by 0 bytes	Latency	2.12	0.01
+register read/write size 64 bits, crossing 4 bytes boundary	Latency	1.99	0.0
+rep movsd, count = 1000	Latency	149.45	485.83
+rep stosb, count = 10000	Latency	365.76	2636.46
+repe cmpsb, count = 1000, misalign = 0	Latency	580.37	9.1
+repe cmpsb, count = 1000, misalign = 4	Latency	622.52	1262.5
+repe scasb, count = 1000, misalign = 0	Latency	603.06	84.17
+rep stosd, count = 1000, misalign = 4	Latency	148.48	455.33
+rep lodsd, count = 10000	Latency	7468.46	6047.47
+rep stosd, count = 1000, misalign = 0	Latency	160.68	1196.43
+scasw	Latency	1.5	1.45
+rep stosb, count = 100	Latency	52.34	0.0
+scasq	Latency	2.16	10.04
+rep lodsb, count = 1000	Latency	762.04	0.11
+rep movsq, count = 10000	Latency	6182.07	27694.92
+scasd	Latency	1.98	7.16
+rep stosw, count = 10000	Latency	686.65	4568.82
+scasb	Latency	1.27	0.29
+rep movsb, count = 1000	Latency	60.78	0.14
+repe scasq, count = 1000, misalign = 4	Latency	1114.04	3.58
+repe cmpsd, count = 1000, misalign = 0	Latency	583.76	123.66
+repe scasq, count = 1000, misalign = 0	Latency	391.21	4.68
+rep movsd, count = 1000, misalign = 16	Latency	150.81	569.76
+rep lodsb, count = 100	Latency	100.9	0.02
+rep stosw, count = 1000	Latency	101.68	508.89
+repe scasb, count = 100, misalign = 0	Latency	66.06	0.05
+repe scasd, count = 1000, misalign = 0	Latency	215.35	0.52
+rep stosb, count = 1000	Latency	60.45	0.03
+repe cmpsd, count = 1000, misalign = 4	Latency	579.75	5.42
+repe scasb, count = 1000, misalign = 4	Latency	557.06	95.11
+repe cmpsq, count = 10000, misalign = 4	Latency	14935.85	3266.1
+rep stosd, count = 100, misalign = 16	Latency	48.38	0.08
+repe scasd, count = 10000, misalign = 4	Latency	2002.83	567.5
+rep stosd, count = 10000, misalign = 16	Latency	1472.85	11316.52
+repe scasd, count = 10000, misalign = 0	Latency	1980.76	478.78
+rep movsd, count = 1000, misalign = 0	Latency	162.18	608.58
+rep movsd, count = 1000, misalign = 4	Latency	165.03	518.0
+repe cmpsw, count = 100, misalign = 0	Latency	64.26	0.18
+repe cmpsw, count = 100, misalign = 4	Latency	69.6	0.16
+repe cmpsb, count = 10000, misalign = 4	Latency	5781.75	1428.61
+repe cmpsb, count = 10000, misalign = 0	Latency	5955.39	53968.08
+repe scasw, count = 10000, misalign = 4	Latency	952.72	21.32
+repe scasw, count = 10000, misalign = 0	Latency	933.33	135.19
+rep stosq, count = 100	Latency	48.39	0.11
+rep movsq, count = 100, misalign = 4	Latency	189.53	0.21
+rep movsd, count = 10000	Latency	1474.3	11445.05
+rep movsq, count = 100, misalign = 0	Latency	49.03	0.56
+rep movsq, count = 1000	Latency	284.42	965.77
+rep movsd, count = 100, misalign = 16	Latency	49.84	0.94
+rep movsq, count = 1000, misalign = 4	Latency	1955.95	906.95
+rep movsd, count = 10000, misalign = 4	Latency	1485.19	11558.97
+rep stosd, count = 1000, misalign = 16	Latency	147.32	621.33
+rep movsd, count = 10000, misalign = 0	Latency	1480.21	15018.02
+repe scasd, count = 100, misalign = 0	Latency	63.35	53.56
+repe cmpsb, count = 100, misalign = 4	Latency	69.52	0.02
+rep stosq, count = 100, misalign = 16	Latency	52.42	0.09
+repe cmpsb, count = 100, misalign = 0	Latency	69.53	0.03
+movsd	Latency	3.7	22.06
+movsb	Latency	2.36	0.49
+rep movsb, count = 10000	Latency	393.48	1614.57
+repe cmpsw, count = 1000, misalign = 4	Latency	580.31	7.08
+rep stosq, count = 100, misalign = 4	Latency	205.44	0.0
+repe cmpsw, count = 1000, misalign = 0	Latency	628.79	10.25
+rep stosq, count = 100, misalign = 0	Latency	52.43	0.13
+movsw	Latency	2.73	2.98
+rep stosq, count = 1000, misalign = 16	Latency	281.71	877.81
+repe cmpsw, count = 10000, misalign = 0	Latency	5843.51	13111.4
+movsq	Latency	3.73	22.53
+rep movsq, count = 10000, misalign = 4	Latency	19269.38	5019.09
+rep movsq, count = 10000, misalign = 0	Latency	6151.01	5524.15
+repe scasq, count = 100, misalign = 0	Latency	66.35	1.17
+rep lodsw, count = 10000	Latency	7657.23	77800.39
+repe scasq, count = 100, misalign = 4	Latency	103.98	0.0
+rep lodsq, count = 100	Latency	89.13	0.0
+rep lodsd, count = 100	Latency	87.58	0.18
+repe scasd, count = 100, misalign = 4	Latency	66.19	0.37
+rep movsb, count = 100	Latency	50.57	0.03
+rep stosq, count = 10000	Latency	5217.63	64138.51
+rep movsq, count = 1000, misalign = 16	Latency	309.11	1060.35
+rep stosq, count = 10000, misalign = 4	Latency	19497.86	62889.64
+rep movsw, count = 10000	Latency	760.59	5551.08
+rep stosq, count = 10000, misalign = 0	Latency	5075.26	7541.71
+rep stosd, count = 10000, misalign = 0	Latency	1467.96	12551.46
+rep stosd, count = 10000, misalign = 4	Latency	1473.85	10134.99
+rep stosd, count = 100, misalign = 0	Latency	52.42	0.09
+rep stosw, count = 100	Latency	52.35	0.01
+rep stosd, count = 100, misalign = 4	Latency	48.31	0.01
+rep movsd, count = 100	Latency	49.82	0.8
+rep movsw, count = 1000	Latency	94.63	407.39
+repe cmpsq, count = 100, misalign = 0	Latency	69.87	1.4
+repe cmpsq, count = 100, misalign = 4	Latency	149.3	2.45
+repe cmpsd, count = 100, misalign = 0	Latency	69.74	0.65
+rep lodsb, count = 10000	Latency	7454.48	188.43
+repe cmpsq, count = 1000, misalign = 4	Latency	1616.72	97.09
+repe cmpsq, count = 1000, misalign = 0	Latency	628.52	15.26
+repe scasd, count = 1000, misalign = 4	Latency	258.83	0.89
+repe cmpsq, count = 10000, misalign = 0	Latency	10635.68	1557.37
+repe cmpsd, count = 10000, misalign = 4	Latency	6017.19	77619.3
+rep movsq, count = 10000, misalign = 16	Latency	6150.66	6702.36
+rep movsd, count = 100, misalign = 4	Latency	49.86	1.04
+rep movsd, count = 100, misalign = 0	Latency	54.13	2.0
+rep movsq, count = 1000, misalign = 0	Latency	308.44	1195.75
+rep lodsw, count = 1000	Latency	815.44	1273.12
+rep stosq, count = 1000	Latency	280.61	947.6
+repe scasb, count = 10000, misalign = 4	Latency	5591.74	34474.94
+rep movsq, count = 100, misalign = 16	Latency	53.14	0.74
+repe scasb, count = 10000, misalign = 0	Latency	5460.94	1272.12
+rep movsq, count = 100	Latency	53.22	1.21
+rep stosq, count = 10000, misalign = 16	Latency	5068.24	8224.37
+rep movsw, count = 100	Latency	51.66	0.25
+rep movsd, count = 10000, misalign = 16	Latency	1482.51	11725.13
+cmpsq	Latency	7.98	22.41
+rep stosd, count = 1000	Latency	156.18	429.83
+cmpsw	Latency	7.13	4.81
+rep lodsq, count = 1000	Latency	784.79	2099.26
+cmpsb	Latency	6.56	0.31
+cmpsd	Latency	7.24	6.75
+repe scasw, count = 1000, misalign = 4	Latency	148.77	0.52
+repe scasw, count = 1000, misalign = 0	Latency	140.38	88.98
+stosd	Latency	2.08	0.85
+repe scasb, count = 100, misalign = 4	Latency	60.95	0.02
+stosb	Latency	1.92	0.22
+rep lodsd, count = 1000	Latency	815.6	120.67
+stosw	Latency	1.76	0.05
+stosq	Latency	2.5	4.5
+rep stosd, count = 100	Latency	52.38	0.04
+repe scasw, count = 100, misalign = 4	Latency	61.0	0.08
+rep lodsq, count = 10000	Latency	7470.42	923.37
+repe scasw, count = 100, misalign = 0	Latency	61.0	0.07
+lodsq	Latency	1.25	0.36
+rep lodsw, count = 100	Latency	88.82	0.16
+repe cmpsd, count = 10000, misalign = 0	Latency	5858.76	32823.01
+repe cmpsd, count = 100, misalign = 4	Latency	69.77	0.77
+lodsw	Latency	1.55	1.83
+rep stosq, count = 1000, misalign = 0	Latency	303.12	942.69
+rep stosq, count = 1000, misalign = 4	Latency	2162.01	4277.26
+rep stosd, count = 10000	Latency	1469.16	10036.92
+lodsb	Latency	1.11	0.06
+lodsd	Latency	1.13	0.12
+repe scasq, count = 10000, misalign = 0	Latency	4513.5	36721.02
+repe cmpsw, count = 10000, misalign = 4	Latency	5795.25	2644.84
+repe scasq, count = 10000, misalign = 4	Latency	10098.82	1452.74
+Case 3: normal + subnormal = subnormal	Latency	2.75	0.0
+Case 29: normal / 0 = INF	Latency	7.92	0.0
+Case 25: normal / normal = underflow	Latency	7.92	0.0
+Case 8: normal + INF = INF	Latency	2.98	0.0
+Case 16: normal * normal = underflow	Latency	2.68	0.0
+Case 14: normal * subnormal = subnormal	Latency	2.68	0.0
+Case 24: subnormal / normal = subnormal	Latency	8.85	0.69
+Case 27: normal / NAN = NAN	Latency	7.92	0.0
+Case 17: normal * normal = overflow	Latency	2.48	0.0
+Case 9: INF + INF = INF	Latency	2.75	0.0
+Case 1: normal + normal = subnormal	Latency	9.4	0.0
+Case 4: subnormal + subnormal = normal	Latency	2.98	0.0
+Case 19: normal * INF = INF	Latency	2.68	0.0
+Case 28: normal / INF = 0	Latency	8.58	0.0
+Case 18: normal * NAN = NAN	Latency	2.68	0.0
+Case 23: normal / subnormal = normal	Latency	8.58	0.0
+Case 7: normal + NAN = NAN	Latency	2.75	0.0
+Case 15: subnormal * subnormal = underflow	Latency	2.48	0.0
+Case 10: INF - INF = NAN	Latency	3.04	0.03
+Case 21: normal / normal = normal	Latency	7.92	0.0
+Case 5: subnormal + subnormal = subnormal	Latency	2.98	0.0
+Case 22: normal / normal = subnormal	Latency	7.92	0.0
+Case 30: 0 / 0 = NAN	Latency	7.92	0.0
+Case 12: normal * normal = subnormal	Latency	2.48	0.0
+Case 13: normal * subnormal = normal	Latency	2.48	0.0
+Case 11: normal * normal = normal	Latency	2.69	0.0
+Case 26: normal / normal = overflow	Latency	8.58	0.0
+Case 2: normal + subnormal = normal	Latency	2.98	0.0
+Case 0: normal + normal = normal	Latency	2.75	0.0
+Case 6: normal + normal = overflow	Latency	6.93	0.0
+Case 20: 0 * INF = NAN	Latency	2.48	0.0
+Case 1: SSE2, 4 terms per iteration, 320 terms	Latency	0.8	0.0
+Case 1: SSE2, 4 terms per iteration, 16 terms	Latency	0.77	0.0
+Case 1: SSE2, 4 terms per iteration, 160 terms	Latency	0.84	0.0
+Numbers are source offset and time	Latency	0.0	0.04
+Case 20: cmp [basep+o32small], i16,  L-L-L-S, 200 blocks	Latency	630.61	6235.3
+Case 47: mov [basep], i32small,  L-S-S-S, 200 blocks	Latency	306.54	nan
+Case 29: cmp [basep+s*index], i32,  L-L-L-S,  100 blocks	Latency	467.72	nan
+Case 40: cmp [rip small], i16,  L-L-L-S, 200 blocks	Latency	1054.46	nan
+Case 31: cmp [basep+s*index+o8], i8,  L-L-L-S,  100 blocks	Latency	697.5	nan
+Case 48: mov [basep], i32,  L-S-S-S, 200 blocks	Latency	302.64	nan
+Case 10: cmp [abs32+p],i8,  L-L-L-S, 200 blocks	Latency	678.72	2920.35
+Case 35: cmp [basep+s*index+o32small], i8,  L-L-L-S,  100 blocks	Latency	1266.77	nan
+Case 34: cmp [basep+s*index+o32small], reg,  L-L-L-S,  100 blocks	Latency	385.85	396.72
+Case 22: cmp [basep+o32small], i32,  L-L-L-S, 200 blocks	Latency	395.94	601.69
+Case 2: mov reg64,i64, S-L-L-L, 100 blocks	Latency	1326.21	3152799.53
+Case 54: cmp [rip], i32,  L-S-S-S, 200 blocks	Latency	393.32	nan
+Case 50: mov [basep+s*index], i32,  L-S-S-S, 100 blocks	Latency	278.51	nan
+Case 57: cmp FS:[o32small], i16,  L-L-S-S, 200 blocks	Latency	1163.03	319204.39
+Case 17: cmp [basep+o8], i16,  L-L-L-S, 200 blocks	Latency	1031.55	1678241.8
+Case 23: cmp [basep+o32], i8,  L-L-L-S, 200 blocks	Latency	714.33	nan
+Case 53: cmp [rip], i16,  L-S-S-S, 100 blocks	Latency	513.77	1866.1
+Case 12: mov [abs64],  L-L-L-S, 200 blocks	Latency	369.22	nan
+Case 65: cmp [basep+s*index+o32], reg,  L-L-L-S, 100 blocks	Latency	533.49	nan
+Case 15: cmp [basep], i32,  L-L-L-S, 100 blocks	Latency	483.52	nan
+Case 18: cmp [basep+o8], i32,  L-L-L-S, 100 blocks	Latency	426.11	5327.33
+Case 2: mov reg64,i64, S-L-L-L, 200 blocks	Latency	873.28	nan
+Case 69: cmp r,r / jc o32small;  L-L-S-S, 200 blocks	Latency	751.73	199078.86
+Case 19: cmp [basep+o32small], i8,  L-L-L-S, 200 blocks	Latency	590.29	156334.43
+Case 64: mov r,[abs64],  L-S-S-S, 200 blocks	Latency	352.07	nan
+Case 64: mov r,[abs64],  L-S-S-S, 100 blocks	Latency	476.2	49247.2
+Case 27: cmp [basep+s*index], i8,  L-L-L-S,  200 blocks	Latency	712.6	nan
+Case 51: cmp [rip], 0,  L-L-L-S, 100 blocks	Latency	422.28	372.31
+Case 16: cmp [basep+o8], i8,  L-L-L-S, 200 blocks	Latency	712.47	227176.82
+Case 30: cmp [basep+s*index+o8], reg,  L-L-L-S,  100 blocks	Latency	212.64	261613.52
+Case 51: cmp [rip], 0,  L-L-L-S, 200 blocks	Latency	682.64	158980.27
+Case 20: cmp [basep+o32small], i16,  L-L-L-S, 100 blocks	Latency	1473.49	5347818.88
+Case 16: cmp [basep+o8], i8,  L-L-L-S, 100 blocks	Latency	395.69	7858.82
+Case 65: cmp [basep+s*index+o32], reg,  L-L-L-S, 200 blocks	Latency	528.62	2047.99
+Case 14: cmp [basep], i16,  L-L-L-S, 100 blocks	Latency	1092.34	384.94
+Case 70: cmp [basep+o32], r / jc o32small;  L-L-S-S, 100 blocks	Latency	317.97	nan
+Case 30: cmp [basep+s*index+o8], reg,  L-L-L-S,  200 blocks	Latency	520.25	3930.5
+Case 12: mov [abs64],  L-L-L-S, 100 blocks	Latency	867.94	nan
+Case 47: mov [basep], i32small,  L-S-S-S, 100 blocks	Latency	331.19	4416064.31
+Case 7: cmp [abs32],i8,  L-L-L-S, 200 blocks	Latency	603.88	34454.06
+Case 32: cmp [basep+s*index+o8], i16,  L-L-L-S,  200 blocks	Latency	994.2	nan
+Case 50: mov [basep+s*index], i32,  L-S-S-S, 200 blocks	Latency	722.26	199.52
+Case 42: cmp [rip small], i32,  L-L-L-S, 200 blocks	Latency	666.67	193194.76
+Case 19: cmp [basep+o32small], i8,  L-L-L-S, 100 blocks	Latency	422.43	358.3
+Case 55: cmp FS:[o32small], i8,  L-S-S-S, 100 blocks	Latency	290.63	8956.79
+Case 45: cmp [rip], i32small,  L-L-L-S, 200 blocks	Latency	1069.97	1261792.07
+Case 13: cmp [basep], i8,  L-L-L-S, 200 blocks	Latency	403.74	2433.01
+Case 13: cmp [basep], i8,  L-L-L-S, 100 blocks	Latency	389.42	2540.16
+Case 15: cmp [basep], i32,  L-L-L-S, 200 blocks	Latency	830.81	nan
+Case 36: cmp [basep+s*index+o32small], i16,  L-L-L-S,  100 blocks	Latency	1680.07	2554409.24
+Case 57: cmp FS:[o32small], i16,  L-L-S-S, 100 blocks	Latency	777.69	57914.91
+Case 68: mov [basep+s*index+o32], r,  L-L-L-S, 200 blocks	Latency	826.56	427857.84
+Case 14: cmp [basep], i16,  L-L-L-S, 200 blocks	Latency	1112.42	nan
+Case 7: cmp [abs32],i8,  L-L-L-S, 100 blocks	Latency	405.13	5238.15
+Case 46: cmp [rip], i32,  L-L-L-S, 200 blocks	Latency	666.5	136507.64
+Case 3: mov reg64,i64, L-L-L-S, 100 blocks	Latency	1679.37	3101808.78
+Case 18: cmp [basep+o8], i32,  L-L-L-S, 200 blocks	Latency	699.14	245764.18
+Case 1: mov reg64,i32, S-L-L-L, 200 blocks	Latency	337.11	nan
+Case 1: mov reg64,i32, S-L-L-L, 100 blocks	Latency	264.33	5124.14
+Case 37: cmp [basep+s*index+o32small], i32,  L-S-S-S,  200 blocks	Latency	471.73	nan
+Case 37: cmp [basep+s*index+o32small], i32,  L-S-S-S,  100 blocks	Latency	327.19	368895.72
+Case 34: cmp [basep+s*index+o32small], reg,  L-L-L-S,  200 blocks	Latency	1006.85	1286682.63
+Case 21: cmp [basep+o32small], i32small,  L-L-L-S, 100 blocks	Latency	449.01	2030.02
+Case 48: mov [basep], i32,  L-S-S-S, 100 blocks	Latency	282.71	284776.75
+Case 5: mov reg64,i64small, L-L-L-S, 100 blocks	Latency	2191.13	nan
+Case 5: mov reg64,i64small, L-L-L-S, 200 blocks	Latency	977.8	103671.7
+Case 70: cmp [basep+o32], r / jc o32small;  L-L-S-S, 200 blocks	Latency	447.75	nan
+Case 22: cmp [basep+o32small], i32,  L-L-L-S, 100 blocks	Latency	645.82	158856.36
+Case 33: cmp [basep+s*index+o8], i32,  L-L-L-S,  200 blocks	Latency	729.83	nan
+Case 33: cmp [basep+s*index+o8], i32,  L-L-L-S,  100 blocks	Latency	475.13	740124.29
+Case 55: cmp FS:[o32small], i8,  L-S-S-S, 200 blocks	Latency	489.11	nan
+Case 69: cmp r,r / jc o32small;  L-L-S-S, 100 blocks	Latency	315.69	nan
+Case 54: cmp [rip], i32,  L-S-S-S, 100 blocks	Latency	260.94	4020.46
+Case 38: cmp [rip], reg,  L-L-L-S, 100 blocks	Latency	453.87	14039.71
+Case 36: cmp [basep+s*index+o32small], i16,  L-L-L-S,  200 blocks	Latency	1055.81	nan
+Case 43: cmp [rip], i8,  L-L-L-S, 200 blocks	Latency	738.07	6430.2
+Case 58: cmp FS:[o32small], i32small,  L-L-S-S, 200 blocks	Latency	398.67	523821.88
+Case 68: mov [basep+s*index+o32], r,  L-L-L-S, 100 blocks	Latency	1461.5	nan
+Case 59: cmp FS:[o32small], i32,  L-L-S-S, 100 blocks	Latency	493.6	388507.16
+Case 9: cmp [abs32],i32,  L-L-L-S, 200 blocks	Latency	504.65	182447.76
+Case 41: cmp [rip small], i32small,  L-L-L-S, 200 blocks	Latency	454.27	13739.58
+Case 31: cmp [basep+s*index+o8], i8,  L-L-L-S,  200 blocks	Latency	473.81	1052538.44
+Case 28: cmp [basep+s*index], i16,  L-L-L-S,   200 blocks	Latency	956.53	nan
+Case 39: cmp [rip small], i8,  L-L-L-S, 200 blocks	Latency	749.68	267136.95
+Case 28: cmp [basep+s*index], i16,  L-L-L-S,   100 blocks	Latency	1799.39	3607744.76
+Case 67: mov [basep+o32], r,  L-L-L-S, 200 blocks	Latency	1043.16	nan
+Case 67: mov [basep+o32], r,  L-L-L-S, 100 blocks	Latency	1222.23	3047766.03
+Case 6: cmp [abs32],r,  L-L-L-S, 200 blocks	Latency	647.5	143168.09
+Case 66: cmp [basep+s*index+o32], i8,  L-L-L-S, 100 blocks	Latency	483.69	2412.87
+Case 29: cmp [basep+s*index], i32,  L-L-L-S,  200 blocks	Latency	697.32	152594.98
+Case 11: cmp [abs32+p],i32,  L-L-L-S, 200 blocks	Latency	481.2	119295.41
+Case 39: cmp [rip small], i8,  L-L-L-S, 100 blocks	Latency	416.52	768164.6
+Case 21: cmp [basep+o32small], i32small,  L-L-L-S, 200 blocks	Latency	713.58	147989.62
+Case 24: cmp [basep+o32], i16,  L-L-L-S, 200 blocks	Latency	2192.88	1116822.98
+Case 17: cmp [basep+o8], i16,  L-L-L-S, 100 blocks	Latency	1938.31	2273449.64
+Case 66: cmp [basep+s*index+o32], i8,  L-L-L-S, 200 blocks	Latency	590.73	924875.1
+Case 38: cmp [rip], reg,  L-L-L-S, 200 blocks	Latency	665.63	nan
+Case 58: cmp FS:[o32small], i32small,  L-L-S-S, 100 blocks	Latency	340.15	73954.48
+Case 32: cmp [basep+s*index+o8], i16,  L-L-L-S,  100 blocks	Latency	2398.33	2334195.36
+Case 49: mov [basep+s*index], i32small,  L-S-S-S, 100 blocks	Latency	264.17	7161.36
+Case 49: mov [basep+s*index], i32small,  L-S-S-S, 200 blocks	Latency	462.07	nan
+Case 23: cmp [basep+o32], i8,  L-L-L-S, 100 blocks	Latency	405.45	47154.12
+Case 35: cmp [basep+s*index+o32small], i8,  L-L-L-S,  200 blocks	Latency	668.04	142736.27
+Case 53: cmp [rip], i16,  L-S-S-S, 200 blocks	Latency	495.73	607208.54
+Case 26: cmp [basep+s*index], reg,  L-L-L-S,  200 blocks	Latency	736.29	9086.62
+Case 52: cmp [rip], i8,  L-S-S-S, 200 blocks	Latency	408.29	nan
+Case 25: cmp [basep+o32], i32,  L-L-L-S, 200 blocks	Latency	667.8	142664.12
+Case 44: cmp [rip], i16,  L-L-L-S, 200 blocks	Latency	677.27	2652107.27
+Case 61: roundps xmm,[rip], i8,  L-L-L-S, 200 blocks	Latency	932.79	57955.22
+Case 59: cmp FS:[o32small], i32,  L-L-S-S, 200 blocks	Latency	847.18	nan
+Case 8: cmp [abs32],i16,  L-L-L-S, 200 blocks	Latency	1108.96	nan
+Case 52: cmp [rip], i8,  L-S-S-S, 100 blocks	Latency	408.64	nan
+Case 3: mov reg64,i64, L-L-L-S, 200 blocks	Latency	1121.28	nan
+Case 2: mov reg64,i64, S-L-L-L, 5 blocks	Latency	913.72	nan
+Case 60: roundps xmm,[rip], i8,  L-S-S-S, 200 blocks	Latency	332.8	13082.38
+Case 56: cmp FS:[o32small], i8,  L-L-L-S, 200 blocks	Latency	590.33	156315.74
+Case 56: cmp FS:[o32small], i8,  L-L-L-S, 100 blocks	Latency	406.15	49439.52
+Case 4: mov reg64,i64,  L-S-S-S, 200 blocks	Latency	511.73	6355.59
+Case 60: roundps xmm,[rip], i8,  L-S-S-S, 100 blocks	Latency	355.33	nan
+Case 61: roundps xmm,[rip], i8,  L-L-L-S, 100 blocks	Latency	1412.32	839082.88
+Number of branches 10	Latency	6.06	10.35
+Case 1: Tiny loop. Expect loop counter to be used	Latency	1.19	0.43
+Number of branches 100	Latency	4.54	2.82
+Number of branches 4	Latency	10.52	54.5
+Throughput fstp [m80] + fld	Throughput	31.73	3135.58
+Throughput fst [m32]	Throughput	1.67	0.0
+Throughput fstp [m64] + fld	Throughput	1.07	0.0
+Throughput fstp [m32] + fld	Throughput	1.07	0.0
+Throughput fst [m64]	Throughput	1.16	0.09
+sub r32,r32 (same register)	Latency	0.54	0.0
+pcmpgtb r128,r128 (same register)	Latency	0.98	0.0
+pcmpgtd r128,r128 (same register)	Latency	1.06	0.0
+psubusw r128,r128 (same register) + pmullw	Latency	0.55	0.0
+psubusw r65,r65 (different register) + pmullw	Latency	2.97	0.0
+xor r64,r64 (different register)	Latency	1.06	0.0
+psubusw r128,r128 (same register)	Latency	1.06	0.0
+sbb r32,r32 (same register)	Latency	2.2	0.0
+sbb r64,r64 (same register) + imul	Latency	3.97	0.0
+pcmpgtb r65,r65 (same register) + pmullw	Latency	3.22	0.0
+psubq r65,r65 (same register) + pmullw	Latency	0.54	0.0
+psubusw r65,r65 (same register)	Latency	1.06	0.0
+psubusb r65,r65 (same register)	Latency	1.06	0.0
+psubusw r65,r65 (same register) + pmullw	Latency	0.54	0.0
+cmp r16,r16 (different register) + imul	Latency	3.33	0.0
+psubusb r128,r128 (different register) + pmullw	Latency	3.22	0.0
+sub r64,r64 (different register)	Latency	0.98	0.0
+psubb r128,r128 (same register) + pmullw	Latency	0.55	0.0
+pcmpeqd r128,r128 (same register) + pmullw	Latency	0.5	0.0
+sub r16,r16 (same register)	Latency	1.06	0.0
+pcmpeqd r128,r128 (different register)	Latency	1.07	0.0
+psubusb r65,r65 (different register) + pmullw	Latency	2.97	0.0
+sub r8,r8 (different register) + add	Latency	1.07	0.0
+psubb r65,r65 (same register) + pmullw	Latency	0.5	0.0
+pxor r128,r128 (different register)	Latency	0.98	0.0
+pcmpgtw r128,r128 (different register)	Latency	1.07	0.0
+sbb r32,r32 (different register) + imul	Latency	2.01	0.0
+psubusb r128,r128 (same register)	Latency	1.06	0.0
+sbb r64,r64 (same register)	Latency	2.19	0.0
+psubusb r128,r128 (same register) + pmullw	Latency	0.5	0.0
+cmp r16,r16 (same register)	Latency	0.99	0.0
+sub r32,r32 (different register) + imul	Latency	1.49	0.0
+cmp r8,r8 (same register)	Latency	1.29	0.4
+pandn r65,r65 (same register) + pmullw	Latency	3.22	0.0
+pandn r65,r65 (different register) + pmullw	Latency	2.97	0.0
+psubsb r65,r65 (same register) + pmullw	Latency	0.54	0.0
+pcmpeqq r128,r128 (different register)	Latency	1.07	0.0
+sbb r8,r8 (different register) + add	Latency	1.68	0.0
+psubd r128,r128 (same register)	Latency	0.98	0.0
+xor r32,r32 (same register)	Latency	0.5	0.0
+pcmpeqb r128,r128 (same register) + pmullw	Latency	0.5	0.0
+psubsw r128,r128 (different register) + pmullw	Latency	3.22	0.0
+sub r64,r64 (same register) + imul	Latency	1.08	0.0
+xor r16,r16 (same register) + imul	Latency	4.83	0.0
+psubsw r65,r65 (different register)	Latency	1.06	0.0
+sbb r16,r16 (different register) + imul	Latency	5.41	0.0
+pcmpeqb r128,r128 (different register)	Latency	1.06	0.0
+xor r64,r64 (different register) + imul	Latency	4.36	0.04
+psubsb r128,r128 (same register)	Latency	0.98	0.0
+pxor r65,r65 (same register) + pmullw	Latency	0.54	0.0
+psubd r128,r128 (different register) + pmullw	Latency	3.29	0.04
+psubusb r65,r65 (same register) + pmullw	Latency	0.54	0.0
+xor r64,r64 (same register) + imul	Latency	0.99	0.0
+psubw r65,r65 (different register)	Latency	1.06	0.0
+psubd r128,r128 (different register)	Latency	1.07	0.0
+pcmpeqw r128,r128 (same register)	Latency	1.06	0.0
+pcmpeqb r128,r128 (same register)	Latency	0.98	0.0
+psubw r128,r128 (same register)	Latency	0.98	0.0
+psubusw r128,r128 (different register)	Latency	0.98	0.0
+pcmpgtw r65,r65 (different register)	Latency	1.06	0.0
+pcmpgtd r128,r128 (different register)	Latency	1.06	0.0
+psubsb r65,r65 (different register)	Latency	0.98	0.0
+pandn r128,r128 (different register)	Latency	1.07	0.0
+sbb r32,r32 (different register)	Latency	2.19	0.0
+psubusb r128,r128 (different register)	Latency	0.98	0.0
+pcmpeqd r128,r128 (same register)	Latency	0.98	0.0
+pcmpgtb r65,r65 (different register) + pmullw	Latency	3.22	0.0
+cmp r8,r8 (same register) + add	Latency	0.99	0.0
+pandn r65,r65 (different register)	Latency	0.98	0.0
+psubd r128,r128 (same register) + pmullw	Latency	0.5	0.0
+pandn r65,r65 (same register)	Latency	0.98	0.0
+pxor r128,r128 (same register) + pmullw	Latency	0.55	0.0
+psubsw r65,r65 (same register) + pmullw	Latency	0.5	0.0
+pcmpgtb r65,r65 (same register)	Latency	0.98	0.0
+sub r64,r64 (same register)	Latency	0.54	0.0
+psubw r128,r128 (different register)	Latency	1.06	0.0
+psubsw r128,r128 (same register) + pmullw	Latency	0.5	0.0
+pcmpgtb r128,r128 (different register) + pmullw	Latency	3.22	0.0
+psubw r65,r65 (same register) + pmullw	Latency	0.54	0.0
+psubq r128,r128 (same register)	Latency	1.07	0.0
+sub r8,r8 (same register) + add	Latency	1.07	0.0
+cmp r8,r8 (different register)	Latency	1.07	0.0
+psubq r128,r128 (different register) + pmullw	Latency	3.22	0.0
+cmp r64,r64 (same register) + imul	Latency	3.23	0.0
+psubq r128,r128 (same register) + pmullw	Latency	0.55	0.0
+psubsw r65,r65 (different register) + pmullw	Latency	3.22	0.0
+pcmpeqw r65,r65 (same register) + pmullw	Latency	0.5	0.0
+psubw r128,r128 (different register) + pmullw	Latency	3.22	0.0
+pcmpeqd r65,r65 (same register)	Latency	1.06	0.0
+pcmpeqb r65,r65 (different register)	Latency	1.06	0.0
+xor r64,r64 (same register)	Latency	0.5	0.0
+pcmpeqw r128,r128 (different register) + pmullw	Latency	2.97	0.0
+pcmpgtd r65,r65 (same register)	Latency	0.98	0.0
+xor r8,r8 (same register)	Latency	0.98	0.0
+pcmpgtb r128,r128 (different register)	Latency	1.06	0.0
+pcmpeqq r128,r128 (same register)	Latency	0.99	0.0
+cmp r8,r8 (different register) + add	Latency	0.99	0.0
+sbb r16,r16 (same register) + imul	Latency	4.99	0.0
+pcmpgtd r65,r65 (same register) + pmullw	Latency	2.97	0.0
+pandn r128,r128 (same register)	Latency	0.98	0.0
+cmp r16,r16 (different register)	Latency	1.07	0.0
+psubsw r128,r128 (different register)	Latency	1.06	0.0
+cmp r64,r64 (same register)	Latency	1.07	0.0
+xor r16,r16 (different register) + imul	Latency	4.45	0.0
+pcmpeqq r128,r128 (different register) + pmullw	Latency	3.22	0.0
+pcmpeqw r65,r65 (same register)	Latency	0.98	0.0
+psubsb r65,r65 (different register) + pmullw	Latency	2.97	0.0
+cmp r64,r64 (different register)	Latency	1.07	0.0
+sbb r64,r64 (different register) + imul	Latency	3.67	0.0
+xor r16,r16 (different register)	Latency	0.98	0.0
+sub r16,r16 (different register) + imul	Latency	4.46	0.0
+sub r32,r32 (different register)	Latency	0.98	0.0
+pcmpgtw r65,r65 (different register) + pmullw	Latency	3.22	0.0
+pandn r128,r128 (same register) + pmullw	Latency	3.22	0.0
+psubb r128,r128 (different register)	Latency	1.06	0.0
+cmp r32,r32 (same register) + imul	Latency	1.33	0.0
+sbb r8,r8 (same register)	Latency	2.19	0.0
+psubusb r65,r65 (different register)	Latency	0.98	0.0
+xor r32,r32 (same register) + imul	Latency	0.57	0.0
+sub r64,r64 (different register) + imul	Latency	3.96	0.0
+pcmpgtw r128,r128 (same register)	Latency	1.06	0.0
+xor r8,r8 (different register)	Latency	1.06	0.0
+psubd r65,r65 (same register) + pmullw	Latency	0.5	0.0
+psubd r65,r65 (same register)	Latency	0.98	0.0
+psubw r128,r128 (same register) + pmullw	Latency	0.67	0.24
+psubq r65,r65 (same register)	Latency	1.06	0.0
+sbb r8,r8 (same register) + add	Latency	1.68	0.0
+psubq r65,r65 (different register) + pmullw	Latency	3.03	0.04
+psubq r65,r65 (different register)	Latency	0.98	0.0
+psubq r128,r128 (different register)	Latency	0.98	0.0
+sub r16,r16 (different register)	Latency	0.98	0.0
+pcmpeqb r128,r128 (different register) + pmullw	Latency	3.22	0.0
+cmp r32,r32 (different register) + imul	Latency	1.44	0.0
+pcmpeqb r65,r65 (different register) + pmullw	Latency	3.22	0.0
+pxor r128,r128 (same register)	Latency	1.06	0.0
+xor r32,r32 (different register) + imul	Latency	1.61	0.0
+psubusw r128,r128 (different register) + pmullw	Latency	2.97	0.0
+pcmpgtb r65,r65 (different register)	Latency	1.06	0.0
+pcmpgtw r128,r128 (different register) + pmullw	Latency	3.22	0.0
+pcmpgtd r128,r128 (different register) + pmullw	Latency	3.02	0.01
+sub r8,r8 (same register)	Latency	1.07	0.0
+sbb r16,r16 (same register)	Latency	2.46	0.65
+sub r8,r8 (different register)	Latency	0.98	0.0
+xor r8,r8 (same register) + add	Latency	0.99	0.0
+psubsb r128,r128 (same register) + pmullw	Latency	0.51	0.0
+pxor r65,r65 (different register) + pmullw	Latency	2.97	0.0
+pcmpeqw r128,r128 (same register) + pmullw	Latency	0.55	0.0
+pcmpgtb r128,r128 (same register) + pmullw	Latency	3.22	0.0
+pcmpeqb r65,r65 (same register)	Latency	0.98	0.0
+psubb r128,r128 (same register)	Latency	0.98	0.0
+psubusw r65,r65 (different register)	Latency	0.98	0.0
+psubw r65,r65 (different register) + pmullw	Latency	3.22	0.0
+pcmpeqd r65,r65 (different register) + pmullw	Latency	3.22	0.0
+pcmpeqb r65,r65 (same register) + pmullw	Latency	0.5	0.0
+pandn r128,r128 (different register) + pmullw	Latency	2.97	0.0
+pxor r65,r65 (same register)	Latency	1.06	0.0
+pcmpgtw r128,r128 (same register) + pmullw	Latency	2.97	0.0
+psubd r65,r65 (different register) + pmullw	Latency	3.22	0.0
+xor r16,r16 (same register)	Latency	0.98	0.0
+psubsb r128,r128 (different register) + pmullw	Latency	2.97	0.0
+pcmpeqw r65,r65 (different register) + pmullw	Latency	3.22	0.0
+psubb r65,r65 (same register)	Latency	1.06	0.0
+sbb r8,r8 (different register)	Latency	2.09	0.04
+pcmpeqd r65,r65 (different register)	Latency	0.98	0.0
+sub r16,r16 (same register) + imul	Latency	4.83	0.0
+psubb r128,r128 (different register) + pmullw	Latency	3.22	0.0
+cmp r32,r32 (different register)	Latency	0.99	0.0
+xor r32,r32 (different register)	Latency	1.06	0.0
+psubsw r65,r65 (same register)	Latency	0.98	0.0
+cmp r64,r64 (different register) + imul	Latency	2.98	0.0
+xor r8,r8 (different register) + add	Latency	0.99	0.0
+psubb r65,r65 (different register)	Latency	0.98	0.0
+sbb r16,r16 (different register)	Latency	2.26	0.04
+pcmpgtd r65,r65 (different register) + pmullw	Latency	3.22	0.0
+pcmpeqw r128,r128 (different register)	Latency	0.98	0.0
+pcmpgtw r65,r65 (same register)	Latency	0.98	0.0
+psubb r65,r65 (different register) + pmullw	Latency	2.97	0.0
+pcmpgtd r128,r128 (same register) + pmullw	Latency	2.97	0.0
+psubsb r65,r65 (same register)	Latency	1.06	0.0
+sbb r32,r32 (same register) + imul	Latency	2.22	0.01
+cmp r16,r16 (same register) + imul	Latency	3.59	0.0
+pxor r65,r65 (different register)	Latency	0.98	0.0
+psubd r65,r65 (different register)	Latency	1.06	0.0
+pxor r128,r128 (different register) + pmullw	Latency	2.97	0.0
+sbb r64,r64 (different register)	Latency	2.02	0.0
+psubsw r128,r128 (same register)	Latency	0.98	0.0
+pcmpgtd r65,r65 (different register)	Latency	1.06	0.0
+pcmpeqd r65,r65 (same register) + pmullw	Latency	0.54	0.0
+pcmpeqd r128,r128 (different register) + pmullw	Latency	3.22	0.0
+pcmpeqw r65,r65 (different register)	Latency	1.06	0.0
+sub r32,r32 (same register) + imul	Latency	0.61	0.0
+pcmpgtw r65,r65 (same register) + pmullw	Latency	3.29	0.04
+cmp r32,r32 (same register)	Latency	1.07	0.0
+pcmpeqq r128,r128 (same register) + pmullw	Latency	2.97	0.0
+psubw r65,r65 (same register)	Latency	0.98	0.0
+psubsb r128,r128 (different register)	Latency	0.98	0.0

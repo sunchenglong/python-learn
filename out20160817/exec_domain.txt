@@ -1,0 +1,113 @@
+cvtpd2ps xmm,xmm + maxps xmm,xmm	Latency	10.69	0.0
+dppd xmm,xmm + por xmm,xmm	Latency	7.15	0.03
+pshufd xmm,xmm	Latency	0.99	0.0
+cvtps2dq xmm,xmm + maxps xmm,xmm	Latency	9.65	0.0
+insertps xmm,xmm + por xmm,xmm	Latency	3.09	0.0
+sqrtps xmm,xmm + por xmm,xmm	Latency	12.87	0.0
+movsldup xmm,xmm + por xmm,xmm	Latency	3.36	0.0
+movss xmm,xmm + por xmm,xmm	Latency	3.1	0.0
+shufps xmm,xmm + addps xmm,xmm	Latency	2.98	0.0
+maxpd xmm,xmm	Latency	2.15	0.0
+cvtps2dq xmm,xmm + por xmm,xmm	Latency	3.75	0.0
+pshufd xmm,xmm + por xmm,xmm	Latency	1.08	0.0
+pshufd xmm,xmm + addps xmm,xmm	Latency	3.76	0.0
+cvtps2pd xmm,xmm + maxps xmm,xmm	Latency	9.86	0.0
+andps xmm,xmm + por xmm,xmm	Latency	3.34	0.0
+dppd + maxpd + por xmm,xmm	Latency	5.96	0.0
+movhlps xmm,xmm	Latency	1.16	0.0
+paddw xmm,xmm + por xmm,xmm	Latency	1.07	0.0
+dpps xmm,xmm + por xmm,xmm	Latency	11.46	0.03
+blendps xmm,xmm + por xmm,xmm	Latency	3.76	0.0
+mulps xmm,xmm	Latency	3.22	0.0
+orps xmm,xmm + por xmm,xmm	Latency	3.08	0.0
+maxps xmm,xmm + paddw xmm,xmm	Latency	3.76	0.0
+shufps xmm,xmm + por xmm,xmm	Latency	3.36	0.0
+cvtps2dq + por + maxps xmm,xmm	Latency	2.98	0.0
+roundps xmm,xmm + maxps xmm,xmm	Latency	3.22	0.0
+movddup xmm,xmm + maxpd xmm,xmm	Latency	2.75	0.0
+dpps + por + maxps xmm,xmm	Latency	7.95	0.0
+movsldup xmm,xmm + maxps xmm,xmm	Latency	2.75	0.0
+pblendw xmm,xmm + maxpd xmm,xmm	Latency	3.75	0.0
+movsd xmm,xmm	Latency	1.16	0.0
+pblendw xmm,xmm	Latency	0.99	0.0
+movdqa xmm,xmm	Latency	0.99	0.0
+dpps + maxps + por xmm,xmm	Latency	8.97	0.0
+pblendw xmm,xmm + por xmm,xmm	Latency	0.99	0.0
+cvtdq2ps xmm,xmm + maxps xmm,xmm	Latency	8.91	0.0
+shufps xmm,xmm + maxps xmm,xmm	Latency	2.98	0.0
+maxps xmm,xmm	Latency	1.98	0.0
+maxps xmm,xmm + por xmm,xmm	Latency	3.47	0.0
+movdqa xmm,xmm + maxps xmm,xmm	Latency	3.75	0.0
+addps xmm,xmm	Latency	1.98	0.0
+pshufd xmm,xmm + maxpd xmm,xmm	Latency	3.76	0.0
+haddps + por + maxps xmm,xmm	Latency	3.97	0.0
+movsd xmm,xmm + maxpd xmm,xmm	Latency	2.75	0.0
+sqrtps xmm,xmm + maxps xmm,xmm	Latency	13.55	0.19
+haddps xmm,xmm + por xmm,xmm	Latency	4.83	0.0
+addpd xmm,xmm + por xmm,xmm	Latency	3.47	0.0
+mulps xmm,xmm + maxps xmm,xmm	Latency	2.97	0.0
+addps xmm,xmm + por xmm,xmm	Latency	3.47	0.0
+por xmm,xmm	Latency	0.99	0.0
+haddps xmm,xmm	Latency	5.42	0.34
+cvtdq2ps + por + maxps xmm,xmm	Latency	7.33	0.02
+cvtps2pd xmm,xmm	Latency	5.5	0.0
+haddps xmm,xmm + maxps xmm,xmm	Latency	3.47	0.0
+addps xmm,xmm + maxps xmm,xmm	Latency	2.15	0.0
+insertps xmm,xmm	Latency	1.16	0.0
+sqrtps xmm,xmm	Latency	21.85	0.04
+addpd xmm,xmm	Latency	2.15	0.0
+roundps xmm,xmm + por xmm,xmm	Latency	4.46	0.0
+shufpd xmm,xmm + maxpd xmm,xmm	Latency	2.75	0.0
+dppd xmm,xmm + maxpd xmm,xmm	Latency	6.76	0.0
+cvtps2pd xmm,xmm + por xmm,xmm	Latency	5.36	0.0
+maxps xmm,xmm + orps xmm,xmm	Latency	2.98	0.0
+movddup xmm,xmm	Latency	1.26	0.0
+movaps xmm,xmm + por xmm,xmm	Latency	3.08	0.0
+cvtpd2ps xmm,xmm	Latency	5.5	0.0
+orps xmm,xmm + maxps xmm,xmm	Latency	2.98	0.0
+dpps xmm,xmm	Latency	15.68	0.2
+movdqa xmm,xmm + por xmm,xmm	Latency	1.08	0.0
+blendps xmm,xmm	Latency	1.08	0.0
+unpcklps xmm,xmm + por xmm,xmm	Latency	3.34	0.0
+roundps xmm,xmm	Latency	3.96	0.0
+movss xmm,xmm	Latency	1.16	0.0
+movss xmm,xmm + maxps xmm,xmm	Latency	2.98	0.0
+cvtdq2ps xmm,xmm + por xmm,xmm	Latency	3.75	0.0
+cvtdq2ps xmm,xmm	Latency	16.09	0.0
+shufpd xmm,xmm	Latency	1.25	0.0
+haddps + maxps + por xmm,xmm	Latency	3.64	0.0
+movsldup xmm,xmm	Latency	1.16	0.0
+addps xmm,xmm + maxpd xmm,xmm	Latency	16.09	0.0
+shufps xmm,xmm	Latency	1.16	0.0
+shufpd xmm,xmm + por xmm,xmm	Latency	3.09	0.0
+cvtps2dq + maxps + por xmm,xmm	Latency	7.62	0.0
+movddup xmm,xmm + por xmm,xmm	Latency	3.36	0.0
+andps xmm,xmm	Latency	1.16	0.0
+movaps xmm,xmm + maxps xmm,xmm	Latency	2.75	0.0
+paddw xmm,xmm + orps xmm,xmm	Latency	3.09	0.0
+movsd xmm,xmm + por xmm,xmm	Latency	3.16	0.03
+movhlps xmm,xmm + maxps xmm,xmm	Latency	2.75	0.0
+cvtdq2ps + maxps + por xmm,xmm	Latency	2.98	0.0
+pshufd xmm,xmm + paddd xmm,xmm	Latency	1.08	0.0
+blendps xmm,xmm + maxps xmm,xmm	Latency	1.98	0.0
+orps xmm,xmm	Latency	1.25	0.0
+maxpd xmm,xmm + por xmm,xmm	Latency	3.75	0.0
+movaps xmm,xmm	Latency	1.15	0.0
+addpd xmm,xmm + orpd xmm,xmm	Latency	2.75	0.0
+insertps xmm,xmm + maxps xmm,xmm	Latency	2.98	0.0
+cvtps2dq xmm,xmm	Latency	16.83	0.0
+addps xmm,xmm + addpd xmm,xmm	Latency	16.09	0.0
+maxpd xmm,xmm + orpd xmm,xmm	Latency	2.75	0.0
+addps xmm,xmm + addps xmm,xmm	Latency	1.98	0.0
+unpcklps xmm,xmm	Latency	1.16	0.0
+mulps xmm,xmm + por xmm,xmm	Latency	3.04	0.04
+shufps xmm,xmm + paddd xmm,xmm	Latency	3.1	0.0
+movhlps xmm,xmm + por xmm,xmm	Latency	3.34	0.0
+cvtpd2ps xmm,xmm + por xmm,xmm	Latency	4.46	0.0
+unpcklps xmm,xmm + maxps xmm,xmm	Latency	3.05	0.04
+dppd xmm,xmm	Latency	9.31	0.0
+dpps xmm,xmm + maxps xmm,xmm	Latency	11.14	0.04
+maxps xmm,xmm + maxps xmm,xmm	Latency	1.98	0.0
+dppd + por + maxpd xmm,xmm	Latency	5.89	0.6
+paddw xmm,xmm	Latency	0.99	0.0
+andps xmm,xmm + maxps xmm,xmm	Latency	2.75	0.0

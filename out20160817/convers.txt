@@ -1,0 +1,217 @@
+cvtpi2ps xmm, mmx / cvtps2pi mmx, xmm / POR mmx,mmx	Latency	4.31	0.0
+cvtsi2sd xmm, r64 / cvtsd2si r64, xmm	Latency	12.87	0.0
+movd xmm,m32	Throughput	1.32	0.0
+movq xmm,r64	Throughput	1.0	0.0
+cvtsi2ss xmm,r32	Throughput	5.96	0.0
+movntpd m128, xmm / movaps xmm, m128	Latency	126.36	5.43
+mov r8, m8	Throughput	1.19	0.0
+movdqa m128, xmm	Throughput	1.8	0.0
+movq2dq xmm, mmx	Throughput	1.07	0.0
+cvtsd2si r64, xmm / cvtsi2sd xmm, r64 / MAXPD xmm,xmm	Latency	7.32	0.01
+pextrb m8,xmm,1	Throughput	1.72	0.0
+cvtsd2ss xmm,xmm	Latency	14.85	0.0
+movlps m64,xmm	Throughput	1.66	0.0
+movups m128,xmm	Throughput	1.66	0.0
+movd xmm, m32 / movd m32, xmm	Latency	2.15	0.0
+movntdqa xmm, m / movdqa m, xmm	Latency	2.15	0.0
+cvtpd2ps xmm,[m128]	Throughput	1.42	0.0
+mov r8h, m8	Throughput	1.29	0.0
+cvtss2si r64, xmm	Throughput	0.99	0.0
+cvtps2pi mmx, xmm	Throughput	1.07	0.0
+cvtdq2ps xmm,xmm	Latency	14.85	0.0
+movd mmx, r32 / movd r32, mmx	Latency	3.75	0.0
+mov m32,r32	Throughput	1.8	0.0
+mov m64,r64	Throughput	1.66	0.0
+pextrq r64, xmm,1 / movq xmm, r64	Latency	3.47	0.0
+mov r8h,r8	Throughput	0.97	0.0
+cvtsi2sd xmm,r64	Throughput	1.98	0.0
+mov r8h,r8h	Latency	0.99	0.0
+movhps m64,xmm	Throughput	1.55	0.0
+movntdqa xmm,m	Throughput	1.32	0.0
+movsd m64, xmm / movsd xmm, m64	Latency	2.22	0.04
+movntps m128,xmm	Throughput	1.67	0.0
+mov m16,r16	Throughput	1.66	0.0
+cvtps2pi mmx, xmm / cvtpi2ps xmm, mmx / POR xmm,xmm	Latency	3.97	0.0
+cvtpd2dq xmm,[m128]	Throughput	1.42	0.0
+cvtpi2pd xmm, mmx / cvtpd2pi mmx, xmm / POR mmx,mmx	Latency	4.65	0.0
+cvtpi2pd xmm,[m]	Throughput	1.34	0.0
+pextrw r32,xmm,1	Throughput	1.08	0.0
+cvtsi2ss xmm,[m32]	Throughput	6.41	0.17
+cvtsd2si r32, xmm	Throughput	0.99	0.0
+cvtss2sd xmm, xmm	Latency	16.09	0.0
+movq r64, xmm	Throughput	1.08	0.0
+mov m16, r16 / mov r16, m16	Latency	2.48	0.0
+cvtsd2si r64,[m64]	Throughput	1.24	0.0
+mov m8, r8h / mov r8h, m8	Latency	15.02	0.0
+movlpd xmm, m	Throughput	1.42	0.0
+cvtpi2ps xmm,[m]	Throughput	1.34	0.0
+movd xmm, r32	Throughput	1.08	0.0
+pinsrq xmm,r64,1	Throughput	1.0	0.0
+movdqa m128, xmm / movdqa xmm, m128	Latency	2.04	0.03
+movq mmx, r64 / movq r64, mmx	Latency	3.75	0.0
+movsd xmm,xmm	Latency	1.16	0.0
+cvtdq2ps xmm, xmm / cvtps2dq xmm, xmm	Latency	2.68	0.0
+cvtpi2pd xmm, mmx / cvtpd2pi mmx, xmm	Latency	4.68	0.0
+movapd m128, xmm / movapd xmm, m128	Latency	2.15	0.0
+movss xmm, xmm	Latency	1.22	0.03
+pextrw r32,mmx,1	Throughput	0.99	0.0
+cvtpd2dq xmm, xmm	Latency	5.96	0.0
+movlhps xmm,xmm	Latency	1.16	0.0
+movapd xmm, m128	Throughput	1.43	0.0
+cvtps2pi mmx,[m]	Throughput	1.24	0.0
+pinsrw xmm,r32,1	Throughput	1.08	0.0
+pinsrw xmm, r32,1 / movd r32, xmm	Latency	4.29	0.0
+cvtsd2si r64, xmm / cvtsi2sd xmm, r64 / POR xmm,xmm	Latency	8.25	0.0
+cvtsd2ss xmm, xmm / cvtss2sd xmm, xmm / MAXPD xmm,xmm	Latency	1.99	0.0
+mov m8, r8 / mov r8, m8	Latency	2.68	0.0
+movdqu xmm, m128	Throughput	1.32	0.0
+cvtpi2ps xmm, mmx / cvtps2pi mmx, xmm	Latency	4.83	0.0
+movq xmm, m64	Throughput	1.43	0.0
+pinsrb xmm,r32,1	Throughput	1.0	0.0
+cvtsi2sd xmm, r64 / cvtsd2si r64, xmm / OR r64,r64	Latency	8.28	0.0
+cvtsi2sd xmm,r32	Throughput	6.46	0.0
+movdqa xmm, xmm / movdqa xmm, xmm / POR xmm,xmm	Latency	1.0	0.0
+movd m32, xmm	Throughput	1.66	0.0
+movaps xmm, xmm / movaps xmm, xmm / POR xmm,xmm	Latency	2.53	0.0
+mov r8h, m8 / mov m8, r8h	Latency	15.02	0.0
+pmovmskb r32,xmm	Throughput	0.99	0.0
+cvtsi2ss xmm, r64 / cvtss2si r64, xmm	Latency	12.93	0.03
+cvtss2si r32,[m32]	Throughput	1.24	0.0
+mov r8h,m8	Throughput	1.28	0.0
+movaps xmm, m128	Throughput	1.32	0.0
+pinsrw xmm,m16,1	Throughput	0.99	0.0
+pinsrd xmm, r32,1 / movd r32, xmm	Latency	4.29	0.0
+movntpd m128,xmm	Throughput	1.55	0.0
+pextrw m16,xmm,1	Throughput	1.72	0.0
+movmskps r32, xmm / movd xmm, r32	Latency	3.75	0.0
+cvtsd2si r64, xmm	Throughput	1.08	0.0
+movq m64, xmm / movq xmm, m64	Latency	1.98	0.0
+movq mmx, m64	Throughput	1.43	0.0
+pextrd r32,xmm,1	Throughput	1.0	0.0
+movdqa m, xmm	Throughput	1.66	0.0
+cvtsi2sd xmm, r32 / cvtsd2si r32, xmm / OR r32,r32	Latency	3.36	0.02
+movq m64,mmx	Throughput	1.66	0.0
+pextrq m64,xmm,1	Throughput	1.72	0.0
+cvtpd2pi mmx, xmm	Throughput	1.57	0.0
+movlpd m, xmm / movlpd xmm, m	Latency	4.29	0.0
+movmskpd r32,xmm	Throughput	1.17	0.0
+mov r8h, r8h	Latency	1.07	0.0
+movdqa xmm, xmm / movdqa xmm, xmm / MAXPS xmm,xmm	Latency	2.69	0.02
+pextrd r32, xmm,1 / movd xmm, r32	Latency	3.76	0.0
+pextrb r32,xmm,1	Throughput	1.0	0.0
+movaps m128,xmm	Throughput	1.8	0.0
+movlhps xmm, xmm	Latency	1.15	0.0
+movdq2q mmx, xmm / movq2dq xmm, mmx	Latency	1.08	0.0
+mov m8,r8h	Throughput	1.66	0.0
+pinsrd xmm,m32,1	Throughput	1.1	0.08
+cvtsd2si r32, xmm / cvtsi2sd xmm, r32 / POR xmm,xmm	Latency	4.68	0.01
+movd mmx,r32	Throughput	1.0	0.0
+cvtsd2si r32,[m64]	Throughput	1.24	0.0
+movq m64,xmm	Throughput	1.8	0.0
+cvtdq2pd xmm, xmm / cvtpd2dq xmm, xmm / MAXPD xmm,xmm	Latency	4.52	0.0
+movaps m128, xmm / movups xmm, m128	Latency	1.98	0.0
+movd r32, xmm	Throughput	1.08	0.0
+pinsrb xmm,m8,1	Throughput	1.08	0.0
+movlps m64, xmm / movlps xmm, m64	Latency	3.96	0.0
+movq mmx,r64	Throughput	1.08	0.0
+movsd m64,xmm	Throughput	1.66	0.0
+cvtps2pi mmx, xmm / cvtpi2ps xmm, mmx / MAXPS xmm,xmm	Latency	3.69	0.02
+movss xmm, xmm / movss xmm, xmm	Latency	1.16	0.0
+pinsrw mmx, r32,1 / movd r32, mmx	Latency	4.29	0.0
+movhps xmm, m64	Throughput	1.42	0.0
+cvtpd2ps xmm,xmm	Latency	6.06	0.34
+movss m32,xmm	Throughput	1.66	0.0
+movdqu m128,xmm	Throughput	1.66	0.0
+movsd xmm, xmm / movsd xmm, xmm	Latency	1.16	0.0
+movq r64, mmx	Throughput	0.99	0.0
+cvtdq2pd xmm, xmm / cvtpd2dq xmm, xmm / POR xmm,xmm	Latency	4.69	0.02
+movlps xmm, m64	Throughput	1.31	0.0
+movhps m64, xmm / movhps xmm, m64	Latency	5.49	0.03
+cvtsi2ss xmm,r64	Throughput	1.98	0.0
+mov r64, m64	Throughput	1.56	0.27
+movaps xmm, xmm / movaps xmm, xmm / MAXPS xmm,xmm	Latency	2.13	0.0
+movdqa m128,xmm	Throughput	1.8	0.0
+movdqa xmm, m128	Throughput	1.43	0.0
+movq xmm, m64 / movq m64, xmm	Latency	2.15	0.0
+movss xmm,xmm	Latency	1.16	0.0
+lddqu xmm,m128	Throughput	1.32	0.0
+cvtpi2pd xmm,mmx	Throughput	0.99	0.0
+movd xmm,r32	Throughput	1.05	0.02
+mov r16, m16	Throughput	1.29	0.0
+movapd m128,xmm	Throughput	1.66	0.0
+cvtps2dq xmm,[m]	Throughput	1.24	0.0
+movss xmm, m32	Throughput	1.43	0.0
+cvtsd2si r32, xmm / cvtsi2sd xmm, r32 / MAXPD xmm,xmm	Latency	3.64	0.0
+mov r8h, r8 / mov r8, r8h	Latency	0.99	0.0
+mov m8,r8	Throughput	1.66	0.0
+cvtsd2ss xmm, xmm / cvtss2sd xmm, xmm / POR xmm,xmm	Latency	2.98	0.0
+cvtsi2sd xmm, r32 / cvtsd2si r32, xmm	Latency	4.83	0.0
+pextrd m32,xmm,1	Throughput	1.72	0.0
+cvtps2pd xmm,[m64]	Throughput	1.43	0.0
+pinsrd xmm,r32,1	Throughput	1.04	0.0
+lddqu xmm, m128 / movdqa m128, xmm	Latency	2.15	0.0
+mov m8, r8h	Throughput	1.8	0.0
+cvtsd2ss xmm, xmm / cvtss2sd xmm, xmm	Latency	1.98	0.0
+movd r32, mmx	Throughput	1.07	0.0
+pinsrq xmm,m64,1	Throughput	1.0	0.0
+cvtdq2pd xmm,xmm	Latency	5.96	0.0
+cvtss2sd xmm,m32	Throughput	6.33	0.03
+movntq m64, mmx / movq mmx, m64	Latency	127.23	5.09
+movaps m128, xmm / movaps xmm, m128	Latency	1.98	0.0
+movq m64, mmx / movq mmx, m64	Latency	2.15	0.0
+movmskps r32,xmm	Throughput	0.99	0.0
+mov r8h, r8h / mov r8h, r8h	Latency	0.99	0.0
+cvtps2pd xmm, xmm	Latency	5.5	0.0
+movlhps xmm, xmm / movlhps xmm, xmm	Latency	1.16	0.0
+cvtdq2ps xmm,[m]	Throughput	1.24	0.0
+cvtdq2pd xmm,[m64]	Throughput	1.45	0.0
+cvtsd2ss xmm,m64	Throughput	6.34	0.04
+movq xmm, r64	Throughput	1.0	0.0
+pinsrb xmm, r32,1 / movd r32, xmm	Latency	4.35	0.03
+cvtsi2sd xmm,[m64]	Throughput	1.98	0.0
+cvtss2si r32, xmm / cvtsi2ss xmm, r32 / MAXPS xmm,xmm	Latency	3.69	0.02
+pextrb r32, xmm,1 / movd xmm, r32	Latency	3.47	0.0
+pmovmskb r32, xmm / movd xmm, r32	Latency	3.81	0.03
+movdqu m128, xmm / movdqu xmm, m128	Latency	2.33	0.27
+movq m64, xmm	Throughput	1.66	0.0
+cvtps2dq xmm, xmm	Latency	18.3	0.04
+movnti m32,r32	Throughput	1.54	0.0
+cvtpd2pi mmx,[m]	Throughput	1.42	0.0
+movmskpd r32, xmm / movd xmm, r32	Latency	3.47	0.0
+pextrw r32, xmm,1 / movd xmm, r32	Latency	3.47	0.0
+movd mmx, r32	Throughput	1.08	0.0
+movnti m32, r32 / mov r32, m32	Latency	127.19	4.57
+movups xmm, m128	Throughput	1.32	0.0
+cvtdq2pd xmm, xmm / cvtpd2dq xmm, xmm	Latency	4.75	0.04
+cvtss2si r32, xmm	Throughput	0.99	0.0
+pinsrq xmm, r64,1 / movq r64, xmm	Latency	4.29	0.0
+pinsrw mmx,r32,1	Throughput	1.08	0.0
+cvtpd2ps xmm, xmm / cvtps2pd xmm, xmm	Latency	4.68	0.0
+cvtsi2ss xmm, r32 / cvtss2si r32, xmm / OR r32,r32	Latency	3.36	0.02
+movups m128, xmm / movaps xmm, m128	Latency	2.15	0.0
+movsd xmm, xmm	Latency	1.16	0.0
+cvtdq2ps xmm, xmm / cvtps2dq xmm, xmm / POR xmm,xmm	Latency	3.02	0.01
+cvtss2si r32, xmm / cvtsi2ss xmm, r32 / POR xmm,xmm	Latency	4.68	0.02
+movd xmm, r32 / movd r32, xmm	Latency	3.47	0.0
+cvtpi2ps xmm,mmx	Throughput	1.4	0.0
+movss m32, xmm / movss xmm, m32	Latency	2.15	0.0
+mov r8, r8h	Throughput	0.97	0.0
+movq xmm,m64	Throughput	1.32	0.0
+cvtsi2sd xmm,[m32]	Throughput	6.27	0.0
+movdq2q mmx,xmm	Throughput	0.99	0.0
+movntdq m128, xmm / movdqa xmm, m128	Latency	124.95	0.48
+movlpd m,xmm	Throughput	1.66	0.0
+movntq m64,mmx	Throughput	1.82	0.0
+mov m64, r64 / mov r64, m64	Latency	1.98	0.0
+pextrq r64,xmm,1	Throughput	1.0	0.0
+mov r32, m32	Throughput	1.43	0.0
+movntdq m128,xmm	Throughput	1.67	0.0
+movq xmm, r64 / movq r64, xmm	Latency	3.47	0.0
+cvtdq2ps xmm, xmm / cvtps2dq xmm, xmm / MAXPS xmm,xmm	Latency	11.84	0.0
+mov m32, r32 / mov r32, m32	Latency	1.98	0.0
+cvtpd2pi mmx, xmm / cvtpi2pd xmm, mmx / POR xmm,xmm	Latency	4.64	0.0
+cvtpd2pi mmx, xmm / cvtpi2pd xmm, mmx / MAXPD xmm,xmm	Latency	3.69	0.02
+cvtsi2ss xmm, r32 / cvtss2si r32, xmm	Latency	4.83	0.0
+movntps m128, xmm / movaps xmm, m128	Latency	124.78	0.39
+movsd xmm, m64	Throughput	1.43	0.0
+pextrw r32, mmx,1 / movd mmx, r32	Latency	3.76	0.0

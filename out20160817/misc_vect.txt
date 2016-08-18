@@ -1,0 +1,49 @@
+maskmovdqu r,r (pattern 0xff) + movq/dqa (x)mm,[mem]	Latency	124.74	0.49
+maskmovq r,r (pattern 0x00)	Throughput	1.93	0.0
+Throughput emms (64 bit mode)	Throughput	0.98	0.0
+blendvps r128,r128,xmm0	Throughput	1.96	0.0
+Throughput unaligned write movups [m],xmm	Throughput	1.83	0.0
+maskmovq r,r (pattern 0x02)	Throughput	1.93	0.0
+maskmovdqu r,r (pattern 0x33) + movq/dqa (x)mm,[mem]	Latency	138.44	0.56
+pblendvb r128,r128,xmm0	Throughput	2.13	0.0
+Latency with memory operand extractps  / movss	Latency	3.96	0.0
+Latency with memory operand insertps  / movss	Latency	3.96	0.0
+maskmovq r,r (pattern 0xff) + movq/dqa (x)mm,[mem]	Latency	133.15	2.79
+Throughput unaligned write movupd [m],xmm	Throughput	1.8	0.0
+maskmovdqu r,r (pattern 0xff)	Throughput	1.93	0.0
+stmxcsr m	Throughput	12.75	0.0
+maskmovdqu r,r (pattern 0x02)	Throughput	1.78	0.0
+maskmovq r,r (pattern 0x55)	Throughput	1.93	0.0
+Throughput extractps xmm,	Throughput	1.17	0.45
+Throughput unaligned write movdqu [m],xmm	Throughput	1.66	0.0
+Latency ptest xmm,xmm / sbb / movd	Latency	2.87	0.0
+Latency unaligned write+read movdqu [m],xmm / movdqu xmm,[m]	Latency	2.04	0.03
+blendps r128,r128,i	Throughput	0.98	0.0
+maskmovq r,r (pattern 0x33) + movq/dqa (x)mm,[mem]	Latency	130.69	16.94
+blendpd r128,r128,i	Throughput	0.99	0.0
+maskmovdqu r,r (pattern 0x55) + movq/dqa (x)mm,[mem]	Latency	139.57	4.18
+Throughput insertps xmm,	Throughput	1.14	0.07
+Latency unaligned write+read movupd [m],xmm / movupd xmm,[m]	Latency	2.15	0.0
+maskmovdqu r,r (pattern 0x00)	Throughput	1.78	0.0
+maskmovdqu r,r (pattern 0x33)	Throughput	1.94	0.0
+maskmovdqu r,r (pattern 0x02) + movq/dqa (x)mm,[mem]	Latency	124.93	0.64
+Throughput unaligned read movups xmm,[m]	Throughput	1.3	0.0
+maskmovq r,r (pattern 0x55) + movq/dqa (x)mm,[mem]	Latency	133.52	0.43
+ldmxcsr + stmccsr	Latency	32.25	0.05
+Throughput emms (32 bit mode)	Throughput	1.06	0.0
+Latency unaligned write+read movups [m],xmm / movups xmm,[m]	Latency	1.98	0.0
+blendps r128,[m128],i	Throughput	1.07	0.0
+maskmovq r,r (pattern 0xff)	Throughput	1.93	0.0
+Throughput unaligned read movdqu xmm,[m]	Throughput	1.3	0.0
+maskmovdqu r,r (pattern 0x55)	Throughput	1.93	0.0
+blendvps r128,[m128],xmm0	Throughput	2.13	0.0
+Throughput ptest xmm,xmm	Throughput	0.99	0.0
+maskmovq r,r (pattern 0x00) + movq/dqa (x)mm,[mem]	Latency	1.67	0.0
+Latency insertps xmm,xmm,i	Latency	1.15	0.0
+blendpd r128,[m128],i	Throughput	0.99	0.0
+maskmovq r,r (pattern 0x33)	Throughput	1.93	0.0
+maskmovdqu r,r (pattern 0x00) + movq/dqa (x)mm,[mem]	Latency	1.67	0.0
+ldmxcsr m	Throughput	30.77	0.0
+maskmovq r,r (pattern 0x02) + movq/dqa (x)mm,[mem]	Latency	133.04	2.28
+pblendvb r128,[m128],xmm0	Throughput	2.13	0.0
+Throughput unaligned read movupd xmm,[m]	Throughput	1.41	0.0

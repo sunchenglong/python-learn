@@ -1,0 +1,334 @@
+Throughput with memory source operand: cmp r64,[m64]	Throughput	1.07	0.0
+Latency with memory destination operand: cmp [m64],r64	Latency	0.98	0.0
+Throughput with memory destination operand: xchg [m32],r32	Throughput	17.85	1.81
+Latency with memory destination operand: add [m64],r64	Latency	4.9	0.0
+inc r64	Throughput	0.59	0.0
+xchg r32,r32	Throughput	1.5	0.0
+Throughput with memory destination operand: xor [m16],r16	Throughput	1.91	0.0
+Latency with memory destination operand: test [m64],r64	Latency	0.98	0.0
+Throughput with memory destination operand: add [m32],r32	Throughput	1.92	0.0
+Latency with memory operand: sub [m32], i	Latency	5.31	0.0
+mov r8, i	Throughput	0.64	0.0
+dec r32	Throughput	0.64	0.0
+Throughput with memory destination operand: or [m16],r16	Throughput	1.92	0.0
+cdq	Latency	0.5	0.0
+xor r8,r8	Throughput	0.54	0.0
+Latency with memory operand: not [m32]	Latency	4.9	0.0
+adc r32, i	Throughput	0.98	0.0
+or r8,r8	Throughput	0.5	0.0
+Latency with memory destination operand: and [m64],r64	Latency	4.9	0.0
+neg r8high	Throughput	0.99	0.0
+mov r8,r8	Throughput	0.5	0.0
+Latency with memory destination operand: and [m8],r8	Latency	5.31	0.0
+Latency with memory destination operand: add [m16],r16	Latency	4.9	0.0
+pause	Latency	5.88	0.0
+xor eax,eax / cdqe	Throughput	0.5	0.0
+Throughput with memory operand: cmp [m32], i	Throughput	0.99	0.0
+cld	Latency	3.18	0.0
+adc r32,r32	Throughput	1.06	0.0
+Latency with memory operand: cmp [m32], i	Latency	1.15	0.17
+Throughput with RIP address mode: mov r32, [m32]	Throughput	1.41	0.0
+Throughput with memory source operand: sub r64,[m64]	Throughput	1.07	0.0
+cmp r8high, i	Throughput	0.5	0.0
+clc	Latency	3.03	0.0
+or r8, i	Throughput	0.64	0.0
+popcnt r32,r32	Throughput	0.98	0.0
+dec r8high	Throughput	0.64	0.0
+Throughput with memory source operand: xchg r16,[m16]	Throughput	16.77	0.15
+inc r8high	Throughput	0.59	0.0
+Throughput with memory destination operand: sub [m32],r32	Throughput	1.77	0.0
+Latency with memory destination operand: add [m8],r8	Latency	5.31	0.0
+Throughput with memory destination operand: and [m64],r64	Throughput	1.77	0.0
+Throughput with memory source operand: sub r32,[m32]	Throughput	1.24	0.17
+xor eax,eax / cwd	Throughput	0.5	0.0
+dec r8	Throughput	0.59	0.0
+mov r16,r16	Throughput	0.5	0.0
+add r8,r8	Throughput	0.5	0.0
+Throughput with memory source operand: add r16,[m16]	Throughput	1.07	0.0
+not r16	Throughput	0.64	0.0
+sub r8high, i	Throughput	0.64	0.0
+Throughput with memory source operand: or r64,[m64]	Throughput	0.98	0.0
+add r16, i	Throughput	0.59	0.0
+Latency with memory destination operand: xchg [m8],r8	Latency	18.14	0.11
+Throughput with memory source operand: imul	Throughput	1.22	0.0
+sfence	Latency	15.86	0.0
+Throughput with memory destination operand: test [m32],r32	Throughput	0.98	0.0
+neg r32	Throughput	0.64	0.0
+Throughput with memory source operand: adc r16,[m16]	Throughput	0.98	0.0
+xor eax,eax / cdq	Throughput	0.54	0.0
+adc r8high, i	Throughput	1.06	0.0
+nop	Latency	0.64	0.0
+Latency with memory destination operand: add [m32],r32	Latency	4.9	0.0
+xor r8high, i	Throughput	0.59	0.0
+Latency with memory destination operand: adc [m8],r8	Latency	5.44	1.06
+Latency with memory destination operand: sbb [m16],r16	Latency	5.62	0.89
+Throughput with memory source operand: sbb r64,[m64]	Throughput	1.07	0.0
+Latency with memory operand: adc [m32], i	Latency	5.31	0.0
+Throughput with memory source operand: add r8,[m8]	Throughput	1.09	0.0
+add r16,r16	Throughput	0.5	0.0
+adc r8,r8	Throughput	1.06	0.0
+adc r16,r16	Throughput	1.06	0.0
+cmp r32,r32	Throughput	0.54	0.0
+cmc	Latency	3.03	0.0
+Throughput with memory source operand: adc r32,[m32]	Throughput	0.98	0.0
+Throughput with memory operand: mov [m32], i	Throughput	1.98	0.15
+Throughput with ABS64 address mode: mov r32, [m32]	Throughput	1.32	0.0
+Throughput with memory operand: test [m32], i	Throughput	1.07	0.0
+Latency with memory destination operand: adc [m16],r16	Latency	4.9	0.0
+adc r16, i	Throughput	1.06	0.0
+Latency with memory operand: add [m32], i	Latency	4.9	0.0
+Throughput with memory source operand: or r8,[m8]	Throughput	1.07	0.0
+Throughput with memory destination operand: or [m32],r32	Throughput	1.92	0.0
+imul r16,r16	Throughput	1.12	0.0
+xor eax,eax / cwde	Throughput	0.5	0.0
+adc r8, i	Throughput	1.07	0.0
+not r8high	Throughput	0.64	0.0
+Throughput with memory destination operand: xor [m32],r32	Throughput	1.77	0.0
+neg r8	Throughput	1.07	0.0
+Throughput with memory source operand: xchg r64,[m64]	Throughput	16.65	0.0
+Throughput with memory source operand: add r32,[m32]	Throughput	1.09	0.0
+bswap r32	Throughput	1.07	0.0
+and r16,r16	Throughput	0.54	0.0
+Latency with memory destination operand: xchg [m32],r32	Latency	18.03	0.0
+sbb r32,r32	Throughput	1.06	0.0
+Throughput with memory source operand: xchg r32,[m32]	Throughput	18.68	3.77
+Latency with memory destination operand: or [m8],r8	Latency	5.31	0.0
+add r32,r32	Throughput	0.5	0.0
+Throughput with memory destination operand: xchg [m16],r16	Throughput	18.03	0.0
+Throughput with memory operand: add [m32], i	Throughput	1.96	0.0
+Throughput with memory operand: neg [m32]	Throughput	2.13	0.0
+cmp r64, i	Throughput	0.51	0.0
+dec r16	Throughput	0.64	0.0
+Latency with memory operand: test [m32], i	Latency	1.07	0.0
+Latency with memory destination operand: test [m32],r32	Latency	0.98	0.0
+popcnt r64,r64	Throughput	0.98	0.0
+Latency with memory destination operand: sbb [m32],r32	Latency	4.9	0.0
+Throughput with memory source operand: test r8,[m8]	Throughput	1.07	0.0
+test r8,r8	Throughput	0.52	0.0
+Throughput with memory source operand: adc r8,[m8]	Throughput	1.0	0.0
+Latency with memory destination operand: xchg [m64],r64	Latency	17.62	2.59
+mov r64,r64	Throughput	0.5	0.0
+cmp r8, i	Throughput	0.5	0.0
+or r8high, i	Throughput	0.64	0.0
+Latency with memory destination operand: or [m32],r32	Latency	5.31	0.0
+Throughput with memory source operand: sbb r8,[m8]	Throughput	0.98	0.0
+Latency with memory operand: mov [m32], i	Latency	1.84	0.0
+Throughput with memory destination operand: cmp [m16],r16	Throughput	0.98	0.0
+and r64, i	Throughput	0.59	0.0
+Throughput with memory source operand: cmp r16,[m16]	Throughput	0.98	0.0
+xor r16,r16	Throughput	0.54	0.0
+xor r8, i	Throughput	0.59	0.0
+Latency with memory destination operand: xor [m16],r16	Latency	5.43	0.15
+cwd	Latency	0.5	0.0
+Throughput with memory source operand: bsf	Throughput	2.13	0.23
+test r32,r32	Throughput	0.5	0.0
+and r32, i	Throughput	0.59	0.0
+Latency with memory operand: sbb [m32], i	Latency	5.31	0.0
+Throughput with memory operand: or [m32], i	Throughput	2.13	0.0
+xor eax,eax / cqo	Throughput	0.54	0.0
+Throughput with memory source operand: xor r8,[m8]	Throughput	0.98	0.0
+popcnt r16,r16	Throughput	1.07	0.0
+Throughput with memory source operand: popcnt	Throughput	0.99	0.0
+add r64,r64	Throughput	0.54	0.0
+xchg r64,r64	Throughput	1.48	0.0
+Throughput with memory source operand: sub r16,[m16]	Throughput	0.98	0.0
+cmp r64,r64	Throughput	0.5	0.0
+bsr r32,r32	Throughput	1.96	0.0
+prefetcht2 [m]	Throughput	1.3	0.0
+and r16, i	Throughput	0.59	0.0
+or r64, i	Throughput	0.59	0.0
+Latency with memory destination operand: xchg [m16],r16	Latency	18.03	0.0
+Latency with memory destination operand: test [m8],r8	Latency	0.98	0.0
+Throughput with memory operand: xor [m32], i	Throughput	1.97	0.0
+Latency with memory destination operand: cmp [m32],r32	Latency	0.98	0.0
+lfence	Latency	15.85	0.0
+Throughput with INDIR address mode: mov [m32], r32	Throughput	1.65	0.0
+Throughput with memory source operand: add r64,[m64]	Throughput	0.99	0.0
+Latency with memory destination operand: cmp [m16],r16	Latency	0.98	0.0
+cmove r16,r16	Throughput	0.51	0.0
+Throughput with memory source operand: xor r64,[m64]	Throughput	0.99	0.0
+test r8, i	Throughput	0.5	0.0
+Throughput with memory destination operand: mov [m64],r64	Throughput	1.79	0.0
+dec r64	Throughput	0.64	0.0
+Latency with memory destination operand: sbb [m64],r64	Latency	4.9	0.0
+Latency with memory destination operand: mov [m8],r8	Latency	1.65	0.0
+Throughput with memory source operand: and r8,[m8]	Throughput	1.07	0.0
+sub r8, i	Throughput	0.59	0.0
+sub r64, i	Throughput	0.59	0.0
+xor r16, i	Throughput	0.59	0.0
+bsr r16,r16	Throughput	1.96	0.0
+Throughput with RIP address mode: mov [m32], r32	Throughput	1.79	0.0
+sete r8 / neg r8	Latency	1.62	0.0
+imul r64,r64	Throughput	2.12	0.0
+sbb r8, i	Throughput	1.06	0.0
+Throughput with memory destination operand: cmp [m32],r32	Throughput	0.98	0.0
+mov r32,r32	Throughput	0.5	0.0
+xor r64, i	Throughput	0.64	0.0
+Throughput with memory source operand: and r16,[m16]	Throughput	0.98	0.0
+Throughput with memory destination operand: adc [m64],r64	Throughput	1.76	0.0
+xor r64,r64	Throughput	0.54	0.0
+test r64,r64	Throughput	0.5	0.0
+sub r32, i	Throughput	0.59	0.0
+not r64	Throughput	0.64	0.0
+Throughput with memory source operand: test r64,[m64]	Throughput	1.06	0.0
+prefetchnta [m]	Throughput	1.3	0.0
+Throughput with memory source operand: xor r16,[m16]	Throughput	0.98	0.0
+add r64, i	Throughput	0.64	0.0
+Latency with memory destination operand: or [m16],r16	Latency	5.31	0.0
+Throughput with memory operand: sbb [m32], i	Throughput	1.96	0.0
+Latency with memory destination operand: cmp [m8],r8	Latency	0.98	0.0
+Throughput with memory destination operand: mov [m16],r16	Throughput	1.79	0.0
+neg r64	Throughput	0.64	0.0
+Throughput with memory destination operand: and [m8],r8	Throughput	1.96	0.0
+Throughput with memory operand: sub [m32], i	Throughput	1.96	0.0
+Latency with memory operand: neg [m32]	Latency	5.3	0.0
+cmp r8,r8	Throughput	0.54	0.0
+Throughput with memory destination operand: adc [m32],r32	Throughput	1.92	0.0
+cqo	Latency	0.54	0.0
+Throughput with memory source operand: mov r32,[m32]	Throughput	1.41	0.0
+sbb r16, i	Throughput	0.98	0.0
+and r8high, i	Throughput	0.59	0.0
+and r8,r8	Throughput	0.5	0.0
+Throughput with memory source operand: and r32,[m32]	Throughput	0.98	0.0
+Throughput with memory destination operand: test [m64],r64	Throughput	0.99	0.0
+test r64, i	Throughput	0.55	0.0
+Latency with memory destination operand: sub [m16],r16	Latency	4.9	0.0
+Throughput with memory source operand: test r16,[m16]	Throughput	1.07	0.0
+xchg r16,r16	Throughput	1.9	0.0
+Throughput with memory source operand: or r32,[m32]	Throughput	0.98	0.0
+Throughput with memory operand: inc [m32]	Throughput	1.97	0.0
+Throughput with memory destination operand: xor [m64],r64	Throughput	1.64	0.0
+test r16,r16	Throughput	0.5	0.0
+Throughput with memory source operand: sub r8,[m8]	Throughput	0.98	0.0
+cmp r32, i	Throughput	0.5	0.0
+Throughput with memory destination operand: sbb [m32],r32	Throughput	1.92	0.0
+Latency with memory operand: or [m32], i	Latency	5.31	0.0
+add r8, i	Throughput	0.64	0.0
+add r32, i	Throughput	0.64	0.0
+Latency with memory destination operand: xor [m64],r64	Latency	5.31	0.0
+Throughput with memory destination operand: sbb [m16],r16	Throughput	1.91	0.0
+Throughput with memory destination operand: or [m64],r64	Throughput	1.77	0.0
+sub r64,r64	Throughput	0.5	0.0
+Throughput with memory operand: adc [m32], i	Throughput	2.13	0.0
+Throughput with memory destination operand: sub [m64],r64	Throughput	1.63	0.0
+Throughput with memory source operand: and r64,[m64]	Throughput	0.98	0.0
+sete r8	Throughput	0.98	0.0
+or r32, i	Throughput	0.59	0.0
+Latency with memory destination operand: mov [m16],r16	Latency	2.12	0.99
+Throughput with memory operand: not [m32]	Throughput	1.96	0.0
+sbb r32, i	Throughput	0.98	0.0
+Throughput with memory source operand: or r16,[m16]	Throughput	0.98	0.0
+Throughput with memory destination operand: xchg [m8],r8	Throughput	18.04	0.0
+Throughput with memory destination operand: add [m64],r64	Throughput	1.77	0.0
+sub r16,r16	Throughput	0.54	0.0
+Latency with memory destination operand: xor [m32],r32	Latency	5.3	0.0
+Throughput with memory destination operand: sbb [m64],r64	Throughput	1.77	0.0
+not r8	Throughput	0.64	0.0
+inc r32	Throughput	0.59	0.0
+std	Latency	3.18	0.0
+Latency with memory destination operand: adc [m64],r64	Latency	4.9	0.0
+bsr r64,r64	Throughput	2.13	0.0
+test r16, i	Throughput	1.29	0.0
+sub r16, i	Throughput	0.59	0.0
+mfence	Latency	15.85	0.0
+stc	Latency	3.03	0.0
+or r16, i	Throughput	0.64	0.0
+sbb r64,r64	Throughput	0.98	0.0
+Throughput with memory source operand: test r32,[m32]	Throughput	1.09	0.01
+cmove r32,r32	Throughput	0.5	0.0
+test r8high, i	Throughput	0.5	0.0
+Throughput with memory source operand: xchg r8,[m8]	Throughput	16.64	0.0
+adc r64,r64	Throughput	0.98	0.0
+Latency with memory operand: xor [m32], i	Latency	5.31	0.0
+Throughput with memory destination operand: and [m32],r32	Throughput	1.92	0.0
+Throughput with memory source operand: mov r16,[m16]	Throughput	1.07	0.0
+Throughput with memory destination operand: mov [m8],r8	Throughput	1.66	0.0
+Throughput with memory destination operand: add [m16],r16	Throughput	1.91	0.0
+Throughput with memory destination operand: sub [m16],r16	Throughput	1.77	0.0
+Throughput with memory source operand: sbb r32,[m32]	Throughput	0.98	0.0
+Throughput with memory destination operand: xchg [m64],r64	Throughput	16.65	0.0
+Throughput with memory destination operand: adc [m8],r8	Throughput	2.12	0.0
+xor r32,r32	Throughput	0.54	0.0
+mov r8high, i	Throughput	0.64	0.0
+Throughput with memory source operand: sbb r16,[m16]	Throughput	0.98	0.0
+sbb r8,r8	Throughput	1.06	0.0
+Throughput with memory operand: and [m32], i	Throughput	1.97	0.0
+Throughput with memory destination operand: add [m8],r8	Throughput	1.96	0.0
+imul r32,r32	Throughput	1.12	0.0
+sub r8,r8	Throughput	0.55	0.0
+mov r16, i	Throughput	1.34	0.0
+Throughput with ABS32 address mode: mov r32, [m32]	Throughput	1.3	0.0
+bsf r16,r16	Throughput	2.36	0.49
+sete r8h	Throughput	1.06	0.0
+Latency with memory destination operand: test [m16],r16	Latency	0.98	0.0
+Throughput with memory destination operand: xor [m8],r8	Throughput	1.96	0.0
+Latency with memory destination operand: mov [m32],r32	Latency	1.74	0.01
+cbw	Latency	1.06	0.0
+Throughput with memory source operand: cmp r32,[m32]	Throughput	1.09	0.0
+Throughput with ABS32 address mode: mov [m32], r32	Throughput	1.72	0.04
+mov r64, i	Throughput	0.59	0.0
+prefetcht0 [m]	Throughput	1.3	0.0
+Throughput with memory destination operand: test [m16],r16	Throughput	1.07	0.0
+Throughput with memory source operand: mov r8,[m8]	Throughput	1.07	0.0
+Throughput with memory destination operand: test [m8],r8	Throughput	1.06	0.0
+or r64,r64	Throughput	0.54	0.0
+cmp r16, i	Throughput	0.5	0.0
+cdqe	Latency	0.98	0.0
+and r32,r32	Throughput	0.5	0.0
+Throughput with memory destination operand: and [m16],r16	Throughput	1.77	0.0
+or r16,r16	Throughput	0.54	0.0
+Latency with memory destination operand: adc [m32],r32	Latency	5.46	1.64
+Latency with memory operand: and [m32], i	Latency	4.9	0.0
+Throughput with memory destination operand: cmp [m8],r8	Throughput	1.07	0.0
+and r8, i	Throughput	0.59	0.0
+Latency with memory destination operand: mov [m64],r64	Latency	1.65	0.0
+Throughput with INDIR address mode: mov r32, [m32]	Throughput	1.41	0.0
+mov r32, i	Throughput	0.59	0.0
+cmp r16,r16	Throughput	0.54	0.0
+inc r8	Throughput	0.59	0.0
+xor r32, i	Throughput	0.59	0.0
+Throughput with memory source operand: cmove	Throughput	0.98	0.0
+sbb r8high, i	Throughput	0.98	0.0
+Throughput with memory destination operand: sbb [m8],r8	Throughput	2.12	0.0
+bsf r32,r32	Throughput	1.96	0.0
+inc r16	Throughput	0.59	0.0
+adc r64, i	Throughput	0.98	0.0
+bswap r64	Throughput	1.07	0.0
+Latency with memory destination operand: sub [m64],r64	Latency	4.9	0.0
+not r32	Throughput	0.59	0.0
+xchg r8,r8	Throughput	2.6	0.0
+sete, [m8]	Throughput	1.69	0.0
+Throughput with memory operand: dec [m32]	Throughput	1.96	0.0
+cmove r64,r64	Throughput	0.51	0.0
+Throughput with ABS64 address mode: mov [m32], r32	Throughput	1.65	0.0
+Latency with memory destination operand: sub [m8],r8	Latency	4.9	0.0
+Latency with memory operand: inc [m32]	Latency	4.9	0.0
+Throughput with memory destination operand: sub [m8],r8	Throughput	2.13	0.0
+xor eax,eax / cbw	Throughput	0.5	0.0
+Throughput with memory source operand: mov r64,[m64]	Throughput	1.3	0.0
+or r32,r32	Throughput	0.54	0.0
+Latency with memory destination operand: and [m32],r32	Latency	5.3	0.0
+cwde	Latency	0.98	0.0
+sbb r16,r16	Throughput	1.07	0.0
+Throughput with memory source operand: adc r64,[m64]	Throughput	1.07	0.0
+Latency with memory destination operand: sbb [m8],r8	Latency	5.61	0.82
+bsf r64,r64	Throughput	1.96	0.0
+Latency with memory destination operand: xor [m8],r8	Latency	5.01	0.11
+Throughput with memory source operand: cmp r8,[m8]	Throughput	0.98	0.0
+neg r16	Throughput	0.99	0.0
+Latency with memory destination operand: or [m64],r64	Latency	5.31	0.0
+sbb r64, i	Throughput	0.98	0.0
+test r32, i	Throughput	0.5	0.0
+Latency with memory operand: dec [m32]	Latency	4.9	0.0
+Throughput with memory destination operand: cmp [m64],r64	Throughput	0.98	0.0
+Latency with memory destination operand: and [m16],r16	Latency	5.31	0.0
+Latency with memory destination operand: sub [m32],r32	Latency	4.9	0.0
+Throughput with memory destination operand: or [m8],r8	Throughput	1.96	0.0
+and r64,r64	Throughput	0.54	0.0
+add r8high, i	Throughput	0.64	0.0
+Throughput with memory destination operand: adc [m16],r16	Throughput	1.91	0.0
+Throughput with memory destination operand: mov [m32],r32	Throughput	1.79	0.0
+prefetcht1 [m]	Throughput	1.3	0.0
+sub r32,r32	Throughput	0.5	0.0
+Throughput with memory source operand: bsr	Throughput	1.96	0.0
+Throughput with memory source operand: xor r32,[m32]	Throughput	0.98	0.0
