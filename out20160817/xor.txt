@@ -1,196 +1,200 @@
-sub r32,r32 (same register)	Latency	0.54	0.0
-pcmpgtb r128,r128 (same register)	Latency	0.98	0.0
-pcmpgtd r128,r128 (same register)	Latency	1.06	0.0
-psubusw r128,r128 (same register) + pmullw	Latency	0.55	0.0
-psubusw r65,r65 (different register) + pmullw	Latency	2.97	0.0
-xor r64,r64 (different register)	Latency	1.06	0.0
-psubusw r128,r128 (same register)	Latency	1.06	0.0
-sbb r32,r32 (same register)	Latency	2.2	0.0
-sbb r64,r64 (same register) + imul	Latency	3.97	0.0
-pcmpgtb r65,r65 (same register) + pmullw	Latency	3.22	0.0
-psubq r65,r65 (same register) + pmullw	Latency	0.54	0.0
-psubusw r65,r65 (same register)	Latency	1.06	0.0
-psubusb r65,r65 (same register)	Latency	1.06	0.0
-psubusw r65,r65 (same register) + pmullw	Latency	0.54	0.0
-cmp r16,r16 (different register) + imul	Latency	3.33	0.0
-psubusb r128,r128 (different register) + pmullw	Latency	3.22	0.0
-sub r64,r64 (different register)	Latency	0.98	0.0
-psubb r128,r128 (same register) + pmullw	Latency	0.55	0.0
-pcmpeqd r128,r128 (same register) + pmullw	Latency	0.5	0.0
-sub r16,r16 (same register)	Latency	1.06	0.0
-pcmpeqd r128,r128 (different register)	Latency	1.07	0.0
-psubusb r65,r65 (different register) + pmullw	Latency	2.97	0.0
-sub r8,r8 (different register) + add	Latency	1.07	0.0
-psubb r65,r65 (same register) + pmullw	Latency	0.5	0.0
-pxor r128,r128 (different register)	Latency	0.98	0.0
-pcmpgtw r128,r128 (different register)	Latency	1.07	0.0
-sbb r32,r32 (different register) + imul	Latency	2.01	0.0
-psubusb r128,r128 (same register)	Latency	1.06	0.0
-sbb r64,r64 (same register)	Latency	2.19	0.0
-psubusb r128,r128 (same register) + pmullw	Latency	0.5	0.0
-cmp r16,r16 (same register)	Latency	0.99	0.0
-sub r32,r32 (different register) + imul	Latency	1.49	0.0
-cmp r8,r8 (same register)	Latency	1.29	0.4
-pandn r65,r65 (same register) + pmullw	Latency	3.22	0.0
-pandn r65,r65 (different register) + pmullw	Latency	2.97	0.0
-psubsb r65,r65 (same register) + pmullw	Latency	0.54	0.0
-pcmpeqq r128,r128 (different register)	Latency	1.07	0.0
-sbb r8,r8 (different register) + add	Latency	1.68	0.0
-psubd r128,r128 (same register)	Latency	0.98	0.0
-xor r32,r32 (same register)	Latency	0.5	0.0
-pcmpeqb r128,r128 (same register) + pmullw	Latency	0.5	0.0
-psubsw r128,r128 (different register) + pmullw	Latency	3.22	0.0
-sub r64,r64 (same register) + imul	Latency	1.08	0.0
-xor r16,r16 (same register) + imul	Latency	4.83	0.0
-psubsw r65,r65 (different register)	Latency	1.06	0.0
-sbb r16,r16 (different register) + imul	Latency	5.41	0.0
-pcmpeqb r128,r128 (different register)	Latency	1.06	0.0
-xor r64,r64 (different register) + imul	Latency	4.36	0.04
-psubsb r128,r128 (same register)	Latency	0.98	0.0
-pxor r65,r65 (same register) + pmullw	Latency	0.54	0.0
-psubd r128,r128 (different register) + pmullw	Latency	3.29	0.04
-psubusb r65,r65 (same register) + pmullw	Latency	0.54	0.0
-xor r64,r64 (same register) + imul	Latency	0.99	0.0
-psubw r65,r65 (different register)	Latency	1.06	0.0
-psubd r128,r128 (different register)	Latency	1.07	0.0
-pcmpeqw r128,r128 (same register)	Latency	1.06	0.0
-pcmpeqb r128,r128 (same register)	Latency	0.98	0.0
-psubw r128,r128 (same register)	Latency	0.98	0.0
-psubusw r128,r128 (different register)	Latency	0.98	0.0
-pcmpgtw r65,r65 (different register)	Latency	1.06	0.0
-pcmpgtd r128,r128 (different register)	Latency	1.06	0.0
-psubsb r65,r65 (different register)	Latency	0.98	0.0
-pandn r128,r128 (different register)	Latency	1.07	0.0
-sbb r32,r32 (different register)	Latency	2.19	0.0
-psubusb r128,r128 (different register)	Latency	0.98	0.0
-pcmpeqd r128,r128 (same register)	Latency	0.98	0.0
-pcmpgtb r65,r65 (different register) + pmullw	Latency	3.22	0.0
-cmp r8,r8 (same register) + add	Latency	0.99	0.0
-pandn r65,r65 (different register)	Latency	0.98	0.0
-psubd r128,r128 (same register) + pmullw	Latency	0.5	0.0
-pandn r65,r65 (same register)	Latency	0.98	0.0
-pxor r128,r128 (same register) + pmullw	Latency	0.55	0.0
-psubsw r65,r65 (same register) + pmullw	Latency	0.5	0.0
-pcmpgtb r65,r65 (same register)	Latency	0.98	0.0
-sub r64,r64 (same register)	Latency	0.54	0.0
-psubw r128,r128 (different register)	Latency	1.06	0.0
-psubsw r128,r128 (same register) + pmullw	Latency	0.5	0.0
-pcmpgtb r128,r128 (different register) + pmullw	Latency	3.22	0.0
-psubw r65,r65 (same register) + pmullw	Latency	0.54	0.0
-psubq r128,r128 (same register)	Latency	1.07	0.0
-sub r8,r8 (same register) + add	Latency	1.07	0.0
-cmp r8,r8 (different register)	Latency	1.07	0.0
-psubq r128,r128 (different register) + pmullw	Latency	3.22	0.0
-cmp r64,r64 (same register) + imul	Latency	3.23	0.0
-psubq r128,r128 (same register) + pmullw	Latency	0.55	0.0
-psubsw r65,r65 (different register) + pmullw	Latency	3.22	0.0
-pcmpeqw r65,r65 (same register) + pmullw	Latency	0.5	0.0
-psubw r128,r128 (different register) + pmullw	Latency	3.22	0.0
-pcmpeqd r65,r65 (same register)	Latency	1.06	0.0
-pcmpeqb r65,r65 (different register)	Latency	1.06	0.0
-xor r64,r64 (same register)	Latency	0.5	0.0
-pcmpeqw r128,r128 (different register) + pmullw	Latency	2.97	0.0
-pcmpgtd r65,r65 (same register)	Latency	0.98	0.0
-xor r8,r8 (same register)	Latency	0.98	0.0
-pcmpgtb r128,r128 (different register)	Latency	1.06	0.0
-pcmpeqq r128,r128 (same register)	Latency	0.99	0.0
-cmp r8,r8 (different register) + add	Latency	0.99	0.0
-sbb r16,r16 (same register) + imul	Latency	4.99	0.0
-pcmpgtd r65,r65 (same register) + pmullw	Latency	2.97	0.0
-pandn r128,r128 (same register)	Latency	0.98	0.0
-cmp r16,r16 (different register)	Latency	1.07	0.0
-psubsw r128,r128 (different register)	Latency	1.06	0.0
-cmp r64,r64 (same register)	Latency	1.07	0.0
-xor r16,r16 (different register) + imul	Latency	4.45	0.0
-pcmpeqq r128,r128 (different register) + pmullw	Latency	3.22	0.0
-pcmpeqw r65,r65 (same register)	Latency	0.98	0.0
-psubsb r65,r65 (different register) + pmullw	Latency	2.97	0.0
-cmp r64,r64 (different register)	Latency	1.07	0.0
-sbb r64,r64 (different register) + imul	Latency	3.67	0.0
-xor r16,r16 (different register)	Latency	0.98	0.0
-sub r16,r16 (different register) + imul	Latency	4.46	0.0
-sub r32,r32 (different register)	Latency	0.98	0.0
-pcmpgtw r65,r65 (different register) + pmullw	Latency	3.22	0.0
-pandn r128,r128 (same register) + pmullw	Latency	3.22	0.0
-psubb r128,r128 (different register)	Latency	1.06	0.0
-cmp r32,r32 (same register) + imul	Latency	1.33	0.0
-sbb r8,r8 (same register)	Latency	2.19	0.0
-psubusb r65,r65 (different register)	Latency	0.98	0.0
-xor r32,r32 (same register) + imul	Latency	0.57	0.0
-sub r64,r64 (different register) + imul	Latency	3.96	0.0
-pcmpgtw r128,r128 (same register)	Latency	1.06	0.0
-xor r8,r8 (different register)	Latency	1.06	0.0
-psubd r65,r65 (same register) + pmullw	Latency	0.5	0.0
-psubd r65,r65 (same register)	Latency	0.98	0.0
-psubw r128,r128 (same register) + pmullw	Latency	0.67	0.24
-psubq r65,r65 (same register)	Latency	1.06	0.0
-sbb r8,r8 (same register) + add	Latency	1.68	0.0
-psubq r65,r65 (different register) + pmullw	Latency	3.03	0.04
-psubq r65,r65 (different register)	Latency	0.98	0.0
-psubq r128,r128 (different register)	Latency	0.98	0.0
-sub r16,r16 (different register)	Latency	0.98	0.0
-pcmpeqb r128,r128 (different register) + pmullw	Latency	3.22	0.0
-cmp r32,r32 (different register) + imul	Latency	1.44	0.0
-pcmpeqb r65,r65 (different register) + pmullw	Latency	3.22	0.0
-pxor r128,r128 (same register)	Latency	1.06	0.0
-xor r32,r32 (different register) + imul	Latency	1.61	0.0
-psubusw r128,r128 (different register) + pmullw	Latency	2.97	0.0
-pcmpgtb r65,r65 (different register)	Latency	1.06	0.0
-pcmpgtw r128,r128 (different register) + pmullw	Latency	3.22	0.0
-pcmpgtd r128,r128 (different register) + pmullw	Latency	3.02	0.01
-sub r8,r8 (same register)	Latency	1.07	0.0
-sbb r16,r16 (same register)	Latency	2.46	0.65
-sub r8,r8 (different register)	Latency	0.98	0.0
-xor r8,r8 (same register) + add	Latency	0.99	0.0
-psubsb r128,r128 (same register) + pmullw	Latency	0.51	0.0
-pxor r65,r65 (different register) + pmullw	Latency	2.97	0.0
-pcmpeqw r128,r128 (same register) + pmullw	Latency	0.55	0.0
-pcmpgtb r128,r128 (same register) + pmullw	Latency	3.22	0.0
-pcmpeqb r65,r65 (same register)	Latency	0.98	0.0
-psubb r128,r128 (same register)	Latency	0.98	0.0
-psubusw r65,r65 (different register)	Latency	0.98	0.0
-psubw r65,r65 (different register) + pmullw	Latency	3.22	0.0
-pcmpeqd r65,r65 (different register) + pmullw	Latency	3.22	0.0
-pcmpeqb r65,r65 (same register) + pmullw	Latency	0.5	0.0
-pandn r128,r128 (different register) + pmullw	Latency	2.97	0.0
-pxor r65,r65 (same register)	Latency	1.06	0.0
-pcmpgtw r128,r128 (same register) + pmullw	Latency	2.97	0.0
-psubd r65,r65 (different register) + pmullw	Latency	3.22	0.0
-xor r16,r16 (same register)	Latency	0.98	0.0
-psubsb r128,r128 (different register) + pmullw	Latency	2.97	0.0
-pcmpeqw r65,r65 (different register) + pmullw	Latency	3.22	0.0
-psubb r65,r65 (same register)	Latency	1.06	0.0
-sbb r8,r8 (different register)	Latency	2.09	0.04
-pcmpeqd r65,r65 (different register)	Latency	0.98	0.0
-sub r16,r16 (same register) + imul	Latency	4.83	0.0
-psubb r128,r128 (different register) + pmullw	Latency	3.22	0.0
-cmp r32,r32 (different register)	Latency	0.99	0.0
-xor r32,r32 (different register)	Latency	1.06	0.0
-psubsw r65,r65 (same register)	Latency	0.98	0.0
-cmp r64,r64 (different register) + imul	Latency	2.98	0.0
-xor r8,r8 (different register) + add	Latency	0.99	0.0
-psubb r65,r65 (different register)	Latency	0.98	0.0
-sbb r16,r16 (different register)	Latency	2.26	0.04
-pcmpgtd r65,r65 (different register) + pmullw	Latency	3.22	0.0
-pcmpeqw r128,r128 (different register)	Latency	0.98	0.0
-pcmpgtw r65,r65 (same register)	Latency	0.98	0.0
-psubb r65,r65 (different register) + pmullw	Latency	2.97	0.0
-pcmpgtd r128,r128 (same register) + pmullw	Latency	2.97	0.0
-psubsb r65,r65 (same register)	Latency	1.06	0.0
-sbb r32,r32 (same register) + imul	Latency	2.22	0.01
-cmp r16,r16 (same register) + imul	Latency	3.59	0.0
-pxor r65,r65 (different register)	Latency	0.98	0.0
-psubd r65,r65 (different register)	Latency	1.06	0.0
-pxor r128,r128 (different register) + pmullw	Latency	2.97	0.0
-sbb r64,r64 (different register)	Latency	2.02	0.0
-psubsw r128,r128 (same register)	Latency	0.98	0.0
-pcmpgtd r65,r65 (different register)	Latency	1.06	0.0
-pcmpeqd r65,r65 (same register) + pmullw	Latency	0.54	0.0
-pcmpeqd r128,r128 (different register) + pmullw	Latency	3.22	0.0
-pcmpeqw r65,r65 (different register)	Latency	1.06	0.0
-sub r32,r32 (same register) + imul	Latency	0.61	0.0
-pcmpgtw r65,r65 (same register) + pmullw	Latency	3.29	0.04
-cmp r32,r32 (same register)	Latency	1.07	0.0
-pcmpeqq r128,r128 (same register) + pmullw	Latency	2.97	0.0
-psubw r65,r65 (same register)	Latency	0.98	0.0
-psubsb r128,r128 (different register)	Latency	0.98	0.0
+sub r32,r32 (same register)	0.54	miss
+pcmpgtb r128,r128 (same register)	0.98	miss
+pcmpgtd r128,r128 (same register)	1.06	miss
+psubusw r128,r128 (same register) + pmullw	0.55	miss
+psubusw r65,r65 (different register) + pmullw	2.97	miss
+xor r64,r64 (different register)	1.06	miss
+psubusw r128,r128 (same register)	1.06	miss
+sbb r32,r32 (same register)	2.2	miss
+pcmpgtq r128,r128 (same register)	miss	miss
+sbb r64,r64 (same register) + imul	3.97	miss
+pcmpgtb r65,r65 (same register) + pmullw	3.22	miss
+psubq r65,r65 (same register) + pmullw	0.54	miss
+psubusw r65,r65 (same register)	1.06	miss
+psubusb r65,r65 (same register)	1.06	miss
+psubusw r65,r65 (same register) + pmullw	0.54	miss
+cmp r16,r16 (different register) + imul	3.33	miss
+psubusb r128,r128 (different register) + pmullw	3.22	miss
+sub r64,r64 (different register)	0.98	miss
+psubb r128,r128 (same register) + pmullw	0.55	miss
+pcmpeqd r128,r128 (same register) + pmullw	0.5	miss
+sub r16,r16 (same register)	1.06	miss
+pcmpeqd r128,r128 (different register)	1.07	miss
+psubusb r65,r65 (different register) + pmullw	2.97	miss
+sub r8,r8 (different register) + add	1.07	miss
+psubb r65,r65 (same register) + pmullw	0.5	miss
+pxor r128,r128 (different register)	0.98	miss
+pcmpgtw r128,r128 (different register)	1.07	miss
+sbb r32,r32 (different register) + imul	2.01	miss
+psubusb r128,r128 (same register)	1.06	miss
+sbb r64,r64 (same register)	2.19	miss
+psubusb r128,r128 (same register) + pmullw	0.5	miss
+cmp r16,r16 (same register)	0.99	miss
+sub r32,r32 (different register) + imul	1.49	miss
+cmp r8,r8 (same register)	1.29	miss
+pandn r65,r65 (same register) + pmullw	3.22	miss
+pandn r65,r65 (different register) + pmullw	2.97	miss
+psubsb r65,r65 (same register) + pmullw	0.54	miss
+pcmpeqq r128,r128 (different register)	1.07	miss
+sbb r8,r8 (different register) + add	1.68	miss
+psubd r128,r128 (same register)	0.98	miss
+xor r32,r32 (same register)	0.5	miss
+pcmpeqb r128,r128 (same register) + pmullw	0.5	miss
+psubsw r128,r128 (different register) + pmullw	3.22	miss
+sub r64,r64 (same register) + imul	1.08	miss
+xor r16,r16 (same register) + imul	4.83	miss
+psubsw r65,r65 (different register)	1.06	miss
+sbb r16,r16 (different register) + imul	5.41	miss
+pcmpeqb r128,r128 (different register)	1.06	miss
+xor r64,r64 (different register) + imul	4.36	miss
+psubsb r128,r128 (same register)	0.98	miss
+pxor r65,r65 (same register) + pmullw	0.54	miss
+psubd r128,r128 (different register) + pmullw	3.29	miss
+psubusb r65,r65 (same register) + pmullw	0.54	miss
+xor r64,r64 (same register) + imul	0.99	miss
+psubw r65,r65 (different register)	1.06	miss
+pcmpgtq r128,r128 (different register) + pmullw	miss	miss
+psubd r128,r128 (different register)	1.07	miss
+pcmpeqw r128,r128 (same register)	1.06	miss
+pcmpeqb r128,r128 (same register)	0.98	miss
+psubw r128,r128 (same register)	0.98	miss
+pcmpgtq r128,r128 (same register) + pmullw	miss	miss
+psubusw r128,r128 (different register)	0.98	miss
+pcmpgtw r65,r65 (different register)	1.06	miss
+pcmpgtd r128,r128 (different register)	1.06	miss
+psubsb r65,r65 (different register)	0.98	miss
+pandn r128,r128 (different register)	1.07	miss
+sbb r32,r32 (different register)	2.19	miss
+psubusb r128,r128 (different register)	0.98	miss
+pcmpeqd r128,r128 (same register)	0.98	miss
+pcmpgtb r65,r65 (different register) + pmullw	3.22	miss
+cmp r8,r8 (same register) + add	0.99	miss
+pandn r65,r65 (different register)	0.98	miss
+psubd r128,r128 (same register) + pmullw	0.5	miss
+pandn r65,r65 (same register)	0.98	miss
+pxor r128,r128 (same register) + pmullw	0.55	miss
+psubsw r65,r65 (same register) + pmullw	0.5	miss
+pcmpgtb r65,r65 (same register)	0.98	miss
+sub r64,r64 (same register)	0.54	miss
+psubw r128,r128 (different register)	1.06	miss
+psubsw r128,r128 (same register) + pmullw	0.5	miss
+pcmpgtb r128,r128 (different register) + pmullw	3.22	miss
+psubw r65,r65 (same register) + pmullw	0.54	miss
+psubq r128,r128 (same register)	1.07	miss
+sub r8,r8 (same register) + add	1.07	miss
+cmp r8,r8 (different register)	1.07	miss
+psubq r128,r128 (different register) + pmullw	3.22	miss
+cmp r64,r64 (same register) + imul	3.23	miss
+psubq r128,r128 (same register) + pmullw	0.55	miss
+psubsw r65,r65 (different register) + pmullw	3.22	miss
+pcmpeqw r65,r65 (same register) + pmullw	0.5	miss
+psubw r128,r128 (different register) + pmullw	3.22	miss
+pcmpeqd r65,r65 (same register)	1.06	miss
+pcmpeqb r65,r65 (different register)	1.06	miss
+xor r64,r64 (same register)	0.5	miss
+pcmpeqw r128,r128 (different register) + pmullw	2.97	miss
+pcmpgtd r65,r65 (same register)	0.98	miss
+xor r8,r8 (same register)	0.98	miss
+pcmpgtb r128,r128 (different register)	1.06	miss
+pcmpeqq r128,r128 (same register)	0.99	miss
+cmp r8,r8 (different register) + add	0.99	miss
+sbb r16,r16 (same register) + imul	4.99	miss
+pcmpgtd r65,r65 (same register) + pmullw	2.97	miss
+pandn r128,r128 (same register)	0.98	miss
+cmp r16,r16 (different register)	1.07	miss
+psubsw r128,r128 (different register)	1.06	miss
+cmp r64,r64 (same register)	1.07	miss
+xor r16,r16 (different register) + imul	4.45	miss
+pcmpeqq r128,r128 (different register) + pmullw	3.22	miss
+pcmpeqw r65,r65 (same register)	0.98	miss
+psubsb r65,r65 (different register) + pmullw	2.97	miss
+cmp r64,r64 (different register)	1.07	miss
+sbb r64,r64 (different register) + imul	3.67	miss
+xor r16,r16 (different register)	0.98	miss
+sub r16,r16 (different register) + imul	4.46	miss
+sub r32,r32 (different register)	0.98	miss
+pcmpgtw r65,r65 (different register) + pmullw	3.22	miss
+pandn r128,r128 (same register) + pmullw	3.22	miss
+psubb r128,r128 (different register)	1.06	miss
+cmp r32,r32 (same register) + imul	1.33	miss
+sbb r8,r8 (same register)	2.19	miss
+psubusb r65,r65 (different register)	0.98	miss
+xor r32,r32 (same register) + imul	0.57	miss
+sub r64,r64 (different register) + imul	3.96	miss
+pcmpgtw r128,r128 (same register)	1.06	miss
+xor r8,r8 (different register)	1.06	miss
+psubd r65,r65 (same register) + pmullw	0.5	miss
+psubd r65,r65 (same register)	0.98	miss
+psubw r128,r128 (same register) + pmullw	0.67	miss
+psubq r65,r65 (same register)	1.06	miss
+sbb r8,r8 (same register) + add	1.68	miss
+psubq r65,r65 (different register) + pmullw	3.03	miss
+psubq r65,r65 (different register)	0.98	miss
+psubq r128,r128 (different register)	0.98	miss
+sub r16,r16 (different register)	0.98	miss
+pcmpeqb r128,r128 (different register) + pmullw	3.22	miss
+cmp r32,r32 (different register) + imul	1.44	miss
+pcmpeqb r65,r65 (different register) + pmullw	3.22	miss
+pxor r128,r128 (same register)	1.06	miss
+xor r32,r32 (different register) + imul	1.61	miss
+psubusw r128,r128 (different register) + pmullw	2.97	miss
+pcmpgtb r65,r65 (different register)	1.06	miss
+pcmpgtw r128,r128 (different register) + pmullw	3.22	miss
+pcmpgtd r128,r128 (different register) + pmullw	3.02	miss
+sub r8,r8 (same register)	1.07	miss
+sbb r16,r16 (same register)	2.46	miss
+sub r8,r8 (different register)	0.98	miss
+xor r8,r8 (same register) + add	0.99	miss
+psubsb r128,r128 (same register) + pmullw	0.51	miss
+pxor r65,r65 (different register) + pmullw	2.97	miss
+pcmpeqw r128,r128 (same register) + pmullw	0.55	miss
+pcmpgtb r128,r128 (same register) + pmullw	3.22	miss
+pcmpeqb r65,r65 (same register)	0.98	miss
+psubb r128,r128 (same register)	0.98	miss
+psubusw r65,r65 (different register)	0.98	miss
+psubw r65,r65 (different register) + pmullw	3.22	miss
+pcmpeqd r65,r65 (different register) + pmullw	3.22	miss
+pcmpeqb r65,r65 (same register) + pmullw	0.5	miss
+pandn r128,r128 (different register) + pmullw	2.97	miss
+pxor r65,r65 (same register)	1.06	miss
+pcmpgtw r128,r128 (same register) + pmullw	2.97	miss
+psubd r65,r65 (different register) + pmullw	3.22	miss
+xor r16,r16 (same register)	0.98	miss
+psubsb r128,r128 (different register) + pmullw	2.97	miss
+pcmpeqw r65,r65 (different register) + pmullw	3.22	miss
+psubb r65,r65 (same register)	1.06	miss
+sbb r8,r8 (different register)	2.09	miss
+pcmpeqd r65,r65 (different register)	0.98	miss
+sub r16,r16 (same register) + imul	4.83	miss
+psubb r128,r128 (different register) + pmullw	3.22	miss
+cmp r32,r32 (different register)	0.99	miss
+xor r32,r32 (different register)	1.06	miss
+pcmpgtq r128,r128 (different register)	miss	miss
+psubsw r65,r65 (same register)	0.98	miss
+cmp r64,r64 (different register) + imul	2.98	miss
+xor r8,r8 (different register) + add	0.99	miss
+psubb r65,r65 (different register)	0.98	miss
+sbb r16,r16 (different register)	2.26	miss
+pcmpgtd r65,r65 (different register) + pmullw	3.22	miss
+pcmpeqw r128,r128 (different register)	0.98	miss
+pcmpgtw r65,r65 (same register)	0.98	miss
+psubb r65,r65 (different register) + pmullw	2.97	miss
+pcmpgtd r128,r128 (same register) + pmullw	2.97	miss
+psubsb r65,r65 (same register)	1.06	miss
+sbb r32,r32 (same register) + imul	2.22	miss
+cmp r16,r16 (same register) + imul	3.59	miss
+pxor r65,r65 (different register)	0.98	miss
+psubd r65,r65 (different register)	1.06	miss
+pxor r128,r128 (different register) + pmullw	2.97	miss
+sbb r64,r64 (different register)	2.02	miss
+psubsw r128,r128 (same register)	0.98	miss
+pcmpgtd r65,r65 (different register)	1.06	miss
+pcmpeqd r65,r65 (same register) + pmullw	0.54	miss
+pcmpeqd r128,r128 (different register) + pmullw	3.22	miss
+pcmpeqw r65,r65 (different register)	1.06	miss
+sub r32,r32 (same register) + imul	0.61	miss
+pcmpgtw r65,r65 (same register) + pmullw	3.29	miss
+cmp r32,r32 (same register)	1.07	miss
+pcmpeqq r128,r128 (same register) + pmullw	2.97	miss
+psubw r65,r65 (same register)	0.98	miss
+psubsb r128,r128 (different register)	0.98	miss

@@ -1,9 +1,9 @@
-pop , operand: SP	Throughput	3.11	0.0
-pop , operand: M	Throughput	2.04	0.0
-push , operand: R	Throughput	1.72	0.0
-pop , operand: F	Throughput	1.17	0.0
-push , operand: M	Throughput	1.7	0.0
-push , operand: SP	Throughput	1.72	0.0
-push , operand: I	Throughput	1.69	0.03
-push , operand: F	Throughput	1.49	0.0
-pop , operand: R	Throughput	1.17	0.0
+pop , operand: SP	miss	3.11
+pop , operand: M	miss	2.04
+push , operand: R	miss	1.72
+pop , operand: F	miss	1.17
+push , operand: M	miss	1.7
+push , operand: SP	miss	1.72
+push , operand: I	miss	1.69
+push , operand: F	miss	1.49
+pop , operand: R	miss	1.17

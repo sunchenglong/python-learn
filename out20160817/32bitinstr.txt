@@ -1,22 +1,22 @@
-into	Latency	7.65	0.19
-bound	Latency	12.74	0.0
-pushad	Latency	15.62	0.0
-aam_throughput	Latency	8.42	0.0
-enter 4, 1	Latency	50.72	0.24
-aam_latency	Latency	29.6	0.0
-enter 4, 4	Latency	68.59	0.0
-enter 4, 0	Latency	20.0	0.0
-daa	Latency	23.37	0.0
-enter 4, 2	Latency	63.99	0.0
-enter 4, 3	Latency	69.15	0.0
-das	Latency	25.5	0.0
-aad	Latency	18.63	0.0
-sahf	Latency	1.16	0.0
-aaa	Latency	38.16	0.0
-lahf_sahf	Latency	1.17	0.0
-salc	Latency	5.88	0.0
-leave	Latency	4.82	0.0
-salc_inc_al	Latency	5.43	0.0
-popad	Latency	12.22	0.02
-aas	Latency	35.22	0.0
-lahf	Latency	0.98	0.0
+into	7.65	miss
+bound	12.74	miss
+pushad	15.62	miss
+aam_throughput	8.42	miss
+enter 4, 1	50.72	miss
+aam_latency	29.6	miss
+enter 4, 4	68.59	miss
+enter 4, 0	20.0	miss
+daa	23.37	miss
+enter 4, 2	63.99	miss
+enter 4, 3	69.15	miss
+das	25.5	miss
+aad	18.63	miss
+sahf	1.16	miss
+aaa	38.16	miss
+lahf_sahf	1.17	miss
+salc	5.88	miss
+leave	4.82	miss
+salc_inc_al	5.43	miss
+popad	12.22	miss
+aas	35.22	miss
+lahf	0.98	miss

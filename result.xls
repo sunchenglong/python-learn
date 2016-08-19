@@ -1,0 +1,1676 @@
+into	7.65	miss
+bound	12.74	miss
+pushad	15.62	miss
+aam_throughput	8.42	miss
+enter 4, 1	50.72	miss
+aam_latency	29.6	miss
+enter 4, 4	68.59	miss
+enter 4, 0	20.0	miss
+daa	23.37	miss
+enter 4, 2	63.99	miss
+enter 4, 3	69.15	miss
+das	25.5	miss
+aad	18.63	miss
+sahf	1.16	miss
+aaa	38.16	miss
+lahf_sahf	1.17	miss
+salc	5.88	miss
+leave	4.82	miss
+salc_inc_al	5.43	miss
+popad	12.22	miss
+aas	35.22	miss
+lahf	0.98	miss
+cvtpi2ps xmm, mmx / cvtps2pi mmx, xmm / POR mmx,mmx	4.31	miss
+cvtsi2sd xmm, r64 / cvtsd2si r64, xmm	12.87	miss
+movd xmm,m32	miss	1.32
+movq xmm,r64	miss	1.0
+cvtsi2ss xmm,r32	miss	5.96
+movntpd m128, xmm / movaps xmm, m128	126.36	miss
+mov r8, m8	miss	1.19
+movdqa m128, xmm	miss	1.8
+movq2dq xmm, mmx	miss	1.07
+cvtsd2si r64, xmm / cvtsi2sd xmm, r64 / MAXPD xmm,xmm	7.32	miss
+pextrb m8,xmm,1	miss	1.72
+cvtsd2ss xmm,xmm	14.85	7.49
+movlps m64,xmm	miss	1.66
+movups m128,xmm	miss	1.66
+movd xmm, m32 / movd m32, xmm	2.15	miss
+movntdqa xmm, m / movdqa m, xmm	2.15	miss
+cvtpd2ps xmm,[m128]	miss	1.42
+mov r8h, m8	miss	1.29
+cvtss2si r64, xmm	miss	0.99
+cvtps2pi mmx, xmm	miss	1.07
+cvtdq2ps xmm,xmm	14.85	0.99
+movd mmx, r32 / movd r32, mmx	3.75	miss
+mov m32,r32	miss	1.8
+mov m64,r64	miss	1.66
+pextrq r64, xmm,1 / movq xmm, r64	3.47	miss
+mov r8h,r8	miss	0.97
+cvtsi2sd xmm,r64	miss	1.98
+mov r8h,r8h	0.99	0.9
+movhps m64,xmm	miss	1.55
+movntdqa xmm,m	miss	1.32
+movsd m64, xmm / movsd xmm, m64	2.22	miss
+movntps m128,xmm	miss	1.67
+mov m16,r16	miss	1.66
+cvtps2pi mmx, xmm / cvtpi2ps xmm, mmx / POR xmm,xmm	3.97	miss
+cvtpd2dq xmm,[m128]	miss	1.42
+cvtpi2pd xmm, mmx / cvtpd2pi mmx, xmm / POR mmx,mmx	4.65	miss
+cvtpi2pd xmm,[m]	miss	1.34
+pextrw r32,xmm,1	miss	1.08
+cvtsi2ss xmm,[m32]	miss	6.41
+cvtsd2si r32, xmm	miss	0.99
+cvtss2sd xmm, xmm	16.09	8.04
+movq r64, xmm	miss	1.08
+mov m16, r16 / mov r16, m16	2.48	miss
+cvtsd2si r64,[m64]	miss	1.24
+mov m8, r8h / mov r8h, m8	15.02	miss
+movlpd xmm, m	miss	1.42
+cvtpi2ps xmm,[m]	miss	1.34
+movd xmm, r32	miss	1.08
+pinsrq xmm,r64,1	miss	1.0
+movdqa m128, xmm / movdqa xmm, m128	2.04	miss
+movq mmx, r64 / movq r64, mmx	3.75	miss
+movsd xmm,xmm	1.16	1.05
+cvtdq2ps xmm, xmm / cvtps2dq xmm, xmm	2.68	miss
+cvtpi2pd xmm, mmx / cvtpd2pi mmx, xmm	4.68	miss
+movapd m128, xmm / movapd xmm, m128	2.15	miss
+movss xmm, xmm	1.22	1.14
+pextrw r32,mmx,1	miss	0.99
+cvtpd2dq xmm, xmm	5.96	1.45
+movlhps xmm,xmm	1.16	1.05
+movapd xmm, m128	miss	1.43
+cvtps2pi mmx,[m]	miss	1.24
+pinsrw xmm,r32,1	miss	1.08
+pinsrw xmm, r32,1 / movd r32, xmm	4.29	miss
+cvtsd2si r64, xmm / cvtsi2sd xmm, r64 / POR xmm,xmm	8.25	miss
+cvtsd2ss xmm, xmm / cvtss2sd xmm, xmm / MAXPD xmm,xmm	1.99	miss
+mov m8, r8 / mov r8, m8	2.68	miss
+movdqu xmm, m128	miss	1.32
+cvtpi2ps xmm, mmx / cvtps2pi mmx, xmm	4.83	miss
+movq xmm, m64	miss	1.43
+pinsrb xmm,r32,1	miss	1.0
+cvtsi2sd xmm, r64 / cvtsd2si r64, xmm / OR r64,r64	8.28	miss
+cvtsi2sd xmm,r32	miss	6.46
+movdqa xmm, xmm / movdqa xmm, xmm / POR xmm,xmm	1.0	miss
+movd m32, xmm	miss	1.66
+movaps xmm, xmm / movaps xmm, xmm / POR xmm,xmm	2.53	miss
+mov r8h, m8 / mov m8, r8h	15.02	miss
+pmovmskb r32,xmm	miss	0.99
+cvtsi2ss xmm, r64 / cvtss2si r64, xmm	12.93	miss
+cvtss2si r32,[m32]	miss	1.24
+mov r8h,m8	miss	1.28
+movaps xmm, m128	miss	1.32
+pinsrw xmm,m16,1	miss	0.99
+pinsrd xmm, r32,1 / movd r32, xmm	4.29	miss
+movntpd m128,xmm	miss	1.55
+pextrw m16,xmm,1	miss	1.72
+movmskps r32, xmm / movd xmm, r32	3.75	miss
+cvtsd2si r64, xmm	miss	1.08
+movq m64, xmm / movq xmm, m64	1.98	miss
+movq mmx, m64	miss	1.43
+pextrd r32,xmm,1	miss	1.0
+movdqa m, xmm	miss	1.66
+cvtsi2sd xmm, r32 / cvtsd2si r32, xmm / OR r32,r32	3.36	miss
+movq m64,mmx	miss	1.66
+pextrq m64,xmm,1	miss	1.72
+cvtpd2pi mmx, xmm	miss	1.57
+movlpd m, xmm / movlpd xmm, m	4.29	miss
+movmskpd r32,xmm	miss	1.17
+mov r8h, r8h	1.07	0.97
+movdqa xmm, xmm / movdqa xmm, xmm / MAXPS xmm,xmm	2.69	miss
+pextrd r32, xmm,1 / movd xmm, r32	3.76	miss
+pextrb r32,xmm,1	miss	1.0
+movaps m128,xmm	miss	1.8
+movlhps xmm, xmm	1.15	1.14
+movdq2q mmx, xmm / movq2dq xmm, mmx	1.08	miss
+mov m8,r8h	miss	1.66
+pinsrd xmm,m32,1	miss	1.1
+cvtsd2si r32, xmm / cvtsi2sd xmm, r32 / POR xmm,xmm	4.68	miss
+movd mmx,r32	miss	1.0
+cvtsd2si r32,[m64]	miss	1.24
+movq m64,xmm	miss	1.8
+cvtdq2pd xmm, xmm / cvtpd2dq xmm, xmm / MAXPD xmm,xmm	4.52	miss
+movaps m128, xmm / movups xmm, m128	1.98	miss
+movd r32, xmm	miss	1.08
+pinsrb xmm,m8,1	miss	1.08
+movlps m64, xmm / movlps xmm, m64	3.96	miss
+movq mmx,r64	miss	1.08
+movsd m64,xmm	miss	1.66
+cvtps2pi mmx, xmm / cvtpi2ps xmm, mmx / MAXPS xmm,xmm	3.69	miss
+movss xmm, xmm / movss xmm, xmm	1.16	miss
+pinsrw mmx, r32,1 / movd r32, mmx	4.29	miss
+movhps xmm, m64	miss	1.42
+cvtpd2ps xmm,xmm	6.06	1.45
+movss m32,xmm	miss	1.66
+movdqu m128,xmm	miss	1.66
+movsd xmm, xmm / movsd xmm, xmm	1.16	miss
+movq r64, mmx	miss	0.99
+cvtdq2pd xmm, xmm / cvtpd2dq xmm, xmm / POR xmm,xmm	4.69	miss
+movlps xmm, m64	miss	1.31
+movhps m64, xmm / movhps xmm, m64	5.49	miss
+cvtsi2ss xmm,r64	miss	1.98
+mov r64, m64	miss	1.56
+movaps xmm, xmm / movaps xmm, xmm / MAXPS xmm,xmm	2.13	miss
+movdqa m128,xmm	miss	1.8
+movdqa xmm, m128	miss	1.43
+movq xmm, m64 / movq m64, xmm	2.15	miss
+movss xmm,xmm	1.16	1.05
+lddqu xmm,m128	miss	1.32
+cvtpi2pd xmm,mmx	miss	0.99
+movd xmm,r32	miss	1.05
+mov r16, m16	miss	1.29
+movapd m128,xmm	miss	1.66
+cvtps2dq xmm,[m]	miss	1.24
+movss xmm, m32	miss	1.43
+cvtsd2si r32, xmm / cvtsi2sd xmm, r32 / MAXPD xmm,xmm	3.64	miss
+mov r8h, r8 / mov r8, r8h	0.99	miss
+mov m8,r8	miss	1.66
+cvtsd2ss xmm, xmm / cvtss2sd xmm, xmm / POR xmm,xmm	2.98	miss
+cvtsi2sd xmm, r32 / cvtsd2si r32, xmm	4.83	miss
+pextrd m32,xmm,1	miss	1.72
+cvtps2pd xmm,[m64]	miss	1.43
+pinsrd xmm,r32,1	miss	1.04
+lddqu xmm, m128 / movdqa m128, xmm	2.15	miss
+mov m8, r8h	miss	1.8
+cvtsd2ss xmm, xmm / cvtss2sd xmm, xmm	1.98	miss
+movd r32, mmx	miss	1.07
+pinsrq xmm,m64,1	miss	1.0
+cvtdq2pd xmm,xmm	5.96	0.99
+cvtss2sd xmm,m32	miss	6.33
+movntq m64, mmx / movq mmx, m64	127.23	miss
+movaps m128, xmm / movaps xmm, m128	1.98	miss
+movq m64, mmx / movq mmx, m64	2.15	miss
+movmskps r32,xmm	miss	0.99
+mov r8h, r8h / mov r8h, r8h	0.99	miss
+cvtps2pd xmm, xmm	5.5	1.08
+movlhps xmm, xmm / movlhps xmm, xmm	1.16	miss
+cvtdq2ps xmm,[m]	miss	1.24
+cvtdq2pd xmm,[m64]	miss	1.45
+cvtsd2ss xmm,m64	miss	6.34
+movq xmm, r64	miss	1.0
+pinsrb xmm, r32,1 / movd r32, xmm	4.35	miss
+cvtsi2sd xmm,[m64]	miss	1.98
+cvtss2si r32, xmm / cvtsi2ss xmm, r32 / MAXPS xmm,xmm	3.69	miss
+pextrb r32, xmm,1 / movd xmm, r32	3.47	miss
+pmovmskb r32, xmm / movd xmm, r32	3.81	miss
+movdqu m128, xmm / movdqu xmm, m128	2.33	miss
+movq m64, xmm	miss	1.66
+cvtps2dq xmm, xmm	18.3	1.07
+movnti m32,r32	miss	1.54
+cvtpd2pi mmx,[m]	miss	1.42
+movmskpd r32, xmm / movd xmm, r32	3.47	miss
+pextrw r32, xmm,1 / movd xmm, r32	3.47	miss
+movd mmx, r32	miss	1.08
+movnti m32, r32 / mov r32, m32	127.19	miss
+movups xmm, m128	miss	1.32
+cvtdq2pd xmm, xmm / cvtpd2dq xmm, xmm	4.75	miss
+cvtss2si r32, xmm	miss	0.99
+pinsrq xmm, r64,1 / movq r64, xmm	4.29	miss
+pinsrw mmx,r32,1	miss	1.08
+cvtpd2ps xmm, xmm / cvtps2pd xmm, xmm	4.68	miss
+cvtsi2ss xmm, r32 / cvtss2si r32, xmm / OR r32,r32	3.36	miss
+movups m128, xmm / movaps xmm, m128	2.15	miss
+movsd xmm, xmm	1.16	1.14
+cvtdq2ps xmm, xmm / cvtps2dq xmm, xmm / POR xmm,xmm	3.02	miss
+cvtss2si r32, xmm / cvtsi2ss xmm, r32 / POR xmm,xmm	4.68	miss
+movd xmm, r32 / movd r32, xmm	3.47	miss
+cvtpi2ps xmm,mmx	miss	1.4
+movss m32, xmm / movss xmm, m32	2.15	miss
+mov r8, r8h	miss	0.97
+movq xmm,m64	miss	1.32
+cvtsi2sd xmm,[m32]	miss	6.27
+movdq2q mmx,xmm	miss	0.99
+movntdq m128, xmm / movdqa xmm, m128	124.95	miss
+movlpd m,xmm	miss	1.66
+movntq m64,mmx	miss	1.82
+mov m64, r64 / mov r64, m64	1.98	miss
+pextrq r64,xmm,1	miss	1.0
+mov r32, m32	miss	1.43
+movntdq m128,xmm	miss	1.67
+movq xmm, r64 / movq r64, xmm	3.47	miss
+cvtdq2ps xmm, xmm / cvtps2dq xmm, xmm / MAXPS xmm,xmm	11.84	miss
+mov m32, r32 / mov r32, m32	1.98	miss
+cvtpd2pi mmx, xmm / cvtpi2pd xmm, mmx / POR xmm,xmm	4.64	miss
+cvtpd2pi mmx, xmm / cvtpi2pd xmm, mmx / MAXPD xmm,xmm	3.69	miss
+cvtsi2ss xmm, r32 / cvtss2si r32, xmm	4.83	miss
+movntps m128, xmm / movaps xmm, m128	124.78	miss
+movsd xmm, m64	miss	1.43
+pextrw r32, mmx,1 / movd mmx, r32	3.76	miss
+idiv , registersize 16	10.59	7.61
+div , registersize 32, 1 / 1	7.39	4.97
+idiv , registersize 32	9.05	7.22
+idiv , registersize 64	70.22	66.91
+idiv , registersize 8, 1 / 1	8.5	6.99
+div , registersize 32	9.62	6.99
+idiv , registersize 32, 1 / 1	6.4	5.06
+div , registersize 64, 1 / 1	49.08	52.04
+div , registersize 8	8.19	4.97
+idiv , registersize 16, 1 / 1	8.6	7.66
+idiv , registersize 64, 1 / 1	60.28	61.55
+div , registersize 16, 1 / 1	8.22	5.96
+div , registersize 8, 1 / 1	7.43	4.97
+idiv , registersize 8	8.48	6.95
+div , registersize 64	53.68	54.97
+div , registersize 16	10.24	5.96
+cvtpd2ps xmm,xmm + maxps xmm,xmm	10.69	miss
+dppd xmm,xmm + por xmm,xmm	7.15	miss
+pshufd xmm,xmm	0.99	miss
+cvtps2dq xmm,xmm + maxps xmm,xmm	9.65	miss
+insertps xmm,xmm + por xmm,xmm	3.09	miss
+sqrtps xmm,xmm + por xmm,xmm	12.87	miss
+movsldup xmm,xmm + por xmm,xmm	3.36	miss
+movss xmm,xmm + por xmm,xmm	3.1	miss
+shufps xmm,xmm + addps xmm,xmm	2.98	miss
+maxpd xmm,xmm	2.15	miss
+cvtps2dq xmm,xmm + por xmm,xmm	3.75	miss
+pshufd xmm,xmm + por xmm,xmm	1.08	miss
+pshufd xmm,xmm + addps xmm,xmm	3.76	miss
+cvtps2pd xmm,xmm + maxps xmm,xmm	9.86	miss
+andps xmm,xmm + por xmm,xmm	3.34	miss
+dppd + maxpd + por xmm,xmm	5.96	miss
+movhlps xmm,xmm	1.16	miss
+paddw xmm,xmm + por xmm,xmm	1.07	miss
+dpps xmm,xmm + por xmm,xmm	11.46	miss
+blendps xmm,xmm + por xmm,xmm	3.76	miss
+mulps xmm,xmm	3.22	miss
+orps xmm,xmm + por xmm,xmm	3.08	miss
+maxps xmm,xmm + paddw xmm,xmm	3.76	miss
+shufps xmm,xmm + por xmm,xmm	3.36	miss
+cvtps2dq + por + maxps xmm,xmm	2.98	miss
+roundps xmm,xmm + maxps xmm,xmm	3.22	miss
+movddup xmm,xmm + maxpd xmm,xmm	2.75	miss
+dpps + por + maxps xmm,xmm	7.95	miss
+movsldup xmm,xmm + maxps xmm,xmm	2.75	miss
+pblendw xmm,xmm + maxpd xmm,xmm	3.75	miss
+movsd xmm,xmm	1.16	miss
+pblendw xmm,xmm	0.99	miss
+movdqa xmm,xmm	0.99	miss
+dpps + maxps + por xmm,xmm	8.97	miss
+pblendw xmm,xmm + por xmm,xmm	0.99	miss
+cvtdq2ps xmm,xmm + maxps xmm,xmm	8.91	miss
+shufps xmm,xmm + maxps xmm,xmm	2.98	miss
+maxps xmm,xmm	1.98	miss
+maxps xmm,xmm + por xmm,xmm	3.47	miss
+movdqa xmm,xmm + maxps xmm,xmm	3.75	miss
+addps xmm,xmm	1.98	miss
+pshufd xmm,xmm + maxpd xmm,xmm	3.76	miss
+haddps + por + maxps xmm,xmm	3.97	miss
+movsd xmm,xmm + maxpd xmm,xmm	2.75	miss
+sqrtps xmm,xmm + maxps xmm,xmm	13.55	miss
+haddps xmm,xmm + por xmm,xmm	4.83	miss
+addpd xmm,xmm + por xmm,xmm	3.47	miss
+mulps xmm,xmm + maxps xmm,xmm	2.97	miss
+addps xmm,xmm + por xmm,xmm	3.47	miss
+por xmm,xmm	0.99	miss
+haddps xmm,xmm	5.42	miss
+cvtdq2ps + por + maxps xmm,xmm	7.33	miss
+cvtps2pd xmm,xmm	5.5	miss
+haddps xmm,xmm + maxps xmm,xmm	3.47	miss
+addps xmm,xmm + maxps xmm,xmm	2.15	miss
+insertps xmm,xmm	1.16	miss
+sqrtps xmm,xmm	21.85	miss
+addpd xmm,xmm	2.15	miss
+roundps xmm,xmm + por xmm,xmm	4.46	miss
+shufpd xmm,xmm + maxpd xmm,xmm	2.75	miss
+dppd xmm,xmm + maxpd xmm,xmm	6.76	miss
+cvtps2pd xmm,xmm + por xmm,xmm	5.36	miss
+maxps xmm,xmm + orps xmm,xmm	2.98	miss
+movddup xmm,xmm	1.26	miss
+movaps xmm,xmm + por xmm,xmm	3.08	miss
+cvtpd2ps xmm,xmm	5.5	miss
+orps xmm,xmm + maxps xmm,xmm	2.98	miss
+dpps xmm,xmm	15.68	miss
+movdqa xmm,xmm + por xmm,xmm	1.08	miss
+blendps xmm,xmm	1.08	miss
+unpcklps xmm,xmm + por xmm,xmm	3.34	miss
+roundps xmm,xmm	3.96	miss
+movss xmm,xmm	1.16	miss
+movss xmm,xmm + maxps xmm,xmm	2.98	miss
+cvtdq2ps xmm,xmm + por xmm,xmm	3.75	miss
+cvtdq2ps xmm,xmm	16.09	miss
+shufpd xmm,xmm	1.25	miss
+haddps + maxps + por xmm,xmm	3.64	miss
+movsldup xmm,xmm	1.16	miss
+addps xmm,xmm + maxpd xmm,xmm	16.09	miss
+shufps xmm,xmm	1.16	miss
+shufpd xmm,xmm + por xmm,xmm	3.09	miss
+cvtps2dq + maxps + por xmm,xmm	7.62	miss
+movddup xmm,xmm + por xmm,xmm	3.36	miss
+andps xmm,xmm	1.16	miss
+movaps xmm,xmm + maxps xmm,xmm	2.75	miss
+paddw xmm,xmm + orps xmm,xmm	3.09	miss
+movsd xmm,xmm + por xmm,xmm	3.16	miss
+movhlps xmm,xmm + maxps xmm,xmm	2.75	miss
+cvtdq2ps + maxps + por xmm,xmm	2.98	miss
+pshufd xmm,xmm + paddd xmm,xmm	1.08	miss
+blendps xmm,xmm + maxps xmm,xmm	1.98	miss
+orps xmm,xmm	1.25	miss
+maxpd xmm,xmm + por xmm,xmm	3.75	miss
+movaps xmm,xmm	1.15	miss
+addpd xmm,xmm + orpd xmm,xmm	2.75	miss
+insertps xmm,xmm + maxps xmm,xmm	2.98	miss
+cvtps2dq xmm,xmm	16.83	miss
+addps xmm,xmm + addpd xmm,xmm	16.09	miss
+maxpd xmm,xmm + orpd xmm,xmm	2.75	miss
+addps xmm,xmm + addps xmm,xmm	1.98	miss
+unpcklps xmm,xmm	1.16	miss
+mulps xmm,xmm + por xmm,xmm	3.04	miss
+shufps xmm,xmm + paddd xmm,xmm	3.1	miss
+movhlps xmm,xmm + por xmm,xmm	3.34	miss
+cvtpd2ps xmm,xmm + por xmm,xmm	4.46	miss
+unpcklps xmm,xmm + maxps xmm,xmm	3.05	miss
+dppd xmm,xmm	9.31	miss
+dpps xmm,xmm + maxps xmm,xmm	11.14	miss
+maxps xmm,xmm + maxps xmm,xmm	1.98	miss
+dppd + por + maxpd xmm,xmm	5.89	miss
+paddw xmm,xmm	0.99	miss
+andps xmm,xmm + maxps xmm,xmm	2.75	miss
+shufpd r128,r128,i	1.15	0.54
+mulpd r128,r128	4.24	2.12
+orpd r128,[m]	miss	1.3
+movshdup r128,r128	1.25	0.57
+dpps r128,[m128],i	miss	9.55
+cvttps2dq r128,[m]	miss	1.23
+mulps r128,r128	3.18	1.06
+comiss r128,[m]	miss	1.23
+andps r128,[m]	miss	1.41
+minps r128,[m]	miss	1.23
+unpcklpd r128,r128	1.24	0.57
+minsd r128,r128	1.96	0.98
+comiss r128,r128	0.98	0.98
+divss r128,r128 (best case)	13.11	6.49
+maxss r128,[m]	miss	1.23
+cmpeqss r128,r128	2.04	0.98
+sqrtsd r128,[m128] (worst case)	miss	61.07
+divsd r128,r128 (best case)	15.25	6.97
+cmpeqps r128,r128	1.96	0.98
+divpd r128,r128 (best case)	24.64	11.04
+dppd r128,r128,i	10.08	6.37
+rcpss r128,r128	5.29	5.3
+sqrtsd r128,r128 (worst case)	61.16	61.16
+cmpeqps r128,[m]	miss	1.23
+andps r128,r128	1.15	0.54
+mulss r128,r128	2.94	0.98
+roundpd r128,[m128],i	miss	1.96
+roundpd r128,r128,i	4.24	2.13
+mulsd r128,[m]	miss	1.96
+orpd r128,r128	1.15	0.52
+rsqrtss r128,[m128]	miss	5.31
+movapd r128,[m]	miss	1.41
+movshdup r128,[m]	miss	1.31
+ucomisd r128,[m]	miss	1.23
+roundsd r128,[m128],i	miss	1.97
+sqrtpd r128,r128 (worst case)	119.53	119.84
+rsqrtps r128,[m128]	miss	22.08
+unpckhps r128,[m]	miss	1.3
+sqrtss r128,[m128] (worst case)	miss	32.93
+cmpltpd r128,r128	1.96	0.98
+movapd r128,r128	1.24	0.57
+cvtps2pd r128,[m]	miss	1.31
+blendps r128,[m128],i	miss	0.99
+rcpss r128,[m128]	miss	4.9
+rsqrtss r128,r128	5.3	5.32
+haddps r128,r128	4.89	2.94
+roundps r128,r128,i	4.04	1.96
+ucomisd r128,r128	0.98	0.98
+cvtdq2ps r128,r128	15.9	1.06
+shufps r128,r128,i	1.15	0.54
+rsqrtps r128,r128	13.7	11.26
+addss r128,[m]	miss	1.33
+movups r128,r128	1.24	0.54
+sqrtss r128,[m128] (best case)	miss	32.42
+maxpd r128,[m]	miss	1.23
+shufps r128,[m128],i	miss	1.41
+shufpd r128,[m128],i	miss	1.41
+hsubpd r128,[m]	miss	4.9
+movupd r128,[m]	miss	1.3
+movaps r128,r128	1.24	0.54
+haddps r128,[m]	miss	4.9
+roundps r128,[m128],i	miss	2.13
+roundss r128,[m128],i	miss	1.96
+sqrtps r128,[m128] (best case)	miss	62.88
+sqrtss r128,r128 (best case)	32.97	32.52
+subsd r128,r128	1.96	0.98
+movupd r128,r128	1.15	0.57
+movddup r128,[m]	miss	1.3
+dpps r128,r128,i	15.32	8.81
+movddup r128,r128	1.15	0.53
+hsubpd r128,r128	5.3	2.94
+unpcklpd r128,[m]	miss	1.3
+rcpps r128,[m128]	miss	22.29
+blendpd r128,r128,i	0.98	0.98
+mulps r128,[m]	miss	1.23
+cvtpd2ps r128,[m]	miss	1.41
+cvtdq2ps r128,[m]	miss	1.23
+addps r128,[m]	miss	1.23
+Instructions with two operands and one immediate operand	miss	miss
+cvtpd2ps r128,r128	5.89	1.43
+divpd r128,r128 (worst case)	19.56	18.89
+movaps r128,[m]	miss	1.41
+maxss r128,r128	1.96	0.98
+cmpeqss r128,[m]	miss	1.23
+addss r128,r128	1.96	0.98
+rcpps r128,r128	13.7	11.18
+blendpd r128,[m128],i	miss	0.99
+movups r128,[m]	miss	1.3
+minsd r128,[m]	miss	1.23
+roundsd r128,r128,i	3.92	1.96
+mulsd r128,r128	3.92	1.96
+cmpltpd r128,[m]	miss	1.24
+subpd r128,r128	2.12	0.98
+sqrtps r128,r128 (best case)	63.15	63.46
+movsldup r128,r128	1.24	0.53
+sqrtsd r128,r128 (best case)	61.15	60.92
+sqrtpd r128,r128 (best case)	118.95	120.36
+minps r128,r128	1.96	0.98
+sqrtsd r128,[m128] (best case)	miss	60.92
+sqrtpd r128,[m128] (worst case)	miss	119.92
+sqrtps r128,r128 (worst case)	62.37	63.61
+cvtpd2dq r128,[m]	miss	1.53
+divps r128,r128 (worst case)	14.33	12.05
+Instructions with two operands	miss	miss
+sqrtps r128,[m128] (worst case)	miss	63.07
+blendps r128,r128,i	1.07	0.99
+sqrtpd r128,[m128] (best case)	miss	119.94
+cvtps2pd r128,r128	5.89	1.06
+mulss r128,[m]	miss	1.23
+cvtdq2pd r128,[m]	miss	1.33
+subpd r128,[m]	miss	1.23
+divps r128,r128 (best case)	23.38	12.52
+addsubps r128,r128	2.06	0.98
+sqrtss r128,r128 (worst case)	32.34	32.43
+movsldup r128,[m]	miss	1.75
+subsd r128,[m]	miss	1.23
+cvttps2dq r128,r128	18.02	1.06
+cvtdq2pd r128,r128	5.44	0.99
+divsd r128,r128 (worst case)	10.69	9.95
+addps r128,r128	2.12	0.98
+unpckhps r128,r128	1.24	0.54
+addsubps r128,[m]	miss	1.24
+cvtpd2dq r128,r128	5.44	1.43
+dppd r128,[m128],i	miss	5.88
+divss r128,r128 (worst case)	7.9	6.44
+maxpd r128,r128	1.96	0.98
+mulpd r128,[m]	miss	1.96
+roundss r128,r128,i	3.92	1.96
+and r32,[m32]	miss	0.98
+add r16,[m16]	miss	1.07
+and r8,r8	0.99	0.5
+inc r64	0.98	0.59
+mov [m64],r64	1.65	1.79
+xchg r32,r32	2.88	1.5
+or r8,[m8]	miss	1.07
+xor r16,[m16]	miss	0.98
+imul	miss	1.22
+sbb r8,r8	1.06	1.06
+Latency with memory operand: sub [m32], i	5.31	miss
+mov r8, i	0.98	0.64
+dec r32	0.98	0.64
+test r32,[m32]	miss	1.09
+cdq	0.5	miss
+Latency with memory operand: not [m32]	4.9	miss
+adc r32, i	1.06	0.98
+add [m64],r64	4.9	1.77
+xor r16,r16	1.06	0.54
+test [m64],r64	0.98	0.99
+neg r8high	2.12	0.99
+sub [m32], i	miss	1.96
+pause	5.88	miss
+xor eax,eax / cdqe	miss	0.5
+cld	3.18	miss
+adc r32,r32	1.07	1.06
+Latency with memory operand: cmp [m32], i	1.15	miss
+Throughput with RIP address mode: mov r32, [m32]	miss	1.41
+cmp [m16],r16	0.98	0.98
+mov r32, i	1.06	0.59
+cmp r8high, i	miss	0.5
+clc	3.03	miss
+or r8, i	0.98	0.64
+popcnt r32,r32	2.13	0.98
+mov [m32],r32	1.74	1.79
+Instructions with one operand	miss	miss
+dec r8high	1.06	0.64
+cmove r32,r32	0.99	0.5
+inc r8high	1.06	0.59
+popcnt r64,r64	2.13	0.98
+bsr r16,r16	1.96	1.96
+add [m16],r16	4.9	1.91
+xor eax,eax / cwd	miss	0.5
+dec r8	1.07	0.59
+mov r16,r16	1.06	0.5
+sub r8,[m8]	miss	0.98
+add r8,r8	1.06	0.5
+not r16	0.98	0.64
+sub r8high, i	miss	0.64
+cmp [m8],r8	0.98	1.07
+add r16, i	0.98	0.59
+sfence	15.86	miss
+or [m64],r64	5.31	1.77
+or r16,[m16]	miss	0.98
+neg r32	0.98	0.64
+xor eax,eax / cdq	miss	0.54
+adc r8high, i	miss	1.06
+Instructions with two operands	miss	miss
+nop	0.64	miss
+cmp r64,[m64]	miss	1.07
+xor r8high, i	miss	0.59
+adc [m8],r8	5.44	2.12
+xchg r8,[m8]	miss	16.64
+Latency with memory operand: adc [m32], i	5.31	miss
+add r16,r16	0.98	0.5
+adc r8,r8	0.98	1.06
+adc r16,r16	1.06	1.06
+cmp r32,r32	0.54	0.54
+cmc	3.03	miss
+adc r32,[m32]	miss	0.98
+cmp r64, i	0.5	0.51
+Throughput with ABS64 address mode: mov r32, [m32]	miss	1.32
+xor r32,r32	1.06	0.54
+adc r16, i	1.07	1.06
+Latency with memory operand: add [m32], i	4.9	miss
+imul r16,r16	1.98	1.12
+cmp r8,[m8]	miss	0.98
+xor eax,eax / cwde	miss	0.5
+adc r8, i	1.06	1.07
+not r8high	1.06	0.64
+sub r64,[m64]	miss	1.07
+neg r8	2.12	1.07
+and r64,r64	1.1	0.54
+bswap r32	0.99	1.07
+and r16,r16	1.06	0.54
+test [m8],r8	0.98	1.06
+mov r16,[m16]	miss	1.07
+adc [m32], i	miss	2.13
+sub [m64],r64	4.9	1.63
+sbb r32,r32	1.06	1.06
+and [m32], i	miss	1.97
+cmp [m32], i	miss	0.99
+add r32,r32	0.98	0.5
+mov [m32], i	miss	1.98
+Throughput with ABS32 address mode: mov [m32], r32	miss	1.72
+or [m16],r16	5.31	1.92
+and [m32],r32	5.3	1.92
+dec r16	0.98	0.64
+Latency with memory operand: test [m32], i	1.07	miss
+test r64,[m64]	miss	1.06
+xchg [m32],r32	18.03	17.85
+test r8,r8	0.65	0.52
+sbb r8,[m8]	miss	0.98
+mov r64,r64	1.06	0.5
+cmp r8, i	0.54	0.5
+xor [m32],r32	5.3	1.77
+or r8high, i	miss	0.64
+Latency with memory operand: mov [m32], i	1.84	miss
+popcnt r16,r16	2.13	1.07
+and r64, i	0.98	0.59
+mov [m8],r8	1.65	1.66
+xor r8, i	0.98	0.59
+mov r8,r8	0.98	0.5
+imul r64,r64	4.9	2.12
+cwd	0.5	miss
+adc [m64],r64	4.9	1.76
+and r32, i	0.98	0.59
+Throughput with ABS32 address mode: mov r32, [m32]	miss	1.3
+popcnt	miss	0.99
+xor eax,eax / cqo	miss	0.54
+sbb [m32],r32	4.9	1.92
+and [m64],r64	4.9	1.77
+add r64,r64	0.98	0.54
+xchg r64,r64	2.88	1.48
+xor r8,r8	1.07	0.54
+cmp r64,r64	0.54	0.5
+bsr r32,r32	1.96	1.96
+and r16, i	0.98	0.59
+or r64, i	1.06	0.59
+or r32,[m32]	miss	0.98
+xchg r16,[m16]	miss	16.77
+lfence	15.85	miss
+Throughput with INDIR address mode: mov [m32], r32	miss	1.65
+add r32,[m32]	miss	1.09
+add r8,[m8]	miss	1.09
+test r8, i	0.5	0.5
+dec r64	0.98	0.64
+prefetcht2 [m]	miss	1.3
+xor [m8],r8	5.01	1.96
+sub r8, i	0.98	0.59
+sub r64, i	1.06	0.59
+xor r16, i	1.07	0.59
+and r8,[m8]	miss	1.07
+Throughput with RIP address mode: mov [m32], r32	miss	1.79
+sete r8 / neg r8	1.62	miss
+add [m8],r8	5.31	1.96
+sbb r8, i	0.98	1.06
+mov r32,r32	1.06	0.5
+xor r64, i	0.98	0.64
+or r16,r16	1.06	0.54
+adc r16,[m16]	miss	0.98
+xor r64,r64	0.98	0.54
+test r64,r64	0.51	0.5
+sub r32, i	1.06	0.59
+sbb r16,[m16]	miss	0.98
+not r64	1.06	0.64
+or [m32],r32	5.31	1.92
+xchg r32,[m32]	miss	18.68
+add r64, i	1.07	0.64
+mov [m16],r16	2.12	1.79
+sub r16,[m16]	miss	0.98
+or r32,r32	1.06	0.54
+neg r64	0.98	0.64
+add r64,[m64]	miss	0.99
+or r64,[m64]	miss	0.98
+xchg [m64],r64	17.62	16.65
+Latency with memory operand: neg [m32]	5.3	miss
+cmp r8,r8	0.54	0.54
+sub [m8],r8	4.9	2.13
+xor r8,[m8]	miss	0.98
+cqo	0.54	miss
+sbb r16, i	0.98	0.98
+and r8high, i	miss	0.59
+test r64, i	0.55	0.55
+xor [m64],r64	5.31	1.64
+xor [m16],r16	5.43	1.91
+xchg r16,r16	2.88	1.9
+xor r64,[m64]	miss	0.99
+bsr r64,r64	2.12	2.13
+test r16,r16	0.5	0.5
+and [m16],r16	5.31	1.77
+cmp r32, i	0.5	0.5
+Latency with memory operand: or [m32], i	5.31	miss
+add r8, i	0.98	0.64
+sbb [m8],r8	5.61	2.12
+add r32, i	0.98	0.64
+sub r64,r64	1.06	0.5
+bsf	miss	2.13
+adc [m32],r32	5.46	1.92
+sete r8	miss	0.98
+or r32, i	0.98	0.59
+sbb [m16],r16	5.62	1.91
+sbb r32, i	0.98	0.98
+xor r32,[m32]	miss	0.98
+sub r16,r16	1.06	0.54
+sub [m32],r32	4.9	1.77
+or [m32], i	miss	2.13
+not r8	1.2	0.64
+inc r32	0.98	0.59
+neg [m32]	miss	2.13
+std	3.18	miss
+adc [m16],r16	4.9	1.91
+test r16, i	1.24	1.29
+sub r16, i	1.07	0.59
+mfence	15.85	miss
+cmp r32,[m32]	miss	1.09
+stc	3.03	miss
+or r16, i	0.98	0.64
+sbb r64,r64	1.06	0.98
+test r8high, i	miss	0.5
+xchg [m16],r16	18.03	18.03
+adc r64,r64	1.06	0.98
+Latency with memory operand: xor [m32], i	5.31	miss
+bsf r64,r64	2.12	1.96
+or [m8],r8	5.31	1.96
+prefetchnta [m]	miss	1.3
+xor [m32], i	miss	1.97
+mov r8high, i	miss	0.64
+or r8,r8	1.06	0.5
+sub [m16],r16	4.9	1.77
+cmove r16,r16	0.98	0.51
+imul r32,r32	1.97	1.12
+sbb r64,[m64]	miss	1.07
+mov r16, i	1.34	1.34
+xchg [m8],r8	18.14	18.04
+bsf r16,r16	1.96	2.36
+sete r8h	miss	1.06
+cbw	1.06	miss
+sub r8,r8	1.06	0.55
+mov r64, i	1.07	0.59
+prefetcht0 [m]	miss	1.3
+mov r64,[m64]	miss	1.3
+bsf r32,r32	2.12	1.96
+xchg r64,[m64]	miss	16.65
+cmp r16, i	0.5	0.5
+cdqe	0.98	miss
+and r32,r32	1.06	0.5
+add [m32],r32	4.9	1.92
+and r64,[m64]	miss	0.98
+Instructions with one operand and an immediate operand	miss	miss
+cmp r16,[m16]	miss	0.98
+Latency with memory operand: and [m32], i	4.9	miss
+test r32,r32	0.5	0.5
+and r8, i	1.06	0.59
+Throughput with INDIR address mode: mov r32, [m32]	miss	1.41
+add [m32], i	miss	1.96
+cmp r16,r16	0.54	0.54
+inc r8	1.06	0.59
+xor r32, i	0.98	0.59
+not [m32]	miss	1.96
+sbb r8high, i	miss	0.98
+mov r32,[m32]	miss	1.41
+test r8,[m8]	miss	1.07
+sbb r32,[m32]	miss	0.98
+inc r16	0.98	0.59
+adc r64, i	1.06	0.98
+bswap r64	1.08	1.07
+sbb [m32], i	miss	1.96
+not r32	0.98	0.59
+xchg r8,r8	2.76	2.6
+or r64,r64	0.98	0.54
+sete, [m8]	miss	1.69
+Latency with memory operand: sbb [m32], i	5.31	miss
+cmove r64,r64	1.06	0.51
+Throughput with ABS64 address mode: mov [m32], r32	miss	1.65
+bsr	miss	1.96
+Latency with memory operand: inc [m32]	4.9	miss
+and [m8],r8	5.31	1.96
+test [m32],r32	0.98	0.98
+and r16,[m16]	miss	0.98
+xor eax,eax / cbw	miss	0.5
+dec [m32]	miss	1.96
+mov r8,[m8]	miss	1.07
+cwde	0.98	miss
+sbb r16,r16	1.06	1.07
+cmp [m64],r64	0.98	0.98
+test r16,[m16]	miss	1.07
+sub r32,[m32]	miss	1.24
+test [m16],r16	0.98	1.07
+Instructions with no explicit operands	miss	miss
+neg r16	1.96	0.99
+cmove	miss	0.98
+sbb r64, i	1.06	0.98
+test r32, i	0.54	0.5
+Latency with memory operand: dec [m32]	4.9	miss
+cmp [m32],r32	0.98	0.98
+adc r8,[m8]	miss	1.0
+sbb [m64],r64	4.9	1.77
+adc r64,[m64]	miss	1.07
+add r8high, i	miss	0.64
+test [m32], i	miss	1.07
+sub r32,r32	1.06	0.5
+inc [m32]	miss	1.97
+prefetcht1 [m]	miss	1.3
+psadbw r128,[m128]	miss	0.99
+phsubd r64,[m64]	miss	4.9
+punpcklqdq r128,r128	1.06	0.98
+punpckhqdq r128,[m128]	miss	0.99
+pabsd r128,[m128]	miss	0.99
+punpckldq r64,r64	0.98	0.98
+paddd r64,r64	1.16	1.06
+pmuludq r128,r128	3.18	1.06
+pcmpgtq r128,[m128]	miss	miss
+pmaxuw r128,[m128]	miss	1.07
+pcmpgtd r64,r64	1.06	0.98
+psignw r64,[m64]	miss	0.99
+paddusb r128,r128	0.98	0.98
+punpckhwd r128,[m128]	miss	0.99
+pcmpeqw r64,r64	1.06	1.06
+psllq r64,r64	1.06	1.06
+pand r64,[m64]	miss	0.98
+packuswb r128,[m128]	miss	0.98
+movdqu r128,[m128]	miss	1.31
+pcmpgtw r64,[m64]	miss	0.99
+pcmpgtw r64,r64	1.06	1.06
+psllw r64,i	1.06	1.06
+pblendw  r128,[m128]	miss	0.99
+pminub r64,r64	1.06	1.06
+pcmpestrm  r128,[m128]	miss	miss
+psrlq r128,i	1.07	1.07
+pmaxsw r128,r128	0.98	0.98
+paddd r64,[m64]	miss	0.98
+paddw r128,[m128]	miss	1.07
+pavgb r64,[m64]	miss	1.2
+pandn r64,r64	0.98	0.98
+pshufb r128,[m128]	miss	1.07
+pmaddwd r64,r64	3.93	1.96
+pmovsxdq r128,[m128]	miss	1.07
+pcmpeqw r64,[m64]	miss	0.98
+punpcklqdq r128,[m128]	miss	1.55
+pcmpeqw r128,[m128]	miss	0.99
+pavgw r128,r128	1.07	1.06
+pcmpeqd r128,[m128]	miss	0.99
+pcmpeqq r128,[m128]	miss	1.07
+pshufb r64,r64	0.98	0.98
+pmaxsw r128,[m128]	miss	0.99
+phminposuw r128,[m128]	miss	1.18
+movdqa r128,[m128]	miss	1.41
+paddusb r128,[m128]	miss	0.99
+packssdw r64,r64	0.98	1.16
+pandn r128,r128	0.98	0.98
+pmaddubsw r64,[m64]	miss	8.81
+pminub r128,r128	1.06	1.41
+psrad r128,i	1.06	1.07
+phaddw r128,[m128]	miss	4.9
+pabsb r64,r64	0.98	0.98
+psignw r64,r64	0.98	0.98
+movdqa r128,r128	0.98	1.07
+psrlq r64,[m64]	miss	1.07
+phaddsw r128,r128	3.18	3.18
+pcmpgtd r128,[m128]	miss	0.99
+pmulhuw r64,[m64]	miss	1.23
+pcmpistrm r128,r128	miss	miss
+psadbw r64,r64	1.96	1.07
+pminsb r128,r128	0.98	0.98
+pmovzxwd r128,r128	0.98	0.98
+pcmpistri r128,r128	miss	miss
+pslldq r128,i	1.06	1.07
+packsswb r128,[m128]	miss	0.99
+pshuflw  r128,[m128]	miss	1.07
+pmovzxwd r128,[m128]	miss	0.99
+punpckhdq r64,r64	0.98	0.98
+packuswb r64,[m64]	miss	0.98
+pmovsxdq r128,r128	0.98	0.98
+punpckldq r128,[m128]	miss	0.98
+psllq r128,r128	0.98	0.98
+pmullw r128,r128	3.18	0.98
+Instructions with two 128 bit registers and one immediate operand	miss	miss
+pmaxud r128,r128	0.98	1.07
+psllw r128,[m128]	miss	0.99
+punpckldq r64,[m64]	miss	0.99
+psadbw r64,[m64]	miss	0.98
+pabsd r64,[m64]	miss	0.99
+pcmpeqb r64,[m64]	miss	0.98
+psignw r128,[m128]	miss	0.99
+pmuludq r64,r64	3.18	0.99
+pcmpeqb r64,r64	0.98	1.06
+pshufd r128,r128	1.07	0.98
+pcmpeqd r128,r128	1.07	1.06
+pmaxsw r64,r64	0.98	0.98
+pmaxsw r64,[m64]	miss	0.98
+pabsb r128,r128	1.0	0.98
+pmaddubsw r128,r128	7.83	8.62
+ptest r128,r128	0.98	0.98
+Instructions with one 64/128 bit register and one immediate operand	miss	miss
+paddw r64,r64	0.98	1.06
+phaddw r64,[m64]	miss	4.9
+pmaxud r128,[m128]	miss	1.07
+pmullw r64,[m64]	miss	1.23
+pmullw r128,[m128]	miss	1.23
+psadbw r128,r128	2.12	0.98
+pand r128,[m128]	miss	1.06
+pmulld r128,[m128]	miss	1.23
+packssdw r128,r128	1.06	1.07
+paddusb r64,[m64]	miss	0.98
+pcmpistri  r128,[m128]	miss	miss
+paddd r128,[m128]	miss	0.99
+pmullw r64,r64	3.18	1.06
+paddw r128,r128	1.06	0.98
+pclmulqdq  r128,[m128]	miss	miss
+pand r64,r64	0.98	0.98
+pshufb r128,r128	0.99	0.99
+punpckhwd r128,r128	0.98	0.98
+paddq r128,[m128]	miss	0.99
+paddusb r64,r64	1.06	0.98
+packusdw r128,[m128]	miss	0.99
+punpckhbw r128,[m128]	miss	0.98
+pcmpgtq r128,r128	miss	miss
+palignr r64,r64,i	0.98	1.07
+ptest r128,[m128]	miss	1.07
+punpckhdq r128,r128	0.98	0.98
+pclmulqdq r128,r128	miss	miss
+packuswb r128,r128	1.06	0.98
+pavgb r64,r64	1.06	1.06
+pandn r64,[m64]	miss	0.98
+psraw r64,i	0.98	0.98
+phsubd r64,r64	3.18	3.18
+pshufhw r128,r128	1.06	1.07
+packusdw r128,r128	0.98	0.99
+phaddsw r128,[m128]	miss	4.9
+movq r128,[m128]	miss	1.3
+movdqu r128,r128	1.06	1.06
+pmulhrsw r64,[m64]	miss	1.23
+pmaddubsw r128,[m128]	miss	9.54
+pshufd  r128,[m128]	miss	0.99
+movq r64,[m64]	miss	1.3
+pandn r128,[m128]	miss	1.07
+pmulld r128,r128	3.18	0.98
+pcmpeqq r128,r128	0.98	0.98
+pslld r64,r64	1.06	1.06
+mpsadbw r128,r128	1.96	0.99
+paddw r64,[m64]	miss	0.98
+pmulhrsw r128,[m128]	miss	1.23
+psllw r128,r128	0.98	0.98
+pcmpeqd r64,[m64]	miss	1.07
+pmuldq r128,[m128]	miss	1.23
+pcmpgtd r64,[m64]	miss	0.98
+pmuludq r64,[m64]	miss	1.33
+pmaddwd r128,[m128]	miss	1.96
+pminsb r128,[m128]	miss	0.99
+pmuldq r128,r128	2.94	0.98
+packuswb r64,r64	0.98	1.02
+phaddw r128,r128	2.94	3.18
+punpckhdq r128,[m128]	miss	0.99
+pmulhuw r128,[m128]	miss	1.23
+palignr r64,[m64],i	miss	1.07
+psllw r64,r64	0.98	0.98
+punpckhbw r128,r128	0.98	0.98
+phsubd r128,r128	2.94	3.18
+psllw r128,i	1.06	1.07
+pmuludq r128,[m128]	miss	1.23
+punpckhbw r64,r64	1.06	0.98
+pcmpistrm  r128,[m128]	miss	miss
+pcmpestrm r128,r128	miss	miss
+movq r128,r128	1.06	0.98
+psrad r64,i	1.06	1.06
+psraw r64,r64	0.98	0.98
+psraw r128,i	0.98	0.98
+pminub r128,[m128]	miss	0.98
+psraw r128,r128	0.98	1.06
+paddq r128,r128	1.1	0.99
+pmaddubsw r64,r64	7.98	7.83
+phaddsw r64,[m64]	miss	4.9
+phaddw r64,r64	3.18	2.94
+psrlq r64,r64	1.06	1.06
+psllq r64,[m64]	miss	0.99
+psignw r128,r128	0.98	0.98
+packssdw r128,[m128]	miss	0.99
+mpsadbw  r128,[m128]	miss	0.99
+palignr  r128,[m128]	miss	0.99
+packsswb r64,[m64]	miss	0.99
+pslld r64,[m64]	miss	0.98
+pshufw r64,r64,i	0.98	0.98
+pshuflw r128,r128	0.98	0.98
+pmovzxbd r128,[m128]	miss	0.99
+pabsb r64,[m64]	miss	0.98
+phaddsw r64,r64	2.94	2.94
+pavgw r64,r64	1.07	1.06
+psllq r128,[m128]	miss	0.99
+pmaxuw r128,r128	0.98	0.98
+Instructions with two registers and one immediate operand	miss	miss
+pabsd r64,r64	1.06	0.98
+pavgb r128,[m128]	miss	1.07
+pcmpestri  r128,[m128]	miss	miss
+pcmpgtd r128,r128	1.06	1.07
+psraw r128,[m128]	miss	1.07
+pmovsxbq r128,[m128]	miss	0.98
+pcmpeqb r128,[m128]	miss	1.07
+pmovsxbq r128,r128	1.06	0.98
+pavgw r128,[m128]	miss	0.99
+paddd r128,r128	1.06	0.98
+phsubd r128,[m128]	miss	4.9
+pshufb r64,[m64]	miss	1.07
+movq r64,r64	0.98	1.06
+psrlq r64,i	1.06	1.07
+pmaddwd r64,[m64]	miss	1.97
+punpckhqdq r128,r128	0.98	0.98
+phminposuw r128,r128	1.96	1.07
+pminub r64,[m64]	miss	0.98
+pshufw r64,[m64],i	miss	1.07
+pcmpeqd r64,r64	1.06	1.06
+pcmpgtw r128,r128	1.06	1.06
+palignr r128,r128	1.07	1.07
+packsswb r128,r128	1.06	0.98
+punpckhwd r64,r64	0.98	0.98
+instructions that can have only 128 bit	miss	miss
+punpckhwd r64,[m64]	miss	0.98
+punpckldq r128,r128	0.98	0.98
+pmovsxbw r128,[m128]	miss	0.99
+pblendw r128,r128	1.07	0.98
+pcmpestri r128,r128	miss	miss
+packsswb r64,r64	0.98	0.98
+pavgb r128,r128	1.06	1.06
+psrlq r128,r128	1.06	1.06
+pcmpgtw r128,[m128]	miss	0.98
+punpckhbw r64,[m64]	miss	0.99
+pslld r128,r128	1.06	0.98
+pabsb r128,[m128]	miss	0.99
+paddq r64,[m64]	miss	0.98
+pcmpeqb r128,r128	1.06	1.06
+psllw r64,[m64]	miss	0.98
+pmovzxbd r128,r128	0.98	0.98
+psrldq r128,i	1.06	1.07
+punpckhdq r64,[m64]	miss	0.98
+pmulhuw r128,r128	3.19	0.98
+pmulhrsw r64,r64	3.18	0.99
+pslld r128,[m128]	miss	1.41
+pcmpeqw r128,r128	1.06	0.98
+pand r128,r128	0.98	0.98
+pmaddwd r128,r128	3.92	2.32
+pabsd r128,r128	1.07	1.07
+pavgw r64,[m64]	miss	1.07
+pmulhuw r64,r64	2.94	0.98
+pshufhw  r128,[m128]	miss	1.21
+paddq r64,r64	0.98	0.98
+psrlq r128,[m128]	miss	1.07
+pmulhrsw r128,r128	2.94	1.07
+psraw r64,[m64]	miss	0.98
+packssdw r64,[m64]	miss	0.98
+pmovsxbw r128,r128	1.07	1.07
+lock cmpxchg [m8], r8	27.44	miss
+movzx r64,[m16]	miss	1.32
+movzx r16,[m8] / mov [m8],r8	2.48	miss
+xadd [m16], r16	5.31	miss
+movzx r32,[m8]	miss	1.43
+movsx r64,r16	1.07	0.54
+movzx r16,[m8]	miss	1.19
+movzx r16,r8	1.0	0.95
+lock cmpxchg16b [m]	72.75	miss
+Throughput prefetcht0 [m]	miss	1.41
+xadd [m32], r32	5.32	miss
+movsxd r64,[m32]	miss	1.11
+movsx r16,[m8] / mov [m8],r8	2.48	miss
+add [m]	4.9	miss
+movsx r32,r16	0.99	0.54
+xadd [m64], r64	4.9	miss
+movsx r32,[m16] / mov [m16],r16	2.69	miss
+lock cmpxchg [m32], r32	31.97	miss
+Throughput prefetcht1 [m]	miss	1.41
+movzx r32,r8	0.99	0.9
+lock xadd [m32], r32	26.01	miss
+movzx r32,[m8] / mov [m8],r8	1.98	miss
+movsx r16,r8	0.99	0.89
+cmpxchg [m32], r32	11.68	miss
+movsx r16,[m8]	miss	1.19
+lock add [m]	24.72	miss
+movsxd r64,[m32] / mov [m32],r32	3.12	miss
+cmpxchg16b [m]	64.88	miss
+movsx r32,[m8] / mov [m8],r8	2.64	miss
+movzx r64,[m16] / mov [m16],r16	1.99	miss
+movzx r64,r8	0.99	0.96
+lock xadd [m8], r8	25.48	miss
+movsx r64,[m16] / mov [m16],r16	2.69	miss
+cmpxchg [m8], r8	8.82	miss
+movzx r32,[m16] / mov [m16],r16	2.15	miss
+cmpxchg [m16], r16	8.82	miss
+movzx r64,r16	0.99	0.54
+cmpxchg8b [m]	12.74	miss
+movsx r32,r8	1.07	0.5
+movsxd r64,r32	1.0	1.0
+Throughput prefetchnta [m]	miss	1.3
+Throughput prefetcht2 [m]	miss	1.3
+movsx r64,[m8]	miss	1.28
+lock xadd [m64], r64	23.52	miss
+xadd [m8], r8	5.31	miss
+lock cmpxchg8b [m]	34.07	miss
+movzx r32,r16	1.07	0.54
+movzx r64,[m8] / mov [m8],r8	2.15	miss
+lock xadd [m16], r16	25.6	miss
+movsx r64,[m16]	miss	1.19
+movsx r64,r8	0.99	0.5
+lock cmpxchg [m16], r16	29.86	miss
+xlat / xor eax,eax	miss	1.4
+movzx r32,[m16]	miss	1.43
+movsx r32,[m8]	miss	1.29
+movsx r32,[m16]	miss	1.19
+xlat	5.89	miss
+cmpxchg [m64], r64	9.56	miss
+movsx r64,[m8] / mov [m8],r8	2.49	miss
+lock cmpxchg [m64], r64	29.86	miss
+movzx r64,[m8]	miss	1.32
+maskmovdqu r,r (pattern 0xff) + movq/dqa (x)mm,[mem]	124.74	miss
+maskmovq r,r (pattern 0x00)	miss	1.93
+Throughput emms (64 bit mode)	miss	0.98
+blendvps r128,r128,xmm0	3.93	1.96
+Throughput unaligned write movups [m],xmm	miss	1.83
+maskmovq r,r (pattern 0x02)	miss	1.93
+maskmovdqu r,r (pattern 0x33) + movq/dqa (x)mm,[mem]	138.44	miss
+pblendvb r128,r128,xmm0	1.96	2.13
+Latency with memory operand extractps  / movss	3.96	miss
+Latency with memory operand insertps  / movss	3.96	miss
+maskmovq r,r (pattern 0xff) + movq/dqa (x)mm,[mem]	133.15	miss
+Throughput unaligned write movupd [m],xmm	miss	1.8
+maskmovdqu r,r (pattern 0xff)	miss	1.93
+stmxcsr m	miss	12.75
+maskmovdqu r,r (pattern 0x02)	miss	1.78
+maskmovq r,r (pattern 0x55)	miss	1.93
+Throughput extractps xmm,	miss	1.17
+Throughput unaligned write movdqu [m],xmm	miss	1.66
+Latency ptest xmm,xmm / sbb / movd	2.87	miss
+Latency unaligned write+read movdqu [m],xmm / movdqu xmm,[m]	2.04	miss
+blendps r128,r128,i	1.07	0.98
+maskmovq r,r (pattern 0x33) + movq/dqa (x)mm,[mem]	130.69	miss
+blendpd r128,r128,i	0.98	0.99
+maskmovdqu r,r (pattern 0x55) + movq/dqa (x)mm,[mem]	139.57	miss
+Throughput insertps xmm,	miss	1.14
+Latency unaligned write+read movupd [m],xmm / movupd xmm,[m]	2.15	miss
+maskmovdqu r,r (pattern 0x00)	miss	1.78
+maskmovdqu r,r (pattern 0x33)	miss	1.94
+maskmovdqu r,r (pattern 0x02) + movq/dqa (x)mm,[mem]	124.93	miss
+Throughput unaligned read movups xmm,[m]	miss	1.3
+maskmovq r,r (pattern 0x55) + movq/dqa (x)mm,[mem]	133.52	miss
+ldmxcsr + stmccsr	32.25	miss
+Throughput emms (32 bit mode)	miss	1.06
+Latency unaligned write+read movups [m],xmm / movups xmm,[m]	1.98	miss
+blendps r128,[m128],i	miss	1.07
+maskmovq r,r (pattern 0xff)	miss	1.93
+Throughput unaligned read movdqu xmm,[m]	miss	1.3
+maskmovdqu r,r (pattern 0x55)	miss	1.93
+blendvps r128,[m128],xmm0	miss	2.13
+Throughput ptest xmm,xmm	miss	0.99
+maskmovq r,r (pattern 0x00) + movq/dqa (x)mm,[mem]	1.67	miss
+Latency insertps xmm,xmm,i	1.15	miss
+blendpd r128,[m128],i	miss	0.99
+maskmovq r,r (pattern 0x33)	miss	1.93
+maskmovdqu r,r (pattern 0x00) + movq/dqa (x)mm,[mem]	1.67	miss
+ldmxcsr m	miss	30.77
+maskmovq r,r (pattern 0x02) + movq/dqa (x)mm,[mem]	133.04	miss
+pblendvb r128,[m128],xmm0	miss	2.13
+Throughput unaligned read movupd xmm,[m]	miss	1.41
+imul , regsize 32, numop 2	2.14	1.21
+imul , regsize 32, numop 3	2.13	1.31
+mul , registersize 32 (subtract 1 uop)	miss	2.74
+imul , registersize 8	1.97	miss
+mul , registersize 64 (subtract 1 uop)	miss	3.22
+imul , registersize 8 (subtract 1 uop)	miss	0.55
+imul , registersize 32	2.94	miss
+imul , registersize 16	2.94	miss
+imul , regsize 64, numop 2	5.3	1.96
+imul , registersize 16 (subtract 1 uop)	miss	2.48
+mul , registersize 16 (subtract 1 uop)	miss	2.68
+mul , registersize 32	3.19	miss
+mul , registersize 16	3.19	miss
+imul , regsize 16, numop 2	2.13	1.31
+imul , regsize 16, numop 3	2.14	1.21
+imul , regsize 64, numop 3	5.3	2.13
+mul , registersize 8 (subtract 1 uop)	miss	0.55
+imul , registersize 64	8.48	miss
+mul , registersize 8	2.13	miss
+imul , registersize 64 (subtract 1 uop)	miss	3.03
+mul , registersize 64	7.83	miss
+imul , registersize 32 (subtract 1 uop)	miss	2.47
+pop , operand: SP	miss	3.11
+pop , operand: M	miss	2.04
+push , operand: R	miss	1.72
+pop , operand: F	miss	1.17
+push , operand: M	miss	1.7
+push , operand: SP	miss	1.72
+push , operand: I	miss	1.69
+push , operand: F	miss	1.49
+pop , operand: R	miss	1.17
+rcr , 4 regsize 16	39.28	40.88
+ror , cl regsize 8	1.16	1.61
+shrd , 1 regsize 64	30.82	30.96
+shl , 4 regsize 8	1.06	1.42
+rcr , 1 regsize 8	1.16	1.53
+shl , 4 regsize 64	0.98	1.38
+ror , 1 regsize 16	1.07	1.61
+btr r16, cx	miss	2.13
+sar , 4 regsize 16	0.98	1.3
+bts r32, 5	1.97	miss
+shr , 4 regsize 16	1.06	1.36
+shl , 1 regsize 64	1.06	1.3
+shld , 1 regsize 32	2.05	4.9
+sar , cl regsize 16	0.98	1.36
+shr , cl regsize 16	0.98	1.3
+rol , cl regsize 64	1.16	1.61
+shld , cl regsize 32	2.22	5.31
+rcl , 1 regsize 32	1.07	1.66
+rcr , 1 regsize 16	1.16	1.53
+rol , 1 regsize 16	1.16	1.61
+btc r32, ecx	1.97	2.14
+rcl , 1 regsize 8	1.07	1.66
+rol , 4 regsize 8	1.16	1.61
+rcr , cl regsize 16	45.46	43.98
+bts r32, ecx	2.13	1.97
+rcr , 4 regsize 8	42.54	40.87
+ror , 4 regsize 32	1.16	1.61
+sar , 1 regsize 32	0.98	1.3
+sar , cl regsize 64	1.07	1.36
+rol , cl regsize 16	1.07	1.61
+shr , 1 regsize 32	1.06	1.36
+bts r64, rcx	miss	6.72
+sar , cl regsize 8	1.06	1.33
+rcr , 1 regsize 32	1.16	1.59
+sar , 4 regsize 64	1.06	1.28
+rcl , cl regsize 64	42.21	45.94
+ror , 4 regsize 8	1.16	1.61
+rcr , 4 regsize 32	42.25	39.61
+rcl , 1 regsize 64	1.07	1.61
+shr , cl regsize 64	1.07	1.3
+shl , 1 regsize 32	1.06	1.3
+shrd , 6 regsize 16	2.22	5.31
+btc r64, 5	2.14	miss
+ror , cl regsize 64	1.07	1.66
+shr , 4 regsize 8	0.98	1.36
+shld , 6 regsize 32	2.05	5.62
+shl , cl regsize 8	0.98	1.36
+shld , cl regsize 16	2.22	5.3
+bt r32, 5	1.07	miss
+rol , 1 regsize 8	1.07	1.61
+rcl , 1 regsize 16	1.07	1.66
+bts r16, 5	2.14	miss
+shrd , 1 regsize 32	2.05	5.31
+shl , 4 regsize 16	1.06	1.36
+bts r16, cx	miss	2.13
+btr r64, 5	1.97	miss
+shr , cl regsize 8	0.98	1.38
+btr r32, 5	1.97	miss
+shr , 4 regsize 32	0.99	1.36
+ror , 1 regsize 32	1.07	1.61
+rcl , 4 regsize 32	39.15	42.54
+shrd , 6 regsize 32	2.05	5.31
+shl , cl regsize 64	1.06	1.36
+btr r64, rcx	miss	6.57
+rcl , cl regsize 8	45.72	44.43
+shl , 1 regsize 8	1.06	1.36
+rol , cl regsize 32	1.16	1.61
+shr , 1 regsize 8	1.07	1.36
+rcl , cl regsize 16	42.22	43.91
+bt r16, 5	1.16	miss
+rol , 1 regsize 64	1.07	1.61
+ror , 1 regsize 8	1.07	1.61
+sar , 1 regsize 8	1.07	1.3
+sar , 1 regsize 64	0.98	1.3
+rcr , cl regsize 64	42.21	45.22
+shl , 1 regsize 16	1.06	1.28
+shld , 1 regsize 64	34.06	35.12
+shl , cl regsize 16	0.98	1.36
+shrd , cl regsize 64	30.79	33.53
+shld , 6 regsize 64	31.46	32.42
+ror , 1 regsize 64	1.16	1.61
+shrd , 1 regsize 16	2.22	5.3
+rcr , cl regsize 8	42.09	43.96
+shrd , 6 regsize 64	30.79	30.96
+shld , 1 regsize 16	2.05	5.3
+sar , cl regsize 32	0.98	1.36
+shr , cl regsize 32	1.06	1.28
+shl , 4 regsize 32	1.06	1.36
+ror , 4 regsize 64	1.16	1.61
+btc r16, 5	1.97	miss
+rol , 4 regsize 32	1.07	1.61
+shld , cl regsize 64	31.32	32.43
+rcl , 4 regsize 16	39.15	40.84
+shrd , cl regsize 16	2.22	5.31
+ror , cl regsize 32	1.07	1.66
+rcl , cl regsize 32	45.87	42.89
+rcr , 4 regsize 64	42.54	41.81
+bt r32, ecx	1.16	1.07
+bt r16, cx	miss	1.07
+btc r16, cx	miss	2.14
+btr r16, 5	2.13	miss
+sar , 4 regsize 32	1.06	1.3
+rcl , 4 regsize 8	39.43	40.84
+shr , 1 regsize 64	1.06	1.36
+rcl , 4 regsize 64	41.16	39.34
+shl , cl regsize 32	1.06	1.36
+shr , 4 regsize 64	0.98	1.3
+bt r64, 5	1.07	miss
+bt r64, rcx	miss	3.75
+shld , 6 regsize 16	2.22	5.31
+btr r32, ecx	2.13	1.97
+btc r64, rcx	miss	6.48
+rol , 1 regsize 32	1.16	1.61
+btc r32, 5	1.97	miss
+rcr , 1 regsize 64	1.16	1.53
+rcr , cl regsize 32	44.88	43.68
+ror , 4 regsize 16	1.16	1.61
+rol , 4 regsize 64	1.07	1.61
+rol , cl regsize 8	1.16	1.61
+shr , 1 regsize 16	1.06	1.36
+rol , 4 regsize 16	1.26	1.61
+sar , 1 regsize 16	1.06	1.3
+bts r64, 5	1.97	miss
+sar , 4 regsize 8	0.98	1.28
+shrd , cl regsize 32	2.05	5.6
+ror , cl regsize 16	1.16	1.61
+pcmpistrm xmm,[mem],0	miss	miss
+rep movsd, count = 1000	149.45	miss
+rep stosb, count = 10000	365.76	miss
+pcmpestrm xmm0,xmm0,3	miss	miss
+pcmpestrm xmm0,xmm0,0	miss	miss
+pcmpestrm xmm0,xmm0,0xC	miss	miss
+pcmpestrm xmm0,xmm0,4	miss	miss
+repe cmpsb, count = 1000, misalign = 0	580.37	miss
+pcmpestrm xmm0,xmm0,8	miss	miss
+repe cmpsb, count = 1000, misalign = 4	622.52	miss
+repe scasb, count = 1000, misalign = 0	603.06	miss
+rep stosd, count = 1000, misalign = 4	148.48	miss
+rep lodsd, count = 10000	7468.46	miss
+rep stosd, count = 1000, misalign = 0	160.68	miss
+scasw	1.5	miss
+rep stosb, count = 100	52.34	miss
+scasq	2.16	miss
+rep lodsb, count = 1000	762.04	miss
+rep movsq, count = 10000	6182.07	miss
+pcmpistri xmm1,xmm1,4 / movd xmm1,ecx	miss	miss
+scasd	1.98	miss
+rep stosw, count = 10000	686.65	miss
+scasb	1.27	miss
+rep movsb, count = 1000	60.78	miss
+repe scasq, count = 1000, misalign = 4	1114.04	miss
+repe cmpsd, count = 1000, misalign = 0	583.76	miss
+repe scasq, count = 1000, misalign = 0	391.21	miss
+rep movsd, count = 1000, misalign = 16	150.81	miss
+rep lodsb, count = 100	100.9	miss
+rep stosw, count = 1000	101.68	miss
+pcmpistri xmm1,xmm1,0 / movd xmm1,ecx	miss	miss
+repe scasb, count = 100, misalign = 0	66.06	miss
+pcmpestri xmm1,xmm1,4 / movd xmm1,ecx	miss	miss
+repe scasd, count = 1000, misalign = 0	215.35	miss
+rep stosb, count = 1000	60.45	miss
+repe cmpsd, count = 1000, misalign = 4	579.75	miss
+repe scasb, count = 1000, misalign = 4	557.06	miss
+repe cmpsq, count = 10000, misalign = 4	14935.85	miss
+pcmpistrm xmm0,xmm0,4	miss	miss
+pcmpistrm xmm0,xmm0,3	miss	miss
+pcmpistrm xmm0,xmm0,0	miss	miss
+pcmpestri xmm,[mem],0	miss	miss
+rep stosd, count = 100, misalign = 16	48.38	miss
+pcmpistri xmm1,xmm1,8 / movd xmm1,ecx	miss	miss
+repe scasd, count = 10000, misalign = 4	2002.83	miss
+rep stosd, count = 10000, misalign = 16	1472.85	miss
+repe scasd, count = 10000, misalign = 0	1980.76	miss
+rep movsd, count = 1000, misalign = 0	162.18	miss
+rep movsd, count = 1000, misalign = 4	165.03	miss
+repe cmpsw, count = 100, misalign = 0	64.26	miss
+pcmpestri xmm,xmm,0	miss	miss
+repe cmpsw, count = 100, misalign = 4	69.6	miss
+repe cmpsb, count = 10000, misalign = 4	5781.75	miss
+repe cmpsb, count = 10000, misalign = 0	5955.39	miss
+pcmpistrm xmm0,xmm0,8	miss	miss
+repe scasw, count = 10000, misalign = 4	952.72	miss
+repe scasw, count = 10000, misalign = 0	933.33	miss
+rep stosq, count = 100	48.39	miss
+rep movsq, count = 100, misalign = 4	189.53	miss
+pcmpestri xmm1,xmm1,0 / movd xmm1,ecx	miss	miss
+rep movsd, count = 10000	1474.3	miss
+pcmpistrm xmm,xmm,0	miss	miss
+rep movsq, count = 100, misalign = 0	49.03	miss
+rep movsq, count = 1000	284.42	miss
+rep movsd, count = 100, misalign = 16	49.84	miss
+pcmpistri xmm,[mem],0	miss	miss
+rep movsq, count = 1000, misalign = 4	1955.95	miss
+rep movsd, count = 10000, misalign = 4	1485.19	miss
+rep stosd, count = 1000, misalign = 16	147.32	miss
+rep movsd, count = 10000, misalign = 0	1480.21	miss
+repe scasd, count = 100, misalign = 0	63.35	miss
+repe cmpsb, count = 100, misalign = 4	69.52	miss
+rep stosq, count = 100, misalign = 16	52.42	miss
+repe cmpsb, count = 100, misalign = 0	69.53	miss
+movsd	3.7	miss
+movsb	2.36	miss
+rep movsb, count = 10000	393.48	miss
+repe cmpsw, count = 1000, misalign = 4	580.31	miss
+rep stosq, count = 100, misalign = 4	205.44	miss
+repe cmpsw, count = 1000, misalign = 0	628.79	miss
+rep stosq, count = 100, misalign = 0	52.43	miss
+movsw	2.73	miss
+rep stosq, count = 1000, misalign = 16	281.71	miss
+repe cmpsw, count = 10000, misalign = 0	5843.51	miss
+movsq	3.73	miss
+rep movsq, count = 10000, misalign = 4	19269.38	miss
+rep movsq, count = 10000, misalign = 0	6151.01	miss
+repe scasq, count = 100, misalign = 0	66.35	miss
+rep lodsw, count = 10000	7657.23	miss
+repe scasq, count = 100, misalign = 4	103.98	miss
+rep lodsq, count = 100	89.13	miss
+rep lodsd, count = 100	87.58	miss
+repe scasd, count = 100, misalign = 4	66.19	miss
+rep movsb, count = 100	50.57	miss
+rep stosq, count = 10000	5217.63	miss
+rep movsq, count = 1000, misalign = 16	309.11	miss
+rep stosq, count = 10000, misalign = 4	19497.86	miss
+rep movsw, count = 10000	760.59	miss
+rep stosq, count = 10000, misalign = 0	5075.26	miss
+rep stosd, count = 10000, misalign = 0	1467.96	miss
+rep stosd, count = 10000, misalign = 4	1473.85	miss
+rep stosd, count = 100, misalign = 0	52.42	miss
+rep stosw, count = 100	52.35	miss
+pcmpestri xmm1,xmm1,0xC / movd xmm1,ecx	miss	miss
+rep stosd, count = 100, misalign = 4	48.31	miss
+rep movsd, count = 100	49.82	miss
+pcmpistrm xmm0,xmm0,0xC	miss	miss
+rep movsw, count = 1000	94.63	miss
+repe cmpsq, count = 100, misalign = 0	69.87	miss
+repe cmpsq, count = 100, misalign = 4	149.3	miss
+repe cmpsd, count = 100, misalign = 0	69.74	miss
+rep lodsb, count = 10000	7454.48	miss
+pcmpistri xmm,xmm,0	miss	miss
+repe cmpsq, count = 1000, misalign = 4	1616.72	miss
+repe cmpsq, count = 1000, misalign = 0	628.52	miss
+pcmpistri xmm1,xmm1,0xC / movd xmm1,ecx	miss	miss
+repe scasd, count = 1000, misalign = 4	258.83	miss
+repe cmpsq, count = 10000, misalign = 0	10635.68	miss
+repe cmpsd, count = 10000, misalign = 4	6017.19	miss
+rep movsq, count = 10000, misalign = 16	6150.66	miss
+rep movsd, count = 100, misalign = 4	49.86	miss
+rep movsd, count = 100, misalign = 0	54.13	miss
+rep movsq, count = 1000, misalign = 0	308.44	miss
+pcmpestri xmm1,xmm1,3 / movd xmm1,ecx	miss	miss
+rep lodsw, count = 1000	815.44	miss
+rep stosq, count = 1000	280.61	miss
+repe scasb, count = 10000, misalign = 4	5591.74	miss
+rep movsq, count = 100, misalign = 16	53.14	miss
+repe scasb, count = 10000, misalign = 0	5460.94	miss
+rep movsq, count = 100	53.22	miss
+rep stosq, count = 10000, misalign = 16	5068.24	miss
+rep movsw, count = 100	51.66	miss
+rep movsd, count = 10000, misalign = 16	1482.51	miss
+cmpsq	7.98	miss
+rep stosd, count = 1000	156.18	miss
+cmpsw	7.13	miss
+pcmpestrm xmm,xmm,0	miss	miss
+rep lodsq, count = 1000	784.79	miss
+cmpsb	6.56	miss
+cmpsd	7.24	miss
+repe scasw, count = 1000, misalign = 4	148.77	miss
+repe scasw, count = 1000, misalign = 0	140.38	miss
+stosd	2.08	miss
+repe scasb, count = 100, misalign = 4	60.95	miss
+pcmpistri xmm1,xmm1,3 / movd xmm1,ecx	miss	miss
+stosb	1.92	miss
+rep lodsd, count = 1000	815.6	miss
+stosw	1.76	miss
+stosq	2.5	miss
+rep stosd, count = 100	52.38	miss
+repe scasw, count = 100, misalign = 4	61.0	miss
+rep lodsq, count = 10000	7470.42	miss
+pcmpestri xmm1,xmm1,8 / movd xmm1,ecx	miss	miss
+repe scasw, count = 100, misalign = 0	61.0	miss
+lodsq	1.25	miss
+rep lodsw, count = 100	88.82	miss
+repe cmpsd, count = 10000, misalign = 0	5858.76	miss
+repe cmpsd, count = 100, misalign = 4	69.77	miss
+lodsw	1.55	miss
+rep stosq, count = 1000, misalign = 0	303.12	miss
+pcmpestrm xmm,[mem],0	miss	miss
+rep stosq, count = 1000, misalign = 4	2162.01	miss
+rep stosd, count = 10000	1469.16	miss
+lodsb	1.11	miss
+lodsd	1.13	miss
+repe scasq, count = 10000, misalign = 0	4513.5	miss
+repe cmpsw, count = 10000, misalign = 4	5795.25	miss
+repe scasq, count = 10000, misalign = 4	10098.82	miss
+Throughput fstp [m80] + fld	miss	31.73
+Throughput fst [m32]	miss	1.67
+Throughput fstp [m64] + fld	miss	1.07
+Throughput fstp [m32] + fld	miss	1.07
+Throughput fst [m64]	miss	1.16
+sub r32,r32 (same register)	0.54	miss
+pcmpgtb r128,r128 (same register)	0.98	miss
+pcmpgtd r128,r128 (same register)	1.06	miss
+psubusw r128,r128 (same register) + pmullw	0.55	miss
+psubusw r65,r65 (different register) + pmullw	2.97	miss
+xor r64,r64 (different register)	1.06	miss
+psubusw r128,r128 (same register)	1.06	miss
+sbb r32,r32 (same register)	2.2	miss
+pcmpgtq r128,r128 (same register)	miss	miss
+sbb r64,r64 (same register) + imul	3.97	miss
+pcmpgtb r65,r65 (same register) + pmullw	3.22	miss
+psubq r65,r65 (same register) + pmullw	0.54	miss
+psubusw r65,r65 (same register)	1.06	miss
+psubusb r65,r65 (same register)	1.06	miss
+psubusw r65,r65 (same register) + pmullw	0.54	miss
+cmp r16,r16 (different register) + imul	3.33	miss
+psubusb r128,r128 (different register) + pmullw	3.22	miss
+sub r64,r64 (different register)	0.98	miss
+psubb r128,r128 (same register) + pmullw	0.55	miss
+pcmpeqd r128,r128 (same register) + pmullw	0.5	miss
+sub r16,r16 (same register)	1.06	miss
+pcmpeqd r128,r128 (different register)	1.07	miss
+psubusb r65,r65 (different register) + pmullw	2.97	miss
+sub r8,r8 (different register) + add	1.07	miss
+psubb r65,r65 (same register) + pmullw	0.5	miss
+pxor r128,r128 (different register)	0.98	miss
+pcmpgtw r128,r128 (different register)	1.07	miss
+sbb r32,r32 (different register) + imul	2.01	miss
+psubusb r128,r128 (same register)	1.06	miss
+sbb r64,r64 (same register)	2.19	miss
+psubusb r128,r128 (same register) + pmullw	0.5	miss
+cmp r16,r16 (same register)	0.99	miss
+sub r32,r32 (different register) + imul	1.49	miss
+cmp r8,r8 (same register)	1.29	miss
+pandn r65,r65 (same register) + pmullw	3.22	miss
+pandn r65,r65 (different register) + pmullw	2.97	miss
+psubsb r65,r65 (same register) + pmullw	0.54	miss
+pcmpeqq r128,r128 (different register)	1.07	miss
+sbb r8,r8 (different register) + add	1.68	miss
+psubd r128,r128 (same register)	0.98	miss
+xor r32,r32 (same register)	0.5	miss
+pcmpeqb r128,r128 (same register) + pmullw	0.5	miss
+psubsw r128,r128 (different register) + pmullw	3.22	miss
+sub r64,r64 (same register) + imul	1.08	miss
+xor r16,r16 (same register) + imul	4.83	miss
+psubsw r65,r65 (different register)	1.06	miss
+sbb r16,r16 (different register) + imul	5.41	miss
+pcmpeqb r128,r128 (different register)	1.06	miss
+xor r64,r64 (different register) + imul	4.36	miss
+psubsb r128,r128 (same register)	0.98	miss
+pxor r65,r65 (same register) + pmullw	0.54	miss
+psubd r128,r128 (different register) + pmullw	3.29	miss
+psubusb r65,r65 (same register) + pmullw	0.54	miss
+xor r64,r64 (same register) + imul	0.99	miss
+psubw r65,r65 (different register)	1.06	miss
+pcmpgtq r128,r128 (different register) + pmullw	miss	miss
+psubd r128,r128 (different register)	1.07	miss
+pcmpeqw r128,r128 (same register)	1.06	miss
+pcmpeqb r128,r128 (same register)	0.98	miss
+psubw r128,r128 (same register)	0.98	miss
+pcmpgtq r128,r128 (same register) + pmullw	miss	miss
+psubusw r128,r128 (different register)	0.98	miss
+pcmpgtw r65,r65 (different register)	1.06	miss
+pcmpgtd r128,r128 (different register)	1.06	miss
+psubsb r65,r65 (different register)	0.98	miss
+pandn r128,r128 (different register)	1.07	miss
+sbb r32,r32 (different register)	2.19	miss
+psubusb r128,r128 (different register)	0.98	miss
+pcmpeqd r128,r128 (same register)	0.98	miss
+pcmpgtb r65,r65 (different register) + pmullw	3.22	miss
+cmp r8,r8 (same register) + add	0.99	miss
+pandn r65,r65 (different register)	0.98	miss
+psubd r128,r128 (same register) + pmullw	0.5	miss
+pandn r65,r65 (same register)	0.98	miss
+pxor r128,r128 (same register) + pmullw	0.55	miss
+psubsw r65,r65 (same register) + pmullw	0.5	miss
+pcmpgtb r65,r65 (same register)	0.98	miss
+sub r64,r64 (same register)	0.54	miss
+psubw r128,r128 (different register)	1.06	miss
+psubsw r128,r128 (same register) + pmullw	0.5	miss
+pcmpgtb r128,r128 (different register) + pmullw	3.22	miss
+psubw r65,r65 (same register) + pmullw	0.54	miss
+psubq r128,r128 (same register)	1.07	miss
+sub r8,r8 (same register) + add	1.07	miss
+cmp r8,r8 (different register)	1.07	miss
+psubq r128,r128 (different register) + pmullw	3.22	miss
+cmp r64,r64 (same register) + imul	3.23	miss
+psubq r128,r128 (same register) + pmullw	0.55	miss
+psubsw r65,r65 (different register) + pmullw	3.22	miss
+pcmpeqw r65,r65 (same register) + pmullw	0.5	miss
+psubw r128,r128 (different register) + pmullw	3.22	miss
+pcmpeqd r65,r65 (same register)	1.06	miss
+pcmpeqb r65,r65 (different register)	1.06	miss
+xor r64,r64 (same register)	0.5	miss
+pcmpeqw r128,r128 (different register) + pmullw	2.97	miss
+pcmpgtd r65,r65 (same register)	0.98	miss
+xor r8,r8 (same register)	0.98	miss
+pcmpgtb r128,r128 (different register)	1.06	miss
+pcmpeqq r128,r128 (same register)	0.99	miss
+cmp r8,r8 (different register) + add	0.99	miss
+sbb r16,r16 (same register) + imul	4.99	miss
+pcmpgtd r65,r65 (same register) + pmullw	2.97	miss
+pandn r128,r128 (same register)	0.98	miss
+cmp r16,r16 (different register)	1.07	miss
+psubsw r128,r128 (different register)	1.06	miss
+cmp r64,r64 (same register)	1.07	miss
+xor r16,r16 (different register) + imul	4.45	miss
+pcmpeqq r128,r128 (different register) + pmullw	3.22	miss
+pcmpeqw r65,r65 (same register)	0.98	miss
+psubsb r65,r65 (different register) + pmullw	2.97	miss
+cmp r64,r64 (different register)	1.07	miss
+sbb r64,r64 (different register) + imul	3.67	miss
+xor r16,r16 (different register)	0.98	miss
+sub r16,r16 (different register) + imul	4.46	miss
+sub r32,r32 (different register)	0.98	miss
+pcmpgtw r65,r65 (different register) + pmullw	3.22	miss
+pandn r128,r128 (same register) + pmullw	3.22	miss
+psubb r128,r128 (different register)	1.06	miss
+cmp r32,r32 (same register) + imul	1.33	miss
+sbb r8,r8 (same register)	2.19	miss
+psubusb r65,r65 (different register)	0.98	miss
+xor r32,r32 (same register) + imul	0.57	miss
+sub r64,r64 (different register) + imul	3.96	miss
+pcmpgtw r128,r128 (same register)	1.06	miss
+xor r8,r8 (different register)	1.06	miss
+psubd r65,r65 (same register) + pmullw	0.5	miss
+psubd r65,r65 (same register)	0.98	miss
+psubw r128,r128 (same register) + pmullw	0.67	miss
+psubq r65,r65 (same register)	1.06	miss
+sbb r8,r8 (same register) + add	1.68	miss
+psubq r65,r65 (different register) + pmullw	3.03	miss
+psubq r65,r65 (different register)	0.98	miss
+psubq r128,r128 (different register)	0.98	miss
+sub r16,r16 (different register)	0.98	miss
+pcmpeqb r128,r128 (different register) + pmullw	3.22	miss
+cmp r32,r32 (different register) + imul	1.44	miss
+pcmpeqb r65,r65 (different register) + pmullw	3.22	miss
+pxor r128,r128 (same register)	1.06	miss
+xor r32,r32 (different register) + imul	1.61	miss
+psubusw r128,r128 (different register) + pmullw	2.97	miss
+pcmpgtb r65,r65 (different register)	1.06	miss
+pcmpgtw r128,r128 (different register) + pmullw	3.22	miss
+pcmpgtd r128,r128 (different register) + pmullw	3.02	miss
+sub r8,r8 (same register)	1.07	miss
+sbb r16,r16 (same register)	2.46	miss
+sub r8,r8 (different register)	0.98	miss
+xor r8,r8 (same register) + add	0.99	miss
+psubsb r128,r128 (same register) + pmullw	0.51	miss
+pxor r65,r65 (different register) + pmullw	2.97	miss
+pcmpeqw r128,r128 (same register) + pmullw	0.55	miss
+pcmpgtb r128,r128 (same register) + pmullw	3.22	miss
+pcmpeqb r65,r65 (same register)	0.98	miss
+psubb r128,r128 (same register)	0.98	miss
+psubusw r65,r65 (different register)	0.98	miss
+psubw r65,r65 (different register) + pmullw	3.22	miss
+pcmpeqd r65,r65 (different register) + pmullw	3.22	miss
+pcmpeqb r65,r65 (same register) + pmullw	0.5	miss
+pandn r128,r128 (different register) + pmullw	2.97	miss
+pxor r65,r65 (same register)	1.06	miss
+pcmpgtw r128,r128 (same register) + pmullw	2.97	miss
+psubd r65,r65 (different register) + pmullw	3.22	miss
+xor r16,r16 (same register)	0.98	miss
+psubsb r128,r128 (different register) + pmullw	2.97	miss
+pcmpeqw r65,r65 (different register) + pmullw	3.22	miss
+psubb r65,r65 (same register)	1.06	miss
+sbb r8,r8 (different register)	2.09	miss
+pcmpeqd r65,r65 (different register)	0.98	miss
+sub r16,r16 (same register) + imul	4.83	miss
+psubb r128,r128 (different register) + pmullw	3.22	miss
+cmp r32,r32 (different register)	0.99	miss
+xor r32,r32 (different register)	1.06	miss
+pcmpgtq r128,r128 (different register)	miss	miss
+psubsw r65,r65 (same register)	0.98	miss
+cmp r64,r64 (different register) + imul	2.98	miss
+xor r8,r8 (different register) + add	0.99	miss
+psubb r65,r65 (different register)	0.98	miss
+sbb r16,r16 (different register)	2.26	miss
+pcmpgtd r65,r65 (different register) + pmullw	3.22	miss
+pcmpeqw r128,r128 (different register)	0.98	miss
+pcmpgtw r65,r65 (same register)	0.98	miss
+psubb r65,r65 (different register) + pmullw	2.97	miss
+pcmpgtd r128,r128 (same register) + pmullw	2.97	miss
+psubsb r65,r65 (same register)	1.06	miss
+sbb r32,r32 (same register) + imul	2.22	miss
+cmp r16,r16 (same register) + imul	3.59	miss
+pxor r65,r65 (different register)	0.98	miss
+psubd r65,r65 (different register)	1.06	miss
+pxor r128,r128 (different register) + pmullw	2.97	miss
+sbb r64,r64 (different register)	2.02	miss
+psubsw r128,r128 (same register)	0.98	miss
+pcmpgtd r65,r65 (different register)	1.06	miss
+pcmpeqd r65,r65 (same register) + pmullw	0.54	miss
+pcmpeqd r128,r128 (different register) + pmullw	3.22	miss
+pcmpeqw r65,r65 (different register)	1.06	miss
+sub r32,r32 (same register) + imul	0.61	miss
+pcmpgtw r65,r65 (same register) + pmullw	3.29	miss
+cmp r32,r32 (same register)	1.07	miss
+pcmpeqq r128,r128 (same register) + pmullw	2.97	miss
+psubw r65,r65 (same register)	0.98	miss
+psubsb r128,r128 (different register)	0.98	miss

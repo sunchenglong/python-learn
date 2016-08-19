@@ -1,36 +1,22 @@
-imul , regsize 32, numop 2	Throughput	1.22	0.0
-imul , regsize 32, numop 3	Throughput	1.33	0.0
-Throughput with memory operand: mul , registersize 32 (subtract 1 uop)	Throughput	2.74	0.03
-mul , registersize 32 (subtract 1 uop)	Throughput	1.06	0.0
-imul , registersize 8	Latency	1.97	0.0
-mul , registersize 64 (subtract 1 uop)	Throughput	1.28	0.0
-imul , registersize 8 (subtract 1 uop)	Throughput	0.61	0.0
-imul , registersize 32	Latency	2.94	0.0
-imul , registersize 16	Latency	2.94	0.0
-Throughput with memory operand: mul , registersize 8 (subtract 1 uop)	Throughput	0.55	0.0
-imul , registersize 16 (subtract 1 uop)	Throughput	1.14	0.0
-Throughput with memory operand: imul , regsize 32, numop 2	Throughput	1.21	0.0
-Throughput with memory operand: imul , regsize 32, numop 3	Throughput	1.31	0.0
-mul , registersize 16 (subtract 1 uop)	Throughput	1.06	0.0
-Throughput with memory operand: imul , registersize 16 (subtract 1 uop)	Throughput	2.48	0.0
-mul , registersize 32	Latency	3.19	0.0
-Throughput with memory operand: mul , registersize 64 (subtract 1 uop)	Throughput	3.22	0.0
-mul , registersize 16	Latency	3.19	0.0
-Throughput with memory operand: imul , registersize 32 (subtract 1 uop)	Throughput	2.47	0.0
-imul , regsize 16, numop 2	Throughput	1.12	0.0
-imul , regsize 16, numop 3	Throughput	1.12	0.0
-Throughput with memory operand: imul , registersize 8 (subtract 1 uop)	Throughput	0.55	0.0
-imul , regsize 64, numop 3	Throughput	1.96	0.0
-Throughput with memory operand: imul , regsize 16, numop 2	Throughput	1.31	0.0
-Throughput with memory operand: imul , regsize 16, numop 3	Throughput	1.21	0.0
-mul , registersize 8 (subtract 1 uop)	Throughput	0.57	0.0
-Throughput with memory operand: imul , registersize 64 (subtract 1 uop)	Throughput	3.03	0.03
-imul , regsize 64, numop 2	Throughput	1.97	0.0
-imul , registersize 64	Latency	8.48	0.0
-mul , registersize 8	Latency	2.13	0.0
-imul , registersize 64 (subtract 1 uop)	Throughput	1.28	0.0
-Throughput with memory operand: mul , registersize 16 (subtract 1 uop)	Throughput	2.68	0.0
-Throughput with memory operand: imul , regsize 64, numop 3	Throughput	2.13	0.0
-Throughput with memory operand: imul , regsize 64, numop 2	Throughput	1.96	0.0
-mul , registersize 64	Latency	7.83	0.0
-imul , registersize 32 (subtract 1 uop)	Throughput	1.14	0.0
+imul , regsize 32, numop 2	2.14	1.21
+imul , regsize 32, numop 3	2.13	1.31
+mul , registersize 32 (subtract 1 uop)	miss	2.74
+imul , registersize 8	1.97	miss
+mul , registersize 64 (subtract 1 uop)	miss	3.22
+imul , registersize 8 (subtract 1 uop)	miss	0.55
+imul , registersize 32	2.94	miss
+imul , registersize 16	2.94	miss
+imul , regsize 64, numop 2	5.3	1.96
+imul , registersize 16 (subtract 1 uop)	miss	2.48
+mul , registersize 16 (subtract 1 uop)	miss	2.68
+mul , registersize 32	3.19	miss
+mul , registersize 16	3.19	miss
+imul , regsize 16, numop 2	2.13	1.31
+imul , regsize 16, numop 3	2.14	1.21
+imul , regsize 64, numop 3	5.3	2.13
+mul , registersize 8 (subtract 1 uop)	miss	0.55
+imul , registersize 64	8.48	miss
+mul , registersize 8	2.13	miss
+imul , registersize 64 (subtract 1 uop)	miss	3.03
+mul , registersize 64	7.83	miss
+imul , registersize 32 (subtract 1 uop)	miss	2.47

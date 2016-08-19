@@ -1,144 +1,126 @@
-rcr , 4 regsize 16	Throughput	40.88	3.62
-ror , cl regsize 8	Throughput	1.61	0.3
-shrd , 1 regsize 64	Throughput	33.38	1.58
-shl , 4 regsize 8	Throughput	1.42	0.76
-rcr , 1 regsize 8	Throughput	1.53	0.21
-shl , 4 regsize 64	Throughput	1.38	0.55
-Throughput with memory operand: shrd , 1 regsize 16	Throughput	5.3	0.0
-ror , 1 regsize 16	Throughput	1.61	0.3
-btr r16, cx	Throughput	2.13	0.0
-sar , 4 regsize 16	Throughput	1.3	0.44
-bts r32, 5	Latency	1.97	0.0
-shr , 4 regsize 16	Throughput	1.36	0.59
-shl , 1 regsize 64	Throughput	1.3	0.44
-shld , 1 regsize 32	Latency	2.05	0.0
-sar , cl regsize 16	Throughput	1.36	0.59
-shr , cl regsize 16	Throughput	1.3	0.44
-rol , cl regsize 64	Throughput	1.61	0.29
-shld , cl regsize 32	Latency	2.22	0.0
-rcl , 1 regsize 32	Throughput	1.66	0.25
-rcr , 1 regsize 16	Throughput	1.53	0.21
-rol , 1 regsize 16	Throughput	1.61	0.29
-btc r32, ecx	Throughput	2.14	0.0
-rcl , 1 regsize 8	Throughput	1.66	0.25
-rol , 4 regsize 8	Throughput	1.61	0.3
-rcr , cl regsize 16	Throughput	43.98	3.29
-bts r32, ecx	Throughput	1.97	0.0
-rcr , 4 regsize 8	Throughput	40.87	4.09
-ror , 4 regsize 32	Throughput	1.61	0.3
-btr r32, 5	Latency	1.97	0.0
-sar , 1 regsize 32	Throughput	1.3	0.44
-sar , cl regsize 64	Throughput	1.36	0.59
-rol , cl regsize 16	Throughput	1.61	0.29
-shr , 1 regsize 32	Throughput	1.36	0.59
-bts r64, rcx	Throughput	6.72	14.3
-sar , cl regsize 8	Throughput	1.33	0.61
-Throughput with memory operand: shrd , 6 regsize 64	Throughput	30.96	0.12
-rcr , 1 regsize 32	Throughput	1.59	0.34
-Throughput with memory operand: shld , cl regsize 64	Throughput	32.43	0.13
-sar , 4 regsize 64	Throughput	1.28	0.47
-rcl , cl regsize 64	Throughput	45.94	1.49
-Throughput with memory operand: shld , 1 regsize 64	Throughput	35.12	0.14
-ror , 4 regsize 8	Throughput	1.61	0.3
-rcr , 4 regsize 32	Throughput	39.61	1.45
-rcl , 1 regsize 64	Throughput	1.61	0.3
-btc r32, 5	Latency	1.97	0.0
-shr , cl regsize 64	Throughput	1.3	0.44
-shl , 1 regsize 32	Throughput	1.3	0.44
-shrd , 6 regsize 16	Latency	2.22	0.0
-btc r64, 5	Latency	2.14	0.0
-Throughput with memory operand: shrd , cl regsize 64	Throughput	33.53	0.14
-ror , cl regsize 64	Throughput	1.66	0.25
-Throughput with memory operand: shld , cl regsize 16	Throughput	5.3	0.0
-shr , 4 regsize 8	Throughput	1.36	0.59
-shld , 6 regsize 32	Latency	2.05	0.0
-shl , cl regsize 8	Throughput	1.36	0.59
-shld , cl regsize 16	Latency	2.22	0.0
-bt r32, 5	Latency	1.07	0.0
-rol , 1 regsize 8	Throughput	1.61	0.3
-rcl , 1 regsize 16	Throughput	1.66	0.25
-bts r16, 5	Latency	2.14	0.0
-shrd , 1 regsize 32	Latency	2.05	0.0
-shl , 4 regsize 16	Throughput	1.36	0.59
-bts r16, cx	Throughput	2.13	0.0
-btr r64, 5	Latency	1.97	0.0
-shr , cl regsize 8	Throughput	1.38	0.55
-Throughput with memory operand: shld , 6 regsize 64	Throughput	32.42	0.14
-Throughput with memory operand: shld , 6 regsize 32	Throughput	5.62	0.89
-shr , 4 regsize 32	Throughput	1.36	0.58
-ror , 1 regsize 32	Throughput	1.61	0.3
-rcl , 4 regsize 32	Throughput	42.54	0.13
-shrd , 6 regsize 32	Latency	2.05	0.0
-shl , cl regsize 64	Throughput	1.36	0.59
-btr r64, rcx	Throughput	6.57	12.08
-rcl , cl regsize 8	Throughput	44.43	4.16
-shl , 1 regsize 8	Throughput	1.36	0.59
-rol , cl regsize 32	Throughput	1.61	0.3
-shr , 1 regsize 8	Throughput	1.36	0.59
-rcl , cl regsize 16	Throughput	43.91	2.92
-bt r16, 5	Latency	1.16	0.0
-rol , 1 regsize 64	Throughput	1.61	0.3
-ror , 1 regsize 8	Throughput	1.61	0.3
-sar , 1 regsize 8	Throughput	1.3	0.44
-sar , 1 regsize 64	Throughput	1.3	0.44
-rcr , cl regsize 64	Throughput	45.22	1.98
-shl , 1 regsize 16	Throughput	1.28	0.47
-shld , 1 regsize 64	Throughput	33.5	3.09
-shl , cl regsize 16	Throughput	1.36	0.58
-shrd , cl regsize 64	Throughput	33.28	1.58
-shld , 6 regsize 64	Throughput	33.93	0.0
-Throughput with memory operand: shld , cl regsize 32	Throughput	5.31	0.0
-Throughput with memory operand: shrd , 6 regsize 16	Throughput	5.31	0.0
-ror , 1 regsize 64	Throughput	1.61	0.3
-Throughput with memory operand: shld , 1 regsize 32	Throughput	4.9	0.0
-shrd , 1 regsize 16	Latency	2.22	0.0
-rcr , cl regsize 8	Throughput	43.96	3.2
-shrd , 6 regsize 64	Throughput	33.35	1.52
-shld , 1 regsize 16	Latency	2.05	0.0
-sar , cl regsize 32	Throughput	1.36	0.59
-shr , cl regsize 32	Throughput	1.28	0.47
-shl , 4 regsize 32	Throughput	1.36	0.59
-ror , 4 regsize 64	Throughput	1.61	0.3
-btc r16, 5	Latency	1.97	0.0
-rol , 4 regsize 32	Throughput	1.61	0.3
-shld , cl regsize 64	Throughput	34.05	0.13
-rcl , 4 regsize 16	Throughput	40.84	2.91
-shrd , cl regsize 16	Latency	2.22	0.0
-Throughput with memory operand: shrd , cl regsize 32	Throughput	5.6	0.97
-ror , cl regsize 32	Throughput	1.66	0.25
-rcl , cl regsize 32	Throughput	42.89	2.28
-rcr , 4 regsize 64	Throughput	41.81	2.85
-bt r32, ecx	Throughput	1.07	0.0
-Throughput with memory operand: shrd , 1 regsize 64	Throughput	30.96	0.14
-bt r16, cx	Throughput	1.07	0.0
-btc r16, cx	Throughput	2.14	0.0
-btr r16, 5	Latency	2.13	0.0
-sar , 4 regsize 32	Throughput	1.3	0.44
-Throughput with memory operand: shld , 6 regsize 16	Throughput	5.31	0.0
-rcl , 4 regsize 8	Throughput	40.84	2.92
-shr , 1 regsize 64	Throughput	1.36	0.59
-rcl , 4 regsize 64	Throughput	39.34	0.39
-shl , cl regsize 32	Throughput	1.36	0.59
-shr , 4 regsize 64	Throughput	1.3	0.44
-bt r64, 5	Latency	1.07	0.0
-bt r64, rcx	Throughput	3.75	13.31
-shld , 6 regsize 16	Latency	2.22	0.0
-btr r32, ecx	Throughput	1.97	0.0
-btc r64, rcx	Throughput	6.48	12.5
-rol , 1 regsize 32	Throughput	1.61	0.3
-Throughput with memory operand: shld , 1 regsize 16	Throughput	5.3	0.0
-rcr , 1 regsize 64	Throughput	1.53	0.21
-rcr , cl regsize 32	Throughput	43.68	3.38
-ror , 4 regsize 16	Throughput	1.61	0.3
-rol , 4 regsize 64	Throughput	1.61	0.29
-rol , cl regsize 8	Throughput	1.61	0.3
-shr , 1 regsize 16	Throughput	1.36	0.59
-Throughput with memory operand: shrd , 1 regsize 32	Throughput	5.31	0.0
-rol , 4 regsize 16	Throughput	1.61	0.3
-sar , 1 regsize 16	Throughput	1.3	0.44
-bts r64, 5	Latency	1.97	0.0
-sar , 4 regsize 8	Throughput	1.28	0.47
-shrd , cl regsize 32	Latency	2.05	0.0
-Throughput with memory operand: shrd , cl regsize 16	Throughput	5.31	0.0
-Throughput with memory operand: shrd , 6 regsize 32	Throughput	5.31	0.0
-ror , cl regsize 16	Throughput	1.61	0.29
+rcr , 4 regsize 16	39.28	40.88
+ror , cl regsize 8	1.16	1.61
+shrd , 1 regsize 64	30.82	30.96
+shl , 4 regsize 8	1.06	1.42
+rcr , 1 regsize 8	1.16	1.53
+shl , 4 regsize 64	0.98	1.38
+ror , 1 regsize 16	1.07	1.61
+btr r16, cx	miss	2.13
+sar , 4 regsize 16	0.98	1.3
+bts r32, 5	1.97	miss
+shr , 4 regsize 16	1.06	1.36
+shl , 1 regsize 64	1.06	1.3
+shld , 1 regsize 32	2.05	4.9
+sar , cl regsize 16	0.98	1.36
+shr , cl regsize 16	0.98	1.3
+rol , cl regsize 64	1.16	1.61
+shld , cl regsize 32	2.22	5.31
+rcl , 1 regsize 32	1.07	1.66
+rcr , 1 regsize 16	1.16	1.53
+rol , 1 regsize 16	1.16	1.61
+btc r32, ecx	1.97	2.14
+rcl , 1 regsize 8	1.07	1.66
+rol , 4 regsize 8	1.16	1.61
+rcr , cl regsize 16	45.46	43.98
+bts r32, ecx	2.13	1.97
+rcr , 4 regsize 8	42.54	40.87
+ror , 4 regsize 32	1.16	1.61
+sar , 1 regsize 32	0.98	1.3
+sar , cl regsize 64	1.07	1.36
+rol , cl regsize 16	1.07	1.61
+shr , 1 regsize 32	1.06	1.36
+bts r64, rcx	miss	6.72
+sar , cl regsize 8	1.06	1.33
+rcr , 1 regsize 32	1.16	1.59
+sar , 4 regsize 64	1.06	1.28
+rcl , cl regsize 64	42.21	45.94
+ror , 4 regsize 8	1.16	1.61
+rcr , 4 regsize 32	42.25	39.61
+rcl , 1 regsize 64	1.07	1.61
+shr , cl regsize 64	1.07	1.3
+shl , 1 regsize 32	1.06	1.3
+shrd , 6 regsize 16	2.22	5.31
+btc r64, 5	2.14	miss
+ror , cl regsize 64	1.07	1.66
+shr , 4 regsize 8	0.98	1.36
+shld , 6 regsize 32	2.05	5.62
+shl , cl regsize 8	0.98	1.36
+shld , cl regsize 16	2.22	5.3
+bt r32, 5	1.07	miss
+rol , 1 regsize 8	1.07	1.61
+rcl , 1 regsize 16	1.07	1.66
+bts r16, 5	2.14	miss
+shrd , 1 regsize 32	2.05	5.31
+shl , 4 regsize 16	1.06	1.36
+bts r16, cx	miss	2.13
+btr r64, 5	1.97	miss
+shr , cl regsize 8	0.98	1.38
+btr r32, 5	1.97	miss
+shr , 4 regsize 32	0.99	1.36
+ror , 1 regsize 32	1.07	1.61
+rcl , 4 regsize 32	39.15	42.54
+shrd , 6 regsize 32	2.05	5.31
+shl , cl regsize 64	1.06	1.36
+btr r64, rcx	miss	6.57
+rcl , cl regsize 8	45.72	44.43
+shl , 1 regsize 8	1.06	1.36
+rol , cl regsize 32	1.16	1.61
+shr , 1 regsize 8	1.07	1.36
+rcl , cl regsize 16	42.22	43.91
+bt r16, 5	1.16	miss
+rol , 1 regsize 64	1.07	1.61
+ror , 1 regsize 8	1.07	1.61
+sar , 1 regsize 8	1.07	1.3
+sar , 1 regsize 64	0.98	1.3
+rcr , cl regsize 64	42.21	45.22
+shl , 1 regsize 16	1.06	1.28
+shld , 1 regsize 64	34.06	35.12
+shl , cl regsize 16	0.98	1.36
+shrd , cl regsize 64	30.79	33.53
+shld , 6 regsize 64	31.46	32.42
+ror , 1 regsize 64	1.16	1.61
+shrd , 1 regsize 16	2.22	5.3
+rcr , cl regsize 8	42.09	43.96
+shrd , 6 regsize 64	30.79	30.96
+shld , 1 regsize 16	2.05	5.3
+sar , cl regsize 32	0.98	1.36
+shr , cl regsize 32	1.06	1.28
+shl , 4 regsize 32	1.06	1.36
+ror , 4 regsize 64	1.16	1.61
+btc r16, 5	1.97	miss
+rol , 4 regsize 32	1.07	1.61
+shld , cl regsize 64	31.32	32.43
+rcl , 4 regsize 16	39.15	40.84
+shrd , cl regsize 16	2.22	5.31
+ror , cl regsize 32	1.07	1.66
+rcl , cl regsize 32	45.87	42.89
+rcr , 4 regsize 64	42.54	41.81
+bt r32, ecx	1.16	1.07
+bt r16, cx	miss	1.07
+btc r16, cx	miss	2.14
+btr r16, 5	2.13	miss
+sar , 4 regsize 32	1.06	1.3
+rcl , 4 regsize 8	39.43	40.84
+shr , 1 regsize 64	1.06	1.36
+rcl , 4 regsize 64	41.16	39.34
+shl , cl regsize 32	1.06	1.36
+shr , 4 regsize 64	0.98	1.3
+bt r64, 5	1.07	miss
+bt r64, rcx	miss	3.75
+shld , 6 regsize 16	2.22	5.31
+btr r32, ecx	2.13	1.97
+btc r64, rcx	miss	6.48
+rol , 1 regsize 32	1.16	1.61
+btc r32, 5	1.97	miss
+rcr , 1 regsize 64	1.16	1.53
+rcr , cl regsize 32	44.88	43.68
+ror , 4 regsize 16	1.16	1.61
+rol , 4 regsize 64	1.07	1.61
+rol , cl regsize 8	1.16	1.61
+shr , 1 regsize 16	1.06	1.36
+rol , 4 regsize 16	1.26	1.61
+sar , 1 regsize 16	1.06	1.3
+bts r64, 5	1.97	miss
+sar , 4 regsize 8	0.98	1.28
+shrd , cl regsize 32	2.05	5.6
+ror , cl regsize 16	1.16	1.61

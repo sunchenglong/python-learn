@@ -1,230 +1,246 @@
-Throughput with memory source operand: pmovzxwd r128,[m128]	Throughput	0.99	0.0
-punpcklqdq r128,r128	Throughput	0.98	0.0
-pshufw r64,r64,i	Throughput	0.98	0.0
-Throughput with memory source operand: palignr r64,[m64],i	Throughput	1.07	0.0
-psrad r128,i	Throughput	1.07	0.0
-Throughput with memory source operand: punpckldq r64,[m64]	Throughput	0.99	0.0
-punpckldq r64,r64	Throughput	0.98	0.0
-Throughput with memory source operand: packuswb r64,[m64]	Throughput	0.98	0.0
-paddd r64,r64	Throughput	1.06	0.0
-Throughput with memory source operand: pmovsxbw r128,[m128]	Throughput	0.99	0.0
-Throughput with memory source operand: pavgb r64,[m64]	Throughput	1.2	0.1
-Throughput with memory source operand: pmaddwd r128,[m128]	Throughput	1.96	0.0
-Throughput with memory source operand: packssdw r128,[m128]	Throughput	0.99	0.0
-pcmpgtd r64,r64	Throughput	0.98	0.0
-paddusb r128,r128	Throughput	0.98	0.0
-packssdw r64,r64	Throughput	1.16	0.0
-psllq r64,r64	Throughput	1.06	0.0
-Throughput with memory source operand: pmullw r128,[m128]	Throughput	1.23	0.0
-Throughput with memory source operand: pand r64,[m64]	Throughput	0.98	0.0
-pcmpgtw r64,r64	Throughput	1.06	0.0
-psllw r64,i	Throughput	1.06	0.0
-Throughput with memory source operand: psllw r64,[m64]	Throughput	0.98	0.0
-Throughput with memory source operand: pmulhuw r128,[m128]	Throughput	1.23	0.0
-Throughput with memory source operand: pcmpgtd r64,[m64]	Throughput	0.98	0.0
-pminub r64,r64	Throughput	1.06	0.0
-Throughput with memory source operand: pmovsxdq r128,[m128]	Throughput	1.07	0.0
-pmaxsw r128,r128	Throughput	0.98	0.0
-Throughput with memory source operand: pshuflw  r128,[m128]	Throughput	1.07	0.0
-pandn r64,r64	Throughput	0.98	0.0
-Throughput with memory source operand: phsubd r128,[m128]	Throughput	4.9	0.0
-pmaddwd r64,r64	Throughput	1.96	0.0
-pmaddubsw r64,r64	Throughput	7.83	0.0
-mpsadbw r128,r128	Throughput	0.99	0.0
-Throughput with memory source operand: punpckhwd r128,[m128]	Throughput	0.99	0.0
-Throughput with memory source operand: psraw r128,[m128]	Throughput	1.07	0.0
-pavgw r128,r128	Throughput	1.06	0.0
-pblendw r128,r128	Throughput	0.98	0.0
-pshufb r64,r64	Throughput	0.98	0.0
-Throughput with memory source operand: mpsadbw  r128,[m128]	Throughput	0.99	0.0
-Throughput with memory source operand: psllq r64,[m64]	Throughput	0.99	0.0
-Throughput with memory source operand: pshufhw  r128,[m128]	Throughput	1.21	0.1
-Throughput with memory source operand: pmuldq r128,[m128]	Throughput	1.23	0.0
-pcmpeqw r64,r64	Throughput	1.06	0.0
-Throughput with memory source operand: pandn r128,[m128]	Throughput	1.07	0.0
-pminub r128,r128	Throughput	1.41	1.06
-Throughput with memory source operand: pmaxuw r128,[m128]	Throughput	1.07	0.0
-Throughput with memory source operand: pmuludq r128,[m128]	Throughput	1.23	0.0
-Throughput with memory source operand: movdqa r128,[m128]	Throughput	1.41	0.0
-pabsb r64,r64	Throughput	0.98	0.0
-psignw r64,r64	Throughput	0.98	0.0
-movdqa r128,r128	Throughput	1.07	0.0
-phaddsw r128,r128	Throughput	3.18	0.0
-pmullw r128,r128	Throughput	0.98	0.0
-psadbw r64,r64	Throughput	1.07	0.0
-Throughput with memory source operand: psignw r64,[m64]	Throughput	0.99	0.0
-Throughput with memory source operand: paddw r128,[m128]	Throughput	1.07	0.0
-punpckhdq r64,r64	Throughput	0.98	0.0
-Throughput with memory source operand: pminsb r128,[m128]	Throughput	0.99	0.0
-Throughput with memory source operand: pminub r64,[m64]	Throughput	0.98	0.0
-pmuludq r128,r128	Throughput	1.06	0.0
-psllq r128,r128	Throughput	0.98	0.0
-Throughput with memory source operand: palignr  r128,[m128]	Throughput	0.99	0.0
-pmaxud r128,r128	Throughput	1.07	0.0
-pmuldq r128,r128	Throughput	0.98	0.0
-Throughput with memory source operand: paddusb r64,[m64]	Throughput	0.98	0.0
-Throughput with memory source operand: punpcklqdq r128,[m128]	Throughput	1.55	1.15
-psrad r64,i	Throughput	1.06	0.0
-pavgw r64,r64	Throughput	1.06	0.0
-Throughput with memory source operand: paddd r64,[m64]	Throughput	0.98	0.0
-Throughput with memory source operand: pcmpeqb r128,[m128]	Throughput	1.07	0.0
-Throughput with memory source operand: pmaddubsw r64,[m64]	Throughput	8.81	0.0
-pmuludq r64,r64	Throughput	0.99	0.0
-punpckhwd r64,r64	Throughput	0.98	0.0
-pcmpeqd r128,r128	Throughput	1.06	0.0
-Throughput with memory source operand: pshufb r128,[m128]	Throughput	1.07	0.0
-pmovzxwd r128,r128	Throughput	0.98	0.0
-pmaxsw r64,r64	Throughput	0.98	0.0
-psrlq r64,r64	Throughput	1.06	0.0
-Throughput with memory source operand: psllq r128,[m128]	Throughput	0.99	0.0
-Throughput with memory source operand: punpckhdq r64,[m64]	Throughput	0.98	0.0
-pabsb r128,r128	Throughput	0.98	0.0
-Throughput with memory source operand: psllw r128,[m128]	Throughput	0.99	0.0
-Throughput with memory source operand: paddq r64,[m64]	Throughput	0.98	0.0
-Throughput with memory source operand: pblendw  r128,[m128]	Throughput	0.99	0.0
-pmaddubsw r128,r128	Throughput	8.62	0.15
-Throughput with memory source operand: pcmpeqw r128,[m128]	Throughput	0.99	0.0
-Throughput with memory source operand: pmaddubsw r128,[m128]	Throughput	9.54	0.0
-Throughput with memory source operand: punpckhdq r128,[m128]	Throughput	0.99	0.0
-paddw r64,r64	Throughput	1.06	0.0
-Throughput with memory source operand: pcmpgtd r128,[m128]	Throughput	0.99	0.0
-Throughput with memory source operand: pabsb r128,[m128]	Throughput	0.99	0.0
-Throughput with memory source operand: psignw r128,[m128]	Throughput	0.99	0.0
-psrlq r128,i	Throughput	1.07	0.0
-psadbw r128,r128	Throughput	0.98	0.0
-Throughput with memory source operand: paddq r128,[m128]	Throughput	0.99	0.0
-packssdw r128,r128	Throughput	1.07	0.0
-Throughput with memory source operand: pcmpeqq r128,[m128]	Throughput	1.07	0.0
-punpckhwd r128,r128	Throughput	0.98	0.0
-psraw r64,r64	Throughput	0.98	0.0
-Throughput with memory source operand: pcmpeqb r64,[m64]	Throughput	0.98	0.0
-Throughput with memory source operand: pmaxsw r128,[m128]	Throughput	0.99	0.0
-pmullw r64,r64	Throughput	1.06	0.0
-paddw r128,r128	Throughput	0.98	0.0
-Throughput with memory source operand: pandn r64,[m64]	Throughput	0.98	0.0
-Throughput with memory source operand: punpckhqdq r128,[m128]	Throughput	0.99	0.0
-pand r64,r64	Throughput	0.98	0.0
-pshufb r128,r128	Throughput	0.99	0.0
-Throughput with memory source operand: paddd r128,[m128]	Throughput	0.99	0.0
-Throughput with memory source operand: pcmpgtw r64,[m64]	Throughput	0.99	0.0
-Throughput with memory source operand: pabsd r64,[m64]	Throughput	0.99	0.0
-paddq r64,r64	Throughput	0.98	0.0
-pmaxuw r128,r128	Throughput	0.98	0.0
-palignr r64,r64,i	Throughput	1.07	0.0
-punpckhdq r128,r128	Throughput	0.98	0.0
-Throughput with memory source operand: pmaddwd r64,[m64]	Throughput	1.97	0.0
-Throughput with memory source operand: movq r64,[m64]	Throughput	1.3	0.0
-Throughput with memory source operand: pavgw r64,[m64]	Throughput	1.07	0.0
-packuswb r128,r128	Throughput	0.98	0.0
-pavgb r64,r64	Throughput	1.06	0.0
-Throughput with memory source operand: pmullw r64,[m64]	Throughput	1.23	0.0
-psraw r64,i	Throughput	0.98	0.0
-Throughput with memory source operand: phaddw r64,[m64]	Throughput	4.9	0.0
-pshufhw r128,r128	Throughput	1.07	0.0
-Throughput with memory source operand: pmovzxbd r128,[m128]	Throughput	0.99	0.0
-pslldq r128,i	Throughput	1.07	0.0
-Throughput with memory source operand: movq r128,[m128]	Throughput	1.3	0.0
-movdqu r128,r128	Throughput	1.06	0.0
-pslld r64,r64	Throughput	1.06	0.0
-Throughput with memory source operand: psrlq r128,[m128]	Throughput	1.07	0.0
-Throughput with memory source operand: pmulhrsw r128,[m128]	Throughput	1.23	0.0
-Throughput with memory source operand: phminposuw r128,[m128]	Throughput	1.18	0.16
-pmovzxbd r128,r128	Throughput	0.98	0.0
-pmulld r128,r128	Throughput	0.98	0.0
-pcmpeqq r128,r128	Throughput	0.98	0.0
-Throughput with memory source operand: pcmpeqd r64,[m64]	Throughput	1.07	0.0
-Throughput with memory source operand: pslld r64,[m64]	Throughput	0.98	0.0
-psllw r128,r128	Throughput	0.98	0.0
-phsubd r64,r64	Throughput	3.18	0.0
-Throughput with memory source operand: paddusb r128,[m128]	Throughput	0.99	0.0
-Throughput with memory source operand: packssdw r64,[m64]	Throughput	0.98	0.0
-Throughput with memory source operand: packusdw r128,[m128]	Throughput	0.99	0.0
-Throughput with memory source operand: punpckhbw r128,[m128]	Throughput	0.98	0.0
-packuswb r64,r64	Throughput	1.02	0.0
-phaddw r128,r128	Throughput	3.18	0.0
-psllw r64,r64	Throughput	0.98	0.0
-punpckhbw r128,r128	Throughput	0.98	0.0
-phsubd r128,r128	Throughput	3.18	0.0
-psllw r128,i	Throughput	1.07	0.0
-punpckhbw r64,r64	Throughput	0.98	0.0
-Throughput with memory source operand: pshufb r64,[m64]	Throughput	1.07	0.0
-Throughput with memory source operand: pcmpeqw r64,[m64]	Throughput	0.98	0.0
-pshufd r128,r128	Throughput	0.98	0.0
-Throughput with memory source operand: pmulhrsw r64,[m64]	Throughput	1.23	0.0
-psraw r128,i	Throughput	0.98	0.0
-Throughput with memory source operand: punpckhbw r64,[m64]	Throughput	0.99	0.0
-psraw r128,r128	Throughput	1.06	0.0
-paddq r128,r128	Throughput	0.99	0.0
-Throughput with memory source operand: paddw r64,[m64]	Throughput	0.98	0.0
-Throughput with memory source operand: ptest r128,[m128]	Throughput	1.07	0.0
-phaddw r64,r64	Throughput	2.94	0.0
-Throughput with memory source operand: pcmpgtw r128,[m128]	Throughput	0.98	0.0
-Throughput with memory source operand: pabsd r128,[m128]	Throughput	0.99	0.0
-Throughput with memory source operand: pmovsxbq r128,[m128]	Throughput	0.98	0.0
-psignw r128,r128	Throughput	0.98	0.0
-Throughput with memory source operand: phaddsw r128,[m128]	Throughput	4.9	0.0
-Throughput with memory source operand: psraw r64,[m64]	Throughput	0.98	0.0
-Throughput with memory source operand: pmuludq r64,[m64]	Throughput	1.33	0.0
-Throughput with memory source operand: pabsb r64,[m64]	Throughput	0.98	0.0
-Throughput with memory source operand: pshufw r64,[m64],i	Throughput	1.07	0.0
-paddusb r64,r64	Throughput	0.98	0.0
-pshuflw r128,r128	Throughput	0.98	0.0
-Throughput with memory source operand: pand r128,[m128]	Throughput	1.06	0.0
-Throughput with memory source operand: psrlq r64,[m64]	Throughput	1.07	0.0
-phaddsw r64,r64	Throughput	2.94	0.0
-pabsd r64,r64	Throughput	0.98	0.0
-ptest r128,r128	Throughput	0.98	0.0
-Throughput with memory source operand: phaddw r128,[m128]	Throughput	4.9	0.0
-Throughput with memory source operand: pmaxsw r64,[m64]	Throughput	0.98	0.0
-pcmpgtd r128,r128	Throughput	1.07	0.0
-Throughput with memory source operand: packsswb r128,[m128]	Throughput	0.99	0.0
-pminsb r128,r128	Throughput	0.98	0.0
-pmovsxbq r128,r128	Throughput	0.98	0.0
-Throughput with memory source operand: packuswb r128,[m128]	Throughput	0.98	0.0
-Throughput with memory source operand: pshufd  r128,[m128]	Throughput	0.99	0.0
-paddd r128,r128	Throughput	0.98	0.0
-movq r64,r64	Throughput	1.06	0.0
-psrlq r64,i	Throughput	1.07	0.0
-punpckhqdq r128,r128	Throughput	0.98	0.0
-Throughput with memory source operand: pavgb r128,[m128]	Throughput	1.07	0.0
-Throughput with memory source operand: pmulhuw r64,[m64]	Throughput	1.23	0.0
-pcmpeqd r64,r64	Throughput	1.06	0.0
-Throughput with memory source operand: pcmpeqd r128,[m128]	Throughput	0.99	0.0
-Throughput with memory source operand: pmulld r128,[m128]	Throughput	1.23	0.0
-Throughput with memory source operand: phsubd r64,[m64]	Throughput	4.9	0.0
-pcmpgtw r128,r128	Throughput	1.06	0.0
-palignr r128,r128	Throughput	1.07	0.0
-packsswb r128,r128	Throughput	0.98	0.0
-pcmpeqb r64,r64	Throughput	1.06	0.0
-punpckldq r128,r128	Throughput	0.98	0.0
-phminposuw r128,r128	Throughput	1.07	0.0
-Throughput with memory source operand: psadbw r128,[m128]	Throughput	0.99	0.0
-Throughput with memory source operand: punpckhwd r64,[m64]	Throughput	0.98	0.0
-packsswb r64,r64	Throughput	0.98	0.0
-pavgb r128,r128	Throughput	1.06	0.0
-psrlq r128,r128	Throughput	1.06	0.0
-pmovsxdq r128,r128	Throughput	0.98	0.0
-pandn r128,r128	Throughput	0.98	0.0
-pslld r128,r128	Throughput	0.98	0.0
-packusdw r128,r128	Throughput	0.99	0.0
-pcmpeqb r128,r128	Throughput	1.06	0.0
-Throughput with memory source operand: phaddsw r64,[m64]	Throughput	4.9	0.0
-Throughput with memory source operand: pavgw r128,[m128]	Throughput	0.99	0.0
-Throughput with memory source operand: pslld r128,[m128]	Throughput	1.41	0.95
-Throughput with memory source operand: movdqu r128,[m128]	Throughput	1.31	0.0
-psrldq r128,i	Throughput	1.07	0.0
-Throughput with memory source operand: punpckldq r128,[m128]	Throughput	0.98	0.0
-pmulhuw r128,r128	Throughput	0.98	0.0
-pmulhrsw r64,r64	Throughput	0.99	0.0
-movq r128,r128	Throughput	0.98	0.0
-pcmpeqw r128,r128	Throughput	0.98	0.0
-pand r128,r128	Throughput	0.98	0.0
-pmaddwd r128,r128	Throughput	2.32	0.0
-pabsd r128,r128	Throughput	1.07	0.0
-Throughput with memory source operand: pmaxud r128,[m128]	Throughput	1.07	0.0
-pmulhuw r64,r64	Throughput	0.98	0.0
-Throughput with memory source operand: psadbw r64,[m64]	Throughput	0.98	0.0
-Throughput with memory source operand: packsswb r64,[m64]	Throughput	0.99	0.0
-pmulhrsw r128,r128	Throughput	1.07	0.0
-Throughput with memory source operand: pminub r128,[m128]	Throughput	0.98	0.0
-pmovsxbw r128,r128	Throughput	1.07	0.0
+psadbw r128,[m128]	miss	0.99
+phsubd r64,[m64]	miss	4.9
+punpcklqdq r128,r128	1.06	0.98
+punpckhqdq r128,[m128]	miss	0.99
+pabsd r128,[m128]	miss	0.99
+punpckldq r64,r64	0.98	0.98
+paddd r64,r64	1.16	1.06
+pmuludq r128,r128	3.18	1.06
+pcmpgtq r128,[m128]	miss	miss
+pmaxuw r128,[m128]	miss	1.07
+pcmpgtd r64,r64	1.06	0.98
+psignw r64,[m64]	miss	0.99
+paddusb r128,r128	0.98	0.98
+punpckhwd r128,[m128]	miss	0.99
+pcmpeqw r64,r64	1.06	1.06
+psllq r64,r64	1.06	1.06
+pand r64,[m64]	miss	0.98
+packuswb r128,[m128]	miss	0.98
+movdqu r128,[m128]	miss	1.31
+pcmpgtw r64,[m64]	miss	0.99
+pcmpgtw r64,r64	1.06	1.06
+psllw r64,i	1.06	1.06
+pblendw  r128,[m128]	miss	0.99
+pminub r64,r64	1.06	1.06
+pcmpestrm  r128,[m128]	miss	miss
+psrlq r128,i	1.07	1.07
+pmaxsw r128,r128	0.98	0.98
+paddd r64,[m64]	miss	0.98
+paddw r128,[m128]	miss	1.07
+pavgb r64,[m64]	miss	1.2
+pandn r64,r64	0.98	0.98
+pshufb r128,[m128]	miss	1.07
+pmaddwd r64,r64	3.93	1.96
+pmovsxdq r128,[m128]	miss	1.07
+pcmpeqw r64,[m64]	miss	0.98
+punpcklqdq r128,[m128]	miss	1.55
+pcmpeqw r128,[m128]	miss	0.99
+pavgw r128,r128	1.07	1.06
+pcmpeqd r128,[m128]	miss	0.99
+pcmpeqq r128,[m128]	miss	1.07
+pshufb r64,r64	0.98	0.98
+pmaxsw r128,[m128]	miss	0.99
+phminposuw r128,[m128]	miss	1.18
+movdqa r128,[m128]	miss	1.41
+paddusb r128,[m128]	miss	0.99
+packssdw r64,r64	0.98	1.16
+pandn r128,r128	0.98	0.98
+pmaddubsw r64,[m64]	miss	8.81
+pminub r128,r128	1.06	1.41
+psrad r128,i	1.06	1.07
+phaddw r128,[m128]	miss	4.9
+pabsb r64,r64	0.98	0.98
+psignw r64,r64	0.98	0.98
+movdqa r128,r128	0.98	1.07
+psrlq r64,[m64]	miss	1.07
+phaddsw r128,r128	3.18	3.18
+pcmpgtd r128,[m128]	miss	0.99
+pmulhuw r64,[m64]	miss	1.23
+pcmpistrm r128,r128	miss	miss
+psadbw r64,r64	1.96	1.07
+pminsb r128,r128	0.98	0.98
+pmovzxwd r128,r128	0.98	0.98
+pcmpistri r128,r128	miss	miss
+pslldq r128,i	1.06	1.07
+packsswb r128,[m128]	miss	0.99
+pshuflw  r128,[m128]	miss	1.07
+pmovzxwd r128,[m128]	miss	0.99
+punpckhdq r64,r64	0.98	0.98
+packuswb r64,[m64]	miss	0.98
+pmovsxdq r128,r128	0.98	0.98
+punpckldq r128,[m128]	miss	0.98
+psllq r128,r128	0.98	0.98
+pmullw r128,r128	3.18	0.98
+Instructions with two 128 bit registers and one immediate operand	miss	miss
+pmaxud r128,r128	0.98	1.07
+psllw r128,[m128]	miss	0.99
+punpckldq r64,[m64]	miss	0.99
+psadbw r64,[m64]	miss	0.98
+pabsd r64,[m64]	miss	0.99
+pcmpeqb r64,[m64]	miss	0.98
+psignw r128,[m128]	miss	0.99
+pmuludq r64,r64	3.18	0.99
+pcmpeqb r64,r64	0.98	1.06
+pshufd r128,r128	1.07	0.98
+pcmpeqd r128,r128	1.07	1.06
+pmaxsw r64,r64	0.98	0.98
+pmaxsw r64,[m64]	miss	0.98
+pabsb r128,r128	1.0	0.98
+pmaddubsw r128,r128	7.83	8.62
+ptest r128,r128	0.98	0.98
+Instructions with one 64/128 bit register and one immediate operand	miss	miss
+paddw r64,r64	0.98	1.06
+phaddw r64,[m64]	miss	4.9
+pmaxud r128,[m128]	miss	1.07
+pmullw r64,[m64]	miss	1.23
+pmullw r128,[m128]	miss	1.23
+psadbw r128,r128	2.12	0.98
+pand r128,[m128]	miss	1.06
+pmulld r128,[m128]	miss	1.23
+packssdw r128,r128	1.06	1.07
+paddusb r64,[m64]	miss	0.98
+pcmpistri  r128,[m128]	miss	miss
+paddd r128,[m128]	miss	0.99
+pmullw r64,r64	3.18	1.06
+paddw r128,r128	1.06	0.98
+pclmulqdq  r128,[m128]	miss	miss
+pand r64,r64	0.98	0.98
+pshufb r128,r128	0.99	0.99
+punpckhwd r128,r128	0.98	0.98
+paddq r128,[m128]	miss	0.99
+paddusb r64,r64	1.06	0.98
+packusdw r128,[m128]	miss	0.99
+punpckhbw r128,[m128]	miss	0.98
+pcmpgtq r128,r128	miss	miss
+palignr r64,r64,i	0.98	1.07
+ptest r128,[m128]	miss	1.07
+punpckhdq r128,r128	0.98	0.98
+pclmulqdq r128,r128	miss	miss
+packuswb r128,r128	1.06	0.98
+pavgb r64,r64	1.06	1.06
+pandn r64,[m64]	miss	0.98
+psraw r64,i	0.98	0.98
+phsubd r64,r64	3.18	3.18
+pshufhw r128,r128	1.06	1.07
+packusdw r128,r128	0.98	0.99
+phaddsw r128,[m128]	miss	4.9
+movq r128,[m128]	miss	1.3
+movdqu r128,r128	1.06	1.06
+pmulhrsw r64,[m64]	miss	1.23
+pmaddubsw r128,[m128]	miss	9.54
+pshufd  r128,[m128]	miss	0.99
+movq r64,[m64]	miss	1.3
+pandn r128,[m128]	miss	1.07
+pmulld r128,r128	3.18	0.98
+pcmpeqq r128,r128	0.98	0.98
+pslld r64,r64	1.06	1.06
+mpsadbw r128,r128	1.96	0.99
+paddw r64,[m64]	miss	0.98
+pmulhrsw r128,[m128]	miss	1.23
+psllw r128,r128	0.98	0.98
+pcmpeqd r64,[m64]	miss	1.07
+pmuldq r128,[m128]	miss	1.23
+pcmpgtd r64,[m64]	miss	0.98
+pmuludq r64,[m64]	miss	1.33
+pmaddwd r128,[m128]	miss	1.96
+pminsb r128,[m128]	miss	0.99
+pmuldq r128,r128	2.94	0.98
+packuswb r64,r64	0.98	1.02
+phaddw r128,r128	2.94	3.18
+punpckhdq r128,[m128]	miss	0.99
+pmulhuw r128,[m128]	miss	1.23
+palignr r64,[m64],i	miss	1.07
+psllw r64,r64	0.98	0.98
+punpckhbw r128,r128	0.98	0.98
+phsubd r128,r128	2.94	3.18
+psllw r128,i	1.06	1.07
+pmuludq r128,[m128]	miss	1.23
+punpckhbw r64,r64	1.06	0.98
+pcmpistrm  r128,[m128]	miss	miss
+pcmpestrm r128,r128	miss	miss
+movq r128,r128	1.06	0.98
+psrad r64,i	1.06	1.06
+psraw r64,r64	0.98	0.98
+psraw r128,i	0.98	0.98
+pminub r128,[m128]	miss	0.98
+psraw r128,r128	0.98	1.06
+paddq r128,r128	1.1	0.99
+pmaddubsw r64,r64	7.98	7.83
+phaddsw r64,[m64]	miss	4.9
+phaddw r64,r64	3.18	2.94
+psrlq r64,r64	1.06	1.06
+psllq r64,[m64]	miss	0.99
+psignw r128,r128	0.98	0.98
+packssdw r128,[m128]	miss	0.99
+mpsadbw  r128,[m128]	miss	0.99
+palignr  r128,[m128]	miss	0.99
+packsswb r64,[m64]	miss	0.99
+pslld r64,[m64]	miss	0.98
+pshufw r64,r64,i	0.98	0.98
+pshuflw r128,r128	0.98	0.98
+pmovzxbd r128,[m128]	miss	0.99
+pabsb r64,[m64]	miss	0.98
+phaddsw r64,r64	2.94	2.94
+pavgw r64,r64	1.07	1.06
+psllq r128,[m128]	miss	0.99
+pmaxuw r128,r128	0.98	0.98
+Instructions with two registers and one immediate operand	miss	miss
+pabsd r64,r64	1.06	0.98
+pavgb r128,[m128]	miss	1.07
+pcmpestri  r128,[m128]	miss	miss
+pcmpgtd r128,r128	1.06	1.07
+psraw r128,[m128]	miss	1.07
+pmovsxbq r128,[m128]	miss	0.98
+pcmpeqb r128,[m128]	miss	1.07
+pmovsxbq r128,r128	1.06	0.98
+pavgw r128,[m128]	miss	0.99
+paddd r128,r128	1.06	0.98
+phsubd r128,[m128]	miss	4.9
+pshufb r64,[m64]	miss	1.07
+movq r64,r64	0.98	1.06
+psrlq r64,i	1.06	1.07
+pmaddwd r64,[m64]	miss	1.97
+punpckhqdq r128,r128	0.98	0.98
+phminposuw r128,r128	1.96	1.07
+pminub r64,[m64]	miss	0.98
+pshufw r64,[m64],i	miss	1.07
+pcmpeqd r64,r64	1.06	1.06
+pcmpgtw r128,r128	1.06	1.06
+palignr r128,r128	1.07	1.07
+packsswb r128,r128	1.06	0.98
+punpckhwd r64,r64	0.98	0.98
+instructions that can have only 128 bit	miss	miss
+punpckhwd r64,[m64]	miss	0.98
+punpckldq r128,r128	0.98	0.98
+pmovsxbw r128,[m128]	miss	0.99
+pblendw r128,r128	1.07	0.98
+pcmpestri r128,r128	miss	miss
+packsswb r64,r64	0.98	0.98
+pavgb r128,r128	1.06	1.06
+psrlq r128,r128	1.06	1.06
+pcmpgtw r128,[m128]	miss	0.98
+punpckhbw r64,[m64]	miss	0.99
+pslld r128,r128	1.06	0.98
+pabsb r128,[m128]	miss	0.99
+paddq r64,[m64]	miss	0.98
+pcmpeqb r128,r128	1.06	1.06
+psllw r64,[m64]	miss	0.98
+pmovzxbd r128,r128	0.98	0.98
+psrldq r128,i	1.06	1.07
+punpckhdq r64,[m64]	miss	0.98
+pmulhuw r128,r128	3.19	0.98
+pmulhrsw r64,r64	3.18	0.99
+pslld r128,[m128]	miss	1.41
+pcmpeqw r128,r128	1.06	0.98
+pand r128,r128	0.98	0.98
+pmaddwd r128,r128	3.92	2.32
+pabsd r128,r128	1.07	1.07
+pavgw r64,[m64]	miss	1.07
+pmulhuw r64,r64	2.94	0.98
+pshufhw  r128,[m128]	miss	1.21
+paddq r64,r64	0.98	0.98
+psrlq r128,[m128]	miss	1.07
+pmulhrsw r128,r128	2.94	1.07
+psraw r64,[m64]	miss	0.98
+packssdw r64,[m64]	miss	0.98
+pmovsxbw r128,r128	1.07	1.07
