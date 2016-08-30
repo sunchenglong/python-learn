@@ -1,0 +1,58 @@
+Instruct 	 Operators 	 Latency 	 Throughput 	 RawCommand 
+lock	cmpxchg [m8], r8	27.44	miss	lock cmpxchg [m8], r8
+movzx	r64,[m16]	miss	1.32	movzx r64,[m16]
+movzx	r16,[m8] / mov [m8],r8	2.48	miss	movzx r16,[m8] / mov [m8],r8
+xadd	[m16], r16	5.31	miss	xadd [m16], r16
+movzx	r32,[m8]	miss	1.43	movzx r32,[m8]
+movsx	r64,r16	1.07	0.54	movsx r64,r16
+movzx	r16,[m8]	miss	1.19	movzx r16,[m8]
+movzx	r16,r8	1.0	0.95	movzx r16,r8
+lock	cmpxchg16b [m]	72.75	miss	lock cmpxchg16b [m]
+xadd	[m32], r32	5.32	miss	xadd [m32], r32
+movsxd	r64,[m32]	miss	1.11	movsxd r64,[m32]
+movsx	r16,[m8] / mov [m8],r8	2.48	miss	movsx r16,[m8] / mov [m8],r8
+add	[m]	4.9	miss	add [m]
+movsx	r32,r16	0.99	0.54	movsx r32,r16
+xadd	[m64], r64	4.9	miss	xadd [m64], r64
+movsx	r32,[m16] / mov [m16],r16	2.69	miss	movsx r32,[m16] / mov [m16],r16
+lock	cmpxchg [m32], r32	31.97	miss	lock cmpxchg [m32], r32
+movzx	r32,r8	0.99	0.9	movzx r32,r8
+lock	xadd [m32], r32	26.01	miss	lock xadd [m32], r32
+movzx	r32,[m8] / mov [m8],r8	1.98	miss	movzx r32,[m8] / mov [m8],r8
+movsx	r16,r8	0.99	0.89	movsx r16,r8
+cmpxchg	[m32], r32	11.68	miss	cmpxchg [m32], r32
+movsx	r16,[m8]	miss	1.19	movsx r16,[m8]
+lock	add [m]	24.72	miss	lock add [m]
+movsxd	r64,[m32] / mov [m32],r32	3.12	miss	movsxd r64,[m32] / mov [m32],r32
+cmpxchg16b	[m]	64.88	miss	cmpxchg16b [m]
+movsx	r32,[m8] / mov [m8],r8	2.64	miss	movsx r32,[m8] / mov [m8],r8
+movzx	r64,[m16] / mov [m16],r16	1.99	miss	movzx r64,[m16] / mov [m16],r16
+movzx	r64,r8	0.99	0.96	movzx r64,r8
+lock	xadd [m8], r8	25.48	miss	lock xadd [m8], r8
+movsx	r64,[m16] / mov [m16],r16	2.69	miss	movsx r64,[m16] / mov [m16],r16
+cmpxchg	[m8], r8	8.82	miss	cmpxchg [m8], r8
+movzx	r32,[m16] / mov [m16],r16	2.15	miss	movzx r32,[m16] / mov [m16],r16
+cmpxchg	[m16], r16	8.82	miss	cmpxchg [m16], r16
+movzx	r64,r16	0.99	0.54	movzx r64,r16
+cmpxchg8b	[m]	12.74	miss	cmpxchg8b [m]
+movsx	r32,r8	1.07	0.5	movsx r32,r8
+movsxd	r64,r32	1.0	1.0	movsxd r64,r32
+movsx	r64,[m8]	miss	1.28	movsx r64,[m8]
+lock	xadd [m64], r64	23.52	miss	lock xadd [m64], r64
+xadd	[m8], r8	5.31	miss	xadd [m8], r8
+lock	cmpxchg8b [m]	34.07	miss	lock cmpxchg8b [m]
+movzx	r32,r16	1.07	0.54	movzx r32,r16
+movzx	r64,[m8] / mov [m8],r8	2.15	miss	movzx r64,[m8] / mov [m8],r8
+lock	xadd [m16], r16	25.6	miss	lock xadd [m16], r16
+movsx	r64,[m16]	miss	1.19	movsx r64,[m16]
+movsx	r64,r8	0.99	0.5	movsx r64,r8
+lock	cmpxchg [m16], r16	29.86	miss	lock cmpxchg [m16], r16
+xlat	/ xor eax,eax	miss	1.4	xlat / xor eax,eax
+movzx	r32,[m16]	miss	1.43	movzx r32,[m16]
+movsx	r32,[m8]	miss	1.29	movsx r32,[m8]
+movsx	r32,[m16]	miss	1.19	movsx r32,[m16]
+xlat		5.89	miss	xlat
+cmpxchg	[m64], r64	9.56	miss	cmpxchg [m64], r64
+movsx	r64,[m8] / mov [m8],r8	2.49	miss	movsx r64,[m8] / mov [m8],r8
+lock	cmpxchg [m64], r64	29.86	miss	lock cmpxchg [m64], r64
+movzx	r64,[m8]	miss	1.32	movzx r64,[m8]

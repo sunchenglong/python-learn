@@ -1,11 +1,22 @@
 # coding=utf-8
 
 import re
+import os
 
 
 class FormatResult:
     def __init__(self):
-        self.fileFormat('../../../output/result.xls', '../../../output/formatResult.xls')
+        # self.fileFormat('../../../output/result.xls', '../../../output/formatResult.xls')
+        self.listFiles('../../../out20160817', '../../../out20160830')
+
+    def listFiles(self, inputSrc, outputSrc):
+        list = os.listdir(inputSrc)
+        for file in list:
+            input = inputSrc + '/' + file
+            output = outputSrc + '/' + file + '.xls'
+            print input
+            print output
+            self.fileFormat(inputSrc=input, outputSrc=output)
 
     def fileFormat(self, inputSrc, outputSrc):
         inputFile = open(inputSrc, 'r')

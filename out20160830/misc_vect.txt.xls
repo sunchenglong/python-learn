@@ -1,0 +1,32 @@
+Instruct 	 Operators 	 Latency 	 Throughput 	 RawCommand 
+maskmovdqu+movq/dqa		124.74	miss	maskmovdqu r,r (pattern 0xff) + movq/dqa (x)mm,[mem]
+maskmovq	r,r (pattern 0x00)	miss	1.93	maskmovq r,r (pattern 0x00)
+blendvps	r128,r128,xmm0	3.93	1.96	blendvps r128,r128,xmm0
+maskmovq	r,r (pattern 0x02)	miss	1.93	maskmovq r,r (pattern 0x02)
+maskmovdqu+movq/dqa		138.44	miss	maskmovdqu r,r (pattern 0x33) + movq/dqa (x)mm,[mem]
+pblendvb	r128,r128,xmm0	1.96	2.13	pblendvb r128,r128,xmm0
+maskmovq+movq/dqa		133.15	miss	maskmovq r,r (pattern 0xff) + movq/dqa (x)mm,[mem]
+maskmovdqu	r,r (pattern 0xff)	miss	1.93	maskmovdqu r,r (pattern 0xff)
+stmxcsr	m	miss	12.75	stmxcsr m
+maskmovdqu	r,r (pattern 0x02)	miss	1.78	maskmovdqu r,r (pattern 0x02)
+maskmovq	r,r (pattern 0x55)	miss	1.93	maskmovq r,r (pattern 0x55)
+blendps	r128,r128,i	1.07	0.98	blendps r128,r128,i
+maskmovq+movq/dqa		130.69	miss	maskmovq r,r (pattern 0x33) + movq/dqa (x)mm,[mem]
+blendpd	r128,r128,i	0.98	0.99	blendpd r128,r128,i
+maskmovdqu+movq/dqa		139.57	miss	maskmovdqu r,r (pattern 0x55) + movq/dqa (x)mm,[mem]
+maskmovdqu	r,r (pattern 0x00)	miss	1.78	maskmovdqu r,r (pattern 0x00)
+maskmovdqu	r,r (pattern 0x33)	miss	1.94	maskmovdqu r,r (pattern 0x33)
+maskmovdqu+movq/dqa		124.93	miss	maskmovdqu r,r (pattern 0x02) + movq/dqa (x)mm,[mem]
+maskmovq+movq/dqa		133.52	miss	maskmovq r,r (pattern 0x55) + movq/dqa (x)mm,[mem]
+ldmxcsr+stmccsr	32.25	miss		32.25	miss	ldmxcsr + stmccsr
+blendps	r128,[m128],i	miss	1.07	blendps r128,[m128],i
+maskmovq	r,r (pattern 0xff)	miss	1.93	maskmovq r,r (pattern 0xff)
+maskmovdqu	r,r (pattern 0x55)	miss	1.93	maskmovdqu r,r (pattern 0x55)
+blendvps	r128,[m128],xmm0	miss	2.13	blendvps r128,[m128],xmm0
+maskmovq+movq/dqa		1.67	miss	maskmovq r,r (pattern 0x00) + movq/dqa (x)mm,[mem]
+blendpd	r128,[m128],i	miss	0.99	blendpd r128,[m128],i
+maskmovq	r,r (pattern 0x33)	miss	1.93	maskmovq r,r (pattern 0x33)
+maskmovdqu+movq/dqa		1.67	miss	maskmovdqu r,r (pattern 0x00) + movq/dqa (x)mm,[mem]
+ldmxcsr	m	miss	30.77	ldmxcsr m
+maskmovq+movq/dqa		133.04	miss	maskmovq r,r (pattern 0x02) + movq/dqa (x)mm,[mem]
+pblendvb	r128,[m128],xmm0	miss	2.13	pblendvb r128,[m128],xmm0

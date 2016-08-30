@@ -1,0 +1,23 @@
+Instruct 	 Operators 	 Latency 	 Throughput 	 RawCommand 
+into		7.65	miss	into
+bound		12.74	miss	bound
+pushad		15.62	miss	pushad
+aam_throughput		8.42	miss	aam_throughput
+enter	4, 1	50.72	miss	enter 4, 1
+aam_latency		29.6	miss	aam_latency
+enter	4, 4	68.59	miss	enter 4, 4
+enter	4, 0	20.0	miss	enter 4, 0
+daa		23.37	miss	daa
+enter	4, 2	63.99	miss	enter 4, 2
+enter	4, 3	69.15	miss	enter 4, 3
+das		25.5	miss	das
+aad		18.63	miss	aad
+sahf		1.16	miss	sahf
+aaa		38.16	miss	aaa
+lahf_sahf		1.17	miss	lahf_sahf
+salc		5.88	miss	salc
+leave		4.82	miss	leave
+salc_inc_al		5.43	miss	salc_inc_al
+popad		12.22	miss	popad
+aas		35.22	miss	aas
+lahf		0.98	miss	lahf

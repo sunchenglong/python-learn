@@ -1,0 +1,23 @@
+Instruct 	 Operators 	 Latency 	 Throughput 	 RawCommand 
+imul	, regsize 32, numop 2	2.14	1.21	imul , regsize 32, numop 2
+imul	, regsize 32, numop 3	2.13	1.31	imul , regsize 32, numop 3
+mul	, registersize 32 (subtract 1 uop)	miss	2.74	mul , registersize 32 (subtract 1 uop)
+imul	, registersize 8	1.97	miss	imul , registersize 8
+mul	, registersize 64 (subtract 1 uop)	miss	3.22	mul , registersize 64 (subtract 1 uop)
+imul	, registersize 8 (subtract 1 uop)	miss	0.55	imul , registersize 8 (subtract 1 uop)
+imul	, registersize 32	2.94	miss	imul , registersize 32
+imul	, registersize 16	2.94	miss	imul , registersize 16
+imul	, regsize 64, numop 2	5.3	1.96	imul , regsize 64, numop 2
+imul	, registersize 16 (subtract 1 uop)	miss	2.48	imul , registersize 16 (subtract 1 uop)
+mul	, registersize 16 (subtract 1 uop)	miss	2.68	mul , registersize 16 (subtract 1 uop)
+mul	, registersize 32	3.19	miss	mul , registersize 32
+mul	, registersize 16	3.19	miss	mul , registersize 16
+imul	, regsize 16, numop 2	2.13	1.31	imul , regsize 16, numop 2
+imul	, regsize 16, numop 3	2.14	1.21	imul , regsize 16, numop 3
+imul	, regsize 64, numop 3	5.3	2.13	imul , regsize 64, numop 3
+mul	, registersize 8 (subtract 1 uop)	miss	0.55	mul , registersize 8 (subtract 1 uop)
+imul	, registersize 64	8.48	miss	imul , registersize 64
+mul	, registersize 8	2.13	miss	mul , registersize 8
+imul	, registersize 64 (subtract 1 uop)	miss	3.03	imul , registersize 64 (subtract 1 uop)
+mul	, registersize 64	7.83	miss	mul , registersize 64
+imul	, registersize 32 (subtract 1 uop)	miss	2.47	imul , registersize 32 (subtract 1 uop)

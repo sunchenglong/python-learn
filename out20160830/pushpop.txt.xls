@@ -1,0 +1,10 @@
+Instruct 	 Operators 	 Latency 	 Throughput 	 RawCommand 
+pop	, operand: SP	miss	3.11	pop , operand: SP
+pop	, operand: M	miss	2.04	pop , operand: M
+push	, operand: R	miss	1.72	push , operand: R
+pop	, operand: F	miss	1.17	pop , operand: F
+push	, operand: M	miss	1.7	push , operand: M
+push	, operand: SP	miss	1.72	push , operand: SP
+push	, operand: I	miss	1.69	push , operand: I
+push	, operand: F	miss	1.49	push , operand: F
+pop	, operand: R	miss	1.17	pop , operand: R

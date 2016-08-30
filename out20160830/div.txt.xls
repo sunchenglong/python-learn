@@ -1,0 +1,17 @@
+Instruct 	 Operators 	 Latency 	 Throughput 	 RawCommand 
+idiv	, registersize 16	10.59	7.61	idiv , registersize 16
+div	, registersize 32, 1 / 1	7.39	4.97	div , registersize 32, 1 / 1
+idiv	, registersize 32	9.05	7.22	idiv , registersize 32
+idiv	, registersize 64	70.22	66.91	idiv , registersize 64
+idiv	, registersize 8, 1 / 1	8.5	6.99	idiv , registersize 8, 1 / 1
+div	, registersize 32	9.62	6.99	div , registersize 32
+idiv	, registersize 32, 1 / 1	6.4	5.06	idiv , registersize 32, 1 / 1
+div	, registersize 64, 1 / 1	49.08	52.04	div , registersize 64, 1 / 1
+div	, registersize 8	8.19	4.97	div , registersize 8
+idiv	, registersize 16, 1 / 1	8.6	7.66	idiv , registersize 16, 1 / 1
+idiv	, registersize 64, 1 / 1	60.28	61.55	idiv , registersize 64, 1 / 1
+div	, registersize 16, 1 / 1	8.22	5.96	div , registersize 16, 1 / 1
+div	, registersize 8, 1 / 1	7.43	4.97	div , registersize 8, 1 / 1
+idiv	, registersize 8	8.48	6.95	idiv , registersize 8
+div	, registersize 64	53.68	54.97	div , registersize 64
+div	, registersize 16	10.24	5.96	div , registersize 16

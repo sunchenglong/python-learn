@@ -1,0 +1,201 @@
+Instruct 	 Operators 	 Latency 	 Throughput 	 RawCommand 
+sub	r32,r32 (same register)	0.54	miss	sub r32,r32 (same register)
+pcmpgtb	r128,r128 (same register)	0.98	miss	pcmpgtb r128,r128 (same register)
+pcmpgtd	r128,r128 (same register)	1.06	miss	pcmpgtd r128,r128 (same register)
+psubusw+pmullw	0.55	miss		0.55	miss	psubusw r128,r128 (same register) + pmullw
+psubusw+pmullw	2.97	miss		2.97	miss	psubusw r65,r65 (different register) + pmullw
+xor	r64,r64 (different register)	1.06	miss	xor r64,r64 (different register)
+psubusw	r128,r128 (same register)	1.06	miss	psubusw r128,r128 (same register)
+sbb	r32,r32 (same register)	2.2	miss	sbb r32,r32 (same register)
+pcmpgtq	r128,r128 (same register)	miss	miss	pcmpgtq r128,r128 (same register)
+sbb+imul	3.97	miss		3.97	miss	sbb r64,r64 (same register) + imul
+pcmpgtb+pmullw	3.22	miss		3.22	miss	pcmpgtb r65,r65 (same register) + pmullw
+psubq+pmullw	0.54	miss		0.54	miss	psubq r65,r65 (same register) + pmullw
+psubusw	r65,r65 (same register)	1.06	miss	psubusw r65,r65 (same register)
+psubusb	r65,r65 (same register)	1.06	miss	psubusb r65,r65 (same register)
+psubusw+pmullw	0.54	miss		0.54	miss	psubusw r65,r65 (same register) + pmullw
+cmp+imul	3.33	miss		3.33	miss	cmp r16,r16 (different register) + imul
+psubusb+pmullw	3.22	miss		3.22	miss	psubusb r128,r128 (different register) + pmullw
+sub	r64,r64 (different register)	0.98	miss	sub r64,r64 (different register)
+psubb+pmullw	0.55	miss		0.55	miss	psubb r128,r128 (same register) + pmullw
+pcmpeqd+pmullw	0.5	miss		0.5	miss	pcmpeqd r128,r128 (same register) + pmullw
+sub	r16,r16 (same register)	1.06	miss	sub r16,r16 (same register)
+pcmpeqd	r128,r128 (different register)	1.07	miss	pcmpeqd r128,r128 (different register)
+psubusb+pmullw	2.97	miss		2.97	miss	psubusb r65,r65 (different register) + pmullw
+sub+add	1.07	miss		1.07	miss	sub r8,r8 (different register) + add
+psubb+pmullw	0.5	miss		0.5	miss	psubb r65,r65 (same register) + pmullw
+pxor	r128,r128 (different register)	0.98	miss	pxor r128,r128 (different register)
+pcmpgtw	r128,r128 (different register)	1.07	miss	pcmpgtw r128,r128 (different register)
+sbb+imul	2.01	miss		2.01	miss	sbb r32,r32 (different register) + imul
+psubusb	r128,r128 (same register)	1.06	miss	psubusb r128,r128 (same register)
+sbb	r64,r64 (same register)	2.19	miss	sbb r64,r64 (same register)
+psubusb+pmullw	0.5	miss		0.5	miss	psubusb r128,r128 (same register) + pmullw
+cmp	r16,r16 (same register)	0.99	miss	cmp r16,r16 (same register)
+sub+imul	1.49	miss		1.49	miss	sub r32,r32 (different register) + imul
+cmp	r8,r8 (same register)	1.29	miss	cmp r8,r8 (same register)
+pandn+pmullw	3.22	miss		3.22	miss	pandn r65,r65 (same register) + pmullw
+pandn+pmullw	2.97	miss		2.97	miss	pandn r65,r65 (different register) + pmullw
+psubsb+pmullw	0.54	miss		0.54	miss	psubsb r65,r65 (same register) + pmullw
+pcmpeqq	r128,r128 (different register)	1.07	miss	pcmpeqq r128,r128 (different register)
+sbb+add	1.68	miss		1.68	miss	sbb r8,r8 (different register) + add
+psubd	r128,r128 (same register)	0.98	miss	psubd r128,r128 (same register)
+xor	r32,r32 (same register)	0.5	miss	xor r32,r32 (same register)
+pcmpeqb+pmullw	0.5	miss		0.5	miss	pcmpeqb r128,r128 (same register) + pmullw
+psubsw+pmullw	3.22	miss		3.22	miss	psubsw r128,r128 (different register) + pmullw
+sub+imul	1.08	miss		1.08	miss	sub r64,r64 (same register) + imul
+xor+imul	4.83	miss		4.83	miss	xor r16,r16 (same register) + imul
+psubsw	r65,r65 (different register)	1.06	miss	psubsw r65,r65 (different register)
+sbb+imul	5.41	miss		5.41	miss	sbb r16,r16 (different register) + imul
+pcmpeqb	r128,r128 (different register)	1.06	miss	pcmpeqb r128,r128 (different register)
+xor+imul	4.36	miss		4.36	miss	xor r64,r64 (different register) + imul
+psubsb	r128,r128 (same register)	0.98	miss	psubsb r128,r128 (same register)
+pxor+pmullw	0.54	miss		0.54	miss	pxor r65,r65 (same register) + pmullw
+psubd+pmullw	3.29	miss		3.29	miss	psubd r128,r128 (different register) + pmullw
+psubusb+pmullw	0.54	miss		0.54	miss	psubusb r65,r65 (same register) + pmullw
+xor+imul	0.99	miss		0.99	miss	xor r64,r64 (same register) + imul
+psubw	r65,r65 (different register)	1.06	miss	psubw r65,r65 (different register)
+pcmpgtq+pmullw	miss	miss		miss	miss	pcmpgtq r128,r128 (different register) + pmullw
+psubd	r128,r128 (different register)	1.07	miss	psubd r128,r128 (different register)
+pcmpeqw	r128,r128 (same register)	1.06	miss	pcmpeqw r128,r128 (same register)
+pcmpeqb	r128,r128 (same register)	0.98	miss	pcmpeqb r128,r128 (same register)
+psubw	r128,r128 (same register)	0.98	miss	psubw r128,r128 (same register)
+pcmpgtq+pmullw	miss	miss		miss	miss	pcmpgtq r128,r128 (same register) + pmullw
+psubusw	r128,r128 (different register)	0.98	miss	psubusw r128,r128 (different register)
+pcmpgtw	r65,r65 (different register)	1.06	miss	pcmpgtw r65,r65 (different register)
+pcmpgtd	r128,r128 (different register)	1.06	miss	pcmpgtd r128,r128 (different register)
+psubsb	r65,r65 (different register)	0.98	miss	psubsb r65,r65 (different register)
+pandn	r128,r128 (different register)	1.07	miss	pandn r128,r128 (different register)
+sbb	r32,r32 (different register)	2.19	miss	sbb r32,r32 (different register)
+psubusb	r128,r128 (different register)	0.98	miss	psubusb r128,r128 (different register)
+pcmpeqd	r128,r128 (same register)	0.98	miss	pcmpeqd r128,r128 (same register)
+pcmpgtb+pmullw	3.22	miss		3.22	miss	pcmpgtb r65,r65 (different register) + pmullw
+cmp+add	0.99	miss		0.99	miss	cmp r8,r8 (same register) + add
+pandn	r65,r65 (different register)	0.98	miss	pandn r65,r65 (different register)
+psubd+pmullw	0.5	miss		0.5	miss	psubd r128,r128 (same register) + pmullw
+pandn	r65,r65 (same register)	0.98	miss	pandn r65,r65 (same register)
+pxor+pmullw	0.55	miss		0.55	miss	pxor r128,r128 (same register) + pmullw
+psubsw+pmullw	0.5	miss		0.5	miss	psubsw r65,r65 (same register) + pmullw
+pcmpgtb	r65,r65 (same register)	0.98	miss	pcmpgtb r65,r65 (same register)
+sub	r64,r64 (same register)	0.54	miss	sub r64,r64 (same register)
+psubw	r128,r128 (different register)	1.06	miss	psubw r128,r128 (different register)
+psubsw+pmullw	0.5	miss		0.5	miss	psubsw r128,r128 (same register) + pmullw
+pcmpgtb+pmullw	3.22	miss		3.22	miss	pcmpgtb r128,r128 (different register) + pmullw
+psubw+pmullw	0.54	miss		0.54	miss	psubw r65,r65 (same register) + pmullw
+psubq	r128,r128 (same register)	1.07	miss	psubq r128,r128 (same register)
+sub+add	1.07	miss		1.07	miss	sub r8,r8 (same register) + add
+cmp	r8,r8 (different register)	1.07	miss	cmp r8,r8 (different register)
+psubq+pmullw	3.22	miss		3.22	miss	psubq r128,r128 (different register) + pmullw
+cmp+imul	3.23	miss		3.23	miss	cmp r64,r64 (same register) + imul
+psubq+pmullw	0.55	miss		0.55	miss	psubq r128,r128 (same register) + pmullw
+psubsw+pmullw	3.22	miss		3.22	miss	psubsw r65,r65 (different register) + pmullw
+pcmpeqw+pmullw	0.5	miss		0.5	miss	pcmpeqw r65,r65 (same register) + pmullw
+psubw+pmullw	3.22	miss		3.22	miss	psubw r128,r128 (different register) + pmullw
+pcmpeqd	r65,r65 (same register)	1.06	miss	pcmpeqd r65,r65 (same register)
+pcmpeqb	r65,r65 (different register)	1.06	miss	pcmpeqb r65,r65 (different register)
+xor	r64,r64 (same register)	0.5	miss	xor r64,r64 (same register)
+pcmpeqw+pmullw	2.97	miss		2.97	miss	pcmpeqw r128,r128 (different register) + pmullw
+pcmpgtd	r65,r65 (same register)	0.98	miss	pcmpgtd r65,r65 (same register)
+xor	r8,r8 (same register)	0.98	miss	xor r8,r8 (same register)
+pcmpgtb	r128,r128 (different register)	1.06	miss	pcmpgtb r128,r128 (different register)
+pcmpeqq	r128,r128 (same register)	0.99	miss	pcmpeqq r128,r128 (same register)
+cmp+add	0.99	miss		0.99	miss	cmp r8,r8 (different register) + add
+sbb+imul	4.99	miss		4.99	miss	sbb r16,r16 (same register) + imul
+pcmpgtd+pmullw	2.97	miss		2.97	miss	pcmpgtd r65,r65 (same register) + pmullw
+pandn	r128,r128 (same register)	0.98	miss	pandn r128,r128 (same register)
+cmp	r16,r16 (different register)	1.07	miss	cmp r16,r16 (different register)
+psubsw	r128,r128 (different register)	1.06	miss	psubsw r128,r128 (different register)
+cmp	r64,r64 (same register)	1.07	miss	cmp r64,r64 (same register)
+xor+imul	4.45	miss		4.45	miss	xor r16,r16 (different register) + imul
+pcmpeqq+pmullw	3.22	miss		3.22	miss	pcmpeqq r128,r128 (different register) + pmullw
+pcmpeqw	r65,r65 (same register)	0.98	miss	pcmpeqw r65,r65 (same register)
+psubsb+pmullw	2.97	miss		2.97	miss	psubsb r65,r65 (different register) + pmullw
+cmp	r64,r64 (different register)	1.07	miss	cmp r64,r64 (different register)
+sbb+imul	3.67	miss		3.67	miss	sbb r64,r64 (different register) + imul
+xor	r16,r16 (different register)	0.98	miss	xor r16,r16 (different register)
+sub+imul	4.46	miss		4.46	miss	sub r16,r16 (different register) + imul
+sub	r32,r32 (different register)	0.98	miss	sub r32,r32 (different register)
+pcmpgtw+pmullw	3.22	miss		3.22	miss	pcmpgtw r65,r65 (different register) + pmullw
+pandn+pmullw	3.22	miss		3.22	miss	pandn r128,r128 (same register) + pmullw
+psubb	r128,r128 (different register)	1.06	miss	psubb r128,r128 (different register)
+cmp+imul	1.33	miss		1.33	miss	cmp r32,r32 (same register) + imul
+sbb	r8,r8 (same register)	2.19	miss	sbb r8,r8 (same register)
+psubusb	r65,r65 (different register)	0.98	miss	psubusb r65,r65 (different register)
+xor+imul	0.57	miss		0.57	miss	xor r32,r32 (same register) + imul
+sub+imul	3.96	miss		3.96	miss	sub r64,r64 (different register) + imul
+pcmpgtw	r128,r128 (same register)	1.06	miss	pcmpgtw r128,r128 (same register)
+xor	r8,r8 (different register)	1.06	miss	xor r8,r8 (different register)
+psubd+pmullw	0.5	miss		0.5	miss	psubd r65,r65 (same register) + pmullw
+psubd	r65,r65 (same register)	0.98	miss	psubd r65,r65 (same register)
+psubw+pmullw	0.67	miss		0.67	miss	psubw r128,r128 (same register) + pmullw
+psubq	r65,r65 (same register)	1.06	miss	psubq r65,r65 (same register)
+sbb+add	1.68	miss		1.68	miss	sbb r8,r8 (same register) + add
+psubq+pmullw	3.03	miss		3.03	miss	psubq r65,r65 (different register) + pmullw
+psubq	r65,r65 (different register)	0.98	miss	psubq r65,r65 (different register)
+psubq	r128,r128 (different register)	0.98	miss	psubq r128,r128 (different register)
+sub	r16,r16 (different register)	0.98	miss	sub r16,r16 (different register)
+pcmpeqb+pmullw	3.22	miss		3.22	miss	pcmpeqb r128,r128 (different register) + pmullw
+cmp+imul	1.44	miss		1.44	miss	cmp r32,r32 (different register) + imul
+pcmpeqb+pmullw	3.22	miss		3.22	miss	pcmpeqb r65,r65 (different register) + pmullw
+pxor	r128,r128 (same register)	1.06	miss	pxor r128,r128 (same register)
+xor+imul	1.61	miss		1.61	miss	xor r32,r32 (different register) + imul
+psubusw+pmullw	2.97	miss		2.97	miss	psubusw r128,r128 (different register) + pmullw
+pcmpgtb	r65,r65 (different register)	1.06	miss	pcmpgtb r65,r65 (different register)
+pcmpgtw+pmullw	3.22	miss		3.22	miss	pcmpgtw r128,r128 (different register) + pmullw
+pcmpgtd+pmullw	3.02	miss		3.02	miss	pcmpgtd r128,r128 (different register) + pmullw
+sub	r8,r8 (same register)	1.07	miss	sub r8,r8 (same register)
+sbb	r16,r16 (same register)	2.46	miss	sbb r16,r16 (same register)
+sub	r8,r8 (different register)	0.98	miss	sub r8,r8 (different register)
+xor+add	0.99	miss		0.99	miss	xor r8,r8 (same register) + add
+psubsb+pmullw	0.51	miss		0.51	miss	psubsb r128,r128 (same register) + pmullw
+pxor+pmullw	2.97	miss		2.97	miss	pxor r65,r65 (different register) + pmullw
+pcmpeqw+pmullw	0.55	miss		0.55	miss	pcmpeqw r128,r128 (same register) + pmullw
+pcmpgtb+pmullw	3.22	miss		3.22	miss	pcmpgtb r128,r128 (same register) + pmullw
+pcmpeqb	r65,r65 (same register)	0.98	miss	pcmpeqb r65,r65 (same register)
+psubb	r128,r128 (same register)	0.98	miss	psubb r128,r128 (same register)
+psubusw	r65,r65 (different register)	0.98	miss	psubusw r65,r65 (different register)
+psubw+pmullw	3.22	miss		3.22	miss	psubw r65,r65 (different register) + pmullw
+pcmpeqd+pmullw	3.22	miss		3.22	miss	pcmpeqd r65,r65 (different register) + pmullw
+pcmpeqb+pmullw	0.5	miss		0.5	miss	pcmpeqb r65,r65 (same register) + pmullw
+pandn+pmullw	2.97	miss		2.97	miss	pandn r128,r128 (different register) + pmullw
+pxor	r65,r65 (same register)	1.06	miss	pxor r65,r65 (same register)
+pcmpgtw+pmullw	2.97	miss		2.97	miss	pcmpgtw r128,r128 (same register) + pmullw
+psubd+pmullw	3.22	miss		3.22	miss	psubd r65,r65 (different register) + pmullw
+xor	r16,r16 (same register)	0.98	miss	xor r16,r16 (same register)
+psubsb+pmullw	2.97	miss		2.97	miss	psubsb r128,r128 (different register) + pmullw
+pcmpeqw+pmullw	3.22	miss		3.22	miss	pcmpeqw r65,r65 (different register) + pmullw
+psubb	r65,r65 (same register)	1.06	miss	psubb r65,r65 (same register)
+sbb	r8,r8 (different register)	2.09	miss	sbb r8,r8 (different register)
+pcmpeqd	r65,r65 (different register)	0.98	miss	pcmpeqd r65,r65 (different register)
+sub+imul	4.83	miss		4.83	miss	sub r16,r16 (same register) + imul
+psubb+pmullw	3.22	miss		3.22	miss	psubb r128,r128 (different register) + pmullw
+cmp	r32,r32 (different register)	0.99	miss	cmp r32,r32 (different register)
+xor	r32,r32 (different register)	1.06	miss	xor r32,r32 (different register)
+pcmpgtq	r128,r128 (different register)	miss	miss	pcmpgtq r128,r128 (different register)
+psubsw	r65,r65 (same register)	0.98	miss	psubsw r65,r65 (same register)
+cmp+imul	2.98	miss		2.98	miss	cmp r64,r64 (different register) + imul
+xor+add	0.99	miss		0.99	miss	xor r8,r8 (different register) + add
+psubb	r65,r65 (different register)	0.98	miss	psubb r65,r65 (different register)
+sbb	r16,r16 (different register)	2.26	miss	sbb r16,r16 (different register)
+pcmpgtd+pmullw	3.22	miss		3.22	miss	pcmpgtd r65,r65 (different register) + pmullw
+pcmpeqw	r128,r128 (different register)	0.98	miss	pcmpeqw r128,r128 (different register)
+pcmpgtw	r65,r65 (same register)	0.98	miss	pcmpgtw r65,r65 (same register)
+psubb+pmullw	2.97	miss		2.97	miss	psubb r65,r65 (different register) + pmullw
+pcmpgtd+pmullw	2.97	miss		2.97	miss	pcmpgtd r128,r128 (same register) + pmullw
+psubsb	r65,r65 (same register)	1.06	miss	psubsb r65,r65 (same register)
+sbb+imul	2.22	miss		2.22	miss	sbb r32,r32 (same register) + imul
+cmp+imul	3.59	miss		3.59	miss	cmp r16,r16 (same register) + imul
+pxor	r65,r65 (different register)	0.98	miss	pxor r65,r65 (different register)
+psubd	r65,r65 (different register)	1.06	miss	psubd r65,r65 (different register)
+pxor+pmullw	2.97	miss		2.97	miss	pxor r128,r128 (different register) + pmullw
+sbb	r64,r64 (different register)	2.02	miss	sbb r64,r64 (different register)
+psubsw	r128,r128 (same register)	0.98	miss	psubsw r128,r128 (same register)
+pcmpgtd	r65,r65 (different register)	1.06	miss	pcmpgtd r65,r65 (different register)
+pcmpeqd+pmullw	0.54	miss		0.54	miss	pcmpeqd r65,r65 (same register) + pmullw
+pcmpeqd+pmullw	3.22	miss		3.22	miss	pcmpeqd r128,r128 (different register) + pmullw
+pcmpeqw	r65,r65 (different register)	1.06	miss	pcmpeqw r65,r65 (different register)
+sub+imul	0.61	miss		0.61	miss	sub r32,r32 (same register) + imul
+pcmpgtw+pmullw	3.29	miss		3.29	miss	pcmpgtw r65,r65 (same register) + pmullw
+cmp	r32,r32 (same register)	1.07	miss	cmp r32,r32 (same register)
+pcmpeqq+pmullw	2.97	miss		2.97	miss	pcmpeqq r128,r128 (same register) + pmullw
+psubw	r65,r65 (same register)	0.98	miss	psubw r65,r65 (same register)
+psubsb	r128,r128 (different register)	0.98	miss	psubsb r128,r128 (different register)

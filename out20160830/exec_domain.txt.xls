@@ -1,0 +1,114 @@
+Instruct 	 Operators 	 Latency 	 Throughput 	 RawCommand 
+cvtpd2ps+maxps		10.69	miss	cvtpd2ps xmm,xmm + maxps xmm,xmm
+dppd+por		7.15	miss	dppd xmm,xmm + por xmm,xmm
+pshufd	xmm,xmm	0.99	miss	pshufd xmm,xmm
+cvtps2dq+maxps		9.65	miss	cvtps2dq xmm,xmm + maxps xmm,xmm
+insertps+por		3.09	miss	insertps xmm,xmm + por xmm,xmm
+sqrtps+por		12.87	miss	sqrtps xmm,xmm + por xmm,xmm
+movsldup+por		3.36	miss	movsldup xmm,xmm + por xmm,xmm
+movss+por		3.1	miss	movss xmm,xmm + por xmm,xmm
+shufps+addps		2.98	miss	shufps xmm,xmm + addps xmm,xmm
+maxpd	xmm,xmm	2.15	miss	maxpd xmm,xmm
+cvtps2dq+por		3.75	miss	cvtps2dq xmm,xmm + por xmm,xmm
+pshufd+por		1.08	miss	pshufd xmm,xmm + por xmm,xmm
+pshufd+addps		3.76	miss	pshufd xmm,xmm + addps xmm,xmm
+cvtps2pd+maxps		9.86	miss	cvtps2pd xmm,xmm + maxps xmm,xmm
+andps+por		3.34	miss	andps xmm,xmm + por xmm,xmm
+dppd+maxpd		5.96	miss	dppd + maxpd + por xmm,xmm
+movhlps	xmm,xmm	1.16	miss	movhlps xmm,xmm
+paddw+por		1.07	miss	paddw xmm,xmm + por xmm,xmm
+dpps+por		11.46	miss	dpps xmm,xmm + por xmm,xmm
+blendps+por		3.76	miss	blendps xmm,xmm + por xmm,xmm
+mulps	xmm,xmm	3.22	miss	mulps xmm,xmm
+orps+por		3.08	miss	orps xmm,xmm + por xmm,xmm
+maxps+paddw		3.76	miss	maxps xmm,xmm + paddw xmm,xmm
+shufps+por		3.36	miss	shufps xmm,xmm + por xmm,xmm
+cvtps2dq+por		2.98	miss	cvtps2dq + por + maxps xmm,xmm
+roundps+maxps		3.22	miss	roundps xmm,xmm + maxps xmm,xmm
+movddup+maxpd		2.75	miss	movddup xmm,xmm + maxpd xmm,xmm
+dpps+por		7.95	miss	dpps + por + maxps xmm,xmm
+movsldup+maxps		2.75	miss	movsldup xmm,xmm + maxps xmm,xmm
+pblendw+maxpd		3.75	miss	pblendw xmm,xmm + maxpd xmm,xmm
+movsd	xmm,xmm	1.16	miss	movsd xmm,xmm
+pblendw	xmm,xmm	0.99	miss	pblendw xmm,xmm
+movdqa	xmm,xmm	0.99	miss	movdqa xmm,xmm
+dpps+maxps		8.97	miss	dpps + maxps + por xmm,xmm
+pblendw+por		0.99	miss	pblendw xmm,xmm + por xmm,xmm
+cvtdq2ps+maxps		8.91	miss	cvtdq2ps xmm,xmm + maxps xmm,xmm
+shufps+maxps		2.98	miss	shufps xmm,xmm + maxps xmm,xmm
+maxps	xmm,xmm	1.98	miss	maxps xmm,xmm
+maxps+por		3.47	miss	maxps xmm,xmm + por xmm,xmm
+movdqa+maxps		3.75	miss	movdqa xmm,xmm + maxps xmm,xmm
+addps	xmm,xmm	1.98	miss	addps xmm,xmm
+pshufd+maxpd		3.76	miss	pshufd xmm,xmm + maxpd xmm,xmm
+haddps+por		3.97	miss	haddps + por + maxps xmm,xmm
+movsd+maxpd		2.75	miss	movsd xmm,xmm + maxpd xmm,xmm
+sqrtps+maxps		13.55	miss	sqrtps xmm,xmm + maxps xmm,xmm
+haddps+por		4.83	miss	haddps xmm,xmm + por xmm,xmm
+addpd+por		3.47	miss	addpd xmm,xmm + por xmm,xmm
+mulps+maxps		2.97	miss	mulps xmm,xmm + maxps xmm,xmm
+addps+por		3.47	miss	addps xmm,xmm + por xmm,xmm
+por	xmm,xmm	0.99	miss	por xmm,xmm
+haddps	xmm,xmm	5.42	miss	haddps xmm,xmm
+cvtdq2ps+por		7.33	miss	cvtdq2ps + por + maxps xmm,xmm
+cvtps2pd	xmm,xmm	5.5	miss	cvtps2pd xmm,xmm
+haddps+maxps		3.47	miss	haddps xmm,xmm + maxps xmm,xmm
+addps+maxps		2.15	miss	addps xmm,xmm + maxps xmm,xmm
+insertps	xmm,xmm	1.16	miss	insertps xmm,xmm
+sqrtps	xmm,xmm	21.85	miss	sqrtps xmm,xmm
+addpd	xmm,xmm	2.15	miss	addpd xmm,xmm
+roundps+por		4.46	miss	roundps xmm,xmm + por xmm,xmm
+shufpd+maxpd		2.75	miss	shufpd xmm,xmm + maxpd xmm,xmm
+dppd+maxpd		6.76	miss	dppd xmm,xmm + maxpd xmm,xmm
+cvtps2pd+por		5.36	miss	cvtps2pd xmm,xmm + por xmm,xmm
+maxps+orps		2.98	miss	maxps xmm,xmm + orps xmm,xmm
+movddup	xmm,xmm	1.26	miss	movddup xmm,xmm
+movaps+por		3.08	miss	movaps xmm,xmm + por xmm,xmm
+cvtpd2ps	xmm,xmm	5.5	miss	cvtpd2ps xmm,xmm
+orps+maxps		2.98	miss	orps xmm,xmm + maxps xmm,xmm
+dpps	xmm,xmm	15.68	miss	dpps xmm,xmm
+movdqa+por		1.08	miss	movdqa xmm,xmm + por xmm,xmm
+blendps	xmm,xmm	1.08	miss	blendps xmm,xmm
+unpcklps+por		3.34	miss	unpcklps xmm,xmm + por xmm,xmm
+roundps	xmm,xmm	3.96	miss	roundps xmm,xmm
+movss	xmm,xmm	1.16	miss	movss xmm,xmm
+movss+maxps		2.98	miss	movss xmm,xmm + maxps xmm,xmm
+cvtdq2ps+por		3.75	miss	cvtdq2ps xmm,xmm + por xmm,xmm
+cvtdq2ps	xmm,xmm	16.09	miss	cvtdq2ps xmm,xmm
+shufpd	xmm,xmm	1.25	miss	shufpd xmm,xmm
+haddps+maxps		3.64	miss	haddps + maxps + por xmm,xmm
+movsldup	xmm,xmm	1.16	miss	movsldup xmm,xmm
+addps+maxpd		16.09	miss	addps xmm,xmm + maxpd xmm,xmm
+shufps	xmm,xmm	1.16	miss	shufps xmm,xmm
+shufpd+por		3.09	miss	shufpd xmm,xmm + por xmm,xmm
+cvtps2dq+maxps		7.62	miss	cvtps2dq + maxps + por xmm,xmm
+movddup+por		3.36	miss	movddup xmm,xmm + por xmm,xmm
+andps	xmm,xmm	1.16	miss	andps xmm,xmm
+movaps+maxps		2.75	miss	movaps xmm,xmm + maxps xmm,xmm
+paddw+orps		3.09	miss	paddw xmm,xmm + orps xmm,xmm
+movsd+por		3.16	miss	movsd xmm,xmm + por xmm,xmm
+movhlps+maxps		2.75	miss	movhlps xmm,xmm + maxps xmm,xmm
+cvtdq2ps+maxps		2.98	miss	cvtdq2ps + maxps + por xmm,xmm
+pshufd+paddd		1.08	miss	pshufd xmm,xmm + paddd xmm,xmm
+blendps+maxps		1.98	miss	blendps xmm,xmm + maxps xmm,xmm
+orps	xmm,xmm	1.25	miss	orps xmm,xmm
+maxpd+por		3.75	miss	maxpd xmm,xmm + por xmm,xmm
+movaps	xmm,xmm	1.15	miss	movaps xmm,xmm
+addpd+orpd		2.75	miss	addpd xmm,xmm + orpd xmm,xmm
+insertps+maxps		2.98	miss	insertps xmm,xmm + maxps xmm,xmm
+cvtps2dq	xmm,xmm	16.83	miss	cvtps2dq xmm,xmm
+addps+addpd		16.09	miss	addps xmm,xmm + addpd xmm,xmm
+maxpd+orpd		2.75	miss	maxpd xmm,xmm + orpd xmm,xmm
+addps+addps		1.98	miss	addps xmm,xmm + addps xmm,xmm
+unpcklps	xmm,xmm	1.16	miss	unpcklps xmm,xmm
+mulps+por		3.04	miss	mulps xmm,xmm + por xmm,xmm
+shufps+paddd		3.1	miss	shufps xmm,xmm + paddd xmm,xmm
+movhlps+por		3.34	miss	movhlps xmm,xmm + por xmm,xmm
+cvtpd2ps+por		4.46	miss	cvtpd2ps xmm,xmm + por xmm,xmm
+unpcklps+maxps		3.05	miss	unpcklps xmm,xmm + maxps xmm,xmm
+dppd	xmm,xmm	9.31	miss	dppd xmm,xmm
+dpps+maxps		11.14	miss	dpps xmm,xmm + maxps xmm,xmm
+maxps+maxps		1.98	miss	maxps xmm,xmm + maxps xmm,xmm
+dppd+por		5.89	miss	dppd + por + maxpd xmm,xmm
+paddw	xmm,xmm	0.99	miss	paddw xmm,xmm
+andps+maxps		2.75	miss	andps xmm,xmm + maxps xmm,xmm
