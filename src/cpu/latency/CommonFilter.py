@@ -123,8 +123,9 @@ class CommonFilter:
 
 class Driver:
     def __init__(self):
-        self.listFiles('../../../result20160817', '../../../out20160817')
-        self.mergeFiles('../../../out20160817', '../../../output/result.xls')
+        self.listFiles('../../../result20160831', '../../../out20160831')
+        #self.listFiles('../../../result20160817', '../../../out20160817')
+        #self.mergeFiles('../../../out20160817', '../../../output/result.xls')
 
     def listFiles(self, inputSrc, outputSrc):
         list = os.listdir(inputSrc)

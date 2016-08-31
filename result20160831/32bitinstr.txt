@@ -1,0 +1,312 @@
+
+
+
+
+instruction: aaa 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    460128      10214 
+    460128      10214 
+    460128      10214 
+    460122      10214 
+    460122      10214 
+
+
+instruction: aas 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    560130      10214 
+    560172      10214 
+    700890      10216 
+    560130      10214 
+    560130      10214 
+
+
+instruction: daa 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    480126      10214 
+    480156      10214 
+    480120      10214 
+    480120      10214 
+    480120      10214 
+
+
+instruction: das 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    580122      10214 
+    580158      10214 
+    580122      10214 
+    580122      10214 
+    580122      10214 
+
+
+instruction: aad 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    270024      10214 
+    270042      10214 
+    270024      10214 
+    270024      10214 
+    270024      10214 
+
+
+instruction: aam_latency 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    326826      10214 
+    326850      10214 
+    326826      10214 
+    326826      10214 
+    326826      10214 
+
+
+instruction: aam_throughput 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    270042      20214 
+    270078      20214 
+    270042      20214 
+    270042      20214 
+    270042      20214 
+
+
+instruction: bound 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    140124      10209 
+    140142      10209 
+    140118      10209 
+    140124      10209 
+    140124      10209 
+
+
+instruction: into 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90126      10213 
+     90156      10213 
+     90120      10213 
+     90120      10213 
+     90126      10213 
+
+
+instruction: lahf 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10020      10214 
+     10050      10214 
+     10020      10214 
+     10020      10214 
+     10020      10214 
+
+
+instruction: sahf 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11010      10214 
+     11010      10214 
+     11010      10214 
+     11010      10214 
+     11010      10214 
+
+
+instruction: lahf_sahf 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21996      20214 
+     21990      20214 
+     22002      20214 
+     21996      20214 
+     21996      20214 
+
+
+instruction: leave 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     97692      10714 
+     38232      10714 
+    133314      10714 
+    132360      10714 
+     85422      10714 
+
+
+instruction: pushad 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200538      10414 
+    130164      10414 
+    194580      10414 
+    130128      10414 
+    130122      10414 
+
+
+instruction: popad 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    143160      10715 
+    130374      10714 
+    130326      10714 
+    130326      10714 
+    130326      10714 
+
+
+instruction: salc 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80124      10214 
+     80160      10214 
+     80124      10214 
+     80124      10214 
+     80124      10214 
+
+
+instruction: salc_inc_al 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    120024      20214 
+    120042      20214 
+    120024      20214 
+    120048      20214 
+    120024      20214 
+
+
+instruction: enter 4, 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    230424      10514 
+    230238      10514 
+    230220      10514 
+    230226      10514 
+    230226      10514 
+
+
+instruction: enter 4, 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    560220      10514 
+    560238      10514 
+    560220      10514 
+    560220      10514 
+    560226      10514 
+
+
+instruction: enter 4, 2 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    650424      10514 
+    758856      10515 
+    650226      10514 
+    650226      10514 
+    650220      10514 
+
+
+instruction: enter 4, 3 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    710982      10514 
+    710244      10514 
+    710220      10514 
+    867312      10515 
+    710226      10514 
+
+
+instruction: enter 4, 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    770442      10514 
+    770238      10514 
+    770220      10514 
+    770220      10514 
+    770220      10514 
+
+

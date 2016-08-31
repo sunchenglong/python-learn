@@ -1,0 +1,8977 @@
+Floatint point vector instructions latency and throughput
+
+
+Instructions with two operands
+
+
+Latency: movaps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11724      10227 
+     11742      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11730      10227 
+
+
+Throughput: movaps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5046      10227 
+      5070      10227 
+      5070      10227 
+      5070      10227 
+      5070      10227 
+      5070      10227 
+      5070      10227 
+      5070      10227 
+      5070      10227 
+      5070      10227 
+
+
+Throughput: movaps r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13548      10227 
+     13200      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13200      10227 
+
+
+Latency: movapd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11988      10227 
+     11718      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11724      10227 
+     11730      10227 
+
+
+Throughput: movapd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5460      10227 
+      5334      10227 
+      5310      10227 
+      5310      10227 
+      5316      10227 
+      5316      10227 
+      5310      10227 
+      5310      10227 
+      5310      10227 
+      5310      10227 
+
+
+Throughput: movapd r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13488      10227 
+     13332      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+
+
+Latency: movups r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11724      10227 
+     11742      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11742      10227 
+
+
+Throughput: movups r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5046      10227 
+      5070      10227 
+      5070      10227 
+      5070      10227 
+      5070      10227 
+      5070      10227 
+      5070      10227 
+      5070      10227 
+      5070      10227 
+      5070      10227 
+
+
+Throughput: movups r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13494      10227 
+     13200      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+
+
+Latency: movupd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11988      10227 
+     11718      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11724      10227 
+     11730      10227 
+
+
+Throughput: movupd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5472      10227 
+      5334      10227 
+      5310      10227 
+      5310      10227 
+      5316      10227 
+      5316      10227 
+      5310      10227 
+      5310      10227 
+      5310      10227 
+      5310      10227 
+
+
+Throughput: movupd r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13488      10227 
+     13332      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+     13320      10227 
+
+
+Latency: movddup r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11988      10227 
+     11718      10227 
+     11724      10227 
+     11724      10227 
+     11724      10227 
+     11730      10227 
+     62412      10228 
+     11730      10227 
+     11730      10227 
+     11724      10227 
+
+
+Throughput: movddup r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5466      10227 
+      5334      10227 
+      5310      10227 
+      5316      10227 
+      5316      10227 
+      5310      10227 
+      5310      10227 
+      5310      10227 
+      5310      10227 
+      5316      10227 
+
+
+Throughput: movddup r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12924      10227 
+     12756      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: movshdup r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12138      10227 
+     11718      10227 
+     11724      10227 
+     11724      10227 
+     11724      10227 
+     11730      10227 
+     11730      10227 
+     11724      10227 
+     11724      10227 
+     11724      10227 
+
+
+Throughput: movshdup r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5460      10227 
+      5334      10227 
+      5310      10227 
+      5340      10227 
+      5310      10227 
+      5310      10227 
+      5310      10227 
+      5310      10227 
+      5316      10227 
+      5340      10227 
+
+
+Throughput: movshdup r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12924      10227 
+     12756      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: movsldup r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11994      10227 
+     11718      10227 
+     11724      10227 
+     11724      10227 
+     11724      10227 
+     11730      10227 
+     11730      10227 
+     11724      10227 
+     11724      10227 
+     11724      10227 
+
+
+Throughput: movsldup r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5460      10227 
+      5334      10227 
+      5310      10227 
+      5316      10227 
+      5316      10227 
+      5310      10227 
+      5310      10227 
+      5310      10227 
+      5310      10227 
+      5316      10227 
+
+
+Throughput: movsldup r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13038      10227 
+     12756      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: unpckhps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11724      10227 
+     11742      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11730      10227 
+
+
+Throughput: unpckhps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5052      10227 
+      5058      10227 
+      5100      10227 
+      5100      10227 
+      5094      10227 
+      5100      10227 
+      5100      10227 
+      5094      10227 
+      5100      10227 
+      5100      10227 
+
+
+Throughput: unpckhps r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12978      10227 
+     12750      10227 
+     12738      10227 
+     12756      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: unpcklpd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11994      10227 
+     11718      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11724      10227 
+     11730      10227 
+
+
+Throughput: unpcklpd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5778      10227 
+      5334      10227 
+      5310      10227 
+      5310      10227 
+      5316      10227 
+      5316      10227 
+     55986      10228 
+      5310      10227 
+      5310      10227 
+      5316      10227 
+
+
+Throughput: unpcklpd r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12924      10227 
+     12756      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+
+
+Latency: cvtpd2ps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     58458      10227 
+     58308      10227 
+     58464      10227 
+     58458      10227 
+     58458      10227 
+     58458      10227 
+     58458      10227 
+     58464      10227 
+     58464      10227 
+     58458      10227 
+
+
+Throughput: cvtpd2ps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     14784      10227 
+     14754      10227 
+     14742      10227 
+     14742      10227 
+     14736      10227 
+     14742      10227 
+     14742      10227 
+     14736      10227 
+     14742      10227 
+     14742      10227 
+
+
+Throughput: cvtpd2ps r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     14484      10227 
+     14334      10227 
+     14304      10227 
+     14298      10227 
+     14298      10227 
+     14298      10227 
+     14298      10227 
+     14304      10227 
+     14304      10227 
+     14298      10227 
+
+
+Latency: cvtps2pd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     58212      10227 
+     58320      10227 
+     58212      10227 
+     58218      10227 
+     58212      10227 
+     58212      10227 
+     58218      10227 
+     58212      10227 
+     58212      10227 
+     58218      10227 
+
+
+Throughput: cvtps2pd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10038      10227 
+     10056      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+
+
+Throughput: cvtps2pd r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13644      10227 
+     13506      10227 
+     13464      10227 
+     13464      10227 
+     13464      10227 
+     13464      10227 
+     13464      10227 
+     13464      10227 
+     13464      10227 
+     13464      10227 
+
+
+Latency: cvtdq2ps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+
+
+Throughput: cvtdq2ps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10020      10227 
+     10044      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+
+
+Throughput: cvtdq2ps r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12984      10227 
+     12750      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: cvttps2dq r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30042      10227 
+     30012      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+
+
+Throughput: cvttps2dq r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10104      10227 
+     10032      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+
+
+Throughput: cvttps2dq r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12924      10227 
+     12756      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: cvtdq2pd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     58212      10227 
+     58320      10227 
+     58212      10227 
+     58212      10227 
+     58212      10227 
+     58218      10227 
+     58218      10227 
+     58212      10227 
+     58212      10227 
+     58212      10227 
+
+
+Throughput: cvtdq2pd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10122      10227 
+     10056      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+
+
+Throughput: cvtdq2pd r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     16476      10227 
+     16302      10227 
+     16260      10227 
+     16260      10227 
+     16260      10227 
+     16260      10227 
+     16260      10227 
+     16260      10227 
+     16260      10227 
+     16260      10227 
+
+
+Latency: cvtpd2dq r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     58458      10227 
+     58308      10227 
+     58464      10227 
+     58458      10227 
+     58458      10227 
+     58458      10227 
+     58458      10227 
+     58464      10227 
+     58464      10227 
+     58458      10227 
+
+
+Throughput: cvtpd2dq r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     14784      10227 
+     14754      10227 
+     14742      10227 
+     14742      10227 
+     14736      10227 
+     14742      10227 
+     14742      10227 
+     14736      10227 
+     14742      10227 
+     14742      10227 
+
+
+Throughput: cvtpd2dq r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     14538      10227 
+     14334      10227 
+     14304      10227 
+     14298      10227 
+     14298      10227 
+     14298      10227 
+     14298      10227 
+     14304      10227 
+     14304      10227 
+     14298      10227 
+
+
+Latency: addss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: addss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10110      10227 
+     10032      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+
+
+Throughput: addss r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12918      10227 
+     12756      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: subsd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: subsd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10110      10227 
+     10032      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+
+
+Throughput: subsd r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12918      10227 
+     12756      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: addps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30030      10227 
+     30030      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+
+
+Throughput: addps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+
+
+Throughput: addps r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12948      10227 
+     12768      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: subpd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30030      10227 
+     30018      10227 
+
+
+Throughput: subpd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10122      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+
+
+Throughput: subpd r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12948      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: addsubps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30042      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: addsubps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10110      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+
+
+Throughput: addsubps r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12918      10227 
+     12756      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: haddps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50016      10227 
+     50028      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50028      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+
+
+Throughput: haddps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: haddps r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30210      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+
+
+Latency: hsubpd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50016      10227 
+     50040      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+
+
+Throughput: hsubpd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+    110640      10228 
+     30018      10227 
+     30024      10227 
+     30018      10227 
+     30018      10227 
+    105096      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: hsubpd r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30216      10227 
+     30042      10227 
+     30018      10227 
+     30042      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+
+
+Latency: mulss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: mulss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10122      10227 
+     10032      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+
+
+Throughput: mulss r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12948      10227 
+     12756      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: mulsd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90822      10228 
+     40026      10227 
+     40014      10227 
+     97428      10227 
+     40014      10227 
+     40014      10227 
+     40014      10227 
+     40014      10227 
+     40014      10227 
+     40020      10227 
+
+
+Throughput: mulsd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20034      10227 
+     20034      10227 
+     20022      10227 
+     20016      10227 
+     20016      10227 
+     20016      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+     20016      10227 
+
+
+Throughput: mulsd r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20196      10227 
+     20040      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+
+
+Latency: mulps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+
+
+Throughput: mulps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10020      10227 
+     10032      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10020      10227 
+     10014      10227 
+
+
+Throughput: mulps r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12948      10227 
+     12750      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: mulpd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40014      10227 
+     40026      10227 
+     40020      10227 
+     40026      10227 
+     40020      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+     40020      10227 
+     40014      10227 
+
+
+Throughput: mulpd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20016      10227 
+     20034      10227 
+     20016      10227 
+     20016      10227 
+     20022      10227 
+     20016      10227 
+     20016      10227 
+     20022      10227 
+     20016      10227 
+     20016      10227 
+
+
+Throughput: mulpd r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20220      10227 
+     20040      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+
+
+Latency: cmpeqss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30024      10227 
+     30030      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     85428      10227 
+     30012      10227 
+     30018      10227 
+     30012      10227 
+
+
+Throughput: cmpeqss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10134      10227 
+     10032      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+
+
+Throughput: cmpeqss r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13704      10227 
+     12750      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: cmpeqps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+
+
+Throughput: cmpeqps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10122      10227 
+     10032      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10020      10227 
+     10014      10227 
+
+
+Throughput: cmpeqps r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12918      10227 
+     12756      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: cmpltpd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+
+
+Throughput: cmpltpd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10128      10227 
+     10032      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10020      10227 
+     10014      10227 
+
+
+Throughput: cmpltpd r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12948      10227 
+     12750      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: comiss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10014      10227 
+     10032      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10020      10227 
+     10014      10227 
+
+
+Throughput: comiss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10014      10227 
+     10032      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+
+
+Throughput: comiss r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12948      10227 
+     12750      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12756      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: ucomisd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10104      10227 
+     10032      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+
+
+Throughput: ucomisd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10122      10227 
+     10032      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+
+
+Throughput: ucomisd r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12990      10227 
+     12756      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     79572      10227 
+     12738      10227 
+     12744      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: maxss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: maxss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10122      10227 
+     10032      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+
+
+Throughput: maxss r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12978      10227 
+     12756      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: minsd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30144      10227 
+     30030      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: minsd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10122      10227 
+     10032      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+
+
+Throughput: minsd r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12948      10227 
+     12756      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: minps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+
+
+Throughput: minps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10020      10227 
+     10032      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10020      10227 
+     10014      10227 
+
+
+Throughput: minps r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12918      10227 
+     12750      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: maxpd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+
+
+Throughput: maxpd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10110      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+
+
+Throughput: maxpd r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12942      10227 
+     12756      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+
+
+Latency: andps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11724      10227 
+     11742      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11730      10227 
+
+
+Throughput: andps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5046      10227 
+      5058      10227 
+      5100      10227 
+      5094      10227 
+      5094      10227 
+      5100      10227 
+      5094      10227 
+      5094      10227 
+      5100      10227 
+      5094      10227 
+
+
+Throughput: andps r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12924      10227 
+     12750      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: orpd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12060      10227 
+     58920      10227 
+     58476      10227 
+     58254      10227 
+     59112      10227 
+     11730      10227 
+    104904      10227 
+     11724      10227 
+     58446      10227 
+     11724      10227 
+
+
+Throughput: orpd r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5460      10227 
+      5334      10227 
+      5310      10227 
+      5310      10227 
+      5316      10227 
+      5316      10227 
+      5310      10227 
+      5310      10227 
+      5310      10227 
+      5310      10227 
+
+
+Throughput: orpd r128,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12924      10227 
+     12762      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+
+
+
+256 bit instructions with two operands
+
+
+Latency: vmovddup r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21906      10227 
+     21990      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+
+
+Throughput: vmovddup r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10227 
+     10068      10227 
+     10056      10227 
+     10050      10227 
+     10050      10227 
+     10056      10227 
+     10050      10227 
+     10050      10227 
+     10056      10227 
+     10050      10227 
+
+
+Throughput: vmovddup r256,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25242      10227 
+     24936      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+
+
+Latency: vmovshdup r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21906      10227 
+     21990      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+
+
+Throughput: vmovshdup r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10227 
+     10068      10227 
+     10056      10227 
+     10050      10227 
+     10050      10227 
+     10056      10227 
+     10050      10227 
+     10050      10227 
+     10056      10227 
+     10050      10227 
+
+
+Throughput: vmovshdup r256,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25272      10227 
+     24936      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+
+
+Latency: vmovsldup r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21900      10227 
+     21990      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+
+
+Throughput: vmovsldup r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10227 
+     10068      10227 
+     10056      10227 
+     10050      10227 
+     10050      10227 
+     10056      10227 
+     10050      10227 
+     10050      10227 
+     10056      10227 
+     10050      10227 
+
+
+Throughput: vmovsldup r256,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25218      10227 
+     24936      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+
+
+Latency: vmovaps r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21906      10227 
+     22002      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+
+
+Throughput: vmovaps r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10227 
+     10074      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+
+
+Throughput: vmovaps r256,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26760      10227 
+     26580      10227 
+     26574      10227 
+     26574      10227 
+     26574      10227 
+     26574      10227 
+     26574      10227 
+     26574      10227 
+     26574      10227 
+     26574      10227 
+
+
+Latency: vmovapd r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21906      10227 
+     21990      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+
+
+Throughput: vmovapd r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10227 
+     10074      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+
+
+Throughput: vmovapd r256,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26760      10227 
+     26580      10227 
+     26574      10227 
+     26574      10227 
+     26574      10227 
+     26574      10227 
+     26574      10227 
+     26574      10227 
+     26586      10227 
+     26574      10227 
+
+Instructions with 3 operands
+
+
+Latency: vunpckhps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18156      10227 
+     18162      10227 
+     18150      10227 
+     18150      10227 
+     75918      10227 
+     18144      10227 
+     18156      10227 
+     18144      10227 
+     18150      10227 
+     18144      10227 
+
+
+Throughput: vunpckhps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10227 
+     10068      10227 
+     10056      10227 
+     10050      10227 
+     10050      10227 
+     10056      10227 
+     10050      10227 
+     10050      10227 
+     10056      10227 
+     10050      10227 
+
+
+Throughput: vunpckhps r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11868      10227 
+     11808      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+
+
+Latency: vunpckhps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21906      10227 
+     21990      10227 
+     21906      10227 
+     72660      10228 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     79518      10227 
+     21906      10227 
+
+
+Throughput: vunpckhps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10227 
+     10068      10227 
+     10056      10227 
+     10050      10227 
+     10050      10227 
+     10056      10227 
+     10068      10227 
+     10056      10227 
+     10056      10227 
+     10050      10227 
+
+
+Throughput: vunpckhps r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25062      10227 
+     25038      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+
+
+Latency: vunpcklpd r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18162      10227 
+     18162      10227 
+     18144      10227 
+     18150      10227 
+     18144      10227 
+     18162      10227 
+     18150      10227 
+     18144      10227 
+     18150      10227 
+     18144      10227 
+
+
+Throughput: vunpcklpd r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10227 
+     10068      10227 
+     10056      10227 
+     10050      10227 
+     10050      10227 
+     10056      10227 
+     10050      10227 
+     10050      10227 
+     10056      10227 
+     10050      10227 
+
+
+Throughput: vunpcklpd r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11868      10227 
+     11808      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+
+
+Latency: vunpcklpd r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21906      10227 
+     21990      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+
+
+Throughput: vunpcklpd r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10227 
+     10068      10227 
+     10056      10227 
+     10050      10227 
+     10050      10227 
+     10056      10227 
+     10050      10227 
+     10050      10227 
+     10056      10227 
+     10050      10227 
+
+
+Throughput: vunpcklpd r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25062      10227 
+     25038      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+
+
+Latency: vaddps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+
+
+Throughput: vaddps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10227 
+     10080      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+
+
+Throughput: vaddps r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12996      10227 
+     12918      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+
+
+Latency: vaddps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55128      10227 
+     97020      10228 
+     55128      10227 
+    103902      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55122      10227 
+     55128      10227 
+     55128      10227 
+
+
+Throughput: vaddps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22056      10227 
+     22074      10227 
+     22056      10227 
+     22062      10227 
+     22062      10227 
+     22056      10227 
+     22062      10227 
+     22062      10227 
+     22056      10227 
+     22062      10227 
+
+
+Throughput: vaddps r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26178      10227 
+     26154      10227 
+     26142      10227 
+     83742      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26130      10227 
+     26136      10227 
+     26136      10227 
+
+
+Latency: vsubpd r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+
+
+Throughput: vsubpd r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10227 
+     10080      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+
+
+Throughput: vsubpd r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12972      10227 
+     12918      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+
+
+Latency: vsubpd r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55128      10227 
+     55140      10227 
+     55128      10227 
+     55128      10227 
+     55122      10227 
+     55128      10227 
+     55128      10227 
+     55122      10227 
+     55128      10227 
+     55128      10227 
+
+
+Throughput: vsubpd r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22056      10227 
+     22074      10227 
+     22056      10227 
+     22062      10227 
+     22062      10227 
+     22056      10227 
+     22062      10227 
+     22062      10227 
+     22056      10227 
+     22062      10227 
+
+
+Throughput: vsubpd r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26166      10227 
+     26154      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+
+
+Latency: vaddsubps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+
+
+Throughput: vaddsubps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10227 
+     10080      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+
+
+Throughput: vaddsubps r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12972      10227 
+     12918      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+
+
+Latency: vaddsubps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55128      10227 
+     55140      10227 
+     55128      10227 
+     55128      10227 
+     55122      10227 
+     55128      10227 
+     55128      10227 
+     55122      10227 
+     55128      10227 
+     55128      10227 
+
+
+Throughput: vaddsubps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22056      10227 
+     22092      10227 
+     22062      10227 
+     22056      10227 
+     22062      10227 
+     22062      10227 
+     22056      10227 
+     22062      10227 
+     22062      10227 
+     22056      10227 
+
+
+Throughput: vaddsubps r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26190      10227 
+     26154      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+
+
+Latency: vhaddps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50016      10227 
+     50040      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+
+
+Throughput: vhaddps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30054      10227 
+     30018      10227 
+     30024      10227 
+     30024      10227 
+     30018      10227 
+     30024      10227 
+     30024      10227 
+     30018      10227 
+     30024      10227 
+
+
+Throughput: vhaddps r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30078      10227 
+     30060      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+
+
+Latency: vhaddps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90126      10227 
+     90156      10227 
+     90120      10227 
+     90120      10227 
+     90120      10227 
+     90120      10227 
+     90126      10227 
+     90126      10227 
+     90120      10227 
+     90120      10227 
+
+
+Throughput: vhaddps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90120      10227 
+     90156      10227 
+     90120      10227 
+     90120      10227 
+     90120      10227 
+     90120      10227 
+     90126      10227 
+     90126      10227 
+     90120      10227 
+     90120      10227 
+
+
+Throughput: vhaddps r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90162      10227 
+     90138      10227 
+     90120      10227 
+     90120      10227 
+     90120      10227 
+     90126      10227 
+     90126      10227 
+     90120      10227 
+     90120      10227 
+     90120      10227 
+
+
+Latency: vhsubpd r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50016      10227 
+     50040      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+
+
+Throughput: vhsubpd r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30054      10227 
+     30018      10227 
+     30024      10227 
+     30024      10227 
+     30018      10227 
+     30024      10227 
+     30024      10227 
+     30018      10227 
+     30024      10227 
+
+
+Throughput: vhsubpd r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30072      10227 
+     30060      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+     30024      10227 
+
+
+Latency: vhsubpd r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90120      10227 
+     90156      10227 
+     90120      10227 
+     90120      10227 
+     90120      10227 
+     90120      10227 
+     90126      10227 
+     90126      10227 
+     90120      10227 
+     90120      10227 
+
+
+Throughput: vhsubpd r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90120      10227 
+     90156      10227 
+     90120      10227 
+     90120      10227 
+     90120      10227 
+     90120      10227 
+     90126      10227 
+     90126      10227 
+     90120      10227 
+     90120      10227 
+
+
+Throughput: vhsubpd r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90168      10227 
+    282804      10227 
+    276612      10227 
+    228582      10227 
+     90120      10227 
+     90120      10227 
+     90120      10227 
+     90120      10227 
+     90120      10227 
+     90120      10227 
+
+
+Latency: vmulps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30042      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: vmulps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10110      10227 
+     10050      10227 
+     10014      10227 
+     10020      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     85524      10228 
+     10020      10227 
+     10014      10227 
+
+
+Throughput: vmulps r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11796      10227 
+     11724      10227 
+     11706      10227 
+     11706      10227 
+     11706      10227 
+     11706      10227 
+     11706      10227 
+     11706      10227 
+     11724      10227 
+     11706      10227 
+
+
+Latency: vmulps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     50016      10227 
+     50052      10227 
+     50022      10227 
+     50022      10227 
+    116346      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50016      10227 
+     50022      10227 
+
+
+Throughput: vmulps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20022      10227 
+     20034      10227 
+     20022      10227 
+     20022      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+
+
+Throughput: vmulps r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26172      10227 
+     26148      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+
+
+Latency: vmulpd r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40014      10227 
+     40026      10227 
+     40020      10227 
+     40026      10227 
+     40020      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+     40020      10227 
+     40014      10227 
+
+
+Throughput: vmulpd r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20016      10227 
+     20034      10227 
+     20016      10227 
+     20016      10227 
+     20022      10227 
+     20016      10227 
+     20016      10227 
+     20022      10227 
+     20016      10227 
+     20016      10227 
+
+
+Throughput: vmulpd r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20064      10227 
+     20040      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+
+
+Latency: vmulpd r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60018      10227 
+     60030      10227 
+     60018      10227 
+     60018      10227 
+     60018      10227 
+     60018      10227 
+     60018      10227 
+     60018      10227 
+     60018      10227 
+     60018      10227 
+
+
+Throughput: vmulpd r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40020      10227 
+     40032      10227 
+     40020      10227 
+     40020      10227 
+     40020      10227 
+     40020      10227 
+     40020      10227 
+     40020      10227 
+     40020      10227 
+     40020      10227 
+
+
+Throughput: vmulpd r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40050      10227 
+     40044      10227 
+     40020      10227 
+     40026      10227 
+     40020      10227 
+     40026      10227 
+     40020      10227 
+     40026      10227 
+     40020      10227 
+     40026      10227 
+
+
+Latency: vcmpeqps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30516      10227 
+     30030      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+
+
+Throughput: vcmpeqps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10152      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+
+
+Throughput: vcmpeqps r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13014      10227 
+     12936      10227 
+     12906      10227 
+     12912      10227 
+     12906      10227 
+     12906      10227 
+     12912      10227 
+     12906      10227 
+     12906      10227 
+     12912      10227 
+
+
+Latency: vcmpeqps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55122      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+
+
+Throughput: vcmpeqps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22080      10227 
+     22056      10227 
+     22056      10227 
+     22056      10227 
+     22056      10227 
+     22056      10227 
+     22056      10227 
+     22056      10227 
+     22056      10227 
+     22056      10227 
+
+
+Throughput: vcmpeqps r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26184      10227 
+     26154      10227 
+     26130      10227 
+     26136      10227 
+    126408      10227 
+     26136      10227 
+     26130      10227 
+     26130      10227 
+     26136      10227 
+     26136      10227 
+
+
+Latency: vcmpltpd r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+     30030      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: vcmpltpd r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10866      10227 
+     10062      10227 
+     10080      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+
+
+Throughput: vcmpltpd r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12984      10227 
+     12918      10227 
+     12912      10227 
+     12906      10227 
+     12906      10227 
+     12912      10227 
+     12906      10227 
+     12906      10227 
+     12912      10227 
+     12906      10227 
+
+
+Latency: vcmpltpd r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+
+
+Throughput: vcmpltpd r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22074      10227 
+     22056      10227 
+     22056      10227 
+     22056      10227 
+     22056      10227 
+     22056      10227 
+     22056      10227 
+     22056      10227 
+     22056      10227 
+     22056      10227 
+
+
+Throughput: vcmpltpd r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26172      10227 
+     26154      10227 
+     26130      10227 
+     26136      10227 
+     26136      10227 
+     26130      10227 
+     26136      10227 
+     26136      10227 
+     26130      10227 
+     26136      10227 
+
+
+Latency: vmaxps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30042      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: vmaxps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10122      10227 
+     10080      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+
+
+Throughput: vmaxps r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12984      10227 
+     12936      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+
+
+Latency: vmaxps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55146      10227 
+     55146      10227 
+    107130      10227 
+    151962      10227 
+    149454      10227 
+    240744      10227 
+    194286      10227 
+    193464      10227 
+    241674      10227 
+    193848      10227 
+
+
+Throughput: vmaxps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22062      10227 
+     22092      10227 
+     22062      10227 
+     22056      10227 
+     22062      10227 
+     22062      10227 
+     22056      10227 
+     22062      10227 
+     22062      10227 
+     22056      10227 
+
+
+Throughput: vmaxps r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26184      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+
+
+Latency: vminpd r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30042      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: vminpd r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10227 
+     10080      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+
+
+Throughput: vminpd r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13002      10227 
+     12918      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+
+
+Latency: vminpd r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     55128      10227 
+     55146      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+     55128      10227 
+
+
+Throughput: vminpd r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22056      10227 
+     22056      10227 
+     22062      10227 
+     22062      10227 
+     22056      10227 
+     22062      10227 
+     22062      10227 
+     22056      10227 
+     22062      10227 
+     22062      10227 
+
+
+Throughput: vminpd r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26184      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+     26136      10227 
+    103380      10228 
+     26136      10227 
+     26136      10227 
+
+
+Latency: vandps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18300      10227 
+     18168      10227 
+     18150      10227 
+     18150      10227 
+     18150      10227 
+     18150      10227 
+     18150      10227 
+     18150      10227 
+     18150      10227 
+     18150      10227 
+
+
+Throughput: vandps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10146      10227 
+     10092      10227 
+     10056      10227 
+     10050      10227 
+     10056      10227 
+     10056      10227 
+     10050      10227 
+     10056      10227 
+     10056      10227 
+     10050      10227 
+
+
+Throughput: vandps r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11880      10227 
+     11832      10227 
+     11796      10227 
+     11796      10227 
+     11796      10227 
+     11796      10227 
+     11796      10227 
+     11796      10227 
+     11796      10227 
+     11796      10227 
+
+
+Latency: vandps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21900      10227 
+     22002      10227 
+     21906      10227 
+     21900      10227 
+     21906      10227 
+     21906      10227 
+     21900      10227 
+     21906      10227 
+     21906      10227 
+     21900      10227 
+
+
+Throughput: vandps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10146      10227 
+     10092      10227 
+     10056      10227 
+     10050      10227 
+     10056      10227 
+     10056      10227 
+     10050      10227 
+     10056      10227 
+     10056      10227 
+     10050      10227 
+
+
+Throughput: vandps r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25080      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+
+
+Latency: vorpd r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18162      10227 
+     18168      10227 
+     18150      10227 
+     18150      10227 
+     18150      10227 
+     18150      10227 
+     18150      10227 
+     18150      10227 
+     18150      10227 
+     18150      10227 
+
+
+Throughput: vorpd r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10227 
+     10092      10227 
+     10056      10227 
+     10050      10227 
+     10056      10227 
+     10056      10227 
+     10050      10227 
+     10056      10227 
+     10056      10227 
+     10050      10227 
+
+
+Throughput: vorpd r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11886      10227 
+     11832      10227 
+     11796      10227 
+     11796      10227 
+     11796      10227 
+     11796      10227 
+     11796      10227 
+     11796      10227 
+     11796      10227 
+     11796      10227 
+
+
+Latency: vorpd r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21906      10227 
+     21990      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+
+
+Throughput: vorpd r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10140      10227 
+     10050      10227 
+     10056      10227 
+     10056      10227 
+     10050      10227 
+     10056      10227 
+     10056      10227 
+     10050      10227 
+     10056      10227 
+     10056      10227 
+
+
+Throughput: vorpd r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25080      10227 
+     25038      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+
+
+Latency: vpermilps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: vpermilps r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10152      10227 
+     10080      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+
+
+Throughput: vpermilps r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13014      10227 
+     12918      10227 
+     12912      10227 
+     12906      10227 
+     12906      10227 
+     12912      10227 
+     12906      10227 
+     12918      10227 
+     12912      10227 
+     12906      10227 
+
+
+Latency: vpermilps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30030      10227 
+     30030      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: vpermilps r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20064      10227 
+     20016      10227 
+     20016      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+     20016      10227 
+     20016      10227 
+     20016      10227 
+     20016      10227 
+
+
+Throughput: vpermilps r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25080      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25038      10227 
+     25020      10227 
+     25020      10227 
+
+
+Latency: vpermilpd r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30012      10227 
+     30018      10227 
+     30018      10227 
+     30030      10227 
+     30018      10227 
+
+
+Throughput: vpermilpd r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10152      10227 
+     10080      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+     10068      10227 
+
+
+Throughput: vpermilpd r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12984      10227 
+     12918      10227 
+     12912      10227 
+     12906      10227 
+     12906      10227 
+     12912      10227 
+     12906      10227 
+     12906      10227 
+     12912      10227 
+     12906      10227 
+
+
+Latency: vpermilpd r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30030      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: vpermilpd r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20052      10227 
+     20034      10227 
+     20022      10227 
+     20016      10227 
+     20016      10227 
+     20016      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+     20016      10227 
+
+
+Throughput: vpermilpd r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25062      10227 
+     25038      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+
+Instructions with two operands and one immediate operand
+
+
+Latency: shufps r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12000      10227 
+     11736      10227 
+     11730      10227 
+     11724      10227 
+     11730      10227 
+     11730      10227 
+     11724      10227 
+     11730      10227 
+     11730      10227 
+     11724      10227 
+
+
+Throughput: shufps r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5250      10227 
+      5130      10227 
+      5094      10227 
+      5094      10227 
+      5100      10227 
+      5094      10227 
+      5094      10227 
+      5100      10227 
+      5094      10227 
+      5094      10227 
+
+
+Throughput: shufps r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12918      10227 
+     12756      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+
+
+Latency: shufpd r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11802      10227 
+     11718      10227 
+     11724      10227 
+     11724      10227 
+     11730      10227 
+     11724      10227 
+     11730      10227 
+     11730      10227 
+     11724      10227 
+     11730      10227 
+
+
+Throughput: shufpd r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5214      10227 
+      5058      10227 
+      5046      10227 
+      5046      10227 
+      5046      10227 
+      5046      10227 
+      5046      10227 
+      5046      10227 
+      5046      10227 
+      5046      10227 
+
+
+Throughput: shufpd r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12924      10227 
+     12768      10227 
+     12738      10227 
+     12738      10227 
+     12738      10227 
+     89430      10228 
+     12744      10227 
+     12744      10227 
+     12744      10227 
+     12738      10227 
+
+
+Latency: blendps r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10170      10227 
+     10020      10227 
+     10020      10227 
+     10032      10227 
+     10020      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10020      10227 
+     10014      10227 
+
+
+Throughput: blendps r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10170      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+
+
+Throughput: blendps r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12960      10227 
+     12738      10227 
+     12744      10227 
+     12738      10227 
+     12744      10227 
+     12738      10227 
+     12744      10227 
+     12738      10227 
+     12744      10227 
+     12738      10227 
+
+
+Latency: blendpd r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10170      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+
+
+Throughput: blendpd r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10158      10227 
+     10050      10227 
+     10014      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10020      10227 
+     10014      10227 
+     10020      10227 
+
+
+Throughput: blendpd r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13062      10227 
+     12756      10227 
+     12738      10227 
+     12744      10227 
+     12738      10227 
+     12744      10227 
+     71058      10227 
+     12738      10227 
+     12744      10227 
+     12738      10227 
+
+
+Latency: dpps r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    170124      10227 
+    170118      10227 
+    170124      10227 
+    170118      10227 
+    170124      10227 
+    170118      10227 
+    170124      10227 
+    170118      10227 
+    170124      10227 
+    170118      10227 
+
+
+Throughput: dpps r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    170124      10227 
+    170142      10227 
+    170124      10227 
+    170124      10227 
+    170124      10227 
+    170124      10227 
+    170124      10227 
+    170124      10227 
+    170124      10227 
+    170124      10227 
+
+
+Throughput: dpps r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    170196      10227 
+    170142      10227 
+    170124      10227 
+    170124      10227 
+    170124      10227 
+    170124      10227 
+    170124      10227 
+    170124      10227 
+    249924      10228 
+    221136      10227 
+
+
+Latency: dppd r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100020      10227 
+    100020      10227 
+    100020      10227 
+    100020      10227 
+    100020      10227 
+    100020      10227 
+    100020      10227 
+    100020      10227 
+    100020      10227 
+    100020      10227 
+
+
+Throughput: dppd r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80124      10227 
+     80124      10227 
+     80124      10227 
+     80124      10227 
+     80124      10227 
+     80124      10227 
+     80124      10227 
+     80124      10227 
+     80124      10227 
+     80124      10227 
+
+
+Throughput: dppd r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80262      10227 
+     80142      10227 
+     80124      10227 
+     80124      10227 
+     80124      10227 
+     80124      10227 
+     80124      10227 
+     80124      10227 
+     80124      10227 
+     80124      10227 
+
+
+Latency: roundss r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60012      10227 
+     60012      10227 
+     60018      10227 
+     60012      10227 
+     60018      10227 
+     60012      10227 
+     60018      10227 
+     60012      10227 
+     60018      10227 
+     60012      10227 
+
+
+Throughput: roundss r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20082      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+
+
+Throughput: roundss r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20448      10227 
+     20280      10227 
+     20268      10227 
+     20262      10227 
+     20268      10227 
+     20262      10227 
+     20268      10227 
+     20262      10227 
+     20268      10227 
+     20262      10227 
+
+
+Latency: roundsd r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60018      10227 
+     60012      10227 
+     60018      10227 
+     60012      10227 
+     60018      10227 
+     60012      10227 
+     60018      10227 
+     60012      10227 
+     60018      10227 
+     60012      10227 
+
+
+Throughput: roundsd r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20088      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+
+
+Throughput: roundsd r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20568      10227 
+     20280      10227 
+     20268      10227 
+     20262      10227 
+     20268      10227 
+     20262      10227 
+     20268      10227 
+     20262      10227 
+     20268      10227 
+     20262      10227 
+
+
+Latency: roundps r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60018      10227 
+     60030      10227 
+     60018      10227 
+     60018      10227 
+     60018      10227 
+     60018      10227 
+     60018      10227 
+     60018      10227 
+     60018      10227 
+     60018      10227 
+
+
+Throughput: roundps r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20094      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+
+
+Throughput: roundps r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     70116      10228 
+     20280      10227 
+     20268      10227 
+     20268      10227 
+     20262      10227 
+     78462      10227 
+     20262      10227 
+     20262      10227 
+     20268      10227 
+     20262      10227 
+
+
+Latency: roundpd r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60018      10227 
+     60030      10227 
+     60018      10227 
+     60018      10227 
+    110208      10228 
+     60018      10227 
+    116910      10227 
+     60012      10227 
+     60018      10227 
+     60012      10227 
+
+
+Throughput: roundpd r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20106      10227 
+     20034      10227 
+     20022      10227 
+     20034      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+
+
+Throughput: roundpd r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20448      10227 
+     20280      10227 
+     20268      10227 
+     20262      10227 
+     20268      10227 
+     20262      10227 
+     20268      10227 
+     20262      10227 
+     20268      10227 
+     20262      10227 
+
+
+Latency: vpermilps r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30030      10227 
+     30030      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: vpermilps r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10194      10227 
+     10062      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10068      10227 
+
+
+Throughput: vpermilps r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13872      10227 
+     13698      10227 
+     13686      10227 
+     13686      10227 
+     13686      10227 
+     13686      10227 
+     13686      10227 
+     13686      10227 
+     13686      10227 
+     13686      10227 
+
+
+Latency: vpermilps r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30030      10227 
+     30030      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: vpermilps r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20412      10227 
+     20034      10227 
+     20022      10227 
+     20016      10227 
+     20016      10227 
+     20016      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+     20016      10227 
+
+
+Throughput: vpermilps r256,[m256],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25236      10227 
+     25038      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25038      10227 
+     25020      10227 
+     25020      10227 
+
+
+Latency: vpermilpd r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18252      10227 
+     18108      10227 
+     18150      10227 
+     18150      10227 
+     18150      10227 
+     18150      10227 
+     18150      10227 
+     18150      10227 
+     18144      10227 
+     18150      10227 
+
+
+Throughput: vpermilpd r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10200      10227 
+     10068      10227 
+     10056      10227 
+     10056      10227 
+     10050      10227 
+     10056      10227 
+     10056      10227 
+     10050      10227 
+     10056      10227 
+     10056      10227 
+
+
+Throughput: vpermilpd r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11982      10227 
+     11808      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+     11790      10227 
+
+
+Latency: vpermilpd r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     16722      10227 
+     16638      10227 
+     16638      10227 
+     16632      10227 
+     16638      10227 
+     16632      10227 
+     16638      10227 
+     16632      10227 
+     16638      10227 
+     16632      10227 
+
+
+Throughput: vpermilpd r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10176      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+
+
+Throughput: vpermilpd r256,[m256],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25236      10227 
+     24936      10227 
+     24972      10227 
+     24966      10227 
+     24972      10227 
+     24972      10227 
+     24966      10227 
+     24972      10227 
+     24972      10227 
+     24966      10227 
+
+
+Latency: vroundps r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80124      10227 
+    137676      10227 
+     80118      10227 
+     80124      10227 
+     80118      10227 
+     80124      10227 
+     80118      10227 
+     80124      10227 
+     80118      10227 
+     80124      10227 
+
+
+Throughput: vroundps r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80124      10227 
+     80136      10227 
+     80124      10227 
+     80118      10227 
+     80124      10227 
+     80118      10227 
+     80124      10227 
+     80118      10227 
+     80124      10227 
+     80118      10227 
+
+
+Throughput: vroundps r256,[m256],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90282      10227 
+     90138      10227 
+     90120      10227 
+     90126      10227 
+     90120      10227 
+     90120      10227 
+     90126      10227 
+     90120      10227 
+     90120      10227 
+     90126      10227 
+
+
+Latency: vroundpd r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80124      10227 
+     80136      10227 
+     80124      10227 
+     80118      10227 
+     80124      10227 
+     80118      10227 
+     80124      10227 
+     80118      10227 
+     80124      10227 
+     80118      10227 
+
+
+Throughput: vroundpd r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     80124      10227 
+     80136      10227 
+     80124      10227 
+     80118      10227 
+     80124      10227 
+     80118      10227 
+     80124      10227 
+     80118      10227 
+     80124      10227 
+     80118      10227 
+
+
+Throughput: vroundpd r256,[m256],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90324      10227 
+     90138      10227 
+     90120      10227 
+     90126      10227 
+     90120      10227 
+     90120      10227 
+     90126      10227 
+     90120      10227 
+     90120      10227 
+     90126      10227 
+
+Instructions with 3 operands and one immediate operand
+
+
+Latency: vshufps r128,r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18132      10227 
+     18162      10227 
+     18144      10227 
+     18150      10227 
+     18144      10227 
+     18150      10227 
+     18144      10227 
+     18150      10227 
+     18144      10227 
+     18150      10227 
+
+
+Throughput: vshufps r128,r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10176      10227 
+     10074      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+
+
+Throughput: vshufps r128,r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11904      10227 
+     11808      10227 
+     11796      10227 
+     11790      10227 
+     11796      10227 
+     11790      10227 
+     11796      10227 
+     11790      10227 
+     11796      10227 
+     11790      10227 
+
+
+Latency: vshufps r256,r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21888      10227 
+     21990      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+     21906      10227 
+
+
+Throughput: vshufps r256,r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10176      10227 
+     10074      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+
+
+Throughput: vshufps r256,r256,[m256],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25074      10227 
+     25038      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+     25020      10227 
+
+
+Latency: vshufpd r128,r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     18198      10227 
+     18162      10227 
+     18144      10227 
+     18150      10227 
+     18144      10227 
+     18150      10227 
+     18144      10227 
+     18150      10227 
+     18144      10227 
+     18150      10227 
+
+
+Throughput: vshufpd r128,r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10182      10227 
+     10074      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+     10056      10227 
+
+
+Throughput: vshufpd r128,r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11904      10227 
+     11808      10227 
+     11796      10227 
+     11790      10227 
+     11796      10227 
+     11790      10227 
+     11796      10227 
+     11790      10227 
+     11796      10227 
+     11790      10227 
+
+
+Latency: vshufpd r256,r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     16740      10227 
+     16446      10227 
+     16632      10227 
+     16638      10227 
+     16632      10227 
+     16638      10227 
+     16632      10227 
+     16638      10227 
+     16632      10227 
+     16638      10227 
+
+
+Throughput: vshufpd r256,r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10164      10227 
+     10056      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+     10038      10227 
+
+
+Throughput: vshufpd r256,r256,[m256],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     76122      10228 
+     24936      10227 
+     24972      10227 
+     24972      10227 
+     82740      10227 
+     25008      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+
+
+Latency: vdpps r128,r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    596940      10227 
+    180138      10227 
+    180120      10227 
+    180138      10227 
+    180120      10227 
+    180126      10227 
+    180126      10227 
+    180120      10227 
+    180120      10227 
+    180120      10227 
+
+
+Throughput: vdpps r128,r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    180120      10227 
+    180138      10227 
+    180120      10227 
+    180120      10227 
+    180126      10227 
+    180126      10227 
+    180120      10227 
+    180120      10227 
+    180120      10227 
+    180120      10227 
+
+
+Throughput: vdpps r128,r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    180120      10227 
+    180138      10227 
+    180120      10227 
+    180120      10227 
+    180126      10227 
+    180126      10227 
+    180120      10227 
+    180120      10227 
+    180120      10227 
+    180120      10227 
+
+
+Latency: vdpps r256,r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    310122      10227 
+    310140      10227 
+    310122      10227 
+    310122      10227 
+    310122      10227 
+    360432      10228 
+    367506      10227 
+    310122      10227 
+    310122      10227 
+    310122      10227 
+
+
+Throughput: vdpps r256,r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    310122      10227 
+    310140      10227 
+    310122      10227 
+    310122      10227 
+    310122      10227 
+    310122      10227 
+    310122      10227 
+    310122      10227 
+    310122      10227 
+    310122      10227 
+
+
+Throughput: vdpps r256,r256,[m256],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    320124      10227 
+    320136      10227 
+    320124      10227 
+    320118      10227 
+    320124      10227 
+    320118      10227 
+    320124      10227 
+    320118      10227 
+    320124      10227 
+    320118      10227 
+
+
+Latency: vblendps r128,r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10176      10227 
+     10062      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10068      10227 
+
+
+Throughput: vblendps r128,r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10194      10227 
+     10062      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10068      10227 
+
+
+Throughput: vblendps r128,r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13038      10227 
+     12918      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+
+
+Latency: vblendps r256,r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30030      10227 
+     30030      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: vblendps r256,r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20082      10227 
+     20034      10227 
+     20022      10227 
+     20016      10227 
+     20016      10227 
+     20016      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+     20016      10227 
+
+
+Throughput: vblendps r256,r256,[m256],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25020      10227 
+     24936      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+
+
+Latency: vblendpd r128,r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10176      10227 
+     10062      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10068      10227 
+
+
+Throughput: vblendpd r128,r128,r128,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10494      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+     10074      10227 
+     10062      10227 
+     10068      10227 
+     10062      10227 
+
+
+Throughput: vblendpd r128,r128,[m128],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13032      10227 
+     12918      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+     12906      10227 
+
+
+Latency: vblendpd r256,r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10227 
+     30030      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+     30018      10227 
+
+
+Throughput: vblendpd r256,r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20082      10227 
+     20034      10227 
+     20022      10227 
+     20016      10227 
+     20016      10227 
+     20016      10227 
+     20016      10227 
+     20022      10227 
+     20022      10227 
+     20016      10227 
+
+
+Throughput: vblendpd r256,r256,[m256],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     25020      10227 
+     24936      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+     24972      10227 
+
+
+Latency: vperm2f128 r256,r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20148      10227 
+     20040      10227 
+     20028      10227 
+     20028      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20028      10227 
+     20028      10227 
+
+
+Throughput: vperm2f128 r256,r256,r256,i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20088      10227 
+     20040      10227 
+     20028      10227 
+     20028      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20028      10227 
+     20028      10227 
+
+
+Throughput: vperm2f128 r256,r256,[m256],i
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     26622      10227 
+     26604      10227 
+     26586      10227 
+     26586      10227 
+     26586      10227 
+     26586      10227 
+     26592      10227 
+     26592      10227 
+     26586      10227 
+     26586      10227 
+
+
+Latency: vblendvps r128,r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40026      10227 
+     40026      10227 
+     40020      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+     40020      10227 
+
+
+Throughput: vblendvps r128,r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20088      10227 
+     20040      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20028      10227 
+     20028      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+
+
+Throughput: vblendvps r128,r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20082      10227 
+     20046      10227 
+     20022      10227 
+     20022      10227 
+     20028      10227 
+     20022      10227 
+     20022      10227 
+     20028      10227 
+     20022      10227 
+     20022      10227 
+
+
+Latency: vblendvps r256,r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40020      10227 
+     40032      10227 
+     40014      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+
+
+Throughput: vblendvps r256,r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40020      10227 
+     40032      10227 
+     40014      10227 
+     40032      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+     40014      10227 
+
+
+Throughput: vblendvps r256,r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40050      10227 
+     40038      10227 
+     40026      10227 
+     40020      10227 
+     40020      10227 
+     40026      10227 
+     40020      10227 
+     40020      10227 
+     40026      10227 
+     40038      10227 
+
+
+Latency: vblendvpd r128,r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40032      10227 
+     40026      10227 
+     40020      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+     40020      10227 
+
+
+Throughput: vblendvpd r128,r128,r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20070      10227 
+     20040      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+     20028      10227 
+     20028      10227 
+     20022      10227 
+     20022      10227 
+     20022      10227 
+
+
+Throughput: vblendvpd r128,r128,r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20082      10227 
+     20046      10227 
+     20022      10227 
+     20022      10227 
+     20028      10227 
+     20022      10227 
+     20022      10227 
+     20028      10227 
+     20022      10227 
+     20022      10227 
+
+
+Latency: vblendvpd r256,r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40020      10227 
+     40032      10227 
+     40014      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+
+
+Throughput: vblendvpd r256,r256,r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40032      10227 
+     40032      10227 
+     40014      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+     40014      10227 
+     40020      10227 
+
+
+Throughput: vblendvpd r256,r256,r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40044      10227 
+     40038      10227 
+     40026      10227 
+     40020      10227 
+     40020      10227 
+     40026      10227 
+     40020      10227 
+     40020      10227 
+     40026      10227 
+     40020      10227 
+
+
+
+division
+
+
+Throughput: divss r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1300218     202019 
+   1300026     202019 
+   1300020     202019 
+   1300020     202019 
+   1300014     202019 
+   1464540     202020 
+   1300206     202019 
+   1300020     202019 
+   1300014     202019 
+   1300020     202019 
+
+
+Throughput: divss r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1300224     202019 
+   1300026     202019 
+   1300020     202019 
+   1300020     202019 
+   1300014     202019 
+   1467306     202020 
+   2323074     202019 
+   1300212     202019 
+   1300020     202019 
+   1300014     202019 
+
+
+Latency: divss r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1410444     103020 
+   1303230     103019 
+   1303020     103019 
+   1303020     103019 
+   1303020     103019 
+   1303020     103019 
+   1526286     103020 
+   1303596     103019 
+   1303020     103019 
+   1303020     103019 
+
+
+Latency: divss r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1303224     103019 
+   1303032     103019 
+   1303020     103019 
+   1303020     103019 
+   1303020     103019 
+   2349534     103020 
+   1303272     103019 
+   1303020     103019 
+   1303020     103019 
+   1303020     103019 
+
+
+throughput with memory operand: divss r128,[m128] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1300248     202019 
+   1351488     202020 
+   2344290     202019 
+   1300020     202019 
+   1300020     202019 
+   1300020     202019 
+   1300020     202019 
+   1391886     202020 
+   1300020     202019 
+   1300020     202019 
+
+
+throughput with memory operand: divss r128,[m128] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1300242     202019 
+   1300038     202019 
+   1300020     202019 
+   1367004     202020 
+   1300206     202019 
+   1300020     202019 
+   1300020     202019 
+   1300038     202019 
+   1300020     202019 
+   1396164     202020 
+
+
+Throughput: divsd r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1500216     202019 
+   1500030     202019 
+   1608156     202020 
+   1500204     202019 
+   1500018     202019 
+   1500018     202019 
+   1500018     202019 
+   2364306     202020 
+   1500210     202019 
+   1500018     202019 
+
+
+Throughput: divsd r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2109618     202020 
+   2000226     202019 
+   2000016     202019 
+   2050578     202020 
+   2173092     202019 
+   2000232     202019 
+   2000016     202019 
+   2107968     202020 
+   2000214     202019 
+   2000016     202019 
+
+
+Latency: divsd r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1668060     103019 
+   1793130     103019 
+   1852206     103020 
+   1869216     103019 
+   1668078     103019 
+   1732524     103019 
+   1777884     103020 
+   1725414     103019 
+   1668012     103019 
+   1667820     103019 
+
+
+Latency: divsd r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2109522     103020 
+   2059068     103019 
+   2003214     103019 
+   2003016     103019 
+   2861478     103020 
+   2003220     103019 
+   2003016     103019 
+   2094960     103020 
+   2003412     103019 
+   2003016     103019 
+
+
+throughput with memory operand: divsd r128,[m128] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1500234     202019 
+   1500036     202019 
+   1500018     202019 
+   1500024     202019 
+   1610142     202020 
+   1613964     202019 
+   1500018     202019 
+   1500018     202019 
+   1500018     202019 
+   1500024     202019 
+
+
+throughput with memory operand: divsd r128,[m128] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2000244     202019 
+   2221806     202021 
+   2000328     202019 
+   2000016     202019 
+   2000022     202019 
+   2132388     202020 
+   2000208     202019 
+   2000016     202019 
+   2000022     202019 
+   2040126     202020 
+
+
+Throughput: divps r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2400216     202019 
+   2400030     202019 
+   2565102     202020 
+   2400210     202019 
+   2400030     202019 
+   2508900     202020 
+   2400210     202019 
+   2400018     202019 
+   2400018     202019 
+   2564166     202020 
+
+
+Throughput: divps r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2400222     202019 
+   2509386     202020 
+   2400210     202019 
+   2400018     202019 
+   2605752     202020 
+   2400210     202019 
+   2400018     202019 
+   2400018     202019 
+   2505342     202020 
+   2400216     202019 
+
+
+Latency: divps r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2511900     103020 
+   2403228     103019 
+   2403024     103019 
+   2569470     103020 
+   2403216     103019 
+   2403024     103019 
+   2526120     103020 
+   2403216     103019 
+   2458956     103019 
+   2569266     103020 
+
+
+Latency: divps r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2512002     103020 
+   2403234     103019 
+   2403024     103019 
+   2403024     103019 
+   2569146     103020 
+   2403216     103019 
+   2403024     103019 
+   2511234     103020 
+   2403222     103019 
+   2403024     103019 
+
+
+throughput with memory operand: divps r128,[m128] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2400234     202019 
+   2400036     202019 
+   3173100     202020 
+   2400018     202019 
+   2400018     202019 
+   2451312     202020 
+   2400024     202019 
+   2400018     202019 
+   2400018     202019 
+   2521284     202020 
+
+
+throughput with memory operand: divps r128,[m128] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2510220     202020 
+   2400228     202019 
+   2400018     202019 
+   2451480     202020 
+   2572506     202019 
+   2400210     202019 
+   2400024     202019 
+   2507766     202020 
+   2400204     202019 
+   2400024     202019 
+
+
+Throughput: divpd r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2300220     202019 
+   2465286     202020 
+   2300214     202019 
+   2300016     202019 
+   2407614     202020 
+   2300214     202019 
+   2300016     202019 
+   2300016     202019 
+   2573808     202020 
+   2300214     202019 
+
+
+Throughput: divpd r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3910146     202020 
+   3800232     202019 
+   3962964     202020 
+   3800220     202019 
+   3907854     202020 
+   3800220     202019 
+   4182318     202020 
+   3800220     202019 
+   3947688     202020 
+   3800214     202019 
+
+
+Latency: divpd r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2632818     103019 
+   2757558     103020 
+   2632812     103019 
+   2632620     103019 
+   2764254     103021 
+   2632812     103019 
+   2632620     103019 
+   2748408     103020 
+   2632812     103019 
+   2632632     103019 
+
+
+Latency: divpd r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3803226     103019 
+   3911700     103020 
+   4642080     103019 
+   3894138     103020 
+   3803220     103019 
+   3898668     103020 
+   3803214     103019 
+   3890202     103020 
+   3803220     103019 
+   3803016     103019 
+
+
+throughput with memory operand: divpd r128,[m128] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2552892     202020 
+   2536362     202019 
+   2472648     202019 
+   2498490     202020 
+   2765436     202019 
+   2469750     202019 
+   2792652     202020 
+   2660022     202019 
+   2300016     202019 
+   3200922     202020 
+
+
+throughput with memory operand: divpd r128,[m128] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3800262     202019 
+   3965628     202020 
+   3800214     202019 
+   3906816     202020 
+   3800208     202019 
+   3800016     202019 
+   4904058     202020 
+   3890928     202020 
+   3800214     202019 
+   3896046     202020 
+
+
+Throughput: vdivss r128,r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1300218     102007 
+   1300026     102007 
+   1300020     102007 
+   1406916     102008 
+   1300206     102007 
+   1300014     102007 
+   1300020     102007 
+   1300014     102007 
+   1300014     102007 
+   1408926     102008 
+
+
+Throughput: vdivss r128,r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1300224     102016 
+   1300032     102016 
+   1300020     102016 
+   2203218     102017 
+   1300218     102016 
+   1300020     102016 
+   1300020     102016 
+   1300014     102016 
+   1350216     102017 
+   1300014     102016 
+
+
+Latency: vdivss r128,r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1303248     103007 
+   1303026     103007 
+   1303020     103007 
+   1303014     103007 
+   1635894     103008 
+   1303242     103007 
+   1303020     103007 
+   1303014     103007 
+   1303020     103007 
+   1303014     103007 
+
+
+Latency: vdivss r128,r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1303224     103016 
+   1303032     103016 
+   1303020     103016 
+   1303020     103016 
+   1397934     103017 
+   1303248     103016 
+   1303020     103016 
+   1303014     103016 
+   1303020     103016 
+   1303020     103016 
+
+
+throughput with memory operand: vdivss r128,r128,[m128] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1300230     102007 
+   1394004     102008 
+   1300014     102007 
+   1300020     102007 
+   1300014     102007 
+   1300020     102007 
+   1300014     102007 
+   1408542     102008 
+   1357734     102007 
+   1300014     102007 
+
+
+throughput with memory operand: vdivss r128,r128,[m128] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1300248     102016 
+   1300032     102016 
+   1300020     102016 
+   1300020     102016 
+   1300020     102016 
+   1351464     102017 
+   1608420     102016 
+   1300212     102016 
+   1300020     102016 
+   1300020     102016 
+
+
+Throughput: vdivsd r128,r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1400250     102007 
+   1400028     102007 
+   1400016     102007 
+   1400016     102007 
+   1400016     102007 
+   2213286     102008 
+   1400244     102007 
+   1400016     102007 
+   1400016     102007 
+   1400016     102007 
+
+
+Throughput: vdivsd r128,r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2000226     102016 
+   2000028     102016 
+   2000016     102016 
+   2905674     102017 
+   2000214     102016 
+   2000016     102016 
+   2050800     102017 
+   2000016     102016 
+   2000022     102016 
+   2000022     102016 
+
+
+Latency: vdivsd r128,r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1403220     103007 
+   1510026     103008 
+   1403214     103007 
+   1403016     103007 
+   1403016     103007 
+   1403016     103007 
+   1403016     103007 
+   1569816     103008 
+   1403214     103007 
+   1403016     103007 
+
+
+Latency: vdivsd r128,r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2111970     103017 
+   2003232     103016 
+   2003016     103016 
+   2003022     103016 
+   2170488     103017 
+   2003220     103016 
+   2003016     103016 
+   2003016     103016 
+   2110296     103017 
+   2003220     103016 
+
+
+throughput with memory operand: vdivsd r128,r128,[m128] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1500228     102007 
+   1500030     102007 
+   1500018     102007 
+   1607832     102008 
+   1500018     102007 
+   1500018     102007 
+   1500018     102007 
+   1500018     102007 
+   1666068     102008 
+   1500018     102007 
+
+
+throughput with memory operand: vdivsd r128,r128,[m128] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2000238     102016 
+   2000034     102016 
+   2000022     102016 
+   2167038     102017 
+   2000208     102016 
+   2000022     102016 
+   2000022     102016 
+   2107992     102017 
+   2000208     102016 
+   2000022     102016 
+
+
+Throughput: vdivps r128,r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2400252     102007 
+   2566272     102008 
+   2400240     102007 
+   2455404     102007 
+   2507064     102008 
+   2400702     102007 
+   2400018     102007 
+   2400018     102007 
+   2563410     102008 
+   2400240     102007 
+
+
+Throughput: vdivps r128,r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2400258     102016 
+   2400030     102016 
+   2616786     102017 
+   2400240     102016 
+   2400018     102016 
+   2400018     102016 
+   2510160     102017 
+   2400246     102016 
+   2400018     102016 
+   2574006     102017 
+
+
+Latency: vdivps r128,r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2511150     103008 
+   2403228     103007 
+   2403018     103007 
+   2625486     103008 
+   2403204     103007 
+   2403018     103007 
+   2510094     103008 
+   2403210     103007 
+   2403018     103007 
+   2403018     103007 
+
+
+Latency: vdivps r128,r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2511924     103017 
+   2403228     103016 
+   2403024     103016 
+   2569752     103017 
+   2403216     103016 
+   2403024     103016 
+   2509956     103017 
+   2403216     103016 
+   2403024     103016 
+   2403024     103016 
+
+
+throughput with memory operand: vdivps r128,r128,[m128] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2400228     102007 
+   2507358     102008 
+   2400018     102007 
+   2400018     102007 
+   2566038     102008 
+   2400018     102007 
+   2400018     102007 
+   2400018     102007 
+   2506866     102008 
+   2400018     102007 
+
+
+throughput with memory operand: vdivps r128,r128,[m128] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2400240     102016 
+   2507574     102017 
+   2400204     102016 
+   2400018     102016 
+   2400024     102016 
+   2568462     102017 
+   2400210     102016 
+   2400024     102016 
+   2508216     102017 
+   2400210     102016 
+
+
+Throughput: vdivps r256,r256,r256 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4892370     102008 
+   4896270     102008 
+   4800204     102007 
+   4886166     102008 
+   4800204     102007 
+   4944540     102008 
+   4898826     102008 
+   4800210     102007 
+   5361966     102008 
+   4837572     102008 
+
+
+Throughput: vdivps r256,r256,r256 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4906026     102017 
+   4800228     102016 
+   4965756     102017 
+   4800780     102016 
+   4908600     102017 
+   5517534     102017 
+   4800216     102016 
+   4852920     102017 
+   4868052     102017 
+   4800216     102016 
+
+
+Latency: vdivps r256,r256,r256 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4906326     103008 
+   4909320     103008 
+   4857150     103007 
+   4908816     103008 
+   4800210     103007 
+   6299292     103008 
+   4910124     103008 
+   4800216     103007 
+   4899180     103008 
+   4886766     103008 
+
+
+Latency: vdivps r256,r256,r256 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   5007042     103018 
+   4800264     103016 
+   4877508     103017 
+   4890114     103017 
+   4800858     103016 
+   4838226     103017 
+   4800024     103016 
+   4813380     103017 
+   4812720     103017 
+   4800024     103016 
+
+
+throughput with memory operand: vdivps r256,r256,[m256] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4906458     102008 
+   4800036     102007 
+   4958964     102008 
+   5013210     102009 
+   4800018     102007 
+   5645502     102008 
+   4800018     102007 
+   4851156     102008 
+   4874892     102008 
+   4800018     102007 
+
+
+throughput with memory operand: vdivps r256,r256,[m256] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4800276     102016 
+   5662374     102017 
+   4890840     102017 
+   4800240     102016 
+   4895850     102017 
+   4800234     102016 
+   4886628     102017 
+   4897614     102017 
+   4800240     102016 
+   4889388     102017 
+
+
+Throughput: vdivpd r128,r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2313186     102008 
+   2200218     102007 
+   2200014     102007 
+   2200032     102007 
+   3431454     102008 
+   2200404     102007 
+   2200014     102007 
+   2310342     102008 
+   2200206     102007 
+   2200014     102007 
+
+
+Throughput: vdivpd r128,r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3800226     102016 
+   4612968     102017 
+   3892032     102016 
+   3851706     102017 
+   3800016     102016 
+   3867150     102017 
+   3800220     102016 
+   3896700     102017 
+   3800220     102016 
+   3849840     102017 
+
+
+Latency: vdivpd r128,r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2203746     103007 
+   2308158     103008 
+   2203212     103007 
+   2203020     103007 
+   2360526     103008 
+   2203212     103007 
+   2203020     103007 
+   2203014     103007 
+   2309130     103008 
+   2203212     103007 
+
+
+Latency: vdivpd r128,r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   5025198     103017 
+   3893448     103017 
+   3803214     103016 
+   3953700     103017 
+   3803214     103016 
+   3854388     103017 
+   3860274     103016 
+   3803220     103016 
+   4837338     103017 
+   3857730     103017 
+
+
+throughput with memory operand: vdivpd r128,r128,[m128] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2300232     102007 
+   3489504     102008 
+   2300016     102007 
+   2300016     102007 
+   2390958     102008 
+   2300016     102007 
+   2300016     102007 
+   2451924     102008 
+   2300016     102007 
+   2300016     102007 
+
+
+throughput with memory operand: vdivpd r128,r128,[m128] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3908304     102017 
+   3800226     102016 
+   3966024     102017 
+   3800214     102016 
+   3907782     102017 
+   3800208     102016 
+   3967836     102017 
+   3800214     102016 
+   3908700     102017 
+   3800214     102016 
+
+
+Throughput: vdivpd r256,r256,r256 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4400220     102007 
+   4507092     102008 
+   4400214     102007 
+   4621344     102008 
+   4506366     102008 
+   4400214     102007 
+   4563636     102008 
+   4400214     102007 
+   4508376     102008 
+   4400214     102007 
+
+
+Throughput: vdivpd r256,r256,r256 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   7765782     102017 
+   7707498     102017 
+   7823094     102017 
+   7708116     102017 
+   7844466     102018 
+   7707486     102017 
+   8863026     102017 
+   7650270     102017 
+   7721394     102017 
+   7706562     102017 
+
+
+Latency: vdivpd r256,r256,r256 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4400220     103007 
+   4622154     103008 
+   4400214     103007 
+   4507098     103008 
+   4400208     103007 
+   4564788     103008 
+   4507176     103008 
+   4400208     103007 
+   5477388     103008 
+   4400214     103007 
+
+
+Latency: vdivpd r256,r256,r256 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   8412354     103017 
+   7691586     103017 
+   7696284     103017 
+   7687470     103017 
+   7753782     103017 
+   7713666     103017 
+   8358678     103017 
+   7638654     103017 
+   7613448     103017 
+   7612326     103017 
+
+
+throughput with memory operand: vdivpd r256,r256,[m256] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4708278     102008 
+   5531742     102008 
+   4600020     102007 
+   4691754     102008 
+   4600020     102007 
+   4696182     102008 
+   4687194     102008 
+   4600020     102007 
+   4791354     102008 
+   4600020     102007 
+
+
+throughput with memory operand: vdivpd r256,r256,[m256] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   7706934     102017 
+   8743560     102017 
+   7691574     102017 
+   7750608     102017 
+   8178540     102018 
+   8455662     102017 
+   8660016     102017 
+   8443662     102017 
+   8412390     102017 
+   8872044     102017 
+
+
+
+square root
+
+
+Throughput: sqrtss r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3300216     102021 
+   3300030     102021 
+   4548012     102022 
+   3300204     102021 
+   3407526     102022 
+   3300204     102021 
+   3456048     102022 
+   3300210     102021 
+   3406650     102022 
+   3300216     102021 
+
+
+Throughput: sqrtss r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3300252     102021 
+   4067358     102022 
+   3761808     102021 
+   3408888     102022 
+   3300240     102021 
+   3300018     102021 
+   3464466     102022 
+   3300240     102021 
+   3406680     102022 
+   3300240     102021 
+
+
+Latency: sqrtss r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3303216     103021 
+   3303030     103021 
+   4529724     103022 
+   3303204     103021 
+   3411912     103022 
+   3303204     103021 
+   3466356     103022 
+   3303210     103021 
+   3410298     103022 
+   3303210     103021 
+
+
+Latency: sqrtss r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3409800     103022 
+   3303408     103021 
+   4486740     103022 
+   3303204     103021 
+   3392520     103022 
+   3303210     103021 
+   3303018     103021 
+   3454236     103022 
+   3303210     103021 
+   3408774     103022 
+
+
+Throughput with memory operand: sqrtss r128,[m128] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3300258     102021 
+   3300036     102021 
+   3444126     102023 
+   3300018     102021 
+   3436134     102022 
+   3300018     102021 
+   3300018     102021 
+   3337992     102022 
+   3300024     102021 
+   3313566     102022 
+
+
+Throughput with memory operand: sqrtss r128,[m128] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3300228     102021 
+   3976230     102022 
+   3672624     102021 
+   3351384     102022 
+   3300024     102021 
+   3300024     102021 
+   3367194     102022 
+   3300018     102021 
+   3396858     102022 
+   3300018     102021 
+
+
+Throughput: sqrtsd r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6200244     102021 
+   7285836     102022 
+   6252732     102022 
+   6320400     102022 
+   6305442     102022 
+   6200232     102021 
+   6356526     102022 
+   6305988     102022 
+   6355968     102022 
+   6241092     102022 
+
+
+Throughput: sqrtsd r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6307422     102022 
+   7150320     102022 
+   6290076     102022 
+   6295410     102022 
+   6200202     102021 
+   6287166     102022 
+   6352410     102022 
+   6290214     102022 
+   6200214     102021 
+   6798648     102022 
+
+
+Latency: sqrtsd r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6203250     103021 
+   7382574     103022 
+   6255252     103022 
+   6333174     103022 
+   6310392     103022 
+   6203238     103021 
+   6775272     103022 
+   6293850     103022 
+   6482490     103022 
+   6241188     103022 
+
+
+Latency: sqrtsd r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6289914     103022 
+   6725874     103022 
+   6293958     103022 
+   6203202     103021 
+   6353598     103022 
+   6311322     103022 
+   6362616     103022 
+   6203208     103021 
+   6310050     103022 
+   6359328     103022 
+
+
+Throughput with memory operand: sqrtsd r128,[m128] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6306678     102022 
+   7061052     102022 
+   6351630     102022 
+   6200016     102021 
+   6351588     102022 
+   6361296     102022 
+   6357420     102022 
+   6305244     102022 
+   6200016     102021 
+   6356616     102022 
+
+
+Throughput with memory operand: sqrtsd r128,[m128] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6307284     102022 
+   7159110     102022 
+   6289854     102022 
+   6295956     102022 
+   6287250     102022 
+   6200016     102021 
+   6296940     102022 
+   6288306     102022 
+   6802356     102022 
+   6238092     102022 
+
+
+Throughput: sqrtps r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   7536978     102022 
+   6453336     102022 
+   6521076     102022 
+   6400722     102021 
+   6506808     102022 
+   7245072     102022 
+   6497046     102022 
+   6501216     102022 
+   6400212     102021 
+   6436818     102022 
+
+
+Throughput: sqrtps r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6495870     102022 
+   6487620     102022 
+   6491718     102022 
+   6504504     102021 
+   6493914     102022 
+   6914994     102022 
+   6437412     102022 
+   6413730     102022 
+   6400020     102021 
+   6412566     102022 
+
+
+Latency: sqrtps r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6458604     103021 
+   7348020     103022 
+   6492846     103022 
+   6497472     103022 
+   6490518     103022 
+   6498618     103022 
+   6403212     103021 
+   6491106     103022 
+   7003122     103022 
+   6441006     103022 
+
+
+Latency: sqrtps r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   7211052     103022 
+   6494004     103022 
+   6499074     103022 
+   6403206     103021 
+   6488988     103022 
+   6500376     103022 
+   6496260     103022 
+   7024542     103023 
+   6536502     103022 
+   6403206     103021 
+
+
+Throughput with memory operand: sqrtps r128,[m128] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6507468     102022 
+   7500270     102022 
+   6490740     102022 
+   6445062     102022 
+   6450780     102021 
+   6487014     102022 
+   6542892     102022 
+   6499284     102022 
+   6779154     102022 
+   6400020     102021 
+
+
+Throughput with memory operand: sqrtps r128,[m128] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6507930     102022 
+   7495452     102022 
+   6491178     102022 
+   6400020     102021 
+   6494604     102022 
+   6487746     102022 
+   6543084     102022 
+   6546240     102022 
+   6702774     102023 
+   6400032     102021 
+
+
+Throughput: sqrtpd r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  12511938     102023 
+  12360846     102022 
+  12861378     102023 
+  12324492     102022 
+  12253800     102023 
+  12224904     102023 
+  12212238     102022 
+  12224472     102023 
+  12212178     102022 
+  12224958     102023 
+
+
+Throughput: sqrtpd r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  12528132     102023 
+  12307554     102022 
+  12472686     102023 
+  13914636     102023 
+  12386040     102022 
+  12475404     102023 
+  12238548     102022 
+  12226122     102023 
+  12212202     102022 
+  12224424     102023 
+
+
+Latency: sqrtpd r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  13395096     103023 
+  12388452     103023 
+  12289848     103022 
+  12758496     103023 
+  12435474     103022 
+  12254046     103023 
+  12215220     103022 
+  12227682     103023 
+  12215154     103022 
+  12239886     103023 
+
+
+Latency: sqrtpd r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  13441278     103023 
+  12253878     103022 
+  12429228     103023 
+  12828252     103022 
+  12445506     103023 
+  12524112     103024 
+  12241026     103022 
+  12228222     103023 
+  12215508     103022 
+  12572046     103025 
+
+
+Throughput with memory operand: sqrtpd r128,[m128] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  12352734     102022 
+  13067226     102023 
+  12290076     102022 
+  12382932     102023 
+  12628074     102023 
+  12481092     102022 
+  12499230     102024 
+  12240228     102022 
+  12225792     102023 
+  12212172     102022 
+
+
+Throughput with memory operand: sqrtpd r128,[m128] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  12475248     102023 
+  12308190     102022 
+  12473544     102023 
+  12472884     102023 
+  12364938     102022 
+  12255492     102023 
+  12212502     102022 
+  12225006     102023 
+  12212790     102022 
+  12224892     102023 
+
+
+Throughput: vsqrtss r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3408612     102016 
+   3300216     102015 
+   3300018     102015 
+   3466860     102016 
+   3300204     102015 
+   3413286     102016 
+   3300210     102015 
+   4249536     102016 
+   3300210     102015 
+   3354588     102016 
+
+
+Throughput: vsqrtss r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3465996     102016 
+   3300222     102015 
+   3300018     102015 
+   3407940     102016 
+   3300210     102015 
+   3464190     102016 
+   3300204     102015 
+   3407094     102016 
+   3300240     102015 
+   3300024     102015 
+
+
+Latency: vsqrtss r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3303216     103015 
+   3303030     103015 
+   4300206     103016 
+   3303204     103015 
+   3353304     103016 
+   3303018     103015 
+   3377028     103016 
+   3303210     103015 
+   3303018     103015 
+   3403392     103016 
+
+
+Latency: vsqrtss r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3352944     103016 
+   3303018     103015 
+   3303018     103015 
+   3427248     103016 
+   3303210     103015 
+   3409278     103016 
+   3303204     103015 
+   3303018     103015 
+   4578402     103016 
+   3303204     103015 
+
+
+Throughput with memory operand: vsqrtss r128,[m128] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3300228     102015 
+   3432294     102016 
+   3300018     102015 
+   3442446     102017 
+   3300018     102015 
+   3300024     102015 
+   3431958     102016 
+   3300018     102015 
+   3339252     102016 
+   3300024     102015 
+
+
+Throughput with memory operand: vsqrtss r128,[m128] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3300228     102015 
+   3300018     102015 
+   3496524     102016 
+   3300018     102015 
+   3429870     102016 
+   3300018     102015 
+   3338310     102016 
+   3300024     102015 
+   3300018     102015 
+   3313302     102016 
+
+
+Throughput: vsqrtsd r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6335160     102016 
+   6333372     102016 
+   6330708     102016 
+   6408858     102017 
+   6200202     102015 
+   6239208     102016 
+   6213582     102016 
+   6213450     102016 
+   6200016     102015 
+   6212358     102016 
+
+
+Throughput: vsqrtsd r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6330624     102016 
+   6332778     102016 
+   6200202     102015 
+   6328884     102016 
+   6239532     102016 
+   6213480     102016 
+   6200016     102015 
+   6212808     102016 
+   6212148     102016 
+   6212166     102016 
+
+
+Latency: vsqrtsd r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6393942     103016 
+   6203214     103015 
+   6348108     103016 
+   6333864     103016 
+   6337056     103016 
+   6333078     103016 
+   6203202     103015 
+   6317034     103016 
+   6240390     103016 
+   6215946     103016 
+
+
+Latency: vsqrtsd r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6203220     103015 
+   6390000     103016 
+   6333696     103016 
+   6241806     103016 
+   6216300     103016 
+   6203016     103015 
+   6215952     103016 
+   6215586     103016 
+   6215970     103016 
+   6215688     103016 
+
+
+Throughput with memory operand: vsqrtsd r128,[m128] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6272646     102016 
+   6290616     102016 
+   6327936     102016 
+   6200022     102015 
+   6238770     102016 
+   6213336     102016 
+   6212976     102016 
+   6212304     102016 
+   6200022     102015 
+   6212112     102016 
+
+
+Throughput with memory operand: vsqrtsd r128,[m128] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6324720     102016 
+   6332892     102016 
+   6332400     102016 
+   6435720     102017 
+   6200022     102015 
+   6238782     102016 
+   6213228     102016 
+   6212388     102016 
+   6200022     102015 
+   6212448     102016 
+
+
+Throughput: vsqrtps r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6545742     102017 
+   6909180     102016 
+   6435462     102016 
+   6400014     102015 
+   6413214     102016 
+   6412818     102016 
+   6412488     102016 
+   6412416     102016 
+   6400014     102015 
+   6412230     102016 
+
+
+Throughput: vsqrtps r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6400206     102015 
+   6531270     102016 
+   6530748     102016 
+   6437394     102016 
+   6413346     102016 
+   6456798     102015 
+   6436710     102016 
+   6412926     102016 
+   6412602     102016 
+   6412044     102016 
+
+
+Latency: vsqrtps r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6536556     103016 
+   6533880     103016 
+   6533886     103016 
+   6442080     103016 
+   6403020     103015 
+   6416418     103016 
+   6415938     103016 
+   6416004     103016 
+   6415512     103016 
+   6403020     103015 
+
+
+Latency: vsqrtps r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6722190     103016 
+   6525312     103016 
+   6534756     103016 
+   6403200     103015 
+   6441972     103016 
+   6416094     103016 
+   6415320     103016 
+   6415326     103016 
+   7218786     103018 
+   6968454     103015 
+
+
+Throughput with memory operand: vsqrtps r128,[m128] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6508032     102016 
+   6670854     102016 
+   6506304     102016 
+   6400020     102015 
+   6565650     102016 
+   6507216     102016 
+   7403688     102016 
+   6454266     102016 
+   6477600     102016 
+   6400020     102015 
+
+
+Throughput with memory operand: vsqrtps r128,[m128] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6507588     102016 
+   7355694     102016 
+   6491784     102016 
+   6496200     102016 
+   6400020     102015 
+   6487164     102016 
+   6500154     102016 
+   6491478     102016 
+   7002504     102016 
+   6436944     102016 
+
+
+Throughput: vsqrtps r256,r256 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  13860504     102017 
+  12985680     102017 
+  12887406     102016 
+  12984558     102017 
+  13438680     102017 
+  12813876     102016 
+  12825534     102017 
+  12812550     102016 
+  12826362     102017 
+  12824778     102017 
+
+
+Throughput: vsqrtps r256,r256 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  13607730     102017 
+  13055958     102017 
+  12962406     102016 
+  13346670     102017 
+  12837252     102016 
+  12825288     102017 
+  12824706     102017 
+  12812058     102016 
+  12824544     102017 
+  12878346     102017 
+
+
+Latency: vsqrtps r256,r256 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  12973062     103017 
+  12906636     103016 
+  13371744     103017 
+  12954228     103016 
+  12934122     103017 
+  12825066     103017 
+  12812178     103016 
+  12824682     103017 
+  12824592     103017 
+  12812310     103016 
+
+
+Latency: vsqrtps r256,r256 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  13063044     103017 
+  12906012     103016 
+  13118124     103017 
+  13002342     103017 
+  12814176     103016 
+  12825522     103017 
+  12813354     103016 
+  12825030     103017 
+  12825144     103017 
+  12812688     103016 
+
+
+Throughput with memory operand: vsqrtps r256,[m256] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  13058322     102017 
+  12957516     102016 
+  13060914     102017 
+  13101240     102017 
+  12956130     102016 
+  13001898     102017 
+  12813780     102016 
+  12825402     102017 
+  12824934     102017 
+  12812754     102016 
+
+
+Throughput with memory operand: vsqrtps r256,[m256] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  12890334     102016 
+  12983172     102017 
+  12985452     102017 
+  13402884     102016 
+  12997920     102017 
+  12852462     102017 
+  12812586     102016 
+  12825114     102017 
+  12812370     102016 
+  14032650     102018 
+
+
+Throughput: vsqrtpd r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  12350874     102016 
+  13170480     102017 
+  12377820     102017 
+  12288906     102016 
+  12712758     102017 
+  12300630     102016 
+  12251832     102017 
+  12212922     102016 
+  12224328     102017 
+  12341994     102017 
+
+
+Throughput: vsqrtpd r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  12307032     102016 
+  12529422     102017 
+  12414336     102017 
+  12420414     102016 
+  12470130     102017 
+  12307986     102016 
+  12407418     102017 
+  12214674     102016 
+  12224808     102017 
+  12212268     102016 
+
+
+Latency: vsqrtpd r128,r128 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  13261650     103017 
+  12293826     103016 
+  12385230     103017 
+  12359268     103016 
+  12405612     103017 
+  12240606     103016 
+  12229668     103017 
+  12228606     103017 
+  12215580     103016 
+  12227922     103017 
+
+
+Latency: vsqrtpd r128,r128 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  13147944     103017 
+  12354264     103016 
+  12469290     103017 
+  12310752     103016 
+  12464946     103017 
+  12370590     103016 
+  13029942     103018 
+  13814310     103017 
+  14288952     103017 
+  13657962     103016 
+
+
+Throughput with memory operand: vsqrtpd r128,[m128] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  12332514     102016 
+  12370332     102017 
+  12213612     102016 
+  12224946     102017 
+  12226290     102016 
+  12445728     102018 
+  12288102     102017 
+  12368358     102017 
+  12225204     102017 
+  12268920     102016 
+
+
+Throughput with memory operand: vsqrtpd r128,[m128] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  12293886     102016 
+  12471996     102018 
+  12237972     102016 
+  12226056     102017 
+  12421644     102018 
+  12237648     102016 
+  12227154     102017 
+  12212784     102016 
+  12417336     102018 
+  12237294     102016 
+
+
+Throughput: vsqrtpd r256,r256 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  25364652     102018 
+  25242564     102018 
+  24463722     102018 
+  24438096     102018 
+  24648828     102019 
+  24439002     102018 
+  24437640     102018 
+  24437670     102018 
+  24437472     102018 
+  24437328     102018 
+
+
+Throughput: vsqrtpd r256,r256 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  25055754     102019 
+  24461820     102018 
+  24436428     102018 
+  24544392     102019 
+  24448038     102019 
+  24477954     102018 
+  24444492     102018 
+  24849150     102020 
+  24464220     102018 
+  24437310     102018 
+
+
+Latency: vsqrtpd r256,r256 (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  24794496     103018 
+  24465078     103018 
+  24437514     103018 
+  24449826     103019 
+  24436908     103018 
+  24437382     103018 
+  24437250     103018 
+  24437394     103018 
+  24436908     103018 
+  24437160     103018 
+
+
+Latency: vsqrtpd r256,r256 (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  24831324     103019 
+  24438240     103018 
+  24437400     103018 
+  24436536     103018 
+  24436932     103018 
+  24436914     103018 
+  24436548     103018 
+  24436596     103018 
+  24436848     103018 
+  24436848     103018 
+
+
+Throughput with memory operand: vsqrtpd r256,[m256] (best case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  24771108     102018 
+  25626264     102020 
+  27561174     102019 
+  26756610     102018 
+  24881268     102018 
+  25539312     102018 
+  24530430     102019 
+  24437334     102018 
+  24544710     102019 
+  24436608     102018 
+
+
+Throughput with memory operand: vsqrtpd r256,[m256] (worst case)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+  25110342     102019 
+  24439434     102018 
+  24436626     102018 
+  24436284     102018 
+  24436326     102018 
+  24448656     102019 
+  24517914     102018 
+  24436374     102018 
+  24435882     102018 
+  24656808     102019 
+
+
+
+reciprocal, etc.
+
+
+Throughput: rcpss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500214     102021 
+    500016     102021 
+    500022     102021 
+    500016     102021 
+    500022     102021 
+    500016     102021 
+    500022     102021 
+    500016     102021 
+    500022     102021 
+    500028     102021 
+
+
+Latency: rcpss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    503226     103021 
+    503034     103021 
+    503022     103021 
+    503022     103021 
+    503022     103021 
+    503022     103021 
+    503022     103021 
+    503022     103021 
+    503022     103021 
+    503022     103021 
+
+
+Throughput with memory operand: rcpss r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500226     102021 
+    500016     102021 
+    500022     102021 
+    500016     102021 
+    500022     102021 
+    643524     102023 
+    500016     102021 
+    500022     102021 
+    500016     102021 
+    500022     102021 
+
+
+Throughput: rcpps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1091088     102022 
+   1000224     102021 
+   1000020     102021 
+   1000026     102021 
+   1000026     102021 
+   1000020     102021 
+   1000026     102021 
+   1000026     102021 
+   1149642     102022 
+   1000212     102021 
+
+
+Latency: rcpps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1303230     103021 
+   1475514     103022 
+   1303212     103021 
+   1303026     103021 
+   1303026     103021 
+   1303026     103021 
+   1303026     103021 
+   1424028     103022 
+   1303212     103021 
+   1303026     103021 
+
+
+Throughput with memory operand: rcpps r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2400162     102021 
+   2563512     102023 
+   2399988     102021 
+   2399982     102021 
+   2528676     102022 
+   2399988     102021 
+   2399982     102021 
+   2399988     102021 
+   2438802     102022 
+   2399988     102021 
+
+
+Throughput: vrcpss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500244     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+
+
+Latency: vrcpss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    503214     103021 
+    503022     103021 
+    503022     103021 
+    503022     103021 
+    503022     103021 
+    575592     103022 
+    503022     103021 
+    503022     103021 
+    503022     103021 
+    503022     103021 
+
+
+Throughput with memory operand: vrcpss r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500226     102021 
+    500034     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    681288     102022 
+    500016     102021 
+    500022     102021 
+    500016     102021 
+
+
+Throughput: vrcpps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1000218     102021 
+   1000020     102021 
+   1000026     102021 
+   1000020     102021 
+   1000026     102021 
+   1000020     102021 
+   1084938     102022 
+   1000020     102021 
+   1000026     102021 
+   1000020     102021 
+
+
+Latency: vrcpps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1366374     103022 
+   1362630     103021 
+   1303212     103021 
+   1303026     103021 
+   1303026     103021 
+   1303026     103021 
+   1377858     103022 
+   1360572     103021 
+   1303224     103021 
+   1303026     103021 
+
+
+Throughput with memory operand: vrcpps r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2537112     102022 
+   2400966     102021 
+   2400984     102021 
+   3298452     102022 
+   2683542     102021 
+   2400984     102021 
+   2470026     102022 
+   2400984     102021 
+   2400984     102021 
+   2416566     102022 
+
+
+Throughput: vrcpps r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4922742     102016 
+   4800090     102015 
+   4876224     102016 
+   4882260     102016 
+   4800144     102015 
+   4838316     102016 
+   4799952     102015 
+   4814358     102016 
+   4812792     102016 
+   4799958     102015 
+
+
+Latency: vrcpps r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4977732     103016 
+   4806270     103015 
+   4929732     103016 
+   4930110     103016 
+   4806222     103015 
+   4977126     103016 
+   4928322     103016 
+   4806222     103015 
+   4845402     103016 
+   4806030     103015 
+
+
+Throughput with memory operand: vrcpps r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4801158     102015 
+   5360328     102016 
+   4800954     102015 
+   4921746     102016 
+   4931976     102016 
+   4800954     102015 
+   4838592     102016 
+   4814412     102016 
+   4800954     102015 
+   4813584     102016 
+
+
+Throughput: rsqrtss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500214     102021 
+    500016     102021 
+    500022     102021 
+    500016     102021 
+    571134     102022 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+
+
+Latency: rsqrtss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    503214     103021 
+    503034     103021 
+    503022     103021 
+    503022     103021 
+    503022     103021 
+    503022     103021 
+    578646     103022 
+    561324     103021 
+    503208     103021 
+    503022     103021 
+
+
+Throughput with memory operand: rsqrtss r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    564960     102021 
+    500034     102021 
+    500856     102021 
+    500022     102021 
+    648180     102021 
+    586884     102021 
+    632076     102021 
+    560328     102021 
+    580440     102021 
+    628518     102021 
+
+
+Throughput: rsqrtps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1000236     102021 
+   1000038     102021 
+   1000026     102021 
+   1000020     102021 
+   1000026     102021 
+   1000026     102021 
+   1122498     102022 
+   1000206     102021 
+   1000026     102021 
+   1000020     102021 
+
+
+Latency: rsqrtps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1411116     103022 
+   1303218     103021 
+   1303026     103021 
+   1303026     103021 
+   1303026     103021 
+   1303026     103021 
+   1469286     103022 
+   1303206     103021 
+   1303026     103021 
+   1303026     103021 
+
+
+Throughput with memory operand: rsqrtps r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2400180     102021 
+   3167724     102022 
+   2399988     102021 
+   2399982     102021 
+   2451582     102022 
+   2399988     102021 
+   2399988     102021 
+   2521434     102022 
+   2399988     102021 
+   2399982     102021 
+
+
+Throughput: vrsqrtss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500244     102021 
+    500028     102021 
+    500022     102021 
+    500034     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+
+
+Latency: vrsqrtss r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    503214     103021 
+    503034     103021 
+    503022     103021 
+    503022     103021 
+    503022     103021 
+    594930     103022 
+    503202     103021 
+    503052     103021 
+    689598     103021 
+    503562     103021 
+
+
+Throughput with memory operand: vrsqrtss r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500256     102021 
+    500034     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+    500022     102021 
+
+
+Throughput: vrsqrtps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1000218     102021 
+   1000038     102021 
+   1483806     102022 
+   1416894     102021 
+   1000212     102021 
+   1000026     102021 
+   1000026     102021 
+   1000026     102021 
+   1000020     102021 
+   1096446     102022 
+
+
+Latency: vrsqrtps r128,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1303248     103021 
+   1410468     103022 
+   1303236     103021 
+   1303026     103021 
+   1303026     103021 
+   1303026     103021 
+   1303026     103021 
+   1603986     103022 
+   1303242     103021 
+   1303026     103021 
+
+
+Throughput with memory operand: vrsqrtps r128,[m128]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2401182     102021 
+   2508846     102022 
+   2400984     102021 
+   2400984     102021 
+   2568012     102022 
+   2400984     102021 
+   2400984     102021 
+   2514000     102022 
+   2400984     102021 
+   2400984     102021 
+
+
+Throughput: vrsqrtps r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3400182     102015 
+   3471972     102017 
+   3826068     102015 
+   3766668     102016 
+   3933360     102015 
+   3833154     102016 
+   4020708     102015 
+   3665646     102016 
+   3980820     102015 
+   3673452     102016 
+
+
+Latency: vrsqrtps r256,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4913136     103016 
+   4960758     103016 
+   4806216     103015 
+   4911558     103016 
+   4806216     103015 
+   4963794     103016 
+   4913442     103016 
+   4806216     103015 
+   4960902     103016 
+   4806216     103015 
+
+
+Throughput with memory operand: vrsqrtps r256,[m256]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4858758     102015 
+   4967178     102016 
+   4800954     102015 
+   4908462     102016 
+   4966416     102016 
+   4800954     102015 
+   4912080     102016 
+   4800954     102015 
+   4965144     102016 
+   4909530     102016 
+
+

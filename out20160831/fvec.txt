@@ -1,0 +1,298 @@
+vshufpd r128,r128,r128,i	1.78	0.98
+shufpd r128,r128,i	1.15	0.5
+vrcpps r128,[m128]	miss	24.91
+vpermilpd r256,r256,r256	2.94	1.96
+vrsqrtps r128,r128	13.05	10.78
+vmulpd r128,r128,[m128]	miss	1.96
+mulpd r128,r128	3.91	1.96
+orpd r128,[m]	miss	1.25
+vsqrtss r128,r128 (worst case)	33.57	32.88
+movshdup r128,r128	1.15	0.52
+vsqrtss r128,[m128] (best case)	miss	32.79
+dpps r128,[m128],i	miss	17.91
+vorpd r256,r256,r256	2.14	0.98
+vcmpeqps r256,r256,r256	5.39	2.16
+vmovapd r256,r256	2.14	0.98
+vdivpd r256,r256,r256 (best case)	44.35	43.83
+cvttps2dq r128,[m]	miss	1.25
+mulps r128,r128	2.94	0.98
+comiss r128,[m]	miss	1.25
+vrcpss r128,r128	4.95	4.9
+vsqrtsd r128,r128 (best case)	61.08	61.45
+vcmpeqps r128,r128,[m128]	miss	1.26
+vblendvps r256,r256,r256,r256	3.91	3.91
+andps r128,[m]	miss	1.25
+minps r128,[m]	miss	1.25
+vunpckhps r256,r256,[m256]	miss	2.45
+Instructions with 3 operands and one immediate operand	miss	miss
+unpcklpd r128,r128	1.15	1.02
+minsd r128,r128	2.94	0.98
+vblendpd r256,r256,r256,i	2.94	1.96
+vsqrtss r128,[m128] (worst case)	miss	32.72
+vpermilpd r128,r128,i	1.78	0.98
+vandps r128,r128,[m128]	miss	1.15
+comiss r128,r128	0.98	0.98
+divss r128,r128 (best case)	12.97	6.52
+maxss r128,[m]	miss	1.25
+vrsqrtps r256,r256	47.42	36.83
+sqrtps r128,[m128] (worst case)	miss	64.76
+cmpeqss r128,r128	3.48	0.98
+vpermilps r128,r128,i	2.94	0.99
+vcmpltpd r256,r256,[m256]	miss	2.56
+vdivsd r128,r128,r128 (best case)	13.89	14.52
+vsqrtps r128,r128 (worst case)	64.13	63.17
+vaddps r128,r128,r128	2.94	0.99
+vshufps r128,r128,[m128],i	miss	1.15
+vhaddps r256,r256,r256	8.81	8.81
+divsd r128,r128 (best case)	16.91	7.91
+vpermilps r256,r256,r256	2.94	1.96
+vroundps r256,r256,i	8.4	7.83
+vhsubpd r128,r128,[m128]	miss	2.94
+vsqrtps r256,[m256] (worst case)	miss	128.01
+cmpeqps r128,r128	2.94	0.98
+vminpd r256,r256,r256	5.39	2.16
+vroundpd r256,r256,i	7.83	7.83
+vdivps r128,r128,r128 (best case)	23.75	24.01
+vminpd r128,r128,r128	2.94	0.99
+vsqrtpd r256,[m256] (worst case)	miss	240.5
+vdivps r128,r128,r128 (worst case)	23.83	24.02
+Instructions with two operands and one immediate operand	miss	miss
+vsqrtps r256,r256 (best case)	125.45	127.68
+divpd r128,r128 (best case)	25.92	11.66
+vblendps r256,r256,[m256],i	miss	2.44
+vsqrtps r128,[m128] (worst case)	miss	64.86
+dppd r128,r128,i	9.78	7.83
+rcpss r128,r128	4.88	4.9
+vmovsldup r256,r256	2.14	0.98
+sqrtsd r128,r128 (worst case)	61.55	62.9
+cmpeqps r128,[m]	miss	1.25
+vmulps r256,r256,[m256]	miss	2.56
+andps r128,r128	1.15	0.5
+vsqrtpd r256,[m256] (best case)	miss	248.08
+vmovddup r256,[m]	miss	2.44
+vmulpd r256,r256,[m256]	miss	3.91
+vpermilpd r256,r256,i	1.63	0.98
+vrsqrtps r256,[m256]	miss	47.92
+vmaxps r128,r128,r128	2.94	0.99
+mulss r128,r128	2.94	0.98
+vrsqrtss r128,r128	5.15	4.9
+roundps r128,[m128],i	miss	3.04
+vhaddps r128,r128,[m128]	miss	2.94
+vmaxps r256,r256,r256	15.48	2.16
+vdivss r128,r128,r128 (worst case)	12.95	13.68
+roundpd r128,r128,i	6.92	1.96
+mulsd r128,[m]	miss	1.96
+vcmpltpd r128,r128,[m128]	miss	1.26
+orpd r128,r128	4.35	0.52
+vmovshdup r256,[m]	miss	2.44
+vdpps r256,r256,[m256],i	miss	31.3
+movapd r128,[m]	miss	1.3
+movshdup r128,[m]	miss	1.25
+ucomisd r128,[m]	miss	1.9
+sqrtss r128,r128 (best case)	33.62	33.93
+roundsd r128,[m128],i	miss	1.98
+vblendps r256,r256,r256,i	2.94	1.96
+sqrtpd r128,r128 (worst case)	121.51	122.51
+vsqrtps r128,[m128] (best case)	miss	64.59
+vsubpd r256,r256,[m256]	miss	2.56
+vpermilps r128,r128,r128	2.94	0.99
+sqrtss r128,[m128] (worst case)	miss	33.59
+rsqrtps r128,[m128]	miss	24.45
+unpckhps r128,[m]	miss	1.25
+vrcpps r256,r256	47.38	47.39
+vdivpd r128,r128,r128 (worst case)	33.8	38.4
+vminpd r256,r256,[m256]	miss	3.31
+vpermilpd r128,[m128],i	miss	1.15
+vcmpeqps r256,r256,[m256]	miss	3.54
+vmulpd r256,r256,r256	5.87	3.91
+cmpltpd r128,r128	2.94	0.98
+vaddsubps r256,r256,r256	5.39	2.16
+movapd r128,r128	1.15	0.52
+vsubpd r256,r256,r256	5.39	2.16
+vsqrtps r128,r128 (best case)	62.63	63.47
+cvtps2pd r128,[m]	miss	1.32
+sqrtsd r128,[m128] (best case)	miss	62.59
+vorpd r128,r128,[m128]	miss	1.15
+haddps r128,[m]	miss	2.94
+vhsubpd r256,r256,[m256]	miss	13.87
+divpd r128,r128 (worst case)	20.72	19.26
+vdivpd r128,r128,r128 (best case)	21.75	22.99
+vshufps r128,r128,r128,i	1.77	0.98
+vpermilpd r128,r128,[m128]	miss	1.26
+haddps r128,r128	4.89	2.94
+vblendvps r128,r128,r128,[m128]	miss	1.96
+vunpckhps r256,r256,r256	3.2	0.98
+vblendps r128,r128,r128,i	0.99	0.99
+vdivpd r256,r256,r256 (worst case)	67.94	76.95
+vshufpd r256,r256,r256,i	1.63	0.98
+vrsqrtps r128,[m128]	miss	23.91
+roundps r128,r128,i	5.87	1.96
+vcmpltpd r128,r128,r128	2.94	0.99
+ucomisd r128,r128	0.98	0.98
+vrcpss r128,[m128]	miss	5.08
+sqrtsd r128,[m128] (worst case)	miss	62.89
+vdpps r256,r256,r256,i	31.38	30.32
+cvtdq2ps r128,r128	2.94	0.98
+shufps r128,r128,i	1.15	0.5
+rsqrtps r128,r128	12.91	9.92
+vmovshdup r256,r256	2.14	0.98
+addss r128,[m]	miss	1.25
+vhsubpd r128,r128,r128	4.89	2.94
+vrcpps r128,r128	12.9	9.89
+movups r128,r128	1.15	0.5
+vdpps r128,r128,r128,i	21.69	17.61
+vsqrtpd r256,r256 (best case)	237.6	241.47
+vmaxps r128,r128,[m128]	miss	1.26
+sqrtss r128,[m128] (best case)	miss	32.67
+maxpd r128,[m]	miss	1.25
+shufps r128,[m128],i	miss	1.25
+shufpd r128,[m128],i	miss	2.0
+vorpd r256,r256,[m256]	miss	2.45
+vaddsubps r256,r256,[m256]	miss	2.56
+hsubpd r128,[m]	miss	2.94
+blendps r128,[m128],i	miss	1.25
+movupd r128,[m]	miss	1.3
+movaps r128,r128	1.15	0.5
+vcmpeqps r128,r128,r128	2.94	0.98
+vmaxps r256,r256,[m256]	miss	2.56
+roundss r128,[m128],i	miss	1.98
+sqrtps r128,[m128] (best case)	miss	64.79
+vorpd r128,r128,r128	1.78	0.98
+vsubpd r128,r128,[m128]	miss	1.26
+subsd r128,r128	2.94	0.98
+vminpd r128,r128,[m128]	miss	1.26
+vaddps r128,r128,[m128]	miss	1.26
+vpermilpd r128,r128,r128	2.94	0.99
+vunpcklpd r256,r256,[m256]	miss	2.45
+vmulps r128,r128,[m128]	miss	1.15
+movupd r128,r128	1.15	0.52
+Instructions with 3 operands	miss	miss
+movddup r128,[m]	miss	1.25
+dpps r128,r128,i	16.63	16.63
+movddup r128,r128	1.64	0.52
+rsqrtss r128,r128	5.01	4.97
+vdivsd r128,r128,r128 (worst case)	18.23	20.54
+vaddsubps r128,r128,r128	2.94	0.99
+rsqrtss r128,[m128]	miss	5.59
+hsubpd r128,r128	4.89	4.46
+vrcpps r256,[m256]	miss	47.92
+unpcklpd r128,[m]	miss	1.25
+rcpps r128,[m128]	miss	23.85
+blendpd r128,r128,i	0.98	0.98
+vunpcklpd r128,r128,[m128]	miss	1.15
+vhaddps r256,r256,[m256]	miss	8.81
+vunpckhps r128,r128,[m128]	miss	1.15
+mulps r128,[m]	miss	1.25
+cvtpd2ps r128,[m]	miss	1.4
+cvtdq2ps r128,[m]	miss	1.25
+vroundpd r256,[m256],i	miss	8.81
+vshufpd r256,r256,[m256],i	miss	3.51
+addps r128,[m]	miss	1.25
+vpermilps r256,r256,[m256]	miss	2.45
+cvtpd2ps r128,r128	5.71	1.44
+vsqrtpd r128,r128 (worst case)	126.1	121.07
+vroundps r256,[m256],i	miss	8.81
+vblendvpd r128,r128,r128,r128	3.91	1.96
+vdpps r128,r128,[m128],i	miss	17.61
+movaps r128,[m]	miss	1.3
+vsqrtps r256,[m256] (best case)	miss	126.85
+maxss r128,r128	2.94	0.98
+vshufps r256,r256,r256,i	2.14	0.98
+cmpeqss r128,[m]	miss	1.26
+sqrtps r128,r128 (best case)	64.18	65.18
+vhaddps r128,r128,r128	4.89	2.94
+addss r128,r128	2.94	0.98
+rcpps r128,r128	12.93	10.04
+vsqrtsd r128,[m128] (best case)	miss	61.15
+blendpd r128,[m128],i	miss	1.82
+roundpd r128,[m128],i	miss	1.98
+movups r128,[m]	miss	1.3
+vblendps r128,r128,[m128],i	miss	1.26
+minsd r128,[m]	miss	1.25
+vmovaps r256,[m]	miss	2.6
+vaddsubps r128,r128,[m128]	miss	1.26
+vblendpd r128,r128,r128,i	0.99	0.99
+roundsd r128,r128,i	5.87	1.96
+vperm2f128 r256,r256,r256,i	1.96	1.96
+rcpss r128,[m128]	miss	5.04
+vsqrtsd r128,r128 (worst case)	60.62	61.25
+vblendvpd r256,r256,r256,r256	3.91	3.91
+mulsd r128,r128	4.97	1.96
+cmpltpd r128,[m]	miss	1.25
+vaddps r256,r256,[m256]	miss	3.12
+subpd r128,r128	2.94	0.98
+vandps r256,r256,r256	2.14	0.98
+vpermilps r256,[m256],i	miss	2.45
+movsldup r128,r128	1.15	0.52
+vmovapd r256,[m]	miss	2.6
+vblendvpd r128,r128,r128,[m128]	miss	1.96
+vblendvps r256,r256,r256,[m256]	miss	3.91
+sqrtpd r128,r128 (best case)	120.77	120.96
+vpermilpd r256,r256,[m256]	miss	2.45
+minps r128,r128	2.94	0.98
+vunpcklpd r256,r256,r256	2.14	0.98
+vunpckhps r128,r128,r128	2.34	0.98
+vsqrtss r128,r128 (best case)	33.25	33.71
+sqrtpd r128,[m128] (worst case)	miss	120.78
+sqrtps r128,r128 (worst case)	64.12	63.76
+vmulpd r128,r128,r128	3.91	1.96
+vunpcklpd r128,r128,r128	1.77	0.98
+vmulps r256,r256,r256	5.54	1.96
+cvtpd2dq r128,[m]	miss	1.4
+vsqrtpd r128,[m128] (best case)	miss	120.53
+vrsqrtss r128,[m128]	miss	4.9
+divps r128,r128 (worst case)	14.56	12.09
+vmovsldup r256,[m]	miss	2.44
+vpermilps r128,r128,[m128]	miss	1.26
+Instructions with two operands	miss	miss
+sqrtss r128,r128 (worst case)	33.65	33.92
+vshufpd r128,r128,[m128],i	miss	1.15
+vblendvps r128,r128,r128,r128	3.91	1.96
+vpermilps r256,r256,i	2.94	1.96
+vdivss r128,r128,r128 (best case)	12.97	12.96
+vmovaps r256,r256	2.14	0.98
+blendps r128,r128,i	0.98	0.98
+vblendvpd r256,r256,r256,[m256]	miss	3.91
+sqrtpd r128,[m128] (best case)	miss	121.91
+vblendpd r256,r256,[m256],i	miss	2.44
+vsqrtsd r128,[m128] (worst case)	miss	61.46
+vdivps r256,r256,r256 (worst case)	47.95	48.25
+cvtps2pd r128,r128	5.69	0.98
+mulss r128,[m]	miss	1.25
+cvtdq2pd r128,[m]	miss	1.59
+subpd r128,[m]	miss	1.25
+divps r128,r128 (best case)	23.93	12.1
+addsubps r128,r128	2.94	0.98
+vpermilps r128,[m128],i	miss	1.34
+vsqrtpd r128,[m128] (worst case)	miss	120.55
+vmovddup r256,r256	2.14	0.98
+vcmpltpd r256,r256,r256	5.39	2.16
+vshufps r256,r256,[m256],i	miss	2.45
+movsldup r128,[m]	miss	1.25
+vsqrtpd r256,r256 (worst case)	237.59	240.76
+vsqrtpd r128,r128 (best case)	120.22	121.78
+subsd r128,[m]	miss	1.25
+cvttps2dq r128,r128	2.94	0.98
+vperm2f128 r256,r256,[m256],i	miss	2.6
+cvtdq2pd r128,r128	5.69	0.98
+vandps r256,r256,[m256]	miss	2.45
+vandps r128,r128,r128	1.78	0.98
+vaddps r256,r256,r256	6.28	2.16
+divsd r128,r128 (worst case)	11.19	10.12
+addps r128,r128	2.94	0.98
+unpckhps r128,r128	1.15	0.5
+vsqrtps r256,r256 (worst case)	125.23	127.41
+vsubpd r128,r128,r128	2.94	0.99
+addsubps r128,[m]	miss	1.25
+cvtpd2dq r128,r128	5.71	1.44
+sqrtsd r128,r128 (best case)	62.59	62.56
+dppd r128,[m128],i	miss	7.84
+vpermilpd r256,[m256],i	miss	2.44
+vblendpd r128,r128,[m128],i	miss	1.26
+divss r128,r128 (worst case)	8.17	7.02
+vdivps r256,r256,r256 (best case)	48.71	48.15
+maxpd r128,r128	2.94	0.98
+mulpd r128,[m]	miss	1.96
+vhsubpd r256,r256,r256	8.81	8.81
+roundss r128,r128,i	5.87	1.96
+vmulps r128,r128,r128	2.94	1.72

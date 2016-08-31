@@ -1,0 +1,137 @@
+Instruct 	 Operators 	 Latency 	 Throughput 	 RawCommand 
+vpbroadcastd	xmm,m32	miss	1.15	vpbroadcastd xmm,m32
+vpmovsxbq	ymm,xmm	1.96	2.07	vpmovsxbq ymm,xmm
+vpmovzxbw	xmm,[m]	miss	1.25	vpmovzxbw xmm,[m]
+vextractf128+vinserti128		2.99	miss	vextractf128 xmm,ymm,1 + vinserti128 y,y,x,1
+vmovmskps	r32,r128	miss	0.98	vmovmskps r32,r128
+vbroadcastsd	ymm,m64	miss	1.23	vbroadcastsd ymm,m64
+vpmovzxwd	ymm,xmm / vinserti128 ymm,xmm,xmm,1	1.98	miss	vpmovzxwd ymm,xmm / vinserti128 ymm,xmm,xmm,1
+vpbroadcastb+mov..		4.3	miss	vpbroadcastb xmm,m8 + mov.. m8,xmm
+vextracti128+vinserti128		2.09	miss	vextracti128 xmm,ymm,1 + vinserti128 y,y,x,1
+vbroadcastss	xmm,xmm	1.85	0.98	vbroadcastss xmm,xmm
+vextractf128	xmm,ymm,1	0.99	0.98	vextractf128 xmm,ymm,1
+vextractf128	xmm,ymm,0	1.78	miss	vextractf128 xmm,ymm,0
+vinserti128+vextracti128		2.03	miss	vinserti128 ymm,ymm,xmm,1 + vextracti128 xmm,ymm,1
+vpmovzxwd	xmm,xmm	0.98	0.98	vpmovzxwd xmm,xmm
+vpmovzxwq	ymm,[m]	miss	1.96	vpmovzxwq ymm,[m]
+vpbroadcastd+mov..		4.01	miss	vpbroadcastd xmm,m32 + mov.. m32,xmm
+vpmovzxdq	ymm,xmm / vinserti128 ymm,xmm,xmm,1	2.05	miss	vpmovzxdq ymm,xmm / vinserti128 ymm,xmm,xmm,1
+vmovmskpd+movd		4.91	miss	vmovmskpd r32,r256 + movd r128,r21
+vextractf128+vinserti128		1.31	miss	vextractf128 xmm,ymm,0 + vinserti128 y,y,x,1
+vpmovsxbd	ymm,xmm / vinserti128 ymm,xmm,xmm,1	1.98	miss	vpmovsxbd ymm,xmm / vinserti128 ymm,xmm,xmm,1
+vpmovsxwd	ymm,[m]	miss	1.96	vpmovsxwd ymm,[m]
+vinserti128	ymm,ymm,[m128],1	miss	1.2	vinserti128 ymm,ymm,[m128],1
+vinserti128	ymm,ymm,[m128],0	miss	1.2	vinserti128 ymm,ymm,[m128],0
+vpbroadcastw	ymm,m16	miss	1.96	vpbroadcastw ymm,m16
+vpmovsxbq	xmm,xmm	0.98	0.98	vpmovsxbq xmm,xmm
+vpmovsxwq	ymm,xmm / vinserti128 ymm,xmm,xmm,1	1.98	miss	vpmovsxwq ymm,xmm / vinserti128 ymm,xmm,xmm,1
+vinsertf128	ymm,ymm,xmm,1	2.21	1.04	vinsertf128 ymm,ymm,xmm,1
+vpmovsxbw	ymm,xmm	2.07	1.96	vpmovsxbw ymm,xmm
+vpmovzxwq	xmm,[m]	miss	1.15	vpmovzxwq xmm,[m]
+vpmovsxbd	xmm,xmm	0.98	0.98	vpmovsxbd xmm,xmm
+vpbroadcastd	xmm,xmm	0.98	0.98	vpbroadcastd xmm,xmm
+vpmovsxwq	xmm,[m]	miss	1.15	vpmovsxwq xmm,[m]
+vmovmskpd	r32,r128	miss	0.98	vmovmskpd r32,r128
+vinserti128	ymm,ymm,xmm,0	1.96	miss	vinserti128 ymm,ymm,xmm,0
+vinserti128	ymm,ymm,xmm,1	1.96	2.35	vinserti128 ymm,ymm,xmm,1
+vmovmskps	r32,r256	miss	6.87	vmovmskps r32,r256
+vpmovzxbq	ymm,xmm / vinserti128 ymm,xmm,xmm,1	2.03	miss	vpmovzxbq ymm,xmm / vinserti128 ymm,xmm,xmm,1
+vpbroadcastw+mov..		4.39	miss	vpbroadcastw ymm,m16 + mov.. m16,xmm
+vinsertf128+vextractf128		1.8	miss	vinsertf128 ymm,ymm,xmm,1 + vextractf128 xmm,ymm,1
+vpbroadcastd	ymm,m32	miss	1.96	vpbroadcastd ymm,m32
+vpmovzxbd	xmm,xmm	0.98	0.98	vpmovzxbd xmm,xmm
+vpmovzxdq	ymm,[m]	miss	2.09	vpmovzxdq ymm,[m]
+vpmovzxwq	ymm,xmm / vinserti128 ymm,xmm,xmm,1	2.02	miss	vpmovzxwq ymm,xmm / vinserti128 ymm,xmm,xmm,1
+vpmovzxbq	xmm,xmm	0.98	0.98	vpmovzxbq xmm,xmm
+vpbroadcastb	xmm,xmm	3.92	0.98	vpbroadcastb xmm,xmm
+vpbroadcastd	ymm,xmm	1.96	1.96	vpbroadcastd ymm,xmm
+vbroadcasti128	ymm,m128	miss	1.25	vbroadcasti128 ymm,m128
+vpbroadcastd+mov..		4.01	miss	vpbroadcastd ymm,m32 + mov.. m32,xmm
+vpmovzxbw	ymm,xmm / vinserti128 ymm,xmm,xmm,1	1.98	miss	vpmovzxbw ymm,xmm / vinserti128 ymm,xmm,xmm,1
+vpmovzxwd	ymm,[m]	miss	2.09	vpmovzxwd ymm,[m]
+vpmovsxwd	xmm,xmm	0.98	0.98	vpmovsxwd xmm,xmm
+vinsertf128+vextractf128		1.0	miss	vinsertf128 ymm,ymm,xmm,0 + vextractf128 xmm,ymm,1
+vpmovsxwq	xmm,xmm	0.98	0.98	vpmovsxwq xmm,xmm
+vbroadcastss	ymm,xmm / vextractf128 xmm,ymm,1	2.07	miss	vbroadcastss ymm,xmm / vextractf128 xmm,ymm,1
+vpbroadcastq	ymm,m64	miss	1.96	vpbroadcastq ymm,m64
+vpmovsxbq	ymm,xmm / vinserti128 ymm,xmm,xmm,1	2.03	miss	vpmovsxbq ymm,xmm / vinserti128 ymm,xmm,xmm,1
+vbroadcastsd	ymm,xmm	2.2	0.98	vbroadcastsd ymm,xmm
+vpmovzxbd	ymm,xmm / vinserti128 ymm,xmm,xmm,1	2.08	miss	vpmovzxbd ymm,xmm / vinserti128 ymm,xmm,xmm,1
+vpmovsxwq	ymm,[m]	miss	1.96	vpmovsxwq ymm,[m]
+vbroadcastsd	ymm,xmm / vextractf128 xmm,ymm,1	2.07	miss	vbroadcastsd ymm,xmm / vextractf128 xmm,ymm,1
+vpmovzxwd	ymm,xmm	2.08	1.96	vpmovzxwd ymm,xmm
+vpmovsxbw	xmm,[m]	miss	1.15	vpmovsxbw xmm,[m]
+vmovmskps+movd		3.99	miss	vmovmskps r32,r128 + movd r128,r21
+vmovmskps+movd		4.51	miss	vmovmskps r32,r256 + movd r128,r21
+vbroadcastss	ymm,xmm	2.2	0.98	vbroadcastss ymm,xmm
+vpmovzxwd	xmm,[m]	miss	1.15	vpmovzxwd xmm,[m]
+vpmovsxdq	xmm,[m]	miss	1.15	vpmovsxdq xmm,[m]
+vpmovsxdq	xmm,xmm	0.98	0.98	vpmovsxdq xmm,xmm
+vinsertf128	ymm,ymm,xmm,0	2.32	miss	vinsertf128 ymm,ymm,xmm,0
+vpmovsxbq	xmm,[m]	miss	1.15	vpmovsxbq xmm,[m]
+vpmovmskb	r32,r256	miss	1.96	vpmovmskb r32,r256
+vpmovzxbd	xmm,[m]	miss	1.15	vpmovzxbd xmm,[m]
+vpmovzxbd	ymm,[m]	miss	2.07	vpmovzxbd ymm,[m]
+vinsertf128+vextracti128		0.99	miss	vinsertf128 ymm,ymm,xmm,0 + vextracti128 xmm,ymm,1
+vpmovsxdq	ymm,[m]	miss	2.02	vpmovsxdq ymm,[m]
+vpbroadcastb	ymm,m8	miss	1.96	vpbroadcastb ymm,m8
+vextractf128+vinsertf128		1.85	miss	vextractf128 xmm,ymm,1 + vinsertf128 y,y,x,1
+vpmovzxwq	xmm,xmm	0.98	0.98	vpmovzxwq xmm,xmm
+vpmovmskb+movd		4.04	miss	vpmovmskb r32,r128 + movd r128,r21
+vpmovzxbq	ymm,xmm	2.07	2.07	vpmovzxbq ymm,xmm
+vpbroadcastw	xmm,xmm	3.92	1.04	vpbroadcastw xmm,xmm
+vinsertf128+vextracti128		3.04	miss	vinsertf128 ymm,ymm,xmm,1 + vextracti128 xmm,ymm,1
+vinsertf128	ymm,ymm,[m128],0	miss	1.2	vinsertf128 ymm,ymm,[m128],0
+vinsertf128	ymm,ymm,[m128],1	miss	1.2	vinsertf128 ymm,ymm,[m128],1
+vpmovsxwd	ymm,xmm	2.07	2.02	vpmovsxwd ymm,xmm
+vpmovzxbq	ymm,[m]	miss	1.96	vpmovzxbq ymm,[m]
+vpmovsxbd	ymm,[m]	miss	1.96	vpmovsxbd ymm,[m]
+vpbroadcastq	xmm,xmm	2.02	1.96	vpbroadcastq xmm,xmm
+vinserti128+vextracti128		1.98	miss	vinserti128 ymm,ymm,xmm,0 + vextracti128 xmm,ymm,1
+vextracti128+vinsertf128		1.01	miss	vextracti128 xmm,ymm,0 + vinsertf128 y,y,x,1
+vpmovmskb	r32,r128	miss	0.98	vpmovmskb r32,r128
+vbroadcastf128+vmovdqa		3.12	miss	vbroadcastf128 ymm,m128 + vmovdqa m128,xmm
+vpmovsxbq	ymm,[m]	miss	1.96	vpmovsxbq ymm,[m]
+vpmovsxbd	ymm,xmm	1.96	2.07	vpmovsxbd ymm,xmm
+vpmovsxwd	xmm,[m]	miss	1.15	vpmovsxwd xmm,[m]
+vpmovzxbw	ymm,[m]	miss	1.96	vpmovzxbw ymm,[m]
+vpbroadcastw+mov..		4.05	miss	vpbroadcastw xmm,m16 + mov.. m16,xmm
+vpmovsxdq	ymm,xmm / vinserti128 ymm,xmm,xmm,1	2.03	miss	vpmovsxdq ymm,xmm / vinserti128 ymm,xmm,xmm,1
+vpmovzxwq	ymm,xmm	2.09	1.96	vpmovzxwq ymm,xmm
+vbroadcastss	ymm,m32	miss	1.23	vbroadcastss ymm,m32
+vmovmskpd	r32,r256	miss	6.98	vmovmskpd r32,r256
+vinserti128+vextractf128		3.07	miss	vinserti128 ymm,ymm,xmm,1 + vextractf128 xmm,ymm,1
+vpmovsxbd	xmm,[m]	miss	1.25	vpmovsxbd xmm,[m]
+vpmovsxbw	xmm,xmm	0.98	0.98	vpmovsxbw xmm,xmm
+vextracti128+vinserti128		2.06	miss	vextracti128 xmm,ymm,0 + vinserti128 y,y,x,1
+vpmovmskb+movd		4.94	miss	vpmovmskb r32,r256 + movd r128,r21
+vpmovzxdq	ymm,xmm	1.96	2.09	vpmovzxdq ymm,xmm
+vpmovzxbw	ymm,xmm	1.96	1.96	vpmovzxbw ymm,xmm
+vpmovsxwq	ymm,xmm	1.96	2.07	vpmovsxwq ymm,xmm
+vpmovsxbw	ymm,[m]	miss	1.96	vpmovsxbw ymm,[m]
+vpmovzxbd	ymm,xmm	1.96	2.23	vpmovzxbd ymm,xmm
+vpmovzxbw	xmm,xmm	0.98	0.98	vpmovzxbw xmm,xmm
+vpbroadcastw	ymm,xmm	5.01	1.96	vpbroadcastw ymm,xmm
+vpmovzxdq	xmm,xmm	0.98	0.98	vpmovzxdq xmm,xmm
+vpbroadcastb	ymm,xmm	4.96	1.96	vpbroadcastb ymm,xmm
+vpbroadcastb	xmm,m8	miss	1.21	vpbroadcastb xmm,m8
+vpbroadcastq+mov..		4.04	miss	vpbroadcastq xmm,m64 + mov.. m64,xmm
+vpbroadcastq	xmm,m64	miss	2.07	vpbroadcastq xmm,m64
+vbroadcasti128+vmovdqa		2.48	miss	vbroadcasti128 ymm,m128 + vmovdqa m128,xmm
+vextracti128+vinsertf128		3.01	miss	vextracti128 xmm,ymm,1 + vinsertf128 y,y,x,1
+vpbroadcastw	xmm,m16	miss	1.21	vpbroadcastw xmm,m16
+vpmovzxbq	xmm,[m]	miss	1.15	vpmovzxbq xmm,[m]
+vinserti128+vextractf128		0.99	miss	vinserti128 ymm,ymm,xmm,0 + vextractf128 xmm,ymm,1
+vpbroadcastq	ymm,xmm	1.96	1.96	vpbroadcastq ymm,xmm
+vpmovzxdq	xmm,[m]	miss	1.15	vpmovzxdq xmm,[m]
+vpbroadcastb+mov..		4.39	miss	vpbroadcastb ymm,m8 + mov.. m8,xmm
+vmovmskpd+movd		4.04	miss	vmovmskpd r32,r128 + movd r128,r21
+vbroadcastf128	ymm,m128	miss	1.3	vbroadcastf128 ymm,m128
+vextracti128	xmm,ymm,0	1.96	miss	vextracti128 xmm,ymm,0
+vextracti128	xmm,ymm,1	2.35	1.96	vextracti128 xmm,ymm,1
+vpbroadcastq+mov..		4.01	miss	vpbroadcastq ymm,m64 + mov.. m64,xmm
+vbroadcastss	xmm,m32	miss	1.15	vbroadcastss xmm,m32
+vextractf128+vinsertf128		1.71	miss	vextractf128 xmm,ymm,0 + vinsertf128 y,y,x,1
+vpmovsxbw	ymm,xmm / vinserti128 ymm,xmm,xmm,1	1.98	miss	vpmovsxbw ymm,xmm / vinserti128 ymm,xmm,xmm,1
+vpmovsxdq	ymm,xmm	1.96	1.96	vpmovsxdq ymm,xmm
+vpmovsxwd	ymm,xmm / vinserti128 ymm,xmm,xmm,1	2.03	miss	vpmovsxwd ymm,xmm / vinserti128 ymm,xmm,xmm,1

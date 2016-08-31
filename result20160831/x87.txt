@@ -1,0 +1,3241 @@
+Test x87 style floating point instructions
+
+
+fxch Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    101064     102011 
+    101082     102011 
+    101064     102011 
+    101070     102011 
+    151242     102012 
+    157824     102011 
+    101064     102011 
+    101064     102011 
+    101064     102011 
+    101064     102011 
+
+
+ffree Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10014      10211 
+     10032      10211 
+     10014      10211 
+     10014      10211 
+     10020      10211 
+     10014      10211 
+     10014      10211 
+     10020      10211 
+     10014      10211 
+     10014      10211 
+
+
+fincstp: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10014      10211 
+     10032      10211 
+     10014      10211 
+     10014      10211 
+     10020      10211 
+     10014      10211 
+     10014      10211 
+     10032      10211 
+     10020      10211 
+     10020      10211 
+
+
+fdecstp: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10014      10211 
+     10032      10211 
+     10014      10211 
+     10014      10211 
+     10020      10211 
+     10014      10211 
+     10014      10211 
+     10020      10211 
+     10014      10211 
+     10014      10211 
+
+
+fld st0 + fstp: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20016      20211 
+     20034      20211 
+     20022      20211 
+     20016      20211 
+     20016      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20022      20211 
+     20016      20211 
+
+
+fld st0 + fstp: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20016      20211 
+     20034      20211 
+     20022      20211 
+     20016      20211 
+     20016      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20022      20211 
+     20016      20211 
+
+
+fld [m32] + fstp: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20064      20211 
+     20040      20211 
+     20016      20211 
+     20022      20211 
+     20022      20211 
+     20016      20211 
+     20022      20211 
+     20022      20211 
+     20016      20211 
+     20022      20211 
+
+
+fld [m32] + fstp [m32]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90042      20211 
+     90030      20211 
+     90018      20211 
+     90012      20211 
+     90018      20211 
+     90018      20211 
+     90012      20211 
+     90036      20211 
+     90018      20211 
+     90018      20211 
+
+
+fld [m64] + fstp: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20064      20211 
+     20040      20211 
+     20016      20211 
+     20022      20211 
+     20022      20211 
+     20016      20211 
+     20022      20211 
+     20022      20211 
+     20016      20211 
+     20022      20211 
+
+
+fld [m64] + fstp [m64]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90042      20211 
+     90030      20211 
+     90018      20211 
+     90012      20211 
+     90018      20211 
+     90018      20211 
+     90012      20211 
+     90018      20211 
+     90018      20211 
+     90012      20211 
+
+
+fld [m80] + fstp: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20064      20211 
+     20040      20211 
+     20016      20211 
+     20022      20211 
+     20022      20211 
+     20016      20211 
+     20022      20211 
+     20022      20211 
+     20016      20211 
+     20022      20211 
+
+
+fld [m80] + fstp [m80]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60048      20211 
+     60030      20211 
+     60018      20211 
+     60012      20211 
+     60018      20211 
+     60018      20211 
+     60012      20211 
+     60018      20211 
+     60018      20211 
+     60012      20211 
+
+
+fst st: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10014      10211 
+     10032      10211 
+     60156      10212 
+     10020      10211 
+     10014      10211 
+     10020      10211 
+     10020      10211 
+     10020      10211 
+     10020      10211 
+     10020      10211 
+
+
+fst st: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10014      10211 
+     10032      10211 
+     10020      10211 
+     10020      10211 
+     10020      10211 
+     10032      10211 
+     10020      10211 
+     10020      10211 
+     10014      10211 
+     10020      10211 
+
+
+Throughput fst [m32]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20016      10211 
+     20034      10211 
+     20022      10211 
+     20022      10211 
+     20022      10211 
+     20016      10211 
+     20022      10211 
+     20022      10211 
+     20022      10211 
+     20022      10211 
+
+
+Throughput fst [m64]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20016      10211 
+     20034      10211 
+     20022      10211 
+     20022      10211 
+     20022      10211 
+     20016      10211 
+     20022      10211 
+     20022      10211 
+     20022      10211 
+     20022      10211 
+
+
+fstp fstp + fld: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20034      20211 
+     20034      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20016      20211 
+     20016      20211 
+
+
+fstp fstp + fld: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20034      20211 
+     20034      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20034      20211 
+     20022      20211 
+     20016      20211 
+     20022      20211 
+     20022      20211 
+
+
+Throughput fstp [m32] + fld
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      20211 
+     30036      20211 
+     30018      20211 
+     30018      20211 
+     30018      20211 
+     30018      20211 
+     30024      20211 
+     30024      20211 
+     30018      20211 
+     30018      20211 
+
+
+Throughput fstp [m64] + fld
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      20211 
+     30036      20211 
+     30018      20211 
+     30018      20211 
+     30018      20211 
+     30018      20211 
+     30024      20211 
+     30024      20211 
+     30036      20211 
+     30024      20211 
+
+
+Throughput fstp [m80] + fld
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20028      20211 
+     20034      20211 
+     20016      20211 
+     20022      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+
+
+fld1 + fstp: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20016      20211 
+     20034      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20016      20211 
+     20016      20211 
+     20034      20211 
+     20022      20211 
+     20022      20211 
+
+
+fldz + fstp: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20016      20211 
+     20028      20211 
+     20016      20211 
+     20016      20211 
+     20016      20211 
+     20016      20211 
+     20016      20211 
+     20016      20211 
+     20016      20211 
+     20016      20211 
+
+
+fldpi + fstp: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160026      20211 
+    160050      20211 
+    160026      20211 
+    160026      20211 
+    160026      20211 
+    160026      20211 
+    160026      20211 
+    160026      20211 
+    160026      20211 
+    160026      20211 
+
+
+f2xm1 Latency, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    740118      10211 
+    740136      10211 
+    740118      10211 
+    740124      10211 
+    906390      10212 
+    740118      10211 
+    740118      10211 
+    740118      10211 
+    740124      10211 
+    740118      10211 
+
+
+f2xm1 + fcmov Latency, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    839748      20207 
+    730224      20206 
+    730020      20206 
+    730020      20206 
+    730020      20206 
+    730020      20206 
+    730020      20206 
+    730020      20206 
+    730020      20206 
+    730020      20206 
+
+
+fabs Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10014      10211 
+     10032      10211 
+     10014      10211 
+     10014      10211 
+     10020      10211 
+     10014      10211 
+     10014      10211 
+     10020      10211 
+     10014      10211 
+     10014      10211 
+
+
+fabs+fxch Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10134      20211 
+     10140      20211 
+     10122      20211 
+     10122      20211 
+     10122      20211 
+     10122      20211 
+     10122      20211 
+     10122      20211 
+     10122      20211 
+     10122      20211 
+
+
+fadd Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      10211 
+     30030      10211 
+     30018      10211 
+     30018      10211 
+     30018      10211 
+     30018      10211 
+     30018      10211 
+     30018      10211 
+     30018      10211 
+     30018      10211 
+
+
+fadd Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10020      10211 
+     10032      10211 
+     10020      10211 
+     10020      10211 
+     10020      10211 
+     10020      10211 
+     10020      10211 
+     10020      10211 
+     10020      10211 
+     10020      10211 
+
+
+fadd [ m32 ] Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12108      20211 
+     12042      20211 
+     12024      20211 
+     12018      20211 
+     12024      20211 
+     12024      20211 
+     12024      20211 
+     12024      20211 
+     12024      20211 
+     12018      20211 
+
+
+fadd [ m64 ] Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12108      20211 
+     12042      20211 
+     12024      20211 
+     12018      20211 
+     12024      20211 
+     12024      20211 
+     12024      20211 
+     12024      20211 
+     12024      20211 
+     12018      20211 
+
+
+fbld [m80] + fstp [m80] Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    660042      20211 
+    660042      20211 
+    660024      20211 
+    660018      20211 
+    767370      20212 
+    660024      20211 
+    660024      20211 
+    660024      20211 
+    660018      20211 
+    660024      20211 
+
+
+fbld [m80] + fstp st throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    660066      20211 
+    841974      20212 
+    660024      20211 
+    660024      20211 
+    660024      20211 
+    660024      20211 
+    660024      20211 
+    660024      20211 
+    660018      20211 
+    660024      20211 
+
+
+fchs Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10014      10211 
+     10032      10211 
+     10014      10211 
+     10014      10211 
+     10020      10211 
+     10014      10211 
+     10014      10211 
+     10020      10211 
+     10014      10211 
+     10014      10211 
+
+
+fchs+fxch Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10134      20211 
+     10140      20211 
+     10122      20211 
+     10122      20211 
+     10122      20211 
+     10122      20211 
+     10122      20211 
+     10122      20211 
+     10122      20211 
+     10122      20211 
+
+
+fcmov Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30012      10211 
+     30030      10211 
+     30012      10211 
+     30018      10211 
+     30018      10211 
+     30012      10211 
+     30018      10211 
+     30018      10211 
+     30012      10211 
+     30018      10211 
+
+
+fcmov + fxch Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     15024      20211 
+     15030      20211 
+     15018      20211 
+     15018      20211 
+     15018      20211 
+     15018      20211 
+     15018      20211 
+     15018      20211 
+     15018      20211 
+     15018      20211 
+
+
+fcomi + fcmov Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     60012      20211 
+     60024      20211 
+     60018      20211 
+     60012      20211 
+     60012      20211 
+     60018      20211 
+     60012      20211 
+     60012      20211 
+     60018      20211 
+     60012      20211 
+
+
+fcomi Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10116      10211 
+     10134      10211 
+     10122      10211 
+     10116      10211 
+     10122      10211 
+     10116      10211 
+     10122      10211 
+     10116      10211 
+     10122      10211 
+     10116      10211 
+
+
+fcom + fnstsw ax + test + fcmov Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    120012      40211 
+    120024      40211 
+    120018      40211 
+    120012      40211 
+    120012      40211 
+    120018      40211 
+    120012      40211 
+    120012      40211 
+    120018      40211 
+    120012      40211 
+
+
+fcom Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10014      10211 
+     10032      10211 
+     10014      10211 
+     10014      10211 
+     10020      10211 
+     10014      10211 
+     10014      10211 
+     10020      10211 
+     10014      10211 
+     10014      10211 
+
+
+fcom [ m32 ] Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12798      10211 
+     12732      10211 
+     12732      10211 
+     12732      10211 
+     12732      10211 
+     12732      10211 
+     12732      10211 
+     12732      10211 
+     12732      10211 
+     12732      10211 
+
+
+fcom [ m64 ] Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12780      10211 
+     12744      10211 
+     12732      10211 
+     12732      10211 
+     12732      10211 
+     12732      10211 
+     12732      10211 
+     12732      10211 
+     12732      10211 
+     12732      10211 
+
+
+fcompp + fnstsw ax + test + fcmov + 2*fld Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    130014      60211 
+    130026      60211 
+    130020      60211 
+    130020      60211 
+    130014      60211 
+    130014      60211 
+    130014      60211 
+    130014      60211 
+    130020      60211 
+    130020      60211 
+
+
+fcompp + 2*fld Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30030      30211 
+     30030      30211 
+     30018      30211 
+     30018      30211 
+     30018      30211 
+     30012      30211 
+     30018      30211 
+     30018      30211 
+     30018      30211 
+     30018      30211 
+
+
+fcos + fcmov Latency, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    780018      20210 
+    780036      20210 
+    780024      20210 
+    780018      20210 
+    780024      20210 
+    780018      20210 
+    780024      20210 
+    780018      20210 
+    889206      20211 
+   1897932      20210 
+
+
+fcos Latency, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1670550      10207 
+   1670346      10207 
+   1834578      10208 
+   1670496      10207 
+   1670328      10207 
+   1670328      10207 
+   1670328      10207 
+   1778820      10208 
+   1670496      10207 
+   1670328      10207 
+
+
+fdiv Latency, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    158118      10523 
+    158130      10523 
+    158124      10523 
+    158118      10523 
+    158124      10523 
+    158118      10523 
+    158124      10523 
+    158118      10523 
+    158124      10523 
+    158118      10523 
+
+
+fdiv Throughput, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    157824      10823 
+    157836      10823 
+    157824      10823 
+    157824      10823 
+    157824      10823 
+    157824      10823 
+    157824      10823 
+    157824      10823 
+    157824      10823 
+    157824      10823 
+
+
+fdiv Latency, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    230532      10515 
+    230340      10515 
+    230328      10515 
+    280632      10516 
+    287622      10515 
+    230520      10515 
+    230328      10515 
+    230328      10515 
+    230328      10515 
+    230328      10515 
+
+
+fdiv Throughput, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    230244      10815 
+    230046      10815 
+    230034      10815 
+    230028      10815 
+    230028      10815 
+    230028      10815 
+    230028      10815 
+    230034      10815 
+    230034      10815 
+    230028      10815 
+
+
+fdiv [m32] Throughput, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    258696      20724 
+    352788      20723 
+    633036      20723 
+    346452      20723 
+    157830      20723 
+    157836      20723 
+    157836      20723 
+    157830      20723 
+    157830      20723 
+    157836      20723 
+
+
+fdiv [m64] Throughput, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    157830      20723 
+    157854      20723 
+    157836      20723 
+    157830      20723 
+    157836      20723 
+    157836      20723 
+    157830      20723 
+    157836      20723 
+    157836      20723 
+    157830      20723 
+
+
+fiadd: Register latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30048      10226 
+    104982      10227 
+     30072      10226 
+     30030      10226 
+     30030      10226 
+     87750      10226 
+     30030      10226 
+     30030      10226 
+     30030      10226 
+     30030      10226 
+
+
+fiadd [m16] troughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30054      20226 
+     30054      20226 
+     30024      20226 
+     30030      20226 
+     30024      20226 
+     30030      20226 
+     30024      20226 
+     89598      20226 
+     30024      20226 
+     30030      20226 
+
+
+fiadd [m32] troughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20052      20226 
+     20052      20226 
+     20028      20226 
+     20028      20226 
+     20028      20226 
+     20034      20226 
+     20034      20226 
+     20028      20226 
+     20028      20226 
+     20028      20226 
+
+
+ficom [m16] troughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21426      10211 
+     21372      10211 
+     21366      10211 
+     21366      10211 
+     21366      10211 
+     21366      10211 
+     21366      10211 
+     21366      10211 
+     21366      10211 
+     21366      10211 
+
+
+ficom [m32] troughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20304      10211 
+     20280      10211 
+     20262      10211 
+     20262      10211 
+     20262      10211 
+     20262      10211 
+     20262      10211 
+     20262      10211 
+     20262      10211 
+     20262      10211 
+
+
+fidiv: Register latency, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    150048      10226 
+    150048      10226 
+    150030      10226 
+    150030      10226 
+    150030      10226 
+    150030      10226 
+    150030      10226 
+    150030      10226 
+    150030      10226 
+    150030      10226 
+
+
+fidiv [m16] troughput, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    150054      20226 
+    150054      20226 
+    150036      20226 
+    150036      20226 
+    150036      20226 
+    150036      20226 
+    150036      20226 
+    150036      20226 
+    150036      20226 
+    150036      20226 
+
+
+fidiv [m32] troughput, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    150048      20226 
+    150030      20226 
+    226062      20227 
+    208218      20226 
+    150030      20226 
+    150030      20226 
+    150030      20226 
+    150030      20226 
+    150036      20226 
+    150036      20226 
+
+
+fild [m16] + fstp: Troughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20184      20211 
+     20172      20211 
+     20124      20211 
+     20124      20211 
+     20124      20211 
+     20124      20211 
+     20124      20211 
+     20124      20211 
+     20124      20211 
+     20124      20211 
+
+
+fild [m32] + fstp: Troughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20340      20211 
+     20298      20211 
+     20280      20211 
+     20280      20211 
+     20280      20211 
+     20280      20211 
+     20280      20211 
+     20280      20211 
+     20280      20211 
+     20280      20211 
+
+
+fild [m64] + fstp: Troughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20340      20211 
+     20298      20211 
+     20280      20211 
+     20280      20211 
+     20280      20211 
+     20280      20211 
+     20280      20211 
+     20280      20211 
+     20280      20211 
+     20280      20211 
+
+
+fild [m32] + fstp [m32]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    110058      20211 
+    110028      20211 
+    110016      20211 
+    110016      20211 
+    110016      20211 
+    110016      20211 
+    110016      20211 
+    110016      20211 
+    110016      20211 
+    110016      20211 
+
+
+fild [m32] + fistp [m32]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    110058      20211 
+    110028      20211 
+    110016      20211 
+    110016      20211 
+    110016      20211 
+    110016      20211 
+    110016      20211 
+    110034      20211 
+    110016      20211 
+    110016      20211 
+
+
+fimul: Register latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40050      10226 
+     40050      10226 
+     40032      10226 
+     40032      10226 
+     40032      10226 
+     40032      10226 
+     40032      10226 
+     40032      10226 
+     40032      10226 
+     40032      10226 
+
+
+fimul [m16] troughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30054      20226 
+     30054      20226 
+     30030      20226 
+     30030      20226 
+     30036      20226 
+     30036      20226 
+     30030      20226 
+     30030      20226 
+     30030      20226 
+     30030      20226 
+
+
+fimul [m32] troughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20052      20226 
+     20052      20226 
+     20034      20226 
+     20034      20226 
+     20034      20226 
+     20034      20226 
+     20034      20226 
+     20034      20226 
+     20034      20226 
+     20034      20226 
+
+
+fist [m16]: Troughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20016      10211 
+     20034      10211 
+     20016      10211 
+     20022      10211 
+     20016      10211 
+     20022      10211 
+     20016      10211 
+     20022      10211 
+     20016      10211 
+     20022      10211 
+
+
+fist [m32]: Troughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20016      10211 
+     20034      10211 
+     20016      10211 
+     20022      10211 
+     20016      10211 
+     20022      10211 
+     20016      10211 
+     20022      10211 
+     20016      10211 
+     20022      10211 
+
+
+fistp [m32] + fld [m32]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90042      20211 
+     90030      20211 
+     90018      20211 
+     90012      20211 
+     90018      20211 
+     90018      20211 
+     90012      20211 
+     90018      20211 
+     90018      20211 
+     90012      20211 
+
+
+fistp [m32] + fild [m32]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    110040      20211 
+    110028      20211 
+    110016      20211 
+    110016      20211 
+    110016      20211 
+    110016      20211 
+    110016      20211 
+    110016      20211 
+    110016      20211 
+    166032      20211 
+
+
+fisttp [m16] + fld st: Troughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      20211 
+     30036      20211 
+     30024      20211 
+     30024      20211 
+     30024      20211 
+     30024      20211 
+     30024      20211 
+     30024      20211 
+     30024      20211 
+     30024      20211 
+
+
+fisttp [m32] + fld st: Troughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30018      20211 
+     30036      20211 
+     30024      20211 
+     30024      20211 
+     30024      20211 
+     30024      20211 
+     30024      20211 
+     30024      20211 
+     30024      20211 
+     30024      20211 
+
+
+fldcw: Throughput, same value
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    139956      10220 
+    147732      10219 
+     90132      10219 
+     90132      10219 
+     90132      10219 
+     90132      10219 
+     90132      10219 
+     90132      10219 
+     90132      10219 
+     90132      10219 
+
+
+fldcw: Throughput, alternating value
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90132      10219 
+     90150      10219 
+     90132      10219 
+     90132      10219 
+     90132      10219 
+     90132      10219 
+     90132      10219 
+     90132      10219 
+     90132      10219 
+     90132      10219 
+
+
+fldcw + fnstcw: Latency, same value
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    149886      20220 
+    157620      20219 
+    100134      20219 
+    100134      20219 
+    100134      20219 
+    100134      20219 
+    100134      20219 
+    100134      20219 
+    100128      20219 
+    100134      20219 
+
+
+fnstcw: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     15462      10210 
+     15468      10210 
+     15456      10210 
+     15456      10210 
+     15456      10210 
+     15456      10210 
+     15456      10210 
+     15456      10210 
+     15456      10210 
+     15456      10210 
+
+
+fbstp + fld st: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1591308      20212 
+   1597818      20211 
+   1540032      20211 
+   1540038      20211 
+   1540038      20211 
+   1540032      20211 
+   1706358      20212 
+   1540032      20211 
+   1540038      20211 
+   1540038      20211 
+
+
+fbstp + fld [m64]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1646784      20212 
+   1540056      20211 
+   1540038      20211 
+   1540038      20211 
+   1540038      20211 
+   1802124      20212 
+   2139792      20211 
+   1540032      20211 
+   1540038      20211 
+   1540032      20211 
+
+
+fbstp + fld [m80]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1593624      20212 
+   1540056      20211 
+   1540038      20211 
+   1540038      20211 
+   1540038      20211 
+   1612470      20212 
+   1540032      20211 
+   1540038      20211 
+   1540032      20211 
+   1540038      20211 
+
+
+fbstp + fbld [m80]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2180154      20211 
+   2180154      20211 
+   3133956      20212 
+   2180136      20211 
+   2286612      20212 
+   2267976      20212 
+   2180136      20211 
+   2180136      20211 
+   2278302      20212 
+   2180136      20211 
+
+
+fistp [m16] + fld st: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30054      20211 
+     30054      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+
+
+fistp [m32] + fld st: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30054      20211 
+     30054      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+
+
+fistp [m64] + fld st: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     30054      20211 
+     30054      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+     30042      20211 
+
+
+fistp [m32] + fld [m32]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     90060      20211 
+     90048      20211 
+     90036      20211 
+     90030      20211 
+     90030      20211 
+     90030      20211 
+     90030      20211 
+     90036      20211 
+     90036      20211 
+     90030      20211 
+
+
+fistp [m16] + fild [m16]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    140070      20211 
+    140046      20211 
+    276504      20211 
+    192204      20212 
+    200484      20211 
+    140028      20211 
+    140034      20211 
+    140040      20211 
+    199506      20211 
+    140028      20211 
+
+
+fistp [m32] + fild [m32]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    110058      20211 
+    110046      20211 
+    110028      20211 
+    110028      20211 
+    110034      20211 
+    110028      20211 
+    110028      20211 
+    160794      20212 
+    110046      20211 
+    167460      20211 
+
+
+fistp [m64] + fild [m64]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    110058      20211 
+    110046      20211 
+    110028      20211 
+    110028      20211 
+    110034      20211 
+    110028      20211 
+    110028      20211 
+    110034      20211 
+    110028      20211 
+    110028      20211 
+
+
+fstp [m32] + fld st: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20034      20211 
+     20034      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20016      20211 
+     20016      20211 
+
+
+fstp [m64] + fld st: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20034      20211 
+     20034      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20016      20211 
+     20034      20211 
+
+
+fstp [m80] + fld st: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20034      20211 
+     20034      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20016      20211 
+     20016      20211 
+
+
+fstp [m32] + fld [m32]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20034      20211 
+     20034      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20016      20211 
+     20016      20211 
+
+
+fstp [m64] + fld [m64]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20034      20211 
+     20034      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20016      20211 
+     20016      20211 
+     20022      20211 
+     20016      20211 
+     20016      20211 
+
+
+fstp [m80] + fld [m80]: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20034      20211 
+     20046      20211 
+     20022      20211 
+     20022      20211 
+     20016      20211 
+     20022      20211 
+     20022      20211 
+     20016      20211 
+     20022      20211 
+     20022      20211 
+
+
+fstp [m32] + fld [m32] + fchs: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       336        211 
+       348        211 
+       294        211 
+       294        211 
+       294        211 
+       294        211 
+       294        211 
+       294        211 
+       294        211 
+       294        211 
+
+
+fmul Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40020      10211 
+     40032      10211 
+     40020      10211 
+     40032      10211 
+     40020      10211 
+     40020      10211 
+     40020      10211 
+     40020      10211 
+     40020      10211 
+     40020      10211 
+
+
+fmul Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20022      10211 
+     20034      10211 
+     20022      10211 
+     20022      10211 
+     20022      10211 
+     20022      10211 
+     20022      10211 
+     20022      10211 
+     20022      10211 
+     20022      10211 
+
+
+fmul [ m32 ] Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12108      20211 
+     12042      20211 
+     12024      20211 
+     12024      20211 
+     12024      20211 
+     12024      20211 
+     12024      20211 
+     12024      20211 
+     12024      20211 
+     12024      20211 
+
+
+fmul [ m64 ] Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20070      20211 
+     20040      20211 
+     20028      20211 
+     20022      20211 
+     20022      20211 
+     20028      20211 
+     20022      20211 
+     20022      20211 
+     20028      20211 
+     20022      20211 
+
+
+fnclex: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1190520      10211 
+   1190532      10211 
+   1190520      10211 
+   1190520      10211 
+   1242234      10212 
+   1190520      10211 
+   1190520      10211 
+   1190520      10211 
+   1190520      10211 
+   1190520      10211 
+
+
+fninit: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1700538      10211 
+   1700550      10211 
+   1700532      10211 
+   1867482      10212 
+   1700532      10211 
+   1700532      10211 
+   1700532      10211 
+   1700532      10211 
+   1807830      10212 
+   1700532      10211 
+
+
+fnop: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10014      10211 
+     10032      10211 
+     10014      10211 
+     10014      10211 
+     10020      10211 
+     10014      10211 
+     10014      10211 
+     10020      10211 
+     10014      10211 
+     10014      10211 
+
+
+wait: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5070      10211 
+      5160      10211 
+      5070      10211 
+      5076      10211 
+      5076      10211 
+      5070      10211 
+      5070      10211 
+      5070      10211 
+      5070      10211 
+      5076      10211 
+
+
+fwait: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      5070      10211 
+      5184      10211 
+      5070      10211 
+      5160      10211 
+      5166      10211 
+      5166      10211 
+      5160      10211 
+      5166      10211 
+      5166      10211 
+      5160      10211 
+
+
+fnsave: Throughput, 64 bit mode
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   5787396      10212 
+   5620548      10211 
+   5729640      10212 
+   5786406      10212 
+   5670984      10212 
+   5734596      10211 
+   5786340      10212 
+   5728602      10212 
+   5620530      10211 
+   6488124      10212 
+
+
+fnsave: Throughput, 32 bit mode
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   5620548      10214 
+   5776482      10215 
+   5728350      10215 
+   5777610      10215 
+   5620440      10214 
+
+
+frstor: Throughput, 64 bit mode
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3011208      10210 
+   3011112      10210 
+   3118902      10211 
+   3011094      10210 
+   3179670      10211 
+   3011094      10210 
+   3011100      10210 
+   3119118      10211 
+   3011094      10210 
+   3797844      10211 
+
+
+frstor: Throughput, 32 bit mode
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3011082      10213 
+   3177858      10214 
+   3011004      10213 
+   3120756      10214 
+   3011004      10213 
+
+
+fnsave + frstor: Latency, 64 bit mode
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   9587388      20212 
+   8722014      20212 
+   8728254      20212 
+   8717880      20212 
+   8729712      20212 
+   8720022      20212 
+   9235488      20212 
+   8668218      20212 
+   8657136      20213 
+   8643294      20212 
+
+
+fxsave: Throughput, 64 bit mode
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2140134      10211 
+   2190570      10212 
+   3004332      10211 
+   2140134      10211 
+   2140134      10211 
+   2232258      10212 
+   2140134      10211 
+   2140134      10211 
+   2236494      10212 
+   2191512      10211 
+
+
+fxsave: Throughput, 32 bit mode
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1980132      10214 
+   1980156      10214 
+   2095932      10215 
+   1980138      10214 
+   1980132      10214 
+
+
+fxrstor: Throughput, 64 bit mode
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4033152      10209 
+   5156016      10210 
+   4033146      10209 
+   4124268      10210 
+   4033146      10209 
+   4130946      10210 
+   4033146      10209 
+   4120038      10210 
+   4033146      10209 
+   4419984      10210 
+
+
+fxrstor: Throughput, 32 bit mode
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   5214228      10213 
+   4095474      10213 
+   4043136      10212 
+   4177128      10213 
+   4043136      10212 
+
+
+fxsave + fxrstor: Latency, 64 bit mode
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6281238      20212 
+   6343866      20212 
+   6282102      20212 
+   6173046      20211 
+   7095774      20212 
+   6227862      20212 
+   6300672      20212 
+   6210900      20212 
+   6172938      20211 
+   6187296      20212 
+
+
+xsave: Throughput, 64 bit mode
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2400342      10215 
+   2507442      10216 
+   2400132      10215 
+   2400138      10215 
+   3513438      10216 
+   2400138      10215 
+   2400132      10215 
+   2491008      10216 
+   2400132      10215 
+   2400138      10215 
+
+
+xsave: Throughput, 32 bit mode
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2080308      10220 
+   2665296      10221 
+   2080140      10220 
+   2080134      10220 
+   2080134      10220 
+
+
+xrstor: Throughput, 64 bit mode
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3923562      10214 
+   3873186      10213 
+   3890250      10214 
+   3934290      10213 
+   3873186      10213 
+   3971772      10214 
+   3873186      10213 
+   4471164      10214 
+   3919584      10214 
+   3923118      10213 
+
+
+xrstor: Throughput, 32 bit mode
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4002444      10219 
+   3893250      10218 
+   4178694      10219 
+   3893148      10218 
+   4001118      10219 
+
+
+xsave + xrstor: Latency, 64 bit mode
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   6273090      20215 
+   6499188      20216 
+   6380178      20216 
+   6441360      20216 
+   6382194      20216 
+   6272946      20215 
+   7395912      20216 
+   6325308      20216 
+   6289278      20216 
+   6345648      20216 
+
+
+fnstsw ax: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10326      10222 
+     10344      10222 
+     10332      10222 
+     10332      10222 
+     10326      10222 
+     10332      10222 
+     10332      10222 
+     10332      10222 
+     10332      10222 
+     10332      10222 
+
+
+fnstsw ax + test + fcmov + fcom: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    120054      40222 
+    120066      40222 
+    120060      40222 
+    120054      40222 
+    120060      40222 
+    120054      40222 
+    120060      40222 
+    120054      40222 
+    120060      40222 
+    120054      40222 
+
+
+fnstsw [m16]: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     15600      10222 
+     15618      10222 
+     15600      10222 
+     15600      10222 
+     15600      10222 
+     15600      10222 
+     15600      10222 
+     15600      10222 
+     15600      10222 
+     15600      10222 
+
+
+fnstsw [m16] + test + fcmov + fcom: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    120054      40222 
+    120054      40222 
+    120060      40222 
+    120054      40222 
+    120060      40222 
+    120054      40222 
+    120072      40222 
+    120054      40222 
+    120060      40222 
+    120054      40222 
+
+
+fpatan + fld + fld + fstp: Throughput, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1337784      40212 
+   1230138      40211 
+   1230126      40211 
+   1230120      40211 
+   1230120      40211 
+   1230126      40211 
+   1230120      40211 
+   1452834      40212 
+   1230120      40211 
+   1230120      40211 
+
+
+fpatan + fld + fld + fstp: Throughput, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1948242      40220 
+   1840314      40219 
+   1840122      40219 
+   1840122      40219 
+   2005914      40220 
+   1896402      40219 
+   1840290      40219 
+   1840122      40219 
+   1840122      40219 
+   1946904      40220 
+
+
+fpatan + fld + fxch: Latency, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1479996      30211 
+   1480014      30211 
+   1480002      30211 
+   1479996      30211 
+   1647066      30212 
+   1479996      30211 
+   1480002      30211 
+   1480002      30211 
+   1479996      30211 
+   1588956      30212 
+
+
+fpatan + fld + fxch: Latency, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1850244      30219 
+   1899744      30220 
+   1907466      30219 
+   1850190      30219 
+   1850022      30219 
+   1850022      30219 
+   2031090      30220 
+   1850190      30219 
+   1850022      30219 
+   1850022      30219 
+
+
+fprem + fld + fstp: Throughput, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1760118      30211 
+   1760136      30211 
+   1760124      30211 
+   1810710      30212 
+   1875834      30211 
+   1760118      30211 
+   1760124      30211 
+   1760118      30211 
+   1867818      30212 
+   1760118      30211 
+
+
+fprem + fld + fstp: Throughput, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1830288      30215 
+   1830138      30215 
+   1830126      30215 
+   1940820      30216 
+   1886874      30215 
+   1830276      30215 
+   1830120      30215 
+   1830126      30215 
+   1937820      30216 
+   1830282      30215 
+
+
+fprem + fadd: Latency, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1760022      20211 
+   1760040      20211 
+   1760022      20211 
+   1760022      20211 
+   1928496      20212 
+   1760022      20211 
+   1760022      20211 
+   1760022      20211 
+   1867836      20212 
+   1760022      20211 
+
+
+fprem + fadd: Latency, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2228514      20216 
+   1570248      20215 
+   1570026      20215 
+   1570026      20215 
+   1570020      20215 
+   1660512      20216 
+   1570242      20215 
+   1570026      20215 
+   1570026      20215 
+   1570020      20215 
+
+
+fprem1 + fld + fstp: Throughput, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1760118      30211 
+   1861308      30213 
+   1760118      30211 
+   1760124      30211 
+   1760118      30211 
+   1760124      30211 
+   1893444      30212 
+   1760118      30211 
+   1760124      30211 
+   1760118      30211 
+
+
+fprem1 + fld + fstp: Throughput, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1830306      30215 
+   1830120      30215 
+   1830126      30215 
+   1916400      30216 
+   1830120      30215 
+   1830120      30215 
+   1830126      30215 
+   1915800      30216 
+   1830276      30215 
+   1830120      30215 
+
+
+fprem1 + fadd: Latency, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1760040      20211 
+   1760022      20211 
+   1760022      20211 
+   1892616      20212 
+   1760022      20211 
+   1760022      20211 
+   1760022      20211 
+   1760022      20211 
+   1881660      20212 
+   1760022      20211 
+
+
+fprem1 + fadd: Latency, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1650180      20215 
+   1650060      20215 
+   1741728      20216 
+   1650138      20215 
+   1650024      20215 
+   1650024      20215 
+   1650024      20215 
+   1783770      20216 
+   1705752      20215 
+   1650144      20215 
+
+
+fptan + fld + 2*fstp: Throughput, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    780138      40211 
+    780138      40211 
+    780120      40211 
+    780120      40211 
+    780120      40211 
+    780120      40211 
+    780120      40211 
+    917178      40212 
+    780120      40211 
+    780120      40211 
+
+
+fptan + fld + 2*fstp: Throughput, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   4183824      40208 
+   4060302      40207 
+   4135554      40208 
+   4060122      40207 
+   4092540      40208 
+   4060128      40207 
+   4075722      40208 
+   4060128      40207 
+   4073334      40208 
+   4060128      40207 
+
+
+fptan + fstp: Latency, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3859776      20211 
+   4051350      20212 
+   3859710      20211 
+   3979020      20212 
+   3859710      20211 
+   3898140      20212 
+   3859716      20211 
+   3873228      20212 
+   3859716      20211 
+   3872406      20212 
+
+
+fptan + fadd: Latency, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3749658      20209 
+   3606456      20207 
+   3675000      20208 
+   3606228      20207 
+   3606228      20207 
+   3621900      20208 
+   3606222      20207 
+   3619500      20208 
+   3875484      20209 
+   4168824      20208 
+
+
+frndint + fld + fstp: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    370032      30211 
+    370050      30211 
+    370038      30211 
+    370032      30211 
+    370032      30211 
+    370038      30211 
+    370032      30211 
+    370032      30211 
+    370038      30211 
+    370032      30211 
+
+
+frndint: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    360132      10211 
+    360150      10211 
+    360138      10211 
+    360138      10211 
+    468786      10212 
+    360132      10211 
+    360138      10211 
+    360138      10211 
+    360132      10211 
+    360132      10211 
+
+
+fscale + fld + fstp: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1010244      30207 
+   1010076      30207 
+   1010034      30207 
+   1010040      30207 
+   1010040      30207 
+   1010034      30207 
+   1010040      30207 
+   1959096      30208 
+   1010214      30207 
+   1010034      30207 
+
+
+fscale: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    480330      10207 
+    480138      10207 
+    480120      10207 
+    480120      10207 
+    480120      10207 
+    480120      10207 
+    480120      10207 
+    480120      10207 
+    480120      10207 
+    480120      10207 
+
+
+fsincos + fld + 2*fstp: Throughput, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    840120      40211 
+    840138      40211 
+    840120      40211 
+    946212      40212 
+    840126      40211 
+    840120      40211 
+    840120      40211 
+    840120      40211 
+    840120      40211 
+    840120      40211 
+
+
+fsincos + fld + 2*fstp: Throughput, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3980352      40207 
+   4144902      40208 
+   3980292      40207 
+   4087962      40208 
+   3980892      40207 
+   4146462      40208 
+   3980292      40207 
+   4088148      40208 
+   3980292      40207 
+   4143720      40208 
+
+
+fsincos + fadd: Latency, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3760932      20207 
+   3926148      20208 
+   3760134      20207 
+   3810762      20208 
+   3817092      20207 
+   3760128      20207 
+   3923946      20208 
+   3760134      20207 
+   3866388      20208 
+   3760134      20207 
+
+
+fsin + fld + fstp: Throughput, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    817434      30211 
+    760038      30211 
+    760020      30211 
+    760020      30211 
+    760020      30211 
+    760020      30211 
+    760020      30211 
+    760020      30211 
+    760020      30211 
+    760020      30211 
+
+
+fsin + fld + fstp: Throughput, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   3244818      30208 
+   3420720      30207 
+   3225888      30208 
+   3190530      30207 
+   3008994      30207 
+   3259242      30208 
+   3091164      30207 
+   3298344      30208 
+   3011130      30207 
+   3267798      30207 
+
+
+fsin + fadd: Latency, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    760020      20211 
+    760038      20211 
+    760020      20211 
+    760020      20211 
+    760020      20211 
+    760020      20211 
+    760020      20211 
+    760020      20211 
+    760020      20211 
+   1708458      20212 
+
+
+fsin + fadd: Latency, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2806812      20208 
+   2700240      20207 
+   2700042      20207 
+   2866536      20208 
+   2700222      20207 
+   2749404      20208 
+   2757204      20207 
+   2700222      20207 
+   2950806      20208 
+   3524868      20207 
+
+
+fsqrt + fld + fstp: Throughput, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    150018      30211 
+    150036      30211 
+    150024      30211 
+    150018      30211 
+    150024      30211 
+    150018      30211 
+    150024      30211 
+    150018      30211 
+    150024      30211 
+    150018      30211 
+
+
+fsqrt + fld + fstp: Throughput, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    730230      30207 
+    730044      30207 
+    730026      30207 
+    730020      30207 
+    730026      30207 
+    730026      30207 
+    730026      30207 
+    730026      30207 
+    730026      30207 
+    839808      30208 
+
+
+fsqrt + fadd: Latency, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    180012      20211 
+    180030      20211 
+    180018      20211 
+    180018      20211 
+    180018      20211 
+    180018      20211 
+    180018      20211 
+    180018      20211 
+    180018      20211 
+    180018      20211 
+
+
+fsqrt + fadd: Latency, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    760224      20207 
+    760032      20207 
+    760020      20207 
+    760020      20207 
+    760020      20207 
+    760020      20207 
+    760020      20207 
+    760020      20207 
+    760020      20207 
+    869316      20208 
+
+
+ftst: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     10050      10211 
+     10068      10211 
+     10056      10211 
+     10050      10211 
+     10056      10211 
+     10056      10211 
+     10050      10211 
+     10056      10211 
+     10056      10211 
+     10050      10211 
+
+
+ftst + fnstsw + test + fcmov: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    120048      40211 
+    120066      40211 
+    120054      40211 
+    120054      40211 
+    120054      40211 
+    120054      40211 
+    120054      40211 
+    120054      40211 
+    120054      40211 
+    120054      40211 
+
+
+fxam: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    510204      10211 
+    719796      10213 
+    510186      10211 
+    510168      10211 
+    510168      10211 
+    510162      10211 
+    714936      10211 
+    570354      10211 
+    607566      10211 
+    574884      10211 
+
+
+fxam + fnstsw + test + fcmov: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    590052      40211 
+    590082      40211 
+    590052      40211 
+    590058      40211 
+    590058      40211 
+    590052      40211 
+    590058      40211 
+    590058      40211 
+    711294      40212 
+    590058      40211 
+
+
+fxtract + fld + 2*fstp: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400074      40211 
+    400074      40211 
+    400050      40211 
+    400044      40211 
+    491604      40213 
+    590064      40211 
+    400044      40211 
+    400044      40211 
+    400050      40211 
+    400044      40211 
+
+
+fxtract + fadd: Latency
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    600036      20211 
+    600054      20211 
+    600030      20211 
+    600030      20211 
+    600030      20211 
+    600030      20211 
+    600030      20211 
+    600030      20211 
+    741102      20213 
+    600066      20211 
+
+
+fyl2x + 2*fld + fstp: Throughput, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    809802      40212 
+    680136      40211 
+    680124      40211 
+    680124      40211 
+    680118      40211 
+    680124      40211 
+    680124      40211 
+    680118      40211 
+    680118      40211 
+    680124      40211 
+
+
+fyl2x + 2*fld + fstp: Throughput, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1930368      40207 
+   1930140      40207 
+   2063484      40208 
+   1930296      40207 
+   1930116      40207 
+   1930122      40207 
+   2071248      40209 
+   1930296      40207 
+   1930116      40207 
+   1930122      40207 
+
+
+fyl2x + fld: Latency, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    860022      20211 
+    860022      20211 
+    860004      20211 
+    859998      20211 
+    860004      20211 
+    860004      20211 
+    859998      20211 
+    993024      20212 
+    860022      20211 
+    860004      20211 
+
+
+fyl2x + fld: Latency, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1337238      20207 
+   1337010      20207 
+   1336998      20207 
+   1336992      20207 
+   1470996      20208 
+   1337184      20207 
+   1336992      20207 
+   1336998      20207 
+   1336992      20207 
+   1336992      20207 
+
+
+fyl2xp1 + 2*fld + fstp: Throughput, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2256426      40612 
+   2120238      40611 
+   2120220      40611 
+   2253030      40612 
+   2120220      40611 
+   2120220      40611 
+   2120220      40611 
+   2252076      40612 
+   2120220      40611 
+   2120220      40611 
+
+
+fyl2xp1 + 2*fld + fstp: Throughput, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1865532      40613 
+   1973244      40611 
+   2076030      40611 
+   1905366      40611 
+   2022180      40612 
+   2084268      40611 
+   1918872      40611 
+   2065824      40611 
+   2188692      40612 
+   2093154      40611 
+
+
+fyl2xp1 + fld: Latency, best case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2120262      20611 
+   2120220      20611 
+   2120220      20611 
+   3293160      20612 
+   2120220      20611 
+   2120220      20611 
+   2171184      20612 
+   2120220      20611 
+   2120220      20611 
+   2120220      20611 
+
+
+fyl2xp1 + fld: Latency, worst case
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2227866      20611 
+   2335032      20612 
+   2227620      20611 
+   2227620      20611 
+   2227620      20611 
+   3180366      20612 
+   2227620      20611 
+   2227620      20611 
+   2318946      20612 
+   2227620      20611 
+
+
+xsaveopt: Throughput
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2440890      10211 
+   2440782      10211 
+   3561594      10212 
+   2440782      10211 
+   2532144      10212 
+   2440764      10211 
+   2440764      10211 
+   2440764      10211 
+   2535792      10212 
+   2440764      10211 
+
+

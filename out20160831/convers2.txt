@@ -1,0 +1,146 @@
+vpbroadcastd xmm,m32	miss	1.15
+vpmovsxbq ymm,xmm	1.96	2.07
+vpmovzxbw xmm,[m]	miss	1.25
+vextractf128 xmm,ymm,1 + vinserti128 y,y,x,1	2.99	miss
+vmovmskps r32,r128	miss	0.98
+vbroadcastsd ymm,m64	miss	1.23
+vpmovzxwd ymm,xmm / vinserti128 ymm,xmm,xmm,1	1.98	miss
+Latency with memory operand: vinsertf128 ymm,ymm,[m128],0 + vmovdqa [m128],xmm	2.48	miss
+Latency with memory destination: vextractf128 [m128],ymm,0 + vmovdqa x,[m]	2.48	miss
+vpbroadcastb xmm,m8 + mov.. m8,xmm	4.3	miss
+vextracti128 xmm,ymm,1 + vinserti128 y,y,x,1	2.09	miss
+vbroadcastss xmm,xmm	1.85	0.98
+Throughput with memory destination: vextractf128 [m128],ymm,1	miss	1.61
+vextractf128 xmm,ymm,1	0.99	0.98
+vextractf128 xmm,ymm,0	1.78	miss
+vinserti128 ymm,ymm,xmm,1 + vextracti128 xmm,ymm,1	2.03	miss
+vpmovzxwd xmm,xmm	0.98	0.98
+vpmovzxwq ymm,[m]	miss	1.96
+vpbroadcastd xmm,m32 + mov.. m32,xmm	4.01	miss
+vpmovzxdq ymm,xmm / vinserti128 ymm,xmm,xmm,1	2.05	miss
+Latency with memory operand: vinserti128 ymm,ymm,[m128],1 + vmovdqa [m128],xmm	0.99	miss
+Latency with memory operand: vinsertf128 ymm,ymm,[m128],1 + vmovdqa [m128],xmm	0.99	miss
+vmovmskpd r32,r256 + movd r128,r21	4.91	miss
+vextractf128 xmm,ymm,0 + vinserti128 y,y,x,1	1.31	miss
+vpmovsxbd ymm,xmm / vinserti128 ymm,xmm,xmm,1	1.98	miss
+vpmovsxwd ymm,[m]	miss	1.96
+vinserti128 ymm,ymm,[m128],1	miss	1.2
+vinserti128 ymm,ymm,[m128],0	miss	1.2
+vpbroadcastw ymm,m16	miss	1.96
+vpmovsxbq xmm,xmm	0.98	0.98
+vpmovsxwq ymm,xmm / vinserti128 ymm,xmm,xmm,1	1.98	miss
+vinsertf128 ymm,ymm,xmm,1	2.21	1.04
+vpmovsxbw ymm,xmm	2.07	1.96
+vpmovzxwq xmm,[m]	miss	1.15
+vpmovsxbd xmm,xmm	0.98	0.98
+vpbroadcastd xmm,xmm	0.98	0.98
+vpmovsxwq xmm,[m]	miss	1.15
+vmovmskpd r32,r128	miss	0.98
+vinserti128 ymm,ymm,xmm,0	1.96	miss
+vinserti128 ymm,ymm,xmm,1	1.96	2.35
+vmovmskps r32,r256	miss	6.87
+vpmovzxbq ymm,xmm / vinserti128 ymm,xmm,xmm,1	2.03	miss
+vpbroadcastw ymm,m16 + mov.. m16,xmm	4.39	miss
+vinsertf128 ymm,ymm,xmm,1 + vextractf128 xmm,ymm,1	1.8	miss
+vpbroadcastd ymm,m32	miss	1.96
+Latency with memory destination: vextracti128 [m128],ymm,1 + vmovdqa x,[m]	0.99	miss
+vpmovzxbd xmm,xmm	0.98	0.98
+vpmovzxdq ymm,[m]	miss	2.09
+vpmovzxwq ymm,xmm / vinserti128 ymm,xmm,xmm,1	2.02	miss
+vpmovzxbq xmm,xmm	0.98	0.98
+vpbroadcastb xmm,xmm	3.92	0.98
+vpbroadcastd ymm,xmm	1.96	1.96
+vbroadcasti128 ymm,m128	miss	1.25
+vpbroadcastd ymm,m32 + mov.. m32,xmm	4.01	miss
+vpmovzxbw ymm,xmm / vinserti128 ymm,xmm,xmm,1	1.98	miss
+vpmovzxwd ymm,[m]	miss	2.09
+vpmovsxwd xmm,xmm	0.98	0.98
+vinsertf128 ymm,ymm,xmm,0 + vextractf128 xmm,ymm,1	1.0	miss
+vpmovsxwq xmm,xmm	0.98	0.98
+vbroadcastss ymm,xmm / vextractf128 xmm,ymm,1	2.07	miss
+vpbroadcastq ymm,m64	miss	1.96
+vpmovsxbq ymm,xmm / vinserti128 ymm,xmm,xmm,1	2.03	miss
+vbroadcastsd ymm,xmm	2.2	0.98
+vpmovzxbd ymm,xmm / vinserti128 ymm,xmm,xmm,1	2.08	miss
+vpmovsxwq ymm,[m]	miss	1.96
+vbroadcastsd ymm,xmm / vextractf128 xmm,ymm,1	2.07	miss
+vpmovzxwd ymm,xmm	2.08	1.96
+vpmovsxbw xmm,[m]	miss	1.15
+vmovmskps r32,r128 + movd r128,r21	3.99	miss
+vmovmskps r32,r256 + movd r128,r21	4.51	miss
+vbroadcastss ymm,xmm	2.2	0.98
+vpmovzxwd xmm,[m]	miss	1.15
+vpmovsxdq xmm,[m]	miss	1.15
+vpmovsxdq xmm,xmm	0.98	0.98
+vinsertf128 ymm,ymm,xmm,0	2.32	miss
+vpmovsxbq xmm,[m]	miss	1.15
+vpmovmskb r32,r256	miss	1.96
+vpmovzxbd xmm,[m]	miss	1.15
+vpmovzxbd ymm,[m]	miss	2.07
+Latency with memory destination: vextractf128 [m128],ymm,1 + vmovdqa x,[m]	1.05	miss
+vinsertf128 ymm,ymm,xmm,0 + vextracti128 xmm,ymm,1	0.99	miss
+vpmovsxdq ymm,[m]	miss	2.02
+vpbroadcastb ymm,m8	miss	1.96
+vextractf128 xmm,ymm,1 + vinsertf128 y,y,x,1	1.85	miss
+vpmovzxwq xmm,xmm	0.98	0.98
+vpmovmskb r32,r128 + movd r128,r21	4.04	miss
+vpmovzxbq ymm,xmm	2.07	2.07
+vpbroadcastw xmm,xmm	3.92	1.04
+vinsertf128 ymm,ymm,xmm,1 + vextracti128 xmm,ymm,1	3.04	miss
+vinsertf128 ymm,ymm,[m128],0	miss	1.2
+vinsertf128 ymm,ymm,[m128],1	miss	1.2
+vpmovsxwd ymm,xmm	2.07	2.02
+vpmovzxbq ymm,[m]	miss	1.96
+vpmovsxbd ymm,[m]	miss	1.96
+vpbroadcastq xmm,xmm	2.02	1.96
+vinserti128 ymm,ymm,xmm,0 + vextracti128 xmm,ymm,1	1.98	miss
+vextracti128 xmm,ymm,0 + vinsertf128 y,y,x,1	1.01	miss
+vpmovmskb r32,r128	miss	0.98
+vbroadcastf128 ymm,m128 + vmovdqa m128,xmm	3.12	miss
+vpmovsxbq ymm,[m]	miss	1.96
+vpmovsxbd ymm,xmm	1.96	2.07
+vpmovsxwd xmm,[m]	miss	1.15
+vpmovzxbw ymm,[m]	miss	1.96
+vpbroadcastw xmm,m16 + mov.. m16,xmm	4.05	miss
+vpmovsxdq ymm,xmm / vinserti128 ymm,xmm,xmm,1	2.03	miss
+vpmovzxwq ymm,xmm	2.09	1.96
+vbroadcastss ymm,m32	miss	1.23
+vmovmskpd r32,r256	miss	6.98
+Throughput with memory destination: vextracti128 [m128],ymm,1	miss	1.62
+vinserti128 ymm,ymm,xmm,1 + vextractf128 xmm,ymm,1	3.07	miss
+vpmovsxbd xmm,[m]	miss	1.25
+vpmovsxbw xmm,xmm	0.98	0.98
+vextracti128 xmm,ymm,0 + vinserti128 y,y,x,1	2.06	miss
+vpmovmskb r32,r256 + movd r128,r21	4.94	miss
+vpmovzxdq ymm,xmm	1.96	2.09
+vpmovzxbw ymm,xmm	1.96	1.96
+vpmovsxwq ymm,xmm	1.96	2.07
+vpmovsxbw ymm,[m]	miss	1.96
+vpmovzxbd ymm,xmm	1.96	2.23
+vpmovzxbw xmm,xmm	0.98	0.98
+vpbroadcastw ymm,xmm	5.01	1.96
+vpmovzxdq xmm,xmm	0.98	0.98
+vpbroadcastb ymm,xmm	4.96	1.96
+vpbroadcastb xmm,m8	miss	1.21
+vpbroadcastq xmm,m64 + mov.. m64,xmm	4.04	miss
+vpbroadcastq xmm,m64	miss	2.07
+vbroadcasti128 ymm,m128 + vmovdqa m128,xmm	2.48	miss
+Latency with memory operand: vinserti128 ymm,ymm,[m128],0 + vmovdqa [m128],xmm	2.48	miss
+vextracti128 xmm,ymm,1 + vinsertf128 y,y,x,1	3.01	miss
+vpbroadcastw xmm,m16	miss	1.21
+vpmovzxbq xmm,[m]	miss	1.15
+vinserti128 ymm,ymm,xmm,0 + vextractf128 xmm,ymm,1	0.99	miss
+vpbroadcastq ymm,xmm	1.96	1.96
+vpmovzxdq xmm,[m]	miss	1.15
+vpbroadcastb ymm,m8 + mov.. m8,xmm	4.39	miss
+vmovmskpd r32,r128 + movd r128,r21	4.04	miss
+vbroadcastf128 ymm,m128	miss	1.3
+vextracti128 xmm,ymm,0	1.96	miss
+vextracti128 xmm,ymm,1	2.35	1.96
+vpbroadcastq ymm,m64 + mov.. m64,xmm	4.01	miss
+vbroadcastss xmm,m32	miss	1.15
+vextractf128 xmm,ymm,0 + vinsertf128 y,y,x,1	1.71	miss
+Latency with memory destination: vextracti128 [m128],ymm,0 + vmovdqa x,[m]	2.52	miss
+vpmovsxbw ymm,xmm / vinserti128 ymm,xmm,xmm,1	1.98	miss
+vpmovsxdq ymm,xmm	1.96	1.96
+vpmovsxwd ymm,xmm / vinserti128 ymm,xmm,xmm,1	2.03	miss

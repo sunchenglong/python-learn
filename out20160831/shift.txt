@@ -1,0 +1,126 @@
+rcr , 4 regsize 16	44.03	44.55
+ror , cl regsize 8	0.98	1.47
+shrd , 1 regsize 64	33.99	34.24
+shl , 4 regsize 8	0.98	1.72
+rcr , 1 regsize 8	1.08	2.21
+shl , 4 regsize 64	0.98	1.47
+ror , 1 regsize 16	0.98	1.47
+btr r16, cx	miss	1.98
+sar , 4 regsize 16	0.98	1.47
+bts r32, 5	1.98	miss
+shr , 4 regsize 16	0.98	1.47
+shl , 1 regsize 64	0.98	1.47
+shld , 1 regsize 32	2.06	2.06
+sar , cl regsize 16	0.98	1.47
+shr , cl regsize 16	0.98	1.47
+rol , cl regsize 64	0.98	1.47
+shld , cl regsize 32	2.06	2.06
+rcl , 1 regsize 32	1.08	1.53
+rcr , 1 regsize 16	1.08	1.53
+rol , 1 regsize 16	0.98	1.47
+btc r32, ecx	1.98	1.98
+rcl , 1 regsize 8	1.08	1.84
+rol , 4 regsize 8	0.98	1.47
+rcr , cl regsize 16	48.98	48.46
+bts r32, ecx	1.98	1.98
+rcr , 4 regsize 8	44.03	46.46
+ror , 4 regsize 32	0.98	1.47
+sar , 1 regsize 32	0.98	1.47
+sar , cl regsize 64	0.98	1.47
+rol , cl regsize 16	0.98	1.47
+shr , 1 regsize 32	0.98	1.47
+bts r64, rcx	miss	6.86
+sar , cl regsize 8	0.98	1.47
+rcr , 1 regsize 32	1.08	1.53
+sar , 4 regsize 64	0.98	1.47
+rcl , cl regsize 64	47.94	48.99
+ror , 4 regsize 8	0.98	1.47
+rcr , 4 regsize 32	44.51	44.83
+rcl , 1 regsize 64	1.08	1.53
+shr , cl regsize 64	0.98	1.47
+shl , 1 regsize 32	0.98	1.47
+shrd , 6 regsize 16	2.06	2.06
+btc r64, 5	1.98	miss
+ror , cl regsize 64	0.98	1.47
+shr , 4 regsize 8	0.98	1.47
+shld , 6 regsize 32	2.06	2.06
+shl , cl regsize 8	1.47	1.47
+shld , cl regsize 16	2.06	2.06
+bt r32, 5	1.08	miss
+rol , 1 regsize 8	0.98	1.47
+rcl , 1 regsize 16	1.08	1.53
+bts r16, 5	1.98	miss
+shrd , 1 regsize 32	2.06	2.06
+shl , 4 regsize 16	0.98	1.47
+bts r16, cx	miss	1.98
+btr r64, 5	1.98	miss
+shr , cl regsize 8	0.98	1.47
+btr r32, 5	2.47	miss
+shr , 4 regsize 32	0.98	1.47
+ror , 1 regsize 32	0.98	1.47
+rcl , 4 regsize 32	55.32	44.69
+shrd , 6 regsize 32	2.06	2.06
+shl , cl regsize 64	0.98	1.71
+btr r64, rcx	miss	7.22
+rcl , cl regsize 8	47.94	48.47
+shl , 1 regsize 8	0.98	1.47
+rol , cl regsize 32	0.98	1.47
+shr , 1 regsize 8	0.98	1.47
+rcl , cl regsize 16	47.94	48.6
+bt r16, 5	1.56	miss
+rol , 1 regsize 64	0.98	1.47
+ror , 1 regsize 8	0.98	1.47
+sar , 1 regsize 8	0.98	1.47
+sar , 1 regsize 64	0.98	1.47
+rcr , cl regsize 64	48.5	48.68
+shl , 1 regsize 16	0.98	1.47
+shld , 1 regsize 64	37.17	39.78
+shl , cl regsize 16	0.98	1.47
+shrd , cl regsize 64	34.0	34.24
+shld , 6 regsize 64	38.23	38.15
+ror , 1 regsize 64	0.98	1.47
+shrd , 1 regsize 16	2.06	2.06
+rcr , cl regsize 8	47.94	52.07
+shrd , 6 regsize 64	32.94	35.17
+shld , 1 regsize 16	2.06	2.06
+sar , cl regsize 32	0.98	1.47
+shr , cl regsize 32	0.98	1.47
+shl , 4 regsize 32	0.98	1.47
+ror , 4 regsize 64	1.55	1.47
+btc r16, 5	1.98	miss
+rol , 4 regsize 32	0.98	1.47
+shld , cl regsize 64	39.07	38.15
+rcl , 4 regsize 16	45.33	44.76
+shrd , cl regsize 16	2.06	2.06
+ror , cl regsize 32	0.98	1.47
+rcl , cl regsize 32	47.94	53.53
+rcr , 4 regsize 64	44.03	44.03
+bt r32, ecx	1.08	1.08
+bt r16, cx	miss	1.08
+btc r16, cx	miss	1.98
+btr r16, 5	1.98	miss
+sar , 4 regsize 32	0.98	1.47
+rcl , 4 regsize 8	44.91	45.3
+shr , 1 regsize 64	0.98	1.47
+rcl , 4 regsize 64	44.03	45.51
+shl , cl regsize 32	0.98	1.47
+shr , 4 regsize 64	0.98	1.47
+bt r64, 5	1.08	miss
+bt r64, rcx	miss	3.72
+shld , 6 regsize 16	2.06	2.06
+btr r32, ecx	1.98	1.98
+btc r64, rcx	miss	6.86
+rol , 1 regsize 32	0.98	1.47
+btc r32, 5	1.98	miss
+rcr , 1 regsize 64	1.08	1.53
+rcr , cl regsize 32	47.94	49.59
+ror , 4 regsize 16	0.98	1.47
+rol , 4 regsize 64	0.98	1.47
+rol , cl regsize 8	0.98	1.47
+shr , 1 regsize 16	3.26	1.47
+rol , 4 regsize 16	0.98	1.47
+sar , 1 regsize 16	0.98	1.47
+bts r64, 5	1.98	miss
+sar , 4 regsize 8	0.98	1.47
+shrd , cl regsize 32	2.06	2.06
+ror , cl regsize 16	0.98	1.47

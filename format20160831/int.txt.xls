@@ -1,0 +1,270 @@
+Instruct 	 Operators 	 Latency 	 Throughput 	 RawCommand 
+and	r32,[m32]	miss	1.2	and r32,[m32]
+add	r16,[m16]	miss	1.2	add r16,[m16]
+and	r8,r8	0.98	0.5	and r8,r8
+inc	r64	0.98	0.57	inc r64
+mov	[m64],r64	1.61	1.61	mov [m64],r64
+xchg	r32,r32	2.63	1.48	xchg r32,r32
+or	r8,[m8]	miss	1.2	or r8,[m8]
+xor	r16,[m16]	miss	1.2	xor r16,[m16]
+imul		miss	1.25	imul
+sbb	r8,r8	0.98	0.98	sbb r8,r8
+mov	r8, i	0.98	0.56	mov r8, i
+dec	r32	0.98	0.57	dec r32
+test	r32,[m32]	miss	1.2	test r32,[m32]
+cdq		0.98	miss	cdq
+adc	r32, i	0.98	0.98	adc r32, i
+add	[m64],r64	4.89	1.66	add [m64],r64
+xor	r16,r16	0.98	0.5	xor r16,r16
+test	[m64],r64	1.2	1.2	test [m64],r64
+neg	r8high	1.96	0.99	neg r8high
+sub	[m32], i	miss	1.96	sub [m32], i
+pause		14.69	miss	pause
+xor	eax,eax / cdqe	miss	0.5	xor eax,eax / cdqe
+cld		2.94	miss	cld
+adc	r32,r32	0.98	0.98	adc r32,r32
+cmp	[m16],r16	4.86	1.2	cmp [m16],r16
+mov	r32, i	0.5	0.5	mov r32, i
+cmp	r8high, i	miss	0.5	cmp r8high, i
+clc		3.03	miss	clc
+or	r8, i	0.98	0.57	or r8, i
+popcnt	r32,r32	1.96	1.46	popcnt r32,r32
+mov	[m32],r32	1.61	1.61	mov [m32],r32
+dec	r8high	0.98	0.57	dec r8high
+cmove	r32,r32	0.98	0.98	cmove r32,r32
+inc	r8high	1.54	0.57	inc r8high
+popcnt	r64,r64	1.96	0.98	popcnt r64,r64
+bsr	r16,r16	1.96	1.96	bsr r16,r16
+add	[m16],r16	4.89	1.8	add [m16],r16
+xor	eax,eax / cwd	miss	0.54	xor eax,eax / cwd
+dec	r8	0.98	0.57	dec r8
+mov	r16,r16	0.91	0.5	mov r16,r16
+sub	r8,[m8]	miss	1.2	sub r8,[m8]
+add	r8,r8	0.98	0.5	add r8,r8
+not	r16	0.98	0.57	not r16
+sub	r8high, i	miss	0.57	sub r8high, i
+cmp	[m8],r8	1.2	1.2	cmp [m8],r8
+add	r16, i	0.98	0.57	add r16, i
+sfence		12.07	miss	sfence
+or	[m64],r64	4.89	1.66	or [m64],r64
+or	r16,[m16]	miss	1.2	or r16,[m16]
+neg	r32	0.98	0.57	neg r32
+xor	eax,eax / cdq	miss	0.54	xor eax,eax / cdq
+adc	r8high, i	miss	0.98	adc r8high, i
+nop		0.37	miss	nop
+cmp	r64,[m64]	miss	1.2	cmp r64,[m64]
+xor	r8high, i	miss	0.57	xor r8high, i
+adc	[m8],r8	4.89	1.96	adc [m8],r8
+xchg	r8,[m8]	miss	14.69	xchg r8,[m8]
+add	r16,r16	0.98	0.5	add r16,r16
+adc	r8,r8	0.98	0.98	adc r8,r8
+adc	r16,r16	0.98	0.98	adc r16,r16
+cmp	r32,r32	0.5	0.5	cmp r32,r32
+cmc		3.03	miss	cmc
+adc	r32,[m32]	miss	1.2	adc r32,[m32]
+cmp	r64, i	0.5	0.5	cmp r64, i
+xor	r32,r32	1.46	0.5	xor r32,r32
+adc	r16, i	0.98	0.98	adc r16, i
+imul	r16,r16	1.97	1.13	imul r16,r16
+cmp	r8,[m8]	miss	1.2	cmp r8,[m8]
+xor	eax,eax / cwde	miss	0.5	xor eax,eax / cwde
+adc	r8, i	0.98	0.98	adc r8, i
+not	r8high	0.98	0.57	not r8high
+sub	r64,[m64]	miss	1.2	sub r64,[m64]
+neg	r8	1.06	0.99	neg r8
+and	r64,r64	0.98	0.5	and r64,r64
+bswap	r32	0.99	0.99	bswap r32
+and	r16,r16	3.72	0.5	and r16,r16
+test	[m8],r8	1.2	1.2	test [m8],r8
+mov	r16,[m16]	miss	1.2	mov r16,[m16]
+adc	[m32], i	miss	1.96	adc [m32], i
+sub	[m64],r64	4.89	1.66	sub [m64],r64
+sbb	r32,r32	0.98	0.98	sbb r32,r32
+and	[m32], i	miss	1.96	and [m32], i
+cmp	[m32], i	miss	1.2	cmp [m32], i
+add	r32,r32	0.98	0.5	add r32,r32
+mov	[m32], i	miss	1.63	mov [m32], i
+or	[m16],r16	4.89	1.8	or [m16],r16
+and	[m32],r32	4.89	1.78	and [m32],r32
+dec	r16	0.98	0.57	dec r16
+test	r64,[m64]	miss	1.2	test r64,[m64]
+xchg	[m32],r32	15.74	14.69	xchg [m32],r32
+test	r8,r8	0.5	0.5	test r8,r8
+sbb	r8,[m8]	miss	1.2	sbb r8,[m8]
+mov	r64,r64	0.8	0.5	mov r64,r64
+cmp	r8, i	0.5	0.5	cmp r8, i
+xor	[m32],r32	4.89	1.79	xor [m32],r32
+or	r8high, i	miss	0.57	or r8high, i
+popcnt	r16,r16	1.96	0.98	popcnt r16,r16
+and	r64, i	0.98	0.57	and r64, i
+mov	[m8],r8	1.61	1.61	mov [m8],r8
+xor	r8, i	0.98	0.57	xor r8, i
+mov	r8,r8	0.9	0.5	mov r8,r8
+imul	r64,r64	8.81	1.97	imul r64,r64
+cwd		0.98	miss	cwd
+adc	[m64],r64	4.89	1.66	adc [m64],r64
+and	r32, i	0.98	1.05	and r32, i
+popcnt		miss	1.2	popcnt
+xor	eax,eax / cqo	miss	0.54	xor eax,eax / cqo
+sbb	[m32],r32	4.89	1.78	sbb [m32],r32
+and	[m64],r64	4.89	1.66	and [m64],r64
+add	r64,r64	0.98	0.5	add r64,r64
+xchg	r64,r64	2.63	1.49	xchg r64,r64
+xor	r8,r8	0.98	0.5	xor r8,r8
+cmp	r64,r64	0.5	0.5	cmp r64,r64
+bsr	r32,r32	1.96	1.96	bsr r32,r32
+and	r16, i	0.98	0.57	and r16, i
+or	r64, i	0.98	0.58	or r64, i
+or	r32,[m32]	miss	1.2	or r32,[m32]
+xchg	r16,[m16]	miss	14.69	xchg r16,[m16]
+lfence		22.1	miss	lfence
+add	r32,[m32]	miss	1.2	add r32,[m32]
+add	r8,[m8]	miss	1.2	add r8,[m8]
+test	r8, i	0.5	0.5	test r8, i
+dec	r64	0.98	0.57	dec r64
+prefetcht2	[m]	miss	1.3	prefetcht2 [m]
+xor	[m8],r8	4.89	1.96	xor [m8],r8
+sub	r8, i	0.98	0.57	sub r8, i
+sub	r64, i	0.98	0.57	sub r64, i
+xor	r16, i	0.98	1.06	xor r16, i
+and	r8,[m8]	miss	1.2	and r8,[m8]
+sete	r8 / neg r8	1.49	miss	sete r8 / neg r8
+add	[m8],r8	4.89	1.96	add [m8],r8
+sbb	r8, i	0.98	0.98	sbb r8, i
+mov	r32,r32	0.81	0.5	mov r32,r32
+xor	r64, i	0.98	0.57	xor r64, i
+or	r16,r16	0.98	0.5	or r16,r16
+adc	r16,[m16]	miss	1.2	adc r16,[m16]
+xor	r64,r64	0.98	0.5	xor r64,r64
+test	r64,r64	0.5	0.5	test r64,r64
+sub	r32, i	0.98	0.57	sub r32, i
+sbb	r16,[m16]	miss	1.2	sbb r16,[m16]
+not	r64	0.98	0.57	not r64
+or	[m32],r32	4.89	1.79	or [m32],r32
+xchg	r32,[m32]	miss	14.69	xchg r32,[m32]
+add	r64, i	0.98	0.57	add r64, i
+mov	[m16],r16	1.61	1.61	mov [m16],r16
+sub	r16,[m16]	miss	1.2	sub r16,[m16]
+or	r32,r32	0.98	0.5	or r32,r32
+neg	r64	0.98	0.57	neg r64
+add	r64,[m64]	miss	1.2	add r64,[m64]
+or	r64,[m64]	miss	1.2	or r64,[m64]
+xchg	[m64],r64	14.69	15.69	xchg [m64],r64
+cmp	r8,r8	0.5	0.5	cmp r8,r8
+sub	[m8],r8	4.89	1.96	sub [m8],r8
+xor	r8,[m8]	miss	1.2	xor r8,[m8]
+cqo		0.98	miss	cqo
+sbb	r16, i	0.98	0.98	sbb r16, i
+and	r8high, i	miss	0.57	and r8high, i
+test	r64, i	0.5	0.5	test r64, i
+xor	[m64],r64	4.89	1.66	xor [m64],r64
+xor	[m16],r16	4.89	1.8	xor [m16],r16
+xchg	r16,r16	2.63	1.85	xchg r16,r16
+xor	r64,[m64]	miss	1.2	xor r64,[m64]
+bsr	r64,r64	1.96	1.96	bsr r64,r64
+test	r16,r16	0.5	0.5	test r16,r16
+and	[m16],r16	4.89	1.8	and [m16],r16
+cmp	r32, i	0.5	0.5	cmp r32, i
+add	r8, i	0.98	0.57	add r8, i
+sbb	[m8],r8	4.89	3.01	sbb [m8],r8
+prefetchw	[m]	miss	1.75	prefetchw [m]
+add	r32, i	0.98	0.57	add r32, i
+sub	r64,r64	0.98	0.5	sub r64,r64
+bsf		miss	1.96	bsf
+adc	[m32],r32	4.89	1.78	adc [m32],r32
+sete	r8	miss	0.98	sete r8
+or	r32, i	0.98	0.57	or r32, i
+sbb	[m16],r16	4.89	1.8	sbb [m16],r16
+sbb	r32, i	0.98	0.98	sbb r32, i
+xor	r32,[m32]	miss	1.2	xor r32,[m32]
+sub	r16,r16	0.98	0.5	sub r16,r16
+sub	[m32],r32	4.89	1.79	sub [m32],r32
+or	[m32], i	miss	1.96	or [m32], i
+not	r8	0.98	0.57	not r8
+inc	r32	0.98	0.57	inc r32
+neg	[m32]	miss	1.96	neg [m32]
+std		2.94	miss	std
+adc	[m16],r16	4.89	1.8	adc [m16],r16
+test	r16, i	2.21	2.26	test r16, i
+sub	r16, i	0.98	0.57	sub r16, i
+mfence		12.78	miss	mfence
+cmp	r32,[m32]	miss	1.2	cmp r32,[m32]
+stc		3.03	miss	stc
+or	r16, i	0.98	0.57	or r16, i
+sbb	r64,r64	0.98	0.98	sbb r64,r64
+test	r8high, i	miss	0.5	test r8high, i
+xchg	[m16],r16	14.69	14.69	xchg [m16],r16
+adc	r64,r64	0.98	0.98	adc r64,r64
+bsf	r64,r64	1.96	1.96	bsf r64,r64
+or	[m8],r8	4.89	1.96	or [m8],r8
+prefetchnta	[m]	miss	1.3	prefetchnta [m]
+xor	[m32], i	miss	2.53	xor [m32], i
+mov	r8high, i	miss	0.56	mov r8high, i
+or	r8,r8	0.98	0.5	or r8,r8
+sub	[m16],r16	4.89	1.8	sub [m16],r16
+cmove	r16,r16	0.98	0.98	cmove r16,r16
+imul	r32,r32	1.97	1.13	imul r32,r32
+sbb	r64,[m64]	miss	1.2	sbb r64,[m64]
+mov	r16, i	2.21	2.21	mov r16, i
+xchg	[m8],r8	14.69	14.69	xchg [m8],r8
+bsf	r16,r16	1.96	1.96	bsf r16,r16
+sete	r8h	miss	0.98	sete r8h
+cbw		0.98	miss	cbw
+sub	r8,r8	0.98	0.5	sub r8,r8
+mov	r64, i	0.5	0.5	mov r64, i
+prefetcht0	[m]	miss	1.3	prefetcht0 [m]
+mov	r64,[m64]	miss	1.3	mov r64,[m64]
+bsf	r32,r32	1.96	1.96	bsf r32,r32
+xchg	r64,[m64]	miss	25.38	xchg r64,[m64]
+cmp	r16, i	0.5	0.5	cmp r16, i
+cdqe		0.98	miss	cdqe
+and	r32,r32	0.98	0.5	and r32,r32
+add	[m32],r32	4.89	1.79	add [m32],r32
+and	r64,[m64]	miss	1.2	and r64,[m64]
+cmp	r16,[m16]	miss	1.2	cmp r16,[m16]
+test	r32,r32	0.5	0.5	test r32,r32
+and	r8, i	0.98	0.57	and r8, i
+add	[m32], i	miss	1.96	add [m32], i
+cmp	r16,r16	0.5	0.5	cmp r16,r16
+inc	r8	0.98	0.57	inc r8
+xor	r32, i	0.98	0.57	xor r32, i
+not	[m32]	miss	1.96	not [m32]
+sbb	r8high, i	miss	0.98	sbb r8high, i
+mov	r32,[m32]	miss	1.3	mov r32,[m32]
+test	r8,[m8]	miss	1.2	test r8,[m8]
+sbb	r32,[m32]	miss	1.2	sbb r32,[m32]
+inc	r16	0.98	0.57	inc r16
+adc	r64, i	0.98	0.98	adc r64, i
+bswap	r64	0.99	0.99	bswap r64
+sbb	[m32], i	miss	1.96	sbb [m32], i
+not	r32	0.98	0.57	not r32
+xchg	r8,r8	2.23	2.51	xchg r8,r8
+or	r64,r64	0.98	0.5	or r64,r64
+sete,	[m8]	miss	1.62	sete, [m8]
+cmove	r64,r64	0.98	0.98	cmove r64,r64
+bsr		miss	1.96	bsr
+and	[m8],r8	4.89	1.96	and [m8],r8
+test	[m32],r32	1.2	1.2	test [m32],r32
+and	r16,[m16]	miss	1.2	and r16,[m16]
+xor	eax,eax / cbw	miss	0.5	xor eax,eax / cbw
+dec	[m32]	miss	1.96	dec [m32]
+mov	r8,[m8]	miss	1.2	mov r8,[m8]
+cwde		0.98	miss	cwde
+sbb	r16,r16	0.98	2.78	sbb r16,r16
+cmp	[m64],r64	1.2	1.2	cmp [m64],r64
+test	r16,[m16]	miss	1.2	test r16,[m16]
+sub	r32,[m32]	miss	1.2	sub r32,[m32]
+test	[m16],r16	1.2	1.2	test [m16],r16
+neg	r16	1.06	0.99	neg r16
+cmove		miss	1.2	cmove
+sbb	r64, i	0.98	0.98	sbb r64, i
+test	r32, i	0.5	0.5	test r32, i
+cmp	[m32],r32	1.2	1.2	cmp [m32],r32
+adc	r8,[m8]	miss	1.2	adc r8,[m8]
+sbb	[m64],r64	4.89	1.66	sbb [m64],r64
+adc	r64,[m64]	miss	1.2	adc r64,[m64]
+add	r8high, i	miss	0.57	add r8high, i
+test	[m32], i	miss	1.2	test [m32], i
+sub	r32,r32	0.98	0.5	sub r32,r32
+inc	[m32]	miss	1.96	inc [m32]
+prefetcht1	[m]	miss	1.3	prefetcht1 [m]

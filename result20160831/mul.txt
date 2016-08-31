@@ -1,0 +1,804 @@
+Multiplication instructions latency and throughput
+
+
+
+Latency: mul , registersize 8 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    410118      10210 
+    410136      10210 
+    410118      10210 
+    410124      10210 
+    410118      10210 
+    410118      10210 
+    410124      10210 
+    410118      10210 
+    410118      10210 
+    410124      10210 
+
+
+Throughput: mul , registersize 8 (subtract 1 uop)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11214      20228 
+     11136      20228 
+     11130      20228 
+     11130      20228 
+     11130      20228 
+     11130      20228 
+     11130      20228 
+     11130      20228 
+     11130      20228 
+     11130      20228 
+
+
+Throughput with memory operand: mul , registersize 8 (subtract 1 uop)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11994      20228 
+     11976      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+
+
+Latency: mul , registersize 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11994      20228 
+     11976      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+
+
+Throughput: mul , registersize 16 (subtract 1 uop)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+
+
+Throughput with memory operand: mul , registersize 16 (subtract 1 uop)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23964      20228 
+     23922      20228 
+     23922      20228 
+     23922      20228 
+     23958      20228 
+     23922      20228 
+     23922      20228 
+     23928      20228 
+     23958      20228 
+     23922      20228 
+
+
+Latency: mul , registersize 32 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23964      20228 
+     23922      20228 
+     23922      20228 
+     23922      20228 
+     23928      20228 
+     23928      20228 
+     23922      20228 
+     23922      20228 
+     23922      20228 
+     23922      20228 
+
+
+Throughput: mul , registersize 32 (subtract 1 uop)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21558      20228 
+     21540      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+
+
+Throughput with memory operand: mul , registersize 32 (subtract 1 uop)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23964      20228 
+     23976      20228 
+     23922      20228 
+     23922      20228 
+     23922      20228 
+     23922      20228 
+     23928      20228 
+     23928      20228 
+     23922      20228 
+     23922      20228 
+
+
+Latency: mul , registersize 64 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23964      20228 
+     23976      20228 
+     23922      20228 
+     23922      20228 
+     23922      20228 
+     23922      20228 
+     23928      20228 
+     23928      20228 
+     23922      20228 
+     23922      20228 
+
+
+Throughput: mul , registersize 64 (subtract 1 uop)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40026      20228 
+     40044      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+
+
+Throughput with memory operand: mul , registersize 64 (subtract 1 uop)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40056      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+
+
+Latency: imul , registersize 8 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40056      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+
+
+Throughput: imul , registersize 8 (subtract 1 uop)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11214      20228 
+     11136      20228 
+     11130      20228 
+     11130      20228 
+     11130      20228 
+     11130      20228 
+     11130      20228 
+     11130      20228 
+     11130      20228 
+     11130      20228 
+
+
+Throughput with memory operand: imul , registersize 8 (subtract 1 uop)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12000      20228 
+     11976      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+     11934      20228 
+
+
+Latency: imul , registersize 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11994      20228 
+     11952      20228 
+     11940      20228 
+     11940      20228 
+     11940      20228 
+     11940      20228 
+     11940      20228 
+     11940      20228 
+     11940      20228 
+     11940      20228 
+
+
+Throughput: imul , registersize 16 (subtract 1 uop)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21516      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+
+
+Throughput with memory operand: imul , registersize 16 (subtract 1 uop)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23964      20228 
+     23958      20228 
+     23928      20228 
+     23952      20228 
+     23928      20228 
+     23928      20228 
+     23922      20228 
+     23958      20228 
+     23928      20228 
+     23922      20228 
+
+
+Latency: imul , registersize 32 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23964      20228 
+     23922      20228 
+     23922      20228 
+     23922      20228 
+     23928      20228 
+     23928      20228 
+     23922      20228 
+     23922      20228 
+     23922      20228 
+     23922      20228 
+
+
+Throughput: imul , registersize 32 (subtract 1 uop)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     21510      20228 
+     21540      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+     21510      20228 
+
+
+Throughput with memory operand: imul , registersize 32 (subtract 1 uop)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23964      20228 
+     23976      20228 
+     23922      20228 
+     23922      20228 
+     23922      20228 
+     23922      20228 
+     23928      20228 
+     23928      20228 
+     23922      20228 
+     23922      20228 
+
+
+Latency: imul , registersize 64 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     23964      20228 
+     23976      20228 
+     23922      20228 
+     23922      20228 
+     23922      20228 
+     23922      20228 
+     23928      20228 
+     23928      20228 
+     23922      20228 
+     23922      20228 
+
+
+Throughput: imul , registersize 64 (subtract 1 uop)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40026      20228 
+     40044      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+
+
+Throughput with memory operand: imul , registersize 64 (subtract 1 uop)
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40056      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+
+
+
+
+Latency: imul , regsize 16, numop 2
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     40056      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+     40026      20228 
+
+
+Throughput: imul , regsize 16, numop 2
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11628      10228 
+     11568      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+
+
+Throughput with memory operand: imul , regsize 16, numop 2
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12822      10228 
+     12756      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+
+
+Latency: imul , regsize 32, numop 2
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12816      10228 
+     12756      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+
+
+Throughput: imul , regsize 32, numop 2
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11562      10228 
+     11562      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+
+
+Throughput with memory operand: imul , regsize 32, numop 2
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12948      10228 
+     12738      10228 
+     12744      10228 
+     12738      10228 
+     12762      10228 
+     12744      10228 
+     87594      10229 
+     12780      10228 
+     12738      10228 
+     12744      10228 
+
+
+Latency: imul , regsize 64, numop 2
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12936      10228 
+     12762      10228 
+     12738      10228 
+     12744      10228 
+     12738      10228 
+     12744      10228 
+     12738      10228 
+     12744      10228 
+     12738      10228 
+     12744      10228 
+
+
+Throughput: imul , regsize 64, numop 2
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22524      10228 
+     22542      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+
+
+Throughput with memory operand: imul , regsize 64, numop 2
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22740      10228 
+     22560      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+
+
+Latency: imul , regsize 16, numop 3
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     22734      10228 
+     22542      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+     22524      10228 
+
+
+Throughput: imul , regsize 16, numop 3
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11622      10228 
+     11562      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+
+
+Throughput with memory operand: imul , regsize 16, numop 3
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12834      10228 
+     12756      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+
+
+Latency: imul , regsize 32, numop 3
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12852      10228 
+     12756      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+     12738      10228 
+
+
+Throughput: imul , regsize 32, numop 3
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     11556      10228 
+     11562      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+     11556      10228 
+
+
+Throughput with memory operand: imul , regsize 32, numop 3
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     13002      10228 
+     12762      10228 
+     12738      10228 
+     12744      10228 
+     12738      10228 
+     12744      10228 
+     12738      10228 
+     12744      10228 
+     12738      10228 
+     12744      10228 
+
+
+Latency: imul , regsize 64, numop 3
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     12930      10228 
+     12762      10228 
+     12738      10228 
+     12744      10228 
+     12738      10228 
+     12744      10228 
+     12738      10228 
+     12744      10228 
+     12738      10228 
+     12744      10228 
+
+
+Throughput: imul , regsize 64, numop 3
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20022      10228 
+     20040      10228 
+     20022      10228 
+     20022      10228 
+     20022      10228 
+     20022      10228 
+     20040      10228 
+     20022      10228 
+     20022      10228 
+     20022      10228 
+
+
+Throughput with memory operand: imul , regsize 64, numop 3
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+     20220      10228 
+     20058      10228 
+     20022      10228 
+     20022      10228 
+     20022      10228 
+     20022      10228 
+     20022      10228 
+     20022      10228 
+     20022      10228 
+     20022      10228 
+
+

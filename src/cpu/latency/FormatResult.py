@@ -7,7 +7,7 @@ import os
 class FormatResult:
     def __init__(self):
         # self.fileFormat('../../../output/result.xls', '../../../output/formatResult.xls')
-        self.listFiles('../../../out20160817', '../../../out20160830')
+        self.listFiles('../../../out20160831', '../../../format20160831')
 
     def listFiles(self, inputSrc, outputSrc):
         list = os.listdir(inputSrc)

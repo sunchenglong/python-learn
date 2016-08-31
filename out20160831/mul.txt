@@ -1,0 +1,22 @@
+imul , regsize 32, numop 2	1.25	1.98
+imul , regsize 32, numop 3	1.25	1.25
+mul , registersize 32 (subtract 1 uop)	miss	1.18
+imul , registersize 8	1.98	miss
+mul , registersize 64 (subtract 1 uop)	miss	1.98
+imul , registersize 8 (subtract 1 uop)	miss	0.59
+imul , registersize 32	1.18	miss
+imul , registersize 16	0.59	miss
+imul , regsize 64, numop 2	1.25	2.2
+imul , registersize 16 (subtract 1 uop)	miss	1.18
+mul , registersize 16 (subtract 1 uop)	miss	1.18
+mul , registersize 32	1.18	miss
+mul , registersize 16	0.59	miss
+imul , regsize 16, numop 2	1.98	1.25
+imul , regsize 16, numop 3	2.2	1.25
+imul , regsize 64, numop 3	1.25	1.96
+mul , registersize 8 (subtract 1 uop)	miss	0.59
+imul , registersize 64	1.18	miss
+mul , registersize 8	40.17	miss
+imul , registersize 64 (subtract 1 uop)	miss	1.98
+mul , registersize 64	1.18	miss
+imul , registersize 32 (subtract 1 uop)	miss	1.18

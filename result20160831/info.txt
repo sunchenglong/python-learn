@@ -1,0 +1,163 @@
+Info about this computer
+
+
+
+/proc/version:
+
+Linux version 3.16.0-30-generic (buildd@kissel) (gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ) #40~14.04.1-Ubuntu SMP Thu Jan 15 17:43:14 UTC 2015
+
+
+kernel version:
+
+Linux zgcc-VT3456-8614CMB 3.16.0-30-generic #40~14.04.1-Ubuntu SMP Thu Jan 15 17:43:14 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
+
+
+g++ version:
+g++ (Ubuntu 4.8.4-2ubuntu1~14.04.3) 4.8.4
+Copyright © 2013 Free Software Foundation, Inc.
+本程序是自由软件；请参看源代码的版权声明。本软件没有任何担保；
+包括没有适销性和某一专用目的下的适用性担保。
+
+
+nasm version:
+NASM version 2.10.09 compiled on Dec 29 2013
+
+
+From cpugetinfo:
+
+vendor CentaurHauls
+                         C-QuadCore C4600@2.0GHz
+
+Family 0x6, model 0xF, stepping 0xE
+
+Cache descriptors:
+  0x00000001
+  0x00000000
+  0x00000000
+  0x00000000
+
+L1 Instruction cache: size 32 kB, ways 8, lines/tag 1, line size 64
+
+L1 Data cache: size 32 kB, ways 8, lines/tag 1, line size 64
+
+L2 cache: size 2048 kB, ways 16, lines/tag 1, line size 64
+
+Data cache level 1, size 32 kB
+ways 8, partitions 1, linesize 64, sets 64
+associative no, logical proc 1, cores 4
+
+Instruction cache level 1, size 32 kB
+ways 8, partitions 1, linesize 64, sets 64
+associative no, logical proc 1, cores 4
+
+Unified cache level 2, size 2 MB
+ways 16, partitions 1, linesize 64, sets 2048
+associative no, logical proc 4, cores 4
+
+Instruction sets supported by CPU:
+ X87 TSC MSR CX8 CMOV CLFSH MMX FXSR SSE SSE2 SSE3 PCLMULQDQ MONITOR SSSE3 CMPXCHG16B SSE4.1 SSE4.2 MOVBE POPCNT AES XSAVE OSXSAVE AVX F16C RDRAND AVX2 BMI1 SMEP BMI2 INVPCID RDSEED ADX XSAVEOPT LAHF_64 LZCNT PREFETCHW RDTSCP XSTORE XSTORE_ENABLED XCRYPT XCRYPT_ENABLED ACE2 XSHA XSHA_ENABLED MONTMUL MONTMUL_ENABLED 
+
+
+
+From /proc/cpuinfo:
+
+processor	: 0
+vendor_id	: CentaurHauls
+cpu family	: 6
+model		: 15
+model name	: C-QuadCore C4600@2.0GHz
+stepping	: 14
+cpu MHz		: 1999.966
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl eagerfpu pni pclmulqdq monitor vmx est tm2 ssse3 cx16 xtpr pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand rng rng_en ace ace_en ace2 phe phe_en pmm pmm_en lahf_lm abm 3dnowprefetch ida xsaveopt dtherm fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx
+bogomips	: 3999.93
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: CentaurHauls
+cpu family	: 6
+model		: 15
+model name	: C-QuadCore C4600@2.0GHz
+stepping	: 14
+cpu MHz		: 1999.966
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 1
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl eagerfpu pni pclmulqdq monitor vmx est tm2 ssse3 cx16 xtpr pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand rng rng_en ace ace_en ace2 phe phe_en pmm pmm_en lahf_lm abm 3dnowprefetch ida xsaveopt dtherm fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx
+bogomips	: 3999.93
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: CentaurHauls
+cpu family	: 6
+model		: 15
+model name	: C-QuadCore C4600@2.0GHz
+stepping	: 14
+cpu MHz		: 1999.966
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 1
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl eagerfpu pni pclmulqdq monitor vmx est tm2 ssse3 cx16 xtpr pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand rng rng_en ace ace_en ace2 phe phe_en pmm pmm_en lahf_lm abm 3dnowprefetch ida xsaveopt dtherm fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx
+bogomips	: 3999.93
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: CentaurHauls
+cpu family	: 6
+model		: 15
+model name	: C-QuadCore C4600@2.0GHz
+stepping	: 14
+cpu MHz		: 1999.966
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 1
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl eagerfpu pni pclmulqdq monitor vmx est tm2 ssse3 cx16 xtpr pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand rng rng_en ace ace_en ace2 phe phe_en pmm pmm_en lahf_lm abm 3dnowprefetch ida xsaveopt dtherm fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx
+bogomips	: 3999.93
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+

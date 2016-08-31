@@ -1,0 +1,314 @@
+push and pop instructions latency and throughput
+64 bit mode
+Operands:
+r  = register
+I  = immediate constant
+M  = memory
+F  = flags
+SP = stack pointer
+
+
+
+
+Throughput: push , operand: R 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    167172     106025 
+    242052     106026 
+    225384     106025 
+    167094     106025 
+    167094     106025 
+    167094     106025 
+    167094     106025 
+    167094     106025 
+    167094     106025 
+    167088     106025 
+
+
+Throughput: push , operand: SP 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    167172     106025 
+    167136     106025 
+    167088     106025 
+    167088     106025 
+    167088     106025 
+    167088     106025 
+    302022     106026 
+    167088     106025 
+    167088     106025 
+    167088     106025 
+
+
+Throughput: push , operand: M 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    188112     106025 
+    192012     106025 
+    192018     106025 
+    192012     106025 
+    192018     106025 
+    192012     106025 
+    192018     106025 
+    336972     106026 
+    192012     106025 
+    192018     106025 
+
+
+Throughput: push , operand: F 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    173820     106025 
+    177096     106025 
+    173700     106025 
+    173700     106025 
+    173700     106025 
+    173700     106025 
+    173700     106025 
+    173700     106025 
+    173700     106025 
+    173700     106025 
+
+
+Throughput: pop , operand: R 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    121632     106016 
+    121362     106016 
+    121368     106016 
+    121368     106016 
+    121362     106016 
+    121368     106016 
+    121368     106016 
+    121362     106016 
+    121368     106016 
+    121368     106016 
+
+
+Throughput: pop , operand: SP 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    327234     106016 
+    327312     106016 
+    327168     106016 
+    327168     106016 
+    327162     106016 
+    327162     106016 
+    327162     106016 
+    327264     106016 
+    327162     106016 
+    327162     106016 
+
+
+Throughput: pop , operand: M 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200304     106016 
+    200070     106016 
+    200028     106016 
+    200034     106016 
+    200034     106016 
+    200028     106016 
+    200034     106016 
+    200034     106016 
+    200028     106016 
+    200034     106016 
+
+
+Throughput: pop , operand: F 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1957986     106089 
+   1900164     106089 
+   1900104     106089 
+   1900146     106089 
+   2031636     106090 
+   1900104     106089 
+   1900110     106089 
+   1900104     106089 
+   2031276     106090 
+   1900104     106089 
+
+
+Throughput: push , operand: I 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    165936     106025 
+    165762     106025 
+    165750     106025 
+    165744     106025 
+    165744     106025 
+    165750     106025 
+    165744     106025 
+    165744     106025 
+    165750     106025 
+    165744     106025 
+
+
+
+push and pop instructions latency and throughput
+32 bit mode
+
+
+Throughput: push , operand: R 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    168444     106041 
+    219372     106042 
+    363594     106041 
+    680304     106041 
+    492162     106041 
+
+
+Throughput: push , operand: SP 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    168450     106041 
+    168384     106041 
+    168348     106041 
+    168354     106041 
+    168348     106041 
+
+
+Throughput: push , operand: M 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    178134     106041 
+    178044     106041 
+    178026     106041 
+    178032     106041 
+    178032     106041 
+
+
+Throughput: push , operand: F 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    176412     106041 
+    174036     106041 
+    174036     106041 
+    174036     106041 
+    174036     106041 
+
+
+Throughput: pop , operand: R 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    123264     106034 
+    123054     106034 
+    123684     106034 
+    123684     106034 
+    123684     106034 
+
+
+Throughput: pop , operand: SP 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    327234     106034 
+    327264     106034 
+    327168     106034 
+    327168     106034 
+    327168     106034 
+
+
+Throughput: pop , operand: M 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200262     106034 
+    200034     106034 
+    200034     106034 
+    200034     106034 
+    200034     106034 
+
+
+Throughput: pop , operand: F 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2042028     106106 
+   1908150     106105 
+   1908108     106105 
+   1908108     106105 
+   2988528     106106 
+
+
+Throughput: push , operand: I 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    166356     106041 
+    166260     106041 
+    166242     106041 
+    166242     106041 
+    166242     106041 
+
+

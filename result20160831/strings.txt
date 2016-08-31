@@ -1,0 +1,3235 @@
+string instructions throughput
+
+
+
+Instruction: lodsb 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       258        102 
+       114        102 
+       120        102 
+       120        102 
+       114        102 
+       120        102 
+       120        102 
+       114        102 
+       120        102 
+       120        102 
+
+
+Instruction: lodsw 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       312        102 
+       114        102 
+       120        102 
+       120        102 
+       114        102 
+       120        102 
+       120        102 
+       114        102 
+       120        102 
+       120        102 
+
+
+Instruction: lodsd 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       444        102 
+       114        102 
+       120        102 
+       114        102 
+       120        102 
+       114        102 
+       120        102 
+       114        102 
+       120        102 
+       114        102 
+
+
+Instruction: lodsq 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       540        102 
+       144        102 
+       126        102 
+       126        102 
+       132        102 
+       126        102 
+       126        102 
+       132        102 
+       126        102 
+       126        102 
+
+
+Instruction: stosb 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       222        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+
+
+Instruction: stosw 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       342        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+
+
+Instruction: stosd 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       342        102 
+       168        102 
+       174        102 
+       174        102 
+       168        102 
+       174        102 
+       174        102 
+       168        102 
+       174        102 
+       174        102 
+
+
+Instruction: stosq 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       390        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+       174        102 
+
+
+Instruction: movsb 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       288        102 
+       192        102 
+       198        102 
+       198        102 
+       192        102 
+       198        102 
+       198        102 
+       192        102 
+       198        102 
+       198        102 
+
+
+Instruction: movsw 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       576        102 
+       174        102 
+       180        102 
+       180        102 
+       174        102 
+       180        102 
+       180        102 
+       174        102 
+       180        102 
+       180        102 
+
+
+Instruction: movsd 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       876        102 
+       186        102 
+       186        102 
+       186        102 
+       192        102 
+       192        102 
+       186        102 
+       186        102 
+       186        102 
+       186        102 
+
+
+Instruction: movsq 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1272        102 
+       174        102 
+       180        102 
+       174        102 
+       180        102 
+       174        102 
+       180        102 
+       174        102 
+       180        102 
+       174        102 
+
+
+Instruction: scasb 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       354        102 
+       114        102 
+       114        102 
+       114        102 
+       114        102 
+       114        102 
+       114        102 
+       114        102 
+       114        102 
+       114        102 
+
+
+Instruction: scasw 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       450        102 
+       114        102 
+       108        102 
+       114        102 
+       114        102 
+       114        102 
+       114        102 
+       114        102 
+       108        102 
+       114        102 
+
+
+Instruction: scasd 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1320        102 
+       114        102 
+       114        102 
+       114        102 
+       114        102 
+       114        102 
+       114        102 
+       114        102 
+       114        102 
+       114        102 
+
+
+Instruction: scasq 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       552        102 
+       120        102 
+       120        102 
+       120        102 
+       120        102 
+       126        102 
+       120        102 
+       120        102 
+       120        102 
+       120        102 
+
+
+Instruction: cmpsb 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       852        102 
+       702        102 
+       702        102 
+       702        102 
+       702        102 
+       702        102 
+       702        102 
+       702        102 
+       702        102 
+       702        102 
+
+
+Instruction: cmpsw 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       984        102 
+       702        102 
+       696        102 
+       702        102 
+       702        102 
+       702        102 
+       702        102 
+       702        102 
+       696        102 
+       702        102 
+
+
+Instruction: cmpsd 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+      1212        102 
+       714        102 
+       702        102 
+       702        102 
+       702        102 
+       702        102 
+       708        102 
+       708        102 
+       702        102 
+       702        102 
+
+
+Instruction: cmpsq 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+       966        102 
+       708        102 
+       714        102 
+       714        102 
+       708        102 
+       714        102 
+       714        102 
+       708        102 
+       714        102 
+       714        102 
+
+
+
+Instruction: rep lodsb, count = 100
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     42966        404  68.745598   0.646400
+     42798        404  68.476798   0.646400
+     42804        404  68.486398   0.646400
+     42798        404  68.476798   0.646400
+     42804        404  68.486398   0.646400
+     42798        404  68.476798   0.646400
+     42804        404  68.486398   0.646400
+     42798        404  68.476798   0.646400
+     42804        404  68.486398   0.646400
+     42798        404  68.476798   0.646400
+
+
+
+Instruction: rep lodsb, count = 1000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    402996        404  64.479358   0.064640
+    402798        404  64.447678   0.064640
+    402804        404  64.448638   0.064640
+    402798        404  64.447678   0.064640
+    402804        404  64.448638   0.064640
+    402798        404  64.447678   0.064640
+    402804        404  64.448638   0.064640
+    402798        404  64.447678   0.064640
+    402804        404  64.448638   0.064640
+    402798        404  64.447678   0.064640
+
+
+
+Instruction: rep lodsb, count = 10000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   4076508        405  65.224128   0.006480
+   4002798        404  64.044768   0.006464
+   4103124        406  65.649984   0.006496
+   4002804        404  64.044864   0.006464
+   4128252        405  66.052032   0.006480
+   4002804        404  64.044864   0.006464
+   4040790        405  64.652640   0.006480
+   4002798        404  64.044768   0.006464
+   4016910        405  64.270560   0.006480
+   4002804        404  64.044864   0.006464
+
+
+
+Instruction: rep lodsw, count = 100
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     42966        404  34.372799   0.323200
+     92262        405  73.809598   0.324000
+     42804        404  34.243199   0.323200
+     42804        404  34.243199   0.323200
+    100452        404  80.361598   0.323200
+     42804        404  34.243199   0.323200
+     42798        404  34.238399   0.323200
+     42804        404  34.243199   0.323200
+     42798        404  34.238399   0.323200
+     42804        404  34.243199   0.323200
+
+
+
+Instruction: rep lodsw, count = 1000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    403224        404  32.257919   0.032320
+    402798        404  32.223839   0.032320
+    402804        404  32.224319   0.032320
+    402798        404  32.223839   0.032320
+    402804        404  32.224319   0.032320
+    402798        404  32.223839   0.032320
+    402804        404  32.224319   0.032320
+    402798        404  32.223839   0.032320
+    402804        404  32.224319   0.032320
+    402798        404  32.223839   0.032320
+
+
+
+Instruction: rep lodsw, count = 10000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   4003452        404  32.027616   0.003232
+   4490094        405  35.920752   0.003240
+   4002804        404  32.022432   0.003232
+   4126050        405  33.008400   0.003240
+   4002804        404  32.022432   0.003232
+   4125726        405  33.005808   0.003240
+   4002804        404  32.022432   0.003232
+   4040958        405  32.327664   0.003240
+   4002804        404  32.022432   0.003232
+   4084386        406  32.675088   0.003248
+
+
+
+Instruction: rep lodsd, count = 100
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     42984        404  17.193600   0.161600
+     42798        404  17.119200   0.161600
+     42804        404  17.121600   0.161600
+     42798        404  17.119200   0.161600
+     42804        404  17.121600   0.161600
+     42798        404  17.119200   0.161600
+     42804        404  17.121600   0.161600
+     42798        404  17.119200   0.161600
+     42804        404  17.121600   0.161600
+     42798        404  17.119200   0.161600
+
+
+
+Instruction: rep lodsd, count = 1000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    403452        404  16.138080   0.016160
+    458736        404  18.349440   0.016160
+    402804        404  16.112160   0.016160
+    402798        404  16.111920   0.016160
+    402804        404  16.112160   0.016160
+    402798        404  16.111920   0.016160
+    402804        404  16.112160   0.016160
+    402798        404  16.111920   0.016160
+    402804        404  16.112160   0.016160
+    402798        404  16.111920   0.016160
+
+
+
+Instruction: rep lodsd, count = 10000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   4006314        404  16.025256   0.001616
+   4162302        405  16.649208   0.001620
+   4053504        405  16.214016   0.001620
+   4056174        404  16.224696   0.001616
+   4112832        405  16.451328   0.001620
+   5330988        404  21.323952   0.001616
+   4116204        405  16.464816   0.001620
+   4003116        404  16.012464   0.001616
+   4168608        405  16.674432   0.001620
+   4003116        404  16.012464   0.001616
+
+
+
+Instruction: rep lodsq, count = 100
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     42996        404   8.599200   0.080800
+     42798        404   8.559600   0.080800
+     42804        404   8.560800   0.080800
+     42798        404   8.559600   0.080800
+     42804        404   8.560800   0.080800
+     42798        404   8.559600   0.080800
+     42804        404   8.560800   0.080800
+     42798        404   8.559600   0.080800
+     42804        404   8.560800   0.080800
+     42798        404   8.559600   0.080800
+
+
+
+Instruction: rep lodsq, count = 1000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    404676        404   8.093520   0.008080
+    404922        404   8.098440   0.008080
+    408108        404   8.162160   0.008080
+    404502        404   8.090040   0.008080
+    409944        404   8.198880   0.008080
+    638754        404  12.775080   0.008080
+    467772        404   9.355440   0.008080
+    403842        404   8.076840   0.008080
+    583098        404  11.661960   0.008080
+    472770        404   9.455400   0.008080
+
+
+
+Instruction: rep lodsq, count = 10000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   4129374        406   8.258748   0.000812
+   4003104        404   8.006208   0.000808
+   4234308        405   8.468616   0.000810
+   4003104        404   8.006208   0.000808
+   4106826        405   8.213652   0.000810
+   4003104        404   8.006208   0.000808
+   5742516        405  11.485032   0.000810
+   4003104        404   8.006208   0.000808
+   4123032        405   8.246064   0.000810
+   4052154        405   8.104308   0.000810
+
+
+
+Instruction: rep stosb, count = 100
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23046        404  36.873599   0.646400
+     22998        404  36.796799   0.646400
+     23004        404  36.806399   0.646400
+     22998        404  36.796799   0.646400
+     23004        404  36.806399   0.646400
+     22998        404  36.796799   0.646400
+     23004        404  36.806399   0.646400
+     22998        404  36.796799   0.646400
+     23004        404  36.806399   0.646400
+     22998        404  36.796799   0.646400
+
+
+
+Instruction: rep stosb, count = 1000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     24534        404   3.925440   0.064640
+     24396        404   3.903360   0.064640
+     24402        404   3.904320   0.064640
+     24396        404   3.903360   0.064640
+     24402        404   3.904320   0.064640
+     24396        404   3.903360   0.064640
+     24402        404   3.904320   0.064640
+     24396        404   3.903360   0.064640
+     24402        404   3.904320   0.064640
+     24396        404   3.903360   0.064640
+
+
+
+Instruction: rep stosb, count = 10000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    285486        407   4.567776   0.006512
+    139302        404   2.228832   0.006464
+    139302        404   2.228832   0.006464
+    139302        404   2.228832   0.006464
+    139302        404   2.228832   0.006464
+    139302        404   2.228832   0.006464
+    139302        404   2.228832   0.006464
+    139302        404   2.228832   0.006464
+    139302        404   2.228832   0.006464
+    139302        404   2.228832   0.006464
+
+
+
+Instruction: rep stosw, count = 100
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23046        404  18.436800   0.323200
+     22998        404  18.398400   0.323200
+     23004        404  18.403200   0.323200
+     22998        404  18.398400   0.323200
+     23004        404  18.403200   0.323200
+     22998        404  18.398400   0.323200
+     23004        404  18.403200   0.323200
+     22998        404  18.398400   0.323200
+     23004        404  18.403200   0.323200
+     73926        405  59.140799   0.324000
+
+
+
+Instruction: rep stosw, count = 1000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    167118        405  13.369440   0.032400
+     35304        404   2.824320   0.032320
+     35298        404   2.823840   0.032320
+     35298        404   2.823840   0.032320
+     35304        404   2.824320   0.032320
+     35298        404   2.823840   0.032320
+     35298        404   2.823840   0.032320
+     35304        404   2.824320   0.032320
+     35304        404   2.824320   0.032320
+     35298        404   2.823840   0.032320
+
+
+
+Instruction: rep stosw, count = 10000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    447936        409   3.583488   0.003272
+    264402        404   2.115216   0.003232
+    264396        404   2.115168   0.003232
+    264402        404   2.115216   0.003232
+    264396        404   2.115168   0.003232
+    264402        404   2.115216   0.003232
+    316824        405   2.534592   0.003240
+    331686        404   2.653488   0.003232
+    264402        404   2.115216   0.003232
+    264396        404   2.115168   0.003232
+
+
+
+Instruction: rep stosd, count = 100
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23070        404   9.228000   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+
+
+
+Instruction: rep stosd, count = 1000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     75228        405   3.009120   0.016200
+     54900        404   2.196000   0.016160
+     54900        404   2.196000   0.016160
+     54900        404   2.196000   0.016160
+     54906        404   2.196240   0.016160
+    158904        404   6.356160   0.016160
+     54900        404   2.196000   0.016160
+     54906        404   2.196240   0.016160
+     54900        404   2.196000   0.016160
+     54900        404   2.196000   0.016160
+
+
+
+Instruction: rep stosd, count = 10000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    829146        414   3.316584   0.001656
+    729720        404   2.918880   0.001616
+    729720        404   2.918880   0.001616
+    729726        404   2.918904   0.001616
+    729720        404   2.918880   0.001616
+    729720        404   2.918880   0.001616
+    729726        404   2.918904   0.001616
+    729720        404   2.918880   0.001616
+    729720        404   2.918880   0.001616
+    803634        405   3.214536   0.001620
+
+
+
+Instruction: rep stosq, count = 100
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23088        404   4.617600   0.080800
+     22998        404   4.599600   0.080800
+     23004        404   4.600800   0.080800
+     22998        404   4.599600   0.080800
+     23004        404   4.600800   0.080800
+     22998        404   4.599600   0.080800
+     23004        404   4.600800   0.080800
+     22998        404   4.599600   0.080800
+     23004        404   4.600800   0.080800
+     22998        404   4.599600   0.080800
+
+
+
+Instruction: rep stosq, count = 1000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    217290        406   4.345800   0.008120
+    107298        404   2.145960   0.008080
+    107304        404   2.146080   0.008080
+    107298        404   2.145960   0.008080
+    107304        404   2.146080   0.008080
+    107298        404   2.145960   0.008080
+    107304        404   2.146080   0.008080
+    107298        404   2.145960   0.008080
+    107304        404   2.146080   0.008080
+    107298        404   2.145960   0.008080
+
+
+
+Instruction: rep stosq, count = 10000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   1747320        424   3.494640   0.000848
+   1454430        404   2.908860   0.000808
+   1454436        404   2.908872   0.000808
+   2236494        405   4.472988   0.000810
+   1558152        404   3.116304   0.000808
+   1454430        404   2.908860   0.000808
+   1454436        404   2.908872   0.000808
+   1454430        404   2.908860   0.000808
+   1595670        405   3.191340   0.000810
+   1454430        404   2.908860   0.000808
+
+
+
+Instruction: rep movsb, count = 100
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23298        404  37.276799   0.646400
+     23100        404  36.959999   0.646400
+     23100        404  36.959999   0.646400
+     23100        404  36.959999   0.646400
+     23106        404  36.969599   0.646400
+     23106        404  36.969599   0.646400
+     23100        404  36.959999   0.646400
+     23100        404  36.959999   0.646400
+     23100        404  36.959999   0.646400
+     23100        404  36.959999   0.646400
+
+
+
+Instruction: rep movsb, count = 1000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     26082        404   4.173120   0.064640
+     25812        404   4.129920   0.064640
+     25812        404   4.129920   0.064640
+     25812        404   4.129920   0.064640
+     25812        404   4.129920   0.064640
+     25812        404   4.129920   0.064640
+     25812        404   4.129920   0.064640
+     25812        404   4.129920   0.064640
+     25812        404   4.129920   0.064640
+     25812        404   4.129920   0.064640
+
+
+
+Instruction: rep movsb, count = 10000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    297426        407   4.758816   0.006512
+    144912        404   2.318592   0.006464
+    144918        404   2.318688   0.006464
+    144918        404   2.318688   0.006464
+    144912        404   2.318592   0.006464
+    144912        404   2.318592   0.006464
+    144912        404   2.318592   0.006464
+    144912        404   2.318592   0.006464
+    144912        404   2.318592   0.006464
+    144918        404   2.318688   0.006464
+
+
+
+Instruction: rep movsw, count = 100
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23430        404  18.744000   0.323200
+     23100        404  18.480000   0.323200
+     23100        404  18.480000   0.323200
+     23100        404  18.480000   0.323200
+     23106        404  18.484800   0.323200
+     23106        404  18.484800   0.323200
+     23100        404  18.480000   0.323200
+     23100        404  18.480000   0.323200
+     23100        404  18.480000   0.323200
+     23100        404  18.480000   0.323200
+
+
+
+Instruction: rep movsw, count = 1000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    122970        405   9.837600   0.032400
+     38202        404   3.056160   0.032320
+     37416        404   2.993280   0.032320
+     37416        404   2.993280   0.032320
+     37416        404   2.993280   0.032320
+     37416        404   2.993280   0.032320
+     37416        404   2.993280   0.032320
+     37416        404   2.993280   0.032320
+     37410        404   2.992800   0.032320
+     37416        404   2.993280   0.032320
+
+
+
+Instruction: rep movsw, count = 10000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    417450        409   3.339600   0.003272
+    273912        404   2.191296   0.003232
+    273912        404   2.191296   0.003232
+    273912        404   2.191296   0.003232
+    273912        404   2.191296   0.003232
+    273912        404   2.191296   0.003232
+    273912        404   2.191296   0.003232
+    273912        404   2.191296   0.003232
+    273912        404   2.191296   0.003232
+    273912        404   2.191296   0.003232
+
+
+
+Instruction: rep movsd, count = 100
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23676        404   9.470400   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+
+
+
+Instruction: rep movsd, count = 1000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    104184        405   4.167360   0.016200
+     58914        404   2.356560   0.016160
+     58914        404   2.356560   0.016160
+     58914        404   2.356560   0.016160
+     58914        404   2.356560   0.016160
+     58914        404   2.356560   0.016160
+     58914        404   2.356560   0.016160
+     58914        404   2.356560   0.016160
+     58914        404   2.356560   0.016160
+     58914        404   2.356560   0.016160
+
+
+
+Instruction: rep movsd, count = 10000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    999180        414   3.996720   0.001656
+    814968        404   3.259872   0.001616
+    814938        404   3.259752   0.001616
+    814950        404   3.259800   0.001616
+    814926        404   3.259704   0.001616
+    814968        404   3.259872   0.001616
+    814902        404   3.259608   0.001616
+    814968        404   3.259872   0.001616
+    814974        404   3.259896   0.001616
+   1883058        405   7.532232   0.001620
+
+
+
+Instruction: rep movsq, count = 100
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23580        404   4.716000   0.080800
+     23100        404   4.620000   0.080800
+     23106        404   4.621200   0.080800
+     23106        404   4.621200   0.080800
+     23100        404   4.620000   0.080800
+     23106        404   4.621200   0.080800
+     23106        404   4.621200   0.080800
+     23100        404   4.620000   0.080800
+     23106        404   4.621200   0.080800
+     23106        404   4.621200   0.080800
+
+
+
+Instruction: rep movsq, count = 1000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    254148        406   5.082960   0.008120
+    113214        404   2.264280   0.008080
+    113214        404   2.264280   0.008080
+    113214        404   2.264280   0.008080
+    113214        404   2.264280   0.008080
+    113214        404   2.264280   0.008080
+    113214        404   2.264280   0.008080
+    113214        404   2.264280   0.008080
+    113214        404   2.264280   0.008080
+    113214        404   2.264280   0.008080
+
+
+
+Instruction: rep movsq, count = 10000
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   1951344        425   3.902688   0.000850
+   1623852        404   3.247704   0.000808
+   1623852        404   3.247704   0.000808
+   1623990        404   3.247980   0.000808
+   1674180        405   3.348360   0.000810
+   1775958        404   3.551916   0.000808
+   1623858        404   3.247716   0.000808
+   1623870        404   3.247740   0.000808
+   1623984        404   3.247968   0.000808
+   1749192        405   3.498384   0.000810
+
+
+Instruction: rep stosd, count = 100, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23070        404   9.228000   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+
+
+Instruction: rep stosd, count = 100, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23082        404   9.232800   0.161600
+    116898        404  46.759199   0.161600
+     23196        404   9.278400   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     23004        404   9.201600   0.161600
+     23004        404   9.201600   0.161600
+     23004        404   9.201600   0.161600
+
+
+Instruction: rep stosd, count = 100, misalign = 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23082        404   9.232800   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+
+
+Instruction: rep stosd, count = 1000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    186570        405   7.462800   0.016200
+     54900        404   2.196000   0.016160
+     54900        404   2.196000   0.016160
+     54900        404   2.196000   0.016160
+     54900        404   2.196000   0.016160
+     54900        404   2.196000   0.016160
+     54900        404   2.196000   0.016160
+     54900        404   2.196000   0.016160
+     54900        404   2.196000   0.016160
+     54900        404   2.196000   0.016160
+
+
+Instruction: rep stosd, count = 1000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    128334        405   5.133360   0.016200
+     57102        404   2.284080   0.016160
+    105684        405   4.227360   0.016200
+    116922        404   4.676880   0.016160
+     57102        404   2.284080   0.016160
+     57102        404   2.284080   0.016160
+     57102        404   2.284080   0.016160
+     57102        404   2.284080   0.016160
+     57096        404   2.283840   0.016160
+     57102        404   2.284080   0.016160
+
+
+Instruction: rep stosd, count = 1000, misalign = 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    190572        405   7.622880   0.016200
+     55704        404   2.228160   0.016160
+     55698        404   2.227920   0.016160
+     55698        404   2.227920   0.016160
+     55704        404   2.228160   0.016160
+     55698        404   2.227920   0.016160
+     55698        404   2.227920   0.016160
+     55698        404   2.227920   0.016160
+     55704        404   2.228160   0.016160
+     55704        404   2.228160   0.016160
+
+
+Instruction: rep stosd, count = 10000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    839376        414   3.357504   0.001656
+    729720        404   2.918880   0.001616
+    729720        404   2.918880   0.001616
+    729726        404   2.918904   0.001616
+    729720        404   2.918880   0.001616
+    881172        405   3.524688   0.001620
+    730272        404   2.921088   0.001616
+    729720        404   2.918880   0.001616
+    729720        404   2.918880   0.001616
+    729720        404   2.918880   0.001616
+
+
+Instruction: rep stosd, count = 10000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    951288        414   3.805152   0.001656
+    727746        404   2.910984   0.001616
+    727746        404   2.910984   0.001616
+    727746        404   2.910984   0.001616
+    727746        404   2.910984   0.001616
+    727746        404   2.910984   0.001616
+    727746        404   2.910984   0.001616
+    727740        404   2.910960   0.001616
+   1792014        405   7.168056   0.001620
+   1252302        404   5.009208   0.001616
+
+
+Instruction: rep stosd, count = 10000, misalign = 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    952344        414   3.809376   0.001656
+    726342        404   2.905368   0.001616
+    726348        404   2.905392   0.001616
+    838080        405   3.352320   0.001620
+    732366        404   2.929464   0.001616
+    726348        404   2.905392   0.001616
+    726342        404   2.905368   0.001616
+    726348        404   2.905392   0.001616
+    726342        404   2.905368   0.001616
+    726348        404   2.905392   0.001616
+
+
+Instruction: rep stosq, count = 100, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23112        404   9.244800   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+
+
+Instruction: rep stosq, count = 100, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     62832        404  25.132799   0.161600
+     62802        404  25.120799   0.161600
+     62802        404  25.120799   0.161600
+     62802        404  25.120799   0.161600
+     62802        404  25.120799   0.161600
+     62808        404  25.123199   0.161600
+     62802        404  25.120799   0.161600
+     62802        404  25.120799   0.161600
+     62802        404  25.120799   0.161600
+     62802        404  25.120799   0.161600
+
+
+Instruction: rep stosq, count = 100, misalign = 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23124        404   9.249600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+     23004        404   9.201600   0.161600
+     22998        404   9.199200   0.161600
+
+
+Instruction: rep stosq, count = 1000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    248100        406   9.924000   0.016240
+    107304        404   4.292160   0.016160
+    107298        404   4.291920   0.016160
+    107304        404   4.292160   0.016160
+    107298        404   4.291920   0.016160
+    107304        404   4.292160   0.016160
+    107298        404   4.291920   0.016160
+    107304        404   4.292160   0.016160
+    107304        404   4.292160   0.016160
+    107304        404   4.292160   0.016160
+
+
+Instruction: rep stosq, count = 1000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    778770        406  31.150799   0.016240
+    647604        404  25.904159   0.016160
+    755766        405  30.230639   0.016200
+    647604        404  25.904159   0.016160
+    647598        404  25.903919   0.016160
+    647604        404  25.904159   0.016160
+    647598        404  25.903919   0.016160
+    647598        404  25.903919   0.016160
+    647604        404  25.904159   0.016160
+    647598        404  25.903919   0.016160
+
+
+Instruction: rep stosq, count = 1000, misalign = 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    247662        406   9.906480   0.016240
+    108204        404   4.328160   0.016160
+    108204        404   4.328160   0.016160
+    108198        404   4.327920   0.016160
+    108204        404   4.328160   0.016160
+    108204        404   4.328160   0.016160
+    108198        404   4.327920   0.016160
+    108198        404   4.327920   0.016160
+    108204        404   4.328160   0.016160
+    108204        404   4.328160   0.016160
+
+
+Instruction: rep stosq, count = 10000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   1874784        425   7.499136   0.001700
+   1454430        404   5.817720   0.001616
+   1454430        404   5.817720   0.001616
+   1454430        404   5.817720   0.001616
+   1454430        404   5.817720   0.001616
+   1454430        404   5.817720   0.001616
+   3281400        405  13.125600   0.001620
+   1454430        404   5.817720   0.001616
+   1454436        404   5.817744   0.001616
+   1454430        404   5.817720   0.001616
+
+
+Instruction: rep stosq, count = 10000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   8836548        425  35.346192   0.001700
+   6384816        404  25.539264   0.001616
+   6424470        405  25.697880   0.001620
+   6533802        405  26.135208   0.001620
+   6499986        405  25.999944   0.001620
+   6568008        405  26.272032   0.001620
+   6384816        404  25.539264   0.001616
+   6502104        405  26.008416   0.001620
+   6566730        405  26.266920   0.001620
+   6562314        405  26.249256   0.001620
+
+
+Instruction: rep stosq, count = 10000, misalign = 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   1737024        424   6.948096   0.001696
+   1447920        404   5.791680   0.001616
+   2843682        405  11.374728   0.001620
+   2343678        404   9.374712   0.001616
+   1447920        404   5.791680   0.001616
+   1447920        404   5.791680   0.001616
+   1586538        405   6.346152   0.001620
+   1447920        404   5.791680   0.001616
+   1447920        404   5.791680   0.001616
+   1447920        404   5.791680   0.001616
+
+
+Instruction: rep movsd, count = 100, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23676        404   9.470400   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+
+
+Instruction: rep movsd, count = 100, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23676        404   9.470400   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+
+
+Instruction: rep movsd, count = 100, misalign = 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23700        404   9.480000   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+     23100        404   9.240000   0.161600
+
+
+Instruction: rep movsd, count = 1000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    191334        405   7.653360   0.016200
+     58920        404   2.356800   0.016160
+     58908        404   2.356320   0.016160
+     58914        404   2.356560   0.016160
+     58914        404   2.356560   0.016160
+     58908        404   2.356320   0.016160
+     58914        404   2.356560   0.016160
+     58914        404   2.356560   0.016160
+     58914        404   2.356560   0.016160
+     58914        404   2.356560   0.016160
+
+
+Instruction: rep movsd, count = 1000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    192228        405   7.689120   0.016200
+     61416        404   2.456640   0.016160
+     61416        404   2.456640   0.016160
+     61410        404   2.456400   0.016160
+     61416        404   2.456640   0.016160
+     61416        404   2.456640   0.016160
+     61410        404   2.456400   0.016160
+     61416        404   2.456640   0.016160
+     61410        404   2.456400   0.016160
+     61410        404   2.456400   0.016160
+
+
+Instruction: rep movsd, count = 1000, misalign = 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    191712        405   7.668480   0.016200
+     60012        404   2.400480   0.016160
+     60012        404   2.400480   0.016160
+     60012        404   2.400480   0.016160
+     60012        404   2.400480   0.016160
+     60012        404   2.400480   0.016160
+     60012        404   2.400480   0.016160
+     60012        404   2.400480   0.016160
+     60012        404   2.400480   0.016160
+     60012        404   2.400480   0.016160
+
+
+Instruction: rep movsd, count = 10000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   1022988        414   4.091952   0.001656
+    814968        404   3.259872   0.001616
+    931224        405   3.724896   0.001620
+    814902        404   3.259608   0.001616
+    814968        404   3.259872   0.001616
+    814938        404   3.259752   0.001616
+    814950        404   3.259800   0.001616
+    814926        404   3.259704   0.001616
+    814968        404   3.259872   0.001616
+    814944        404   3.259776   0.001616
+
+
+Instruction: rep movsd, count = 10000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   1004118        414   4.016472   0.001656
+    809196        404   3.236784   0.001616
+    809328        404   3.237312   0.001616
+    915108        405   3.660432   0.001620
+    809190        404   3.236760   0.001616
+    809196        404   3.236784   0.001616
+    809328        404   3.237312   0.001616
+    809364        404   3.237456   0.001616
+    809328        404   3.237312   0.001616
+    809388        404   3.237552   0.001616
+
+
+Instruction: rep movsd, count = 10000, misalign = 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   1022946        414   4.091784   0.001656
+    808434        404   3.233736   0.001616
+    808440        404   3.233760   0.001616
+    859572        405   3.438288   0.001620
+    874104        404   3.496416   0.001616
+    808440        404   3.233760   0.001616
+    808452        404   3.233808   0.001616
+    808380        404   3.233520   0.001616
+    808374        404   3.233496   0.001616
+    808494        404   3.233976   0.001616
+
+
+Instruction: rep movsq, count = 100, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23574        404   9.429600   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+
+
+Instruction: rep movsq, count = 100, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     61398        404  24.559199   0.161600
+     61098        404  24.439199   0.161600
+     61104        404  24.441599   0.161600
+     61098        404  24.439199   0.161600
+     61104        404  24.441599   0.161600
+     61098        404  24.439199   0.161600
+     61104        404  24.441599   0.161600
+     61098        404  24.439199   0.161600
+     61104        404  24.441599   0.161600
+     61098        404  24.439199   0.161600
+
+
+Instruction: rep movsq, count = 100, misalign = 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     23604        404   9.441600   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+     23106        404   9.242400   0.161600
+
+
+Instruction: rep movsq, count = 1000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    254910        406  10.196400   0.016240
+    113214        404   4.528560   0.016160
+    113214        404   4.528560   0.016160
+    113214        404   4.528560   0.016160
+    113214        404   4.528560   0.016160
+    113214        404   4.528560   0.016160
+    113214        404   4.528560   0.016160
+    113214        404   4.528560   0.016160
+    113214        404   4.528560   0.016160
+    113214        404   4.528560   0.016160
+
+
+Instruction: rep movsq, count = 1000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    752070        406  30.082799   0.016240
+    622200        404  24.887999   0.016160
+    622200        404  24.887999   0.016160
+    622200        404  24.887999   0.016160
+    622206        404  24.888239   0.016160
+    622206        404  24.888239   0.016160
+    622200        404  24.887999   0.016160
+    622200        404  24.887999   0.016160
+    622200        404  24.887999   0.016160
+    622200        404  24.887999   0.016160
+
+
+Instruction: rep movsq, count = 1000, misalign = 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    253116        406  10.124640   0.016240
+    113712        404   4.548480   0.016160
+    113712        404   4.548480   0.016160
+    113712        404   4.548480   0.016160
+    113712        404   4.548480   0.016160
+    113712        404   4.548480   0.016160
+    113712        404   4.548480   0.016160
+    113712        404   4.548480   0.016160
+    113712        404   4.548480   0.016160
+    113712        404   4.548480   0.016160
+
+
+Instruction: rep movsq, count = 10000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   1915578        424   7.662312   0.001696
+   1759458        405   7.037832   0.001620
+   1623858        404   6.495432   0.001616
+   1623864        404   6.495456   0.001616
+   1623858        404   6.495432   0.001616
+   1623864        404   6.495456   0.001616
+   3547722        405  14.190888   0.001620
+   1623984        404   6.495936   0.001616
+   1623864        404   6.495456   0.001616
+   1623864        404   6.495456   0.001616
+
+
+Instruction: rep movsq, count = 10000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   6547068        425  26.188272   0.001700
+   6405456        405  25.621824   0.001620
+   6266190        405  25.064760   0.001620
+   6145116        404  24.580464   0.001616
+   6341154        405  25.364616   0.001620
+   6276642        405  25.106568   0.001620
+   8948256        405  35.793024   0.001620
+   6466860        405  25.867440   0.001620
+   6264954        405  25.059816   0.001620
+   6397590        405  25.590360   0.001620
+
+
+Instruction: rep movsq, count = 10000, misalign = 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   1897500        424   7.590000   0.001696
+   1731396        405   6.925584   0.001620
+   1605966        404   6.423864   0.001616
+   1606068        404   6.424272   0.001616
+   1605990        404   6.423960   0.001616
+   1606056        404   6.424224   0.001616
+   3523260        405  14.093040   0.001620
+   1606026        404   6.424104   0.001616
+   1606008        404   6.424032   0.001616
+   1723842        405   6.895368   0.001620
+
+
+Instruction: repe scasb, count = 100, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     25590        404  10.236000   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+
+
+Instruction: repe scasb, count = 100, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     25590        404  10.236000   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+
+
+Instruction: repe scasb, count = 1000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    228090        404   9.123600   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    277710        405  11.108400   0.016200
+    285102        404  11.404080   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+
+
+Instruction: repe scasb, count = 1000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    228174        404   9.126960   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+
+
+Instruction: repe scasb, count = 10000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   2253564        404   9.014256   0.001616
+   2430138        405   9.720552   0.001620
+   2252904        404   9.011616   0.001616
+   2252898        404   9.011592   0.001616
+   2309472        405   9.237888   0.001620
+   2317920        404   9.271680   0.001616
+   2252898        404   9.011592   0.001616
+   2252898        404   9.011592   0.001616
+   2436402        405   9.745608   0.001620
+   2252904        404   9.011616   0.001616
+
+
+Instruction: repe scasb, count = 10000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   2253558        404   9.014232   0.001616
+   3036516        405  12.146064   0.001620
+   2692992        404  10.771968   0.001616
+   2252904        404   9.011616   0.001616
+   2375292        405   9.501168   0.001620
+   2252904        404   9.011616   0.001616
+   2252898        404   9.011592   0.001616
+   2252898        404   9.011592   0.001616
+   2435496        405   9.741984   0.001620
+   2252904        404   9.011616   0.001616
+
+
+Instruction: repe scasw, count = 100, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     25656        404  10.262400   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+
+
+Instruction: repe scasw, count = 100, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     25704        404  10.281600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+
+
+Instruction: repe scasw, count = 1000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    228672        404   9.146880   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+
+
+Instruction: repe scasw, count = 1000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    229182        404   9.167280   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    281448        405  11.257920   0.016200
+    284136        404  11.365440   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+
+
+Instruction: repe scasw, count = 10000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   2255190        404   9.020760   0.001616
+   2252898        404   9.011592   0.001616
+   2252904        404   9.011616   0.001616
+   3336984        405  13.347936   0.001620
+   2252904        404   9.011616   0.001616
+   2252898        404   9.011592   0.001616
+   2303412        405   9.213648   0.001620
+   2252898        404   9.011592   0.001616
+   2252904        404   9.011616   0.001616
+   2394930        405   9.579720   0.001620
+
+
+Instruction: repe scasw, count = 10000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   2254590        404   9.018360   0.001616
+   2449656        405   9.798624   0.001620
+   2252904        404   9.011616   0.001616
+   2252898        404   9.011592   0.001616
+   2371674        405   9.486696   0.001620
+   2252904        404   9.011616   0.001616
+   2252898        404   9.011592   0.001616
+   2252904        404   9.011616   0.001616
+   2495634        405   9.982536   0.001620
+   2252898        404   9.011592   0.001616
+
+
+Instruction: repe scasd, count = 100, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     25770        404  10.308000   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+
+
+Instruction: repe scasd, count = 100, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     25752        404  10.300800   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+
+
+Instruction: repe scasd, count = 1000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    228918        404   9.156720   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+
+
+Instruction: repe scasd, count = 1000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    336576        405  13.463040   0.016200
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227904        404   9.116160   0.016160
+    227904        404   9.116160   0.016160
+
+
+Instruction: repe scasd, count = 10000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   2337030        404   9.348120   0.001616
+   2332338        404   9.329352   0.001616
+   2332344        404   9.329376   0.001616
+   3644526        405  14.578104   0.001620
+   2332344        404   9.329376   0.001616
+   2459106        405   9.836424   0.001620
+   2332344        404   9.329376   0.001616
+   2332338        404   9.329352   0.001616
+   2332344        404   9.329376   0.001616
+   2521344        405  10.085376   0.001620
+
+
+Instruction: repe scasd, count = 10000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   2351826        404   9.407304   0.001616
+   2347542        404   9.390168   0.001616
+   2347548        404   9.390192   0.001616
+   4282344        405  17.129376   0.001620
+   2347542        404   9.390168   0.001616
+   2458332        405   9.833328   0.001620
+   2347542        404   9.390168   0.001616
+   2347548        404   9.390192   0.001616
+   2347542        404   9.390168   0.001616
+   2467476        405   9.869904   0.001620
+
+
+Instruction: repe scasq, count = 100, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     25692        404  10.276800   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+     25404        404  10.161600   0.161600
+     25398        404  10.159200   0.161600
+
+
+Instruction: repe scasq, count = 100, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     43704        404  17.481600   0.161600
+     43500        404  17.400000   0.161600
+     43500        404  17.400000   0.161600
+     43500        404  17.400000   0.161600
+     43506        404  17.402400   0.161600
+     43506        404  17.402400   0.161600
+     43500        404  17.400000   0.161600
+     43500        404  17.400000   0.161600
+     43500        404  17.400000   0.161600
+     43500        404  17.400000   0.161600
+
+
+Instruction: repe scasq, count = 1000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    229266        404   9.170640   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+    227904        404   9.116160   0.016160
+    227898        404   9.115920   0.016160
+
+
+Instruction: repe scasq, count = 1000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    421464        404  16.858560   0.016160
+    420000        404  16.800000   0.016160
+    420000        404  16.800000   0.016160
+    420000        404  16.800000   0.016160
+    525900        405  21.035999   0.016200
+    420000        404  16.800000   0.016160
+    420006        404  16.800240   0.016160
+    420000        404  16.800000   0.016160
+    420000        404  16.800000   0.016160
+    420000        404  16.800000   0.016160
+
+
+Instruction: repe scasq, count = 10000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   2391132        405   9.564528   0.001620
+   2398962        405   9.595848   0.001620
+   2349426        404   9.397704   0.001616
+   2349426        404   9.397704   0.001616
+   2527866        405  10.111464   0.001620
+   2349426        404   9.397704   0.001616
+   2349426        404   9.397704   0.001616
+   2398524        405   9.594096   0.001620
+   2414988        404   9.659952   0.001616
+   2349426        404   9.397704   0.001616
+
+
+Instruction: repe scasq, count = 10000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   4339254        406  17.357016   0.001624
+   4175910        404  16.703640   0.001616
+   4446870        405  17.787480   0.001620
+   4175910        404  16.703640   0.001616
+   4301808        405  17.207232   0.001620
+   4175910        404  16.703640   0.001616
+   4374192        405  17.496768   0.001620
+   4175910        404  16.703640   0.001616
+   4295052        405  17.180208   0.001620
+   4175910        404  16.703640   0.001616
+
+
+Instruction: repe cmpsb, count = 100, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     33102        404  13.240800   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+
+
+Instruction: repe cmpsb, count = 100, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     83898        405  33.559199   0.162000
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+     90636        404  36.254399   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+
+
+Instruction: repe cmpsb, count = 1000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    303156        404  12.126240   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+
+
+Instruction: repe cmpsb, count = 1000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    303138        404  12.125520   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+
+
+Instruction: repe cmpsb, count = 10000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   3131208        405  12.524832   0.001620
+   3002904        404  12.011616   0.001616
+   3002898        404  12.011592   0.001616
+   3201516        405  12.806064   0.001620
+   3002904        404  12.011616   0.001616
+   3002898        404  12.011592   0.001616
+   3157728        405  12.630912   0.001620
+   3002904        404  12.011616   0.001616
+   4396086        405  17.584344   0.001620
+   3111018        404  12.444072   0.001616
+
+
+Instruction: repe cmpsb, count = 10000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   3003528        404  12.014112   0.001616
+   3002898        404  12.011592   0.001616
+   3153402        405  12.613608   0.001620
+   3002904        404  12.011616   0.001616
+   3199872        405  12.799488   0.001620
+   3002904        404  12.011616   0.001616
+   3002898        404  12.011592   0.001616
+   3128868        405  12.515472   0.001620
+   3002904        404  12.011616   0.001616
+   3202092        405  12.808368   0.001620
+
+
+Instruction: repe cmpsw, count = 100, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     33714        404  13.485600   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     82644        405  33.057599   0.162000
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     91386        404  36.554399   0.161600
+     32898        404  13.159200   0.161600
+
+
+Instruction: repe cmpsw, count = 100, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     83730        405  33.491999   0.162000
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+     90480        404  36.191999   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+
+
+Instruction: repe cmpsw, count = 1000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    304104        404  12.164160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+
+
+Instruction: repe cmpsw, count = 1000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    303768        404  12.150720   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+
+
+Instruction: repe cmpsw, count = 10000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   3004560        404  12.018240   0.001616
+   3076152        405  12.304608   0.001620
+   4470036        404  17.880144   0.001616
+   3002904        404  12.011616   0.001616
+   3157482        405  12.629928   0.001620
+   3002904        404  12.011616   0.001616
+   3213120        405  12.852480   0.001620
+   3002904        404  12.011616   0.001616
+   3002898        404  12.011592   0.001616
+   3144276        405  12.577104   0.001620
+
+
+Instruction: repe cmpsw, count = 10000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   3005262        404  12.021048   0.001616
+   4568772        405  18.275088   0.001620
+   3002904        404  12.011616   0.001616
+   3129120        405  12.516480   0.001620
+   3002904        404  12.011616   0.001616
+   3002898        404  12.011592   0.001616
+   3065286        405  12.261144   0.001620
+   3002904        404  12.011616   0.001616
+   3002898        404  12.011592   0.001616
+   3110802        405  12.443208   0.001620
+
+
+Instruction: repe cmpsd, count = 100, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     34260        404  13.704000   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+    112050        404  44.819999   0.161600
+
+
+Instruction: repe cmpsd, count = 100, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     33390        404  13.356000   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+     32904        404  13.161600   0.161600
+     32898        404  13.159200   0.161600
+
+
+Instruction: repe cmpsd, count = 1000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    304746        404  12.189840   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+
+
+Instruction: repe cmpsd, count = 1000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    304116        404  12.164640   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+    302904        404  12.116160   0.016160
+    302898        404  12.115920   0.016160
+
+
+Instruction: repe cmpsd, count = 10000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   3091020        404  12.364080   0.001616
+   3331842        406  13.327368   0.001624
+   3086748        404  12.346992   0.001616
+   3261264        406  13.045056   0.001624
+   3086748        404  12.346992   0.001616
+   3086754        404  12.347016   0.001616
+   3245682        405  12.982728   0.001620
+   3086748        404  12.346992   0.001616
+   3129168        405  12.516672   0.001620
+   3086748        404  12.346992   0.001616
+
+
+Instruction: repe cmpsd, count = 10000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   3233736        405  12.934944   0.001620
+   3083226        404  12.332904   0.001616
+   4013310        405  16.053240   0.001620
+   3083226        404  12.332904   0.001616
+   3083232        404  12.332928   0.001616
+   3228636        405  12.914544   0.001620
+   3083226        404  12.332904   0.001616
+   3137244        405  12.548976   0.001620
+   3083226        404  12.332904   0.001616
+   3083226        404  12.332904   0.001616
+
+
+Instruction: repe cmpsq, count = 100, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     33516        404  13.406400   0.161600
+     32910        404  13.164000   0.161600
+     32916        404  13.166400   0.161600
+     32910        404  13.164000   0.161600
+     32916        404  13.166400   0.161600
+     32910        404  13.164000   0.161600
+     32916        404  13.166400   0.161600
+     32910        404  13.164000   0.161600
+     32916        404  13.166400   0.161600
+     32910        404  13.164000   0.161600
+
+
+Instruction: repe cmpsq, count = 100, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+     68124        404  27.249599   0.161600
+     67698        404  27.079199   0.161600
+     67704        404  27.081599   0.161600
+     67698        404  27.079199   0.161600
+     67704        404  27.081599   0.161600
+     67698        404  27.079199   0.161600
+     67704        404  27.081599   0.161600
+     67698        404  27.079199   0.161600
+     67704        404  27.081599   0.161600
+     67698        404  27.079199   0.161600
+
+
+Instruction: repe cmpsq, count = 1000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    304662        404  12.186480   0.016160
+    302910        404  12.116400   0.016160
+    302916        404  12.116640   0.016160
+    302910        404  12.116400   0.016160
+    302916        404  12.116640   0.016160
+    302910        404  12.116400   0.016160
+    302916        404  12.116640   0.016160
+    302910        404  12.116400   0.016160
+    302916        404  12.116640   0.016160
+    302910        404  12.116400   0.016160
+
+
+Instruction: repe cmpsq, count = 1000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+    675816        404  27.032639   0.016160
+    674802        404  26.992079   0.016160
+    674802        404  26.992079   0.016160
+    674802        404  26.992079   0.016160
+    674802        404  26.992079   0.016160
+    674802        404  26.992079   0.016160
+    674802        404  26.992079   0.016160
+    674802        404  26.992079   0.016160
+    790716        405  31.628639   0.016200
+    674802        404  26.992079   0.016160
+
+
+Instruction: repe cmpsq, count = 10000, misalign = 0 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   3546630        405  14.186520   0.001620
+   3426342        404  13.705368   0.001616
+   5571396        405  22.285584   0.001620
+   3505128        405  14.020512   0.001620
+   3504246        404  14.016984   0.001616
+   3426342        404  13.705368   0.001616
+   3478074        405  13.912296   0.001620
+   3426342        404  13.705368   0.001616
+   3455736        405  13.822944   0.001620
+   3426342        404  13.705368   0.001616
+
+
+Instruction: repe cmpsq, count = 10000, misalign = 4 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr  clock/16B   uops/16B 
+   6930120        406  27.720480   0.001624
+   6726702        404  26.906808   0.001616
+   6867204        405  27.468816   0.001620
+   6780774        405  27.123096   0.001620
+   6756006        405  27.024024   0.001620
+   6743862        405  26.975448   0.001620
+   6751722        405  27.006888   0.001620
+   6761592        405  27.046368   0.001620
+   6726702        404  26.906808   0.001616
+   6753432        405  27.013728   0.001620
+
+
+
+
+
+Latency: pcmpestri xmm1,xmm1,0 / movd xmm1,ecx
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    940038      20211 
+    940038      20211 
+   1862418      20212 
+    940020      20211 
+    940020      20211 
+    940020      20211 
+    940020      20211 
+    940020      20211 
+    940020      20211 
+   1011462      20212 
+
+
+Latency: pcmpestri xmm1,xmm1,3 / movd xmm1,ecx
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    720036      20211 
+    720036      20211 
+    720024      20211 
+    770766      20211 
+    720018      20211 
+    720024      20211 
+    720024      20211 
+    720018      20211 
+    865932      20212 
+    720018      20211 
+
+
+Latency: pcmpestri xmm1,xmm1,4 / movd xmm1,ecx
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1380036      20211 
+   1380036      20211 
+   1512984      20212 
+   1380018      20211 
+   1380024      20211 
+   1380024      20211 
+   1380018      20211 
+   1380018      20211 
+   1520358      20213 
+   1380018      20211 
+
+
+Latency: pcmpestri xmm1,xmm1,8 / movd xmm1,ecx
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    380040      20211 
+    380022      20211 
+    380022      20211 
+    380022      20211 
+    380022      20211 
+    380022      20211 
+    380022      20211 
+    380022      20211 
+    380022      20211 
+    380022      20211 
+
+
+Latency: pcmpestri xmm1,xmm1,0xC / movd xmm1,ecx
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1590042      20211 
+   1590042      20211 
+   1590018      20211 
+   1744752      20212 
+   1590018      20211 
+   1590024      20211 
+   1590018      20211 
+   1590024      20211 
+   1719840      20212 
+   1590018      20211 
+
+
+Throughput: pcmpestri xmm,xmm,0
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    930120      10211 
+   1002732      10212 
+    981084      10211 
+    930120      10211 
+    930120      10211 
+    930120      10211 
+    930120      10211 
+    930120      10211 
+    930120      10211 
+   1006170      10212 
+
+
+Throughput: pcmpestri xmm,[mem],0
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    930144      10211 
+    930156      10211 
+    930120      10211 
+    930120      10211 
+    930120      10211 
+    930120      10211 
+    930120      10211 
+   1074384      10212 
+    930120      10211 
+    930120      10211 
+
+
+Latency: pcmpestrm xmm0,xmm0,0
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1075098      10212 
+    940122      10211 
+    940116      10211 
+    940122      10211 
+    940116      10211 
+    940122      10211 
+    940116      10211 
+    940122      10211 
+   1022292      10212 
+   1827906      10211 
+
+
+Latency: pcmpestrm xmm0,xmm0,3
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    720138      10211 
+    720138      10211 
+    720120      10211 
+    720120      10211 
+    720120      10211 
+    720120      10211 
+    720120      10211 
+    720120      10211 
+    807114      10212 
+    720120      10211 
+
+
+Latency: pcmpestrm xmm0,xmm0,4
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1380120      10211 
+   1380138      10211 
+   1380120      10211 
+   1380120      10211 
+   1380120      10211 
+   1569342      10212 
+   1380120      10211 
+   1380120      10211 
+   1380138      10211 
+   1380120      10211 
+
+
+Latency: pcmpestrm xmm0,xmm0,8
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    380136      10211 
+    380136      10211 
+    380118      10211 
+    380118      10211 
+    380124      10211 
+    380124      10211 
+    514560      10212 
+    380118      10211 
+    380118      10211 
+    380118      10211 
+
+
+Latency: pcmpestrm xmm0,xmm0,0xC
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2887410      10212 
+   1590138      10211 
+   1590120      10211 
+   1590120      10211 
+   1698030      10212 
+   1590120      10211 
+   1590120      10211 
+   1590120      10211 
+   1590120      10211 
+   1830426      10212 
+
+
+Throughput: pcmpestrm xmm,xmm,0
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    940116      10211 
+    940134      10211 
+    940122      10211 
+    940116      10211 
+    940122      10211 
+    940116      10211 
+   1047582      10212 
+    940116      10211 
+    940122      10211 
+    940116      10211 
+
+
+Throughput: pcmpestrm xmm,[mem],0
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    940146      10211 
+    940134      10211 
+   1048164      10212 
+    997002      10211 
+    940116      10211 
+    940122      10211 
+    995706      10211 
+    940116      10211 
+    940122      10211 
+    940116      10211 
+
+
+Latency: pcmpistri xmm1,xmm1,0 / movd xmm1,ecx
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    620016      20211 
+    727860      20212 
+    620022      20211 
+    620022      20211 
+    620022      20211 
+    620022      20211 
+    620022      20211 
+    620022      20211 
+    620016      20211 
+    620022      20211 
+
+
+Latency: pcmpistri xmm1,xmm1,3 / movd xmm1,ecx
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    640020      20211 
+    808062      20212 
+    640020      20211 
+    640020      20211 
+    640020      20211 
+    640020      20211 
+    640020      20211 
+    640020      20211 
+    640020      20211 
+    640020      20211 
+
+
+Latency: pcmpistri xmm1,xmm1,4 / movd xmm1,ecx
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    730020      20211 
+    730038      20211 
+    730020      20211 
+    779886      20212 
+    787338      20211 
+    730020      20211 
+    730020      20211 
+    730020      20211 
+    730020      20211 
+    730038      20211 
+
+
+Latency: pcmpistri xmm1,xmm1,8 / movd xmm1,ecx
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    370020      20211 
+    370038      20211 
+    370020      20211 
+    370020      20211 
+    370020      20211 
+    370020      20211 
+    370020      20211 
+    420108      20212 
+    427464      20211 
+    370020      20211 
+
+
+Latency: pcmpistri xmm1,xmm1,0xC / movd xmm1,ecx
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    630018      20211 
+    630036      20211 
+    630024      20211 
+    630018      20211 
+    630018      20211 
+    630024      20211 
+    630018      20211 
+    630018      20211 
+    630024      20211 
+    630018      20211 
+
+
+Throughput: pcmpistri xmm,xmm,0
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    570138      10211 
+    570138      10211 
+    570120      10211 
+    570120      10211 
+    570120      10211 
+    570120      10211 
+    570120      10211 
+    570120      10211 
+    570120      10211 
+    570120      10211 
+
+
+Throughput: pcmpistri xmm,[mem],0
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    570156      10211 
+    570138      10211 
+    570120      10211 
+    570120      10211 
+    621672      10212 
+    684330      10211 
+    570120      10211 
+    570120      10211 
+    570120      10211 
+    570120      10211 
+
+
+Latency: pcmpistrm xmm0,xmm0,0
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    580134      10211 
+    580134      10211 
+    580122      10211 
+    580116      10211 
+    580122      10211 
+    580116      10211 
+    766530      10212 
+    855138      10211 
+    580116      10211 
+    580122      10211 
+
+
+Latency: pcmpistrm xmm0,xmm0,3
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    600138      10211 
+    600138      10211 
+    600120      10211 
+    600120      10211 
+    600120      10211 
+    600120      10211 
+    600120      10211 
+    600120      10211 
+    600120      10211 
+    600120      10211 
+
+
+Latency: pcmpistrm xmm0,xmm0,4
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    837996      10212 
+    730134      10211 
+    730122      10211 
+    730116      10211 
+    730122      10211 
+    730116      10211 
+    730122      10211 
+    730116      10211 
+    730122      10211 
+    730116      10211 
+
+
+Latency: pcmpistrm xmm0,xmm0,8
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    370134      10211 
+    370134      10211 
+    370122      10211 
+    370116      10211 
+    370122      10211 
+    370116      10211 
+    370122      10211 
+    370116      10211 
+    464130      10211 
+    438726      10211 
+
+
+Latency: pcmpistrm xmm0,xmm0,0xC
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    850116      10211 
+    850152      10211 
+    850122      10211 
+    850116      10211 
+   1309932      10213 
+    850116      10211 
+    850122      10211 
+    850116      10211 
+    850122      10211 
+    850116      10211 
+
+
+Throughput: pcmpistrm xmm,xmm,0
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    580134      10211 
+    580134      10211 
+    580122      10211 
+    580116      10211 
+    580122      10211 
+    580116      10211 
+    580122      10211 
+    580116      10211 
+    580122      10211 
+    687588      10212 
+
+
+Throughput: pcmpistrm xmm,[mem],0
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    580158      10211 
+    580134      10211 
+    580122      10211 
+    580134      10211 
+    631098      10212 
+    637698      10211 
+    580116      10211 
+    580122      10211 
+    580116      10211 
+    580122      10211 
+
+

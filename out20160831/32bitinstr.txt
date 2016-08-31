@@ -1,0 +1,22 @@
+into	8.82	miss
+bound	13.73	miss
+pushad	15.09	miss
+aam_throughput	13.36	miss
+enter 4, 1	53.28	miss
+aam_latency	32.0	miss
+enter 4, 4	73.26	miss
+enter 4, 0	21.9	miss
+daa	47.01	miss
+enter 4, 2	63.91	miss
+enter 4, 3	70.55	miss
+das	56.8	miss
+aad	26.44	miss
+sahf	1.08	miss
+aaa	45.05	miss
+lahf_sahf	1.09	miss
+salc	7.85	miss
+leave	9.09	miss
+salc_inc_al	5.94	miss
+popad	12.4	miss
+aas	57.59	miss
+lahf	0.98	miss

@@ -1,0 +1,9 @@
+pop , operand: SP	miss	3.09
+pop , operand: M	miss	1.89
+push , operand: R	miss	3.63
+pop , operand: F	miss	20.27
+push , operand: M	miss	1.68
+push , operand: SP	miss	1.59
+push , operand: I	miss	1.57
+push , operand: F	miss	1.65
+pop , operand: R	miss	1.16

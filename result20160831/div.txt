@@ -1,0 +1,768 @@
+Division instructions latency and throughput
+
+OBS: Subtract 2 from instructions/uops count
+Subtract 1 clock from latencies
+
+
+Latency: div , registersize 8, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    234006      30223 
+    233988      30223 
+    233982      30223 
+    233988      30223 
+    233988      30223 
+    233988      30223 
+    233988      30223 
+    233988      30223 
+    234006      30223 
+    305574      30224 
+
+
+Throughput: div , registersize 8, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    170064      30223 
+    170088      30223 
+    170034      30223 
+    170034      30223 
+    170034      30223 
+    170034      30223 
+    170034      30223 
+    170034      30223 
+    170034      30223 
+    170034      30223 
+
+
+Throughput with memory operand: div , registersize 8, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    170064      30223 
+    170034      30223 
+    170034      30223 
+    170034      30223 
+    170034      30223 
+    170034      30223 
+    170034      30223 
+    170034      30223 
+    170034      30223 
+    170034      30223 
+
+
+Latency: div , registersize 16, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    246024      30214 
+    246048      30214 
+    246030      30214 
+    246030      30214 
+    246030      30214 
+    246030      30214 
+    246030      30214 
+    418200      30216 
+    302868      30214 
+    246024      30214 
+
+
+Throughput: div , registersize 16, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034      30214 
+    200058      30214 
+    200034      30214 
+    200034      30214 
+    200028      30214 
+    200034      30214 
+    200034      30214 
+    200028      30214 
+    200034      30214 
+    200034      30214 
+
+
+Throughput with memory operand: div , registersize 16, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034      30214 
+    200028      30214 
+    200034      30214 
+    200034      30214 
+    200028      30214 
+    200034      30214 
+    200034      30214 
+    200028      30214 
+    200034      30214 
+    200034      30214 
+
+
+Latency: div , registersize 32, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    213648      30211 
+    213666      30211 
+    213624      30211 
+    213624      30211 
+    213624      30211 
+    213630      30211 
+    213624      30211 
+    213624      30211 
+    213624      30211 
+    213624      30211 
+
+
+Throughput: div , registersize 32, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    170058      30211 
+    170028      30211 
+    170034      30211 
+    170028      30211 
+    170034      30211 
+    170028      30211 
+    170034      30211 
+    170028      30211 
+    170034      30211 
+    170028      30211 
+
+
+Throughput with memory operand: div , registersize 32, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    170058      30211 
+    170028      30211 
+    170034      30211 
+    170028      30211 
+    170034      30211 
+    170028      30211 
+    170034      30211 
+    170028      30211 
+    170034      30211 
+    170028      30211 
+
+
+Latency: div , registersize 64, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1560024      30210 
+   1560060      30210 
+   1702638      30212 
+   1560018      30210 
+   1560024      30210 
+   1560018      30210 
+   1560024      30210 
+   1676280      30211 
+   1560018      30210 
+   1560024      30210 
+
+
+Throughput: div , registersize 64, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1560024      30210 
+   1682160      30211 
+   1560018      30210 
+   1560024      30210 
+   1560018      30210 
+   1560024      30210 
+   1693770      30211 
+   1560018      30210 
+   1560024      30210 
+   1560018      30210 
+
+
+Throughput with memory operand: div , registersize 64, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1560024      30210 
+   1560042      30210 
+   1693656      30211 
+   1560018      30210 
+   1560024      30210 
+   1560018      30210 
+   1560024      30210 
+   2539590      30212 
+   1560018      30210 
+   1560024      30210 
+
+
+Latency: idiv , registersize 8, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    230040      30223 
+    230058      30223 
+    230022      30223 
+    230022      30223 
+    230022      30223 
+    230022      30223 
+    230022      30223 
+    230028      30223 
+    230022      30223 
+    230022      30223 
+
+
+Throughput: idiv , registersize 8, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    210048      30223 
+    210066      30223 
+    210030      30223 
+    210030      30223 
+    210024      30223 
+    210024      30223 
+    282846      30224 
+    210024      30223 
+    210024      30223 
+    210030      30223 
+
+
+Throughput with memory operand: idiv , registersize 8, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    220044      30223 
+    220026      30223 
+    220026      30223 
+    220026      30223 
+    220026      30223 
+    220026      30223 
+    220026      30223 
+    220026      30223 
+    220026      30223 
+    220026      30223 
+
+
+Latency: idiv , registersize 16, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    220032      30214 
+    220050      30214 
+    220026      30214 
+    220026      30214 
+    220026      30214 
+    220026      30214 
+    220026      30214 
+    220026      30214 
+    220026      30214 
+    220026      30214 
+
+
+Throughput: idiv , registersize 16, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    210024      30214 
+    210048      30214 
+    210024      30214 
+    210030      30214 
+    210024      30214 
+    210024      30214 
+    210030      30214 
+    210048      30214 
+    210024      30214 
+    210024      30214 
+
+
+Throughput with memory operand: idiv , registersize 16, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    210024      30214 
+    210072      30214 
+    335034      30215 
+    210024      30214 
+    210054      30214 
+    210054      30214 
+    210048      30214 
+    210054      30214 
+    210048      30214 
+    210054      30214 
+
+
+Latency: idiv , registersize 32, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    336834      30212 
+    203316      30211 
+    203316      30211 
+    203316      30211 
+    203316      30211 
+    203322      30211 
+    203316      30211 
+    203316      30211 
+    203316      30211 
+    203316      30211 
+
+
+Throughput: idiv , registersize 32, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    160044      30211 
+    160056      30211 
+    160020      30211 
+    160026      30211 
+    160020      30211 
+    160020      30211 
+    160026      30211 
+    160020      30211 
+    160020      30211 
+    293820      30212 
+
+
+Throughput with memory operand: idiv , registersize 32, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    218502      30211 
+    160026      30211 
+    160026      30211 
+    160026      30211 
+    160026      30211 
+    160026      30211 
+    160026      30211 
+    160056      30211 
+    160026      30211 
+    160026      30211 
+
+
+Latency: idiv , registersize 64, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2679210      30211 
+   1970040      30210 
+   1970022      30210 
+   1970022      30210 
+   2059956      30211 
+   1970022      30210 
+   1970022      30210 
+   1970022      30210 
+   2121588      30211 
+   1970022      30210 
+
+
+Throughput: idiv , registersize 64, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1970022      30210 
+   1970040      30210 
+   2020380      30211 
+   2027532      30210 
+   1970022      30210 
+   1970022      30210 
+   2022744      30211 
+   2084394      30210 
+   1970022      30210 
+   1970022      30210 
+
+
+Throughput with memory operand: idiv , registersize 64, 1 / 1 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1970022      30210 
+   1970040      30210 
+   1970022      30210 
+   2136378      30211 
+   1970022      30210 
+   1970022      30210 
+   1970022      30210 
+   2079042      30211 
+   1970022      30210 
+   1970022      30210 
+
+
+
+
+Latency: div , registersize 8 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    255462      30223 
+    255462      30223 
+    255456      30223 
+    255456      30223 
+    255462      30223 
+    255456      30223 
+    363534      30224 
+    255456      30223 
+    255456      30223 
+    255462      30223 
+
+
+Throughput: div , registersize 8 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    170028      30223 
+    170058      30223 
+    170028      30223 
+    170028      30223 
+    170034      30223 
+    170028      30223 
+    170028      30223 
+    170034      30223 
+    170028      30223 
+    170028      30223 
+
+
+Latency: div , registersize 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    286656      30214 
+    286674      30214 
+    286656      30214 
+    286656      30214 
+    388338      30215 
+    286656      30214 
+    286656      30214 
+    286656      30214 
+    286656      30214 
+    286656      30214 
+
+
+Throughput: div , registersize 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034      30214 
+    200070      30214 
+    200034      30214 
+    200034      30214 
+    200040      30214 
+    200034      30214 
+    200034      30214 
+    200040      30214 
+    200034      30214 
+    200034      30214 
+
+
+Latency: div , registersize 32 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    296676      30211 
+    296676      30211 
+    296658      30211 
+    296664      30211 
+    296658      30211 
+    296676      30211 
+    296664      30211 
+    397560      30212 
+    296658      30211 
+    296658      30211 
+
+
+Throughput: div , registersize 32 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200064      30211 
+    200064      30211 
+    200028      30211 
+    200034      30211 
+    200034      30211 
+    200034      30211 
+    200034      30211 
+    200034      30211 
+    200028      30211 
+    200034      30211 
+
+
+Latency: div , registersize 64 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1730022      30232 
+   1730040      30232 
+   1951794      30234 
+   1730016      30232 
+   1730022      30232 
+   1730016      30232 
+   1860456      30233 
+   1730016      30232 
+   1730022      30232 
+   1730016      30232 
+
+
+Throughput: div , registersize 64 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1750020      30232 
+   1750038      30232 
+   1822962      30233 
+   1750020      30232 
+   1750020      30232 
+   1750020      30232 
+   1750020      30232 
+   1783092      30233 
+   1750020      30232 
+   1750020      30232 
+
+
+Latency: idiv , registersize 8 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    250038      30223 
+    250038      30223 
+    250020      30223 
+    250026      30223 
+    250020      30223 
+    250026      30223 
+    250020      30223 
+    250026      30223 
+    250020      30223 
+    250026      30223 
+
+
+Throughput: idiv , registersize 8 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    210030      30223 
+    210048      30223 
+    210024      30223 
+    210030      30223 
+    210024      30223 
+    210024      30223 
+    210030      30223 
+    210024      30223 
+    210024      30223 
+    210030      30223 
+
+
+Latency: idiv , registersize 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    266022      30214 
+    266034      30214 
+    266022      30214 
+    266022      30214 
+    266022      30214 
+    266022      30214 
+    266022      30214 
+    266022      30214 
+    266022      30214 
+    266022      30214 
+
+
+Throughput: idiv , registersize 16 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    210024      30214 
+    210048      30214 
+    210030      30214 
+    210024      30214 
+    210024      30214 
+    210024      30214 
+    210024      30214 
+    210024      30214 
+    210030      30214 
+    210024      30214 
+
+
+Latency: idiv , registersize 32 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    283362      30211 
+    283362      30211 
+    283356      30211 
+    283350      30211 
+    283350      30211 
+    283356      30211 
+    283350      30211 
+    283350      30211 
+    283356      30211 
+    283350      30211 
+
+
+Throughput: idiv , registersize 32 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200052      30211 
+    200052      30211 
+    200028      30211 
+    200028      30211 
+    200028      30211 
+    200034      30211 
+    200052      30211 
+    200028      30211 
+    200028      30211 
+    200028      30211 
+
+
+Latency: idiv , registersize 64 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2247420      30233 
+   2140044      30232 
+   2140026      30232 
+   2140020      30232 
+   2362512      30233 
+   2140020      30232 
+   2140020      30232 
+   2248794      30233 
+   2140026      30232 
+   2140026      30232 
+
+
+Throughput: idiv , registersize 64 
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   2231208      30232 
+   2284926      30232 
+   2461236      30233 
+   2286594      30232 
+   2422764      30232 
+   2374572      30233 
+   2453322      30232 
+   2294652      30232 
+   2608704      30233 
+   2539176      30232 
+
+

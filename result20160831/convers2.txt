@@ -1,0 +1,3519 @@
+AVX instructions with different register size or type for input and output
+
+
+
+Throughput: vextractf128 xmm,ymm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100464     102011 
+    100386     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+
+
+Latency: vextractf128 xmm,ymm,0
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    181230     102011 
+    181128     102011 
+    181134     102011 
+    181134     102011 
+    181134     102011 
+    181134     102011 
+    181134     102011 
+    181134     102011 
+    181134     102011 
+    181134     102011 
+
+
+Latency: vextractf128 xmm,ymm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100956     102011 
+    100866     102011 
+    100848     102011 
+    100848     102011 
+    100848     102011 
+    100848     102011 
+    100848     102011 
+    100848     102011 
+    100848     102011 
+    100848     102011 
+
+
+Latency: vextractf128 xmm,ymm,0 + vinserti128 y,y,x,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200430     202011 
+    200058     202011 
+    200016     202011 
+    200022     202011 
+    200016     202011 
+    200022     202011 
+    200016     202011 
+    200022     202011 
+    364788     202012 
+    687300     202011 
+
+
+Latency: vextractf128 xmm,ymm,1 + vinserti128 y,y,x,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    598056     202011 
+    597384     202011 
+    597354     202011 
+    669978     202012 
+    597354     202011 
+    597354     202011 
+    597348     202011 
+    597354     202011 
+    597354     202011 
+    597348     202011 
+
+
+Latency: vextractf128 xmm,ymm,0 + vinsertf128 y,y,x,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    332844     202011 
+    466752     202012 
+    332508     202011 
+    332508     202011 
+    332508     202011 
+    332508     202011 
+    332508     202011 
+    332508     202011 
+    332508     202011 
+    332508     202011 
+
+
+Latency: vextractf128 xmm,ymm,1 + vinsertf128 y,y,x,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    374328     202011 
+    374328     202011 
+    374334     202011 
+    374328     202011 
+    374268     202011 
+    374328     202011 
+    374334     202011 
+    374328     202011 
+    374334     202011 
+    374328     202011 
+
+
+Throughput with memory destination: vextractf128 [m128],ymm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    164208     102011 
+    164154     102011 
+    164682     102011 
+    164682     102011 
+    164676     102011 
+    164682     102011 
+    164682     102011 
+    164676     102011 
+    164682     102011 
+    164682     102011 
+
+
+Latency with memory destination: vextractf128 [m128],ymm,0 + vmovdqa x,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500028     202011 
+    500028     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+
+
+Latency with memory destination: vextractf128 [m128],ymm,1 + vmovdqa x,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200292     202011 
+    200028     202011 
+    200016     202011 
+    200016     202011 
+    275532     202012 
+    252732     202011 
+    200016     202011 
+    200016     202011 
+    200016     202011 
+    200016     202011 
+
+
+Throughput: vextracti128 xmm,ymm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200046     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vextracti128 xmm,ymm,0
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200052     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vextracti128 xmm,ymm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    361578     102011 
+    200028     102011 
+    263160     102011 
+    264570     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200022     102011 
+    310212     102011 
+
+
+Latency: vextracti128 xmm,ymm,0 + vinserti128 y,y,x,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400224     202011 
+    400032     202011 
+    400014     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400014     202011 
+    445686     202012 
+    506556     202011 
+    400014     202011 
+
+
+Latency: vextracti128 xmm,ymm,1 + vinserti128 y,y,x,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400242     202011 
+    400032     202011 
+    502266     202012 
+    515916     202011 
+    400014     202011 
+    400020     202011 
+    400020     202011 
+    400014     202011 
+    400014     202011 
+    400020     202011 
+
+
+Latency: vextracti128 xmm,ymm,0 + vinsertf128 y,y,x,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200442     202011 
+    200040     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+    240816     202012 
+
+
+Latency: vextracti128 xmm,ymm,1 + vinsertf128 y,y,x,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    597360     202011 
+    597366     202011 
+    706626     202012 
+    597354     202011 
+    597354     202011 
+    597354     202011 
+    597366     202011 
+    597354     202011 
+    597354     202011 
+    597354     202011 
+
+
+Throughput with memory destination: vextracti128 [m128],ymm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    168402     102011 
+    164154     102011 
+    164682     102011 
+    164682     102011 
+    164676     102011 
+    164682     102011 
+    164682     102011 
+    164676     102011 
+    164682     102011 
+    164682     102011 
+
+
+Latency with memory destination: vextracti128 [m128],ymm,0 + vmovdqa x,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500028     202011 
+    500028     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    591984     202012 
+    500016     202011 
+
+
+Latency with memory destination: vextracti128 [m128],ymm,1 + vmovdqa x,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200286     202011 
+    200028     202011 
+    200016     202011 
+    200016     202011 
+    200016     202011 
+    200016     202011 
+    200016     202011 
+    200016     202011 
+    200016     202011 
+    200016     202011 
+
+
+Throughput: vinsertf128 ymm,ymm,xmm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    158520     102011 
+    100368     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+
+
+Latency: vinsertf128 ymm,ymm,xmm,0
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    219702     102011 
+    219618     102011 
+    219672     102011 
+    219672     102011 
+    219672     102011 
+    270198     102012 
+    336714     102011 
+    219672     102011 
+    219672     102011 
+    219672     102011 
+
+
+Latency: vinsertf128 ymm,ymm,xmm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    225360     102011 
+    224226     102011 
+    225336     102011 
+    225330     102011 
+    225336     102011 
+    225336     102011 
+    225330     102011 
+    225336     102011 
+    225336     102011 
+    225330     102011 
+
+
+Latency: vinsertf128 ymm,ymm,xmm,0 + vextracti128 xmm,ymm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200430     202011 
+    200040     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+
+
+Latency: vinsertf128 ymm,ymm,xmm,1 + vextracti128 xmm,ymm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    597366     202011 
+    597366     202011 
+    597354     202011 
+    597348     202011 
+    597354     202011 
+    597354     202011 
+    763932     202012 
+    597348     202011 
+    597354     202011 
+    597354     202011 
+
+
+Latency: vinsertf128 ymm,ymm,xmm,0 + vextractf128 xmm,ymm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    202602     202011 
+    202200     202011 
+    202188     202011 
+    202182     202011 
+    202188     202011 
+    202188     202011 
+    202182     202011 
+    202188     202011 
+    202188     202011 
+    202182     202011 
+
+
+Latency: vinsertf128 ymm,ymm,xmm,1 + vextractf128 xmm,ymm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    362946     202011 
+    362916     202011 
+    362796     202011 
+    362796     202011 
+    362796     202011 
+    362796     202011 
+    362796     202011 
+    362916     202011 
+    362790     202011 
+    362790     202011 
+
+
+Throughput with memory operand: vinsertf128 ymm,ymm,[m128],0
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    121998     102011 
+    121920     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+
+
+Throughput with memory operand: vinsertf128 ymm,ymm,[m128],1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    121998     102011 
+    121920     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+
+
+Latency with memory operand: vinsertf128 ymm,ymm,[m128],0 + vmovdqa [m128],xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500046     202011 
+    500028     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+
+
+Latency with memory operand: vinsertf128 ymm,ymm,[m128],1 + vmovdqa [m128],xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200304     202011 
+    200034     202011 
+    200016     202011 
+    200022     202011 
+    200016     202011 
+    200022     202011 
+    200016     202011 
+    200022     202011 
+    200016     202011 
+    200022     202011 
+
+
+Throughput: vinserti128 ymm,ymm,xmm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200052     102011 
+    200028     102011 
+    316650     102012 
+    253890     102011 
+    262212     102011 
+    200016     102011 
+    280632     102011 
+    200016     102011 
+    284136     102011 
+    200016     102011 
+
+
+Latency: vinserti128 ymm,ymm,xmm,0
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200052     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vinserti128 ymm,ymm,xmm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200364     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vinserti128 ymm,ymm,xmm,0 + vextracti128 xmm,ymm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400224     202011 
+    400032     202011 
+    400014     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400014     202011 
+
+
+Latency: vinserti128 ymm,ymm,xmm,1 + vextracti128 xmm,ymm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400242     202011 
+    400032     202011 
+    400014     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400014     202011 
+    450078     202012 
+    458052     202011 
+    400014     202011 
+
+
+Latency: vinserti128 ymm,ymm,xmm,0 + vextractf128 xmm,ymm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200448     202011 
+    200040     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+    200022     202011 
+
+
+Latency: vinserti128 ymm,ymm,xmm,1 + vextractf128 xmm,ymm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    597366     202011 
+    597366     202011 
+    597360     202011 
+    597360     202011 
+    597360     202011 
+    597360     202011 
+    597360     202011 
+    826506     202012 
+    597354     202011 
+    597366     202011 
+
+
+Throughput with memory operand: vinserti128 ymm,ymm,[m128],0
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    121998     102011 
+    121920     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+
+
+Throughput with memory operand: vinserti128 ymm,ymm,[m128],1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    121992     102011 
+    121920     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+    121908     102011 
+
+
+Latency with memory operand: vinserti128 ymm,ymm,[m128],0 + vmovdqa [m128],xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500046     202011 
+    500028     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+
+
+Latency with memory operand: vinserti128 ymm,ymm,[m128],1 + vmovdqa [m128],xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200262     202011 
+    200022     202011 
+    200016     202011 
+    200016     202011 
+    200010     202011 
+    200016     202011 
+    200016     202011 
+    200010     202011 
+    200016     202011 
+    200016     202011 
+
+
+Throughput: vpmovsxbw xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Latency: vpmovsxbw xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Throughput with memory operand: vpmovsxbw xmm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    117624     102011 
+    116850     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+
+
+Throughput: vpmovsxbw ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovsxbw ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    308664     102012 
+    200016     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+
+
+Latency: vpmovsxbw ymm,xmm / vinserti128 ymm,xmm,xmm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400110     202011 
+    400032     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+
+
+Throughput with memory operand: vpmovsxbw ymm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200076     102011 
+    200040     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+
+
+Throughput: vpmovsxbd xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+
+
+Latency: vpmovsxbd xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Throughput with memory operand: vpmovsxbd xmm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    116916     102011 
+    116850     102011 
+    166338     102012 
+    174402     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+
+
+Throughput: vpmovsxbd ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    310860     102012 
+    200028     102011 
+
+
+Latency: vpmovsxbd ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200052     102011 
+    200046     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovsxbd ymm,xmm / vinserti128 ymm,xmm,xmm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400110     202011 
+    400032     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+
+
+Throughput with memory operand: vpmovsxbd ymm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200076     102011 
+    200058     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+
+
+Throughput: vpmovsxbq xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Latency: vpmovsxbq xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Throughput with memory operand: vpmovsxbq xmm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    116928     102011 
+    116850     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+
+
+Throughput: vpmovsxbq ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200034     102011 
+    200016     102011 
+    307356     102012 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovsxbq ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200034     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovsxbq ymm,xmm / vinserti128 ymm,xmm,xmm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400110     202011 
+    400032     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    450804     202012 
+    457884     202011 
+    400014     202011 
+    400020     202011 
+
+
+Throughput with memory operand: vpmovsxbq ymm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200076     102011 
+    200040     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+
+
+Throughput: vpmovsxwd xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Latency: vpmovsxwd xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100122     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Throughput with memory operand: vpmovsxwd xmm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    116928     102011 
+    116850     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+
+
+Throughput: vpmovsxwd ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200034     102011 
+    200016     102011 
+    255792     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovsxwd ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200310     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    250494     102012 
+    257646     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovsxwd ymm,xmm / vinserti128 ymm,xmm,xmm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400110     202011 
+    400032     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    441210     202012 
+    449292     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+
+
+Throughput with memory operand: vpmovsxwd ymm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200076     102011 
+    200040     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+
+
+Throughput: vpmovsxwq xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Latency: vpmovsxwq xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Throughput with memory operand: vpmovsxwq xmm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    116928     102011 
+    116850     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+
+
+Throughput: vpmovsxwq ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    249642     102012 
+    257052     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovsxwq ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200022     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovsxwq ymm,xmm / vinserti128 ymm,xmm,xmm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400104     202011 
+    400032     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+
+
+Throughput with memory operand: vpmovsxwq ymm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200064     102011 
+    200040     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+
+
+Throughput: vpmovsxdq xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Latency: vpmovsxdq xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100140     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100032     102011 
+    100020     102011 
+
+
+Throughput with memory operand: vpmovsxdq xmm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    116928     102011 
+    116850     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+
+
+Throughput: vpmovsxdq ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovsxdq ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovsxdq ymm,xmm / vinserti128 ymm,xmm,xmm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    507048     202012 
+    400032     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+
+
+Throughput with memory operand: vpmovsxdq ymm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    258072     102011 
+    200040     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+
+
+Throughput: vpmovzxbw xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100032     102011 
+    100020     102011 
+    100020     102011 
+    100014     102011 
+    100020     102011 
+
+
+Latency: vpmovzxbw xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Throughput with memory operand: vpmovzxbw xmm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    116928     102011 
+    116850     102011 
+    165642     102012 
+    174582     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+
+
+Throughput: vpmovzxbw ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovzxbw ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200034     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovzxbw ymm,xmm / vinserti128 ymm,xmm,xmm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400104     202011 
+    400032     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+
+
+Throughput with memory operand: vpmovzxbw ymm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200076     102011 
+    200040     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+
+
+Throughput: vpmovzxbd xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100038     102011 
+
+
+Latency: vpmovzxbd xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100122     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Throughput with memory operand: vpmovzxbd xmm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    116928     102011 
+    116850     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116850     102011 
+
+
+Throughput: vpmovzxbd ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200106     102011 
+    200706     102011 
+    291714     102011 
+    265926     102011 
+    200016     102011 
+    260988     102011 
+    258246     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovzxbd ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200022     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovzxbd ymm,xmm / vinserti128 ymm,xmm,xmm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400098     202011 
+    400032     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    534912     202012 
+    457014     202011 
+
+
+Throughput with memory operand: vpmovzxbd ymm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200076     102011 
+    307332     102012 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+
+
+Throughput: vpmovzxbq xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100140     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Latency: vpmovzxbq xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100134     102011 
+    100050     102011 
+    100020     102011 
+    100014     102011 
+    100020     102011 
+    100020     102011 
+    100014     102011 
+    100020     102011 
+    100020     102011 
+    100014     102011 
+
+
+Throughput with memory operand: vpmovzxbq xmm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    116928     102011 
+    116850     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+
+
+Throughput: vpmovzxbq ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    308892     102012 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovzxbq ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    249588     102012 
+    257736     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovzxbq ymm,xmm / vinserti128 ymm,xmm,xmm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400110     202011 
+    400032     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    509652     202012 
+    400014     202011 
+
+
+Throughput with memory operand: vpmovzxbq ymm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200076     102011 
+    200040     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+
+
+Throughput: vpmovzxwd xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Latency: vpmovzxwd xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100872     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Throughput with memory operand: vpmovzxwd xmm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    116928     102011 
+    116850     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+
+
+Throughput: vpmovzxwd ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200784     102011 
+    200046     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovzxwd ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    323484     102012 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovzxwd ymm,xmm / vinserti128 ymm,xmm,xmm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400104     202011 
+    400044     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+
+
+Throughput with memory operand: vpmovzxwd ymm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200100     102011 
+    200040     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    274248     102012 
+    258708     102011 
+
+
+Throughput: vpmovzxwq xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100140     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Latency: vpmovzxwq xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100134     102011 
+    100014     102011 
+    100020     102011 
+    100020     102011 
+    100014     102011 
+    100020     102011 
+    100020     102011 
+    100014     102011 
+    100020     102011 
+    100020     102011 
+
+
+Throughput with memory operand: vpmovzxwq xmm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    116940     102011 
+    116874     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+
+
+Throughput: vpmovzxwq ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200052     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovzxwq ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200052     102011 
+    200046     102011 
+    333120     102012 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovzxwq ymm,xmm / vinserti128 ymm,xmm,xmm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400110     202011 
+    400044     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    483486     202013 
+
+
+Throughput with memory operand: vpmovzxwq ymm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200100     102011 
+    200058     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+
+
+Throughput: vpmovzxdq xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100140     102011 
+    100014     102011 
+    100020     102011 
+    100020     102011 
+    100014     102011 
+    100020     102011 
+    100020     102011 
+    100014     102011 
+    100020     102011 
+    100020     102011 
+
+
+Latency: vpmovzxdq xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100140     102011 
+    100014     102011 
+    100020     102011 
+    100020     102011 
+    100014     102011 
+    100020     102011 
+    100020     102011 
+    100014     102011 
+    100020     102011 
+    100020     102011 
+
+
+Throughput with memory operand: vpmovzxdq xmm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    116940     102011 
+    116874     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+
+
+Throughput: vpmovzxdq ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200052     102011 
+    200016     102011 
+    200016     102011 
+    276192     102012 
+    258306     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovzxdq ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200052     102011 
+    200046     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpmovzxdq ymm,xmm / vinserti128 ymm,xmm,xmm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400104     202011 
+    535218     202012 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+    400014     202011 
+    400020     202011 
+    400014     202011 
+
+
+Throughput with memory operand: vpmovzxdq ymm,[m]
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200082     102011 
+    200058     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    333846     102012 
+    200016     102011 
+    200040     102011 
+
+
+Throughput: vbroadcastss xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100476     102011 
+    100368     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+
+
+Latency: vbroadcastss xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    181188     102011 
+    181134     102011 
+    181134     102011 
+    181134     102011 
+    181134     102011 
+    181134     102011 
+    181134     102011 
+    181134     102011 
+    181134     102011 
+    252516     102012 
+
+
+Throughput: vbroadcastss ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100476     102011 
+    100386     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+
+
+Latency: vbroadcastss ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    224694     102011 
+    224670     102011 
+    224670     102011 
+    224670     102011 
+    224670     102011 
+    224670     102011 
+    224670     102011 
+    224670     102011 
+    224670     102011 
+    224670     102011 
+
+
+Latency: vbroadcastss ymm,xmm / vextractf128 xmm,ymm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    404448     202011 
+    404376     202011 
+    404358     202011 
+    404352     202011 
+    540684     202012 
+    404352     202011 
+    404358     202011 
+    404358     202011 
+    404352     202011 
+    404358     202011 
+
+
+Throughput: vbroadcastss xmm,m32
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    117792     102011 
+    117690     102011 
+    117690     102011 
+    117690     102011 
+    117690     102011 
+    117690     102011 
+    117690     102011 
+    117690     102011 
+    117690     102011 
+    117690     102011 
+
+
+Throughput: vbroadcastss ymm,m32
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    126000     102011 
+    125904     102011 
+    125904     102011 
+    125904     102011 
+    125904     102011 
+    125904     102011 
+    125904     102011 
+    125904     102011 
+    125904     102011 
+    125904     102011 
+
+
+Throughput: vbroadcastsd ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100476     102011 
+    100368     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+    100350     102011 
+
+
+Latency: vbroadcastsd ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    224694     102011 
+    224670     102011 
+    224670     102011 
+    224670     102011 
+    224670     102011 
+    224670     102011 
+    224670     102011 
+    224670     102011 
+    224670     102011 
+    224670     102011 
+
+
+Latency: vbroadcastsd ymm,xmm / vextractf128 xmm,ymm,1
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    404982     202011 
+    404376     202011 
+    404358     202011 
+    404352     202011 
+    404358     202011 
+    550332     202012 
+    404352     202011 
+    404352     202011 
+    404358     202011 
+    404352     202011 
+
+
+Throughput: vbroadcastsd ymm,m64
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    126000     102011 
+    125946     102011 
+    125904     102011 
+    125904     102011 
+    125904     102011 
+    125904     102011 
+    125904     102011 
+    125904     102011 
+    125904     102011 
+    125904     102011 
+
+
+Throughput: vbroadcastf128 ymm,m128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    186048     102011 
+    127206     102011 
+    127182     102011 
+    127182     102011 
+    127182     102011 
+    127182     102011 
+    127182     102011 
+    127182     102011 
+    127182     102011 
+    127182     102011 
+
+
+Latency: vbroadcastf128 ymm,m128 + vmovdqa m128,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1369578     202012 
+    841794     202011 
+    510354     202011 
+    510354     202011 
+    510354     202011 
+    510360     202011 
+    510360     202011 
+    510360     202011 
+    510354     202011 
+    510354     202011 
+
+
+Throughput: vbroadcasti128 ymm,m128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    127272     102011 
+    127200     102011 
+    127182     102011 
+    127182     102011 
+    127182     102011 
+    127182     102011 
+    127182     102011 
+    127182     102011 
+    127182     102011 
+    127182     102011 
+
+
+Latency: vbroadcasti128 ymm,m128 + vmovdqa m128,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500046     202011 
+    500034     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500016     202011 
+    500022     202011 
+    500022     202011 
+    500016     202011 
+    500016     202011 
+
+
+Throughput: vpbroadcastb xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Throughput: vpbroadcastb xmm,m8
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    123066     102011 
+    122994     102011 
+    122976     102011 
+    122976     102011 
+    122976     102011 
+    122976     102011 
+    122976     102011 
+    122976     102011 
+    122976     102011 
+    122976     102011 
+
+
+Latency: vpbroadcastb xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400026     102011 
+    400026     102011 
+    400014     102011 
+    400014     102011 
+    400014     102011 
+    400014     102011 
+    400014     102011 
+    400014     102011 
+    400014     102011 
+    400014     102011 
+
+
+Latency: vpbroadcastb xmm,m8 + mov.. m8,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1200042     302011 
+   1200030     302011 
+   1307358     302012 
+   1200012     302011 
+   1200018     302011 
+   1200018     302011 
+   1200012     302011 
+   1200018     302011 
+   1369998     302012 
+   1910226     302011 
+
+
+Throughput: vpbroadcastb ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Throughput: vpbroadcastb ymm,m8
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200076     102011 
+    200040     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+
+
+Latency: vpbroadcastb ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    557376     102011 
+    500028     102011 
+    500016     102011 
+    500016     102011 
+    500016     102011 
+    500016     102011 
+    500016     102011 
+    500016     102011 
+    500016     102011 
+    500016     102011 
+
+
+Latency: vpbroadcastb ymm,m8 + mov.. m8,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1300038     302011 
+   1300026     302011 
+   1300020     302011 
+   1300014     302011 
+   1557384     302012 
+   1300014     302011 
+   1300014     302011 
+   1300014     302011 
+   1300020     302011 
+   1300014     302011 
+
+
+Throughput: vpbroadcastw xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102012 
+    158754     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+
+
+Throughput: vpbroadcastw xmm,m16
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    123066     102011 
+    122994     102011 
+    122976     102011 
+    122976     102011 
+    122976     102011 
+    122976     102011 
+    122976     102011 
+    122976     102011 
+    122976     102011 
+    122976     102011 
+
+
+Latency: vpbroadcastw xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    400014     102011 
+    400026     102011 
+    400014     102011 
+    400014     102011 
+    400014     102011 
+    400014     102011 
+    400014     102011 
+    400014     102011 
+    400014     102011 
+    400014     102011 
+
+
+Latency: vpbroadcastw xmm,m16 + mov.. m16,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1200054     302011 
+   1200030     302011 
+   1200012     302011 
+   1301850     302012 
+   1320744     302011 
+   1200012     302011 
+   1200018     302011 
+   1200012     302011 
+   1200018     302011 
+   1200012     302011 
+
+
+Throughput: vpbroadcastw ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Throughput: vpbroadcastw ymm,m16
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200076     102011 
+    200040     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+    200022     102011 
+
+
+Latency: vpbroadcastw ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    500016     102011 
+    500028     102011 
+    500016     102011 
+    608742     102012 
+    500016     102011 
+    500016     102011 
+    500016     102011 
+    500016     102011 
+    500016     102011 
+    500016     102011 
+
+
+Latency: vpbroadcastw ymm,m16 + mov.. m16,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+   1300038     302011 
+   1300026     302011 
+   1300020     302011 
+   1406682     302012 
+   1300014     302011 
+   1300014     302011 
+   1300014     302011 
+   1300014     302011 
+   1300020     302011 
+   1456884     302012 
+
+
+Throughput: vpbroadcastd xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+
+
+Throughput: vpbroadcastd xmm,m32
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    116922     102011 
+    116850     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+    116832     102011 
+
+
+Latency: vpbroadcastd xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100128     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100032     102011 
+    100014     102011 
+    100020     102011 
+    100020     102011 
+    100014     102011 
+    100020     102011 
+
+
+Latency: vpbroadcastd xmm,m32 + mov.. m32,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    800040     202011 
+    800028     202011 
+    800016     202011 
+    907884     202012 
+    800016     202011 
+    800016     202011 
+    800016     202011 
+    800016     202011 
+    800016     202011 
+    800016     202011 
+
+
+Throughput: vpbroadcastd ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200022     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200034     102011 
+    200016     102011 
+    200016     102011 
+
+
+Throughput: vpbroadcastd ymm,m32
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200094     102011 
+    200040     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+
+
+Latency: vpbroadcastd ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpbroadcastd ymm,m32 + mov.. m32,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    800058     202011 
+    800028     202011 
+    800016     202011 
+    896856     202012 
+    800016     202011 
+    800016     202011 
+    800016     202011 
+    800016     202011 
+    800016     202011 
+    800016     202011 
+
+
+Throughput: vpbroadcastq xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Throughput: vpbroadcastq xmm,m64
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200070     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    252288     102012 
+    257820     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpbroadcastq xmm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    257838     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpbroadcastq xmm,m64 + mov.. m64,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    800058     202011 
+    800028     202011 
+    800016     202011 
+    800016     202011 
+    800016     202011 
+    800016     202011 
+    800016     202011 
+    909870     202012 
+    858012     202011 
+    800016     202011 
+
+
+Throughput: vpbroadcastq ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200034     102011 
+    200028     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Throughput: vpbroadcastq ymm,m64
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200076     102011 
+    200040     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+
+
+Latency: vpbroadcastq ymm,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200022     102011 
+    200028     102011 
+    200016     102011 
+    200034     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+    200016     102011 
+
+
+Latency: vpbroadcastq ymm,m64 + mov.. m64,xmm
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    800040     202011 
+    800028     202011 
+    800016     202011 
+    800016     202011 
+    800016     202011 
+    800016     202011 
+    906552     202012 
+    800016     202011 
+    800016     202011 
+    800016     202011 
+
+
+Throughput: vmovmskps r32,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100032     102011 
+    100032     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+
+
+Latency: vmovmskps r32,r128 + movd r128,r21
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    800010     202011 
+    800022     202011 
+    800016     202011 
+    800010     202011 
+    800016     202011 
+    851262     202012 
+    800016     202011 
+    800016     202011 
+    800016     202011 
+    800016     202011 
+
+
+Throughput: vmovmskps r32,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    701034     102011 
+    701034     102011 
+    701022     102011 
+    701016     102011 
+    701022     102011 
+    701016     102011 
+    701022     102011 
+    701016     102011 
+    701022     102011 
+    701016     102011 
+
+
+Latency: vmovmskps r32,r256 + movd r128,r21
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    900030     202011 
+   1009386     202012 
+    900012     202011 
+    900018     202011 
+    900012     202011 
+    900018     202011 
+    900012     202011 
+    900018     202011 
+    900012     202011 
+    900018     202011 
+
+
+Throughput: vmovmskpd r32,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100032     102011 
+    100032     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+
+
+Latency: vmovmskpd r32,r128 + movd r128,r21
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    800010     202011 
+    800022     202011 
+    800016     202011 
+    800010     202011 
+    800016     202011 
+    800010     202011 
+    800016     202011 
+    968232     202012 
+    800010     202011 
+    800016     202011 
+
+
+Throughput: vmovmskpd r32,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    701034     102011 
+    701034     102011 
+    809160     102012 
+    701016     102011 
+    701022     102011 
+    701016     102011 
+    701022     102011 
+    701034     102011 
+    701022     102011 
+    701016     102011 
+
+
+Latency: vmovmskpd r32,r256 + movd r128,r21
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    900012     202011 
+    900030     202011 
+    900012     202011 
+    900018     202011 
+    900012     202011 
+    900018     202011 
+    900012     202011 
+   1810950     202012 
+    900018     202011 
+    900012     202011 
+
+
+Throughput: vpmovmskb r32,r128
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    100032     102011 
+    100032     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+    100020     102011 
+    100014     102011 
+    100014     102011 
+
+
+Latency: vpmovmskb r32,r128 + movd r128,r21
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    800010     202011 
+    800022     202011 
+    800016     202011 
+    800010     202011 
+    800016     202011 
+    800010     202011 
+    800016     202011 
+    800010     202011 
+    800016     202011 
+    967194     202012 
+
+
+Throughput: vpmovmskb r32,r256
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    200040     102011 
+    200040     102011 
+    200016     102011 
+    200022     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+    200022     102011 
+    200016     102011 
+    200022     102011 
+
+
+Latency: vpmovmskb r32,r256 + movd r128,r21
+argc:1
+
+Cannot make counter 2. No matching counter definition found
+
+Processor 0
+     Clock      Instr 
+    900012     202011 
+    900030     202011 
+    900012     202011 
+    900018     202011 
+    900012     202011 
+    900018     202011 
+   1299924     202012 
+   1476846     202012 
+    900012     202011 
+    900018     202011 
+
+

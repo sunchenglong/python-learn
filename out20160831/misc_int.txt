@@ -1,0 +1,61 @@
+lock cmpxchg [m8], r8	18.37	miss
+movzx r64,[m16]	miss	1.31
+movzx r16,[m8] / mov [m8],r8	3.01	miss
+xadd [m16], r16	5.89	miss
+movzx r32,[m8]	miss	1.31
+movsx r64,r16	0.99	0.5
+movzx r16,[m8]	miss	1.21
+movzx r16,r8	0.99	0.94
+lock cmpxchg16b [m]	83.21	miss
+Throughput prefetcht0 [m]	miss	1.3
+xadd [m32], r32	5.89	miss
+movsxd r64,[m32]	miss	1.23
+movsx r16,[m8] / mov [m8],r8	3.0	miss
+add [m]	4.9	miss
+movsx r32,r16	1.04	0.55
+xadd [m64], r64	9.56	miss
+movsx r32,[m16] / mov [m16],r16	2.99	miss
+lock cmpxchg [m32], r32	20.22	miss
+Throughput prefetcht1 [m]	miss	1.3
+movzx r32,r8	0.99	0.88
+lock xadd [m32], r32	16.04	miss
+movzx r32,[m8] / mov [m8],r8	2.48	miss
+movsx r16,r8	0.99	0.88
+cmpxchg [m32], r32	10.65	miss
+movsx r16,[m8]	miss	1.26
+lock add [m]	15.58	miss
+movsxd r64,[m32] / mov [m32],r32	3.2	miss
+cmpxchg16b [m]	58.29	miss
+movsx r32,[m8] / mov [m8],r8	2.97	miss
+movzx r64,[m16] / mov [m16],r16	2.48	miss
+movzx r64,r8	1.07	0.88
+lock xadd [m8], r8	16.04	miss
+movsx r64,[m16] / mov [m16],r16	2.97	miss
+cmpxchg [m8], r8	7.85	miss
+movzx r32,[m16] / mov [m16],r16	2.48	miss
+cmpxchg [m16], r16	8.9	miss
+movzx r64,r16	0.99	0.5
+cmpxchg8b [m]	14.06	miss
+movsx r32,r8	0.99	0.54
+movsxd r64,r32	0.99	0.5
+Throughput prefetchnta [m]	miss	1.3
+Throughput prefetcht2 [m]	miss	1.3
+movsx r64,[m8]	miss	1.21
+lock xadd [m64], r64	16.04	miss
+xadd [m8], r8	5.89	miss
+lock cmpxchg8b [m]	20.67	miss
+movzx r32,r16	1.04	0.5
+movzx r64,[m8] / mov [m8],r8	2.48	miss
+lock xadd [m16], r16	16.04	miss
+movsx r64,[m16]	miss	1.21
+movsx r64,r8	0.99	0.5
+lock cmpxchg [m16], r16	18.37	miss
+xlat / xor eax,eax	miss	1.28
+movzx r32,[m16]	miss	1.31
+movsx r32,[m8]	miss	1.21
+movsx r32,[m16]	miss	1.21
+xlat	6.01	miss
+cmpxchg [m64], r64	7.85	miss
+movsx r64,[m8] / mov [m8],r8	2.99	miss
+lock cmpxchg [m64], r64	17.63	miss
+movzx r64,[m8]	miss	1.41

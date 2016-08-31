@@ -1,0 +1,148 @@
+Instruct 	 Operators 	 Latency 	 Throughput 	 RawCommand 
+vmaskmovpd	r128,r128,[m128] (pattern 0x33)	miss	24.48	vmaskmovpd r128,r128,[m128] (pattern 0x33)
+vblendvps	r256,r256,[m256],r256,i	miss	4.9	vblendvps r256,r256,[m256],r256,i
+vmaskmovpd	[m256],r256,r256 (pattern 0x55)	82.78	151.84	vmaskmovpd [m256],r256,r256 (pattern 0x55)
+vmaskmovps	[m128],r128,r128 (pattern 0xff)	miss	151.39	vmaskmovps [m128],r128,r128 (pattern 0xff)
+maskmovq+movq/dqa		147.49	miss	maskmovq r,r (pattern 0xff) + movq/dqa (x)mm,[mem]
+vmaskmovpd	[m128],r128,r128 (pattern 0xff)	miss	21.55	vmaskmovpd [m128],r128,r128 (pattern 0xff)
+stmxcsr	m	miss	11.76	stmxcsr m
+vmaskmovpd	r128,r128,[m128] (pattern 0x02)	miss	31.36	vmaskmovpd r128,r128,[m128] (pattern 0x02)
+vmaskmovps	[m128],r128,r128 (pattern 0x02)	miss	163.17	vmaskmovps [m128],r128,r128 (pattern 0x02)
+vblendps	r128,r128,i	0.99	0.99	vblendps r128,r128,i
+vmaskmovpd	[m256],r256,r256 (pattern 0x00)	miss	30.35	vmaskmovpd [m256],r256,r256 (pattern 0x00)
+vmaskmovpd	r256,r256,[m256] (pattern 0x33)	miss	57.73	vmaskmovpd r256,r256,[m256] (pattern 0x33)
+vblendpd	r128,r128,i	0.99	0.99	vblendpd r128,r128,i
+vmaskmovpd	r256,r256,[m256] (pattern 0x02)	miss	76.09	vmaskmovpd r256,r256,[m256] (pattern 0x02)
+vpmaskmovq	r256,r256,[m256] (pattern 0x33)	miss	56.64	vpmaskmovq r256,r256,[m256] (pattern 0x33)
+vpmaskmovq+vmovaps		21.63	miss	vpmaskmovq r128,r128,[m128] + vmovaps (pattern 0x55)
+maskmovdqu+movq/dqa		167.15	miss	maskmovdqu r,r (pattern 0x55) + movq/dqa (x)mm,[mem]
+maskmovq	r,r (pattern 0x02)	miss	1.69	maskmovq r,r (pattern 0x02)
+vblendpd	r256,[m256],i	miss	2.44	vblendpd r256,[m256],i
+vpmaskmovq	[m128],r128,r128 (pattern 0x33)	miss	22.86	vpmaskmovq [m128],r128,r128 (pattern 0x33)
+vmaskmovpd	[m256],r256,r256 (pattern 0xff)	miss	121.33	vmaskmovpd [m256],r256,r256 (pattern 0xff)
+vblendvpd	r128,r128,[m128],r128,i	miss	2.16	vblendvpd r128,r128,[m128],r128,i
+maskmovq+movq/dqa		147.51	miss	maskmovq r,r (pattern 0x55) + movq/dqa (x)mm,[mem]
+vmaskmovpd	[m128],r128,r128 (pattern 0x55)	26.25	32.3	vmaskmovpd [m128],r128,r128 (pattern 0x55)
+vpmaskmovd	r256,r256,[m256] (pattern 0xff)	miss	75.63	vpmaskmovd r256,r256,[m256] (pattern 0xff)
+vpmaskmovq	[m256],r256,r256 (pattern 0x55)	86.14	151.56	vpmaskmovq [m256],r256,r256 (pattern 0x55)
+vblendps	r256,[m256],i	miss	2.44	vblendps r256,[m256],i
+vblendvpd	r256,r256,r256,r256,i	3.91	3.91	vblendvpd r256,r256,r256,r256,i
+vpmaskmovd	r128,r128,[m128] (pattern 0xff)	miss	49.22	vpmaskmovd r128,r128,[m128] (pattern 0xff)
+maskmovq+movq/dqa		1.72	miss	maskmovq r,r (pattern 0x00) + movq/dqa (x)mm,[mem]
+vpmaskmovq	[m128],r128,r128 (pattern 0x02)	miss	28.42	vpmaskmovq [m128],r128,r128 (pattern 0x02)
+maskmovq	r,r (pattern 0x00)	miss	1.68	maskmovq r,r (pattern 0x00)
+vblendps	r128,[m128],i	miss	1.26	vblendps r128,[m128],i
+vpmaskmovq	r128,r128,[m128] (pattern 0xff)	miss	24.49	vpmaskmovq r128,r128,[m128] (pattern 0xff)
+vmaskmovpd	[m256],r256,r256 (pattern 0x33)	miss	120.06	vmaskmovpd [m256],r256,r256 (pattern 0x33)
+vblendvpd	r128,r128,r128,r128,i	3.91	1.96	vblendvpd r128,r128,r128,r128,i
+vmaskmovps	r128,r128,[m128] (pattern 0x55)	miss	82.27	vmaskmovps r128,r128,[m128] (pattern 0x55)
+ldmxcsr	m	miss	28.73	ldmxcsr m
+vmaskmovps	[m256],r256,r256 (pattern 0x55)	150.71	305.96	vmaskmovps [m256],r256,r256 (pattern 0x55)
+maskmovdqu	r,r (pattern 0x02)	miss	1.69	maskmovdqu r,r (pattern 0x02)
+vpmaskmovq	[m128],r128,r128 (pattern 0xff)	miss	21.55	vpmaskmovq [m128],r128,r128 (pattern 0xff)
+maskmovdqu	r,r (pattern 0xff)	miss	1.69	maskmovdqu r,r (pattern 0xff)
+vmaskmovps+vmovaps		84.11	miss	vmaskmovps r256,r256,[m256] + vmovaps (pattern 0x55)
+vpmaskmovd	[m256],r256,r256 (pattern 0x33)	miss	296.08	vpmaskmovd [m256],r256,r256 (pattern 0x33)
+vpmaskmovd	[m256],r256,r256 (pattern 0x00)	miss	30.58	vpmaskmovd [m256],r256,r256 (pattern 0x00)
+vmaskmovps	r128,r128,[m128] (pattern 0xff)	miss	44.07	vmaskmovps r128,r128,[m128] (pattern 0xff)
+vmaskmovps	[m256],r256,r256 (pattern 0x00)	miss	30.43	vmaskmovps [m256],r256,r256 (pattern 0x00)
+maskmovq	r,r (pattern 0x55)	miss	1.69	maskmovq r,r (pattern 0x55)
+vmaskmovps	[m256],r256,r256 (pattern 0x02)	miss	225.75	vmaskmovps [m256],r256,r256 (pattern 0x02)
+vpmaskmovq+vmovaps		34.3	miss	vpmaskmovq r256,r256,[m256] + vmovaps (pattern 0x55)
+vblendvps	r256,r256,r256,r256,i	3.91	3.91	vblendvps r256,r256,r256,r256,i
+maskmovq+movq/dqa		148.66	miss	maskmovq r,r (pattern 0x33) + movq/dqa (x)mm,[mem]
+maskmovdqu+movq/dqa		166.0	miss	maskmovdqu r,r (pattern 0x33) + movq/dqa (x)mm,[mem]
+vpmaskmovd	[m128],r128,r128 (pattern 0xff)	miss	143.7	vpmaskmovd [m128],r128,r128 (pattern 0xff)
+vblendvpd	r256,r256,[m256],r256,i	miss	3.91	vblendvpd r256,r256,[m256],r256,i
+vpmaskmovd	[m128],r128,r128 (pattern 0x00)	miss	26.44	vpmaskmovd [m128],r128,r128 (pattern 0x00)
+vpmaskmovd	[m256],r256,r256 (pattern 0x55)	149.96	295.47	vpmaskmovd [m256],r256,r256 (pattern 0x55)
+vbroadcastsd	r256,[m]	miss	1.24	vbroadcastsd r256,[m]
+vpmaskmovq	r256,r256,[m256] (pattern 0x00)	miss	91.89	vpmaskmovq r256,r256,[m256] (pattern 0x00)
+vmaskmovpd	[m128],r128,r128 (pattern 0x33)	miss	23.18	vmaskmovpd [m128],r128,r128 (pattern 0x33)
+pblendvb	r128,[m128],xmm0	miss	1.96	pblendvb r128,[m128],xmm0
+blendps	r128,[m128],i	miss	1.25	blendps r128,[m128],i
+vmaskmovpd	[m128],r128,r128 (pattern 0x00)	miss	25.46	vmaskmovpd [m128],r128,r128 (pattern 0x00)
+vpmaskmovq	r128,r128,[m128] (pattern 0x02)	miss	31.36	vpmaskmovq r128,r128,[m128] (pattern 0x02)
+vpmaskmovd	r256,r256,[m256] (pattern 0x00)	miss	196.41	vpmaskmovd r256,r256,[m256] (pattern 0x00)
+vinsertf128	m256	miss	3.12	vinsertf128 m256
+maskmovq	r,r (pattern 0xff)	miss	1.69	maskmovq r,r (pattern 0xff)
+vblendpd	r256,r256,i	2.94	1.96	vblendpd r256,r256,i
+vpmaskmovq	[m256],r256,r256 (pattern 0x33)	miss	119.42	vpmaskmovq [m256],r256,r256 (pattern 0x33)
+vmaskmovps	r256,r256,[m256] (pattern 0x55)	miss	158.24	vmaskmovps r256,r256,[m256] (pattern 0x55)
+vmaskmovps	r256,r256,[m256] (pattern 0xff)	miss	83.78	vmaskmovps r256,r256,[m256] (pattern 0xff)
+maskmovq+movq/dqa		147.51	miss	maskmovq r,r (pattern 0x02) + movq/dqa (x)mm,[mem]
+vpmaskmovq	r256,r256,[m256] (pattern 0x02)	miss	74.79	vpmaskmovq r256,r256,[m256] (pattern 0x02)
+vmaskmovps	[m256],r256,r256 (pattern 0xff)	miss	232.34	vmaskmovps [m256],r256,r256 (pattern 0xff)
+maskmovdqu+movq/dqa		144.77	miss	maskmovdqu r,r (pattern 0xff) + movq/dqa (x)mm,[mem]
+xgetbv		miss	45.23	xgetbv
+vmaskmovps	r256,r256,[m256] (pattern 0x00)	miss	194.5	vmaskmovps r256,r256,[m256] (pattern 0x00)
+vpmaskmovq	[m256],r256,r256 (pattern 0xff)	miss	122.15	vpmaskmovq [m256],r256,r256 (pattern 0xff)
+vblendpd	r128,[m128],i	miss	1.26	vblendpd r128,[m128],i
+vmaskmovps	r128,r128,[m128] (pattern 0x00)	miss	100.44	vmaskmovps r128,r128,[m128] (pattern 0x00)
+vpmaskmovq	[m128],r128,r128 (pattern 0x55)	28.8	32.3	vpmaskmovq [m128],r128,r128 (pattern 0x55)
+vpmaskmovq	r256,r256,[m256] (pattern 0x55)	miss	66.55	vpmaskmovq r256,r256,[m256] (pattern 0x55)
+maskmovdqu	r,r (pattern 0x00)	miss	1.68	maskmovdqu r,r (pattern 0x00)
+vpmaskmovd	r128,r128,[m128] (pattern 0x00)	miss	98.93	vpmaskmovd r128,r128,[m128] (pattern 0x00)
+vbroadcastsd+mov	3.96	miss		3.96	miss	vbroadcastsd r256,[m] + mov
+vbroadcastss+mov	3.96	miss		3.96	miss	vbroadcastss r128,[m] + mov
+vpmaskmovd	[m256],r256,r256 (pattern 0x02)	miss	227.49	vpmaskmovd [m256],r256,r256 (pattern 0x02)
+vmaskmovpd	r128,r128,[m128] (pattern 0x00)	miss	47.97	vmaskmovpd r128,r128,[m128] (pattern 0x00)
+vblendvps	r128,r128,r128,r128,i	3.91	1.96	vblendvps r128,r128,r128,r128,i
+vmaskmovpd	r256,r256,[m256] (pattern 0xff)	miss	31.35	vmaskmovpd r256,r256,[m256] (pattern 0xff)
+vmaskmovps	r128,r128,[m128] (pattern 0x33)	miss	70.46	vmaskmovps r128,r128,[m128] (pattern 0x33)
+vmaskmovps	[m256],r256,r256 (pattern 0x33)	miss	302.21	vmaskmovps [m256],r256,r256 (pattern 0x33)
+vmaskmovpd	[m256],r256,r256 (pattern 0x02)	miss	139.0	vmaskmovpd [m256],r256,r256 (pattern 0x02)
+blendpd	r128,r128,i	0.98	0.98	blendpd r128,r128,i
+vmaskmovps+vmovaps		42.37	miss	vmaskmovps r128,r128,[m128] + vmovaps (pattern 0x55)
+vblendps	r256,r256,i	2.94	1.96	vblendps r256,r256,i
+vpmaskmovd+vmovaps		80.94	miss	vpmaskmovd r256,r256,[m256] + vmovaps (pattern 0x55)
+vmaskmovps	r256,r256,[m256] (pattern 0x33)	miss	140.2	vmaskmovps r256,r256,[m256] (pattern 0x33)
+vstmxcsr	m	miss	11.76	vstmxcsr m
+maskmovdqu+movq/dqa		153.66	miss	maskmovdqu r,r (pattern 0x02) + movq/dqa (x)mm,[mem]
+vbroadcastss+mov	3.96	miss		3.96	miss	vbroadcastss r256,[m] + mov
+vpmaskmovd	[m128],r128,r128 (pattern 0x02)	miss	165.98	vpmaskmovd [m128],r128,r128 (pattern 0x02)
+vpmaskmovd	[m256],r256,r256 (pattern 0xff)	miss	225.93	vpmaskmovd [m256],r256,r256 (pattern 0xff)
+ldmxcsr+stmccsr	30.22	miss		30.22	miss	ldmxcsr + stmccsr
+vpmaskmovd	[m128],r128,r128 (pattern 0x55)	91.14	181.8	vpmaskmovd [m128],r128,r128 (pattern 0x55)
+vpmaskmovq	[m256],r256,r256 (pattern 0x02)	miss	131.13	vpmaskmovq [m256],r256,r256 (pattern 0x02)
+vmaskmovpd	[m128],r128,r128 (pattern 0x02)	miss	28.42	vmaskmovpd [m128],r128,r128 (pattern 0x02)
+vbroadcastf128+mov	2.53	miss		2.53	miss	vbroadcastf128 r256,[m] + mov
+vpmaskmovd	r256,r256,[m256] (pattern 0x02)	miss	147.02	vpmaskmovd r256,r256,[m256] (pattern 0x02)
+vpmaskmovq	r128,r128,[m128] (pattern 0x00)	miss	48.68	vpmaskmovq r128,r128,[m128] (pattern 0x00)
+maskmovdqu	r,r (pattern 0x55)	miss	1.7	maskmovdqu r,r (pattern 0x55)
+blendvps	r128,[m128],xmm0	miss	1.96	blendvps r128,[m128],xmm0
+vmaskmovps	[m128],r128,r128 (pattern 0x55)	94.77	186.02	vmaskmovps [m128],r128,r128 (pattern 0x55)
+maskmovdqu	r,r (pattern 0x33)	miss	1.7	maskmovdqu r,r (pattern 0x33)
+blendpd	r128,[m128],i	miss	1.82	blendpd r128,[m128],i
+maskmovq	r,r (pattern 0x33)	miss	1.69	maskmovq r,r (pattern 0x33)
+vmaskmovpd+vmovaps		21.8	miss	vmaskmovpd r128,r128,[m128] + vmovaps (pattern 0x55)
+vbroadcastss	r256,[m]	miss	1.24	vbroadcastss r256,[m]
+vpmaskmovq	[m128],r128,r128 (pattern 0x00)	miss	26.77	vpmaskmovq [m128],r128,r128 (pattern 0x00)
+vpmaskmovd	r128,r128,[m128] (pattern 0x55)	miss	82.73	vpmaskmovd r128,r128,[m128] (pattern 0x55)
+vpmaskmovd	r256,r256,[m256] (pattern 0x33)	miss	136.27	vpmaskmovd r256,r256,[m256] (pattern 0x33)
+blendvps	r128,r128,xmm0	3.92	1.96	blendvps r128,r128,xmm0
+vextractf128	m256	miss	1.71	vextractf128 m256
+vmaskmovps	r256,r256,[m256] (pattern 0x02)	miss	147.54	vmaskmovps r256,r256,[m256] (pattern 0x02)
+vmaskmovps	r128,r128,[m128] (pattern 0x02)	miss	55.51	vmaskmovps r128,r128,[m128] (pattern 0x02)
+pblendvb	r128,r128,xmm0	1.96	1.96	pblendvb r128,r128,xmm0
+vmaskmovpd+vmovaps		34.41	miss	vmaskmovpd r256,r256,[m256] + vmovaps (pattern 0x55)
+vbroadcastf128	r256,[m]	miss	1.25	vbroadcastf128 r256,[m]
+vmaskmovps	[m128],r128,r128 (pattern 0x00)	miss	26.44	vmaskmovps [m128],r128,r128 (pattern 0x00)
+vpmaskmovd	r128,r128,[m128] (pattern 0x02)	miss	54.95	vpmaskmovd r128,r128,[m128] (pattern 0x02)
+vpmaskmovd	[m128],r128,r128 (pattern 0x33)	miss	178.92	vpmaskmovd [m128],r128,r128 (pattern 0x33)
+vmaskmovpd	r128,r128,[m128] (pattern 0xff)	miss	25.55	vmaskmovpd r128,r128,[m128] (pattern 0xff)
+vmaskmovpd	r256,r256,[m256] (pattern 0x55)	miss	66.56	vmaskmovpd r256,r256,[m256] (pattern 0x55)
+vmaskmovpd	r128,r128,[m128] (pattern 0x55)	miss	42.16	vmaskmovpd r128,r128,[m128] (pattern 0x55)
+vmaskmovpd	r256,r256,[m256] (pattern 0x00)	miss	93.21	vmaskmovpd r256,r256,[m256] (pattern 0x00)
+blendps	r128,r128,i	0.98	0.98	blendps r128,r128,i
+vmaskmovps	[m128],r128,r128 (pattern 0x33)	miss	188.52	vmaskmovps [m128],r128,r128 (pattern 0x33)
+vpmaskmovd+vmovaps		42.27	miss	vpmaskmovd r128,r128,[m128] + vmovaps (pattern 0x55)
+vblendvps	r128,r128,[m128],r128,i	miss	1.96	vblendvps r128,r128,[m128],r128,i
+vpmaskmovq	r128,r128,[m128] (pattern 0x55)	miss	41.12	vpmaskmovq r128,r128,[m128] (pattern 0x55)
+vpmaskmovq	[m256],r256,r256 (pattern 0x00)	miss	30.35	vpmaskmovq [m256],r256,r256 (pattern 0x00)
+vpmaskmovd	r256,r256,[m256] (pattern 0x55)	miss	158.72	vpmaskmovd r256,r256,[m256] (pattern 0x55)
+vpmaskmovq	r128,r128,[m128] (pattern 0x33)	miss	34.04	vpmaskmovq r128,r128,[m128] (pattern 0x33)
+maskmovdqu+movq/dqa		1.72	miss	maskmovdqu r,r (pattern 0x00) + movq/dqa (x)mm,[mem]
+vbroadcastss	r128,[m]	miss	1.16	vbroadcastss r128,[m]
+vpmaskmovd	r128,r128,[m128] (pattern 0x33)	miss	70.46	vpmaskmovd r128,r128,[m128] (pattern 0x33)
+vpmaskmovq	r256,r256,[m256] (pattern 0xff)	miss	30.37	vpmaskmovq r256,r256,[m256] (pattern 0xff)
