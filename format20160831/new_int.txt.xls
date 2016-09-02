@@ -1,5 +1,5 @@
 Instruct 	 Operators 	 Latency 	 Throughput 	 RawCommand 
-rdseed	r32	miss	52.71	rdseed r32
+rdseed	r32	miss	51.71	rdseed r32
 andn	r64,r64,r64	0.98	0.98	andn r64,r64,r64
 movbe	[m16],r16	miss	1.62	movbe [m16],r16
 blsi	r32,m32	miss	1.2	blsi r32,m32
@@ -23,14 +23,14 @@ aesdec	xmm,[m128]	miss	1.35	aesdec xmm,[m128]
 bextr	r64,r64,r64	2.94	0.99	bextr r64,r64,r64
 tzcnt	r16,r16	1.96	1.96	tzcnt r16,r16
 rorx	r32,r32,imm	0.98	0.98	rorx r32,r32,imm
-rdrand	r64	miss	99.94	rdrand r64
+rdrand	r64	miss	98.33	rdrand r64
 blsmsk	r32,r32	0.99	0.99	blsmsk r32,r32
 tzcnt	r32,r32	1.96	1.96	tzcnt r32,r32
 andn	r32,r32,r32	0.98	0.98	andn r32,r32,r32
-blsi	r64,r64	0.99	1.48	blsi r64,r64
+blsi	r64,r64	0.99	0.99	blsi r64,r64
 vaesimc	xmm,xmm	6.85	miss	vaesimc xmm,xmm
 vaesdec	xmm,xmm,xmm	6.85	miss	vaesdec xmm,xmm,xmm
-aeskeygenassist	xmm,[m128] ,0	miss	20.86	aeskeygenassist xmm,[m128] ,0
+aeskeygenassist	xmm,[m128] ,0	miss	19.56	aeskeygenassist xmm,[m128] ,0
 aesenc	xmm,xmm	6.85	0.98	aesenc xmm,xmm
 rorx	r64,r64,imm	0.98	0.98	rorx r64,r64,imm
 shlx	r64,r64,r64	1.96	0.98	shlx r64,r64,r64
@@ -38,28 +38,28 @@ aesenclast	xmm,[m128]	miss	1.35	aesenclast xmm,[m128]
 bextr	r32,m32,r32	miss	1.13	bextr r32,m32,r32
 pdep	r32,r32,r32	6.86	6.86	pdep r32,r32,r32
 blsr	r32,m32	miss	1.2	blsr r32,m32
-rorx	r64,m64,imm	miss	1.76	rorx r64,m64,imm
+rorx	r64,m64,imm	miss	1.2	rorx r64,m64,imm
 sarx	r32,m32,r32	miss	1.2	sarx r32,m32,r32
 lzcnt	r16,r16	1.96	1.96	lzcnt r16,r16
 pext	r64,r64,r64	10.77	10.77	pext r64,r64,r64
-pclmulqdq	xmm,[m128],0	miss	7.84	pclmulqdq xmm,[m128],0
+pclmulqdq	xmm,[m128],0	miss	7.83	pclmulqdq xmm,[m128],0
 movbe	[m32],r32	miss	1.62	movbe [m32],r32
 aesimc	xmm,xmm	6.85	0.98	aesimc xmm,xmm
-vaeskeygenassist	xmm,xmm ,0	24.78	miss	vaeskeygenassist xmm,xmm ,0
+vaeskeygenassist	xmm,xmm ,0	23.47	miss	vaeskeygenassist xmm,xmm ,0
 sarx	r64,r64,r64	1.96	0.98	sarx r64,r64,r64
-mulx	r64,r64,r64	13.66	3.92	mulx r64,r64,r64
+mulx	r64,r64,r64	12.72	3.92	mulx r64,r64,r64
 andn	r32,r32,m32	miss	1.2	andn r32,r32,m32
 aesdec	xmm,xmm	6.85	0.98	aesdec xmm,xmm
-bextr	r32,r32,r32	3.43	0.99	bextr r32,r32,r32
+bextr	r32,r32,r32	2.94	0.99	bextr r32,r32,r32
 vpclmulqdq	xmm,xmm,[m128],0	miss	8.81	vpclmulqdq xmm,xmm,[m128],0
 blsr	r32,r32	0.99	0.99	blsr r32,r32
 aesenc	xmm,[m128]	miss	1.35	aesenc xmm,[m128]
 tzcnt	r64,m64	miss	1.96	tzcnt r64,m64
-crc32	r32,r32	18.62	19.18	crc32 r32,r32
+crc32	r32,r32	18.62	18.62	crc32 r32,r32
 pclmulqdq	xmm,xmm,1	10.76	7.83	pclmulqdq xmm,xmm,1
 pclmulqdq	xmm,xmm,2	10.76	7.83	pclmulqdq xmm,xmm,2
-pclmulqdq	xmm,xmm,3	10.76	7.84	pclmulqdq xmm,xmm,3
-bextr	r64,m64,r64	miss	1.62	bextr r64,m64,r64
+pclmulqdq	xmm,xmm,3	10.76	7.83	pclmulqdq xmm,xmm,3
+bextr	r64,m64,r64	miss	1.13	bextr r64,m64,r64
 lzcnt	r32,r32	1.96	1.96	lzcnt r32,r32
 blsi	r64,m64	miss	1.2	blsi r64,m64
 adox	r64,r64	1.08	1.08	adox r64,r64
@@ -68,47 +68,47 @@ lzcnt	r16,m16	miss	1.96	lzcnt r16,m16
 movbe	r16,[m16]	miss	1.2	movbe r16,[m16]
 vaesenclast	xmm,xmm,xmm	6.85	miss	vaesenclast xmm,xmm,xmm
 shrx	r32,m32,r32	miss	1.2	shrx r32,m32,r32
-rdrand	r32	miss	99.39	rdrand r32
+rdrand	r32	miss	98.33	rdrand r32
 adcx	r32,r32	1.08	1.08	adcx r32,r32
 bzhi	r32,m32,r32	miss	1.2	bzhi r32,m32,r32
 pdep	r64,r64,m64	miss	10.77	pdep r64,r64,m64
 andn	r64,r64,m64	miss	1.2	andn r64,r64,m64
 mulx	r32,r32,m32	miss	2.02	mulx r32,r32,m32
 movbe	r64,[m64]	miss	1.2	movbe r64,[m64]
-tzcnt	r64,r64	3.01	1.96	tzcnt r64,r64
-rdseed	r64	miss	48.85	rdseed r64
+tzcnt	r64,r64	1.96	1.96	tzcnt r64,r64
+rdseed	r64	miss	48.84	rdseed r64
 pdep	r32,r32,m32	miss	6.86	pdep r32,r32,m32
 aesdeclast	xmm,[m128]	miss	1.35	aesdeclast xmm,[m128]
-pext	r32,r32,r32	7.55	6.86	pext r32,r32,r32
+pext	r32,r32,r32	6.86	6.86	pext r32,r32,r32
 blsmsk	r32,m32	miss	1.2	blsmsk r32,m32
 vaesenc	xmm,xmm,xmm	6.85	miss	vaesenc xmm,xmm,xmm
 lzcnt	r64,r64	1.96	1.96	lzcnt r64,r64
-blsi	r32,r32	0.99	1.0	blsi r32,r32
-mulx	r32,r32,r32	3.34	1.87	mulx r32,r32,r32
+blsi	r32,r32	0.99	0.99	blsi r32,r32
+mulx	r32,r32,r32	3.33	1.87	mulx r32,r32,r32
 pdep	r64,r64,r64	10.77	10.77	pdep r64,r64,r64
 crc32	r32,r16	11.76	11.76	crc32 r32,r16
 bzhi	r32,r32,r32	0.99	0.99	bzhi r32,r32,r32
 pext	r64,r64,m64	miss	10.77	pext r64,r64,m64
 shrx	r64,m64,r64	miss	1.2	shrx r64,m64,r64
-crc32	r32,[m16]	miss	11.77	crc32 r32,[m16]
-rdseed	r64, multiple threads	miss	49.54	rdseed r64, multiple threads
+crc32	r32,[m16]	miss	11.76	crc32 r32,[m16]
+rdseed	r64, multiple threads	miss	48.84	rdseed r64, multiple threads
 shlx	r32,r32,r32	1.96	0.98	shlx r32,r32,r32
 crc32	r32,r8	7.85	7.85	crc32 r32,r8
 pext	r32,r32,m32	miss	6.86	pext r32,r32,m32
 rdseed	r16	miss	48.84	rdseed r16
-rdrand	r64, multiple threads	miss	98.41	rdrand r64, multiple threads
+rdrand	r64, multiple threads	miss	98.33	rdrand r64, multiple threads
 aesimc	xmm,[m128]	miss	1.35	aesimc xmm,[m128]
 adcx	r64,r64	1.08	1.08	adcx r64,r64
-movbe	[m64],r64	miss	2.13	movbe [m64],r64
+movbe	[m64],r64	miss	1.62	movbe [m64],r64
 lzcnt	r32,m32	miss	1.96	lzcnt r32,m32
-rdrand	r16	miss	103.12	rdrand r16
+rdrand	r16	miss	98.33	rdrand r16
 shrx	r64,r64,r64	1.96	0.98	shrx r64,r64,r64
 blsr	r64,r64	0.99	0.99	blsr r64,r64
 shlx	r64,m64,r64	miss	1.2	shlx r64,m64,r64
 aesdeclast	xmm,xmm	6.85	0.98	aesdeclast xmm,xmm
-aeskeygenassist	xmm,xmm ,0	23.47	20.88	aeskeygenassist xmm,xmm ,0
+aeskeygenassist	xmm,xmm ,0	23.47	19.56	aeskeygenassist xmm,xmm ,0
 pclmulqdq	xmm,xmm,0	10.76	7.83	pclmulqdq xmm,xmm,0
 vaesdeclast	xmm,xmm,xmm	6.85	miss	vaesdeclast xmm,xmm,xmm
 blsr	r64,m64	miss	1.2	blsr r64,m64
-aesenclast	xmm,xmm	6.85	0.99	aesenclast xmm,xmm
+aesenclast	xmm,xmm	6.85	0.98	aesenclast xmm,xmm
 shrx	r32,r32,r32	1.96	0.98	shrx r32,r32,r32

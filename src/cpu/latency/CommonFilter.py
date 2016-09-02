@@ -89,13 +89,23 @@ class CommonFilter:
             if 'Latency' in self.clockDict[key] and len(self.clockDict[key]['Latency']) != 0:
                 clock = numpy.array(self.clockDict[key]['Latency'])
                 instructs = numpy.array(self.instructsDict[key]['Latency'])
-                self.mean[key]['Latency'] = 1.0 * clock.sum() / instructs.sum()
-                self.var[key]['Latency'] = (1.0 * clock / instructs).var()
+                #self.mean[key]['Latency'] = 1.0 * clock.sum() / instructs.sum()
+                try:
+                    self.mean[key]['Latency'] = 1.0 * min(clock) / instructs[min(clock).__index__()]
+                    self.var[key]['Latency'] = (1.0 * clock / instructs).var()
+                except:
+                    self.mean[key]['Latency'] = 1.0 * min(clock) / instructs[0]
+                    self.var[key]['Latency'] = (1.0 * clock / instructs).var()
             if 'Throughput' in self.clockDict[key] and len(self.clockDict[key]['Throughput']) != 0:
                 clock = numpy.array(self.clockDict[key]['Throughput'])
                 instructs = numpy.array(self.instructsDict[key]['Throughput'])
-                self.mean[key]['Throughput'] = 1.0 * clock.sum() / instructs.sum()
-                self.var[key]['Throughput'] = (1.0 * clock / instructs).var()
+                #self.mean[key]['Throughput'] = 1.0 * clock.sum() / instructs.sum()
+                try:
+                    self.mean[key]['Throughput'] =1.0 * min(clock) / instructs[min(clock).__index__()]
+                    self.var[key]['Throughput'] = (1.0 * clock / instructs).var()
+                except:
+                    self.mean[key]['Throughput'] = 1.0 * min(clock) / instructs[0]
+                    self.var[key]['Throughput'] = (1.0 * clock / instructs).var()
 
     def write(self, fileSrc):
         outFile = open(fileSrc, 'w')

@@ -1,5 +1,5 @@
-Throughput fstp [m80] + fld	miss	48.74
+Throughput fstp [m80] + fld	miss	0.03
 Throughput fst [m32]	miss	1.96
 Throughput fstp [m64] + fld	miss	1.49
 Throughput fstp [m32] + fld	miss	1.49
-Throughput fst [m64]	miss	1.19
+Throughput fst [m64]	miss	1.96

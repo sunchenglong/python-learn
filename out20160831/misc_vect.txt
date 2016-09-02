@@ -1,185 +1,185 @@
 vmaskmovpd r128,r128,[m128] (pattern 0x33)	miss	24.48
-vblendvps r256,r256,[m256],r256,i	miss	4.9
-vmaskmovpd [m256],r256,r256 (pattern 0x55)	82.78	151.84
-vmaskmovps [m128],r128,r128 (pattern 0xff)	miss	151.39
+vblendvps r256,r256,[m256],r256,i	miss	3.91
+vmaskmovpd [m256],r256,r256 (pattern 0x55)	80.62	148.75
+vmaskmovps [m128],r128,r128 (pattern 0xff)	miss	141.01
 Latency with memory operand extractps  / movss	4.95	miss
-maskmovq r,r (pattern 0xff) + movq/dqa (x)mm,[mem]	147.49	miss
+maskmovq r,r (pattern 0xff) + movq/dqa (x)mm,[mem]	145.61	miss
 vmaskmovpd [m128],r128,r128 (pattern 0xff)	miss	21.55
 stmxcsr m	miss	11.76
 vmaskmovpd r128,r128,[m128] (pattern 0x02)	miss	31.36
-vmaskmovps [m128],r128,r128 (pattern 0x02)	miss	163.17
-vblendps r128,r128,i	0.99	0.99
+vmaskmovps [m128],r128,r128 (pattern 0x02)	miss	158.68
+vblendps r128,r128,i	0.98	0.98
 vmaskmovpd [m256],r256,r256 (pattern 0x00)	miss	30.35
-vmaskmovpd r256,r256,[m256] (pattern 0x33)	miss	57.73
-vblendpd r128,r128,i	0.99	0.99
-vmaskmovpd r256,r256,[m256] (pattern 0x02)	miss	76.09
+vmaskmovpd r256,r256,[m256] (pattern 0x33)	miss	56.77
+vblendpd r128,r128,i	0.98	0.98
+vmaskmovpd r256,r256,[m256] (pattern 0x02)	miss	74.47
 Latency vextractf128 ymm,	0.99	miss
-vpmaskmovq r256,r256,[m256] (pattern 0x33)	miss	56.64
-vpmaskmovq r128,r128,[m128] + vmovaps (pattern 0x55)	21.63	miss
-maskmovdqu r,r (pattern 0x55) + movq/dqa (x)mm,[mem]	167.15	miss
+vpmaskmovq r256,r256,[m256] (pattern 0x33)	miss	55.8
+vpmaskmovq r128,r128,[m128] + vmovaps (pattern 0x55)	21.27	miss
+maskmovdqu r,r (pattern 0x55) + movq/dqa (x)mm,[mem]	157.58	miss
 maskmovq r,r (pattern 0x02)	miss	1.69
-Throughput insertps xmm,	miss	1.13
-Latency unaligned write+read movupd [m],xmm / movupd xmm,[m]	2.48	miss
+Throughput insertps xmm,	miss	0.77
+Latency unaligned write+read movupd [m],xmm / movupd xmm,[m]	2.47	miss
 vblendpd r256,[m256],i	miss	2.44
-vpmaskmovq [m128],r128,r128 (pattern 0x33)	miss	22.86
-vmaskmovpd [m256],r256,r256 (pattern 0xff)	miss	121.33
-vblendvpd r128,r128,[m128],r128,i	miss	2.16
+vpmaskmovq [m128],r128,r128 (pattern 0x33)	miss	21.54
+vmaskmovpd [m256],r256,r256 (pattern 0xff)	miss	119.47
+vblendvpd r128,r128,[m128],r128,i	miss	1.96
 Throughput unaligned read movups xmm,[m]	miss	1.29
-maskmovq r,r (pattern 0x55) + movq/dqa (x)mm,[mem]	147.51	miss
-vmaskmovpd [m128],r128,r128 (pattern 0x55)	26.25	32.3
-Throughput vinsertps xmm,	miss	1.32
-vpmaskmovd r256,r256,[m256] (pattern 0xff)	miss	75.63
-vpmaskmovq [m256],r256,r256 (pattern 0x55)	86.14	151.56
+maskmovq r,r (pattern 0x55) + movq/dqa (x)mm,[mem]	145.67	miss
+vmaskmovpd [m128],r128,r128 (pattern 0x55)	25.72	32.3
+Throughput vinsertps xmm,	miss	0.98
+vpmaskmovd r256,r256,[m256] (pattern 0xff)	miss	74.42
+vpmaskmovq [m256],r256,r256 (pattern 0x55)	80.62	148.77
 Throughput unaligned read movdqu xmm,[m]	miss	1.29
 vblendps r256,[m256],i	miss	2.44
 Latency insertps xmm,xmm,i	1.15	miss
-Latency vinsertf128 ymm,	2.21	miss
+Latency vinsertf128 ymm,	2.2	miss
 vblendvpd r256,r256,r256,r256,i	3.91	3.91
-vpmaskmovd r128,r128,[m128] (pattern 0xff)	miss	49.22
+vpmaskmovd r128,r128,[m128] (pattern 0xff)	miss	44.07
 maskmovq r,r (pattern 0x00) + movq/dqa (x)mm,[mem]	1.72	miss
 Latency unaligned write+read vmovdqu [m],xmm / vmovdqu xmm,[m]	2.6	miss
 vpmaskmovq [m128],r128,r128 (pattern 0x02)	miss	28.42
 maskmovq r,r (pattern 0x00)	miss	1.68
 vblendps r128,[m128],i	miss	1.26
 vpmaskmovq r128,r128,[m128] (pattern 0xff)	miss	24.49
-vmaskmovpd [m256],r256,r256 (pattern 0x33)	miss	120.06
+vmaskmovpd [m256],r256,r256 (pattern 0x33)	miss	117.44
 vblendvpd r128,r128,r128,r128,i	3.91	1.96
-Throughput vzeroall (32 bit mode)	miss	54.78
-vmaskmovps r128,r128,[m128] (pattern 0x55)	miss	82.27
-ldmxcsr m	miss	28.73
-vmaskmovps [m256],r256,r256 (pattern 0x55)	150.71	305.96
+Throughput vzeroall (32 bit mode)	miss	52.94
+vmaskmovps r128,r128,[m128] (pattern 0x55)	miss	81.22
+ldmxcsr m	miss	27.41
+vmaskmovps [m256],r256,r256 (pattern 0x55)	148.36	292.55
 maskmovdqu r,r (pattern 0x02)	miss	1.69
 vpmaskmovq [m128],r128,r128 (pattern 0xff)	miss	21.55
 maskmovdqu r,r (pattern 0xff)	miss	1.69
-vmaskmovps r256,r256,[m256] + vmovaps (pattern 0x55)	84.11	miss
-vpmaskmovd [m256],r256,r256 (pattern 0x33)	miss	296.08
-Latency vinsertps xmm,xmm,i	1.78	miss
-vpmaskmovd [m256],r256,r256 (pattern 0x00)	miss	30.58
+vmaskmovps r256,r256,[m256] + vmovaps (pattern 0x55)	79.62	miss
+vpmaskmovd [m256],r256,r256 (pattern 0x33)	miss	292.55
+Latency vinsertps xmm,xmm,i	1.77	miss
+vpmaskmovd [m256],r256,r256 (pattern 0x00)	miss	29.37
 vmaskmovps r128,r128,[m128] (pattern 0xff)	miss	44.07
-vmaskmovps [m256],r256,r256 (pattern 0x00)	miss	30.43
+vmaskmovps [m256],r256,r256 (pattern 0x00)	miss	29.37
 Latency unaligned write+read vmovupd [m],xmm / vmovupd xmm,[m]	2.6	miss
 maskmovq r,r (pattern 0x55)	miss	1.69
 Throughput unaligned write movdqu [m],xmm	miss	1.61
 Latency ptest xmm,xmm / sbb / movd	2.98	miss
-vmaskmovps [m256],r256,r256 (pattern 0x02)	miss	225.75
-vpmaskmovq r256,r256,[m256] + vmovaps (pattern 0x55)	34.3	miss
+vmaskmovps [m256],r256,r256 (pattern 0x02)	miss	214.49
+vpmaskmovq r256,r256,[m256] + vmovaps (pattern 0x55)	33.63	miss
 vblendvps r256,r256,r256,r256,i	3.91	3.91
-maskmovq r,r (pattern 0x33) + movq/dqa (x)mm,[mem]	148.66	miss
-maskmovdqu r,r (pattern 0x33) + movq/dqa (x)mm,[mem]	166.0	miss
-vpmaskmovd [m128],r128,r128 (pattern 0xff)	miss	143.7
+maskmovq r,r (pattern 0x33) + movq/dqa (x)mm,[mem]	145.64	miss
+maskmovdqu r,r (pattern 0x33) + movq/dqa (x)mm,[mem]	157.57	miss
+vpmaskmovd [m128],r128,r128 (pattern 0xff)	miss	141.01
 vblendvpd r256,r256,[m256],r256,i	miss	3.91
 vpmaskmovd [m128],r128,r128 (pattern 0x00)	miss	26.44
-vpmaskmovd [m256],r256,r256 (pattern 0x55)	149.96	295.47
+vpmaskmovd [m256],r256,r256 (pattern 0x55)	148.36	292.55
 vbroadcastsd r256,[m]	miss	1.24
-vpmaskmovq r256,r256,[m256] (pattern 0x00)	miss	91.89
-vmaskmovpd [m128],r128,r128 (pattern 0x33)	miss	23.18
+vpmaskmovq r256,r256,[m256] (pattern 0x00)	miss	90.05
+vmaskmovpd [m128],r128,r128 (pattern 0x33)	miss	21.54
 pblendvb r128,[m128],xmm0	miss	1.96
-Latency unaligned write+read movups [m],xmm / movups xmm,[m]	2.48	miss
+Latency unaligned write+read movups [m],xmm / movups xmm,[m]	2.47	miss
 blendps r128,[m128],i	miss	1.25
 vmaskmovpd [m128],r128,r128 (pattern 0x00)	miss	25.46
 vpmaskmovq r128,r128,[m128] (pattern 0x02)	miss	31.36
-vpmaskmovd r256,r256,[m256] (pattern 0x00)	miss	196.41
-vinsertf128 m256	miss	3.12
+vpmaskmovd r256,r256,[m256] (pattern 0x00)	miss	191.79
+vinsertf128 m256	miss	1.2
 maskmovq r,r (pattern 0xff)	miss	1.69
-Latency unaligned write+read vmovups [m],xmm / vmovups xmm,[m]	3.91	miss
+Latency unaligned write+read vmovups [m],xmm / vmovups xmm,[m]	2.6	miss
 vblendpd r256,r256,i	2.94	1.96
-vpmaskmovq [m256],r256,r256 (pattern 0x33)	miss	119.42
-vmaskmovps r256,r256,[m256] (pattern 0x55)	miss	158.24
-vmaskmovps r256,r256,[m256] (pattern 0xff)	miss	83.78
-maskmovq r,r (pattern 0x02) + movq/dqa (x)mm,[mem]	147.51	miss
-vpmaskmovq r256,r256,[m256] (pattern 0x02)	miss	74.79
-vmaskmovps [m256],r256,r256 (pattern 0xff)	miss	232.34
+vpmaskmovq [m256],r256,r256 (pattern 0x33)	miss	117.45
+vmaskmovps r256,r256,[m256] (pattern 0x55)	miss	155.57
+vmaskmovps r256,r256,[m256] (pattern 0xff)	miss	74.43
+maskmovq r,r (pattern 0x02) + movq/dqa (x)mm,[mem]	145.64	miss
+vpmaskmovq r256,r256,[m256] (pattern 0x02)	miss	73.49
+vmaskmovps [m256],r256,r256 (pattern 0xff)	miss	222.28
 Throughput unaligned read movupd xmm,[m]	miss	1.29
-maskmovdqu r,r (pattern 0xff) + movq/dqa (x)mm,[mem]	144.77	miss
-xgetbv	miss	45.23
-vmaskmovps r256,r256,[m256] (pattern 0x00)	miss	194.5
-vpmaskmovq [m256],r256,r256 (pattern 0xff)	miss	122.15
+maskmovdqu r,r (pattern 0xff) + movq/dqa (x)mm,[mem]	143.26	miss
+xgetbv	miss	40.17
+vmaskmovps r256,r256,[m256] (pattern 0x00)	miss	191.83
+vpmaskmovq [m256],r256,r256 (pattern 0xff)	miss	119.47
 vblendpd r128,[m128],i	miss	1.26
-vmaskmovps r128,r128,[m128] (pattern 0x00)	miss	100.44
+vmaskmovps r128,r128,[m128] (pattern 0x00)	miss	97.87
 Throughput unaligned write movups [m],xmm	miss	1.61
-Throughput unaligned read vmovdqu xmm,[m]	miss	2.61
+Throughput unaligned read vmovdqu xmm,[m]	miss	2.6
 Throughput unaligned read vmovups xmm,[m]	miss	2.6
-vpmaskmovq [m128],r128,r128 (pattern 0x55)	28.8	32.3
-vpmaskmovq r256,r256,[m256] (pattern 0x55)	miss	66.55
+vpmaskmovq [m128],r128,r128 (pattern 0x55)	25.72	32.3
+vpmaskmovq r256,r256,[m256] (pattern 0x55)	miss	65.58
 maskmovdqu r,r (pattern 0x00)	miss	1.68
-vpmaskmovd r128,r128,[m128] (pattern 0x00)	miss	98.93
+vpmaskmovd r128,r128,[m128] (pattern 0x00)	miss	97.88
 vbroadcastsd r256,[m] + mov	3.96	miss
 vbroadcastss r128,[m] + mov	3.96	miss
-vpmaskmovd [m256],r256,r256 (pattern 0x02)	miss	227.49
+vpmaskmovd [m256],r256,r256 (pattern 0x02)	miss	214.49
 vmaskmovpd r128,r128,[m128] (pattern 0x00)	miss	47.97
-Throughput vzeroupper (32 bit mode)	miss	31.81
+Throughput vzeroupper (32 bit mode)	miss	31.38
 vblendvps r128,r128,r128,r128,i	3.91	1.96
-vmaskmovpd r256,r256,[m256] (pattern 0xff)	miss	31.35
-vmaskmovps r128,r128,[m128] (pattern 0x33)	miss	70.46
-vmaskmovps [m256],r256,r256 (pattern 0x33)	miss	302.21
-vmaskmovpd [m256],r256,r256 (pattern 0x02)	miss	139.0
+vmaskmovpd r256,r256,[m256] (pattern 0xff)	miss	31.34
+vmaskmovps r128,r128,[m128] (pattern 0x33)	miss	70.45
+vmaskmovps [m256],r256,r256 (pattern 0x33)	miss	292.55
+vmaskmovpd [m256],r256,r256 (pattern 0x02)	miss	129.32
 blendpd r128,r128,i	0.98	0.98
-vmaskmovps r128,r128,[m128] + vmovaps (pattern 0x55)	42.37	miss
+vmaskmovps r128,r128,[m128] + vmovaps (pattern 0x55)	41.54	miss
 vblendps r256,r256,i	2.94	1.96
-vpmaskmovd r256,r256,[m256] + vmovaps (pattern 0x55)	80.94	miss
-vmaskmovps r256,r256,[m256] (pattern 0x33)	miss	140.2
+vpmaskmovd r256,r256,[m256] + vmovaps (pattern 0x55)	79.62	miss
+vmaskmovps r256,r256,[m256] (pattern 0x33)	miss	133.07
 vstmxcsr m	miss	11.76
-maskmovdqu r,r (pattern 0x02) + movq/dqa (x)mm,[mem]	153.66	miss
+maskmovdqu r,r (pattern 0x02) + movq/dqa (x)mm,[mem]	145.66	miss
 vbroadcastss r256,[m] + mov	3.96	miss
-vpmaskmovd [m128],r128,r128 (pattern 0x02)	miss	165.98
-vpmaskmovd [m256],r256,r256 (pattern 0xff)	miss	225.93
-ldmxcsr + stmccsr	30.22	miss
-Throughput vzeroupper (64 bit mode)	miss	52.71
-vpmaskmovd [m128],r128,r128 (pattern 0x55)	91.14	181.8
-vpmaskmovq [m256],r256,r256 (pattern 0x02)	miss	131.13
+vpmaskmovd [m128],r128,r128 (pattern 0x02)	miss	158.66
+vpmaskmovd [m256],r256,r256 (pattern 0xff)	miss	222.28
+ldmxcsr + stmccsr	29.69	miss
+Throughput vzeroupper (64 bit mode)	miss	50.0
+vpmaskmovd [m128],r128,r128 (pattern 0x55)	89.51	176.12
+vpmaskmovq [m256],r256,r256 (pattern 0x02)	miss	129.33
 vmaskmovpd [m128],r128,r128 (pattern 0x02)	miss	28.42
 vbroadcastf128 r256,[m] + mov	2.53	miss
-vpmaskmovd r256,r256,[m256] (pattern 0x02)	miss	147.02
-vpmaskmovq r128,r128,[m128] (pattern 0x00)	miss	48.68
+vpmaskmovd r256,r256,[m256] (pattern 0x02)	miss	144.97
+vpmaskmovq r128,r128,[m128] (pattern 0x00)	miss	47.97
 maskmovdqu r,r (pattern 0x55)	miss	1.7
 blendvps r128,[m128],xmm0	miss	1.96
-vmaskmovps [m128],r128,r128 (pattern 0x55)	94.77	186.02
+vmaskmovps [m128],r128,r128 (pattern 0x55)	89.51	176.12
 Throughput ptest xmm,xmm	miss	0.98
 maskmovdqu r,r (pattern 0x33)	miss	1.7
-blendpd r128,[m128],i	miss	1.82
+blendpd r128,[m128],i	miss	1.25
 maskmovq r,r (pattern 0x33)	miss	1.69
-vmaskmovpd r128,r128,[m128] + vmovaps (pattern 0x55)	21.8	miss
+vmaskmovpd r128,r128,[m128] + vmovaps (pattern 0x55)	21.27	miss
 vbroadcastss r256,[m]	miss	1.24
-vpmaskmovq [m128],r128,r128 (pattern 0x00)	miss	26.77
+vpmaskmovq [m128],r128,r128 (pattern 0x00)	miss	25.46
 Throughput unaligned write vmovups [m],xmm	miss	3.21
-vpmaskmovd r128,r128,[m128] (pattern 0x55)	miss	82.73
+vpmaskmovd r128,r128,[m128] (pattern 0x55)	miss	81.22
 Throughput unaligned write vmovdqu [m],xmm	miss	3.21
-vpmaskmovd r256,r256,[m256] (pattern 0x33)	miss	136.27
+vpmaskmovd r256,r256,[m256] (pattern 0x33)	miss	133.07
 Throughput unaligned write vmovupd [m],xmm	miss	3.21
 Throughput emms (64 bit mode)	miss	0.98
 blendvps r128,r128,xmm0	3.92	1.96
-vextractf128 m256	miss	1.71
-vmaskmovps r256,r256,[m256] (pattern 0x02)	miss	147.54
-vmaskmovps r128,r128,[m128] (pattern 0x02)	miss	55.51
+vextractf128 m256	miss	1.61
+vmaskmovps r256,r256,[m256] (pattern 0x02)	miss	144.97
+vmaskmovps r128,r128,[m128] (pattern 0x02)	miss	53.88
 pblendvb r128,r128,xmm0	1.96	1.96
-vmaskmovpd r256,r256,[m256] + vmovaps (pattern 0x55)	34.41	miss
-Latency with memory operand insertps  / movss	4.24	miss
+vmaskmovpd r256,r256,[m256] + vmovaps (pattern 0x55)	34.13	miss
+Latency with memory operand insertps  / movss	3.96	miss
 Throughput unaligned write movupd [m],xmm	miss	1.61
 vbroadcastf128 r256,[m]	miss	1.25
 vmaskmovps [m128],r128,r128 (pattern 0x00)	miss	26.44
-vpmaskmovd r128,r128,[m128] (pattern 0x02)	miss	54.95
-vpmaskmovd [m128],r128,r128 (pattern 0x33)	miss	178.92
-vmaskmovpd r128,r128,[m128] (pattern 0xff)	miss	25.55
+vpmaskmovd r128,r128,[m128] (pattern 0x02)	miss	53.88
+vpmaskmovd [m128],r128,r128 (pattern 0x33)	miss	176.12
+vmaskmovpd r128,r128,[m128] (pattern 0xff)	miss	24.49
 Throughput unaligned read vmovupd xmm,[m]	miss	2.6
-Throughput extractps xmm,	miss	1.05
+Throughput extractps xmm,	miss	0.5
 Latency with memory operand vinsertps  / movss	3.96	miss
 vmaskmovpd r256,r256,[m256] (pattern 0x55)	miss	66.56
-Throughput vinsertf128 ymm,	miss	0.99
-vmaskmovpd r128,r128,[m128] (pattern 0x55)	miss	42.16
-vmaskmovpd r256,r256,[m256] (pattern 0x00)	miss	93.21
-Latency unaligned write+read movdqu [m],xmm / movdqu xmm,[m]	2.48	miss
+Throughput vinsertf128 ymm,	miss	0.98
+vmaskmovpd r128,r128,[m128] (pattern 0x55)	miss	41.12
+vmaskmovpd r256,r256,[m256] (pattern 0x00)	miss	91.03
+Latency unaligned write+read movdqu [m],xmm / movdqu xmm,[m]	2.47	miss
 blendps r128,r128,i	0.98	0.98
-Throughput vextractf128 ymm,	miss	0.99
+Throughput vextractf128 ymm,	miss	0.98
 Throughput emms (32 bit mode)	miss	0.98
-vmaskmovps [m128],r128,r128 (pattern 0x33)	miss	188.52
-Throughput vzeroall (64 bit mode)	miss	95.31
-vpmaskmovd r128,r128,[m128] + vmovaps (pattern 0x55)	42.27	miss
+vmaskmovps [m128],r128,r128 (pattern 0x33)	miss	176.12
+Throughput vzeroall (64 bit mode)	miss	93.26
+vpmaskmovd r128,r128,[m128] + vmovaps (pattern 0x55)	41.54	miss
 vblendvps r128,r128,[m128],r128,i	miss	1.96
 vpmaskmovq r128,r128,[m128] (pattern 0x55)	miss	41.12
 vpmaskmovq [m256],r256,r256 (pattern 0x00)	miss	30.35
-vpmaskmovd r256,r256,[m256] (pattern 0x55)	miss	158.72
-vpmaskmovq r128,r128,[m128] (pattern 0x33)	miss	34.04
+vpmaskmovd r256,r256,[m256] (pattern 0x55)	miss	155.57
+vpmaskmovq r128,r128,[m128] (pattern 0x33)	miss	24.48
 maskmovdqu r,r (pattern 0x00) + movq/dqa (x)mm,[mem]	1.72	miss
-vbroadcastss r128,[m]	miss	1.16
-vpmaskmovd r128,r128,[m128] (pattern 0x33)	miss	70.46
+vbroadcastss r128,[m]	miss	1.15
+vpmaskmovd r128,r128,[m128] (pattern 0x33)	miss	70.45
 vpmaskmovq r256,r256,[m256] (pattern 0xff)	miss	30.37

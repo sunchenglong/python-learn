@@ -1,5 +1,5 @@
 Instruct 	 Operators 	 Latency 	 Throughput 	 RawCommand 
-imul	, regsize 32, numop 2	1.25	1.98	imul , regsize 32, numop 2
+imul	, regsize 32, numop 2	1.25	1.25	imul , regsize 32, numop 2
 imul	, regsize 32, numop 3	1.25	1.25	imul , regsize 32, numop 3
 mul	, registersize 32 (subtract 1 uop)	miss	1.18	mul , registersize 32 (subtract 1 uop)
 imul	, registersize 8	1.98	miss	imul , registersize 8

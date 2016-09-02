@@ -1,168 +1,168 @@
-pcmpistrm xmm,[mem],0	miss	57.88
-rep movsd, count = 1000	156.99	miss
-rep stosb, count = 10000	380.71	miss
-pcmpestrm xmm0,xmm0,3	71.38	miss
-pcmpestrm xmm0,xmm0,0	102.89	miss
-pcmpestrm xmm0,xmm0,0xC	171.84	miss
-pcmpestrm xmm0,xmm0,4	137.01	miss
-repe cmpsb, count = 1000, misalign = 0	749.82	miss
-pcmpestrm xmm0,xmm0,8	38.54	miss
-repe cmpsb, count = 1000, misalign = 4	749.81	miss
-repe scasb, count = 1000, misalign = 0	590.5	miss
-rep stosd, count = 1000, misalign = 4	185.71	miss
-rep lodsd, count = 10000	10386.44	miss
-rep stosd, count = 1000, misalign = 0	168.44	miss
-scasw	1.44	miss
-rep stosb, count = 100	56.94	miss
-scasq	1.61	miss
-rep lodsb, count = 1000	997.08	miss
-rep movsq, count = 10000	4158.03	miss
-pcmpistri xmm1,xmm1,4 / movd xmm1,ecx	36.65	miss
-scasd	2.3	miss
-rep stosw, count = 10000	728.43	miss
-scasb	1.35	miss
-rep movsb, count = 1000	63.96	miss
-repe scasq, count = 1000, misalign = 4	1065.92	miss
-repe cmpsd, count = 1000, misalign = 0	750.21	miss
-repe scasq, count = 1000, misalign = 0	564.45	miss
-rep movsd, count = 1000, misalign = 16	181.1	miss
-rep lodsb, count = 100	105.98	miss
-rep stosw, count = 1000	119.98	miss
-pcmpistri xmm1,xmm1,0 / movd xmm1,ecx	31.21	miss
-repe scasb, count = 100, misalign = 0	62.92	miss
-pcmpestri xmm1,xmm1,4 / movd xmm1,ecx	69.63	miss
-repe scasd, count = 1000, misalign = 0	564.36	miss
-rep stosb, count = 1000	60.43	miss
-repe cmpsd, count = 1000, misalign = 4	750.05	miss
-repe scasb, count = 1000, misalign = 4	564.18	miss
-repe cmpsq, count = 10000, misalign = 4	16744.41	miss
-pcmpistrm xmm0,xmm0,4	72.56	miss
+pcmpistrm xmm,[mem],0	miss	56.81
+rep movsd, count = 1000	145.47	miss
+rep stosb, count = 10000	342.27	miss
+pcmpestrm xmm0,xmm0,3	70.52	miss
+pcmpestrm xmm0,xmm0,0	92.06	miss
+pcmpestrm xmm0,xmm0,0xC	155.71	miss
+pcmpestrm xmm0,xmm0,4	135.16	miss
+repe cmpsb, count = 1000, misalign = 0	749.75	miss
+pcmpestrm xmm0,xmm0,8	37.23	miss
+repe cmpsb, count = 1000, misalign = 4	749.75	miss
+repe scasb, count = 1000, misalign = 0	564.1	miss
+rep stosd, count = 1000, misalign = 4	140.98	miss
+rep lodsd, count = 10000	9908.7	miss
+rep stosd, count = 1000, misalign = 0	135.56	miss
+scasw	1.06	miss
+rep stosb, count = 100	56.93	miss
+scasq	1.18	miss
+rep lodsb, count = 1000	997.02	miss
+rep movsq, count = 10000	3820.83	miss
+pcmpistri xmm1,xmm1,4 / movd xmm1,ecx	36.12	miss
+scasd	1.12	miss
+rep stosw, count = 10000	646.44	miss
+scasb	1.12	miss
+rep movsb, count = 1000	63.89	miss
+repe scasq, count = 1000, misalign = 4	1039.6	miss
+repe cmpsd, count = 1000, misalign = 0	749.75	miss
+repe scasq, count = 1000, misalign = 0	564.1	miss
+rep movsd, count = 1000, misalign = 16	148.18	miss
+rep lodsb, count = 100	105.94	miss
+rep stosw, count = 1000	87.16	miss
+pcmpistri xmm1,xmm1,0 / movd xmm1,ecx	30.68	miss
+repe scasb, count = 100, misalign = 0	62.87	miss
+pcmpestri xmm1,xmm1,4 / movd xmm1,ecx	68.28	miss
+repe scasd, count = 1000, misalign = 0	564.1	miss
+rep stosb, count = 1000	60.39	miss
+repe cmpsd, count = 1000, misalign = 4	749.75	miss
+repe scasb, count = 1000, misalign = 4	564.1	miss
+repe cmpsq, count = 10000, misalign = 4	16568.23	miss
+pcmpistrm xmm0,xmm0,4	71.5	miss
 pcmpistrm xmm0,xmm0,3	58.77	miss
-pcmpistrm xmm0,xmm0,0	61.33	miss
-pcmpestri xmm,[mem],0	miss	92.5
-rep stosd, count = 100, misalign = 16	56.95	miss
-pcmpistri xmm1,xmm1,8 / movd xmm1,ecx	18.84	miss
-repe scasd, count = 10000, misalign = 4	6343.12	miss
-rep stosd, count = 10000, misalign = 16	1877.86	miss
-repe scasd, count = 10000, misalign = 0	6172.66	miss
-rep movsd, count = 1000, misalign = 0	178.56	miss
-rep movsd, count = 1000, misalign = 4	184.35	miss
-repe cmpsw, count = 100, misalign = 0	108.4	miss
-pcmpestri xmm,xmm,0	miss	93.04
-repe cmpsw, count = 100, misalign = 4	108.24	miss
-repe cmpsb, count = 10000, misalign = 4	7592.05	miss
-repe cmpsb, count = 10000, misalign = 0	7915.94	miss
-pcmpistrm xmm0,xmm0,8	37.84	miss
-repe scasw, count = 10000, misalign = 4	5710.85	miss
-repe scasw, count = 10000, misalign = 0	5888.68	miss
-rep stosq, count = 100	56.95	miss
-rep movsq, count = 100, misalign = 4	151.31	miss
-pcmpestri xmm1,xmm1,0 / movd xmm1,ecx	51.43	miss
-rep movsd, count = 10000	2320.87	miss
-pcmpistrm xmm,xmm,0	miss	57.87
-rep movsq, count = 100, misalign = 0	57.31	miss
-rep movsq, count = 1000	314.96	miss
-rep movsd, count = 100, misalign = 16	57.33	miss
-pcmpistri xmm,[mem],0	miss	57.46
-rep movsq, count = 1000, misalign = 4	1571.47	miss
-rep movsd, count = 10000, misalign = 4	2071.97	miss
-rep stosd, count = 1000, misalign = 16	171.21	miss
-rep movsd, count = 10000, misalign = 0	2091.77	miss
-repe scasd, count = 100, misalign = 0	62.96	miss
-repe cmpsb, count = 100, misalign = 4	108.33	miss
-rep stosq, count = 100, misalign = 16	56.96	miss
-repe cmpsb, count = 100, misalign = 0	81.49	miss
-movsd	2.51	miss
-movsb	2.01	miss
-rep movsb, count = 10000	396.15	miss
-repe cmpsw, count = 1000, misalign = 4	749.97	miss
-rep stosq, count = 100, misalign = 4	155.46	miss
-repe cmpsw, count = 1000, misalign = 0	750.05	miss
-rep stosq, count = 100, misalign = 0	56.96	miss
-movsw	2.14	miss
-rep stosq, count = 1000, misalign = 16	302.2	miss
-repe cmpsw, count = 10000, misalign = 0	7932.06	miss
-movsq	2.81	miss
-rep movsq, count = 10000, misalign = 4	16234.77	miss
-rep movsq, count = 10000, misalign = 0	4576.54	miss
-repe scasq, count = 100, misalign = 0	62.95	miss
-rep lodsw, count = 10000	10104.27	miss
-repe scasq, count = 100, misalign = 4	107.73	miss
-rep lodsq, count = 100	105.99	miss
-rep lodsd, count = 100	105.99	miss
-repe scasd, count = 100, misalign = 4	62.96	miss
-rep movsb, count = 100	57.23	miss
-rep stosq, count = 10000	3905.52	miss
-rep movsq, count = 1000, misalign = 16	315.81	miss
-rep stosq, count = 10000, misalign = 4	16534.81	miss
-rep movsw, count = 10000	712.65	miss
-rep stosq, count = 10000, misalign = 0	4133.83	miss
-rep stosd, count = 10000, misalign = 0	1865.93	miss
-rep stosd, count = 10000, misalign = 4	2243.85	miss
-rep stosd, count = 100, misalign = 0	56.95	miss
-rep stosw, count = 100	69.53	miss
-pcmpestri xmm1,xmm1,0xC / movd xmm1,ecx	80.08	miss
-rep stosd, count = 100, misalign = 4	80.25	miss
-rep movsd, count = 100	57.32	miss
-pcmpistrm xmm0,xmm0,0xC	87.76	miss
-rep movsw, count = 1000	113.96	miss
-repe cmpsq, count = 100, misalign = 0	81.62	miss
-repe cmpsq, count = 100, misalign = 4	167.68	miss
-repe cmpsd, count = 100, misalign = 0	101.37	miss
-rep lodsb, count = 10000	9980.13	miss
+pcmpistrm xmm0,xmm0,0	56.81	miss
+pcmpestri xmm,[mem],0	miss	91.09
+rep stosd, count = 100, misalign = 16	56.93	miss
+pcmpistri xmm1,xmm1,8 / movd xmm1,ecx	18.31	miss
+repe scasd, count = 10000, misalign = 4	5810.75	miss
+rep stosd, count = 10000, misalign = 16	1754.45	miss
+repe scasd, count = 10000, misalign = 0	5773.11	miss
+rep movsd, count = 1000, misalign = 0	145.45	miss
+rep movsd, count = 1000, misalign = 4	151.63	miss
+repe cmpsw, count = 100, misalign = 0	81.43	miss
+pcmpestri xmm,xmm,0	miss	91.09
+repe cmpsw, count = 100, misalign = 4	81.23	miss
+repe cmpsb, count = 10000, misalign = 4	7432.92	miss
+repe cmpsb, count = 10000, misalign = 0	7414.56	miss
+pcmpistrm xmm0,xmm0,8	36.25	miss
+repe scasw, count = 10000, misalign = 4	5576.48	miss
+repe scasw, count = 10000, misalign = 0	5576.48	miss
+rep stosq, count = 100	56.93	miss
+rep movsq, count = 100, misalign = 4	151.23	miss
+pcmpestri xmm1,xmm1,0 / movd xmm1,ecx	46.51	miss
+rep movsd, count = 10000	1968.36	miss
+pcmpistrm xmm,xmm,0	miss	56.81
+rep movsq, count = 100, misalign = 0	57.19	miss
+rep movsq, count = 1000	278.85	miss
+rep movsd, count = 100, misalign = 16	57.18	miss
+pcmpistri xmm,[mem],0	miss	55.83
+rep movsq, count = 1000, misalign = 4	1532.51	miss
+rep movsd, count = 10000, misalign = 4	1954.57	miss
+rep stosd, count = 1000, misalign = 16	137.53	miss
+rep movsd, count = 10000, misalign = 0	1968.36	miss
+repe scasd, count = 100, misalign = 0	62.87	miss
+repe cmpsb, count = 100, misalign = 4	81.23	miss
+rep stosq, count = 100, misalign = 16	56.93	miss
+repe cmpsb, count = 100, misalign = 0	81.43	miss
+movsd	1.82	miss
+movsb	1.88	miss
+rep movsb, count = 10000	356.05	miss
+repe cmpsw, count = 1000, misalign = 4	749.75	miss
+rep stosq, count = 100, misalign = 4	155.45	miss
+repe cmpsw, count = 1000, misalign = 0	749.75	miss
+rep stosq, count = 100, misalign = 0	56.93	miss
+movsw	1.71	miss
+rep stosq, count = 1000, misalign = 16	266.5	miss
+repe cmpsw, count = 10000, misalign = 0	7432.92	miss
+movsq	1.71	miss
+rep movsq, count = 10000, misalign = 4	14459.1	miss
+rep movsq, count = 10000, misalign = 0	3829.85	miss
+repe scasq, count = 100, misalign = 0	62.87	miss
+rep lodsw, count = 10000	9907.93	miss
+repe scasq, count = 100, misalign = 4	107.67	miss
+rep lodsq, count = 100	105.94	miss
+rep lodsd, count = 100	105.94	miss
+repe scasd, count = 100, misalign = 4	62.87	miss
+rep movsb, count = 100	57.18	miss
+rep stosq, count = 10000	3430.26	miss
+rep movsq, count = 1000, misalign = 16	280.08	miss
+rep stosq, count = 10000, misalign = 4	15023.1	miss
+rep movsw, count = 10000	669.71	miss
+rep stosq, count = 10000, misalign = 0	3422.19	miss
+rep stosd, count = 10000, misalign = 0	1762.61	miss
+rep stosd, count = 10000, misalign = 4	1757.83	miss
+rep stosd, count = 100, misalign = 0	56.93	miss
+rep stosw, count = 100	56.93	miss
+pcmpestri xmm1,xmm1,0xC / movd xmm1,ecx	78.67	miss
+rep stosd, count = 100, misalign = 4	56.93	miss
+rep movsd, count = 100	57.18	miss
+pcmpistrm xmm0,xmm0,0xC	83.25	miss
+rep movsw, count = 1000	92.37	miss
+repe cmpsq, count = 100, misalign = 0	81.46	miss
+repe cmpsq, count = 100, misalign = 4	167.57	miss
+repe cmpsd, count = 100, misalign = 0	81.43	miss
+rep lodsb, count = 10000	9883.45	miss
 pcmpistri xmm,xmm,0	miss	55.83
-repe cmpsq, count = 1000, misalign = 4	1698.82	miss
-repe cmpsq, count = 1000, misalign = 0	750.22	miss
+repe cmpsq, count = 1000, misalign = 4	1670.3	miss
+repe cmpsq, count = 1000, misalign = 0	749.78	miss
 pcmpistri xmm1,xmm1,0xC / movd xmm1,ecx	31.17	miss
-repe scasd, count = 1000, misalign = 4	590.87	miss
-repe cmpsq, count = 10000, misalign = 0	9089.39	miss
-repe cmpsd, count = 10000, misalign = 4	7940.72	miss
-rep movsq, count = 10000, misalign = 16	4556.27	miss
-rep movsd, count = 100, misalign = 4	57.32	miss
-rep movsd, count = 100, misalign = 0	57.32	miss
-rep movsq, count = 1000, misalign = 0	315.15	miss
-pcmpestri xmm1,xmm1,3 / movd xmm1,ecx	36.6	miss
-rep lodsw, count = 1000	997.14	miss
-rep stosq, count = 1000	292.68	miss
-repe scasb, count = 10000, misalign = 4	5950.62	miss
-rep movsq, count = 100, misalign = 16	57.32	miss
-repe scasb, count = 10000, misalign = 0	5691.81	miss
-rep movsq, count = 100	57.31	miss
-rep stosq, count = 10000, misalign = 16	4233.98	miss
-rep movsw, count = 100	57.26	miss
-rep movsd, count = 10000, misalign = 16	2077.42	miss
-cmpsq	7.23	miss
-rep stosd, count = 1000	166.63	miss
-cmpsw	7.15	miss
-pcmpestrm xmm,xmm,0	miss	93.12
-rep lodsq, count = 1000	1138.21	miss
-cmpsb	7.03	miss
-cmpsd	7.41	miss
-repe scasw, count = 1000, misalign = 4	591.46	miss
-repe scasw, count = 1000, misalign = 0	564.3	miss
-stosd	1.85	miss
-repe scasb, count = 100, misalign = 4	62.92	miss
-pcmpistri xmm1,xmm1,3 / movd xmm1,ecx	32.5	miss
-stosb	1.75	miss
-rep lodsd, count = 1000	1011.04	miss
-stosw	1.87	miss
-stosq	1.92	miss
-rep stosd, count = 100	56.95	miss
-repe scasw, count = 100, misalign = 4	62.95	miss
-rep lodsq, count = 10000	10477.05	miss
+repe scasd, count = 1000, misalign = 4	562.71	miss
+repe cmpsq, count = 10000, misalign = 0	8460.1	miss
+repe cmpsd, count = 10000, misalign = 4	7612.9	miss
+rep movsq, count = 10000, misalign = 16	3787.66	miss
+rep movsd, count = 100, misalign = 4	57.18	miss
+rep movsd, count = 100, misalign = 0	57.18	miss
+rep movsq, count = 1000, misalign = 0	278.85	miss
+pcmpestri xmm1,xmm1,3 / movd xmm1,ecx	35.63	miss
+rep lodsw, count = 1000	997.02	miss
+rep stosq, count = 1000	264.28	miss
+repe scasb, count = 10000, misalign = 4	5576.48	miss
+rep movsq, count = 100, misalign = 16	57.19	miss
+repe scasb, count = 10000, misalign = 0	5576.48	miss
+rep movsq, count = 100	57.18	miss
+rep stosq, count = 10000, misalign = 16	3414.91	miss
+rep movsw, count = 100	57.18	miss
+rep movsd, count = 10000, misalign = 16	1952.59	miss
+cmpsq	6.94	miss
+rep stosd, count = 1000	135.56	miss
+cmpsw	6.82	miss
+pcmpestrm xmm,xmm,0	miss	92.07
+rep lodsq, count = 1000	999.61	miss
+cmpsb	6.88	miss
+cmpsd	6.88	miss
+repe scasw, count = 1000, misalign = 4	564.1	miss
+repe scasw, count = 1000, misalign = 0	564.1	miss
+stosd	1.65	miss
+repe scasb, count = 100, misalign = 4	62.87	miss
+pcmpistri xmm1,xmm1,3 / movd xmm1,ecx	31.67	miss
+stosb	1.71	miss
+rep lodsd, count = 1000	997.02	miss
+stosw	1.71	miss
+stosq	1.71	miss
+rep stosd, count = 100	56.93	miss
+repe scasw, count = 100, misalign = 4	62.87	miss
+rep lodsq, count = 10000	9859.86	miss
 pcmpestri xmm1,xmm1,8 / movd xmm1,ecx	18.8	miss
-repe scasw, count = 100, misalign = 0	62.94	miss
-lodsq	1.67	miss
-rep lodsw, count = 100	132.47	miss
-repe cmpsd, count = 10000, misalign = 0	7783.67	miss
-repe cmpsd, count = 100, misalign = 4	81.56	miss
-lodsw	1.35	miss
-rep stosq, count = 1000, misalign = 0	300.3	miss
-pcmpestrm xmm,[mem],0	miss	94.23
-rep stosq, count = 1000, misalign = 4	1660.98	miss
-rep stosd, count = 10000	1844.13	miss
-lodsb	1.29	miss
-lodsd	1.46	miss
-repe scasq, count = 10000, misalign = 0	5904.7	miss
-repe cmpsw, count = 10000, misalign = 4	7886.68	miss
-repe scasq, count = 10000, misalign = 4	10537.99	miss
+repe scasw, count = 100, misalign = 0	62.87	miss
+lodsq	1.24	miss
+rep lodsw, count = 100	105.94	miss
+repe cmpsd, count = 10000, misalign = 0	7640.47	miss
+repe cmpsd, count = 100, misalign = 4	81.43	miss
+lodsw	1.12	miss
+rep stosq, count = 1000, misalign = 0	264.28	miss
+pcmpestrm xmm,[mem],0	miss	92.07
+rep stosq, count = 1000, misalign = 4	1595.07	miss
+rep stosd, count = 10000	1762.61	miss
+lodsb	1.12	miss
+lodsd	1.12	miss
+repe scasq, count = 10000, misalign = 0	5801.05	miss
+repe cmpsw, count = 10000, misalign = 4	7432.92	miss
+repe scasq, count = 10000, misalign = 4	10285.49	miss

@@ -15,7 +15,7 @@ test r32,[m32]	miss	1.2
 cdq	0.98	miss
 Latency with memory operand: not [m32]	4.89	miss
 adc r32, i	0.98	0.98
-add [m64],r64	4.89	1.66
+add [m64],r64	4.89	1.65
 xor r16,r16	0.98	0.5
 test [m64],r64	1.2	1.2
 neg r8high	1.96	0.99
@@ -25,24 +25,24 @@ xor eax,eax / cdqe	miss	0.5
 cld	2.94	miss
 adc r32,r32	0.98	0.98
 Latency with memory operand: cmp [m32], i	1.2	miss
-Throughput with RIP address mode: mov r32, [m32]	miss	1.46
-cmp [m16],r16	4.86	1.2
+Throughput with RIP address mode: mov r32, [m32]	miss	1.24
+cmp [m16],r16	1.2	1.2
 mov r32, i	0.5	0.5
 cmp r8high, i	miss	0.5
 clc	3.03	miss
 or r8, i	0.98	0.57
-popcnt r32,r32	1.96	1.46
+popcnt r32,r32	1.96	0.98
 mov [m32],r32	1.61	1.61
 Instructions with one operand	miss	miss
 dec r8high	0.98	0.57
 cmove r32,r32	0.98	0.98
-inc r8high	1.54	0.57
+inc r8high	0.98	0.57
 popcnt r64,r64	1.96	0.98
 bsr r16,r16	1.96	1.96
 add [m16],r16	4.89	1.8
 xor eax,eax / cwd	miss	0.54
 dec r8	0.98	0.57
-mov r16,r16	0.91	0.5
+mov r16,r16	0.9	0.5
 sub r8,[m8]	miss	1.2
 add r8,r8	0.98	0.5
 not r16	0.98	0.57
@@ -50,7 +50,7 @@ sub r8high, i	miss	0.57
 cmp [m8],r8	1.2	1.2
 add r16, i	0.98	0.57
 sfence	12.07	miss
-or [m64],r64	4.89	1.66
+or [m64],r64	4.89	1.65
 or r16,[m16]	miss	1.2
 neg r32	0.98	0.57
 xor eax,eax / cdq	miss	0.54
@@ -70,7 +70,7 @@ cmc	3.03	miss
 adc r32,[m32]	miss	1.2
 cmp r64, i	0.5	0.5
 Throughput with ABS64 address mode: mov r32, [m32]	miss	1.29
-xor r32,r32	1.46	0.5
+xor r32,r32	0.98	0.5
 adc r16, i	0.98	0.98
 Latency with memory operand: add [m32], i	4.89	miss
 imul r16,r16	1.97	1.13
@@ -82,28 +82,28 @@ sub r64,[m64]	miss	1.2
 neg r8	1.06	0.99
 and r64,r64	0.98	0.5
 bswap r32	0.99	0.99
-and r16,r16	3.72	0.5
+and r16,r16	0.98	0.5
 test [m8],r8	1.2	1.2
 mov r16,[m16]	miss	1.2
 adc [m32], i	miss	1.96
-sub [m64],r64	4.89	1.66
+sub [m64],r64	4.89	1.65
 sbb r32,r32	0.98	0.98
 and [m32], i	miss	1.96
 cmp [m32], i	miss	1.2
 add r32,r32	0.98	0.5
-mov [m32], i	miss	1.63
+mov [m32], i	miss	1.62
 Throughput with ABS32 address mode: mov [m32], r32	miss	1.61
 or [m16],r16	4.89	1.8
-and [m32],r32	4.89	1.78
+and [m32],r32	4.89	1.72
 dec r16	0.98	0.57
 Latency with memory operand: test [m32], i	1.2	miss
 test r64,[m64]	miss	1.2
-xchg [m32],r32	15.74	14.69
+xchg [m32],r32	14.69	14.69
 test r8,r8	0.5	0.5
 sbb r8,[m8]	miss	1.2
-mov r64,r64	0.8	0.5
+mov r64,r64	0.79	0.5
 cmp r8, i	0.5	0.5
-xor [m32],r32	4.89	1.79
+xor [m32],r32	4.89	1.78
 or r8high, i	miss	0.57
 Latency with memory operand: mov [m32], i	1.62	miss
 popcnt r16,r16	1.96	0.98
@@ -113,39 +113,39 @@ xor r8, i	0.98	0.57
 mov r8,r8	0.9	0.5
 imul r64,r64	8.81	1.97
 cwd	0.98	miss
-adc [m64],r64	4.89	1.66
-and r32, i	0.98	1.05
+adc [m64],r64	4.89	1.65
+and r32, i	0.98	0.57
 Throughput with ABS32 address mode: mov r32, [m32]	miss	1.29
 popcnt	miss	1.2
 xor eax,eax / cqo	miss	0.54
-sbb [m32],r32	4.89	1.78
-and [m64],r64	4.89	1.66
+sbb [m32],r32	4.89	1.72
+and [m64],r64	4.89	1.65
 add r64,r64	0.98	0.5
-xchg r64,r64	2.63	1.49
+xchg r64,r64	2.63	1.48
 xor r8,r8	0.98	0.5
 cmp r64,r64	0.5	0.5
 bsr r32,r32	1.96	1.96
 and r16, i	0.98	0.57
-or r64, i	0.98	0.58
+or r64, i	0.98	0.57
 or r32,[m32]	miss	1.2
 xchg r16,[m16]	miss	14.69
-lfence	22.1	miss
+lfence	12.07	miss
 Throughput with INDIR address mode: mov [m32], r32	miss	1.61
 add r32,[m32]	miss	1.2
 add r8,[m8]	miss	1.2
 test r8, i	0.5	0.5
 dec r64	0.98	0.57
-prefetcht2 [m]	miss	1.3
+prefetcht2 [m]	miss	1.29
 xor [m8],r8	4.89	1.96
 sub r8, i	0.98	0.57
 sub r64, i	0.98	0.57
-xor r16, i	0.98	1.06
+xor r16, i	0.98	0.57
 and r8,[m8]	miss	1.2
 Throughput with RIP address mode: mov [m32], r32	miss	1.63
 sete r8 / neg r8	1.49	miss
 add [m8],r8	4.89	1.96
 sbb r8, i	0.98	0.98
-mov r32,r32	0.81	0.5
+mov r32,r32	0.8	0.5
 xor r64, i	0.98	0.57
 or r16,r16	0.98	0.5
 adc r16,[m16]	miss	1.2
@@ -154,7 +154,7 @@ test r64,r64	0.5	0.5
 sub r32, i	0.98	0.57
 sbb r16,[m16]	miss	1.2
 not r64	0.98	0.57
-or [m32],r32	4.89	1.79
+or [m32],r32	4.89	1.78
 xchg r32,[m32]	miss	14.69
 add r64, i	0.98	0.57
 mov [m16],r16	1.61	1.61
@@ -163,7 +163,7 @@ or r32,r32	0.98	0.5
 neg r64	0.98	0.57
 add r64,[m64]	miss	1.2
 or r64,[m64]	miss	1.2
-xchg [m64],r64	14.69	15.69
+xchg [m64],r64	14.69	14.69
 Latency with memory operand: neg [m32]	4.89	miss
 cmp r8,r8	0.5	0.5
 sub [m8],r8	4.89	1.96
@@ -172,7 +172,7 @@ cqo	0.98	miss
 sbb r16, i	0.98	0.98
 and r8high, i	miss	0.57
 test r64, i	0.5	0.5
-xor [m64],r64	4.89	1.66
+xor [m64],r64	4.89	1.65
 xor [m16],r16	4.89	1.8
 xchg r16,r16	2.63	1.85
 xor r64,[m64]	miss	1.2
@@ -182,19 +182,19 @@ and [m16],r16	4.89	1.8
 cmp r32, i	0.5	0.5
 Latency with memory operand: or [m32], i	4.89	miss
 add r8, i	0.98	0.57
-sbb [m8],r8	4.89	3.01
-prefetchw [m]	miss	1.75
+sbb [m8],r8	4.89	1.96
+prefetchw [m]	miss	1.29
 add r32, i	0.98	0.57
 sub r64,r64	0.98	0.5
 bsf	miss	1.96
-adc [m32],r32	4.89	1.78
+adc [m32],r32	4.89	1.72
 sete r8	miss	0.98
 or r32, i	0.98	0.57
 sbb [m16],r16	4.89	1.8
 sbb r32, i	0.98	0.98
 xor r32,[m32]	miss	1.2
 sub r16,r16	0.98	0.5
-sub [m32],r32	4.89	1.79
+sub [m32],r32	4.89	1.78
 or [m32], i	miss	1.96
 not r8	0.98	0.57
 inc r32	0.98	0.57
@@ -203,7 +203,7 @@ std	2.94	miss
 adc [m16],r16	4.89	1.8
 test r16, i	2.21	2.26
 sub r16, i	0.98	0.57
-mfence	12.78	miss
+mfence	12.07	miss
 cmp r32,[m32]	miss	1.2
 stc	3.03	miss
 or r16, i	0.98	0.57
@@ -214,8 +214,8 @@ adc r64,r64	0.98	0.98
 Latency with memory operand: xor [m32], i	4.89	miss
 bsf r64,r64	1.96	1.96
 or [m8],r8	4.89	1.96
-prefetchnta [m]	miss	1.3
-xor [m32], i	miss	2.53
+prefetchnta [m]	miss	1.29
+xor [m32], i	miss	1.96
 mov r8high, i	miss	0.56
 or r8,r8	0.98	0.5
 sub [m16],r16	4.89	1.8
@@ -229,14 +229,14 @@ sete r8h	miss	0.98
 cbw	0.98	miss
 sub r8,r8	0.98	0.5
 mov r64, i	0.5	0.5
-prefetcht0 [m]	miss	1.3
+prefetcht0 [m]	miss	1.29
 mov r64,[m64]	miss	1.3
 bsf r32,r32	1.96	1.96
-xchg r64,[m64]	miss	25.38
+xchg r64,[m64]	miss	14.68
 cmp r16, i	0.5	0.5
 cdqe	0.98	miss
 and r32,r32	0.98	0.5
-add [m32],r32	4.89	1.79
+add [m32],r32	4.89	1.78
 and r64,[m64]	miss	1.2
 Instructions with one operand and an immediate operand	miss	miss
 cmp r16,[m16]	miss	1.2
@@ -250,7 +250,7 @@ inc r8	0.98	0.57
 xor r32, i	0.98	0.57
 not [m32]	miss	1.96
 sbb r8high, i	miss	0.98
-mov r32,[m32]	miss	1.3
+mov r32,[m32]	miss	1.29
 test r8,[m8]	miss	1.2
 sbb r32,[m32]	miss	1.2
 inc r16	0.98	0.57
@@ -258,7 +258,7 @@ adc r64, i	0.98	0.98
 bswap r64	0.99	0.99
 sbb [m32], i	miss	1.96
 not r32	0.98	0.57
-xchg r8,r8	2.23	2.51
+xchg r8,r8	2.22	2.5
 or r64,r64	0.98	0.5
 sete, [m8]	miss	1.62
 Latency with memory operand: sbb [m32], i	4.89	miss
@@ -273,7 +273,7 @@ xor eax,eax / cbw	miss	0.5
 dec [m32]	miss	1.96
 mov r8,[m8]	miss	1.2
 cwde	0.98	miss
-sbb r16,r16	0.98	2.78
+sbb r16,r16	0.98	0.98
 cmp [m64],r64	1.2	1.2
 test r16,[m16]	miss	1.2
 sub r32,[m32]	miss	1.2
@@ -286,10 +286,10 @@ test r32, i	0.5	0.5
 Latency with memory operand: dec [m32]	5.87	miss
 cmp [m32],r32	1.2	1.2
 adc r8,[m8]	miss	1.2
-sbb [m64],r64	4.89	1.66
+sbb [m64],r64	4.89	1.65
 adc r64,[m64]	miss	1.2
 add r8high, i	miss	0.57
 test [m32], i	miss	1.2
 sub r32,r32	0.98	0.5
 inc [m32]	miss	1.96
-prefetcht1 [m]	miss	1.3
+prefetcht1 [m]	miss	1.29

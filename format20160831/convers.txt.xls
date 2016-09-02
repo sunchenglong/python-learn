@@ -1,14 +1,14 @@
 Instruct 	 Operators 	 Latency 	 Throughput 	 RawCommand 
-cvtpi2ps	xmm, mmx / cvtps2pi mmx, xmm / POR mmx,mmx	4.06	miss	cvtpi2ps xmm, mmx / cvtps2pi mmx, xmm / POR mmx,mmx
-vmovntdqa	ymm,m	miss	2.64	vmovntdqa ymm,m
+cvtpi2ps	xmm, mmx / cvtps2pi mmx, xmm / POR mmx,mmx	3.87	miss	cvtpi2ps xmm, mmx / cvtps2pi mmx, xmm / POR mmx,mmx
+vmovntdqa	ymm,m	miss	2.63	vmovntdqa ymm,m
 cvtsi2sd	xmm, r64 / cvtsd2si r64, xmm	6.93	miss	cvtsi2sd xmm, r64 / cvtsd2si r64, xmm
-movd	xmm,m32	miss	1.32	movd xmm,m32
+movd	xmm,m32	miss	1.31	movd xmm,m32
 movq	xmm,r64	miss	1.0	movq xmm,r64
 cvtsi2ss	xmm,r32	miss	1.49	cvtsi2ss xmm,r32
-movntpd	m128, xmm / movaps xmm, m128	150.43	miss	movntpd m128, xmm / movaps xmm, m128
-vcvtpd2ps	xmm, ymm / vcvtps2pd ymm, xmm	7.96	miss	vcvtpd2ps xmm, ymm / vcvtps2pd ymm, xmm
+movntpd	m128, xmm / movaps xmm, m128	142.92	miss	movntpd m128, xmm / movaps xmm, m128
+vcvtpd2ps	xmm, ymm / vcvtps2pd ymm, xmm	7.43	miss	vcvtpd2ps xmm, ymm / vcvtps2pd ymm, xmm
 mov	r8, m8	miss	1.21	mov r8, m8
-movdqa	m128, xmm	miss	1.87	movdqa m128, xmm
+movdqa	m128, xmm	miss	1.62	movdqa m128, xmm
 movq2dq	xmm, mmx	miss	0.99	movq2dq xmm, mmx
 cvtsd2si	r64, xmm / cvtsi2sd xmm, r64 / MAXPD xmm,xmm	8.61	miss	cvtsd2si r64, xmm / cvtsi2sd xmm, r64 / MAXPD xmm,xmm
 vmovntps	m,ymm	miss	2.91	vmovntps m,ymm
@@ -16,15 +16,15 @@ pextrb	m8,xmm,1	miss	1.64	pextrb m8,xmm,1
 cvtsd2ss	xmm,xmm	2.97	1.49	cvtsd2ss xmm,xmm
 movlps	m64,xmm	miss	1.62	movlps m64,xmm
 vcvtps2pd	ymm, xmm	miss	7.92	vcvtps2pd ymm, xmm
-movups	m128,xmm	miss	2.16	movups m128,xmm
-movd	xmm, m32 / movd m32, xmm	2.48	miss	movd xmm, m32 / movd m32, xmm
-movntdqa	xmm, m / movdqa m, xmm	2.48	miss	movntdqa xmm, m / movdqa m, xmm
+movups	m128,xmm	miss	1.62	movups m128,xmm
+movd	xmm, m32 / movd m32, xmm	2.47	miss	movd xmm, m32 / movd m32, xmm
+movntdqa	xmm, m / movdqa m, xmm	2.47	miss	movntdqa xmm, m / movdqa m, xmm
 cvtpd2ps	xmm,[m128]	miss	1.41	cvtpd2ps xmm,[m128]
 mov	r8h, m8	miss	1.21	mov r8h, m8
 cvtss2si	r64, xmm	miss	0.99	cvtss2si r64, xmm
 cvtps2pi	mmx, xmm	miss	0.99	cvtps2pi mmx, xmm
 cvtdq2ps	xmm,xmm	2.97	0.99	cvtdq2ps xmm,xmm
-movd	mmx, r32 / movd r32, mmx	8.43	miss	movd mmx, r32 / movd r32, mmx
+movd	mmx, r32 / movd r32, mmx	3.96	miss	movd mmx, r32 / movd r32, mmx
 mov	m32,r32	miss	1.62	mov m32,r32
 mov	m64,r64	miss	1.62	mov m64,r64
 pextrq	r64, xmm,1 / movq xmm, r64	3.96	miss	pextrq r64, xmm,1 / movq xmm, r64
@@ -33,14 +33,14 @@ mov	r8h,r8	miss	0.88	mov r8h,r8
 cvtsi2sd	xmm,r64	miss	1.98	cvtsi2sd xmm,r64
 mov	r8h,r8h	0.92	0.88	mov r8h,r8h
 movhps	m64,xmm	miss	1.65	movhps m64,xmm
-vmovapd	ymm, m256 / vmovapd m256, ymm	3.5	miss	vmovapd ymm, m256 / vmovapd m256, ymm
-movntdqa	xmm,m	miss	1.32	movntdqa xmm,m
-movsd	m64, xmm / movsd xmm, m64	2.48	miss	movsd m64, xmm / movsd xmm, m64
+vmovapd	ymm, m256 / vmovapd m256, ymm	2.97	miss	vmovapd ymm, m256 / vmovapd m256, ymm
+movntdqa	xmm,m	miss	1.31	movntdqa xmm,m
+movsd	m64, xmm / movsd xmm, m64	2.47	miss	movsd m64, xmm / movsd xmm, m64
 movntps	m128,xmm	miss	1.47	movntps m128,xmm
 mov	m16,r16	miss	1.62	mov m16,r16
 vcvtpd2dq	xmm, ymm	miss	6.93	vcvtpd2dq xmm, ymm
-cvtps2pi	mmx, xmm / cvtpi2ps xmm, mmx / POR xmm,xmm	3.79	miss	cvtps2pi mmx, xmm / cvtpi2ps xmm, mmx / POR xmm,xmm
-cvtpd2dq	xmm,[m128]	miss	1.42	cvtpd2dq xmm,[m128]
+cvtps2pi	mmx, xmm / cvtpi2ps xmm, mmx / POR xmm,xmm	3.43	miss	cvtps2pi mmx, xmm / cvtpi2ps xmm, mmx / POR xmm,xmm
+cvtpd2dq	xmm,[m128]	miss	1.41	cvtpd2dq xmm,[m128]
 cvtpi2pd	xmm, mmx / cvtpd2pi mmx, xmm / POR mmx,mmx	3.86	miss	cvtpi2pd xmm, mmx / cvtpd2pi mmx, xmm / POR mmx,mmx
 cvtpi2pd	xmm,[m]	miss	1.57	cvtpi2pd xmm,[m]
 pextrw	r32,xmm,1	miss	0.99	pextrw r32,xmm,1
@@ -50,7 +50,7 @@ vmovntdqa	ymm, m / vmovdqa m, ymm	2.97	miss	vmovntdqa ymm, m / vmovdqa m, ymm
 cvtsd2si	r32, xmm	miss	0.99	cvtsd2si r32, xmm
 cvtss2sd	xmm, xmm	2.97	1.49	cvtss2sd xmm, xmm
 movq	r64, xmm	miss	0.99	movq r64, xmm
-mov	m16, r16 / mov r16, m16	3.28	miss	mov m16, r16 / mov r16, m16
+mov	m16, r16 / mov r16, m16	2.97	miss	mov m16, r16 / mov r16, m16
 vmovdqa	m, ymm	miss	3.23	vmovdqa m, ymm
 cvtsd2si	r64,[m64]	miss	1.26	cvtsd2si r64,[m64]
 mov	m8, r8h / mov r8h, m8	2.97	miss	mov m8, r8h / mov r8h, m8
@@ -61,65 +61,65 @@ movd	xmm, r32	miss	1.0	movd xmm, r32
 pinsrq	xmm,r64,1	miss	1.0	pinsrq xmm,r64,1
 movdqa	m128, xmm / movdqa xmm, m128	2.47	miss	movdqa m128, xmm / movdqa xmm, m128
 movq	mmx, r64 / movq r64, mmx	3.96	miss	movq mmx, r64 / movq r64, mmx
-vmovntpd	m256, ymm / vmovaps ymm, m256	149.09	miss	vmovntpd m256, ymm / vmovaps ymm, m256
-movsd	xmm,xmm	1.4	1.09	movsd xmm,xmm
-vmovaps	ymm, m256	miss	2.64	vmovaps ymm, m256
+vmovntpd	m256, ymm / vmovaps ymm, m256	145.65	miss	vmovntpd m256, ymm / vmovaps ymm, m256
+movsd	xmm,xmm	1.16	1.09	movsd xmm,xmm
+vmovaps	ymm, m256	miss	2.63	vmovaps ymm, m256
 cvtdq2ps	xmm, xmm / cvtps2dq xmm, xmm	2.97	miss	cvtdq2ps xmm, xmm / cvtps2dq xmm, xmm
-cvtpi2pd	xmm, mmx / cvtpd2pi mmx, xmm	5.37	miss	cvtpi2pd xmm, mmx / cvtpd2pi mmx, xmm
-movapd	m128, xmm / movapd xmm, m128	2.48	miss	movapd m128, xmm / movapd xmm, m128
+cvtpi2pd	xmm, mmx / cvtpd2pi mmx, xmm	4.84	miss	cvtpi2pd xmm, mmx / cvtpd2pi mmx, xmm
+movapd	m128, xmm / movapd xmm, m128	2.47	miss	movapd m128, xmm / movapd xmm, m128
 movss	xmm, xmm	1.16	1.09	movss xmm, xmm
 pextrw	r32,mmx,1	miss	0.99	pextrw r32,mmx,1
-cvtpd2dq	xmm, xmm	6.02	2.02	cvtpd2dq xmm, xmm
+cvtpd2dq	xmm, xmm	5.74	1.48	cvtpd2dq xmm, xmm
 movlhps	xmm,xmm	1.16	1.08	movlhps xmm,xmm
-movapd	xmm, m128	miss	1.32	movapd xmm, m128
+movapd	xmm, m128	miss	1.31	movapd xmm, m128
 cvtps2pi	mmx,[m]	miss	1.26	cvtps2pi mmx,[m]
 pinsrw	xmm,r32,1	miss	1.0	pinsrw xmm,r32,1
 pinsrw	xmm, r32,1 / movd r32, xmm	4.45	miss	pinsrw xmm, r32,1 / movd r32, xmm
 cvtsd2si	r64, xmm / cvtsi2sd xmm, r64 / POR xmm,xmm	8.61	miss	cvtsd2si r64, xmm / cvtsi2sd xmm, r64 / POR xmm,xmm
 cvtsd2ss	xmm, xmm / cvtss2sd xmm, xmm / MAXPD xmm,xmm	2.98	miss	cvtsd2ss xmm, xmm / cvtss2sd xmm, xmm / MAXPD xmm,xmm
-mov	m8, r8 / mov r8, m8	3.5	miss	mov m8, r8 / mov r8, m8
+mov	m8, r8 / mov r8, m8	2.97	miss	mov m8, r8 / mov r8, m8
 vmovntpd	m256,ymm	miss	2.91	vmovntpd m256,ymm
 vcvtps2ph	xmm, xmm / vcvtph2ps xmm, xmm / VPOR xmm,xmm	2.98	miss	vcvtps2ph xmm, xmm / vcvtph2ps xmm, xmm / VPOR xmm,xmm
-movdqu	xmm, m128	miss	1.32	movdqu xmm, m128
-cvtpi2ps	xmm, mmx / cvtps2pi mmx, xmm	4.98	miss	cvtpi2ps xmm, mmx / cvtps2pi mmx, xmm
+movdqu	xmm, m128	miss	1.31	movdqu xmm, m128
+cvtpi2ps	xmm, mmx / cvtps2pi mmx, xmm	4.45	miss	cvtpi2ps xmm, mmx / cvtps2pi mmx, xmm
 vcvtps2dq	ymm, ymm	5.46	2.18	vcvtps2dq ymm, ymm
-movq	xmm, m64	miss	1.32	movq xmm, m64
+movq	xmm, m64	miss	1.31	movq xmm, m64
 pinsrb	xmm,r32,1	miss	1.0	pinsrb xmm,r32,1
 vcvtph2ps	ymm, xmm	miss	8.91	vcvtph2ps ymm, xmm
 cvtsi2sd	xmm, r64 / cvtsd2si r64, xmm / OR r64,r64	4.97	miss	cvtsi2sd xmm, r64 / cvtsd2si r64, xmm / OR r64,r64
 vcvtpd2ps	xmm,ymm	miss	6.93	vcvtpd2ps xmm,ymm
-vmovaps	m256, ymm / vmovaps ymm, m256	3.66	miss	vmovaps m256, ymm / vmovaps ymm, m256
+vmovaps	m256, ymm / vmovaps ymm, m256	2.97	miss	vmovaps m256, ymm / vmovaps ymm, m256
 cvtsi2sd	xmm,r32	miss	1.49	cvtsi2sd xmm,r32
 movdqa	xmm, xmm / movdqa xmm, xmm / POR xmm,xmm	0.99	miss	movdqa xmm, xmm / movdqa xmm, xmm / POR xmm,xmm
-movd	m32, xmm	miss	1.87	movd m32, xmm
+movd	m32, xmm	miss	1.62	movd m32, xmm
 movaps	xmm, xmm / movaps xmm, xmm / POR xmm,xmm	2.09	miss	movaps xmm, xmm / movaps xmm, xmm / POR xmm,xmm
 mov	r8h, m8 / mov m8, r8h	2.97	miss	mov r8h, m8 / mov m8, r8h
 pmovmskb	r32,xmm	miss	0.99	pmovmskb r32,xmm
 cvtsi2ss	xmm, r64 / cvtss2si r64, xmm	6.93	miss	cvtsi2ss xmm, r64 / cvtss2si r64, xmm
 cvtss2si	r32,[m32]	miss	1.26	cvtss2si r32,[m32]
 mov	r8h,m8	miss	1.21	mov r8h,m8
-vmovdqa	ymm, m	miss	2.64	vmovdqa ymm, m
-vcvtdq2ps	ymm,[m256]	miss	2.59	vcvtdq2ps ymm,[m256]
-movaps	xmm, m128	miss	1.32	movaps xmm, m128
-vcvtph2ps	xmm, xmm	3.22	1.0	vcvtph2ps xmm, xmm
-pinsrw	xmm,m16,1	miss	1.54	pinsrw xmm,m16,1
+vmovdqa	ymm, m	miss	2.63	vmovdqa ymm, m
+vcvtdq2ps	ymm,[m256]	miss	2.58	vcvtdq2ps ymm,[m256]
+movaps	xmm, m128	miss	1.31	movaps xmm, m128
+vcvtph2ps	xmm, xmm	2.97	0.99	vcvtph2ps xmm, xmm
+pinsrw	xmm,m16,1	miss	1.26	pinsrw xmm,m16,1
 vmovaps	m256,ymm	miss	3.23	vmovaps m256,ymm
 pinsrd	xmm, r32,1 / movd r32, xmm	4.45	miss	pinsrd xmm, r32,1 / movd r32, xmm
 movntpd	m128,xmm	miss	1.47	movntpd m128,xmm
-vcvtdq2ps	ymm,ymm	5.46	2.47	vcvtdq2ps ymm,ymm
+vcvtdq2ps	ymm,ymm	5.46	2.18	vcvtdq2ps ymm,ymm
 pextrw	m16,xmm,1	miss	1.64	pextrw m16,xmm,1
 movmskps	r32, xmm / movd xmm, r32	3.96	miss	movmskps r32, xmm / movd xmm, r32
 cvtsd2si	r64, xmm	miss	0.99	cvtsd2si r64, xmm
 movq	m64, xmm / movq xmm, m64	2.47	miss	movq m64, xmm / movq xmm, m64
-movq	mmx, m64	miss	1.32	movq mmx, m64
-pextrd	r32,xmm,1	miss	1.54	pextrd r32,xmm,1
+movq	mmx, m64	miss	1.31	movq mmx, m64
+pextrd	r32,xmm,1	miss	0.99	pextrd r32,xmm,1
 movdqa	m, xmm	miss	1.62	movdqa m, xmm
 cvtsi2sd	xmm, r32 / cvtsd2si r32, xmm / OR r32,r32	3.97	miss	cvtsi2sd xmm, r32 / cvtsd2si r32, xmm / OR r32,r32
 movq	m64,mmx	miss	1.62	movq m64,mmx
 pextrq	m64,xmm,1	miss	1.64	pextrq m64,xmm,1
 vcvtpd2ps	xmm,[m256]	miss	7.92	vcvtpd2ps xmm,[m256]
 cvtpd2pi	mmx, xmm	miss	1.48	cvtpd2pi mmx, xmm
-movlpd	m, xmm / movlpd xmm, m	4.5	miss	movlpd m, xmm / movlpd xmm, m
+movlpd	m, xmm / movlpd xmm, m	3.96	miss	movlpd m, xmm / movlpd xmm, m
 vmovaps	ymm, ymm / vmovaps ymm, ymm / VPOR ymm,ymm	2.32	miss	vmovaps ymm, ymm / vmovaps ymm, ymm / VPOR ymm,ymm
 vmovapd	m256, ymm	miss	3.23	vmovapd m256, ymm
 movmskpd	r32,xmm	miss	0.99	movmskpd r32,xmm
@@ -132,17 +132,17 @@ vcvtdq2pd	ymm,[m128]	miss	21.41	vcvtdq2pd ymm,[m128]
 movlhps	xmm, xmm	1.16	1.08	movlhps xmm, xmm
 vcvtps2ph	xmm, ymm,0 / vcvtph2ps ymm, xmm	6.42	miss	vcvtps2ph xmm, ymm,0 / vcvtph2ps ymm, xmm
 movdq2q	mmx, xmm / movq2dq xmm, mmx	0.99	miss	movdq2q mmx, xmm / movq2dq xmm, mmx
-mov	m8,r8h	miss	2.15	mov m8,r8h
+mov	m8,r8h	miss	1.62	mov m8,r8h
 pinsrd	xmm,m32,1	miss	1.26	pinsrd xmm,m32,1
 cvtsd2si	r32, xmm / cvtsi2sd xmm, r32 / POR xmm,xmm	4.63	miss	cvtsd2si r32, xmm / cvtsi2sd xmm, r32 / POR xmm,xmm
 movd	mmx,r32	miss	1.0	movd mmx,r32
 cvtsd2si	r32,[m64]	miss	1.26	cvtsd2si r32,[m64]
 vmovdqa	ymm, ymm / vmovdqa ymm, ymm / VPOR ymm,ymm	1.99	miss	vmovdqa ymm, ymm / vmovdqa ymm, ymm / VPOR ymm,ymm
-vcvtdq2ps	ymm, ymm / vcvtps2dq ymm, ymm	6.01	miss	vcvtdq2ps ymm, ymm / vcvtps2dq ymm, ymm
+vcvtdq2ps	ymm, ymm / vcvtps2dq ymm, ymm	5.46	miss	vcvtdq2ps ymm, ymm / vcvtps2dq ymm, ymm
 movq	m64,xmm	miss	1.62	movq m64,xmm
 vcvtps2pd	ymm,[m128]	miss	7.92	vcvtps2pd ymm,[m128]
 vcvtpd2dq	xmm,[m256]	miss	7.92	vcvtpd2dq xmm,[m256]
-vmovupd	ymm, m256	miss	3.17	vmovupd ymm, m256
+vmovupd	ymm, m256	miss	2.63	vmovupd ymm, m256
 cvtdq2pd	xmm, xmm / cvtpd2dq xmm, xmm / MAXPD xmm,xmm	4.96	miss	cvtdq2pd xmm, xmm / cvtpd2dq xmm, xmm / MAXPD xmm,xmm
 movaps	m128, xmm / movups xmm, m128	2.47	miss	movaps m128, xmm / movups xmm, m128
 movd	r32, xmm	miss	0.99	movd r32, xmm
@@ -158,53 +158,53 @@ cvtpd2ps	xmm,xmm	5.74	1.48	cvtpd2ps xmm,xmm
 movss	m32,xmm	miss	1.62	movss m32,xmm
 movdqu	m128,xmm	miss	1.62	movdqu m128,xmm
 movsd	xmm, xmm / movsd xmm, xmm	1.16	miss	movsd xmm, xmm / movsd xmm, xmm
-vcvtps2dq	ymm,[m256]	miss	2.59	vcvtps2dq ymm,[m256]
+vcvtps2dq	ymm,[m256]	miss	2.58	vcvtps2dq ymm,[m256]
 movq	r64, mmx	miss	0.99	movq r64, mmx
-cvtdq2pd	xmm, xmm / cvtpd2dq xmm, xmm / POR xmm,xmm	4.75	miss	cvtdq2pd xmm, xmm / cvtpd2dq xmm, xmm / POR xmm,xmm
-movlps	xmm, m64	miss	1.85	movlps xmm, m64
+cvtdq2pd	xmm, xmm / cvtpd2dq xmm, xmm / POR xmm,xmm	3.86	miss	cvtdq2pd xmm, xmm / cvtpd2dq xmm, xmm / POR xmm,xmm
+movlps	xmm, m64	miss	1.26	movlps xmm, m64
 vcvtps2ph	m64,xmm,0	miss	1.98	vcvtps2ph m64,xmm,0
 movhps	m64, xmm / movhps xmm, m64	4.58	miss	movhps m64, xmm / movhps xmm, m64
 cvtsi2ss	xmm,r64	miss	1.98	cvtsi2ss xmm,r64
-mov	r64, m64	miss	1.32	mov r64, m64
+mov	r64, m64	miss	1.31	mov r64, m64
 movaps	xmm, xmm / movaps xmm, xmm / MAXPS xmm,xmm	2.18	miss	movaps xmm, xmm / movaps xmm, xmm / MAXPS xmm,xmm
 movdqa	m128,xmm	miss	1.62	movdqa m128,xmm
-movdqa	xmm, m128	miss	1.32	movdqa xmm, m128
-movq	xmm, m64 / movq m64, xmm	2.48	miss	movq xmm, m64 / movq m64, xmm
+movdqa	xmm, m128	miss	1.31	movdqa xmm, m128
+movq	xmm, m64 / movq m64, xmm	2.47	miss	movq xmm, m64 / movq m64, xmm
 movss	xmm,xmm	1.16	1.09	movss xmm,xmm
-lddqu	xmm,m128	miss	1.32	lddqu xmm,m128
-cvtpi2pd	xmm,mmx	miss	4.1	cvtpi2pd xmm,mmx
-vcvtph2ps	ymm,m128	miss	9.16	vcvtph2ps ymm,m128
+lddqu	xmm,m128	miss	1.31	lddqu xmm,m128
+cvtpi2pd	xmm,mmx	miss	0.99	cvtpi2pd xmm,mmx
+vcvtph2ps	ymm,m128	miss	8.91	vcvtph2ps ymm,m128
 movd	xmm,r32	miss	1.0	movd xmm,r32
 mov	r16, m16	miss	1.21	mov r16, m16
 movapd	m128,xmm	miss	1.62	movapd m128,xmm
 cvtps2dq	xmm,[m]	miss	1.26	cvtps2dq xmm,[m]
-movss	xmm, m32	miss	1.32	movss xmm, m32
-cvtsd2si	r32, xmm / cvtsi2sd xmm, r32 / MAXPD xmm,xmm	5.0	miss	cvtsd2si r32, xmm / cvtsi2sd xmm, r32 / MAXPD xmm,xmm
+movss	xmm, m32	miss	1.31	movss xmm, m32
+cvtsd2si	r32, xmm / cvtsi2sd xmm, r32 / MAXPD xmm,xmm	4.63	miss	cvtsd2si r32, xmm / cvtsi2sd xmm, r32 / MAXPD xmm,xmm
 mov	r8h, r8 / mov r8, r8h	0.99	miss	mov r8h, r8 / mov r8, r8h
 vcvtps2ph	xmm, xmm / vcvtph2ps xmm, xmm / VMAXPS xmm,xmm	2.98	miss	vcvtps2ph xmm, xmm / vcvtph2ps xmm, xmm / VMAXPS xmm,xmm
 mov	m8,r8	miss	1.62	mov m8,r8
-cvtsd2ss	xmm, xmm / cvtss2sd xmm, xmm / POR xmm,xmm	3.15	miss	cvtsd2ss xmm, xmm / cvtss2sd xmm, xmm / POR xmm,xmm
+cvtsd2ss	xmm, xmm / cvtss2sd xmm, xmm / POR xmm,xmm	2.98	miss	cvtsd2ss xmm, xmm / cvtss2sd xmm, xmm / POR xmm,xmm
 cvtsi2sd	xmm, r32 / cvtsd2si r32, xmm	5.44	miss	cvtsi2sd xmm, r32 / cvtsd2si r32, xmm
 pextrd	m32,xmm,1	miss	1.64	pextrd m32,xmm,1
 cvtps2pd	xmm,[m64]	miss	1.33	cvtps2pd xmm,[m64]
 pinsrd	xmm,r32,1	miss	1.0	pinsrd xmm,r32,1
-lddqu	xmm, m128 / movdqa m128, xmm	2.48	miss	lddqu xmm, m128 / movdqa m128, xmm
-mov	m8, r8h	miss	3.75	mov m8, r8h
+lddqu	xmm, m128 / movdqa m128, xmm	2.47	miss	lddqu xmm, m128 / movdqa m128, xmm
+mov	m8, r8h	miss	1.62	mov m8, r8h
 vmovntdq	m,ymm	miss	2.91	vmovntdq m,ymm
 cvtsd2ss	xmm, xmm / cvtss2sd xmm, xmm	2.97	miss	cvtsd2ss xmm, xmm / cvtss2sd xmm, xmm
-vmovntps	m, ymm / vmovaps ymm, m	183.17	miss	vmovntps m, ymm / vmovaps ymm, m
+vmovntps	m, ymm / vmovaps ymm, m	145.64	miss	vmovntps m, ymm / vmovaps ymm, m
 vcvtdq2pd	ymm, xmm / vcvtpd2dq xmm, ymm	7.43	miss	vcvtdq2pd ymm, xmm / vcvtpd2dq xmm, ymm
 movd	r32, mmx	miss	0.99	movd r32, mmx
 pinsrq	xmm,m64,1	miss	1.26	pinsrq xmm,m64,1
 cvtdq2pd	xmm,xmm	5.74	0.99	cvtdq2pd xmm,xmm
 cvtss2sd	xmm,m32	miss	1.49	cvtss2sd xmm,m32
-movntq	m64, mmx / movq mmx, m64	143.39	miss	movntq m64, mmx / movq mmx, m64
+movntq	m64, mmx / movq mmx, m64	140.34	miss	movntq m64, mmx / movq mmx, m64
 movaps	m128, xmm / movaps xmm, m128	2.47	miss	movaps m128, xmm / movaps xmm, m128
 movq	m64, mmx / movq mmx, m64	2.47	miss	movq m64, mmx / movq mmx, m64
 movmskps	r32,xmm	miss	0.99	movmskps r32,xmm
 mov	r8h, r8h / mov r8h, r8h	0.92	miss	mov r8h, r8h / mov r8h, r8h
 cvtps2pd	xmm, xmm	5.74	0.99	cvtps2pd xmm, xmm
-movlhps	xmm, xmm / movlhps xmm, xmm	1.73	miss	movlhps xmm, xmm / movlhps xmm, xmm
+movlhps	xmm, xmm / movlhps xmm, xmm	1.16	miss	movlhps xmm, xmm / movlhps xmm, xmm
 cvtdq2ps	xmm,[m]	miss	1.26	cvtdq2ps xmm,[m]
 cvtdq2pd	xmm,[m64]	miss	1.57	cvtdq2pd xmm,[m64]
 cvtsd2ss	xmm,m64	miss	1.49	cvtsd2ss xmm,m64
@@ -217,16 +217,16 @@ pextrb	r32, xmm,1 / movd xmm, r32	3.96	miss	pextrb r32, xmm,1 / movd xmm, r32
 pmovmskb	r32, xmm / movd xmm, r32	3.96	miss	pmovmskb r32, xmm / movd xmm, r32
 movdqu	m128, xmm / movdqu xmm, m128	2.47	miss	movdqu m128, xmm / movdqu xmm, m128
 movq	m64, xmm	miss	1.62	movq m64, xmm
-cvtps2dq	xmm, xmm	3.5	0.99	cvtps2dq xmm, xmm
-vmovdqa	ymm, ymm / vmovdqa ymm, ymm / VMAXPS ymm,ymm	3.67	miss	vmovdqa ymm, ymm / vmovdqa ymm, ymm / VMAXPS ymm,ymm
-movnti	m32,r32	miss	1.48	movnti m32,r32
-cvtpd2pi	mmx,[m]	miss	1.42	cvtpd2pi mmx,[m]
-movmskpd	r32, xmm / movd xmm, r32	4.32	miss	movmskpd r32, xmm / movd xmm, r32
-vmovapd	ymm,m256	miss	2.64	vmovapd ymm,m256
-pextrw	r32, xmm,1 / movd xmm, r32	4.41	miss	pextrw r32, xmm,1 / movd xmm, r32
+cvtps2dq	xmm, xmm	2.97	0.99	cvtps2dq xmm, xmm
+vmovdqa	ymm, ymm / vmovdqa ymm, ymm / VMAXPS ymm,ymm	3.3	miss	vmovdqa ymm, ymm / vmovdqa ymm, ymm / VMAXPS ymm,ymm
+movnti	m32,r32	miss	1.47	movnti m32,r32
+cvtpd2pi	mmx,[m]	miss	1.41	cvtpd2pi mmx,[m]
+movmskpd	r32, xmm / movd xmm, r32	3.96	miss	movmskpd r32, xmm / movd xmm, r32
+vmovapd	ymm,m256	miss	2.63	vmovapd ymm,m256
+pextrw	r32, xmm,1 / movd xmm, r32	3.96	miss	pextrw r32, xmm,1 / movd xmm, r32
 movd	mmx, r32	miss	1.0	movd mmx, r32
-movnti	m32, r32 / mov r32, m32	143.95	miss	movnti m32, r32 / mov r32, m32
-movups	xmm, m128	miss	1.32	movups xmm, m128
+movnti	m32, r32 / mov r32, m32	140.34	miss	movnti m32, r32 / mov r32, m32
+movups	xmm, m128	miss	1.31	movups xmm, m128
 cvtdq2pd	xmm, xmm / cvtpd2dq xmm, xmm	4.84	miss	cvtdq2pd xmm, xmm / cvtpd2dq xmm, xmm
 cvtss2si	r32, xmm	miss	0.99	cvtss2si r32, xmm
 pinsrq	xmm, r64,1 / movq r64, xmm	4.45	miss	pinsrq xmm, r64,1 / movq r64, xmm
@@ -243,27 +243,27 @@ movd	xmm, r32 / movd r32, xmm	3.96	miss	movd xmm, r32 / movd r32, xmm
 cvtpi2ps	xmm,mmx	miss	1.48	cvtpi2ps xmm,mmx
 movss	m32, xmm / movss xmm, m32	2.47	miss	movss m32, xmm / movss xmm, m32
 mov	r8, r8h	miss	0.88	mov r8, r8h
-movq	xmm,m64	miss	1.32	movq xmm,m64
+movq	xmm,m64	miss	1.31	movq xmm,m64
 cvtsi2sd	xmm,[m32]	miss	1.49	cvtsi2sd xmm,[m32]
-vmovntdq	m, ymm / vmovdqa ymm, m	148.66	miss	vmovntdq m, ymm / vmovdqa ymm, m
+vmovntdq	m, ymm / vmovdqa ymm, m	145.65	miss	vmovntdq m, ymm / vmovdqa ymm, m
 movdq2q	mmx,xmm	miss	0.99	movdq2q mmx,xmm
-movntdq	m128, xmm / movdqa xmm, m128	146.8	miss	movntdq m128, xmm / movdqa xmm, m128
+movntdq	m128, xmm / movdqa xmm, m128	142.92	miss	movntdq m128, xmm / movdqa xmm, m128
 movlpd	m,xmm	miss	1.62	movlpd m,xmm
 vcvtph2ps	xmm,m64	miss	1.28	vcvtph2ps xmm,m64
 movntq	m64,mmx	miss	1.47	movntq m64,mmx
-mov	m64, r64 / mov r64, m64	2.76	miss	mov m64, r64 / mov r64, m64
+mov	m64, r64 / mov r64, m64	2.47	miss	mov m64, r64 / mov r64, m64
 pextrq	r64,xmm,1	miss	0.99	pextrq r64,xmm,1
-mov	r32, m32	miss	1.32	mov r32, m32
+mov	r32, m32	miss	1.31	mov r32, m32
 vcvtdq2pd	ymm,xmm	miss	7.92	vcvtdq2pd ymm,xmm
-movntdq	m128,xmm	miss	1.47	movntdq m128,xmm
-movq	xmm, r64 / movq r64, xmm	4.5	miss	movq xmm, r64 / movq r64, xmm
+movntdq	m128,xmm	miss	1.46	movntdq m128,xmm
+movq	xmm, r64 / movq r64, xmm	3.96	miss	movq xmm, r64 / movq r64, xmm
 cvtdq2ps	xmm, xmm / cvtps2dq xmm, xmm / MAXPS xmm,xmm	2.98	miss	cvtdq2ps xmm, xmm / cvtps2dq xmm, xmm / MAXPS xmm,xmm
 mov	m32, r32 / mov r32, m32	2.47	miss	mov m32, r32 / mov r32, m32
-vmovaps	ymm, m	miss	2.64	vmovaps ymm, m
+vmovaps	ymm, m	miss	2.63	vmovaps ymm, m
 vmovupd	m256, ymm / vmovupd ymm, m256	2.97	miss	vmovupd m256, ymm / vmovupd ymm, m256
 cvtpd2pi	mmx, xmm / cvtpi2pd xmm, mmx / POR xmm,xmm	4.22	miss	cvtpd2pi mmx, xmm / cvtpi2pd xmm, mmx / POR xmm,xmm
 cvtpd2pi	mmx, xmm / cvtpi2pd xmm, mmx / MAXPD xmm,xmm	4.31	miss	cvtpd2pi mmx, xmm / cvtpi2pd xmm, mmx / MAXPD xmm,xmm
 cvtsi2ss	xmm, r32 / cvtss2si r32, xmm	5.44	miss	cvtsi2ss xmm, r32 / cvtss2si r32, xmm
-movntps	m128, xmm / movaps xmm, m128	151.81	miss	movntps m128, xmm / movaps xmm, m128
-movsd	xmm, m64	miss	1.32	movsd xmm, m64
+movntps	m128, xmm / movaps xmm, m128	142.93	miss	movntps m128, xmm / movaps xmm, m128
+movsd	xmm, m64	miss	1.31	movsd xmm, m64
 pextrw	r32, mmx,1 / movd mmx, r32	3.96	miss	pextrw r32, mmx,1 / movd mmx, r32
