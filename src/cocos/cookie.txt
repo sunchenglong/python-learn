@@ -1,0 +1,9 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+www.cosos.cn	FALSE	/	FALSE	1476545991	ljN2_2132_lastact	1476459464%09forum.php%09
+www.cosos.cn	FALSE	/	FALSE	1479051591	ljN2_2132_lastvisit	1476455864
+www.cosos.cn	FALSE	/	FALSE	1476459890	ljN2_2132_onlineusernum	10
+www.cosos.cn	FALSE	/	FALSE	1479051591	ljN2_2132_saltkey	x6PpP8e2
+www.cosos.cn	FALSE	/	FALSE	1476545990	ljN2_2132_sid	rp33qK
