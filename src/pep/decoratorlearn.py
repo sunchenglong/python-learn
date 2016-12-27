@@ -57,22 +57,23 @@ myfunc2(1, 2)
 myfunc2('abc', 'def')
 
 
-def deco(func):
+def deco1(func):
     def _deco(*args, **kwargs):
         print " before %s called" % func.__name__
         ret = func(*args, **kwargs)
-        print " after %s called, result is %s" % func.__name__, str(ret)
+        print " after %s called, result is" % func.__name__, ret
         return ret
+
     return _deco
 
 
-@deco
+@deco1
 def myfunc3(a, b):
     print "myfunc3() called"
     return a + b
 
 
-@deco
+@deco1
 def myfunc4(a, b, c):
     print "myfunc4() called"
     return a + b + c
@@ -80,4 +81,7 @@ def myfunc4(a, b, c):
 
 myfunc3(1, 3)
 myfunc4('ab', 'cd', '###')
+y = [1, 2, 3]
+print [[_] for _ in y]
+
 

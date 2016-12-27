@@ -125,3 +125,32 @@ print a.reshape(1, 12)
 print a
 print a.reshape(2, -1)
 
+c = np.array([[[0, 1, 2], [10, 12, 13]], [[100, 101, 102], [110, 112, 113]]])
+print c.shape
+
+print c[1, ...]
+print c[1, :, :]
+
+print c[..., 2]
+
+a = np.floor(10 * np.random.random((2, 2)))
+print a
+b = np.floor(10 * np.random.random((2, 2)))
+print b
+vs = np.vstack((a, b))
+print vs.shape
+print vs
+hs = np.hstack((a, b))
+print hs.shape
+print hs
+
+cs = np.column_stack((a, b))
+print cs.shape
+print cs
+print cs[1, :]
+print cs[:, 1]
+from numpy import newaxis
+
+print cs[:,newaxis]
+
+print np.r_[1:4,0,4]
