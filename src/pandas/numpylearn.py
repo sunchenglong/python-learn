@@ -151,6 +151,52 @@ print cs[1, :]
 print cs[:, 1]
 from numpy import newaxis
 
-print cs[:,newaxis]
+print cs[:, newaxis]
 
-print np.r_[1:4,0,4]
+print np.r_[1:4, 0, 4]
+
+
+def f(x):
+    print(id(x))
+
+
+a = np.arange(12)
+
+print id(a)
+f(a)
+
+c = a.view()
+print c
+print c is a
+print c.base is a
+print a.base is a
+
+a = np.arange(12) ** 2
+print a
+i = np.array([1, 1, 3, 8, 5])
+print a[i]
+
+j = np.array([[3, 4], [9, 7]])
+print a[j]
+
+palette = np.array([[0, 0, 0],
+                    [255, 0, 0],
+                    [0, 255, 0],
+                    [0, 0, 255],
+                    [255, 255, 255]])
+image = np.array([[0, 1, 2, 0],
+                  [0, 3, 4, 0]])
+print palette[image]
+
+a = np.arange(12).reshape(3, 4)
+print a
+
+i = np.array([[0, 1],
+              [1, 2]])
+j = np.array([[2, 1],
+              [3, 3]])
+print a[i, j]
+
+print a[i, 2]
+
+print a[:, j]
