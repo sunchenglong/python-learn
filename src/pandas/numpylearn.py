@@ -216,3 +216,34 @@ print time_max
 data_max = data[ind, xrange(data.shape[1])]
 print data_max
 
+import matplotlib.pyplot as plt
+
+
+def mandelbrot(h, w, maxit=20):
+    y, x = np.ogrid[-1.4:1.4:h * 1j, -2:0.8:w * 1j]
+    c = x + y * 1j
+    z = c
+    divtime = maxit + np.zeros(z.shape, dtype=int)
+
+    for i in range(maxit):
+        z = z ** 2 + c
+        diverage = z * np.conj(z) > 2 ** 2
+        div_now = diverage & (divtime == maxit)
+        divtime[div_now] = i
+        z[diverage] = 2
+
+    return divtime
+
+
+plt.imshow(mandelbrot(800, 800))
+plt.show()
+print mandelbrot(800, 800)
+
+mu, sigma = 2, 0.5
+v = np.random.normal(mu, sigma, 10000)
+plt.hist(v, bins=50, normed=1)
+plt.show()
+
+(n, bins) = np.histogram(v, bins=50, normed=True)
+plt.plot(.5 * (bins[1:] + bins[:-1]), n)
+plt.show()
