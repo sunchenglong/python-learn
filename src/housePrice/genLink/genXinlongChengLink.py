@@ -38,11 +38,10 @@ lc = ['lc1','lc2','lc3','lc4','lc5','lc6']
 f = ['f1','f2','f3','f4','f5','f6']
 #page pg 1-100
 
-
 def genUrl():
     for i in range(100):
         if i > 0:
-            url  = "http://bj.lianjia.com/chengjiao/pg"+ str(i) +"rs%E6%96%B0%E9%BE%99%E5%9F%8E/"
+            url  = "http://bj.lianjia.com/chengjiao/pg"+ str(i) +"rs%E8%A5%BF%E5%9F%8E/"
             if containList(url):
                 writeLink(url)
 
