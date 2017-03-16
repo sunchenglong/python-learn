@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="echarts.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
 </head>
 <body>
 <div id="main" style="width: 1200px;height:500px;"></div>
@@ -15,10 +16,7 @@
     var myChart = echarts.init(document.getElementById('main'));
     myChart.setOption(option);
 </script>
-<script type="text/javascript">
-    // 数据意义：开盘(open)，收盘(close)，最低(lowest)，最高(highest)
-    var myChart = echarts.init(document.getElementById('main2'));
-    myChart.setOption(option);
-</script>
+</div>
+
 </body>
 </html>
