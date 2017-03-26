@@ -5,13 +5,13 @@ import pandas as pd
 import numpy as np
 
 import MySQLdb
-window = 5
+window = 30
 db = MySQLdb.connect("localhost", "root", "root", "house")
 db.set_character_set('utf8')
 cursor = db.cursor()
 fig, ax = plt.subplots()
 SQL = "select dealDate, region, avg(totalPrice), avg(totalPrice/square) from ods_house_new  \
-      where (region = 'BJXC' or region = 'BJCP' ) AND dealDate > '2012.01.01' \
+      where (region = 'BJXC' or region = 'BJCP' or region = 'BJFT') AND dealDate > '2012.01.01' \
       group by dealDate, region"
 cursor.execute(SQL)
 rows = cursor.fetchall()
@@ -20,14 +20,15 @@ df.rename(columns={0: 'date', 1: 'region', 2: 'price', 3: 'pricePerA'}, inplace=
 #df.plot()
 groups = df.groupby('region')
 for name, group in groups:
-    if name =='BJXC':
-        ax.plot(np.array(pd.to_datetime(group.date)), np.array(pd.rolling_mean(group.pricePerA,window)), 'k.', label="xicheng", color= 'blue')
+    if name =='BJFT':
+        #ax.plot(np.array(pd.to_datetime(group.date)), np.array(pd.rolling_mean(group.pricePerA,window)), 'k.', label="fengtai", color= 'blue')
         pass
     else:
         pass
         #ax.plot(np.array(pd.to_datetime(group.date)), np.array(pd.rolling_mean(group.pricePerA,window)), 'k.', label="changping", color= 'blue')
-SQL = "select dealDate,area as region, avg(totalPrice), avg(totalPrice/square) from ods_house_new where (area like '%荣丰%' or area like '%望陶园小区%') AND dealDate > '2012.01.01' AND room < 20  group by dealDate, area"
+SQL = "select dealDate,area as region, avg(totalPrice), avg(totalPrice/square) from ods_house_new where (area like '%银地%' or area like '%南庭%' ) AND dealDate > '2012.01.01' group by dealDate, area"
 print SQL
+#or area like '%天伦%'
 cursor.execute(SQL)
 rows = cursor.fetchall()
 
