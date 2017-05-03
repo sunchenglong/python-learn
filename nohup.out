@@ -1,0 +1,7 @@
+Using default tag: latest
+latest: Pulling from tensorflow/tensorflow
+d54efb8db41d: Already exists
+f8b845f45a87: Already exists
+e8db7bf7c39f: Already exists
+9654c40e9079: Pulling fs layer
+9654c40e9079: Waiting
